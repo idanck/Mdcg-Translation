@@ -1,0 +1,636 @@
+{
+  "id": "MDCG-2021-3",
+  "title": {
+    "en": "MDCG 2021-3 — Questions and Answers on Custom-Made Devices & considerations on Adaptable medical devices and Patient-matched medical devices",
+    "he": "MDCG 2021-3 — שאלות ותשובות על מכשירים מותאמים אישית ושיקולים בנוגע למכשירים רפואיים ברי-התאמה ומכשירים רפואיים מותאמים-מטופל"
+  },
+  "category": "Custom-Made Devices",
+  "publicationDate": "2021-03",
+  "source": {
+    "url": "https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en",
+    "file": "original/mdcg_2021-3_en.pdf"
+  },
+  "language": "he",
+  "direction": "rtl",
+  "translationStatus": "review",
+  "glossaryVersion": "2026-06",
+  "blocks": [
+    {
+      "id": "disclaimer-1",
+      "type": "paragraph",
+      "en": "This document has been endorsed by the Medical Device Coordination Group (MDCG) established by Article 103 of Regulation (EU) 2017/745. The MDCG is composed of representatives of all Member States and it is chaired by a representative of the European Commission.",
+      "he": "מסמך זה אושר על ידי קבוצת תיאום המכשירים הרפואיים (MDCG) שהוקמה מכוח סעיף 103 לתקנה (האיחוד האירופי) 2017/745. ה-MDCG מורכבת מנציגים של כל המדינות החברות ובראשה עומד נציג של הנציבות האירופית."
+    },
+    {
+      "id": "disclaimer-2",
+      "type": "paragraph",
+      "en": "The document is not a European Commission document and it cannot be regarded as reflecting the official position of the European Commission. Any views expressed in this document are not legally binding and only the Court of Justice of the European Union can give binding interpretations of Union law.",
+      "he": "המסמך אינו מסמך של הנציבות האירופית ואין לראות בו כמשקף את העמדה הרשמית של הנציבות האירופית. כל דעה המובעת במסמך זה אינה מחייבת מבחינה משפטית, ורק בית הדין לצדק של האיחוד האירופי מוסמך לתת פרשנות מחייבת לדין האיחוד."
+    },
+
+    {
+      "id": "intro",
+      "type": "heading",
+      "level": 1,
+      "en": "Introduction",
+      "he": "מבוא"
+    },
+    {
+      "id": "intro-p1",
+      "type": "paragraph",
+      "en": "This Q&A is a high-level document aimed at addressing the most pertinent questions relating to custom-made devices falling under Regulation (EU) 2017/745 on medical devices (MDR). Further guidance on this subject may be elaborated by the MDCG, as appropriate.",
+      "he": "מסמך שאלות ותשובות זה הוא מסמך ברמה כללית שנועד להתייחס לשאלות הרלוונטיות ביותר הנוגעות למכשירים מותאמים אישית (CMD) הנכללים בתקנה (האיחוד האירופי) 2017/745 בנושא מכשירים רפואיים (MDR). הנחיות נוספות בנושא זה עשויות להיות מפותחות על ידי ה-MDCG, ככל שיידרש."
+    },
+    {
+      "id": "intro-p2",
+      "type": "paragraph",
+      "en": "In accordance with Recital 5 of the MDR, certain references to International Medical Device Regulatory Forum (IMDRF) guidance documents and terminology included therein have been taken into account under this Q&A. Specifically, the MDR regulatory status of adaptable medical devices and patient-matched medical devices (introduced by IMDRF PMD WG/N49 FINAL: 2018) is clarified in this Q&A.",
+      "he": "בהתאם לפסקת מבוא 5 ל-MDR, נלקחו בחשבון במסגרת מסמך שאלות ותשובות זה הפניות מסוימות למסמכי ההנחיה של הפורום הבין-לאומי לרגולציה של מכשירים רפואיים (IMDRF) ולמינוח הכלול בהם. באופן ספציפי, מסמך שאלות ותשובות זה מבהיר את המעמד הרגולטורי לפי ה-MDR של מכשירים רפואיים ברי-התאמה ומכשירים רפואיים מותאמים-מטופל (שהוצגו ב-IMDRF PMD WG/N49 FINAL: 2018)."
+    },
+
+    {
+      "id": "q1",
+      "type": "heading",
+      "level": 1,
+      "number": "1",
+      "en": "What is a custom-made device (CMD)?",
+      "he": "מהו מכשיר מותאם אישית (CMD)?"
+    },
+    {
+      "id": "q1-p1",
+      "type": "paragraph",
+      "en": "MDR Article 2(3) defines a 'custom-made device' as any device that:",
+      "he": "סעיף 2(3) ל-MDR מגדיר \"מכשיר מותאם אישית\" ככל מכשיר אשר:"
+    },
+    {
+      "id": "q1-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "en": "is specifically made in accordance with a written prescription of any person authorised by national law by virtue of that person's professional qualifications; which gives",
+          "he": "מיוצר באופן ספציפי בהתאם למרשם בכתב של כל אדם המורשה על פי הדין הלאומי מתוקף הכשירות המקצועית שלו; אשר נותן"
+        },
+        {
+          "en": "specific design characteristics provided under that person's responsibility; and",
+          "he": "מאפייני עיצוב ספציפיים המסופקים תחת אחריותו של אותו אדם; וכן"
+        },
+        {
+          "en": "is intended for the sole use of a particular patient exclusively to meet their individual conditions and needs.",
+          "he": "מיועד לשימוש בלעדי של מטופל מסוים אך ורק כדי לענות על מצביו וצרכיו האישיים."
+        }
+      ]
+    },
+    {
+      "id": "q1-p2",
+      "type": "paragraph",
+      "en": "Examples of CMDs include:",
+      "he": "דוגמאות למכשירים מותאמים אישית כוללות:"
+    },
+    {
+      "id": "q1-list2",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "en": "A dental crown manufactured according to a written prescription provided by a dentist containing specific design characteristics for a particular patient's individual condition.",
+          "he": "כתר שיניים המיוצר על פי מרשם בכתב שמספק רופא שיניים, הכולל מאפייני עיצוב ספציפיים למצבו האישי של מטופל מסוים."
+        },
+        {
+          "en": "An orthosis made in accordance with a written prescription containing specific design characteristic to aid a person with neuromuscular or musculoskeletal impairment of the lower extremity, such as a Knee Ankle Foot Orthosis (KAFO).",
+          "he": "אורתוזה המיוצרת בהתאם למרשם בכתב הכולל מאפיין עיצוב ספציפי לסייע לאדם עם לקות נוירומוסקולרית או שלד-שרירית של הגף התחתון, כגון אורתוזה לברך-קרסול-כף-רגל (KAFO)."
+        },
+        {
+          "en": "Hand prosthesis intended to replace a lost body part and/or function made in accordance with a written prescription, where the practionner provides patient specific design characteristics necessary for the manufacturing of the device.",
+          "he": "תותבת יד המיועדת להחליף חלק גוף ו/או תפקוד אבוד, המיוצרת בהתאם למרשם בכתב, שבו הרופא מספק מאפייני עיצוב ספציפיים למטופל הנחוצים לייצור המכשיר."
+        }
+      ]
+    },
+    {
+      "id": "q1-p3",
+      "type": "paragraph",
+      "en": "Devices which are not considered CMDs may include:",
+      "he": "מכשירים שאינם נחשבים למכשירים מותאמים אישית עשויים לכלול:"
+    },
+    {
+      "id": "q1-list3",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "en": "(a) Devices that are mass-produced which need to be adapted to meet the specific requirements of any professional user, hereafter referred to as adaptable medical devices.",
+          "he": "(א) מכשירים המיוצרים בייצור המוני אשר נדרשים להתאמה כדי לענות על הדרישות הספציפיות של כל משתמש מקצועי, להלן מכשירים רפואיים ברי-התאמה."
+        },
+        {
+          "en": "(b) Devices that are mass-produced by means of industrial manufacturing processes, potentially made in accordance with the written prescriptions of an authorised person.",
+          "he": "(ב) מכשירים המיוצרים בייצור המוני באמצעות תהליכי ייצור תעשייתיים, שאפשר ויוצרו בהתאם למרשמים בכתב של אדם מורשה."
+        }
+      ]
+    },
+    {
+      "id": "fn-1",
+      "type": "note",
+      "marker": "1",
+      "en": "An Adaptable medical device is defined in IMDRF PMD WG/N49 FINAL: 2018 as a mass-produced medical device that must be adapted or assembled at the point of care, in accordance with the manufacturer's validated instructions, to suit an individual patient's specific anatomo-physiologic features prior to use.",
+      "he": "מכשיר רפואי בר-התאמה מוגדר ב-IMDRF PMD WG/N49 FINAL: 2018 כמכשיר רפואי המיוצר בייצור המוני אשר חייב להיות מותאם או מורכב בנקודת הטיפול, בהתאם להוראות המתוקפות של היצרן, כדי להתאים למאפיינים האנטומיים-פיזיולוגיים הספציפיים של מטופל בודד לפני השימוש."
+    },
+
+    {
+      "id": "q1-note1",
+      "type": "paragraph",
+      "en": "Note 1: Adaptable medical devices (products which fall under (a) above) are mass-produced medical devices which must be adapted, adjusted, assembled or shaped at the point of care, traditionally by a healthcare professional, in accordance with the manufacturer's validated instructions to suit an individual patient's specific anatomo-physiologic features prior to use.",
+      "he": "הערה 1: מכשירים רפואיים ברי-התאמה (מוצרים הנכללים בסעיף (א) לעיל) הם מכשירים רפואיים המיוצרים בייצור המוני אשר חייבים להיות מותאמים, מכווננים, מורכבים או מעוצבים בנקודת הטיפול, באופן מסורתי על ידי איש מקצוע הבריאות, בהתאם להוראות המתוקפות של היצרן כדי להתאים למאפיינים האנטומיים-פיזיולוגיים הספציפיים של מטופל בודד לפני השימוש."
+    },
+    {
+      "id": "q1-p4",
+      "type": "paragraph",
+      "en": "Examples of mass produced adaptable medical devices may include:",
+      "he": "דוגמאות למכשירים רפואיים ברי-התאמה המיוצרים בייצור המוני עשויות לכלול:"
+    },
+    {
+      "id": "q1-list4",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "en": "certain spectacle frames and optical glasses (assembled together to form spectacles).",
+          "he": "מסגרות משקפיים ועדשות אופטיות מסוימות (המורכבות יחד ליצירת משקפיים)."
+        },
+        { "en": "patient fitted wheelchairs.", "he": "כיסאות גלגלים המותאמים למטופל." },
+        { "en": "hearing aids (otoplastic and amplifier).", "he": "מכשירי שמיעה (אוטופלסטיקה ומגבר)." },
+        { "en": "orthotic braces.", "he": "סדים אורתוטיים." },
+        { "en": "exo-prosthetics.", "he": "תותבות חיצוניות (אקסו-פרוסתטיות)." }
+      ]
+    },
+    {
+      "id": "q1-p5",
+      "type": "paragraph",
+      "en": "According to MDR art. 16(1), a person (e.g. healthcare professional) who adapts, adjusts, assembles or shapes an adaptable medical device for a particular patient is not regarded as a manufacturer, as long as the adaptation, adjustment, assembly and shaping does not modify the device in such a way that compliance with the applicable requirements may be affected or changes the intended purpose.",
+      "he": "על פי סעיף 16(1) ל-MDR, אדם (למשל איש מקצוע הבריאות) המתאים, מכוונן, מרכיב או מעצב מכשיר רפואי בר-התאמה למטופל מסוים אינו נחשב ליצרן, כל עוד ההתאמה, הכוונון, ההרכבה והעיצוב אינם משנים את המכשיר באופן שעלול להשפיע על העמידה בדרישות החלות, או משנים את המטרה המיועדת."
+    },
+    {
+      "id": "fn-2",
+      "type": "note",
+      "marker": "2",
+      "en": "A mass-produced medical device is defined in IMDRF PMD WG/N49 FINAL: 2018 as a medical device that is based on standardised dimensions/designs; that is not designed for a particular individual; and that is typically produced in a continuous production run or homogenous batch.",
+      "he": "מכשיר רפואי המיוצר בייצור המוני מוגדר ב-IMDRF PMD WG/N49 FINAL: 2018 כמכשיר רפואי המבוסס על ממדים/עיצובים מתוקננים; שאינו מתוכנן עבור פרט מסוים; ואשר מיוצר בדרך כלל בריצת ייצור רציפה או באצווה הומוגנית."
+    },
+    {
+      "id": "fn-3",
+      "type": "note",
+      "marker": "3",
+      "en": "These instructions are those deemed necessary for the adaptation of the device and should not be confused with instructions for use referred to in Annex I Chapter III 23.1d of Regulation (EU) 2017/745 on medical devices.",
+      "he": "הוראות אלה הן ההוראות הנחשבות נחוצות להתאמת המכשיר, ואין לבלבל אותן עם הוראות השימוש הנזכרות בנספח Annex I פרק III 23.1d לתקנה (האיחוד האירופי) 2017/745 בנושא מכשירים רפואיים."
+    },
+    {
+      "id": "q1-note2",
+      "type": "paragraph",
+      "en": "Note 2: Patient-matched medical devices, as defined by IMDRF, are devices which may fall under point (b) above. A patient-matched device is defined as a medical device that meets the following requirements:",
+      "he": "הערה 2: מכשירים רפואיים מותאמים-מטופל, כפי שמוגדרים על ידי IMDRF, הם מכשירים שעשויים להיכלל בסעיף (ב) לעיל. מכשיר מותאם-מטופל מוגדר כמכשיר רפואי העומד בדרישות הבאות:"
+    },
+    {
+      "id": "q1-list5",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "en": "it is matched to a patient's anatomy within a specified design envelope using techniques such as scaling of the device based on anatomic references, or by using the full anatomic features from patient imaging; and",
+          "he": "הוא מותאם לאנטומיה של המטופל בתוך מעטפת עיצוב מוגדרת באמצעות טכניקות כגון שינוי קנה המידה של המכשיר על בסיס נקודות ייחוס אנטומיות, או באמצעות שימוש במלוא המאפיינים האנטומיים מהדמיית המטופל; וכן"
+        },
+        {
+          "en": "it is typically produced in a batch through a process that is capable of being validated and reproduced; and",
+          "he": "הוא מיוצר בדרך כלל באצווה באמצעות תהליך הניתן לתיקוף ולשחזור; וכן"
+        },
+        {
+          "en": "it is designed and produced under the responsibility of a manufacturer even though the design may be developed in consultation with an authorized healthcare professional.",
+          "he": "הוא מעוצב ומיוצר תחת אחריותו של יצרן, אף שהעיצוב עשוי להתפתח בהתייעצות עם איש מקצוע בריאות מורשה."
+        }
+      ]
+    },
+    {
+      "id": "q1-p6",
+      "type": "paragraph",
+      "en": "Different from a custom-made device, these devices are typically produced in batches or through mass production and do not require a written prescription by an authorised person (see Q6 for more information on written prescriptions).",
+      "he": "בשונה ממכשיר מותאם אישית, מכשירים אלה מיוצרים בדרך כלל באצוות או באמצעות ייצור המוני ואינם דורשים מרשם בכתב של אדם מורשה (ראה שאלה 6 למידע נוסף על מרשמים בכתב)."
+    },
+    {
+      "id": "q1-p7",
+      "type": "paragraph",
+      "en": "In particular, a patient-matched medical device is held under the sole accountability of the manufacturer who is entirely responsible for the design, safety, performance and overall compliance of the device.",
+      "he": "באופן ספציפי, מכשיר רפואי מותאם-מטופל נתון לאחריותו הבלעדית של היצרן, האחראי באופן מלא לעיצוב, לבטיחות, לביצועים ולעמידה הכוללת בדרישות של המכשיר."
+    },
+    {
+      "id": "fn-4",
+      "type": "note",
+      "marker": "4",
+      "en": "Please note that components of a system or procedure pack, which can be assembled at the point of care are not subject of this Q&A.",
+      "he": "יש לשים לב כי רכיבים של מערכת או של ערכת הליך, אשר ניתן להרכיבם בנקודת הטיפול, אינם נושא מסמך שאלות ותשובות זה."
+    },
+    {
+      "id": "fn-5",
+      "type": "note",
+      "marker": "5",
+      "en": "IMDRF PMD WG/N49 FINAL: 2018",
+      "he": "IMDRF PMD WG/N49 FINAL: 2018"
+    },
+    {
+      "id": "q1-p8",
+      "type": "paragraph",
+      "en": "It must be underlined that products which are adaptable medical devices or patient-matched medical devices (as defined by IMDRF) are not qualified as CMDs and must follow the 'standard' MDR regulatory pathway for placing on the market.",
+      "he": "יש להדגיש כי מוצרים שהם מכשירים רפואיים ברי-התאמה או מכשירים רפואיים מותאמים-מטופל (כפי שמוגדרים על ידי IMDRF) אינם מסווגים כמכשירים מותאמים אישית, ועליהם לעקוב אחר המסלול הרגולטורי \"הסטנדרטי\" של ה-MDR להצבה בשוק."
+    },
+    {
+      "id": "q1-p9",
+      "type": "paragraph",
+      "en": "Examples of patient-matched devices:",
+      "he": "דוגמאות למכשירים מותאמים-מטופל:"
+    },
+    {
+      "id": "q1-list6",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "en": "Plates used to fix a broken bone, which are made by 3D printing, based on a template model and DICOM files/ images of the patient. The plates are printed within the validated dimensional ranges allowed by the specified design envelope under the sole responsibility of the manufacturer.",
+          "he": "פלטות המשמשות לקיבוע עצם שבורה, המיוצרות בהדפסת תלת-ממד, על בסיס מודל תבנית וקבצי DICOM/תמונות של המטופל. הפלטות מודפסות בתוך טווחי הממדים המתוקפים המותרים על ידי מעטפת העיצוב המוגדרת, תחת אחריותו הבלעדית של היצרן."
+        },
+        {
+          "en": "Cutting guides used in procedures such as knee arthroplasties, or guides used for pedicle screw placement, that are made by 3D printing based on MR or CT data to match a specific patient.",
+          "he": "מובילי חיתוך המשמשים בהליכים כגון החלפת מפרק ברך, או מובילים המשמשים למיקום ברגי פדיקל, המיוצרים בהדפסת תלת-ממד על בסיס נתוני MR או CT כדי להתאים למטופל מסוים."
+        },
+        {
+          "en": "Mandibular implants produced by a 3D printing manufacturer, from a template model and DICOM files.",
+          "he": "שתלי לסת תחתונה המיוצרים על ידי יצרן הדפסת תלת-ממד, ממודל תבנית וקבצי DICOM."
+        },
+        {
+          "en": "Made to order contact lenses which are produced on request typically in batches with validated or verified production processes using standardised tools and materials and within clearly specified dimensions. No specific or individual design process necessary.",
+          "he": "עדשות מגע המיוצרות לפי הזמנה, המיוצרות לפי בקשה בדרך כלל באצוות עם תהליכי ייצור מתוקפים או מאומתים תוך שימוש בכלים וחומרים מתוקננים ובתוך ממדים מוגדרים בבירור. אין צורך בתהליך עיצוב ספציפי או פרטני."
+        },
+        {
+          "en": "An externally worn orthosis to support, prevent or assist body functions, based on external 3D scan images and or measures, by a manufacturer who produces this under his sole responsibility, within validated parameters.",
+          "he": "אורתוזה הנלבשת חיצונית לתמיכה, מניעה או סיוע בתפקודי הגוף, על בסיס תמונות סריקת תלת-ממד חיצוניות ו/או מדידות, על ידי יצרן המייצר אותה תחת אחריותו הבלעדית, בתוך פרמטרים מתוקפים."
+        }
+      ]
+    },
+
+    {
+      "id": "q2",
+      "type": "heading",
+      "level": 1,
+      "number": "2",
+      "en": "Can parts, components or materials specifically intended to be used in a custom-made device, adaptable medical device or patient-matched medical device be placed on the market as medical devices according to the MDR?",
+      "he": "האם חלקים, רכיבים או חומרים המיועדים באופן ספציפי לשימוש במכשיר מותאם אישית, במכשיר רפואי בר-התאמה או במכשיר רפואי מותאם-מטופל יכולים להיות מוצבים בשוק כמכשירים רפואיים על פי ה-MDR?"
+    },
+    {
+      "id": "q2-p1",
+      "type": "paragraph",
+      "en": "In accordance with Article 2(1) MDR, the intended purpose of a medical device can be achieved either alone or in combination with other devices or products. Certain parts, components or materials may carry a medical intended purpose and can thus fulfil the definition of a medical device. By analogy, parts, components or materials of custom-made devices, adaptable medical devices or patient-matched medical devices may be CE-marked medical devices.",
+      "he": "בהתאם לסעיף 2(1) ל-MDR, המטרה המיועדת של מכשיר רפואי יכולה להיות מושגת לבדה או בשילוב עם מכשירים או מוצרים אחרים. חלקים, רכיבים או חומרים מסוימים עשויים לשאת מטרה רפואית מיועדת ובכך לקיים את הגדרת המכשיר הרפואי. בדרך ההיקש, חלקים, רכיבים או חומרים של מכשירים מותאמים אישית, מכשירים רפואיים ברי-התאמה או מכשירים רפואיים מותאמים-מטופל עשויים להיות מכשירים רפואיים בעלי סימון CE."
+    },
+    {
+      "id": "q2-p2",
+      "type": "paragraph",
+      "en": "Accordingly, it is possible for \"intermediate products\" which are specifically intended for the manufacture of CMDs, adaptable medical devices or patient-matched medical devices to be also placed on the market as medical devices, as these products are specifically intended to become a part or component of a final CMD, adaptable medical device (finally adapted) or patient-matched medical device. Instructions for use provided by the manufacturer of these CE marked devices should be followed when performing further preparatory processing, preparation, configuration, installation, assembly, adaptation or fitting in order to meet the needs of the user or patient prior to their use.",
+      "he": "בהתאם לכך, ניתן ש\"מוצרי ביניים\" המיועדים באופן ספציפי לייצור מכשירים מותאמים אישית, מכשירים רפואיים ברי-התאמה או מכשירים רפואיים מותאמים-מטופל יוצבו אף הם בשוק כמכשירים רפואיים, מאחר שמוצרים אלה מיועדים באופן ספציפי להפוך לחלק או לרכיב של מכשיר מותאם אישית סופי, מכשיר רפואי בר-התאמה (לאחר ההתאמה הסופית) או מכשיר רפואי מותאם-מטופל. יש לפעול על פי הוראות השימוש שמספק היצרן של מכשירים אלה בעלי סימון CE בעת ביצוע עיבוד הכנה נוסף, הכנה, תצורה, התקנה, הרכבה, התאמה או הולמה כדי לענות על צורכי המשתמש או המטופל לפני השימוש בהם."
+    },
+    {
+      "id": "fn-6",
+      "type": "note",
+      "marker": "6",
+      "en": "This essentially applies to dental ceramics and modular components for prosthesis, if these intermediate products are specifically intended to be used for the manufacture of CMDs, adaptable medical devices or patient-matched medical devices.",
+      "he": "הדבר חל בעיקרו על קרמיקה דנטלית ועל רכיבים מודולריים לתותבות, אם מוצרי ביניים אלה מיועדים באופן ספציפי לשימוש בייצור מכשירים מותאמים אישית, מכשירים רפואיים ברי-התאמה או מכשירים רפואיים מותאמים-מטופל."
+    },
+
+    {
+      "id": "q3",
+      "type": "heading",
+      "level": 1,
+      "number": "3",
+      "en": "Are there specific considerations/requirements which must be taken into account by manufacturers of devices referred to in Question 2?",
+      "he": "האם קיימים שיקולים/דרישות ספציפיים שעל יצרני המכשירים הנזכרים בשאלה 2 לקחת בחשבון?"
+    },
+    {
+      "id": "q3-p1",
+      "type": "paragraph",
+      "en": "Manufacturers of devices referenced in question 2 shall fulfil all relevant and applicable requirements of the MDR. To determine the risk classes of those products, it is necessary to consider:",
+      "he": "יצרני המכשירים הנזכרים בשאלה 2 חייבים לקיים את כל הדרישות הרלוונטיות והחלות של ה-MDR. כדי לקבוע את מחלקות הסיכון של מוצרים אלה, יש לשקול את:"
+    },
+    {
+      "id": "q3-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "en": "the intended medical purpose of the final CMD, adaptable medical device or patient-matched medical device;",
+          "he": "המטרה הרפואית המיועדת של המכשיר המותאם אישית הסופי, המכשיר הרפואי בר-ההתאמה או המכשיר הרפואי המותאם-מטופל;"
+        },
+        {
+          "en": "whether it is an implantable medical device (i.e. whether the part, component or material is intended to be used in the manufacturing of an implantable CMD, adaptable medical device or patient-matched medical device);",
+          "he": "האם מדובר במכשיר רפואי מושתל (כלומר, האם החלק, הרכיב או החומר מיועד לשימוש בייצור מכשיר מותאם אישית מושתל, מכשיר רפואי בר-התאמה או מכשיר רפואי מותאם-מטופל);"
+        },
+        {
+          "en": "the risks related to the intended contact or interaction of the product as a part, component or material in the final CMD, adaptable medical device or patient-matched medical device with the patient's body.",
+          "he": "הסיכונים הקשורים למגע או לאינטראקציה המיועדים של המוצר כחלק, רכיב או חומר במכשיר המותאם אישית הסופי, במכשיר הרפואי בר-ההתאמה או במכשיר הרפואי המותאם-מטופל עם גוף המטופל."
+        }
+      ]
+    },
+    {
+      "id": "q3-p2",
+      "type": "paragraph",
+      "en": "If any of the physical, chemical or biological properties of those products referred to in question 2 change during the manufacturing of the CMD, patient-matched medical device or the adaptation process of the adaptable medical device (e.g. plastics, metallic compounds, ceramic fluids for crowns), compliance of the finished product with the general safety and performance requirements of MDR Annex I has to be demonstrated.",
+      "he": "אם כל אחת מהתכונות הפיזיקליות, הכימיות או הביולוגיות של אותם מוצרים הנזכרים בשאלה 2 משתנה במהלך ייצור המכשיר המותאם אישית, המכשיר הרפואי המותאם-מטופל או תהליך ההתאמה של המכשיר הרפואי בר-ההתאמה (למשל פלסטיק, תרכובות מתכתיות, נוזלים קרמיים לכתרים), יש להוכיח את עמידת המוצר המוגמר בדרישות הכלליות לבטיחות וביצועים של נספח Annex I ל-MDR."
+    },
+    {
+      "id": "q3-p3",
+      "type": "paragraph",
+      "en": "It is important to note that the manufacturer must also demonstrate that these products do not create unacceptable risks to the persons performing the relevant preparatory processing (such as preparation, configuration, installation, assembly, adaptation or fitting) to the needs of the patient prior to their use.",
+      "he": "חשוב לציין כי על היצרן להוכיח גם שמוצרים אלה אינם יוצרים סיכונים בלתי-מקובלים לאנשים המבצעים את עיבוד ההכנה הרלוונטי (כגון הכנה, תצורה, התקנה, הרכבה, התאמה או הולמה) לצורכי המטופל לפני השימוש בהם."
+    },
+    {
+      "id": "q3-p4",
+      "type": "paragraph",
+      "en": "The clinical evaluation conducted by the manufacturer should focus on demonstrating the clinical benefit related to the intended medical purpose of the products when used as parts, components or materials of a custom-made devices, adaptable medical devices or patient-matched medical devices.",
+      "he": "ההערכה הקלינית שמבצע היצרן צריכה להתמקד בהוכחת התועלת הקלינית הקשורה למטרה הרפואית המיועדת של המוצרים כאשר הם משמשים כחלקים, רכיבים או חומרים של מכשירים מותאמים אישית, מכשירים רפואיים ברי-התאמה או מכשירים רפואיים מותאמים-מטופל."
+    },
+    {
+      "id": "q3-p5",
+      "type": "paragraph",
+      "en": "To perform a post-market clinical follow-up (PMCF), liaison with the authorised person responsible for the issuing of the relevant written prescription, CMD manufacturers who have utilised the part, component or material and persons adapting the final device is necessary.",
+      "he": "כדי לבצע מעקב קליני שלאחר שיווק (PMCF), נדרש קשר עם האדם המורשה האחראי להנפקת המרשם בכתב הרלוונטי, עם יצרני המכשירים המותאמים אישית שהשתמשו בחלק, ברכיב או בחומר, ועם האנשים המתאימים את המכשיר הסופי."
+    },
+    {
+      "id": "q3-p6",
+      "type": "paragraph",
+      "en": "Furthermore, the manufacturer of devices referred to in question 2 bears the responsibility over these CE marked medical devices and is responsible for all incumbent MDR obligations such as post-market surveillance activities and vigilance reporting for the parts, components or materials.",
+      "he": "יתר על כן, יצרן המכשירים הנזכרים בשאלה 2 נושא באחריות על מכשירים רפואיים אלה בעלי סימון CE ואחראי לכל החובות החלות לפי ה-MDR, כגון פעילויות מעקב שלאחר שיווק ודיווח ערנות עבור החלקים, הרכיבים או החומרים."
+    },
+    {
+      "id": "fn-7",
+      "type": "note",
+      "marker": "7",
+      "en": "Implantable devices encompass those devices which are partially or wholly implanted. Please refer to Article 2(5) of the MDR for the definition of an 'implantable device'.",
+      "he": "מכשירים מושתלים כוללים את אותם מכשירים המושתלים חלקית או במלואם. ראה סעיף 2(5) ל-MDR להגדרת \"מכשיר מושתל\"."
+    },
+    {
+      "id": "fn-8",
+      "type": "note",
+      "marker": "8",
+      "en": "In general, the risk class of the product is expected to be the same as the risk class of the final CMD, adaptable medical device or patient-matched medical device. For example, if a part, component or material is specifically intended to be used for the manufacture of a Class III implantable custom-made device, then that part, component or material would be classified as a Class III implantable.",
+      "he": "באופן כללי, מצופה כי מחלקת הסיכון של המוצר תהיה זהה למחלקת הסיכון של המכשיר המותאם אישית הסופי, המכשיר הרפואי בר-ההתאמה או המכשיר הרפואי המותאם-מטופל. לדוגמה, אם חלק, רכיב או חומר מיועד באופן ספציפי לשימוש בייצור מכשיר מותאם אישית מושתל בסיווג III, אזי אותו חלק, רכיב או חומר יסווג כמושתל בסיווג III."
+    },
+    {
+      "id": "fn-9",
+      "type": "note",
+      "marker": "9",
+      "en": "For further clarifications on clinical evaluation for custom-made devices, please refer to question 8.",
+      "he": "להבהרות נוספות בנוגע להערכה קלינית עבור מכשירים מותאמים אישית, ראה שאלה 8."
+    },
+
+    {
+      "id": "q4",
+      "type": "heading",
+      "level": 1,
+      "number": "4",
+      "en": "Can manufacturers use state of the art industrial manufacturing processes to manufacture CMDs?",
+      "he": "האם יצרנים יכולים להשתמש בתהליכי ייצור תעשייתיים מתקדמים (state of the art) לייצור מכשירים מותאמים אישית?"
+    },
+    {
+      "id": "q4-p1",
+      "type": "paragraph",
+      "en": "As long as the definition of a CMD is fulfilled (refer to question 1) and the device is not mass-produced, manufacturers may use modern state of the art technologies (such as CAD CAM, 3D-Printing etc.) to manufacture CMDs.",
+      "he": "כל עוד הגדרת המכשיר המותאם אישית מתקיימת (ראה שאלה 1) והמכשיר אינו מיוצר בייצור המוני, יצרנים רשאים להשתמש בטכנולוגיות מתקדמות מודרניות (state of the art) (כגון CAD CAM, הדפסת תלת-ממד וכד') לייצור מכשירים מותאמים אישית."
+    },
+
+    {
+      "id": "q5",
+      "type": "heading",
+      "level": 1,
+      "number": "5",
+      "en": "Does a 3D printed device (additive manufacturing) qualify as a CMD?",
+      "he": "האם מכשיר המודפס בתלת-ממד (ייצור מצרפי) מסווג כמכשיר מותאם אישית?"
+    },
+    {
+      "id": "q5-p1",
+      "type": "paragraph",
+      "en": "A 3D printed device does not qualify as a CMD by default. An assessment should be performed on a case-by-case basis. In order for a 3D printed device to qualify as a CMD, the following requirements must be met:",
+      "he": "מכשיר המודפס בתלת-ממד אינו מסווג כמכשיר מותאם אישית כברירת מחדל. יש לבצע הערכה על בסיס מקרה לגופו. כדי שמכשיר המודפס בתלת-ממד יסווג כמכשיר מותאם אישית, יש לקיים את הדרישות הבאות:"
+    },
+    {
+      "id": "q5-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "en": "a written prescription, containing patient specific design characteristics, of an authorised person is in compliance with the requirements expressed below (see question 6),",
+          "he": "מרשם בכתב, הכולל מאפייני עיצוב ספציפיים למטופל, של אדם מורשה, העומד בדרישות המפורטות להלן (ראה שאלה 6),"
+        },
+        {
+          "en": "the manufactured device is intended for the sole use of a particular patient, exclusively to meet their individual conditions and needs,",
+          "he": "המכשיר המיוצר מיועד לשימוש בלעדי של מטופל מסוים, אך ורק כדי לענות על מצביו וצרכיו האישיים,"
+        },
+        {
+          "en": "the device is not mass-produced.",
+          "he": "המכשיר אינו מיוצר בייצור המוני."
+        }
+      ]
+    },
+
+    {
+      "id": "q6",
+      "type": "heading",
+      "level": 1,
+      "number": "6",
+      "en": "What defines a written prescription containing patient specific design characteristics?",
+      "he": "מה מגדיר מרשם בכתב הכולל מאפייני עיצוב ספציפיים למטופל?"
+    },
+    {
+      "id": "q6-p1",
+      "type": "paragraph",
+      "en": "A written prescription must be issued by a qualified person authorised by national law. At minimum, it should contain:",
+      "he": "מרשם בכתב חייב להיות מונפק על ידי אדם כשיר המורשה על פי הדין הלאומי. למצער, עליו לכלול:"
+    },
+    {
+      "id": "q6-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "en": "the name of the patient (or pseudonym if relevant),",
+          "he": "את שם המטופל (או שם בדוי אם רלוונטי),"
+        },
+        {
+          "en": "specific design characteristics made by the authorised person which are unique to the patient's anatomic-physiological features and/or pathological condition.",
+          "he": "מאפייני עיצוב ספציפיים שנקבעו על ידי האדם המורשה, הייחודיים למאפיינים האנטומיים-פיזיולוגיים ו/או למצב הפתולוגי של המטופל."
+        }
+      ]
+    },
+    {
+      "id": "q6-p2",
+      "type": "paragraph",
+      "en": "The following (non-exhaustive) additions can accompany a written prescription and if so, also constitute specific design characteristics:",
+      "he": "התוספות הבאות (שאינן ממצות) יכולות ללוות מרשם בכתב, ואם כן, גם מהוות מאפייני עיצוב ספציפיים:"
+    },
+    {
+      "id": "q6-list2",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "models (physical or 3D model data).", "he": "מודלים (נתוני מודל פיזי או תלת-ממדי)." },
+        { "en": "moulds (e.g. for dental or orthotic purposes).", "he": "תבניות (למשל למטרות דנטליות או אורתוטיות)." },
+        { "en": "dental impressions.", "he": "טביעות שיניים." }
+      ]
+    },
+    {
+      "id": "q6-note",
+      "type": "paragraph",
+      "en": "Note: Dimensions and/or geometric parameters (such as DICOM files from CT scans) are not considered specific design characteristics on their own. Additional measured data or information by the prescribing person is necessary as part of a written prescription in order for the definition of a CMD to be met.",
+      "he": "הערה: ממדים ו/או פרמטרים גאומטריים (כגון קבצי DICOM מסריקות CT) אינם נחשבים כשלעצמם למאפייני עיצוב ספציפיים. נדרשים נתונים מדודים נוספים או מידע נוסף מצד האדם הרושם כחלק מהמרשם בכתב כדי שהגדרת המכשיר המותאם אישית תתקיים."
+    },
+    {
+      "id": "fn-10",
+      "type": "note",
+      "marker": "10",
+      "en": "Such as the thickness and trajectory of a plate, the number, type and positions of fixation screws, choice of material, shall also be provided for in the prescription to be considered as containing specific design characteristics.",
+      "he": "כגון העובי והמסלול של פלטה, המספר, הסוג והמיקומים של ברגי הקיבוע, בחירת החומר, אשר יש לכלול גם אותם במרשם כדי שייחשב ככולל מאפייני עיצוב ספציפיים."
+    },
+
+    {
+      "id": "q7",
+      "type": "heading",
+      "level": 1,
+      "number": "7",
+      "en": "Shall the authorised person referred to in the definition of a CMD be a healthcare professional?",
+      "he": "האם האדם המורשה הנזכר בהגדרת מכשיר מותאם אישית חייב להיות איש מקצוע הבריאות?"
+    },
+    {
+      "id": "q7-p1",
+      "type": "paragraph",
+      "en": "No. The Regulation explicitly states that it should be any person authorised by national law. Therefore, it is up to Member States to establish who qualifies as an authorised person.",
+      "he": "לא. התקנה קובעת במפורש כי צריך שיהיה זה כל אדם המורשה על פי הדין הלאומי. לפיכך, על המדינות החברות לקבוע מי כשיר לשמש כאדם מורשה."
+    },
+
+    {
+      "id": "q8",
+      "type": "heading",
+      "level": 1,
+      "number": "8",
+      "en": "What are the obligations of CMD manufacturers according to the MDR?",
+      "he": "מהן חובותיהם של יצרני מכשירים מותאמים אישית על פי ה-MDR?"
+    },
+    {
+      "id": "q8-p1",
+      "type": "paragraph",
+      "en": "With the absence of stated exceptions, CMD manufacturers must meet nearly all of the MDR requirements. Although the authorised person issuing the written prescription primarily determines the design and intended purpose of the CMD, it is the responsibility of the CMD manufacturer to consider which MDR Annex I requirements are applicable to the device at hand.",
+      "he": "בהיעדר חריגים מפורשים, על יצרני המכשירים המותאמים אישית לעמוד כמעט בכל דרישות ה-MDR. אף שהאדם המורשה המנפיק את המרשם בכתב הוא הקובע בראש ובראשונה את העיצוב ואת המטרה המיועדת של המכשיר המותאם אישית, באחריות יצרן המכשיר המותאם אישית לשקול אילו דרישות של נספח Annex I ל-MDR חלות על המכשיר הנדון."
+    },
+    {
+      "id": "q8-p2",
+      "type": "paragraph",
+      "en": "Additionally, and as any other medical device manufacturer, CMD manufacturers shall establish, document, implement, maintain, keep up to date and continually improve a quality management system (QMS) that shall ensure compliance with the MDR in the most effective manner and in a manner that is proportionate to the risk class and the type of device. The QMS must address all elements described in Article 10(9) of the MDR.",
+      "he": "בנוסף, וכמו כל יצרן מכשירים רפואיים אחר, על יצרני המכשירים המותאמים אישית להקים, לתעד, ליישם, לתחזק, לעדכן ולשפר באופן מתמשך מערכת ניהול איכות (QMS) אשר תבטיח עמידה ב-MDR באופן היעיל ביותר ובאופן המידתי למחלקת הסיכון ולסוג המכשיר. ה-QMS חייבת להתייחס לכל הרכיבים המתוארים בסעיף 10(9) ל-MDR."
+    },
+    {
+      "id": "q8-p3",
+      "type": "paragraph",
+      "en": "To implement an MDR compliant post-market surveillance system, the CMD manufacturer should establish appropriate communication channels with relevant healthcare providers/professionals or patients to receive feedback on the quality, performance and in particular the clinical performance and safety of the devices in the field.",
+      "he": "כדי ליישם מערכת מעקב שלאחר שיווק התואמת ל-MDR, על יצרן המכשיר המותאם אישית להקים ערוצי תקשורת מתאימים עם ספקי/אנשי מקצוע הבריאות הרלוונטיים או עם מטופלים, כדי לקבל משוב על האיכות, הביצועים, ובפרט הביצועים הקליניים והבטיחות של המכשירים בשטח."
+    },
+    {
+      "id": "q8-p4",
+      "type": "paragraph",
+      "en": "For risk management, post-market surveillance and clinical evaluation life cycle processes as defined by the MDR, CMD manufacturers should apply these obligations to groups of devices with the same intended purpose, materials used, process utilised, same principal design etc. and not to each individual CMD.",
+      "he": "לעניין תהליכי מחזור החיים של ניהול סיכונים, מעקב שלאחר שיווק והערכה קלינית כפי שמוגדרים על ידי ה-MDR, על יצרני המכשירים המותאמים אישית להחיל חובות אלה על קבוצות של מכשירים בעלי אותה מטרה מיועדת, אותם חומרים בשימוש, אותו תהליך בשימוש, אותו עיצוב עיקרי וכד', ולא על כל מכשיר מותאם אישית בנפרד."
+    },
+    {
+      "id": "q8-p5",
+      "type": "paragraph",
+      "en": "In accordance with Article 87(1) of the MDR, CMD manufacturers shall report to the competent authorities any serious incidents and/or field safety corrective actions as soon as they learn of them.",
+      "he": "בהתאם לסעיף 87(1) ל-MDR, על יצרני המכשירים המותאמים אישית לדווח לרשויות המוסמכות על כל אירוע חמור ו/או פעולה מתקנת בשטח מיד עם היוודע להם עליהם."
+    },
+
+    {
+      "id": "q9",
+      "type": "heading",
+      "level": 1,
+      "number": "9",
+      "en": "Which obligations of CMD manufacturers differ from those of other medical device manufacturers?",
+      "he": "אילו חובות של יצרני מכשירים מותאמים אישית שונות מאלה של יצרני מכשירים רפואיים אחרים?"
+    },
+    {
+      "id": "q9-p1",
+      "type": "paragraph",
+      "en": "The conformity assessment procedure for all types of CMDs is described in MDR Annex XIII. In accordance with section 1 of Annex XIII, and in place of a declaration of conformity, CMDs shall be accompanied by an Annex XIII statement. This statement shall be made available to the particular patient or user identified by a name, an acronym or a numerical code.",
+      "he": "הליך הערכת ההתאמה עבור כל סוגי המכשירים המותאמים אישית מתואר בנספח Annex XIII ל-MDR. בהתאם לסעיף 1 של Annex XIII, ובמקום הצהרת התאמה, מכשירים מותאמים אישית ילוו בהצהרה לפי Annex XIII. הצהרה זו תועמד לרשות המטופל או המשתמש המסוים המזוהה באמצעות שם, ראשי תיבות או קוד מספרי."
+    },
+    {
+      "id": "q9-p2",
+      "type": "paragraph",
+      "en": "A conformity assessment procedure covering QMS certification by a notified body (in accordance with Chapter I of Annex IX or Part A of Annex XI of the MDR) is applicable to Class III implantable CMDs. According to Article 56 (5), the registration of QMS-certificates issued for Class III implantable CMD shall be entered into EUDAMED. In addition, manufacturers may have to comply with national requirements on the registration of economic operators and devices.",
+      "he": "הליך הערכת התאמה הכולל אישור QMS על ידי גוף מאונתר (בהתאם לפרק I של Annex IX או לחלק A של Annex XI ל-MDR) חל על מכשירים מותאמים אישית מושתלים בסיווג III. על פי סעיף 56(5), רישום תעודות ה-QMS שהונפקו עבור מכשיר מותאם אישית מושתל בסיווג III יוזן ל-EUDAMED. בנוסף, ייתכן שיצרנים יידרשו לעמוד בדרישות לאומיות בנוגע לרישום של גורמים כלכליים ושל מכשירים."
+    },
+    {
+      "id": "q9-p3",
+      "type": "paragraph",
+      "en": "CMD manufacturers are exempt from device UDI registration, assignment and labelling requirements. As such, and although they must appoint a person responsible for regulatory compliance (PRRC) in accordance with Article 15 of the MDR, they are not required to register these persons in EUDAMED.",
+      "he": "יצרני מכשירים מותאמים אישית פטורים מדרישות רישום, הקצאה ותיוג של UDI למכשיר. ככאלה, ואף שעליהם למנות אדם האחראי לתאימות רגולטורית (PRRC) בהתאם לסעיף 15 ל-MDR, אין הם נדרשים לרשום אנשים אלה ב-EUDAMED."
+    },
+    {
+      "id": "q9-p4",
+      "type": "paragraph",
+      "en": "In addition, Article 32(1) prescribes that a Summary of Safety and Clinical Performance (SSCP) is not required for a custom-made device.",
+      "he": "בנוסף, סעיף 32(1) קובע כי סיכום בטיחות וביצועים קליניים (SSCP) אינו נדרש עבור מכשיר מותאם אישית."
+    },
+    {
+      "id": "q9-p5",
+      "type": "paragraph",
+      "en": "As for post-market surveillance, a report for Class I devices according to Article 85 MDR and a Periodic Safety Update Report (PSUR) for class IIa, IIb and III according to Article 86 MDR, must be established by the CMD manufacturer. Both the post-market surveillance report and the PSUR must be part of the CMD documentation according to Section 2 of Annex XIII of the MDR.",
+      "he": "באשר למעקב שלאחר שיווק, על יצרן המכשיר המותאם אישית להכין דוח עבור מכשירים בסיווג I על פי סעיף 85 ל-MDR ודוח עדכון בטיחות תקופתי (PSUR) עבור סיווג IIa, IIb ו-III על פי סעיף 86 ל-MDR. הן דוח המעקב שלאחר שיווק והן ה-PSUR חייבים להיות חלק מתיעוד המכשיר המותאם אישית על פי סעיף 2 של Annex XIII ל-MDR."
+    },
+    {
+      "id": "q9-p6",
+      "type": "paragraph",
+      "en": "In case of Class III implantable CMDs, PSURs are not required to be sent to notified bodies but must be part of the CMD documentation according to Section 2 of Annex XIII of the MDR.",
+      "he": "במקרה של מכשירים מותאמים אישית מושתלים בסיווג III, אין צורך לשלוח את ה-PSUR לגופים מאונתרים, אך עליהם להיות חלק מתיעוד המכשיר המותאם אישית על פי סעיף 2 של Annex XIII ל-MDR."
+    },
+    {
+      "id": "fn-11",
+      "type": "note",
+      "marker": "11",
+      "en": "Article 52(8) MDR.",
+      "he": "סעיף 52(8) ל-MDR."
+    },
+
+    {
+      "id": "q10",
+      "type": "heading",
+      "level": 1,
+      "number": "10",
+      "en": "What are the implications for a CMD manufacturer using CE-marked devices referred to in question 2 instead of non-CE marked devices?",
+      "he": "מהן ההשלכות עבור יצרן מכשיר מותאם אישית המשתמש במכשירים בעלי סימון CE הנזכרים בשאלה 2 במקום במכשירים ללא סימון CE?"
+    },
+    {
+      "id": "q10-p1",
+      "type": "paragraph",
+      "en": "In both cases, it is the responsibility of the CMD manufacturer to establish full compliance of the CMD with the MDR.",
+      "he": "בשני המקרים, באחריות יצרן המכשיר המותאם אישית לבסס עמידה מלאה של המכשיר המותאם אישית ב-MDR."
+    },
+    {
+      "id": "q10-p2",
+      "type": "paragraph",
+      "en": "Where a CMD manufacturer uses a CE marked device, part, component or material (as described in Q2) for the purpose of manufacturing a CMD, then the CMD manufacturer may take into consideration the compliance of these aforementioned CE-marked products with the general safety and performance requirements of the MDR. When performing a clinical evaluation for the CMD, the CMD manufacturer can make use of the clinical evaluation performed for the aforementioned CE marked products, as this clinical evaluation (see also answer to Q3) can support the fulfilment of the general safety a performance requirements and demonstrating clinical evidence necessary for the final CMD.",
+      "he": "כאשר יצרן מכשיר מותאם אישית משתמש במכשיר, חלק, רכיב או חומר בעל סימון CE (כמתואר בשאלה 2) לצורך ייצור מכשיר מותאם אישית, אזי יצרן המכשיר המותאם אישית רשאי לקחת בחשבון את עמידת מוצרים אלה בעלי סימון CE בדרישות הכלליות לבטיחות וביצועים של ה-MDR. בעת ביצוע הערכה קלינית עבור המכשיר המותאם אישית, יצרן המכשיר המותאם אישית יכול לעשות שימוש בהערכה הקלינית שבוצעה עבור המוצרים האמורים בעלי סימון CE, מאחר שהערכה קלינית זו (ראה גם את התשובה לשאלה 3) יכולה לתמוך בעמידה בדרישות הכלליות לבטיחות וביצועים ובהוכחת הראיות הקליניות הנחוצות עבור המכשיר המותאם אישית הסופי."
+    },
+    {
+      "id": "q10-p3",
+      "type": "paragraph",
+      "en": "When the CMD manufacturer has to perform further preparatory processing, preparation, configuration, installation, assembly, adaptation or fitting to the needs of the patient prior to the device's use, this must be done in accordance with the instructions provided by the manufacturer of the CE-marked device.",
+      "he": "כאשר על יצרן המכשיר המותאם אישית לבצע עיבוד הכנה נוסף, הכנה, תצורה, התקנה, הרכבה, התאמה או הולמה לצורכי המטופל לפני השימוש במכשיר, יש לעשות זאת בהתאם להוראות שמספק היצרן של המכשיר בעל סימון CE."
+    },
+    {
+      "id": "q10-p4",
+      "type": "paragraph",
+      "en": "It must be noted that it is not possible to presume conformity or to rely on clinical evaluations of non-CE marked devices. It is also not possible to presume conformity or to rely on clinical evaluations of CE marked devices when they are being used outside of their intended purpose or outside the instructions provided by the manufacturer.",
+      "he": "יש לציין כי לא ניתן להניח התאמה או להסתמך על הערכות קליניות של מכשירים ללא סימון CE. כמו כן לא ניתן להניח התאמה או להסתמך על הערכות קליניות של מכשירים בעלי סימון CE כאשר הם משמשים מחוץ למטרה המיועדת שלהם או מחוץ להוראות שמספק היצרן."
+    }
+  ]
+}

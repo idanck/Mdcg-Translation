@@ -21,8 +21,8 @@
 | File | Description |
 |------|-------------|
 | `original/mdcg_2021-28_en.pdf` | Original English document (PDF) |
-| `translation/MDCG-2021-28.he.json` | Hebrew translation (canonical, bilingual source of truth) |
-| `translation/MDCG-2021-28.he.html` | Generated HTML rendering |
+| `translation/MDCG-2021-28.he.json` | Canonical bilingual translation (source of truth) |
+| `translation/MDCG-2021-28.he.html` | Hebrew RTL rendering, generated from the JSON |
 
 ---
 
