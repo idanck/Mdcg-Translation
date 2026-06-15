@@ -11,3 +11,9 @@ Thumbs.db
 
 # PDF tools temp
 *.tmp
+
+# Translation pipeline working files
+*.extracted.txt
+__pycache__/
+*.pyc
+.venv/

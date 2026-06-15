@@ -1,0 +1,4 @@
+# Python dependencies for the MDCG translation pipeline.
+# Install with: python3 -m pip install -r tools/requirements.txt
+pdfplumber>=0.11
+jsonschema>=4.0

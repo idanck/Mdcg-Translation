@@ -1,0 +1,554 @@
+{
+  "id": "MDCG-2019-8-v2",
+  "title": {
+    "en": "Guidance document — Implant Card relating to the application of Article 18 Regulation (EU) 2017/745 of the European Parliament and of the Council of 5 April 2017 on medical devices",
+    "he": "מסמך הנחיה — כרטיס שתל הנוגע ליישום סעיף 18 לתקנה (האיחוד האירופי) 2017/745 של הפרלמנט האירופי ושל המועצה מ-5 באפריל 2017 בנושא מכשירים רפואיים"
+  },
+  "category": "Implant Cards",
+  "publicationDate": "2020-03",
+  "source": {
+    "url": "https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en",
+    "file": "original/mdcg_2019-8_en.pdf"
+  },
+  "language": "he",
+  "direction": "rtl",
+  "translationStatus": "review",
+  "glossaryVersion": "2026-06",
+  "blocks": [
+    {
+      "id": "disclaimer-1",
+      "type": "paragraph",
+      "en": "This document has been endorsed by the Medical Device Coordination Group (MDCG) established by Article 103 of Regulation (EU) 2017/745. The MDCG is composed of representatives of all Member States and it is chaired by a representative of the European Commission.",
+      "he": "מסמך זה אושר על ידי קבוצת תיאום המכשירים הרפואיים (MDCG) שהוקמה מכוח סעיף 103 לתקנה (האיחוד האירופי) 2017/745. ה-MDCG מורכבת מנציגים של כל המדינות החברות ובראשה עומד נציג של הנציבות האירופית."
+    },
+    {
+      "id": "disclaimer-2",
+      "type": "paragraph",
+      "en": "The document is not a European Commission document and it cannot be regarded as reflecting the official position of the European Commission. Any views expressed in this document are not legally binding and only the Court of Justice of the European Union can give binding interpretations of Union law.",
+      "he": "המסמך אינו מסמך של הנציבות האירופית ואין לראות בו כמשקף את העמדה הרשמית של הנציבות האירופית. כל דעה המובעת במסמך זה אינה מחייבת מבחינה משפטית, ורק בית הדין לצדק של האיחוד האירופי מוסמך לתת פרשנות מחייבת לדין האיחוד."
+    },
+
+    {
+      "id": "sec-1",
+      "type": "heading",
+      "level": 1,
+      "number": "1",
+      "en": "Scope",
+      "he": "תחולה"
+    },
+    {
+      "id": "sec-1-p1",
+      "type": "paragraph",
+      "en": "This document provides guidance for Member States, concerned industry and other stakeholders on a blueprint of an implant card (IC) required by the MDR (Regulation (EU) 2017/745). It describes the intended use, content and information to be provided by the manufacturer together on the IC and a definition of fields to be completed by the implanting healthcare institutions or healthcare providers according to national law in Member States. Whereas the intended purpose and most of the data elements of the IC are already defined in Article 18 of the MDR, this document contains the description of other data elements which must be completed by the healthcare institution or healthcare provider and which must be considered by the individual Member State when implementing Article 18 MDR as required.",
+      "he": "מסמך זה מספק הנחיה למדינות החברות, לתעשייה הנוגעת בדבר ולבעלי עניין אחרים בנוגע לתבנית (blueprint) של כרטיס שתל (IC) הנדרש על פי ה-MDR (תקנה (האיחוד האירופי) 2017/745). הוא מתאר את הייעוד, התוכן והמידע שעל היצרן לספק יחד על גבי כרטיס השתל, וכן הגדרה של שדות שימולאו על ידי מוסדות הבריאות המשתילים או ספקי שירותי הבריאות בהתאם לדין הלאומי במדינות החברות. בעוד שהמטרה המיועדת ורוב רכיבי הנתונים של כרטיס השתל כבר מוגדרים בסעיף 18 ל-MDR, מסמך זה כולל את תיאורם של רכיבי נתונים נוספים שעל מוסד הבריאות או ספק שירותי הבריאות למלא, ואשר על כל מדינה חברה לשקול בעת יישום סעיף 18 ל-MDR כנדרש¹."
+    },
+    {
+      "id": "fn-1",
+      "type": "note",
+      "marker": "1",
+      "en": "This guidance doesn't include the patient information described in Article 18 para 1 (b-d) which might be provided by the manufacturer by any means that allow rapid access to that information and that shall be stated in the language(s) determined by the concerned Member State.",
+      "he": "הנחיה זו אינה כוללת את המידע למטופל המתואר בסעיף 18 פסקה 1 (ב'–ד'), אשר עשוי להיות מסופק על ידי היצרן בכל אמצעי המאפשר גישה מהירה למידע זה, ואשר יימסר בשפה/בשפות שנקבעו על ידי המדינה החברה הנוגעת בדבר."
+    },
+
+    {
+      "id": "sec-2",
+      "type": "heading",
+      "level": 1,
+      "number": "2",
+      "en": "Purposes of the Implant Card",
+      "he": "מטרות כרטיס השתל"
+    },
+    {
+      "id": "sec-2-p1",
+      "type": "paragraph",
+      "en": "The aim of introducing an IC has been to achieve three main objectives:",
+      "he": "מטרת הנהגתו של כרטיס השתל הייתה להשיג שלוש מטרות עיקריות:"
+    },
+    {
+      "id": "sec-2-list",
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "en": "Enable the patient to identify the implanted devices and to get access to other information related to the implanted device (e.g. via EUDAMED, and other websites).",
+          "he": "לאפשר למטופל לזהות את המכשירים המושתלים ולקבל גישה למידע נוסף הקשור למכשיר המושתל (למשל באמצעות EUDAMED ואתרי אינטרנט אחרים)."
+        },
+        {
+          "en": "Enable patients to identify themselves as persons requiring special care in relevant situations e.g. security checks.",
+          "he": "לאפשר למטופלים להזדהות כאנשים הזקוקים לטיפול מיוחד במצבים רלוונטיים, למשל בבדיקות ביטחון."
+        },
+        {
+          "en": "Enabling e.g. emergency clinical staff or first responder to be informed about special care/needs for relevant patients in case of emergency situations.",
+          "he": "לאפשר, למשל, לצוות קליני בחירום או למגיש עזרה ראשונה לקבל מידע על טיפול/צרכים מיוחדים של מטופלים רלוונטיים במצבי חירום."
+        }
+      ]
+    },
+
+    {
+      "id": "sec-3",
+      "type": "heading",
+      "level": 1,
+      "number": "3",
+      "en": "Legal consideration on Implant Card design",
+      "he": "שיקול משפטי בעיצוב כרטיס השתל"
+    },
+    {
+      "id": "sec-3-p1",
+      "type": "paragraph",
+      "en": "Article 18 MDR describes the requirements regarding the IC which shall be provided by the manufacturer together with the device. Whereas Article 18 para 1a) describes the information which shall be provided by the manufacturer on the IC, Article 18 para 2 lays down the obligation of Member States to require health institutions to provide the IC to the concerned patient.",
+      "he": "סעיף 18 ל-MDR מתאר את הדרישות הנוגעות לכרטיס השתל, אשר על היצרן לספק יחד עם המכשיר. בעוד שסעיף 18 פסקה 1(א) מתאר את המידע שעל היצרן לספק על גבי כרטיס השתל, סעיף 18 פסקה 2 קובע את חובת המדינות החברות לדרוש ממוסדות הבריאות לספק את כרטיס השתל למטופל הנוגע בדבר."
+    },
+    {
+      "id": "sec-3-p2",
+      "type": "paragraph",
+      "en": "In accordance with Article 18, 1a) the manufacturer should provide the following information on the IC (preferably on the card itself or, alternatively, as stickers to be placed by the clinician):",
+      "he": "בהתאם לסעיף 18, 1(א), על היצרן לספק את המידע הבא על גבי כרטיס השתל (רצוי על הכרטיס עצמו, או לחלופין כמדבקות שיודבקו על ידי הרופא):"
+    },
+    {
+      "id": "sec-3-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Device name;", "he": "שם המכשיר;" },
+        { "en": "Serial number, lot number;", "he": "מספר סידורי, מספר אצווה;" },
+        { "en": "Unique device identification (UDI);", "he": "זיהוי מכשיר ייחודי (UDI);" },
+        { "en": "Name, address and the website of manufacturer;", "he": "שם, כתובת ואתר האינטרנט של היצרן;" },
+        { "en": "Device type.", "he": "סוג המכשיר.²" }
+      ]
+    },
+    {
+      "id": "sec-3-p3",
+      "type": "paragraph",
+      "en": "Article 18, 2 lays down that Member States shall require health institutions (or healthcare providers) inter alia to make available the IC to the relevant patient. The IC should bear their identity. For this purpose, the IC provided together with the device should contain blank fields which shall be filled out by the health institution or healthcare provider, respectively.",
+      "he": "סעיף 18, 2 קובע כי המדינות החברות ידרשו ממוסדות הבריאות (או מספקי שירותי הבריאות), בין היתר, להעמיד את כרטיס השתל לרשות המטופל הרלוונטי. כרטיס השתל צריך לשאת את זהותם. לשם כך, כרטיס השתל המסופק יחד עם המכשיר צריך לכלול שדות ריקים אשר ימולאו על ידי מוסד הבריאות או ספק שירותי הבריאות, בהתאמה."
+    },
+    {
+      "id": "sec-3-p4",
+      "type": "paragraph",
+      "en": "Since the establishment of (and the logistics behind) many different national IC designs is very expensive and of no additional benefit, Member States should ensure that, in the context of national implementation of Article 18 of the MDR, only the following information is required to be provided by the health institution or healthcare provider on the IC (together with the information provided by the manufacturer). Accordingly, a European or international blueprint for an IC which supports the purposes described in Article 18, 2 should contain the following blank fields:",
+      "he": "מאחר שהקמתם (והלוגיסטיקה שמאחוריהם) של עיצובים לאומיים רבים ושונים של כרטיס השתל יקרה מאוד וללא תועלת נוספת, על המדינות החברות להבטיח כי בהקשר של היישום הלאומי של סעיף 18 ל-MDR יידרש מוסד הבריאות או ספק שירותי הבריאות לספק על גבי כרטיס השתל אך ורק את המידע הבא (יחד עם המידע שמספק היצרן). בהתאם לכך, תבנית אירופית או בין-לאומית של כרטיס שתל התומכת במטרות המתוארות בסעיף 18, 2 צריכה לכלול את השדות הריקים הבאים:"
+    },
+    {
+      "id": "sec-3-list2",
+      "type": "list",
+      "ordered": true,
+      "items": [
+        { "en": "Name of the patient or patient ID;", "he": "שם המטופל או מזהה המטופל;" },
+        { "en": "Name and address of the health institution or healthcare provider who performed the implantation;", "he": "שם וכתובת מוסד הבריאות או ספק שירותי הבריאות שביצע את ההשתלה;" },
+        { "en": "Date of implantation.", "he": "תאריך ההשתלה." }
+      ]
+    },
+    {
+      "id": "sec-3-p5",
+      "type": "paragraph",
+      "en": "In order to be fit for the purposes described in Article 18, the outer dimensions of the IC should be the same as those of credit cards, ATM cards or ID cards (85.60 mm × 53.98 mm / 3 3⁄8 × 2 1⁄8 inches) and with a radius of 2.88–3.48 mm.",
+      "he": "כדי להתאים למטרות המתוארות בסעיף 18, הממדים החיצוניים של כרטיס השתל צריכים להיות זהים לאלה של כרטיסי אשראי, כרטיסי כספומט או תעודות זהות (85.60 מ״מ × 53.98 מ״מ / 3⅜ × 2⅛ אינץ') וברדיוס פינות של 2.88–3.48 מ״מ³."
+    },
+    {
+      "id": "fn-2",
+      "type": "note",
+      "marker": "2",
+      "en": "In Article 18 1a) of the MDR, the term \"device model\" is used. However, this term which is not defined in the MDR, is part of the UDI-DI related information to be provided to EUDAMED. To avoid duplication and in the context of the intended purpose of the IC (to be used in situations requiring special care or in emergency situations), it is considered that reference to device model in the MDR for the purpose of the IC shall be read as reference to device type, like \"pacemaker\", \"hip implant\", etc. When the European Medical device nomenclature is made available, a \"standardised\" set of terms of this nomenclature should be recommended for use in relation to the field \"device type\".",
+      "he": "בסעיף 18 1(א) ל-MDR נעשה שימוש במונח \"device model\" (דגם המכשיר). עם זאת, מונח זה, שאינו מוגדר ב-MDR, הוא חלק מהמידע הקשור ל-UDI-DI שיש לספק ל-EUDAMED. כדי להימנע מכפילות, ובהקשר של המטרה המיועדת של כרטיס השתל (לשימוש במצבים הדורשים טיפול מיוחד או במצבי חירום), נחשב כי ההפניה ל-device model ב-MDR לצורך כרטיס השתל תיקרא כהפניה ל\"סוג המכשיר\", כגון \"קוצב לב\", \"שתל ירך\" וכד'. כאשר הנומנקלטורה האירופית למכשירים רפואיים תהיה זמינה, מומלץ יהיה להשתמש במערך מונחים \"מתוקנן\" מנומנקלטורה זו בהקשר לשדה \"סוג המכשיר\"."
+    },
+    {
+      "id": "fn-3",
+      "type": "note",
+      "marker": "3",
+      "en": "Dimensions to conform to the standard ISO/IEC 7810 ID-1.",
+      "he": "הממדים תואמים את התקן ISO/IEC 7810 ID-1."
+    },
+
+    {
+      "id": "sec-4",
+      "type": "heading",
+      "level": 1,
+      "number": "4",
+      "en": "Information to be provided by the manufacturer on the Implant Card and information to be added by the health institution",
+      "he": "מידע שעל היצרן לספק על גבי כרטיס השתל ומידע שעל מוסד הבריאות להוסיף"
+    },
+    {
+      "id": "sec-4-p1",
+      "type": "paragraph",
+      "en": "The manufacturer shall provide the following necessary information:",
+      "he": "על היצרן לספק את המידע הנחוץ הבא:"
+    },
+    {
+      "id": "sec-4-list1",
+      "type": "list",
+      "ordered": true,
+      "items": [
+        { "en": "Device name;", "he": "שם המכשיר;" },
+        { "en": "Device type;", "he": "סוג המכשיר;" },
+        { "en": "Serial number or, where applicable, lot or batch number;", "he": "מספר סידורי, או, היכן שרלוונטי, מספר אצווה (lot או batch);" },
+        { "en": "Unique device identification (UDI); the UDI as AIDC format and the UDI-DI as HRI;", "he": "זיהוי מכשיר ייחודי (UDI); ה-UDI בפורמט AIDC⁴ וה-UDI-DI בפורמט HRI⁵;" },
+        { "en": "Name and address of the manufacturer of the medical device;", "he": "שם וכתובת היצרן של המכשיר הרפואי;" },
+        { "en": "Website of the manufacturer of the medical device.", "he": "אתר האינטרנט של היצרן של המכשיר הרפואי." }
+      ]
+    },
+    {
+      "id": "sec-4-p2",
+      "type": "paragraph",
+      "en": "The text provided on the IC and on the instruction for completing the IC by the healthcare institution or healthcare provider must be legible and at least 2 millimetres high. 'Text' includes any: number, letter, symbol, or letter or number in a symbol.",
+      "he": "הטקסט המופיע על גבי כרטיס השתל ועל גבי הוראות מילוי כרטיס השתל על ידי מוסד הבריאות או ספק שירותי הבריאות חייב להיות קריא ובגובה של 2 מילימטרים לפחות. \"טקסט\" כולל כל: מספר, אות, סמל, או אות או מספר בתוך סמל."
+    },
+    {
+      "id": "sec-4-p3",
+      "type": "paragraph",
+      "en": "In addition, the manufacturer should design the IC in a way that the following blank fields to be filled out by the implanting healthcare institution or healthcare provider are available:",
+      "he": "בנוסף, על היצרן לעצב את כרטיס השתל באופן שיהיו זמינים השדות הריקים הבאים, אשר ימולאו על ידי מוסד הבריאות המשתיל או ספק שירותי הבריאות:"
+    },
+    {
+      "id": "sec-4-list2",
+      "type": "list",
+      "ordered": true,
+      "items": [
+        { "en": "Name of the patient or patient ID;", "he": "שם המטופל או מזהה המטופל;" },
+        { "en": "Name and address of the healthcare institution which performed the implantation;", "he": "שם וכתובת מוסד הבריאות שביצע את ההשתלה;" },
+        { "en": "Date of implantation.", "he": "תאריך ההשתלה." }
+      ]
+    },
+    {
+      "id": "fn-4",
+      "type": "note",
+      "marker": "4",
+      "en": "AIDC - Automatic identification and data capture format (e.g. linear or 2D-Barcodes)",
+      "he": "AIDC – פורמט זיהוי וקליטת נתונים אוטומטיים (Automatic identification and data capture), למשל ברקודים ליניאריים או דו-ממדיים."
+    },
+    {
+      "id": "fn-5",
+      "type": "note",
+      "marker": "5",
+      "en": "HRI - Human readable interpretation",
+      "he": "HRI – פרשנות קריאה לאדם (Human readable interpretation)."
+    },
+
+    {
+      "id": "sec-5",
+      "type": "heading",
+      "level": 1,
+      "number": "5",
+      "en": "Use of symbols",
+      "he": "שימוש בסמלים"
+    },
+    {
+      "id": "sec-5-p1",
+      "type": "paragraph",
+      "en": "To avoid national versions of the IC, the use of symbols is advisable.",
+      "he": "כדי להימנע מגרסאות לאומיות של כרטיס השתל, מומלץ להשתמש בסמלים."
+    },
+    {
+      "id": "sec-5-p2",
+      "type": "paragraph",
+      "en": "The following list contains symbols which have either been validated by users and have been submitted and accepted for inclusion in an upcoming international standard or already exist in the ISO database (Online Browsing Platform). The explanation of symbols on the IC should be provided in a leaflet (see section 7) or on the back of the IC, if space allows.",
+      "he": "הרשימה הבאה כוללת סמלים אשר תוקפו על ידי משתמשים והוגשו והתקבלו לכלל הכללה בתקן בין-לאומי עתידי, או שכבר קיימים במסד הנתונים של ISO (פלטפורמת העיון המקוונת – Online Browsing Platform). הסבר הסמלים שעל כרטיס השתל יסופק בעלון (ראה סעיף 7) או על גב כרטיס השתל, אם המקום מאפשר זאת."
+    },
+    {
+      "id": "sec-5-p3",
+      "type": "paragraph",
+      "en": "Article 18(1) lays down that the information provided in the IC shall be stated in the language(s) determined by the concerned Member State.",
+      "he": "סעיף 18(1) קובע כי המידע המסופק בכרטיס השתל יימסר בשפה/בשפות שנקבעו על ידי המדינה החברה הנוגעת בדבר."
+    },
+    {
+      "id": "sec-5-p4",
+      "type": "paragraph",
+      "en": "List of symbols recommended for use on the IC:",
+      "he": "רשימת הסמלים המומלצים לשימוש על כרטיס השתל⁶:"
+    },
+    {
+      "id": "sec-5-symbols",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Patient Name or patient ID", "he": "שם המטופל או מזהה המטופל" },
+        { "en": "Date of implantation", "he": "תאריך ההשתלה" },
+        { "en": "Name and Address of the implanting healthcare institution/provider", "he": "שם וכתובת מוסד/ספק הבריאות המשתיל" },
+        { "en": "Name and Address of the manufacturer", "he": "שם וכתובת היצרן" },
+        { "en": "Information website for patients", "he": "אתר אינטרנט מידע למטופלים" },
+        { "en": "Device Name", "he": "שם המכשיר⁷" },
+        { "en": "Serial Number", "he": "מספר סידורי" },
+        { "en": "Lot Number/Batch Code", "he": "מספר אצווה / קוד אצווה" },
+        { "en": "UDI as AIDC format", "he": "UDI בפורמט AIDC" },
+        { "en": "UDI", "he": "UDI" }
+      ]
+    },
+    {
+      "id": "sec-5-p5",
+      "type": "paragraph",
+      "en": "UDI-DI information in a HRI format should be introduced by the wording \"UDI-DI\".",
+      "he": "מידע UDI-DI בפורמט HRI יוצג בקידומת המילה \"UDI-DI\"."
+    },
+    {
+      "id": "fn-6",
+      "type": "note",
+      "marker": "6",
+      "en": "The symbols for patient name or patient ID, name and address of the implanting healthcare institution/provider, date of implantation, name and address of the manufacturer, serial number, lot number/batch code are already available and published in existing ISO standards. The symbols for device name, patient information website and UDI have been validated by users according to the ISO 15223-2 process. Note that the symbols listed here to indicate the following terms: 'Device Name', 'Patient Name or Patient ID', 'Date of Implantation', 'Name and address of the implanting healthcare institution/provider' on the implant card, are used in the ISO context to indicate 'Medical Device', 'Patient Identification', 'Date', 'Health Care Center or Doctor'.",
+      "he": "הסמלים עבור שם המטופל או מזהה המטופל, שם וכתובת מוסד/ספק הבריאות המשתיל, תאריך ההשתלה, שם וכתובת היצרן, מספר סידורי, מספר אצווה/קוד אצווה כבר זמינים ופורסמו בתקני ISO קיימים. הסמלים עבור שם המכשיר, אתר מידע למטופלים ו-UDI תוקפו על ידי משתמשים בהתאם לתהליך ISO 15223-2. יש לשים לב כי הסמלים המופיעים כאן לציון המונחים: \"שם המכשיר\", \"שם המטופל או מזהה המטופל\", \"תאריך ההשתלה\", \"שם וכתובת מוסד/ספק הבריאות המשתיל\" על גבי כרטיס השתל, משמשים בהקשר ISO לציון \"מכשיר רפואי\", \"זיהוי מטופל\", \"תאריך\", \"מרכז בריאות או רופא\"."
+    },
+    {
+      "id": "fn-7",
+      "type": "note",
+      "marker": "7",
+      "en": "Please note that in the ISO context, the 'MD' symbol is used to identify that the product in question is a medical device. On the implant card, this symbol is used to indicate the device name.",
+      "he": "יש לשים לב כי בהקשר ISO, הסמל \"MD\" משמש לזיהוי שהמוצר המדובר הוא מכשיר רפואי. על כרטיס השתל, סמל זה משמש לציון שם המכשיר."
+    },
+
+    {
+      "id": "sec-6",
+      "type": "heading",
+      "level": 1,
+      "number": "6",
+      "en": "Language requirements on specific fields",
+      "he": "דרישות שפה לשדות מסוימים"
+    },
+    {
+      "id": "sec-6-p1",
+      "type": "paragraph",
+      "en": "Despite the nearly complete list of symbols for fields on the IC, there is currently no symbol available for the required field \"Device Type\".",
+      "he": "על אף רשימת הסמלים השלמה כמעט עבור השדות שעל כרטיס השתל, כיום אין סמל זמין לשדה הנדרש \"סוג המכשיר\"."
+    },
+    {
+      "id": "sec-6-p2",
+      "type": "paragraph",
+      "en": "The lack of a symbol and the purpose of this field makes it necessary that the information on the device type must be provided in the language accepted/required by the concerned Member State.",
+      "he": "היעדר הסמל ומטרת שדה זה מחייבים כי המידע על סוג המכשיר יסופק בשפה המקובלת/הנדרשת על ידי המדינה החברה הנוגעת בדבר."
+    },
+    {
+      "id": "sec-6-p3",
+      "type": "paragraph",
+      "en": "There are several possibilities available to provide this information in the necessary languages, e.g. the information is already printed on the IC in the different languages or stickers are provided with the IC and the healthcare professional selects the right one etc.",
+      "he": "קיימות מספר אפשרויות לספק מידע זה בשפות הנדרשות, למשל המידע מודפס מראש על כרטיס השתל בשפות השונות, או שמסופקות מדבקות יחד עם כרטיס השתל ואיש מקצוע הבריאות בוחר את המתאימה, וכד'."
+    },
+
+    {
+      "id": "sec-7",
+      "type": "heading",
+      "level": 1,
+      "number": "7",
+      "en": "Benefits of an informative instruction leaflet",
+      "he": "יתרונותיו של עלון הנחיות מסביר⁸"
+    },
+    {
+      "id": "sec-7-p1",
+      "type": "paragraph",
+      "en": "As mentioned above (section 5), there is a need to provide, together with the IC, instructions on how to complete the IC and to explain the used symbols. This information shall be stated in the language(s) determined by the concerned Member State. For this reason, the use of a leaflet, containing the relevant information, to be provided together with the IC and the implantable device, is the recommended solution.",
+      "he": "כאמור לעיל (סעיף 5), יש צורך לספק, יחד עם כרטיס השתל, הוראות כיצד למלא את כרטיס השתל ולהסביר את הסמלים שבשימוש. מידע זה יימסר בשפה/בשפות שנקבעו על ידי המדינה החברה הנוגעת בדבר. מסיבה זו, השימוש בעלון הכולל את המידע הרלוונטי, שיסופק יחד עם כרטיס השתל והמכשיר המושתל, הוא הפתרון המומלץ."
+    },
+    {
+      "id": "sec-7-p2",
+      "type": "paragraph",
+      "en": "As part of the risk management, the manufacturer has to investigate, by means of an ergonomic analysis or ergonomic usability test procedure, if the provided instructions are sufficient to enable the health professional to complete the IC correctly. The instructions must reflect the solution chosen by the manufacturer (e.g. pre-printed IC, blank IC with sticker(s) to be added, mixture of both). Special considerations might be needed when providing a system IC or an IC for a separate implantable component, when there is not yet a common practice (standard) established.",
+      "he": "כחלק מניהול הסיכונים, על היצרן לבחון, באמצעות ניתוח ארגונומי או הליך בדיקת שמישות ארגונומית, האם ההוראות שסופקו מספיקות כדי לאפשר לאיש מקצוע הבריאות למלא את כרטיס השתל כראוי. ההוראות חייבות לשקף את הפתרון שבחר היצרן (למשל כרטיס שתל מודפס מראש, כרטיס שתל ריק עם מדבקה/ות שיש להוסיף, או שילוב של השניים). ייתכן שיידרשו שיקולים מיוחדים בעת אספקת כרטיס שתל למערכת (System IC) או כרטיס שתל לרכיב מושתל נפרד, כאשר טרם נקבעה פרקטיקה מקובלת (תקן)."
+    },
+    {
+      "id": "fn-8",
+      "type": "note",
+      "marker": "8",
+      "en": "This leaflet should not be confused with any possible vector of information referred to in points \"b\", \"c\" and \"d\" of Article 18(1) of the MDR.",
+      "he": "אין לבלבל עלון זה עם כל אמצעי מידע אפשרי הנזכר בפסקאות \"ב\", \"ג\" ו-\"ד\" של סעיף 18(1) ל-MDR."
+    },
+
+    {
+      "id": "sec-8",
+      "type": "heading",
+      "level": 1,
+      "number": "8",
+      "en": "Implant Card for implantable systems",
+      "he": "כרטיס שתל למערכות מושתלות"
+    },
+    {
+      "id": "sec-8-p1",
+      "type": "paragraph",
+      "en": "If an implantable device contains implantable components which might be replaced by other (or the same) components, for example in case of a later revision, the manufacturers should consider the use of a System IC. In Annex I to this guide an example is provided.",
+      "he": "אם מכשיר מושתל מכיל רכיבים מושתלים שעשויים להיות מוחלפים ברכיבים אחרים (או זהים), למשל במקרה של רוויזיה מאוחרת, על היצרנים לשקול שימוש בכרטיס שתל למערכת (System IC). בנספח I למדריך זה מובאת דוגמה."
+    },
+    {
+      "id": "sec-8-p2",
+      "type": "paragraph",
+      "en": "Ways could be explored by relevant stakeholders to develop common rules on how the necessary information to be placed on the System IC is delivered with the replaceable component and how health professionals could ensure that the System IC is appropriately updated, when necessary.",
+      "he": "בעלי עניין רלוונטיים יוכלו לבחון דרכים לפיתוח כללים משותפים בנוגע לאופן שבו המידע הנחוץ שיוצב על כרטיס השתל למערכת נמסר יחד עם הרכיב הניתן להחלפה, וכיצד אנשי מקצוע הבריאות יוכלו להבטיח כי כרטיס השתל למערכת מעודכן כראוי, בעת הצורך."
+    },
+
+    {
+      "id": "annex-1",
+      "type": "heading",
+      "level": 1,
+      "number": "Annex I",
+      "en": "Annex I — examples of principle designs of Implant Cards and leaflets",
+      "he": "נספח I — דוגמאות לעיצובי יסוד של כרטיסי שתל ושל עלונים"
+    },
+    {
+      "id": "annex-general",
+      "type": "note",
+      "en": "GENERAL NOTE: All examples contained in this Annex are to be intended as illustrative examples only.",
+      "he": "הערה כללית: כל הדוגמאות הכלולות בנספח זה נועדו להמחשה בלבד.⁹"
+    },
+    {
+      "id": "annex-p1",
+      "type": "paragraph",
+      "en": "The basic shape of the IC shall be designed in compliance with ISO/IEC 7810 ID-1 (credit card form).",
+      "he": "צורת היסוד של כרטיס השתל תעוצב בהתאם לתקן ISO/IEC 7810 ID-1 (צורת כרטיס אשראי)."
+    },
+    {
+      "id": "annex-p2",
+      "type": "paragraph",
+      "en": "The following pictures provide examples for individual device ICs.",
+      "he": "התמונות הבאות מציגות דוגמאות לכרטיסי שתל של מכשיר בודד."
+    },
+    {
+      "id": "fn-9",
+      "type": "note",
+      "marker": "9",
+      "en": "Please note that this includes translations (into languages other than English) shown in Examples throughout Annex 1, which are machine translated and not intended to be read as official translations into EU languages.",
+      "he": "יש לשים לב כי הדבר כולל תרגומים (לשפות שאינן אנגלית) המוצגים בדוגמאות לאורך נספח 1, אשר תורגמו במכונה ואינם מיועדים להיקרא כתרגומים רשמיים לשפות האיחוד האירופי."
+    },
+    {
+      "id": "ex-1",
+      "type": "example",
+      "caption": {
+        "en": "Example 1 — Front (handwritten text on pre-printed content) and Back (blank — serial printed content in production). Not to scale.",
+        "he": "דוגמה 1 — חזית (טקסט בכתב יד על תוכן מודפס מראש) וגב (ריק — המספר הסידורי מודפס בייצור). לא בקנה מידה."
+      },
+      "verbatim": "International Implant Card\nJohn Smith\n27/05/2021\nABC Healthcare Center\n123 Medical Parkway, Cork, Ireland\nDr. H.C. Professional\nhttps://www.genericmed.com/patientimplantinfo\n----\nPM-5503 Pacer Advanced\nUDI-DI: (01)01865494261654\nSN79856214\nGenericmed\n500 Genericmed Place, Minneapolis, MN 55123 USA\nwww.genericmed.com"
+    },
+    {
+      "id": "ex-2",
+      "type": "example",
+      "caption": {
+        "en": "Example 2 — Back (blank — batch/lot printed content in production). Not to scale.",
+        "he": "דוגמה 2 — גב (ריק — מספר האצווה/lot מודפס בייצור). לא בקנה מידה."
+      },
+      "verbatim": "PM-5503 Pacer Advanced\nUDI-DI: (01)03584124658462\nAO.582122\nGenericmed\n500 Genericmed Place, Minneapolis, MN 55123 USA\nwww.genericmed.com"
+    },
+    {
+      "id": "ex-3",
+      "type": "example",
+      "caption": {
+        "en": "Example 3 — suggested design of a foldable System IC. To represent medical device systems in one IC, the IC shall be available in collapsible form. Not to scale.",
+        "he": "דוגמה 3 — עיצוב מוצע של כרטיס שתל מתקפל למערכת. כדי לאפשר ייצוג של מערכות מכשירים רפואיים בכרטיס שתל אחד, כרטיס השתל יהיה זמין בצורה מתקפלת. לא בקנה מידה."
+      },
+      "verbatim": "Pacemaker | Pacemaker Lead\nPM-5503 | PL-55-4\nPacer Advanced | Pacer Lead Pro\nUDI-DI: (01)85412654285216 | UDI-DI: (01)89654213882154\nSN65695452 | SN86223214\nGenericmed | Genericmed\n500 Genericmed Place, Minneapolis, MN 55123 USA\nInternational Implant Card — John Smith — 27/05/2021\nABC Healthcare Center, 123 Medical Parkway, Cork, Ireland — Dr. H.C. Professional\nwww.genericmed.com/patientimplantinfo | www.genericmed.com"
+    },
+
+    {
+      "id": "annex-leaflet",
+      "type": "heading",
+      "level": 2,
+      "en": "Examples of IC Leaflet",
+      "he": "דוגמאות לעלון כרטיס השתל"
+    },
+    {
+      "id": "leaflet-instr-intro",
+      "type": "paragraph",
+      "en": "Instruction for completion (to be provided in the language(s) determined by the concerned member State(s)).",
+      "he": "הוראות מילוי (יסופקו בשפה/בשפות שנקבעו על ידי המדינה/ות החברה/ות הנוגעת/ות בדבר)."
+    },
+    {
+      "id": "ex-leaflet-front1",
+      "type": "example",
+      "caption": {
+        "en": "Front 1 (no stickers — preferred option).",
+        "he": "חזית 1 (ללא מדבקות — האפשרות המועדפת)."
+      },
+      "verbatim": "PM-5503\nPacer Advanced\n(01)85412654285216\nwww.genericmed.com/patientimplantinfo\nSN65695452\nGenericmed\n500 Genericmed Place, Minneapolis, MN 55123"
+    },
+    {
+      "id": "leaflet-front1-list",
+      "type": "list",
+      "ordered": true,
+      "items": [
+        { "en": "Name of the patient or patient ID. To be filled by the healthcare institution/provider.", "he": "שם המטופל או מזהה המטופל. ימולא על ידי מוסד/ספק הבריאות." },
+        { "en": "Date of implantation. To be filled by the healthcare institution/provider.", "he": "תאריך ההשתלה. ימולא על ידי מוסד/ספק הבריאות." },
+        { "en": "Name and address of the healthcare institution/provider. To be filled by the healthcare institution/provider.", "he": "שם וכתובת מוסד/ספק הבריאות. ימולא על ידי מוסד/ספק הבריאות." }
+      ]
+    },
+    {
+      "id": "ex-leaflet-front2",
+      "type": "example",
+      "caption": {
+        "en": "Front 2 (sticker only for device type information).",
+        "he": "חזית 2 (מדבקה רק עבור מידע על סוג המכשיר)."
+      },
+      "verbatim": "PM-5503\nPacer Advanced\n(01)85412654285216\nwww.genericmed.com/patientimplantinfo\nSN65695452\nGenericmed\n500 Genericmed Place, Minneapolis, MN 55123\n[Sticker no. 5 — device type in required language]"
+    },
+    {
+      "id": "leaflet-front2-list",
+      "type": "list",
+      "ordered": true,
+      "items": [
+        { "en": "Name of the patient or patient ID. To be filled by the healthcare institution/provider.", "he": "שם המטופל או מזהה המטופל. ימולא על ידי מוסד/ספק הבריאות." },
+        { "en": "Date of implantation. To be filled by the healthcare institution/provider.", "he": "תאריך ההשתלה. ימולא על ידי מוסד/ספק הבריאות." },
+        { "en": "Name and address of the healthcare institution. To be filled by the healthcare institution/provider.", "he": "שם וכתובת מוסד הבריאות. ימולא על ידי מוסד/ספק הבריאות." },
+        { "en": "Add sticker with device type in required language. (field 5)", "he": "הוסף מדבקה עם סוג המכשיר בשפה הנדרשת. (שדה 5)" }
+      ]
+    },
+    {
+      "id": "ex-leaflet-front3",
+      "type": "example",
+      "caption": {
+        "en": "Front 3 (stickers). Stickers to be detached and placed on the right place at the IC according to the numbers.",
+        "he": "חזית 3 (מדבקות). יש לתלוש את המדבקות ולהדביקן במקום הנכון על כרטיס השתל בהתאם למספרים."
+      },
+      "verbatim": "[Sticker layout — fields numbered 4–10 placed on the IC]\n4, 5, 6, 7, 8, 9, 10"
+    },
+    {
+      "id": "leaflet-front3-list",
+      "type": "list",
+      "ordered": true,
+      "items": [
+        { "en": "Name of the patient or patient ID. To be filled by the healthcare institution/provider.", "he": "שם המטופל או מזהה המטופל. ימולא על ידי מוסד/ספק הבריאות." },
+        { "en": "Date of implantation. To be filled by the healthcare institution/provider.", "he": "תאריך ההשתלה. ימולא על ידי מוסד/ספק הבריאות." },
+        { "en": "Name and address of the healthcare institution/provider. To be filled by the healthcare institution/provider.", "he": "שם וכתובת מוסד/ספק הבריאות. ימולא על ידי מוסד/ספק הבריאות." },
+        { "en": "Manufacturer's information website.", "he": "אתר המידע של היצרן." },
+        { "en": "Device type in required language.", "he": "סוג המכשיר בשפה הנדרשת." },
+        { "en": "Device name.", "he": "שם המכשיר." },
+        { "en": "UDI-DI Code (HRI).", "he": "קוד UDI-DI (HRI)." },
+        { "en": "UDI code (AIDC format).", "he": "קוד UDI (פורמט AIDC)." },
+        { "en": "Serial number.", "he": "מספר סידורי." },
+        { "en": "Name and address of the manufacturer of the implanted medical device.", "he": "שם וכתובת היצרן של המכשיר הרפואי המושתל." }
+      ]
+    },
+    {
+      "id": "leaflet-front3-note",
+      "type": "note",
+      "en": "NOTE: Fields 4-10 might be filled with stickers (though this is not the preferred solution).",
+      "he": "הערה: שדות 4–10 ניתנים למילוי באמצעות מדבקות (אם כי זו אינה האפשרות המועדפת)."
+    },
+
+    {
+      "id": "annex-back",
+      "type": "heading",
+      "level": 2,
+      "en": "Back — Explanation / translation of symbols",
+      "he": "גב הכרטיס — הסבר/תרגום הסמלים"
+    },
+    {
+      "id": "annex-back-p1",
+      "type": "paragraph",
+      "en": "On the back of the leaflet/card, each symbol's term is shown translated into the official EU languages (illustrative, machine-translated per note 9). The fields covered are:",
+      "he": "בגב העלון/הכרטיס מוצג המונח של כל סמל מתורגם לשפות הרשמיות של האיחוד האירופי (להמחשה בלבד, בתרגום מכונה בהתאם להערה 9). השדות הנכללים הם:"
+    },
+    {
+      "id": "annex-back-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Patient Name or patient ID", "he": "שם המטופל או מזהה המטופל" },
+        { "en": "Name and Address of the implanting healthcare institution/provider", "he": "שם וכתובת מוסד/ספק הבריאות המשתיל" },
+        { "en": "Date of Implantation", "he": "תאריך ההשתלה" },
+        { "en": "Device Name", "he": "שם המכשיר" },
+        { "en": "Name and Address of the manufacturer", "he": "שם וכתובת היצרן" },
+        { "en": "Information website for patients", "he": "אתר אינטרנט מידע למטופלים" },
+        { "en": "Translation of serial number in required languages.", "he": "תרגום המספר הסידורי בשפות הנדרשות." },
+        { "en": "Translation of LOT number in required languages.", "he": "תרגום מספר ה-LOT בשפות הנדרשות." },
+        { "en": "Explanation of unique device identifier (UDI) in required languages.", "he": "הסבר על זיהוי המכשיר הייחודי (UDI) בשפות הנדרשות." }
+      ]
+    },
+    {
+      "id": "annex-back-attach",
+      "type": "note",
+      "en": "A dedicated area on the leaflet is marked: \"Place to attach the Implant card\".",
+      "he": "בעלון מסומן אזור ייעודי: \"מקום להצמדת כרטיס השתל\"."
+    }
+  ]
+}
