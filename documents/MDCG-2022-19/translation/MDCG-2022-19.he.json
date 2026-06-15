@@ -1,0 +1,213 @@
+{
+  "id": "MDCG-2022-19",
+  "title": {
+    "en": "Performance study application/notification documents under Regulation (EU) 2017/746",
+    "he": "מסמכי בקשה/הודעה למחקר ביצועים על פי תקנה (האיחוד האירופי) 2017/746"
+  },
+  "category": "In Vitro Diagnostic Medical Devices (IVD)",
+  "publicationDate": "2022-12",
+  "source": {
+    "url": "https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en",
+    "file": "original/mdcg_2022-19_en.pdf"
+  },
+  "language": "he",
+  "direction": "rtl",
+  "translationStatus": "review",
+  "glossaryVersion": "2026-06",
+  "blocks": [
+    {
+      "id": "disclaimer-1",
+      "type": "paragraph",
+      "en": "This document has been endorsed by the Medical Device Coordination Group (MDCG) established by Article 103 of Regulation (EU) 2017/746. The MDCG is composed of representatives of all Member States and it is chaired by a representative of the European Commission.",
+      "he": "מסמך זה אושר על ידי קבוצת תיאום המכשירים הרפואיים (MDCG) שהוקמה מכוח סעיף 103 לתקנה (האיחוד האירופי) 2017/746. ה-MDCG מורכבת מנציגים של כל המדינות החברות ובראשה עומד נציג של הנציבות האירופית."
+    },
+    {
+      "id": "disclaimer-2",
+      "type": "paragraph",
+      "en": "The document is not a European Commission document and it cannot be regarded as reflecting the official position of the European Commission. Any views expressed in this document are not legally binding and only the Court of Justice of the European Union can give binding interpretations of Union law.",
+      "he": "המסמך אינו מסמך של הנציבות האירופית ואין לראות בו כמשקף את העמדה הרשמית של הנציבות האירופית. כל דעה המובעת במסמך זה אינה מחייבת מבחינה משפטית, ורק בית הדין לצדק של האיחוד האירופי מוסמך לתת פרשנות מחייבת לדין האיחוד."
+    },
+
+    {
+      "id": "toc",
+      "type": "heading",
+      "level": 1,
+      "en": "Table of contents",
+      "he": "תוכן העניינים"
+    },
+    {
+      "id": "toc-list",
+      "type": "list",
+      "ordered": true,
+      "items": [
+        { "en": "1 ACRONYMS", "he": "1 ראשי תיבות" },
+        { "en": "2 INTRODUCTION", "he": "2 מבוא" },
+        { "en": "3 ANNEX – TEMPLATES", "he": "3 נספח – תבניות" }
+      ]
+    },
+
+    {
+      "id": "sec-1",
+      "type": "heading",
+      "level": 1,
+      "number": "1",
+      "en": "Acronyms",
+      "he": "ראשי תיבות"
+    },
+    {
+      "id": "sec-1-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          { "en": "Acronym", "he": "ראשי תיבות" },
+          { "en": "Meaning", "he": "משמעות" }
+        ],
+        [
+          { "en": "EUDAMED", "he": "EUDAMED" },
+          { "en": "European database on medical devices", "he": "מסד הנתונים האירופי למכשירים רפואיים" }
+        ],
+        [
+          { "en": "GSPR", "he": "GSPR" },
+          { "en": "General safety and performance requirements", "he": "דרישות כלליות לבטיחות וביצועים" }
+        ],
+        [
+          { "en": "NCA", "he": "NCA" },
+          { "en": "National competent authority", "he": "רשות מוסמכת לאומית" }
+        ],
+        [
+          { "en": "PMPF", "he": "PMPF" },
+          { "en": "Post-market perfomance follow-up", "he": "מעקב ביצועים שלאחר שיווק" }
+        ],
+        [
+          { "en": "REC", "he": "REC" },
+          { "en": "Research ethics committee", "he": "ועדת אתיקה למחקר" }
+        ]
+      ]
+    },
+
+    {
+      "id": "sec-2",
+      "type": "heading",
+      "level": 1,
+      "number": "2",
+      "en": "Introduction",
+      "he": "מבוא"
+    },
+    {
+      "id": "sec-2-p1",
+      "type": "paragraph",
+      "en": "The sponsor of a performance study is required to submit an application/notification1 to the Member State(s) in which a performance study is to be conducted, accompanied by the documentation referred to in Chapter I of Annex XIV of Regulation (EU) 2017/746 on in vitro diagnostic medical devices (the IVDR). The application/notification must be submitted by means of the electronic system referred to in Article 69 of the IVDR.",
+      "he": "נותן החסות (sponsor) של מחקר ביצועים נדרש להגיש בקשה/הודעה¹ למדינה/למדינות החברות שבהן עתיד להתבצע מחקר הביצועים, בליווי התיעוד הנזכר בפרק I לנספח XIV לתקנה (האיחוד האירופי) 2017/746 בנושא מכשירים רפואיים לאבחון ויטרו (ה-IVDR). את הבקשה/ההודעה יש להגיש באמצעות המערכת האלקטרונית הנזכרת בסעיף 69 ל-IVDR."
+    },
+    {
+      "id": "sec-2-p2",
+      "type": "paragraph",
+      "en": "In the absence of the European database on medical devices (EUDAMED), a series of performance study application/notification documents have been created to support performance study procedures with respect to the IVDR.",
+      "he": "בהיעדר מסד הנתונים האירופי למכשירים רפואיים (EUDAMED), נוצרה סדרה של מסמכי בקשה/הודעה למחקר ביצועים כדי לתמוך בהליכי מחקר ביצועים ביחס ל-IVDR."
+    },
+    {
+      "id": "sec-2-p3",
+      "type": "paragraph",
+      "en": "These documents include:",
+      "he": "מסמכים אלה כוללים:"
+    },
+    {
+      "id": "sec-2-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Performance study – application/notification form under the IVDR", "he": "מחקר ביצועים – טופס בקשה/הודעה על פי ה-IVDR" },
+        { "en": "Addendum to the performance study application/notification form for:", "he": "תוספת לטופס הבקשה/ההודעה למחקר ביצועים עבור:" },
+        { "en": "Additional performance device(s) (section 3)", "he": "מכשיר/י ביצועים נוספים (סעיף 3)" },
+        { "en": "Additional comparator device(s) (section 4)", "he": "מכשיר/י השוואה (comparator) נוספים (סעיף 4)" },
+        { "en": "Additional site(s) (section 5)", "he": "אתר/ים נוספים (סעיף 5)" },
+        { "en": "Performance study supporting documents - Appendix of documents to attach", "he": "מסמכים תומכים למחקר ביצועים – נספח של מסמכים לצירוף" },
+        { "en": "Checklist of general safety and performance requirements, standards, common specifications and scientific opinions", "he": "רשימת תיוג של דרישות כלליות לבטיחות וביצועים, תקנים, מפרטים משותפים וחוות דעת מדעיות" }
+      ]
+    },
+    {
+      "id": "sec-2-p4",
+      "type": "paragraph",
+      "en": "Insofar as possible, the performance study application/notification form includes the same data fields as the EUDAMED system in development.",
+      "he": "ככל האפשר, טופס הבקשה/ההודעה למחקר ביצועים כולל את אותם שדות נתונים כמו מערכת EUDAMED הנמצאת בפיתוח."
+    },
+    {
+      "id": "sec-2-p5",
+      "type": "paragraph",
+      "en": "For further guidance with respect to the application of certain IVDR provisions in the absence of EUDAMED please see MDCG 2022-122. In the absence of EUDAMED, the Union-wide unique single identification number for a performance study, to be used for all relevant communication in relation to that performance study, will be the CIV-ID which can be generated in Eudamed2, the electronic system which supports the medical device Directives.",
+      "he": "להנחיה נוספת בנוגע ליישום הוראות מסוימות של ה-IVDR בהיעדר EUDAMED, ראו MDCG 2022-12². בהיעדר EUDAMED, מספר הזיהוי היחיד והייחודי ברחבי האיחוד עבור מחקר ביצועים, שישמש לכל התקשורת הרלוונטית הנוגעת לאותו מחקר ביצועים, יהיה ה-CIV-ID, אשר ניתן להפיקו ב-Eudamed2, המערכת האלקטרונית התומכת בדירקטיבות המכשירים הרפואיים."
+    },
+    {
+      "id": "sec-2-sub-1",
+      "type": "heading",
+      "level": 2,
+      "en": "Use of templates",
+      "he": "שימוש בתבניות"
+    },
+    {
+      "id": "sec-2-p6",
+      "type": "paragraph",
+      "en": "These documents are intended to be facilitative and their use by the competent authorities and sponsors is encouraged, however it is important to check with the individual Member State in which the performance study is planned to be conducted for any specific national requirements. It is planned that these templates will be withdrawn once the EUDAMED module for performance studies is fully functional. Further operational guidance with respect to the use of the templates may be provided in due course.",
+      "he": "מסמכים אלה נועדו להקל, והשימוש בהם על ידי הרשויות המוסמכות ונותני החסות מעודד; עם זאת, חשוב לברר מול המדינה החברה שבה מתוכנן להתבצע מחקר הביצועים בנוגע לדרישות לאומיות ספציפיות. מתוכנן כי תבניות אלה יבוטלו לאחר שהמודול של EUDAMED למחקרי ביצועים יהיה פעיל במלואו. ייתכן שתינתן בעתיד הנחיה תפעולית נוספת בנוגע לשימוש בתבניות."
+    },
+    {
+      "id": "fn-1",
+      "type": "note",
+      "marker": "1",
+      "en": "Performance study application (IVDR Art. 66(1)), PMPF study notification (IVDR Art. 70(1)).",
+      "he": "בקשה למחקר ביצועים (IVDR סעיף 66(1)), הודעה על מחקר PMPF (IVDR סעיף 70(1))."
+    },
+    {
+      "id": "fn-2",
+      "type": "note",
+      "marker": "2",
+      "en": "MDCG 2022-12 Guidance on harmonised administrative practices and alternative technical solutions until EUDAMED is fully functional (for Regulation (EU) 2017/746 on in vitro diagnostic medical devices)",
+      "he": "MDCG 2022-12 הנחיה בנושא נוהלי מינהל מתואמים ופתרונות טכניים חלופיים עד אשר EUDAMED יהיה פעיל במלואו (עבור תקנה (האיחוד האירופי) 2017/746 בנושא מכשירים רפואיים לאבחון ויטרו)"
+    },
+
+    {
+      "id": "sec-3",
+      "type": "heading",
+      "level": 1,
+      "number": "3",
+      "en": "Annex – Templates",
+      "he": "נספח – תבניות"
+    },
+    {
+      "id": "sec-3-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          { "en": "Title", "he": "כותרת" },
+          { "en": "Document", "he": "מסמך" }
+        ],
+        [
+          { "en": "Performance study – application/notification form under Regulation (EU) 2017/746 on in vitro diagnostic medical devices", "he": "מחקר ביצועים – טופס בקשה/הודעה על פי תקנה (האיחוד האירופי) 2017/746 בנושא מכשירים רפואיים לאבחון ויטרו" },
+          { "en": "View document", "he": "צפייה במסמך" }
+        ],
+        [
+          { "en": "Additional performance device(s) (section 3)", "he": "מכשיר/י ביצועים נוספים (סעיף 3)" },
+          { "en": "View document", "he": "צפייה במסמך" }
+        ],
+        [
+          { "en": "Additional comparator device(s) (section 4)", "he": "מכשיר/י השוואה (comparator) נוספים (סעיף 4)" },
+          { "en": "View document", "he": "צפייה במסמך" }
+        ],
+        [
+          { "en": "Additional site(s) (section 5)", "he": "אתר/ים נוספים (סעיף 5)" },
+          { "en": "View document", "he": "צפייה במסמך" }
+        ],
+        [
+          { "en": "Performance study supporting documents – Appendix of documents to attach", "he": "מסמכים תומכים למחקר ביצועים – נספח של מסמכים לצירוף" },
+          { "en": "View document", "he": "צפייה במסמך" }
+        ],
+        [
+          { "en": "Checklist of general safety and performance requirements, standards, common specifications and scientific opinions", "he": "רשימת תיוג של דרישות כלליות לבטיחות וביצועים, תקנים, מפרטים משותפים וחוות דעת מדעיות" },
+          { "en": "View document", "he": "צפייה במסמך" }
+        ]
+      ]
+    }
+  ]
+}

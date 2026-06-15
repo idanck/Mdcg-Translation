@@ -1,0 +1,156 @@
+{
+  "id": "MDCG-2024-13",
+  "title": {
+    "en": "Regulatory status of ethylene oxide (EtO) intended for the sterilisation of medical devices",
+    "he": "המעמד הרגולטורי של אתילן אוקסיד (ethylene oxide, EtO) המיועד לעיקור מכשירים רפואיים"
+  },
+  "category": "Borderline and Classification",
+  "publicationDate": "2024-10",
+  "source": {
+    "url": "https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en",
+    "file": "original/mdcg_2024-13_en.pdf"
+  },
+  "language": "he",
+  "direction": "rtl",
+  "translationStatus": "review",
+  "glossaryVersion": "2026-06",
+  "blocks": [
+    {
+      "id": "disclaimer-1",
+      "type": "paragraph",
+      "en": "This document has been endorsed by the Medical Device Coordination Group (MDCG) established by Article 103 of Regulation (EU) 2017/745. The MDCG is composed of representatives of all Member States and it is chaired by a representative of the European Commission.",
+      "he": "מסמך זה אושר על ידי קבוצת תיאום המכשירים הרפואיים (MDCG) שהוקמה מכוח סעיף 103 לתקנה (האיחוד האירופי) 2017/745. ה-MDCG מורכבת מנציגים של כל המדינות החברות ובראשה עומד נציג של הנציבות האירופית."
+    },
+    {
+      "id": "disclaimer-2",
+      "type": "paragraph",
+      "en": "The document is not a European Commission document and it cannot be regarded as reflecting the official position of the European Commission. Any views expressed in this document are not legally binding and only the Court of Justice of the European Union can give binding interpretations of Union law.",
+      "he": "המסמך אינו מסמך של הנציבות האירופית ואין לראות בו כמשקף את העמדה הרשמית של הנציבות האירופית. כל דעה המובעת במסמך זה אינה מחייבת מבחינה משפטית, ורק בית הדין לצדק של האיחוד האירופי מוסמך לתת פרשנות מחייבת לדין האיחוד."
+    },
+
+    {
+      "id": "sec-1",
+      "type": "heading",
+      "level": 1,
+      "number": "1",
+      "en": "Introduction",
+      "he": "מבוא"
+    },
+    {
+      "id": "sec-1-p1",
+      "type": "paragraph",
+      "en": "The regulatory status of ethylene oxide (EtO) for the sterilisation of single-use medical devices during the manufacturing process has been discussed in relation to the Review Programme under Regulation (EU) 528/2012 on biocidal products (BPR).",
+      "he": "המעמד הרגולטורי של אתילן אוקסיד (ethylene oxide, EtO) לעיקור מכשירים רפואיים חד-פעמיים במהלך תהליך הייצור נדון בהקשר של תוכנית הבחינה (Review Programme) במסגרת תקנה (האיחוד האירופי) 528/2012 בנושא מוצרים ביוצידיים (BPR)."
+    },
+    {
+      "id": "sec-1-p2",
+      "type": "paragraph",
+      "en": "Ethylene oxide (EtO) is used to sterilise a wide range of medical products, such as medical devices, in vitro diagnostic medical devices (IVDs) and medicinal products, as well as products combining them. Sterilisation of products that are placed on the market in sterile condition is part of the manufacturing process and is usually carried out in large industrial units either by the manufacturers themselves or by external sterilisation service providers.",
+      "he": "אתילן אוקסיד (EtO) משמש לעיקור מגוון רחב של מוצרים רפואיים, כגון מכשירים רפואיים, מכשירים רפואיים לאבחון ויטרו (IVDs) ומוצרי תרופות, וכן מוצרים המשלבים ביניהם. עיקור מוצרים המשווקים במצב סטרילי הוא חלק מתהליך הייצור, ובדרך כלל מתבצע ביחידות תעשייתיות גדולות, אם על ידי היצרנים עצמם ואם על ידי ספקי שירותי עיקור חיצוניים."
+    },
+    {
+      "id": "sec-1-p3",
+      "type": "paragraph",
+      "en": "On a much smaller scale, EtO is also provided in cartridges for sterilisation of reusable medical devices, mainly in health institutions for use of such devices. Those EtO-containing cartridges, which are used for the supply of EtO to specific EtO sterilisers, are generally CE marked in accordance with the previous Directive 93/42/EEC or the current Regulation (EU) 2017/745 on medical devices (the 'MDR').",
+      "he": "בהיקף קטן בהרבה, EtO מסופק גם במחסניות (cartridges) לעיקור מכשירים רפואיים רב-פעמיים, בעיקר במוסדות בריאות לצורך שימוש במכשירים כאלה. מחסניות אלה המכילות EtO, המשמשות לאספקת EtO למעקרי EtO ייעודיים, נושאות בדרך כלל סימון CE בהתאם להוראה הקודמת 93/42/EEC או לתקנה הנוכחית (האיחוד האירופי) 2017/745 בנושא מכשירים רפואיים (ה-'MDR')."
+    },
+
+    {
+      "id": "sec-2",
+      "type": "heading",
+      "level": 1,
+      "number": "2",
+      "en": "Regulatory status of EtO for sterilisation of medical devices",
+      "he": "המעמד הרגולטורי של EtO לעיקור מכשירים רפואיים"
+    },
+
+    {
+      "id": "sec-2-1",
+      "type": "heading",
+      "level": 2,
+      "number": "2.1",
+      "en": "EtO sterilisation during the manufacturing process",
+      "he": "עיקור ב-EtO במהלך תהליך הייצור"
+    },
+    {
+      "id": "sec-2-1-p1",
+      "type": "paragraph",
+      "en": "EtO is a substance that is used in the manufacturing process of many medical devices and IVDs which are placed on the market in a sterile condition. As part of its Quality Management System (QMS) pursuant to Article 10(9) MDR and Article 10(8) IVDR, the relevant medical device manufacturers must address, among other matters, the sterilisation process and its validation, which is further specified e.g. in the harmonised standard EN ISO 13485:2016 - Medical devices — Quality management systems — Requirements for regulatory purposes.",
+      "he": "EtO הוא חומר המשמש בתהליך הייצור של מכשירים רפואיים ו-IVDs רבים המשווקים במצב סטרילי. כחלק ממערכת ניהול האיכות (QMS) שלו לפי סעיף 10(9) ל-MDR וסעיף 10(8) ל-IVDR, על יצרני המכשירים הרפואיים הרלוונטיים להתייחס, בין היתר, לתהליך העיקור ולתיקופו (validation), המפורט עוד למשל בתקן המתואם EN ISO 13485:2016 - Medical devices — Quality management systems — Requirements for regulatory purposes."
+    },
+    {
+      "id": "sec-2-1-p2",
+      "type": "paragraph",
+      "en": "In addition, several provisions in the MDR and IVDR specifically address the sterilisation of devices, in particular",
+      "he": "בנוסף, מספר הוראות ב-MDR וב-IVDR מתייחסות באופן ספציפי לעיקור מכשירים, ובפרט:"
+    },
+    {
+      "id": "sec-2-1-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "en": "the general safety and performance requirements in Annex I MDR/IVDR (see sections 11.3-11.6 and 11.2-11.4 respectively), which are further specified in (harmonised) standards, such as",
+          "he": "הדרישות הכלליות לבטיחות וביצועים בנספח I ל-MDR/IVDR (ראו סעיפים 11.3-11.6 ו-11.2-11.4 בהתאמה), המפורטות עוד בתקנים (מתואמים), כגון:"
+        },
+        {
+          "en": "EN ISO 11135:2014 + A1:2019: Sterilisation of health-care products - Ethylene oxide - Requirements for the development, validation and routine control of a sterilisation process for medical devices,",
+          "he": "EN ISO 11135:2014 + A1:2019: Sterilisation of health-care products - Ethylene oxide - Requirements for the development, validation and routine control of a sterilisation process for medical devices,"
+        },
+        {
+          "en": "EN ISO 10993-7:2008 + AC:2009 + A1:2022: Biological evaluation of medical devices - Part 7: Ethylene oxide sterilization residuals,",
+          "he": "EN ISO 10993-7:2008 + AC:2009 + A1:2022: Biological evaluation of medical devices - Part 7: Ethylene oxide sterilization residuals,"
+        },
+        {
+          "en": "EN 556-1:2024: Sterilization of medical devices - Requirements for medical devices to be designated \"STERILE\" - Part 1: Requirements for terminally sterilized medical devices",
+          "he": "EN 556-1:2024: Sterilization of medical devices - Requirements for medical devices to be designated \"STERILE\" - Part 1: Requirements for terminally sterilized medical devices"
+        },
+        {
+          "en": "the technical documentation described in Annex II MDR/IVDR,",
+          "he": "התיעוד הטכני המתואר בנספח II ל-MDR/IVDR,"
+        },
+        {
+          "en": "the qualification requirements of notified body personnel laid down in Annex VII (sections 3.2.1 and 3.2.5) and",
+          "he": "דרישות הכשירות של צוות הגוף המאונתר הקבועות בנספח VII (סעיפים 3.2.1 ו-3.2.5), וכן"
+        },
+        {
+          "en": "the conformity assessment procedures laid down in Annex IX and XI MDR/IVDR (e.g. Annex IX, section 2.2 and 3.2 respectively).",
+          "he": "הליכי הערכת ההתאמה הקבועים בנספחים IX ו-XI ל-MDR/IVDR (למשל נספח IX, סעיף 2.2 ו-3.2 בהתאמה)."
+        }
+      ]
+    },
+    {
+      "id": "sec-2-1-p3",
+      "type": "paragraph",
+      "en": "As a consequence, EtO used for sterilisation during the manufacturing of medical devices and IVDs is used for a process that falls within the regulatory obligations imposed by the MDR and IVDR. That means that this use of EtO is in scope of the MDR and IVDR even though EtO does not itself fall under the definitions of medical device or accessory for a medical device if used during the manufacturing process. Therefore, EtO falls outside the scope of the BPR, as its Article 2(2)(b) provides that the BPR does not apply in case of biocidal products or treated articles falling within the scope of the MDR or IVDR.",
+      "he": "כתוצאה מכך, EtO המשמש לעיקור במהלך ייצור מכשירים רפואיים ו-IVDs משמש לתהליך הנכנס בגדר החובות הרגולטוריות המוטלות על ידי ה-MDR וה-IVDR. משמעות הדבר היא ששימוש זה ב-EtO נכלל בתחולת ה-MDR וה-IVDR, אף על פי ש-EtO עצמו אינו נכנס בגדר ההגדרות של מכשיר רפואי או של אביזר למכשיר רפואי כאשר הוא משמש במהלך תהליך הייצור. לפיכך, EtO נופל מחוץ לתחולת ה-BPR, שכן סעיף 2(2)(b) שלה קובע כי ה-BPR אינה חלה על מוצרים ביוצידיים או על פריטים מטופלים הנכללים בתחולת ה-MDR או ה-IVDR."
+    },
+    {
+      "id": "sec-2-1-p4",
+      "type": "paragraph",
+      "en": "Where EtO is used for sterilisation during the manufacturing of medical devices and IVDs, its use is controlled as part of the sterilisation and validation processes of the manufacturer. These processes are subject to MDR/IVDR conformity assessment procedure in relation to the device being sterilised. EtO itself is not subject to additional MDR/IVDR conformity assessments.",
+      "he": "כאשר EtO משמש לעיקור במהלך ייצור מכשירים רפואיים ו-IVDs, השימוש בו נשלט כחלק מתהליכי העיקור והתיקוף של היצרן. תהליכים אלה כפופים להליך הערכת ההתאמה לפי ה-MDR/IVDR ביחס למכשיר העובר עיקור. EtO עצמו אינו כפוף להערכות התאמה נוספות לפי ה-MDR/IVDR."
+    },
+
+    {
+      "id": "sec-2-2",
+      "type": "heading",
+      "level": 2,
+      "number": "2.2",
+      "en": "EtO used by health institutions for sterilisation of medical devices before or after their use",
+      "he": "EtO המשמש מוסדות בריאות לעיקור מכשירים רפואיים לפני השימוש בהם או לאחריו"
+    },
+    {
+      "id": "sec-2-2-p1",
+      "type": "paragraph",
+      "en": "EtO and the associated sterilising equipment can also be used by health institutions for sterilisation before first use of medical devices or after their use to enable their re-use. This is different from the use described in section 2.1.",
+      "he": "EtO וציוד העיקור הנלווה יכולים לשמש גם מוסדות בריאות לעיקור לפני השימוש הראשון במכשירים רפואיים, או לאחר השימוש בהם כדי לאפשר את השימוש החוזר בהם. שימוש זה שונה מהשימוש המתואר בסעיף 2.1."
+    },
+    {
+      "id": "sec-2-2-p2",
+      "type": "paragraph",
+      "en": "In this case the EtO cartridges used for the sterilisation are in scope of the MDR by virtue of falling under the definition of medical device, or accessory for a medical device, and therefore are outside the scope of the BPR as per Article 2(2)(b) BPR.",
+      "he": "במקרה זה, מחסניות ה-EtO המשמשות לעיקור נכללות בתחולת ה-MDR מכוח היותן נכנסות בגדר ההגדרה של מכשיר רפואי, או אביזר למכשיר רפואי, ולפיכך הן נמצאות מחוץ לתחולת ה-BPR בהתאם לסעיף 2(2)(b) ל-BPR."
+    }
+  ]
+}

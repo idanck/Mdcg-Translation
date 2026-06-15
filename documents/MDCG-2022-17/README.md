@@ -1,8 +1,8 @@
 # MDCG-2022-17
 
-**Title:** Guidance on a MDR Corrective and Preventive Action Plan for the Notified Body Consultative Committee (NBCC)  
+**Title:** MDCG 2022-17 — MDCG position paper on 'hybrid audits'  
 **Category:** PMS and Vigilance  
-**Publication date:** October 2022  
+**Publication date:** December 2022  
 **Source:** [https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en](https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en)
 
 ---
