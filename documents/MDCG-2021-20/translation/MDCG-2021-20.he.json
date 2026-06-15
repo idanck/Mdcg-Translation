@@ -27,8 +27,9 @@
       "en": "The document is not a European Commission document and it cannot be regarded as reflecting the official position of the European Commission. Any views expressed in this document are not legally binding and only the Court of Justice of the European Union can give binding interpretations of Union law.",
       "he": "המסמך אינו מסמך של הנציבות האירופית ואין לראות בו כמשקף את העמדה הרשמית של הנציבות האירופית. כל דעה המובעת במסמך זה אינה מחייבת מבחינה משפטית, ורק בית הדין לצדק של האיחוד האירופי מוסמך לתת פרשנות מחייבת לדין האיחוד."
     },
+
     {
-      "id": "sec-intro",
+      "id": "intro",
       "type": "heading",
       "level": 1,
       "en": "Introduction",
@@ -37,16 +38,16 @@
     {
       "id": "intro-p1",
       "type": "paragraph",
-      "en": "For clinical investigations under Regulation (EU) 2017/745 (MDR) the Competent Authorities (CAs) use Eudamed2 to obtain a Union-wide unique single identification number (the 'CIV-ID'), upon submission of the required information to Eudamed2 (continuation of current MDD practice) see MDCG 2021-1 Rev.1. To do so, the below steps need to be followed:",
-      "he": "עבור חקירות קליניות לפי תקנה (האיחוד האירופי) 2017/745 (MDR), הרשויות המוסמכות (CAs) משתמשות ב-Eudamed2 כדי לקבל מספר זיהוי יחיד וייחודי בכל רחבי האיחוד ('CIV-ID'), בעת הגשת המידע הנדרש ל-Eudamed2 (המשך לנוהג הנוכחי לפי ה-MDD), ראו MDCG 2021-1 Rev.1. לשם כך, יש לבצע את השלבים הבאים:"
+      "en": "For clinical investigations under Regulation (EU) 2017/745 (MDR) the Competent Authorities (CAs) use Eudamed2 to obtain a Union-wide unique single identification number (the ‘CIV-ID’), upon submission of the required information to Eudamed2 (continuation of current MDD practice) see MDCG 2021-1 Rev.1. To do so, the below steps need to be followed:",
+      "he": "עבור חקירות קליניות לפי תקנה (האיחוד האירופי) 2017/745 (MDR), הרשויות המוסמכות (CAs) משתמשות ב-Eudamed2 כדי לקבל מספר זיהוי יחיד וייחודי ברמת האיחוד (ה-‘CIV-ID’), לאחר הגשת המידע הנדרש ל-Eudamed2 (המשך לפרקטיקה הנוכחית לפי ה-MDD), ראה MDCG 2021-1 Rev.1. לשם כך, יש לבצע את השלבים הבאים:"
     },
     {
-      "id": "intro-list",
+      "id": "intro-steps",
       "type": "list",
       "ordered": false,
       "items": [
-        { "en": "STEP 1 – Search /generate a Clinical Investigation ID, ('CIV ID')", "he": "שלב 1 – חיפוש / יצירה של מזהה חקירה קלינית ('CIV ID')" },
-        { "en": "STEP 2 – Enter the mandatory details of the related Clinical Investigation.", "he": "שלב 2 – הזנת הפרטים החובה של החקירה הקלינית הנוגעת בדבר." }
+        { "en": "STEP 1 – Search /generate a Clinical Investigation ID, ('CIV ID')", "he": "STEP 1 – חיפוש / יצירה של מזהה חקירה קלינית ('CIV ID')." },
+        { "en": "STEP 2 – Enter the mandatory details of the related Clinical Investigation.", "he": "STEP 2 – הזנת הפרטים החובה של החקירה הקלינית הנוגעת בדבר." }
       ]
     },
     {
@@ -60,17 +61,20 @@
       "type": "list",
       "ordered": true,
       "items": [
-        { "en": "Always start the Clinical Investigation title with \"MDR\" (\"MDR – title\", i.e.: MDR - Detecting Traumatic Intracranial Haemorrhage with Microwave Technology)", "he": "תמיד יש להתחיל את כותרת החקירה הקלינית במילה \"MDR\" (\"MDR – כותרת\", למשל: MDR - Detecting Traumatic Intracranial Haemorrhage with Microwave Technology)" },
-        { "en": "Always enter the Sponsor details (this is optional in Eudamed2)", "he": "תמיד יש להזין את פרטי היזם (Sponsor) (במערכת Eudamed2 זהו שדה אופציונלי)" },
-        { "en": "Do not indicate the risk class of the investigational device (MDR risk classes are not present in Eudamed2)", "he": "אין לציין את סיווג הסיכון של המכשיר הנחקר (סיווגי הסיכון של ה-MDR אינם קיימים ב-Eudamed2)" }
+        { "en": "Always start the Clinical Investigation title with “MDR” (“MDR – title”, i.e.: MDR - Detecting Traumatic Intracranial Haemorrhage with Microwave Technology)", "he": "תמיד התחל את כותרת החקירה הקלינית במילה “MDR” (“MDR – כותרת”, כלומר: MDR - Detecting Traumatic Intracranial Haemorrhage with Microwave Technology)." },
+        { "en": "Always enter the Sponsor details (this is optional in Eudamed2)", "he": "תמיד הזן את פרטי היזם (Sponsor) (פרטים אלה הם אופציונליים ב-Eudamed2)." },
+        { "en": "Do not indicate the risk class of the investigational device (MDR risk classes are not present in Eudamed2)", "he": "אל תציין את סיווג הסיכון של המכשיר הנחקר (סיווגי הסיכון של ה-MDR אינם קיימים ב-Eudamed2)." }
       ]
     },
     {
-      "id": "intro-p3",
-      "type": "paragraph",
-      "en": "STEP 3 – Confirm the Clinical Investigation.",
-      "he": "שלב 3 – אישור החקירה הקלינית."
+      "id": "intro-step3",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "STEP 3 – Confirm the Clinical Investigation.", "he": "STEP 3 – אישור החקירה הקלינית." }
+      ]
     },
+
     {
       "id": "sec-instr",
       "type": "heading",
@@ -79,35 +83,36 @@
       "he": "הוראות ליצירת CIV-ID עבור חקירות קליניות לפי ה-MDR"
     },
     {
-      "id": "instr-p1",
+      "id": "sec-instr-p1",
       "type": "paragraph",
       "en": "These instructions cover the generation of a CIV-ID for MDR clinical investigations in Eudamed2. The intended user is expected to have basic knowledge about general functionalities in Eudamed2, previous experience from navigating in Eudamed2, as this is not a stand-alone instruction.",
-      "he": "הוראות אלו עוסקות ביצירת CIV-ID עבור חקירות קליניות לפי ה-MDR ב-Eudamed2. מצופה כי למשתמש המיועד יהיה ידע בסיסי על הפונקציונליות הכללית של Eudamed2 וניסיון קודם בניווט ב-Eudamed2, שכן אין מדובר בהוראה עצמאית."
+      "he": "הוראות אלה מכסות את יצירת ה-CIV-ID עבור חקירות קליניות לפי ה-MDR ב-Eudamed2. מצופה מהמשתמש המיועד להיות בעל ידע בסיסי בנוגע לפונקציונליות הכללית ב-Eudamed2, וכן ניסיון קודם בניווט ב-Eudamed2, מאחר שאלה אינן הוראות עצמאיות."
     },
     {
-      "id": "instr-p2",
+      "id": "sec-instr-p2",
       "type": "paragraph",
       "en": "The purpose of generating a CIV-ID is to create a European tracking number which can be used to identify a specific clinical investigation. A CIV-ID facilitates communication between sponsors and competent authorities, as well as between competent authorities in different member states.",
-      "he": "מטרת יצירת ה-CIV-ID היא ליצור מספר מעקב אירופי שניתן להשתמש בו לזיהוי חקירה קלינית מסוימת. ה-CIV-ID מקל על התקשורת בין יזמים לבין רשויות מוסמכות, וכן בין רשויות מוסמכות במדינות חברות שונות."
+      "he": "מטרת יצירת ה-CIV-ID היא ליצור מספר מעקב אירופי שניתן להשתמש בו לזיהוי חקירה קלינית מסוימת. ה-CIV-ID מקל על התקשורת בין יזמים לרשויות מוסמכות, וכן בין רשויות מוסמכות במדינות חברות שונות."
     },
     {
-      "id": "instr-p3",
+      "id": "sec-instr-p3",
       "type": "paragraph",
       "en": "As there is no possibility for sponsors to generate the Single Identification Number (SIN) foreseen in the MDR before EUDAMED is fully functional, member states may encourage sponsors to obtain a CIV-ID from a Competent Authority before the first submission of application/notification.",
-      "he": "מאחר שאין אפשרות ליזמים ליצור את מספר הזיהוי היחיד (SIN) הצפוי ב-MDR לפני ש-EUDAMED יהיה תפעולי במלואו, מדינות חברות רשאיות לעודד יזמים לקבל CIV-ID מרשות מוסמכת לפני ההגשה הראשונה של בקשה/הודעה."
+      "he": "מאחר שאין ליזמים אפשרות ליצור את מספר הזיהוי היחיד (SIN) הצפוי ב-MDR לפני שמסד הנתונים האירופי (EUDAMED) יהיה פעיל במלואו, מדינות חברות רשאיות לעודד יזמים לקבל CIV-ID מרשות מוסמכת לפני ההגשה הראשונה של בקשה/הודעה."
     },
     {
-      "id": "instr-p4",
+      "id": "sec-instr-p4",
       "type": "paragraph",
       "en": "This would allow the sponsor to use the CIV-ID throughout their clinical investigation documentation wherever the SIN would have been used if EUDAMED was available.",
-      "he": "הדבר יאפשר ליזם להשתמש ב-CIV-ID בכל תיעוד החקירה הקלינית שלו, בכל מקום שבו היה נעשה שימוש ב-SIN אילו EUDAMED היה זמין."
+      "he": "הדבר יאפשר ליזם להשתמש ב-CIV-ID לאורך כל תיעוד החקירה הקלינית שלו בכל מקום שבו היה נעשה שימוש ב-SIN לו ה-EUDAMED היה זמין."
     },
     {
-      "id": "instr-p5",
+      "id": "sec-instr-p5",
       "type": "paragraph",
       "en": "The CIV-ID may also be generated by the Competent Authority upon receipt of a first submission. It is important that the generated CIV-ID is communicated to the sponsor so that it can be used for subsequent submissions to other member states.",
-      "he": "ה-CIV-ID עשוי להיווצר גם על ידי הרשות המוסמכת עם קבלת ההגשה הראשונה. חשוב שה-CIV-ID שנוצר יימסר ליזם כך שניתן יהיה להשתמש בו עבור הגשות עוקבות למדינות חברות אחרות."
+      "he": "ה-CIV-ID עשוי להיווצר גם על ידי הרשות המוסמכת עם קבלת הגשה ראשונה. חשוב שה-CIV-ID שנוצר יימסר ליזם כך שניתן יהיה להשתמש בו עבור הגשות עוקבות למדינות חברות אחרות."
     },
+
     {
       "id": "sec-search",
       "type": "heading",
@@ -116,40 +121,54 @@
       "he": "חיפוש CIV-ID"
     },
     {
-      "id": "search-p1",
+      "id": "sec-search-p1",
       "type": "paragraph",
-      "en": "Before generating a new CIV-ID, make a search to ensure that a CIV-ID has not already been generated by another competent authority for this clinical investigation.",
-      "he": "לפני יצירת CIV-ID חדש, יש לבצע חיפוש כדי לוודא ש-CIV-ID טרם נוצר על ידי רשות מוסמכת אחרת עבור חקירה קלינית זו."
+      "en": "Before generating a new CIV-ID, make a search to ensure that a CIV-ID has not already been generated by another competent authority for this clinical investigation",
+      "he": "לפני יצירת CIV-ID חדש, בצע חיפוש כדי לוודא ש-CIV-ID לא נוצר כבר על ידי רשות מוסמכת אחרת עבור חקירה קלינית זו."
     },
     {
-      "id": "search-p2",
+      "id": "sec-search-p2",
       "type": "paragraph",
-      "en": "Go to search for CIV ID: Medical Device Management > CI > CIV-ID. Enter the following criteria:",
-      "he": "עברו לחיפוש CIV ID: Medical Device Management > CI > CIV-ID. הזינו את הקריטריונים הבאים:"
+      "en": "Go to search for CIV ID: Medical Device Management > CI > CIV-ID",
+      "he": "עבור אל חיפוש CIV ID: Medical Device Management > CI > CIV-ID"
     },
     {
-      "id": "search-list",
+      "id": "sec-search-p3",
+      "type": "paragraph",
+      "en": "Enter the following criteria:",
+      "he": "הזן את הקריטריונים הבאים:"
+    },
+    {
+      "id": "sec-search-criteria",
       "type": "list",
       "ordered": false,
       "items": [
         { "en": "Manufacturer name", "he": "שם היצרן (Manufacturer name)" },
-        { "en": "CIV title — Note that for MDR applications: Always start the CIV title with \"MDR - \" (i.e.: MDR - Detecting traumatic Intracranial Hemorrhage with Microwave Technology, MDR – xyz)", "he": "כותרת CIV (CIV title) — שימו לב שעבור בקשות MDR: תמיד יש להתחיל את כותרת ה-CIV ב-\"MDR - \" (למשל: MDR - Detecting traumatic Intracranial Hemorrhage with Microwave Technology, MDR – xyz)" },
-        { "en": "Protocol code", "he": "קוד פרוטוקול (Protocol code)" },
-        { "en": "Primary objective(s)", "he": "מטרה/מטרות עיקריות (Primary objective(s))" }
+        { "en": "CIV title", "he": "כותרת ה-CIV (CIV title)" },
+        { "en": "Note that for MDR applications: Always start the CIV title with “MDR - ”(i.e.: MDR - Detecting traumatic Intracranial Hemorrhage with Microwave Technology, MDR – xyz)", "he": "שים לב כי עבור בקשות MDR: תמיד התחל את כותרת ה-CIV ב-“MDR - ” (כלומר: MDR - Detecting traumatic Intracranial Hemorrhage with Microwave Technology, MDR – xyz)." },
+        { "en": "Protocol code", "he": "קוד הפרוטוקול (Protocol code)" },
+        { "en": "Primary objective(s)", "he": "מטרה/ות עיקרית/ות (Primary objective(s))" }
       ]
     },
     {
-      "id": "search-p3",
+      "id": "sec-search-p4",
       "type": "paragraph",
-      "en": "Click the button. If the search button is not visible, drag down the list below and the search button will be visible.",
-      "he": "לחצו על הכפתור. אם כפתור החיפוש אינו גלוי, גללו מטה את הרשימה שלהלן וכפתור החיפוש יופיע."
+      "en": "Click the button",
+      "he": "לחץ על הכפתור."
     },
     {
-      "id": "search-note",
+      "id": "sec-search-p5",
+      "type": "paragraph",
+      "en": "If the search button is not visible, drag down the list below and the search button will be visible.",
+      "he": "אם כפתור החיפוש אינו נראה, גרור כלפי מטה את הרשימה שלהלן וכפתור החיפוש יופיע."
+    },
+    {
+      "id": "sec-search-note",
       "type": "note",
       "en": "NOTE: If there is already a CIV-ID assigned for the clinical investigation there is no need to follow the steps below. Just note the existing CIV-ID.",
-      "he": "הערה: אם כבר הוקצה CIV-ID לחקירה הקלינית, אין צורך לבצע את השלבים שלהלן. יש פשוט לרשום את ה-CIV-ID הקיים."
+      "he": "הערה: אם כבר הוקצה CIV-ID עבור החקירה הקלינית, אין צורך לבצע את השלבים שלהלן. פשוט רשום לפניך את ה-CIV-ID הקיים."
     },
+
     {
       "id": "sec-generate",
       "type": "heading",
@@ -158,123 +177,161 @@
       "he": "יצירת CIV ID"
     },
     {
-      "id": "generate-p0",
+      "id": "sec-generate-p0",
       "type": "paragraph",
-      "en": "If the search outcome is \"No matching records found\" move on to the step Generate CIV ID.",
-      "he": "אם תוצאת החיפוש היא \"No matching records found\" (לא נמצאו רשומות תואמות), עברו לשלב יצירת CIV ID."
+      "en": "If the search outcome is “No matching records found” move on to the step Generate CIV ID",
+      "he": "אם תוצאת החיפוש היא “No matching records found” (לא נמצאו רשומות תואמות), עבור אל השלב יצירת CIV ID."
     },
     {
-      "id": "generate-p1",
+      "id": "sec-generate-p1",
       "type": "paragraph",
-      "en": "Click on the button in the upper right corner of the search field to add CIV ID. Prefilled fields will be shown according to previous search. Click.",
-      "he": "לחצו על הכפתור בפינה הימנית העליונה של שדה החיפוש כדי להוסיף CIV ID. יוצגו שדות שמולאו מראש בהתאם לחיפוש הקודם. לחצו."
+      "en": "Click on the button in the upper right corner of the search field to add CIV ID.",
+      "he": "לחץ על הכפתור בפינה הימנית העליונה של שדה החיפוש כדי להוסיף CIV ID."
     },
     {
-      "id": "generate-p2",
+      "id": "sec-generate-p2",
       "type": "paragraph",
-      "en": "A new line will be displayed including the assigned CIV ID in draft format. If the new line does not appear below, this can be solved as follows:",
-      "he": "תוצג שורה חדשה הכוללת את ה-CIV ID שהוקצה בפורמט טיוטה. אם השורה החדשה אינה מופיעה למטה, ניתן לפתור זאת באופן הבא:"
+      "en": "Prefilled fields will be shown according to previous search.",
+      "he": "שדות שמולאו מראש יוצגו בהתאם לחיפוש הקודם."
     },
     {
-      "id": "generate-p3",
+      "id": "sec-generate-p3",
       "type": "paragraph",
-      "en": "Go to search for CIV ID: Medical Device Management > CI > CIV-ID. Leave all fields blank and click the button. The relevant Clinical Investigation will now be visible in draft format.",
-      "he": "עברו לחיפוש CIV ID: Medical Device Management > CI > CIV-ID. השאירו את כל השדות ריקים ולחצו על הכפתור. החקירה הקלינית הרלוונטית תהיה כעת גלויה בפורמט טיוטה."
+      "en": "Click",
+      "he": "לחץ."
     },
     {
-      "id": "generate-note",
+      "id": "sec-generate-p4",
+      "type": "paragraph",
+      "en": "A new line will be displayed including the assigned CIV ID in draft format.",
+      "he": "תוצג שורה חדשה הכוללת את ה-CIV ID שהוקצה בפורמט טיוטה (draft)."
+    },
+    {
+      "id": "sec-generate-p5",
+      "type": "paragraph",
+      "en": "If the new line does not appear below, this can be solved as follows:",
+      "he": "אם השורה החדשה אינה מופיעה למטה, ניתן לפתור זאת באופן הבא:"
+    },
+    {
+      "id": "sec-generate-p6",
+      "type": "paragraph",
+      "en": "Go to search for CIV ID: Medical Device Management > CI > CIV-ID",
+      "he": "עבור אל חיפוש CIV ID: Medical Device Management > CI > CIV-ID"
+    },
+    {
+      "id": "sec-generate-p7",
+      "type": "paragraph",
+      "en": "Leave all fields blank and click the button.",
+      "he": "השאר את כל השדות ריקים ולחץ על הכפתור."
+    },
+    {
+      "id": "sec-generate-p8",
+      "type": "paragraph",
+      "en": "The relevant Clinical Investigation will now be visible in draft format.",
+      "he": "החקירה הקלינית הרלוונטית תהיה כעת נראית בפורמט טיוטה."
+    },
+    {
+      "id": "sec-generate-note",
       "type": "note",
       "en": "NOTE: Generating a CIV-ID is not enough as it will remain draft and so not visible for the other Competent Authorities. It is thus necessary to also complete the subsequent steps (i.e. to amend certain CIV-details manually and confirm the CIV-ID).",
-      "he": "הערה: יצירת CIV-ID אינה מספיקה, שכן הוא יישאר בסטטוס טיוטה ולכן לא יהיה גלוי לרשויות המוסמכות האחרות. לפיכך, יש להשלים גם את השלבים הבאים (כלומר לעדכן פרטי CIV מסוימים באופן ידני ולאשר את ה-CIV-ID)."
+      "he": "הערה: יצירת CIV-ID אינה מספיקה, שכן הוא יישאר במצב טיוטה ולכן לא יהיה נראה לרשויות המוסמכות האחרות. לפיכך, נדרש להשלים גם את השלבים העוקבים (כלומר לתקן ידנית פרטי CIV מסוימים ולאשר את ה-CIV-ID)."
     },
+
     {
       "id": "sec-amend",
       "type": "heading",
       "level": 1,
       "en": "MDR-specific procedure to amend the CIV details",
-      "he": "הליך ייעודי ל-MDR לעדכון פרטי ה-CIV"
+      "he": "הליך ייעודי ל-MDR לתיקון פרטי ה-CIV"
     },
     {
-      "id": "amend-p1",
+      "id": "sec-amend-p1",
       "type": "paragraph",
-      "en": "A limited number of CIV details will have to be entered manually, follow this procedure: Click on the green Add (plus) button next to the draft clinical investigation to display the tabs for clinical investigation details.",
-      "he": "מספר מצומצם של פרטי CIV יידרשו להזנה ידנית; פעלו לפי הליך זה: לחצו על כפתור ההוספה הירוק (פלוס) ליד החקירה הקלינית שבטיוטה כדי להציג את הלשוניות עם פרטי החקירה הקלינית."
+      "en": "A limited number of CIV details will have to be entered manually, follow this procedure:",
+      "he": "מספר מצומצם של פרטי CIV יידרשו להזנה ידנית. עקוב אחר הליך זה:"
     },
     {
-      "id": "amend-p2",
+      "id": "sec-amend-p2",
+      "type": "paragraph",
+      "en": "Click on the green Add (plus) button next to the draft clinical investigation to display the tabs for clinical investigation details.",
+      "he": "לחץ על כפתור ההוספה הירוק (פלוס) שליד החקירה הקלינית בטיוטה כדי להציג את הכרטיסיות (tabs) של פרטי החקירה הקלינית."
+    },
+    {
+      "id": "sec-amend-p3",
       "type": "paragraph",
       "en": "Note that there is no need to enter all details for a Clinical Investigation under MDR – the purpose of registering the Clinical Investigation in Eudamed2 under MDR is only to generate the CIV-ID.",
-      "he": "שימו לב שאין צורך להזין את כל הפרטים עבור חקירה קלינית לפי ה-MDR – מטרת רישום החקירה הקלינית ב-Eudamed2 לפי ה-MDR היא רק ליצור את ה-CIV-ID."
+      "he": "שים לב שאין צורך להזין את כל הפרטים עבור חקירה קלינית לפי ה-MDR – מטרת רישום החקירה הקלינית ב-Eudamed2 לפי ה-MDR היא אך ורק ליצור את ה-CIV-ID."
     },
     {
-      "id": "amend-p3",
+      "id": "sec-amend-p4",
       "type": "paragraph",
       "en": "Some of the information is prepopulated from the CIV ID generation, for example Reference, Protocol Code, Title, Submission type and Primary objective.",
-      "he": "חלק מהמידע ממולא מראש מתוך יצירת ה-CIV ID, לדוגמה Reference (סימוכין), Protocol Code (קוד פרוטוקול), Title (כותרת), Submission type (סוג הגשה) ו-Primary objective (מטרה עיקרית)."
+      "he": "חלק מהמידע ממולא מראש מתוך יצירת ה-CIV ID, למשל Reference (אסמכתה), Protocol Code (קוד פרוטוקול), Title (כותרת), Submission type (סוג ההגשה) ו-Primary objective (מטרה עיקרית)."
     },
     {
-      "id": "amend-p4",
+      "id": "sec-amend-p5",
       "type": "paragraph",
       "en": "However, before the confirmation of an MDR-CIV-ID the following information is mandatory to enter:",
       "he": "עם זאת, לפני אישור CIV-ID לפי ה-MDR, חובה להזין את המידע הבא:"
     },
     {
-      "id": "amend-actors-h",
+      "id": "sec-amend-actors-h",
       "type": "paragraph",
       "en": "In the Actors tab:",
-      "he": "בלשונית Actors (גורמים):"
+      "he": "בכרטיסיית הגורמים (Actors):"
     },
     {
-      "id": "amend-actors-list",
+      "id": "sec-amend-actors-list",
       "type": "list",
       "ordered": false,
       "items": [
-        { "en": "add manufacturer if not already prepopulated by searching on the manufacturer's name. If the manufacturer is missing in the system a new actor must be created before moving on with this addition (see section 5)", "he": "הוסיפו יצרן, אם אינו ממולא מראש, באמצעות חיפוש לפי שם היצרן. אם היצרן חסר במערכת, יש ליצור גורם (actor) חדש לפני המשך ההוספה (ראו סעיף 5)" },
-        { "en": "indicate Sponsor details. Although it is an optional field in Eudamed2, it is necessary to enter Sponsor details as the sponsor is the formal applicant under MDR (not the manufacturer)", "he": "ציינו את פרטי היזם (Sponsor). אף שזהו שדה אופציונלי ב-Eudamed2, יש להזין את פרטי היזם משום שהיזם הוא המבקש הרשמי לפי ה-MDR (ולא היצרן)" }
+        { "en": "add manufacturer if not already prepopulated by searching on the manufacturer´s name. If the manufacturer is missing in the system a new actor must be created before moving on with this addition (see section 5)", "he": "הוסף יצרן אם אינו ממולא מראש, באמצעות חיפוש לפי שם היצרן. אם היצרן חסר במערכת, יש ליצור גורם (actor) חדש לפני המשך ההוספה (ראה סעיף 5)." },
+        { "en": "indicate Sponsor details. Although it is an optional field in Eudamed2, it is necessary to enter Sponsor details as the sponsor is the formal applicant under MDR (not the manufacturer)", "he": "ציין את פרטי היזם (Sponsor). אף שזהו שדה אופציונלי ב-Eudamed2, נדרש להזין את פרטי היזם מאחר שהיזם הוא המבקש הרשמי לפי ה-MDR (ולא היצרן)." }
       ]
     },
     {
-      "id": "amend-device-h",
+      "id": "sec-amend-device-h",
       "type": "paragraph",
       "en": "In the Device tab:",
-      "he": "בלשונית Device (מכשיר):"
+      "he": "בכרטיסיית המכשיר (Device):"
     },
     {
-      "id": "amend-device-list",
+      "id": "sec-amend-device-list",
       "type": "list",
       "ordered": false,
       "items": [
-        { "en": "add new device by clicking twice and check that Clinical investigation is prepopulated as device type", "he": "הוסיפו מכשיר חדש על ידי לחיצה כפולה, וודאו שהערך Clinical investigation (חקירה קלינית) ממולא מראש כסוג המכשיר" },
-        { "en": "indicate device name (It is mandatory to enter at least Trade name or Generic name).", "he": "ציינו את שם המכשיר (חובה להזין לפחות Trade name (שם מסחרי) או Generic name (שם גנרי))." },
-        { "en": "Click", "he": "לחצו" }
+        { "en": "add new device by clicking twice and check that Clinical investigation is prepopulated as device type", "he": "הוסף מכשיר חדש על ידי לחיצה כפולה ובדוק כי Clinical investigation (חקירה קלינית) ממולא מראש כסוג המכשיר." },
+        { "en": "indicate device name (It is mandatory to enter at least Trade name or Generic name).", "he": "ציין את שם המכשיר (חובה להזין לכל הפחות Trade name [שם מסחרי] או Generic name [שם גנרי])." },
+        { "en": "Click", "he": "לחץ." }
       ]
     },
     {
-      "id": "amend-device-note",
+      "id": "sec-amend-device-note",
       "type": "note",
       "en": "NOTE: Never indicate the risk class for the investigational device (Eudamed2 does not accommodate MDR classes)",
-      "he": "הערה: לעולם אין לציין את סיווג הסיכון עבור המכשיר הנחקר (Eudamed2 אינו תומך בסיווגי ה-MDR)"
+      "he": "הערה: לעולם אל תציין את סיווג הסיכון עבור המכשיר הנחקר (Eudamed2 אינו תומך בסיווגי ה-MDR)."
     },
     {
-      "id": "amend-p5",
+      "id": "sec-amend-p6",
       "type": "paragraph",
-      "en": "In the device listing click the intended use field to add this information.",
-      "he": "ברשימת המכשירים, לחצו על שדה השימוש המיועד (intended use) כדי להוסיף מידע זה."
+      "en": "In the device listing click the intended use field to add this information",
+      "he": "ברשימת המכשירים, לחץ על שדה המטרה המיועדת (intended use) כדי להוסיף מידע זה."
     },
     {
-      "id": "amend-ca-h",
+      "id": "sec-amend-ca-h",
       "type": "paragraph",
       "en": "In the CA Information tab:",
-      "he": "בלשונית CA Information (מידע על הרשות המוסמכת):"
+      "he": "בכרטיסיית פרטי הרשות המוסמכת (CA Information):"
     },
     {
-      "id": "amend-ca-list",
+      "id": "sec-amend-ca-list",
       "type": "list",
       "ordered": false,
       "items": [
-        { "en": "enter CA contact (kp.central@lakemedelsverket.se)", "he": "הזינו איש קשר של הרשות המוסמכת (kp.central@lakemedelsverket.se)" }
+        { "en": "enter CA contact (kp.central@lakemedelsverket.se)", "he": "הזן את איש הקשר של הרשות המוסמכת (kp.central@lakemedelsverket.se)." }
       ]
     },
+
     {
       "id": "sec-confirm",
       "type": "heading",
@@ -283,29 +340,66 @@
       "he": "אישור ה-CIV-ID"
     },
     {
-      "id": "confirm-p1",
+      "id": "sec-confirm-p1",
       "type": "paragraph",
-      "en": "When all mandatory information is completed click. The CI is now displayed as Proposed. Use the confirm button to change status from Proposed to Confirmed.",
-      "he": "לאחר השלמת כל המידע החובה, לחצו. החקירה הקלינית (CI) מוצגת כעת כ-Proposed (מוצעת). השתמשו בכפתור האישור כדי לשנות את הסטטוס מ-Proposed ל-Confirmed (מאושרת)."
+      "en": "When all mandatory information is completed click",
+      "he": "כאשר כל המידע החובה הושלם, לחץ."
     },
     {
-      "id": "sec-actor",
+      "id": "sec-confirm-p2",
+      "type": "paragraph",
+      "en": "The CI is now displayed as Proposed.",
+      "he": "החקירה הקלינית (CI) מוצגת כעת כ-Proposed (מוצעת)."
+    },
+    {
+      "id": "sec-confirm-p3",
+      "type": "paragraph",
+      "en": "Use the confirm button to change status from Proposed to Confirmed.",
+      "he": "השתמש בכפתור האישור (confirm) כדי לשנות את הסטטוס מ-Proposed (מוצעת) ל-Confirmed (מאושרת)."
+    },
+
+    {
+      "id": "sec-newactor",
       "type": "heading",
       "level": 1,
       "en": "To add a new actor (to be performed only if the manufacturer is not already in the system)",
-      "he": "הוספת גורם חדש (יש לבצע רק אם היצרן אינו כבר במערכת)"
+      "he": "הוספת גורם (actor) חדש (יש לבצע רק אם היצרן אינו כבר במערכת)"
     },
     {
-      "id": "actor-p1",
+      "id": "sec-newactor-p1",
       "type": "paragraph",
-      "en": "Go to Medical Device Management > Actors. Click on the button to add a new actor. Complete all mandatory fields (yellow). Choose \"MF\" for manufacturer. Click and the new actor will be shown as Proposed. Use the confirm button to change status from Proposed to Confirmed.",
-      "he": "עברו אל Medical Device Management > Actors. לחצו על הכפתור כדי להוסיף גורם חדש. מלאו את כל שדות החובה (הצהובים). בחרו \"MF\" עבור יצרן. לחצו, והגורם החדש יוצג כ-Proposed (מוצע). השתמשו בכפתור האישור כדי לשנות את הסטטוס מ-Proposed ל-Confirmed (מאושר)."
+      "en": "Go to Medical Device Management > Actors.",
+      "he": "עבור אל Medical Device Management > Actors."
     },
     {
-      "id": "actor-p2",
+      "id": "sec-newactor-p2",
+      "type": "paragraph",
+      "en": "Click on the button to add a new actor.",
+      "he": "לחץ על הכפתור כדי להוסיף גורם חדש."
+    },
+    {
+      "id": "sec-newactor-p3",
+      "type": "paragraph",
+      "en": "Complete all mandatory fields (yellow). Choose “MF” for manufacturer.",
+      "he": "מלא את כל השדות החובה (בצהוב). בחר ב-“MF” עבור יצרן (manufacturer)."
+    },
+    {
+      "id": "sec-newactor-p4",
+      "type": "paragraph",
+      "en": "Click and the new actor will be shown as Proposed.",
+      "he": "לחץ, והגורם החדש יוצג כ-Proposed (מוצע)."
+    },
+    {
+      "id": "sec-newactor-p5",
+      "type": "paragraph",
+      "en": "Use the confirm button to change status from Proposed to Confirmed.",
+      "he": "השתמש בכפתור האישור (confirm) כדי לשנות את הסטטוס מ-Proposed (מוצע) ל-Confirmed (מאושר)."
+    },
+    {
+      "id": "sec-newactor-p6",
       "type": "paragraph",
       "en": "It will now be possible to add the manufacturer to the clinical investigation. Go back to Section 3 and complete the Actors tab.",
-      "he": "כעת יתאפשר להוסיף את היצרן לחקירה הקלינית. חזרו לסעיף 3 והשלימו את לשונית Actors (הגורמים)."
+      "he": "כעת ניתן יהיה להוסיף את היצרן לחקירה הקלינית. חזור אל סעיף 3 והשלם את כרטיסיית הגורמים (Actors)."
     }
   ]
 }
