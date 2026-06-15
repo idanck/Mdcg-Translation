@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Editors
+*.swp
+*.bak
+~$*
+
+# PDF tools temp
+*.tmp
