@@ -1,0 +1,146 @@
+{
+  "id": "MDCG-2022-17",
+  "title": {
+    "en": "MDCG 2022-17 — MDCG position paper on 'hybrid audits'",
+    "he": "MDCG 2022-17 — נייר עמדה של ה-MDCG בנושא \"ביקורות היברידיות\""
+  },
+  "category": "PMS and Vigilance",
+  "publicationDate": "2022-12",
+  "source": {
+    "url": "https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en",
+    "file": "original/mdcg_2022-17_en.pdf"
+  },
+  "language": "he",
+  "direction": "rtl",
+  "translationStatus": "review",
+  "glossaryVersion": "2026-06",
+  "blocks": [
+    {
+      "id": "title-heading",
+      "type": "heading",
+      "level": 1,
+      "en": "MDCG 2022-17 — MDCG position paper on 'hybrid audits'",
+      "he": "MDCG 2022-17 — נייר עמדה של ה-MDCG בנושא \"ביקורות היברידיות\""
+    },
+    {
+      "id": "disclaimer-1",
+      "type": "paragraph",
+      "en": "This document has been endorsed by the Medical Device Coordination Group (MDCG) established by Article 103 of Regulation (EU) 2017/745. The MDCG is composed of representatives of all Member States and it is chaired by a representative of the European Commission.",
+      "he": "מסמך זה אושר על ידי קבוצת תיאום המכשירים הרפואיים (MDCG) שהוקמה מכוח סעיף 103 לתקנה (האיחוד האירופי) 2017/745. ה-MDCG מורכבת מנציגים של כל המדינות החברות ובראשה עומד נציג של הנציבות האירופית."
+    },
+    {
+      "id": "disclaimer-2",
+      "type": "paragraph",
+      "en": "The document is not a European Commission document and it cannot be regarded as reflecting the official position of the European Commission. Any views expressed in this document are not legally binding and only the Court of Justice of the European Union can give binding interpretations of Union law.",
+      "he": "המסמך אינו מסמך של הנציבות האירופית ואין לראות בו כמשקף את העמדה הרשמית של הנציבות האירופית. כל דעה המובעת במסמך זה אינה מחייבת מבחינה משפטית, ורק בית הדין לצדק של האיחוד האירופי מוסמך לתת פרשנות מחייבת לדין האיחוד."
+    },
+    {
+      "id": "p1",
+      "type": "paragraph",
+      "en": "This paper outlines the Medical Device Coordination Group (MDCG) position on the possible use of hybrid audits by notified bodies under Regulation (EU) 2017/745 on medical devices (MDR) and Regulation (EU) 2017/746 on in vitro diagnostic medical devices (IVDR).",
+      "he": "נייר זה מתאר את עמדת קבוצת תיאום המכשירים הרפואיים (MDCG) בנוגע לאפשרות השימוש בביקורות היברידיות (hybrid audits) על ידי גופים מאונתרים (Notified Bodies) על פי תקנה (האיחוד האירופי) 2017/745 בנושא מכשירים רפואיים (MDR) ותקנה (האיחוד האירופי) 2017/746 בנושא מכשירים רפואיים לאבחון ויטרו (IVDR)."
+    },
+    {
+      "id": "p2",
+      "type": "paragraph",
+      "en": "It is recognised that there was a disruption to the traditional auditing method during the global COVID-19 pandemic due to travel restrictions and other health advice at that time. Since then, auditors and auditees have become accustomed with the use of information and communication technologies (ICT) during audits as described in MDCG 2020-4¹ and MDCG 2020-17². This paper aims to provide a definition for hybrid audits and clarifications with respect to how hybrid audits can be used under MDR and IVDR as advised following the publication of MDCG 2022-14³.",
+      "he": "מוכר כי במהלך מגפת ה-COVID-19 העולמית חלה הפרעה לשיטת הביקורת המסורתית עקב הגבלות נסיעה והנחיות בריאות אחרות באותה עת. מאז, מבקרים ומבוקרים התרגלו לשימוש בטכנולוגיות מידע ותקשורת (ICT) במהלך ביקורות, כמתואר ב-MDCG 2020-4¹ וב-MDCG 2020-17². נייר זה נועד לספק הגדרה לביקורות היברידיות והבהרות בנוגע לאופן שבו ניתן להשתמש בביקורות היברידיות על פי ה-MDR וה-IVDR, כפי שהומלץ בעקבות פרסום MDCG 2022-14³."
+    },
+    {
+      "id": "p3",
+      "type": "paragraph",
+      "en": "Certain conformity assessment procedures under the MDR and the IVDR require the notified body to carry out audits of the manufacturer's quality management system (QMS). The assessment procedure must include an audit on the manufacturer's premises both for the initial assessment⁴ and for the periodic surveillance⁵. The same requirement applies, as appropriate, for audits to occur on the premises of the manufacturer's suppliers and/or subcontractors.",
+      "he": "נהלי הערכת התאמה מסוימים על פי ה-MDR וה-IVDR מחייבים את הגוף המאונתר לבצע ביקורות על מערכת ניהול האיכות (QMS) של היצרן. נוהל ההערכה חייב לכלול ביקורת במתחם של היצרן הן לצורך ההערכה הראשונית⁴ והן לצורך המעקב התקופתי⁵. אותה דרישה חלה, בהתאם לעניין, על ביקורות שיתקיימו במתחמים של ספקי היצרן ו/או קבלני המשנה שלו."
+    },
+    {
+      "id": "p4",
+      "type": "paragraph",
+      "en": "In addition to the terms 'premises' or 'on the premises', also 'on-site' and 'off-site' are used in the MDR and the IVDR to describe where conformity assessment activities take place.",
+      "he": "בנוסף למונחים \"מתחם\" (premises) או \"במתחם\" (on the premises), נעשה ב-MDR וב-IVDR שימוש גם במונחים \"באתר\" (on-site) ו\"מחוץ לאתר\" (off-site) כדי לתאר היכן מתקיימות פעילויות הערכת התאמה."
+    },
+    {
+      "id": "p5",
+      "type": "paragraph",
+      "en": "To clarify the meaning of the term 'hybrid audit', the MDCG agrees on the following definition.",
+      "he": "כדי להבהיר את משמעות המונח \"ביקורת היברידית\", ה-MDCG מסכימה על ההגדרה הבאה."
+    },
+    {
+      "id": "p6-definition",
+      "type": "paragraph",
+      "en": "A 'hybrid audit' should be understood as an audit on the premises of the manufacturer or its supplier(s) and/or subcontractor(s) with at least one auditor present on the premises and other members of the audit team participating from elsewhere using information and communication technologies (ICT).",
+      "he": "\"ביקורת היברידית\" יש להבין כביקורת במתחם של היצרן או של ספקיו ו/או קבלני המשנה שלו, כאשר לפחות מבקר אחד נוכח במתחם וחברים אחרים בצוות הביקורת משתתפים ממקום אחר באמצעות טכנולוגיות מידע ותקשורת (ICT)."
+    },
+    {
+      "id": "p7",
+      "type": "paragraph",
+      "en": "The presence of the auditor(s) on the auditee's premises and of the other members of the audit team can last either from the opening meeting to the closing meeting or for a portion of that time.",
+      "he": "נוכחות המבקר/ים במתחם המבוקר ושל יתר חברי צוות הביקורת יכולה להימשך מהפגישה הפותחת ועד לפגישה הסוגרת, או לחלק מאותו זמן."
+    },
+    {
+      "id": "p8",
+      "type": "paragraph",
+      "en": "A conformity assessment activity included in the audit plan can be carried out either on the auditee's premises, from elsewhere or simultaneously from the auditee's premises and elsewhere. The auditee should be involved in any case.",
+      "he": "פעילות הערכת התאמה הכלולה בתוכנית הביקורת יכולה להתבצע במתחם המבוקר, ממקום אחר, או בו-זמנית ממתחם המבוקר וממקום אחר. בכל מקרה, על המבוקר להיות מעורב."
+    },
+    {
+      "id": "p9",
+      "type": "paragraph",
+      "en": "When establishing their audit plan⁶, notified bodies need to make sure that they plan sufficient time to audit the relevant processes on the auditee's premises and identify and clearly document which parts of the conformity assessment activities are carried out on the auditee's premises or using ICT.",
+      "he": "בעת קביעת תוכנית הביקורת שלהם⁶, על הגופים המאונתרים לוודא כי הם מתכננים מספיק זמן לבקר את התהליכים הרלוונטיים במתחם המבוקר, וכי הם מזהים ומתעדים באופן ברור אילו חלקים מפעילויות הערכת ההתאמה מתבצעים במתחם המבוקר או באמצעות ICT."
+    },
+    {
+      "id": "p10",
+      "type": "paragraph",
+      "en": "The MDCG may review this position and determine whether modifications are needed based on the experience gained.",
+      "he": "ה-MDCG עשויה לבחון מחדש עמדה זו ולקבוע אם נדרשים שינויים בהתבסס על הניסיון שנצבר."
+    },
+    {
+      "id": "p11",
+      "type": "paragraph",
+      "en": "The MDCG advises NBCG-Med to further elaborate on operational elements, including the identification of as aspects to be audited on the auditee's premises.",
+      "he": "ה-MDCG ממליצה ל-NBCG-Med לפרט בהמשך את הרכיבים התפעוליים, לרבות זיהוי ההיבטים שיש לבקר במתחם המבוקר."
+    },
+    {
+      "id": "fn-1",
+      "type": "note",
+      "marker": "1",
+      "en": "MDCG 2020-4 \"Guidance on temporary extraordinary measures related to medical device notified body audits during COVID-19 quarantine orders and travel restrictions\" (https://health.ec.europa.eu/document/download/8811a216-fdd1-45c7-bd82-381a37696f05_en?filename=md_mdcg_2020_4_nb_audits_covid-19_en.pdf).",
+      "he": "MDCG 2020-4 \"הנחיה בנושא אמצעים יוצאי דופן זמניים הקשורים לביקורות גופים מאונתרים של מכשירים רפואיים במהלך צווי בידוד והגבלות נסיעה בתקופת ה-COVID-19\" (https://health.ec.europa.eu/document/download/8811a216-fdd1-45c7-bd82-381a37696f05_en?filename=md_mdcg_2020_4_nb_audits_covid-19_en.pdf)."
+    },
+    {
+      "id": "fn-2",
+      "type": "note",
+      "marker": "2",
+      "en": "MDCG 2020-17 \"Questions and Answers related to MDCG 2020-4\" (https://health.ec.europa.eu/document/download/a3bbc84b-078a-46d7-a281-d68136da6d38_en?filename=md_2020-17-guidance-mdcg-qa_en.pdf).",
+      "he": "MDCG 2020-17 \"שאלות ותשובות הקשורות ל-MDCG 2020-4\" (https://health.ec.europa.eu/document/download/a3bbc84b-078a-46d7-a281-d68136da6d38_en?filename=md_2020-17-guidance-mdcg-qa_en.pdf)."
+    },
+    {
+      "id": "fn-3",
+      "type": "note",
+      "marker": "3",
+      "en": "MDCG 2022-14 \"Transition to the MDR and IVDR - Notified body capacity and availability of medical devices and IVDs\" (https://health.ec.europa.eu/document/download/2db053bc-283c-4d2e-93f4-c3e8032e66da_en?filename=mdcg_2022-14_en.pdf).",
+      "he": "MDCG 2022-14 \"המעבר ל-MDR ול-IVDR – קיבולת גופים מאונתרים וזמינות מכשירים רפואיים ומכשירי IVD\" (https://health.ec.europa.eu/document/download/2db053bc-283c-4d2e-93f4-c3e8032e66da_en?filename=mdcg_2022-14_en.pdf)."
+    },
+    {
+      "id": "fn-4",
+      "type": "note",
+      "marker": "4",
+      "en": "In accordance with Section 2.3 of Annex IX to MDR and IDVR and similar requirements from Annexes XI to MDR and IVDR: \"The assessment procedure shall include an audit on the manufacturer's premises and, if appropriate, on the premises of the manufacturer's suppliers and/or subcontractors to verify the manufacturing and other relevant processes\".",
+      "he": "בהתאם לסעיף 2.3 בנספח IX ל-MDR ול-IVDR ולדרישות דומות בנספחים XI ל-MDR ול-IVDR: \"נוהל ההערכה יכלול ביקורת במתחם של היצרן, ואם מתאים, במתחמים של ספקי היצרן ו/או קבלני המשנה שלו, כדי לאמת את תהליכי הייצור ותהליכים רלוונטיים אחרים\"."
+    },
+    {
+      "id": "fn-5",
+      "type": "note",
+      "marker": "5",
+      "en": "In accordance with Section 3.3 of Annex IX to MDR and IVDR: \"Notified bodies shall periodically, at least once every 12 months, carry out appropriate audits and assessments to make sure that the manufacturer in question applies the approved quality management system and the post-market surveillance plan. Those audits and assessments shall include audits on the premises of the manufacturer and, if appropriate, of the manufacturer's suppliers and/or subcontractors. …\".",
+      "he": "בהתאם לסעיף 3.3 בנספח IX ל-MDR ול-IVDR: \"גופים מאונתרים יבצעו מעת לעת, לפחות אחת ל-12 חודשים, ביקורות והערכות מתאימות כדי לוודא שהיצרן הנוגע בדבר מיישם את מערכת ניהול האיכות המאושרת ואת תוכנית המעקב שלאחר שיווק. ביקורות והערכות אלה יכללו ביקורות במתחם של היצרן, ואם מתאים, של ספקי היצרן ו/או קבלני המשנה שלו. …\"."
+    },
+    {
+      "id": "fn-6",
+      "type": "note",
+      "marker": "6",
+      "en": "In accordance with Section 4.5.2 a) of Annex VII to MDR and IVDR: \"… a notified body shall … draw up an audit programme which clearly identifies the number and sequence of activities required to demonstrate complete coverage of a manufacturer's quality management system … clearly define, for each audit identified in the audit programme, the objectives, criteria and scope of the audit, and draw up an audit plan that adequately addresses and takes account of the specific requirements for the devices, technologies and processes involved …\".",
+      "he": "בהתאם לסעיף 4.5.2(א) בנספח VII ל-MDR ול-IVDR: \"… גוף מאונתר … יכין תוכנית ביקורת (audit programme) המזהה באופן ברור את מספר הפעילויות ורצף הפעילויות הנדרשים כדי להדגים כיסוי מלא של מערכת ניהול האיכות של היצרן … יגדיר באופן ברור, עבור כל ביקורת המזוהה בתוכנית הביקורת, את היעדים, הקריטריונים והיקף הביקורת, ויכין תוכנית ביקורת (audit plan) המתייחסת באופן הולם ומביאה בחשבון את הדרישות הספציפיות למכשירים, לטכנולוגיות ולתהליכים הרלוונטיים …\"."
+    }
+  ]
+}
