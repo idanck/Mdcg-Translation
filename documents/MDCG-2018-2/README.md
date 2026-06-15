@@ -20,8 +20,9 @@
 
 | File | Description |
 |------|-------------|
-| `original/` | Original English document (PDF) |
-| `translation/` | Hebrew translation |
+| `original/mdcg_2018-2_en.pdf` | Original English document (PDF) |
+| `translation/MDCG-2018-2.he.json` | Canonical bilingual translation (source of truth) |
+| `translation/MDCG-2018-2.he.html` | Hebrew RTL rendering, generated from the JSON |
 
 ---
 

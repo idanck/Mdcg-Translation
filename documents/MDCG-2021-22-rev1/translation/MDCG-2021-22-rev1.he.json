@@ -1,0 +1,420 @@
+{
+  "id": "MDCG-2021-22-rev1",
+  "title": {
+    "en": "MDCG 2021-22 Rev.1 — Clarification on \"first certification for that type of device\" and corresponding procedures to be followed by notified bodies, in context of the consultation of the expert panel referred to in Article 48(6) of Regulation (EU) 2017/746",
+    "he": "MDCG 2021-22 Rev.1 — הבהרה בנוגע ל\"ההסמכה הראשונה לסוג מכשיר זה\" ולהליכים המתאימים שעל הגופים המאונתרים לפעול לפיהם, בהקשר של ההיוועצות בפאנל המומחים הנזכר בסעיף 48(6) לתקנה (האיחוד האירופי) 2017/746"
+  },
+  "category": "In Vitro Diagnostic Medical Devices (IVD)",
+  "publicationDate": "2022-09",
+  "source": {
+    "url": "https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en",
+    "file": "original/mdcg_2021-22_en.pdf"
+  },
+  "language": "he",
+  "direction": "rtl",
+  "translationStatus": "review",
+  "glossaryVersion": "2026-06",
+  "blocks": [
+    {
+      "id": "disclaimer-1",
+      "type": "paragraph",
+      "en": "This document has been endorsed by the Medical Device Coordination Group (MDCG) established by Article 103 of Regulation (EU) 2017/745. The MDCG is composed of representatives of all Member States and it is chaired by a representative of the European Commission.",
+      "he": "מסמך זה אושר על ידי קבוצת תיאום המכשירים הרפואיים (MDCG) שהוקמה מכוח סעיף 103 לתקנה (האיחוד האירופי) 2017/745. ה-MDCG מורכבת מנציגים של כל המדינות החברות ובראשה עומד נציג של הנציבות האירופית."
+    },
+    {
+      "id": "disclaimer-2",
+      "type": "paragraph",
+      "en": "The document is not a European Commission document and it cannot be regarded as reflecting the official position of the European Commission. Any views expressed in this document are not legally binding and only the Court of Justice of the European Union can give binding interpretations of Union law.",
+      "he": "המסמך אינו מסמך של הנציבות האירופית ואין לראות בו כמשקף את העמדה הרשמית של הנציבות האירופית. כל דעה המובעת במסמך זה אינה מחייבת מבחינה משפטית, ורק בית הדין לצדק של האיחוד האירופי מוסמך לתת פרשנות מחייבת לדין האיחוד."
+    },
+    {
+      "id": "changes-heading",
+      "type": "heading",
+      "level": 1,
+      "en": "MDCG 2021-22 revision 1 changes",
+      "he": "שינויי גרסה 1 של MDCG 2021-22"
+    },
+    {
+      "id": "changes-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          { "en": "MDCG 2021-22 revision 1 changes", "he": "שינויי גרסה 1 של MDCG 2021-22" },
+          { "en": "", "he": "" }
+        ],
+        [
+          { "en": "Page 4", "he": "עמוד 4" },
+          { "en": "1st paragraph revised", "he": "הפסקה הראשונה תוקנה" }
+        ],
+        [
+          { "en": "Question 1", "he": "שאלה 1" },
+          { "en": "Notes 1-6 new", "he": "הערות 1–6 חדשות" }
+        ]
+      ]
+    },
+    {
+      "id": "intro-heading",
+      "type": "heading",
+      "level": 1,
+      "en": "Introduction",
+      "he": "מבוא"
+    },
+    {
+      "id": "intro-p1",
+      "type": "paragraph",
+      "en": "For class D devices, Article 48(6) of Regulation (EU) 2017/746 on in vitro diagnostic medical devices (the IVDR) establishes the conditions to be applied by the notified body to determine whether it has to consult the expert panel on the performance evaluation report of the manufacturer. These conditions are:",
+      "he": "עבור מכשירים מסיווג D, סעיף 48(6) לתקנה (האיחוד האירופי) 2017/746 בנושא מכשירים רפואיים לאבחון in vitro (ה-IVDR) קובע את התנאים שעל הגוף המאונתר ליישם כדי לקבוע אם עליו להיוועץ בפאנל המומחים בנוגע לדוח הערכת הביצועים של היצרן. תנאים אלה הם:"
+    },
+    {
+      "id": "intro-list",
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "en": "the absence of common specifications for the class D device in question, AND",
+          "he": "היעדרן של מפרטים משותפים (common specifications) למכשיר מסיווג D המדובר, וכן"
+        },
+        {
+          "en": "where it is also the first certification for that type of device.",
+          "he": "כאשר מדובר גם בהסמכה הראשונה לסוג מכשיר זה."
+        }
+      ]
+    },
+    {
+      "id": "intro-p2",
+      "type": "paragraph",
+      "en": "This guidance provides clarification on the meaning of these conditions and on the corresponding procedures to be followed by the notified body.",
+      "he": "הנחיה זו מספקת הבהרה בנוגע למשמעות תנאים אלה ובנוגע להליכים המתאימים שעל הגוף המאונתר לפעול לפיהם."
+    },
+    {
+      "id": "q1-heading",
+      "type": "heading",
+      "level": 2,
+      "number": "1",
+      "en": "What is the meaning of \"the first certification for that type of device\" in accordance with Article 48(6) of Regulation (EU) 2017/746?",
+      "he": "מהי משמעות \"ההסמכה הראשונה לסוג מכשיר זה\" בהתאם לסעיף 48(6) לתקנה (האיחוד האירופי) 2017/746?"
+    },
+    {
+      "id": "q1-p1",
+      "type": "paragraph",
+      "en": "As mentioned in recital (53) of the IVDR, notified bodies should consult the expert panels where it is the first certification for that specific type of device and there is no similar device on the market having the same intended purpose and based on similar technology. Therefore, \"first certification for that type of device\" in Article 48(6) of the IVDR should be understood as the first certification under either Directive 98/79/EC or under Regulation (EU) 2017/746 by any notified body in relation to a product with a specific:",
+      "he": "כפי שצוין בנימוק (53) ל-IVDR, על הגופים המאונתרים להיוועץ בפאנלי המומחים כאשר מדובר בהסמכה הראשונה לאותו סוג מכשיר ספציפי ואין מכשיר דומה בשוק בעל אותה מטרה מיועדת ומבוסס על טכנולוגיה דומה. לפיכך, יש להבין את הביטוי \"ההסמכה הראשונה לסוג מכשיר זה\" בסעיף 48(6) ל-IVDR כהסמכה הראשונה — בין על פי הוראת 98/79/EC ובין על פי תקנה (האיחוד האירופי) 2017/746 — על ידי כל גוף מאונתר ביחס למוצר בעל אלה הספציפיים¹:"
+    },
+    {
+      "id": "q1-list-purpose",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "en": "intended purpose, including all of the following:",
+          "he": "מטרה מיועדת, הכוללת את כל אלה:"
+        }
+      ]
+    },
+    {
+      "id": "q1-list-purpose-sub",
+      "type": "list",
+      "ordered": true,
+      "items": [
+        { "en": "what is detected and/or measured,", "he": "מה מזוהה ו/או נמדד," },
+        { "en": "the function of the device such as screening, monitoring, diagnostic, etc.,", "he": "תפקוד המכשיר, כגון סינון (screening), ניטור, אבחון וכד'," },
+        { "en": "the specific disorder, condition or risk factor of interest that it is intended to detect, define or differentiate,", "he": "ההפרעה, המצב או גורם הסיכון הספציפיים שבמוקד העניין, אשר המכשיר נועד לזהות, להגדיר או להבחין ביניהם," },
+        { "en": "whether it is automated or not,", "he": "האם הוא אוטומטי או לא," },
+        { "en": "whether it is qualitative, semi-quantitative or quantitative,", "he": "האם הוא איכותני, חצי-כמותי או כמותי," },
+        { "en": "the type of specimen(s) required,", "he": "סוג הדגימה/ות הנדרשת/ות," },
+        { "en": "where applicable, the testing population,", "he": "היכן שרלוונטי, אוכלוסיית הבדיקה," },
+        { "en": "intended user,", "he": "המשתמש המיועד," }
+      ]
+    },
+    {
+      "id": "q1-list-tech",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "en": "analysis technology and process used, including:",
+          "he": "טכנולוגיית ותהליך האנליזה שבשימוש, לרבות:"
+        }
+      ]
+    },
+    {
+      "id": "q1-list-tech-sub",
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "en": "the principle of the assay method or the principles of operation of the instrument.",
+          "he": "עקרון שיטת האנליזה (assay) או עקרונות הפעולה של המכשיר."
+        }
+      ]
+    },
+    {
+      "id": "fn-1",
+      "type": "note",
+      "marker": "1",
+      "en": "Taking into account Section 1.1 of Annex II to IVDR",
+      "he": "תוך התחשבות בסעיף 1.1 לנספח II ל-IVDR."
+    },
+    {
+      "id": "q1-p2",
+      "type": "paragraph",
+      "en": "If a device with a specific set of elements listed above:",
+      "he": "אם מכשיר בעל מערך אלמנטים ספציפי מאלה המפורטים לעיל:"
+    },
+    {
+      "id": "q1-list2",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "en": "has been certified under Directive 98/79/EC, or",
+          "he": "הוסמך על פי הוראת 98/79/EC, או"
+        },
+        {
+          "en": "is subject to an ongoing consultation of the expert panel under Article 48(6) of Regulation (EU) 2017/746, or",
+          "he": "נתון להיוועצות מתמשכת של פאנל המומחים על פי סעיף 48(6) לתקנה (האיחוד האירופי) 2017/746, או"
+        },
+        {
+          "en": "has undergone a consultation of the expert panel under Article 48(6) of Regulation (EU) 2017/746, with the views published,",
+          "he": "עבר היוועצות של פאנל המומחים על פי סעיף 48(6) לתקנה (האיחוד האירופי) 2017/746, וחוות הדעת פורסמו,"
+        }
+      ]
+    },
+    {
+      "id": "q1-p3",
+      "type": "paragraph",
+      "en": "then notified bodies should consider any other device to be certified for the first time under Regulation (EU) 2017/746 with a similar set of elements as the same \"type of device\" irrespective of the manufacturer and therefore such devices will not need to be subject to a consultation with the expert panel.",
+      "he": "אזי על הגופים המאונתרים לראות בכל מכשיר אחר שיוסמך בפעם הראשונה על פי תקנה (האיחוד האירופי) 2017/746 בעל מערך אלמנטים דומה כ\"סוג מכשיר\" זהה, ללא תלות ביצרן, ולפיכך מכשירים כאלה לא יידרשו להיות נתונים להיוועצות עם פאנל המומחים."
+    },
+    {
+      "id": "q1-notes-heading",
+      "type": "heading",
+      "level": 3,
+      "en": "Notes:",
+      "he": "הערות:"
+    },
+    {
+      "id": "q1-note1",
+      "type": "paragraph",
+      "en": "1) Additional intended purpose outside Rule 1 or 2 of IVDR Annex VIII: A class D device with an intended purpose X and another class D device with the intended purpose X and an additional intended purpose Y which falls outside of Rule 1 or 2 of IVDR Annex VIII should be considered of the same type for the purposes of the expert panel consultation, provided all other elements of the intended purpose and technology used are similar. For example, a device intended for screening blood donations for syphilis and another device intended both for screening blood donations for syphilis and to diagnose syphilis in the individual should be considered of the same type for the purposes of the expert panel consultation.",
+      "he": "1) מטרה מיועדת נוספת שמחוץ לכלל 1 או 2 של נספח VIII ל-IVDR: מכשיר מסיווג D בעל מטרה מיועדת X ומכשיר אחר מסיווג D בעל המטרה המיועדת X ומטרה מיועדת נוספת Y הנופלת מחוץ לכלל 1 או 2 של נספח VIII ל-IVDR יש לראותם כבעלי אותו סוג לצורכי ההיוועצות בפאנל המומחים, ובלבד שכל יתר האלמנטים של המטרה המיועדת והטכנולוגיה שבשימוש דומים. לדוגמה, מכשיר המיועד לסינון תרומות דם לסיפיליס ומכשיר אחר המיועד הן לסינון תרומות דם לסיפיליס והן לאבחון סיפיליס אצל הפרט יש לראותם כבעלי אותו סוג לצורכי ההיוועצות בפאנל המומחים."
+    },
+    {
+      "id": "q1-note2",
+      "type": "paragraph",
+      "en": "2) Automated and semi-automated devices: Automated and semi-automated devices should be considered of the same type for the purposes of expert panel consultation, provided all other elements of the intended purpose and the technology used are similar. For the purpose of this guidance, semi-automated tests could be considered as automated tests that still involve some manual operations such as transferring samples from one machine to another. Rapid tests, even if they include an automated reader, are not considered semi-automated.",
+      "he": "2) מכשירים אוטומטיים וחצי-אוטומטיים: מכשירים אוטומטיים וחצי-אוטומטיים יש לראותם כבעלי אותו סוג לצורכי ההיוועצות בפאנל המומחים, ובלבד שכל יתר האלמנטים של המטרה המיועדת והטכנולוגיה שבשימוש דומים. לצורך הנחיה זו, בדיקות חצי-אוטומטיות עשויות להיחשב כבדיקות אוטומטיות שעדיין כרוכות בפעולות ידניות מסוימות, כגון העברת דגימות ממכונה אחת לאחרת. בדיקות מהירות, אף אם הן כוללות קורא אוטומטי, אינן נחשבות חצי-אוטומטיות."
+    },
+    {
+      "id": "q1-note3",
+      "type": "paragraph",
+      "en": "3) Technology: The principle of the assay method or the principles of operation of the instrument refer to the overall assay or testing method(s), mechanism(s) or principle(s) of measurement, including the detection principle, which the device uses to achieve its intended purpose, e.g. sandwich enzyme-linked immunosorbent assay (ELISA), real-time polymerase chain reaction (PCR), time-of-flight mass spectrometry. For example, the following should be considered as different types of device for the purposes of the expert panel consultation:",
+      "he": "3) טכנולוגיה: עקרון שיטת האנליזה או עקרונות הפעולה של המכשיר מתייחסים לשיטת/ות האנליזה או הבדיקה הכוללת, למנגנון/ים או לעקרון/עקרונות המדידה, לרבות עקרון הזיהוי, שבהם המכשיר משתמש כדי להשיג את מטרתו המיועדת, למשל בדיקת ELISA מסוג סנדוויץ' (sandwich enzyme-linked immunosorbent assay), תגובת שרשרת פולימראז בזמן אמת (real-time PCR), ספקטרומטריית מסה של זמן מעוף (time-of-flight). לדוגמה, את אלה יש לראות כסוגי מכשיר שונים לצורכי ההיוועצות בפאנל המומחים:"
+    },
+    {
+      "id": "q1-note3-list-diff",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "en": "a) a device using haemagglutination and another device using ELISA;",
+          "he": "א) מכשיר המשתמש בהמגלוטינציה (haemagglutination) ומכשיר אחר המשתמש ב-ELISA;"
+        },
+        {
+          "en": "b) a device using a competitive immunoassay and another device using a sandwich immunoassay.",
+          "he": "ב) מכשיר המשתמש באימונואסיי תחרותי (competitive immunoassay) ומכשיר אחר המשתמש באימונואסיי מסוג סנדוויץ' (sandwich immunoassay)."
+        }
+      ]
+    },
+    {
+      "id": "q1-note3-p2",
+      "type": "paragraph",
+      "en": "In contrast, devices using for example the following should be considered as the same type of device for the purposes of the expert panel consultation, provided all elements of the intended purpose are similar:",
+      "he": "לעומת זאת, מכשירים המשתמשים, למשל, באלה יש לראותם כסוג מכשיר זהה לצורכי ההיוועצות בפאנל המומחים, ובלבד שכל אלמנטי המטרה המיועדת דומים:"
+    },
+    {
+      "id": "q1-note3-list-same",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "en": "c) ELISA with colorimetric and chemiluminescent read-out;",
+          "he": "ג) ELISA עם קריאה קולורימטרית וכימילומינסצנטית;"
+        },
+        {
+          "en": "d) Immunoassays with chemiluminescent read-out: (chemi)luminescence immunoassays (CLIA/LIA), electro-chemiluminescence detection immunoassays (ECLIA) and chemiluminescent microparticle immunoassays (CMIA).",
+          "he": "ד) אימונואסיים עם קריאה כימילומינסצנטית: אימונואסיים של (כימי)לומינסצנציה (CLIA/LIA), אימונואסיים לזיהוי אלקטרו-כימילומינסצנטי (ECLIA) ואימונואסיים כימילומינסצנטיים על בסיס מיקרו-חלקיקים (CMIA)."
+        }
+      ]
+    },
+    {
+      "id": "q1-note4",
+      "type": "paragraph",
+      "en": "4) Multiplex and single analyte devices: A multiplex device and the corresponding single device that both detect the same analyte should be considered of the same type for the purposes of expert panel consultation, provided all other elements of the intended purpose and the technology used are similar.",
+      "he": "4) מכשירים מרובי-אנליטים (multiplex) ומכשירי אנליט בודד: מכשיר מרובה-אנליטים והמכשיר היחיד המקביל לו, ששניהם מזהים את אותו אנליט, יש לראותם כבעלי אותו סוג לצורכי ההיוועצות בפאנל המומחים, ובלבד שכל יתר האלמנטים של המטרה המיועדת והטכנולוגיה שבשימוש דומים."
+    },
+    {
+      "id": "q1-note5",
+      "type": "paragraph",
+      "en": "5) Kits and class D components of those kits: There could be cases where kits and the class D components of those kits are placed on the market separately, to be used with the same kit. In such cases the kit should be submitted to the expert panel as opposed to the class D components sold separately.",
+      "he": "5) ערכות ורכיבים מסיווג D של ערכות אלה: ייתכנו מקרים שבהם ערכות והרכיבים מסיווג D של אותן ערכות מועמדים בשוק בנפרד, לשימוש עם אותה ערכה. במקרים כאלה יש להגיש לפאנל המומחים את הערכה ולא את הרכיבים מסיווג D הנמכרים בנפרד."
+    },
+    {
+      "id": "q1-note6",
+      "type": "paragraph",
+      "en": "6) Control materials: If a device and control materials with assigned value (positive or negative if they fall in class D) are produced by the same manufacturer, they should be submitted to the expert panel together as part of one consultation procedure.",
+      "he": "6) חומרי בקרה: אם מכשיר וחומרי בקרה בעלי ערך מוקצה (חיוביים או שליליים, אם הם נופלים בסיווג D) מיוצרים על ידי אותו יצרן, יש להגישם לפאנל המומחים יחד כחלק מהליך היוועצות אחד."
+    },
+    {
+      "id": "q2-heading",
+      "type": "heading",
+      "level": 2,
+      "number": "2",
+      "en": "What procedure should a notified body follow to determine whether a given certification is the first for that type of device?",
+      "he": "באיזה הליך על גוף מאונתר לנקוט כדי לקבוע אם הסמכה נתונה היא ההסמכה הראשונה לסוג מכשיר זה?"
+    },
+    {
+      "id": "q2-p1",
+      "type": "paragraph",
+      "en": "It is the notified body who has to decide whether the certification of the device in question is a first certification of its type. This means that the notified body should judge whether the above elements of the definition of \"type of device\" are similar to an already certified device or to a device with the consultation of the expert panel either ongoing or completed (see question 1) for it to be considered of the same type. For its decision, the notified body should:",
+      "he": "הגוף המאונתר הוא שעליו להחליט אם הסמכת המכשיר המדובר היא ההסמכה הראשונה מסוגה. משמעות הדבר היא שעל הגוף המאונתר לשפוט אם האלמנטים שלעיל של הגדרת \"סוג המכשיר\" דומים למכשיר שכבר הוסמך או למכשיר שההיוועצות בפאנל המומחים לגביו מתמשכת או הושלמה (ראה שאלה 1), כדי שייחשב כבעל אותו סוג. לצורך החלטתו, על הגוף המאונתר:"
+    },
+    {
+      "id": "q2-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "en": "use its own knowledge and expertise;",
+          "he": "להשתמש בידע ובמומחיות שלו עצמו;"
+        },
+        {
+          "en": "consider information provided by the manufacturer, including relevant research (e.g. scientific and market research);",
+          "he": "לשקול מידע שמספק היצרן, לרבות מחקר רלוונטי (למשל מחקר מדעי ומחקר שוק);"
+        },
+        {
+          "en": "consider the information on type of device for the already completed and ongoing consultations of the expert panel, referred to in question 3.",
+          "he": "לשקול את המידע על סוג המכשיר עבור ההיוועצויות בפאנל המומחים שכבר הושלמו ואלה המתמשכות, הנזכרות בשאלה 3."
+        }
+      ]
+    },
+    {
+      "id": "q2-p2",
+      "type": "paragraph",
+      "en": "If the notified body comes to the conclusion that it is the first certification of that type of device (either under Directive 98/79/EC or under Regulation (EU) 2017/746), and if no common specifications are available for that device, the notified body has to consult the expert panel.",
+      "he": "אם הגוף המאונתר מגיע למסקנה כי מדובר בהסמכה הראשונה לסוג מכשיר זה (בין על פי הוראת 98/79/EC ובין על פי תקנה (האיחוד האירופי) 2017/746), ואם לא זמינים מפרטים משותפים עבור אותו מכשיר, על הגוף המאונתר להיוועץ בפאנל המומחים."
+    },
+    {
+      "id": "q2-p3",
+      "type": "paragraph",
+      "en": "The notified bodies should document their assessment of whether a given certification is the first of that type of device, and their corresponding conclusion.",
+      "he": "על הגופים המאונתרים לתעד את הערכתם בנוגע לשאלה אם הסמכה נתונה היא הראשונה לסוג מכשיר זה, ואת המסקנה המתאימה שלהם."
+    },
+    {
+      "id": "q3-heading",
+      "type": "heading",
+      "level": 2,
+      "number": "3",
+      "en": "How should the notified body indicate the type of device in its submission to the IVD expert panel?",
+      "he": "כיצד על הגוף המאונתר לציין את סוג המכשיר בהגשתו לפאנל המומחים ל-IVD?"
+    },
+    {
+      "id": "q3-p1",
+      "type": "paragraph",
+      "en": "When consulting the IVD expert panel, the notified body should provide, as part of the documents submitted to the Secretariat, the information requested in the template below describing the type of device.",
+      "he": "בעת ההיוועצות בפאנל המומחים ל-IVD, על הגוף המאונתר לספק, כחלק מהמסמכים המוגשים למזכירות, את המידע המבוקש בתבנית שלהלן המתארת את סוג המכשיר."
+    },
+    {
+      "id": "q3-p2",
+      "type": "paragraph",
+      "en": "The template duly completed by the notified body will be published on the website of the expert panel for the ongoing consultations of the expert panel. Once the expert panel has issued its views, the template will be part of the views.",
+      "he": "התבנית, לאחר שמולאה כראוי על ידי הגוף המאונתר, תפורסם באתר האינטרנט של פאנל המומחים עבור ההיוועצויות המתמשכות של פאנל המומחים. לאחר שפאנל המומחים הוציא את חוות דעתו, התבנית תהיה חלק מחוות הדעת."
+    },
+    {
+      "id": "table1-caption",
+      "type": "paragraph",
+      "en": "Table 1: Template for description of the type of device for the purposes of expert panel views according to Art 48(6) of Regulation (EU) 2017/746",
+      "he": "טבלה 1: תבנית לתיאור סוג המכשיר לצורכי חוות הדעת של פאנל המומחים בהתאם לסעיף 48(6) לתקנה (האיחוד האירופי) 2017/746"
+    },
+    {
+      "id": "table1",
+      "type": "table",
+      "header": false,
+      "rows": [
+        [
+          { "en": "Intended purpose (P)", "he": "מטרה מיועדת (P)" },
+          { "en": "", "he": "" }
+        ],
+        [
+          { "en": "P1", "he": "P1" },
+          { "en": "what is detected and/or measured — please specify the analyte(s) or marker(s), e.g. SARS-CoV-2 spike protein, Kel1 (K)", "he": "מה מזוהה ו/או נמדד — נא לפרט את האנליט/ים או הסמן/ים, למשל חלבון ה-spike של SARS-CoV-2, Kel1 (K)" }
+        ],
+        [
+          { "en": "P2", "he": "P2" },
+          { "en": "function of the device — e.g. diagnosis, aid to diagnosis, monitoring, determining the infectious load, tissue typing etc", "he": "תפקוד המכשיר — למשל אבחון, סיוע לאבחון, ניטור, קביעת העומס הזיהומי, אפיון רקמות (tissue typing) וכד'" }
+        ],
+        [
+          { "en": "P3", "he": "P3" },
+          { "en": "the specific disorder, condition or risk factor of interest that it is intended to detect, define or differentiate — e.g. hepatitis C infection, exposure to SARS-CoV-2, risk of HIV transmission in blood transfusion etc.", "he": "ההפרעה, המצב או גורם הסיכון הספציפיים שבמוקד העניין, אשר המכשיר נועד לזהות, להגדיר או להבחין ביניהם — למשל זיהום בהפטיטיס C, חשיפה ל-SARS-CoV-2, סיכון להעברת HIV בעירוי דם וכד'" }
+        ],
+        [
+          { "en": "P4", "he": "P4" },
+          { "en": "whether it is automated or not", "he": "האם הוא אוטומטי או לא" }
+        ],
+        [
+          { "en": "P5", "he": "P5" },
+          { "en": "whether it is qualitative, semi-quantitative or quantitative", "he": "האם הוא איכותני, חצי-כמותי או כמותי" }
+        ],
+        [
+          { "en": "P6", "he": "P6" },
+          { "en": "type of specimen(s) — e.g. whole blood, serum, saliva etc", "he": "סוג הדגימה/ות — למשל דם מלא, נסיוב, רוק וכד'" }
+        ],
+        [
+          { "en": "P7", "he": "P7" },
+          { "en": "where applicable, the testing population — e.g. persons with specific health conditions, persons with specific symptoms, children in a certain age range", "he": "היכן שרלוונטי, אוכלוסיית הבדיקה — למשל אנשים בעלי מצבים בריאותיים מסוימים, אנשים בעלי תסמינים מסוימים, ילדים בטווח גילים מסוים" }
+        ],
+        [
+          { "en": "P8", "he": "P8" },
+          { "en": "intended user", "he": "המשתמש המיועד" }
+        ],
+        [
+          { "en": "Technology (T)", "he": "טכנולוגיה (T)" },
+          { "en": "", "he": "" }
+        ],
+        [
+          { "en": "T1", "he": "T1" },
+          { "en": "principle of the assay method or principles of operation of the instrument — e.g. real-time PCR, qualitative PCR, digital PCR, sandwich immunoassay, competitive immunoassay, immunoturbidimetric assay etc.", "he": "עקרון שיטת האנליזה או עקרונות הפעולה של המכשיר — למשל real-time PCR, PCR איכותני, PCR דיגיטלי, אימונואסיי מסוג סנדוויץ', אימונואסיי תחרותי, אימונואסיי אימונוטורבידימטרי וכד'" }
+        ]
+      ]
+    },
+    {
+      "id": "q4-heading",
+      "type": "heading",
+      "level": 2,
+      "number": "4",
+      "en": "What is the meaning of the phrase \"where no CS are available\" in Art 48(6)?",
+      "he": "מהי משמעות הביטוי \"כאשר אין מפרטים משותפים זמינים\" (where no CS are available) בסעיף 48(6)?"
+    },
+    {
+      "id": "q4-p1",
+      "type": "paragraph",
+      "en": "This should be understood as the case where no common specifications have been adopted and published in the Official Journal of the European Union for that type of device. After publication, the CS are considered \"available\", so the consultation of the expert panel is not required.",
+      "he": "יש להבין זאת כמקרה שבו לא אומצו ולא פורסמו מפרטים משותפים בכתב העת הרשמי של האיחוד האירופי עבור אותו סוג מכשיר. לאחר הפרסום, המפרטים המשותפים (CS) נחשבים \"זמינים\", ולכן ההיוועצות בפאנל המומחים אינה נדרשת."
+    },
+    {
+      "id": "q5-heading",
+      "type": "heading",
+      "level": 2,
+      "number": "5",
+      "en": "If a notified body identifies that a consultation of an expert panel is currently ongoing for that type of device, what should it do regarding the certification process?",
+      "he": "אם גוף מאונתר מזהה כי מתקיימת כעת היוועצות של פאנל מומחים עבור אותו סוג מכשיר, כיצד עליו לפעול בנוגע להליך ההסמכה?"
+    },
+    {
+      "id": "q5-p1",
+      "type": "paragraph",
+      "en": "This question does not concern the notified body that consults the expert panel on the first certification for that type of device, but rather the notified bodies that might be dealing with a second, third certification etc. while the consultation on the first certification is still ongoing. These notified bodies should not issue the certificate until the consultation of the expert panel on the first certification for that type of device is completed and the views are published. It is highly recommended that the notified bodies should give consideration to the views of the expert panel in its decision to issue the certificate.",
+      "he": "שאלה זו אינה נוגעת לגוף המאונתר המתייעץ עם פאנל המומחים בנוגע להסמכה הראשונה לסוג מכשיר זה, אלא לגופים המאונתרים שעשויים לטפל בהסמכה שנייה, שלישית וכד' בעוד ההיוועצות בנוגע להסמכה הראשונה עדיין מתמשכת. על גופים מאונתרים אלה שלא להנפיק את ההסמכה (תעודה) עד שההיוועצות בפאנל המומחים בנוגע להסמכה הראשונה לסוג מכשיר זה תושלם וחוות הדעת תפורסם. מומלץ מאוד שהגופים המאונתרים יביאו בחשבון את חוות הדעת של פאנל המומחים בהחלטתם להנפיק את ההסמכה (תעודה)."
+    }
+  ]
+}
