@@ -29,6 +29,25 @@
     },
 
     {
+      "id": "sec-contents",
+      "type": "heading",
+      "level": 1,
+      "en": "Contents",
+      "he": "תוכן העניינים"
+    },
+    {
+      "id": "contents-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Acronyms", "he": "ראשי תיבות" },
+        { "en": "Introduction", "he": "מבוא" },
+        { "en": "Use of the template", "he": "שימוש בתבנית" },
+        { "en": "Annex - Templates", "he": "נספח – תבניות" }
+      ]
+    },
+
+    {
       "id": "sec-acronyms",
       "type": "heading",
       "level": 1,
@@ -155,6 +174,12 @@
           { "en": "Substantial modification of clinical investigation under MDR.pdf", "he": "Substantial modification of clinical investigation under MDR.pdf" }
         ]
       ]
+    },
+    {
+      "id": "annex-note",
+      "type": "note",
+      "en": "The template form 'Substantial modification of clinical investigation under MDR' is provided as a separate attached document accompanying this guidance.",
+      "he": "טופס התבנית 'שינוי מהותי של חקירה קלינית על פי ה-MDR' מסופק כמסמך מצורף נפרד הנלווה להנחיה זו."
     }
   ]
 }
