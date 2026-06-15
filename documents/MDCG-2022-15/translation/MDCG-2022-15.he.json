@@ -1,0 +1,447 @@
+{
+  "id": "MDCG-2022-15",
+  "title": {
+    "en": "Guidance on appropriate surveillance regarding the transitional provisions under Article 110 of the IVDR with regard to devices covered by certificates according to the IVDD",
+    "he": "הנחיה בנושא מעקב מתאים בנוגע להוראות המעבר לפי סעיף 110 ל-IVDR ביחס למכשירים המכוסים על ידי תעודות בהתאם ל-IVDD"
+  },
+  "category": "In Vitro Diagnostic Medical Devices (IVD)",
+  "publicationDate": "2022-09",
+  "source": {
+    "url": "https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en",
+    "file": "original/mdcg_2022-15_en.pdf"
+  },
+  "language": "he",
+  "direction": "rtl",
+  "translationStatus": "review",
+  "glossaryVersion": "2026-06",
+  "blocks": [
+    {
+      "id": "doc-title",
+      "type": "heading",
+      "level": 1,
+      "en": "MDCG 2022-15 — Guidance on appropriate surveillance regarding the transitional provisions under Article 110 of the IVDR with regard to devices covered by certificates according to the IVDD",
+      "he": "MDCG 2022-15 — הנחיה בנושא מעקב מתאים בנוגע להוראות המעבר לפי סעיף 110 ל-IVDR ביחס למכשירים המכוסים על ידי תעודות בהתאם ל-IVDD"
+    },
+    {
+      "id": "doc-date",
+      "type": "paragraph",
+      "en": "September 2022",
+      "he": "ספטמבר 2022"
+    },
+    {
+      "id": "disclaimer-1",
+      "type": "paragraph",
+      "en": "This document has been endorsed by the Medical Device Coordination Group (MDCG) established by Article 103 of Regulation (EU) 2017/745. The MDCG is composed of representatives of all Member States and it is chaired by a representative of the European Commission.",
+      "he": "מסמך זה אושר על ידי קבוצת תיאום המכשירים הרפואיים (MDCG) שהוקמה מכוח סעיף 103 לתקנה (האיחוד האירופי) 2017/745. ה-MDCG מורכבת מנציגים של כל המדינות החברות ובראשה עומד נציג של הנציבות האירופית."
+    },
+    {
+      "id": "disclaimer-2",
+      "type": "paragraph",
+      "en": "The document is not a European Commission document and it cannot be regarded as reflecting the official position of the European Commission. Any views expressed in this document are not legally binding and only the Court of Justice of the European Union can give binding interpretations of Union law.",
+      "he": "המסמך אינו מסמך של הנציבות האירופית ואין לראות בו כמשקף את העמדה הרשמית של הנציבות האירופית. כל דעה המובעת במסמך זה אינה מחייבת מבחינה משפטית, ורק בית הדין לצדק של האיחוד האירופי מוסמך לתת פרשנות מחייבת לדין האיחוד."
+    },
+
+    {
+      "id": "sec-1",
+      "type": "heading",
+      "level": 1,
+      "number": "1",
+      "en": "Introduction",
+      "he": "מבוא"
+    },
+    {
+      "id": "sec-1-p1",
+      "type": "paragraph",
+      "en": "Article 110(2) and 110(3) of Regulation (EU) 2017/746 on in vitro diagnostic medical devices (IVDR) state that devices which are covered by valid certificates issued by a notified body under the Directive 98/79/EC on in vitro diagnostic medical devices (IVDD) may be placed on the market¹ or put into service² after the date of application of the IVDR and no later than 26 May 2025 under certain conditions.",
+      "he": "סעיף 110(2) וסעיף 110(3) לתקנה (האיחוד האירופי) 2017/746 בנושא מכשירים רפואיים לאבחנה ויטרו (IVDR) קובעים כי מכשירים המכוסים על ידי תעודות בתוקף שהוצאו על ידי גוף מאונתר לפי הנחיה 98/79/EC בנושא מכשירים רפואיים לאבחנה ויטרו (IVDD) רשאים להיות מוצבים בשוק¹ או להיכנס לשירות² לאחר מועד תחילת התחולה של ה-IVDR ולא יאוחר מ-26 במאי 2025, בתנאים מסוימים."
+    },
+    {
+      "id": "sec-1-p2",
+      "type": "paragraph",
+      "en": "The abovementioned conditions require that the notified body that issued the certificate under the IVDD continues carrying out appropriate surveillance in respect of the applicable requirements relating to the devices it has certified. Therefore, it is important for manufacturers, notified bodies and national authorities to get clarity on activities to be part of the appropriate surveillance referred to in Article 110(3) of the IVDR.",
+      "he": "התנאים האמורים לעיל דורשים כי הגוף המאונתר שהוציא את התעודה לפי ה-IVDD ימשיך לבצע מעקב מתאים ביחס לדרישות החלות הנוגעות למכשירים שאישר. לפיכך, חשוב ליצרנים, לגופים מאונתרים ולרשויות הלאומיות לקבל בהירות לגבי הפעילויות שיהיו חלק מהמעקב המתאים הנזכר בסעיף 110(3) ל-IVDR."
+    },
+    {
+      "id": "sec-1-p3",
+      "type": "paragraph",
+      "en": "To appropriately address application of transitional provisions to devices covered by certificates according to IVDD, this guidance, drafted in line with MDCG 2022-4 on appropriate surveillance under the MDR³ and MDCG 2022-8 on application of IVDR requirements to ‘legacy devices’⁴, should be read in conjunction with guidance MDCG 2022-6 on significant changes⁵.",
+      "he": "כדי להתייחס כראוי ליישום הוראות המעבר על מכשירים המכוסים על ידי תעודות בהתאם ל-IVDD, יש לקרוא הנחיה זו, שנוסחה בהתאם ל-MDCG 2022-4 בנושא מעקב מתאים לפי ה-MDR³ ול-MDCG 2022-8 בנושא יישום דרישות ה-IVDR על \"מכשירים מורשתיים\" (legacy devices)⁴, יחד עם הנחיה MDCG 2022-6 בנושא שינויים מהותיים⁵."
+    },
+    {
+      "id": "sec-1-p4",
+      "type": "paragraph",
+      "en": "For the purpose of this document, ‘legacy devices’ should be understood as devices which, in accordance with Article 110(3) of the IVDR, are placed on the market after the IVDR date of application (26 May 2022) and until the end of the respective transition period set out in the 2nd or 3rd subparagraph of Article 110(3) if certain conditions are fulfilled⁶. In this guidance only devices covered by a valid EC certificate issued in accordance with the IVDD prior to 26 May 2022 are addressed.",
+      "he": "לצורך מסמך זה, יש להבין \"מכשירים מורשתיים\" (legacy devices) כמכשירים אשר, בהתאם לסעיף 110(3) ל-IVDR, מוצבים בשוק לאחר מועד תחילת התחולה של ה-IVDR (26 במאי 2022) ועד לתום תקופת המעבר המתאימה הקבועה בתת-הסעיף השני או השלישי של סעיף 110(3), אם מתקיימים תנאים מסוימים⁶. בהנחיה זו מטופלים אך ורק מכשירים המכוסים על ידי תעודת EC בתוקף שהוצאה בהתאם ל-IVDD לפני 26 במאי 2022."
+    },
+    {
+      "id": "fn-1",
+      "type": "note",
+      "marker": "1",
+      "en": "See IVDR Article 2(21).",
+      "he": "ראה סעיף 2(21) ל-IVDR."
+    },
+    {
+      "id": "fn-2",
+      "type": "note",
+      "marker": "2",
+      "en": "See IVDR Article 2(22).",
+      "he": "ראה סעיף 2(22) ל-IVDR."
+    },
+    {
+      "id": "fn-3",
+      "type": "note",
+      "marker": "3",
+      "en": "MDCG 2022-4 “Guidance on appropriate surveillance regarding the transitional provisions under Article 120 of the MDR with regard to devices covered by certificates according to the MDD or the AIMDD”",
+      "he": "MDCG 2022-4 \"הנחיה בנושא מעקב מתאים בנוגע להוראות המעבר לפי סעיף 120 ל-MDR ביחס למכשירים המכוסים על ידי תעודות בהתאם ל-MDD או ל-AIMDD\""
+    },
+    {
+      "id": "fn-4",
+      "type": "note",
+      "marker": "4",
+      "en": "MDCG 2022-8 “application of IVDR requirements to ‘legacy devices’ and to devices placed on the market prior to 26 May 2022 in accordance with Directive 98/79/EC”",
+      "he": "MDCG 2022-8 \"יישום דרישות ה-IVDR על 'מכשירים מורשתיים' ועל מכשירים שהוצבו בשוק לפני 26 במאי 2022 בהתאם להנחיה 98/79/EC\""
+    },
+    {
+      "id": "fn-5",
+      "type": "note",
+      "marker": "5",
+      "en": "MDCG 2022-6 “Guidance on significant changes regarding the transitional provision under Article 110 of the IVDR with regard to devices covered by certificates according to IVDD”",
+      "he": "MDCG 2022-6 \"הנחיה בנושא שינויים מהותיים בנוגע להוראת המעבר לפי סעיף 110 ל-IVDR ביחס למכשירים המכוסים על ידי תעודות בהתאם ל-IVDD\""
+    },
+    {
+      "id": "fn-6",
+      "type": "note",
+      "marker": "6",
+      "en": "See concepts and terminology defined in MDCG 2022-6 and MDCG 2022-8.",
+      "he": "ראה מושגים ומינוח המוגדרים ב-MDCG 2022-6 וב-MDCG 2022-8."
+    },
+
+    {
+      "id": "sec-2",
+      "type": "heading",
+      "level": 1,
+      "number": "2",
+      "en": "Scope",
+      "he": "תחולה"
+    },
+    {
+      "id": "sec-2-p1",
+      "type": "paragraph",
+      "en": "This guidance document outlines the activities to be performed by notified bodies⁷ as part of the appropriate surveillance defined in Article 110(3) last subparagraph IVDR. To clarify elements to be verified by notified bodies, this guidance document also covers requirements concerning certain manufacturers’ obligations, especially in respect of their quality management system.",
+      "he": "מסמך הנחיה זה מפרט את הפעילויות שעל הגופים המאונתרים לבצע⁷ כחלק מהמעקב המתאים המוגדר בתת-הסעיף האחרון של סעיף 110(3) ל-IVDR. כדי להבהיר את הרכיבים שעל הגופים המאונתרים לאמת, מסמך הנחיה זה מכסה גם דרישות הנוגעות לחובות מסוימות של יצרנים, ובמיוחד ביחס למערכת ניהול האיכות שלהם."
+    },
+    {
+      "id": "sec-2-p2",
+      "type": "paragraph",
+      "en": "The document applies to notified bodies that have lawfully issued certificates under the IVDD, regardless of whether or not those notified bodies have applied for designation or are designated under the IVDR (see MDCG 2019-10 rev.1⁸) as long as the respective authority responsible for notified bodies has the right to and does monitor the notified body’s activities under Article 110(3) IVDR.",
+      "he": "המסמך חל על גופים מאונתרים שהוציאו כדין תעודות לפי ה-IVDD, ללא קשר לשאלה אם אותם גופים מאונתרים הגישו בקשה למינוי או מונו לפי ה-IVDR (ראה MDCG 2019-10 rev.1⁸), כל עוד הרשות הרלוונטית האחראית על גופים מאונתרים זכאית לנטר את פעילויות הגוף המאונתר לפי סעיף 110(3) ל-IVDR ואכן עושה כן."
+    },
+    {
+      "id": "fn-7",
+      "type": "note",
+      "marker": "7",
+      "en": "According to Article 110(1) IVDR, from 26 May 2022 any publication of a notification in respect of a notified body in accordance with Directive 98/79/EC becomes void. Irrespective of this, the term “notified body” will be used throughout this document for those “previously notified” bodies.",
+      "he": "בהתאם לסעיף 110(1) ל-IVDR, החל מ-26 במאי 2022 כל פרסום של אינתור (notification) ביחס לגוף מאונתר בהתאם להנחיה 98/79/EC בטל. על אף זאת, המונח \"גוף מאונתר\" ישמש לאורך מסמך זה עבור אותם גופים ש\"אונתרו בעבר\"."
+    },
+
+    {
+      "id": "sec-3",
+      "type": "heading",
+      "level": 1,
+      "number": "3",
+      "en": "Requirements in respect to the manufacturer’s quality management system and related obligations",
+      "he": "דרישות ביחס למערכת ניהול האיכות של היצרן וחובות נלוות"
+    },
+    {
+      "id": "sec-3-p1",
+      "type": "paragraph",
+      "en": "Article 110(3) IVDR lays down that devices may be placed on the market or put into service until 26 May 2025 when they are covered by valid certificates under the IVDD, provided that they continue to comply with the IVDD and that there are no significant changes in the design and intended purpose. Therefore, in principle, the quality management system approved under the Directive needs to be maintained. In addition, in accordance with the fourth subparagraph of Article 110(3) IVDR, all relevant requirements set out in Chapter VII IVDR on post-market surveillance, market surveillance, vigilance and registration of economic operators and of devices apply to ‘legacy devices’ in place of the corresponding requirements in the Directive. IVDR requirements will be subject to the notified body’s surveillance activities as described in section 4.",
+      "he": "סעיף 110(3) ל-IVDR קובע כי מכשירים רשאים להיות מוצבים בשוק או להיכנס לשירות עד 26 במאי 2025 כאשר הם מכוסים על ידי תעודות בתוקף לפי ה-IVDD, ובלבד שהם ממשיכים לעמוד ב-IVDD וכי אין שינויים מהותיים בעיצוב ובמטרה המיועדת. לפיכך, באופן עקרוני, יש לשמר את מערכת ניהול האיכות שאושרה לפי ההנחיה. בנוסף, בהתאם לתת-הסעיף הרביעי של סעיף 110(3) ל-IVDR, כל הדרישות הרלוונטיות הקבועות בפרק VII ל-IVDR בנושא מעקב שלאחר שיווק, פיקוח שוק, ערנות ורישום של גורמים כלכליים ושל מכשירים חלות על \"מכשירים מורשתיים\" במקום הדרישות המקבילות שבהנחיה. דרישות ה-IVDR יהיו כפופות לפעילויות המעקב של הגוף המאונתר כמתואר בסעיף 4."
+    },
+    {
+      "id": "sec-3-p2",
+      "type": "paragraph",
+      "en": "Until the European database on medical devices (EUDAMED) is fully functional, manufacturers or their authorised representatives are expected to apply the respective national provisions and to take into account MDCG 2022-12⁹.",
+      "he": "עד שמסד הנתונים האירופי בנושא מכשירים רפואיים (EUDAMED) יהיה פעיל במלואו, יצרנים או נציגיהם המורשים צפויים ליישם את ההוראות הלאומיות המתאימות ולהתחשב ב-MDCG 2022-12⁹."
+    },
+    {
+      "id": "sec-3-p3",
+      "type": "paragraph",
+      "en": "IVDR requirements that are not related to post-market surveillance, market surveillance, vigilance, registration of economic operators and devices should in principle not apply to economic operators in respect to ‘legacy devices’. Examples for provisions not applicable in respect to ‘legacy devices’ are Article 15¹⁰, Article 16(3) and (4), Article 22, Article 24, Article 29¹¹. This is without prejudice to the possibility for economic operators to follow any other IVDR requirements also for ‘legacy devices’, especially if they deal with both ‘legacy devices’ and IVDR devices and want to apply the same procedures for all devices.",
+      "he": "דרישות ה-IVDR שאינן קשורות למעקב שלאחר שיווק, פיקוח שוק, ערנות ורישום של גורמים כלכליים ומכשירים אינן אמורות, באופן עקרוני, לחול על גורמים כלכליים ביחס ל\"מכשירים מורשתיים\". דוגמאות להוראות שאינן חלות ביחס ל\"מכשירים מורשתיים\" הן סעיף 15¹⁰, סעיף 16(3) ו-(4), סעיף 22, סעיף 24, סעיף 29¹¹. אין בכך כדי לפגוע באפשרות של גורמים כלכליים לעמוד גם בכל דרישה אחרת של ה-IVDR אף עבור \"מכשירים מורשתיים\", במיוחד אם הם עוסקים הן ב\"מכשירים מורשתיים\" והן במכשירי IVDR ומבקשים ליישם את אותם נהלים על כל המכשירים."
+    },
+    {
+      "id": "fn-8",
+      "type": "note",
+      "marker": "8",
+      "en": "MDCG 2019-10 rev.1 “Application of transitional provisions concerning validity of certificates issued in accordance to the directives”. Please, note that MDCG 2019-10 specifically refers to transitional provisions laid down in Regulation (EU) 2017/745 but can be applied by analogy to Regulation (EU) 2017/746",
+      "he": "MDCG 2019-10 rev.1 \"יישום הוראות מעבר הנוגעות לתוקף תעודות שהוצאו בהתאם להנחיות\". יש לשים לב כי MDCG 2019-10 מתייחס באופן ספציפי להוראות מעבר הקבועות בתקנה (האיחוד האירופי) 2017/745, אך ניתן ליישמו בהיקש על תקנה (האיחוד האירופי) 2017/746."
+    },
+    {
+      "id": "fn-9",
+      "type": "note",
+      "marker": "9",
+      "en": "MDCG 2022-12 “Guidance on harmonised administrative practices and alternative technical solutions until EUDAMED is fully functional (for Regulation (EU) 2017/746 on in vitro diagnostic medical devices)”.",
+      "he": "MDCG 2022-12 \"הנחיה בנושא פרקטיקות מנהליות מתואמות ופתרונות טכניים חלופיים עד ש-EUDAMED יהיה פעיל במלואו (עבור תקנה (האיחוד האירופי) 2017/746 בנושא מכשירים רפואיים לאבחנה ויטרו)\"."
+    },
+    {
+      "id": "fn-10",
+      "type": "note",
+      "marker": "10",
+      "en": "In case of Member States having introduced the EUDAMED Actor module as compulsory for actor registration, manufacturers as well as authorised representatives can indicate that information related to the person responsible for regulatory compliance is not applicable (e.g. “N.A.”) providing a justification in the registration request for the relevant Competent Authority.",
+      "he": "במקרה של מדינות חברות שהנהיגו את מודול הגורם (Actor) של EUDAMED כחובה לרישום גורמים, יצרנים וכן נציגים מורשים יכולים לציין כי המידע הקשור לאדם האחראי על עמידה ברגולציה אינו רלוונטי (למשל \"N.A.\"), תוך מתן הנמקה בבקשת הרישום עבור הרשות המוסמכת הרלוונטית."
+    },
+    {
+      "id": "fn-11",
+      "type": "note",
+      "marker": "11",
+      "en": "See MDCG 2022-8.",
+      "he": "ראה MDCG 2022-8."
+    },
+
+    {
+      "id": "sec-4",
+      "type": "heading",
+      "level": 1,
+      "number": "4",
+      "en": "Surveillance according to Article 110(3) IVDR",
+      "he": "מעקב בהתאם לסעיף 110(3) ל-IVDR"
+    },
+    {
+      "id": "sec-4-1",
+      "type": "heading",
+      "level": 2,
+      "number": "4.1",
+      "en": "General",
+      "he": "כללי"
+    },
+    {
+      "id": "sec-4-1-p1",
+      "type": "paragraph",
+      "en": "According to Article 110(3) IVDR, the notified body’s activities in principle should be a continuation of the previous surveillance activities under the Directive, as notified bodies designated under the IVDD are not designated to conduct assessments under the Article 48 of IVDR. In the framework of their surveillance activities, notified bodies need to take into account the new requirements resulting from the transitional provisions (see section 3). In doing that, notified bodies should consider clarification provided by e.g. the CAMD transition sub-group¹² and relevant MDCG guidance¹³.",
+      "he": "בהתאם לסעיף 110(3) ל-IVDR, פעילויות הגוף המאונתר אמורות באופן עקרוני להוות המשך של פעילויות המעקב הקודמות לפי ההנחיה, מאחר שגופים מאונתרים שמונו לפי ה-IVDD אינם ממונים לבצע הערכות לפי סעיף 48 ל-IVDR. במסגרת פעילויות המעקב שלהם, על הגופים המאונתרים להתחשב בדרישות החדשות הנובעות מהוראות המעבר (ראה סעיף 3). בעשותם כן, על הגופים המאונתרים לשקול הבהרות שניתנו, למשל, על ידי תת-קבוצת המעבר של CAMD¹² ועל ידי הנחיות MDCG רלוונטיות¹³."
+    },
+    {
+      "id": "sec-4-1-p2",
+      "type": "paragraph",
+      "en": "Following the information by the manufacturer, the notified body needs to identify which of the existing IVDD certificate(s) will continue to be used and if their scopes remain unchanged.",
+      "he": "בעקבות המידע שמספק היצרן, על הגוף המאונתר לזהות איזו מהתעודות הקיימות לפי ה-IVDD תמשיך להיות בשימוש ואם היקפיהן נותרים ללא שינוי."
+    },
+    {
+      "id": "sec-4-1-p3",
+      "type": "paragraph",
+      "en": "In addition, the notified body needs to ensure that their rights and duties as notified body will continue to apply under their new status (see section 4.2).",
+      "he": "בנוסף, על הגוף המאונתר להבטיח כי זכויותיו וחובותיו כגוף מאונתר ימשיכו לחול תחת מעמדו החדש (ראה סעיף 4.2)."
+    },
+    {
+      "id": "fn-12",
+      "type": "note",
+      "marker": "12",
+      "en": "See FAQ_IVDR_180117_V1.0-1.pdf (camd-europe.eu)",
+      "he": "ראה FAQ_IVDR_180117_V1.0-1.pdf (camd-europe.eu)"
+    },
+    {
+      "id": "fn-13",
+      "type": "note",
+      "marker": "13",
+      "en": "See https://ec.europa.eu/health/md_sector/new_regulations/guidance_en, especially https://ec.europa.eu/health/sites/health/files/md_sector/docs/md_mdcg_guidance_significant_changes_annexes_en.pdf.",
+      "he": "ראה https://ec.europa.eu/health/md_sector/new_regulations/guidance_en, ובמיוחד https://ec.europa.eu/health/sites/health/files/md_sector/docs/md_mdcg_guidance_significant_changes_annexes_en.pdf."
+    },
+
+    {
+      "id": "sec-4-2",
+      "type": "heading",
+      "level": 2,
+      "number": "4.2",
+      "en": "Contractual relation",
+      "he": "יחסים חוזיים"
+    },
+    {
+      "id": "sec-4-2-p1",
+      "type": "paragraph",
+      "en": "As mentioned in the “CAMD MDR/IVDR Transition Subgroup: FAQ – IVDR Transitional provisions Q. 15” notified bodies need to ensure that the previous rights and duties under the Directives remain applicable also after the IVDR date of application. This needs to be done on a contractual basis. In particular, existing contracts between the notified body and the manufacturer should cover surveillance activities concerning ‘legacy devices’ to be performed by the notified body during the transition period (i.e. until 26 May 2025), as well as the right to suspend, restrict or withdraw concerned certificates.",
+      "he": "כפי שצוין ב-\"CAMD MDR/IVDR Transition Subgroup: FAQ – IVDR Transitional provisions Q. 15\", על הגופים המאונתרים להבטיח כי הזכויות והחובות הקודמות לפי ההנחיות יישארו בתוקף גם לאחר מועד תחילת התחולה של ה-IVDR. יש לעשות זאת על בסיס חוזי. בפרט, על החוזים הקיימים בין הגוף המאונתר ליצרן לכסות את פעילויות המעקב הנוגעות ל\"מכשירים מורשתיים\" שעל הגוף המאונתר לבצע במהלך תקופת המעבר (כלומר עד 26 במאי 2025), וכן את הזכות להשעות, להגביל או לבטל תעודות נוגעות בדבר."
+    },
+
+    {
+      "id": "sec-4-3",
+      "type": "heading",
+      "level": 2,
+      "number": "4.3",
+      "en": "Review of Quality Management System documentation",
+      "he": "סקירת תיעוד מערכת ניהול האיכות"
+    },
+    {
+      "id": "sec-4-3-p1",
+      "type": "paragraph",
+      "en": "For manufacturers making use of Article 110(3) IVDR the notified body needs to verify the following:",
+      "he": "עבור יצרנים העושים שימוש בסעיף 110(3) ל-IVDR, על הגוף המאונתר לאמת את הדברים הבאים:"
+    },
+    {
+      "id": "sec-4-3-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "en": "If the scope of devices covered by the IVDD certificate(s) remains or if and which devices are discontinued. To that end, it is important for the notified body to consider the manufacturer’s transition plan for IVDR compliance.",
+          "he": "האם היקף המכשירים המכוסים על ידי התעודה/ות לפי ה-IVDD נותר בעינו, או אם ואילו מכשירים מופסקים. לשם כך, חשוב שהגוף המאונתר ישקול את תוכנית המעבר של היצרן לעמידה ב-IVDR."
+        },
+        {
+          "en": "If the manufacturer has adjusted its quality management system according to the requirements of Article 110(3) IVDR concerning significant changes, taking into account the content of MDCG 2022-6 (“change regime”).",
+          "he": "האם היצרן התאים את מערכת ניהול האיכות שלו בהתאם לדרישות סעיף 110(3) ל-IVDR בנוגע לשינויים מהותיים, תוך התחשבות בתוכן של MDCG 2022-6 (\"משטר השינויים\")."
+        },
+        {
+          "en": "If the manufacturer has made the necessary adjustments to the quality management system on post-market surveillance, market surveillance, vigilance, registration of economic operators and of devices. This can be done by verifying that the manufacturer has changed the procedures for post-market surveillance etc. (see section 3) in line with the IVDR or has changed its quality management system completely to adapt to IVDR requirements, which cover also those in the Directive.",
+          "he": "האם היצרן ביצע את ההתאמות הנחוצות במערכת ניהול האיכות בנושא מעקב שלאחר שיווק, פיקוח שוק, ערנות, רישום של גורמים כלכליים ושל מכשירים. ניתן לעשות זאת על ידי אימות כי היצרן שינה את הנהלים למעקב שלאחר שיווק וכד' (ראה סעיף 3) בהתאם ל-IVDR, או ששינה לחלוטין את מערכת ניהול האיכות שלו כדי להתאימה לדרישות ה-IVDR, המכסות גם את אלה שבהנחיה."
+        },
+        {
+          "en": "If all appropriate processes relating to post-market surveillance, including risk management and performance data, feed into the post-market surveillance plan.",
+          "he": "האם כל התהליכים המתאימים הנוגעים למעקב שלאחר שיווק, לרבות ניהול סיכונים ונתוני ביצועים, מזינים את תוכנית המעקב שלאחר שיווק."
+        }
+      ]
+    },
+
+    {
+      "id": "sec-4-4",
+      "type": "heading",
+      "level": 2,
+      "number": "4.4",
+      "en": "Audit activities",
+      "he": "פעילויות מבדק (audit)"
+    },
+    {
+      "id": "sec-4-4-p1",
+      "type": "paragraph",
+      "en": "Based on the outcome of the documentation review (section 4.3) the notified body needs to adjust the audit programme by identifying the individual audits (scope(s), objectives, sequence) and the respective audit activities, including, if appropriate, unannounced audits.",
+      "he": "בהתבסס על תוצאת סקירת התיעוד (סעיף 4.3), על הגוף המאונתר להתאים את תוכנית המבדק על ידי זיהוי המבדקים הפרטניים (היקפים, יעדים, רצף) ופעילויות המבדק המתאימות, לרבות, היכן שמתאים, מבדקים ללא התראה מוקדמת."
+    },
+    {
+      "id": "sec-4-4-p2",
+      "type": "paragraph",
+      "en": "Considering the overall intention of Article 110(3) IVDR that certain IVDR provisions already apply to ‘legacy devices’, the audit activities to be performed by notified bodies should focus on those new provisions. In that context notified bodies should combine surveillance activities under the IVDD and the IVDR in a meaningful way (see 5.1).",
+      "he": "בהתחשב בכוונה הכוללת של סעיף 110(3) ל-IVDR לפיה הוראות מסוימות של ה-IVDR כבר חלות על \"מכשירים מורשתיים\", על פעילויות המבדק שעל הגופים המאונתרים לבצע להתמקד באותן הוראות חדשות. בהקשר זה על הגופים המאונתרים לשלב את פעילויות המעקב לפי ה-IVDD ולפי ה-IVDR באופן בעל משמעות (ראה 5.1)."
+    },
+    {
+      "id": "sec-4-4-p3",
+      "type": "paragraph",
+      "en": "Concerning the new elements required, manufacturers should make available PMS plans and any PMS reports to their notified bodies in the framework of surveillance audits in order to allow the notified body to verify that the quality management system has been appropriately adapted and remains compliant for the certificate(s) issued under the IVDD.",
+      "he": "בנוגע לרכיבים החדשים הנדרשים, על היצרנים להעמיד לרשות הגופים המאונתרים שלהם תוכניות PMS וכל דוחות PMS במסגרת מבדקי המעקב, כדי לאפשר לגוף המאונתר לאמת כי מערכת ניהול האיכות הותאמה כראוי ונשארת עומדת בדרישות עבור התעודה/ות שהוצאה/ו לפי ה-IVDD."
+    },
+    {
+      "id": "sec-4-4-p4",
+      "type": "paragraph",
+      "en": "Based on the audit programme, individual audit plans should be drafted (for the different scenarios see section 5.1) and the audits performed accordingly.",
+      "he": "בהתבסס על תוכנית המבדק, יש לנסח תוכניות מבדק פרטניות (לתרחישים השונים ראה סעיף 5.1) ולבצע את המבדקים בהתאם."
+    },
+
+    {
+      "id": "sec-4-5",
+      "type": "heading",
+      "level": 2,
+      "number": "4.5",
+      "en": "Information to Competent Authorities",
+      "he": "מידע לרשויות מוסמכות"
+    },
+    {
+      "id": "sec-4-5-p1",
+      "type": "paragraph",
+      "en": "In cases where the audit activities reveal a major non-conformity, which may present an unacceptable risk to the health or safety of patients, users or other persons, the notified body needs to inform the relevant competent authority.",
+      "he": "במקרים שבהם פעילויות המבדק חושפות אי-התאמה מהותית (major non-conformity), העלולה להוות סיכון בלתי-מתקבל על הדעת לבריאותם או לבטיחותם של מטופלים, משתמשים או אנשים אחרים, על הגוף המאונתר להודיע לרשות המוסמכת הרלוונטית."
+    },
+    {
+      "id": "sec-4-5-p2",
+      "type": "paragraph",
+      "en": "In case certificates issued under the IVDD are suspended, re-instated, restricted, cancelled by the manufacturer or withdrawn, the notified body needs to comply with its notification obligations according to Article 112 IVDR¹⁴.",
+      "he": "במקרה שתעודות שהוצאו לפי ה-IVDD מושעות, מוחזרות לתוקפן, מוגבלות, מבוטלות על ידי היצרן או נמשכות, על הגוף המאונתר לעמוד בחובות הדיווח שלו בהתאם לסעיף 112 ל-IVDR¹⁴."
+    },
+    {
+      "id": "fn-14",
+      "type": "note",
+      "marker": "14",
+      "en": "In line with the principles outlined in the MDCG 2022-6: notified bodies are not allowed to issue any new IVDD certificates. Changes of certificates as listed should be communicated as written decisions / statements.",
+      "he": "בהתאם לעקרונות המתוארים ב-MDCG 2022-6: לגופים מאונתרים אסור להוציא תעודות IVDD חדשות כלשהן. שינויי תעודות כמפורט יימסרו כהחלטות/הצהרות בכתב."
+    },
+
+    {
+      "id": "sec-5",
+      "type": "heading",
+      "level": 1,
+      "number": "5",
+      "en": "Possible scenarios for the surveillance according to Article 110(3) IVDR",
+      "he": "תרחישים אפשריים למעקב בהתאם לסעיף 110(3) ל-IVDR"
+    },
+    {
+      "id": "sec-5-p1",
+      "type": "paragraph",
+      "en": "Depending on the specific situation of a manufacturer, the individual audits to be performed under Article 110(3) IVDR may be combined with audits according to Article 48 IVDR and the respective procedures set out in Annexes IX or XI.",
+      "he": "בהתאם למצבו הספציפי של היצרן, ניתן לשלב את המבדקים הפרטניים שיש לבצע לפי סעיף 110(3) ל-IVDR עם מבדקים בהתאם לסעיף 48 ל-IVDR ועם הנהלים המתאימים הקבועים בנספחים IX או XI."
+    },
+    {
+      "id": "sec-5-1",
+      "type": "heading",
+      "level": 2,
+      "number": "5.1",
+      "en": "On-site audits",
+      "he": "מבדקים באתר (on-site)"
+    },
+    {
+      "id": "sec-5-1-p1",
+      "type": "paragraph",
+      "en": "When establishing procedures for activities to be performed in the context of the appropriate surveillance in respect of applicable requirements relating to the IVDD certified devices, the notified body could distinguish between four possible scenarios presented below:",
+      "he": "בעת קביעת נהלים לפעילויות שיבוצעו בהקשר של המעקב המתאים ביחס לדרישות החלות הנוגעות למכשירים המאושרים לפי ה-IVDD, הגוף המאונתר יוכל להבחין בין ארבעה תרחישים אפשריים המוצגים להלן:"
+    },
+    {
+      "id": "sec-5-1-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "en": "a) Manufacturers of ‘legacy devices’ that have not applied for certification under the IVDR (and are not going to adapt or have not adapted their systems to IVDR with the exception to those requirements specified under Article 110(3) IVDR),",
+          "he": "א) יצרנים של \"מכשירים מורשתיים\" שלא הגישו בקשה לאישור לפי ה-IVDR (ואינם עומדים להתאים או לא התאימו את מערכותיהם ל-IVDR, למעט אותן דרישות המפורטות בסעיף 110(3) ל-IVDR),"
+        },
+        {
+          "en": "b) Manufacturers of ‘legacy devices’ and IVDR devices that have already implemented the IVDR requirements in their systems and whose application for IVDR certification is being reviewed by the notified body that issued the IVDD certificate(s),",
+          "he": "ב) יצרנים של \"מכשירים מורשתיים\" ושל מכשירי IVDR שכבר יישמו את דרישות ה-IVDR במערכותיהם, ואשר בקשתם לאישור לפי ה-IVDR נסקרת על ידי הגוף המאונתר שהוציא את התעודה/ות לפי ה-IVDD,"
+        },
+        {
+          "en": "c) Manufacturers of ‘legacy devices’ and IVDR devices already certified by the same notified body under the IVDR for the same and / or partially different types of devices, i.e. overlapping scopes of certificates,",
+          "he": "ג) יצרנים של \"מכשירים מורשתיים\" ושל מכשירי IVDR שכבר אושרו על ידי אותו גוף מאונתר לפי ה-IVDR עבור סוגי מכשירים זהים ו/או שונים חלקית, כלומר היקפי תעודות חופפים,"
+        },
+        {
+          "en": "d) Manufacturers of ‘legacy devices’ and IVDR devices already certified by another notified body under the IVDR.",
+          "he": "ד) יצרנים של \"מכשירים מורשתיים\" ושל מכשירי IVDR שכבר אושרו על ידי גוף מאונתר אחר לפי ה-IVDR."
+        }
+      ]
+    },
+    {
+      "id": "sec-5-1-p2",
+      "type": "paragraph",
+      "en": "For scenario (a), notified bodies should perform surveillance assessment under the Directive and verify the application of IVDR requirements “relating to post-market surveillance, market surveillance, vigilance, registration of economic operators”. Under that scenario, they should also verify if the manufacturer has taken care of the principles outlined in MDCG 2022-6.",
+      "he": "עבור תרחיש (א), על הגופים המאונתרים לבצע הערכת מעקב לפי ההנחיה ולאמת את יישום דרישות ה-IVDR \"הנוגעות למעקב שלאחר שיווק, פיקוח שוק, ערנות, רישום של גורמים כלכליים\". בתרחיש זה עליהם גם לאמת אם היצרן נתן את דעתו לעקרונות המתוארים ב-MDCG 2022-6."
+    },
+    {
+      "id": "sec-5-1-p3",
+      "type": "paragraph",
+      "en": "For scenarios (b) to (d), in case the notified body that issued the certificate(s) under the IVDD is already designated under the IVDR, surveillance activities may be performed according to IVDR.",
+      "he": "עבור תרחישים (ב) עד (ד), במקרה שהגוף המאונתר שהוציא את התעודה/ות לפי ה-IVDD כבר מונה לפי ה-IVDR, ניתן לבצע את פעילויות המעקב בהתאם ל-IVDR."
+    },
+    {
+      "id": "sec-5-1-p4",
+      "type": "paragraph",
+      "en": "In case the notified body that issued the certificate(s) under the IVDD is not designated under the IVDR, scenario (d) is to be treated like scenario (a).",
+      "he": "במקרה שהגוף המאונתר שהוציא את התעודה/ות לפי ה-IVDD אינו ממונה לפי ה-IVDR, יש לטפל בתרחיש (ד) כמו בתרחיש (א)."
+    },
+    {
+      "id": "sec-5-1-p5",
+      "type": "paragraph",
+      "en": "In addition, for scenario (c), notified bodies may decide to couple IVDR audits and surveillance audits according to Article 110(3) IVDR provided that they perform an assessment of the individual circumstances. The assessment and the decision should be justified and documented considering elements such as similarities in the scope covered by the IVDD and IVDR certificates, same manufacturing sites and other relevant aspects.",
+      "he": "בנוסף, עבור תרחיש (ג), הגופים המאונתרים רשאים להחליט לשלב מבדקי IVDR ומבדקי מעקב בהתאם לסעיף 110(3) ל-IVDR, ובלבד שיבצעו הערכה של הנסיבות הפרטניות. ההערכה וההחלטה יונמקו ויתועדו תוך התחשבות ברכיבים כגון דמיון בהיקף המכוסה על ידי תעודות ה-IVDD וה-IVDR, אותם אתרי ייצור והיבטים רלוונטיים אחרים."
+    },
+    {
+      "id": "sec-5-1-p6",
+      "type": "paragraph",
+      "en": "The notified body’s procedures should appropriately describe the different scenarios applied.",
+      "he": "נהלי הגוף המאונתר אמורים לתאר כראוי את התרחישים השונים שיושמו."
+    }
+  ]
+}
