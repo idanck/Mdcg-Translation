@@ -11,8 +11,8 @@
 
 | Item | Status |
 |------|--------|
-| Original (EN) | ⬜ Not yet added |
-| Hebrew translation | ⬜ Not yet started |
+| Original (EN) | ✅ `original/mdcg_2021-21_en.pdf` |
+| Hebrew translation | 🔍 Under review (full translation done) |
 
 ---
 
@@ -20,11 +20,22 @@
 
 | File | Description |
 |------|-------------|
-| `original/` | Original English document (PDF) |
-| `translation/` | Hebrew translation |
+| `original/mdcg_2021-21_en.pdf` | Original English document (PDF) |
+| `translation/MDCG-2021-21-rev1.he.json` | Canonical bilingual translation (source of truth) |
+| `translation/MDCG-2021-21-rev1.he.html` | Hebrew RTL rendering, generated from the JSON |
 
 ---
 
 ## Notes
 
-<!-- Add translation notes, terminology decisions, open questions here -->
+- Full document translated: cover disclaimer, Revision 1 changes table, Introduction,
+  General considerations (definitions list, Overall considerations, Sensitivity and
+  specificity, Interference and cross-reactivity, Anticoagulants, Batch testing,
+  Self-tests), Specific considerations, and all 7 specification tables (Tables 1–7) with
+  their footnotes.
+- Acronyms (IVDR, SARS-CoV-2, COVID-19, RT-PCR, NAT, CE, WHO, etc.), regulation/article
+  references, NIBSC codes, numeric performance values, percentages, Ct values and units are
+  preserved verbatim in both EN and HE.
+- To regenerate the HTML after editing the JSON:
+  `python3 tools/render_html.py MDCG-2021-21-rev1`
+- To validate the JSON against the schema: `python3 tools/validate.py MDCG-2021-21-rev1`
