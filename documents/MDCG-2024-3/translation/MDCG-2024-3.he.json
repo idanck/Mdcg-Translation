@@ -1,0 +1,1403 @@
+{
+  "id": "MDCG-2024-3",
+  "title": {
+    "en": "Guidance on content of the Clinical Investigation Plan for clinical investigations of medical devices",
+    "he": "הנחיה בנושא תוכן תוכנית החקירה הקלינית עבור חקירות קליניות של מכשירים רפואיים"
+  },
+  "category": "Clinical Investigation and Evaluation",
+  "publicationDate": "2024-03",
+  "source": {
+    "url": "https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en",
+    "file": "original/mdcg_2024-3_en.pdf"
+  },
+  "language": "he",
+  "direction": "rtl",
+  "translationStatus": "review",
+  "glossaryVersion": "2026-06",
+  "blocks": [
+    {
+      "id": "disclaimer-1",
+      "type": "paragraph",
+      "en": "This document has been endorsed by the Medical Device Coordination Group (MDCG) established by Article 103 of Regulation (EU) 2017/745. The MDCG is composed of representatives of all Member States and it is chaired by a representative of the European Commission.",
+      "he": "מסמך זה אושר על ידי קבוצת תיאום המכשירים הרפואיים (MDCG) שהוקמה מכוח סעיף 103 לתקנה (האיחוד האירופי) 2017/745. ה-MDCG מורכבת מנציגים של כל המדינות החברות ובראשה עומד נציג של הנציבות האירופית."
+    },
+    {
+      "id": "disclaimer-2",
+      "type": "paragraph",
+      "en": "The document is not a European Commission document and it cannot be regarded as reflecting the official position of the European Commission. Any views expressed in this document are not legally binding and only the Court of Justice of the European Union can give binding interpretations of Union law.",
+      "he": "המסמך אינו מסמך של הנציבות האירופית ואין לראות בו כמשקף את העמדה הרשמית של הנציבות האירופית. כל דעה המובעת במסמך זה אינה מחייבת מבחינה משפטית, ורק בית הדין לצדק של האיחוד האירופי מוסמך לתת פרשנות מחייבת לדין האיחוד."
+    },
+
+    {
+      "id": "sec-abbr",
+      "type": "heading",
+      "level": 1,
+      "en": "Abbreviations",
+      "he": "ראשי תיבות"
+    },
+    {
+      "id": "abbr-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          { "en": "Abbreviation", "he": "ראשי תיבות" },
+          { "en": "Meaning", "he": "משמעות" }
+        ],
+        [
+          { "en": "ADE", "he": "ADE" },
+          { "en": "Adverse Device Effect", "he": "השפעה שלילית של מכשיר (Adverse Device Effect)" }
+        ],
+        [
+          { "en": "AE", "he": "AE" },
+          { "en": "Adverse Event", "he": "אירוע שלילי (Adverse Event)" }
+        ],
+        [
+          { "en": "CIP", "he": "CIP" },
+          { "en": "Clinical Investigation Plan", "he": "תוכנית החקירה הקלינית (Clinical Investigation Plan)" }
+        ],
+        [
+          { "en": "DD", "he": "DD" },
+          { "en": "Device Deficiency", "he": "ליקוי במכשיר (Device Deficiency)" }
+        ],
+        [
+          { "en": "DMC", "he": "DMC" },
+          { "en": "Data Monitoring Committee", "he": "ועדת ניטור נתונים (Data Monitoring Committee)" }
+        ],
+        [
+          { "en": "DSMB", "he": "DSMB" },
+          { "en": "Data Safety Monitoring Board", "he": "מועצת ניטור בטיחות נתונים (Data Safety Monitoring Board)" }
+        ],
+        [
+          { "en": "EC", "he": "EC" },
+          { "en": "Ethics Committee", "he": "ועדת אתיקה (Ethics Committee)" }
+        ],
+        [
+          { "en": "EUDAMED", "he": "EUDAMED" },
+          { "en": "European Database on Medical Devices", "he": "מסד הנתונים האירופי למכשירים רפואיים (European Database on Medical Devices)" }
+        ],
+        [
+          { "en": "IB", "he": "IB" },
+          { "en": "Investigator's Brochure", "he": "חוברת החוקר (Investigator's Brochure)" }
+        ],
+        [
+          { "en": "IFU", "he": "IFU" },
+          { "en": "Instructions for use", "he": "הוראות שימוש (Instructions for use)" }
+        ],
+        [
+          { "en": "ISO", "he": "ISO" },
+          { "en": "International Organization for Standardization", "he": "הארגון הבין-לאומי לתקינה (International Organization for Standardization)" }
+        ],
+        [
+          { "en": "MDCG", "he": "MDCG" },
+          { "en": "Medical Devices Coordination Group", "he": "קבוצת תיאום המכשירים הרפואיים (Medical Devices Coordination Group)" }
+        ],
+        [
+          { "en": "MDR", "he": "MDR" },
+          { "en": "Medical Devices Regulation, (EU) regulation 2017/45 on medical devices", "he": "תקנת המכשירים הרפואיים, תקנה (האיחוד האירופי) 2017/45 בנושא מכשירים רפואיים" }
+        ],
+        [
+          { "en": "SADE", "he": "SADE" },
+          { "en": "Serious Adverse Device Effect", "he": "השפעה שלילית חמורה של מכשיר (Serious Adverse Device Effect)" }
+        ],
+        [
+          { "en": "SAE", "he": "SAE" },
+          { "en": "Serious Adverse Event", "he": "אירוע שלילי חמור (Serious Adverse Event)" }
+        ],
+        [
+          { "en": "SIN", "he": "SIN" },
+          { "en": "Single Identification Number", "he": "מספר זיהוי יחיד (Single Identification Number)" }
+        ]
+      ]
+    },
+    {
+      "id": "fn-abbr-1",
+      "type": "note",
+      "marker": "1",
+      "en": "An adverse device effect is any adverse event related to the use of an investigational medical device or a comparator if the comparator is a medical device.",
+      "he": "השפעה שלילית של מכשיר היא כל אירוע שלילי הקשור לשימוש במכשיר רפואי נחקר או במכשיר השוואה, אם מכשיר ההשוואה הוא מכשיר רפואי."
+    },
+    {
+      "id": "fn-abbr-2",
+      "type": "note",
+      "marker": "2",
+      "en": "Defined in article 2(57) of the MDR.",
+      "he": "מוגדר בסעיף 2(57) ל-MDR."
+    },
+    {
+      "id": "fn-abbr-3",
+      "type": "note",
+      "marker": "3",
+      "en": "Any adverse device effect that has resulted in any of the consequences characteristic of a SAE.",
+      "he": "כל השפעה שלילית של מכשיר שגרמה לאחת מההשלכות האופייניות לאירוע שלילי חמור (SAE)."
+    },
+    {
+      "id": "fn-abbr-4",
+      "type": "note",
+      "marker": "4",
+      "en": "Defined in article 2(58) of the MDR.",
+      "he": "מוגדר בסעיף 2(58) ל-MDR."
+    },
+
+    {
+      "id": "sec-1",
+      "type": "heading",
+      "level": 1,
+      "number": "1",
+      "en": "Introduction",
+      "he": "מבוא"
+    },
+    {
+      "id": "sec-1-p1",
+      "type": "paragraph",
+      "en": "When a sponsor of a clinical investigation submits an application according to article 70(1) of the MDR, to the Member State(s) in which the clinical investigation is to be conducted, the application shall be accompanied by the documentation referred to in Chapter II of Annex XV of the MDR.",
+      "he": "כאשר נותן החסות של חקירה קלינית מגיש בקשה לפי סעיף 70(1) ל-MDR, למדינה/למדינות החברה/ות שבהן עתידה החקירה הקלינית להתבצע, הבקשה תלווה בתיעוד הנזכר בפרק II של נספח XV ל-MDR."
+    },
+    {
+      "id": "sec-1-p2",
+      "type": "paragraph",
+      "en": "According to section 2 of Chapter I of Annex XV of the MDR, clinical investigations shall be performed on the basis of an appropriate plan of investigation reflecting the latest scientific and technical knowledge, and defined in such a way to be able confirm or refute the manufacturer's claims regarding the safety, performance and aspects relating to the benefit-risk determination of devices. The clinical investigation shall include an adequate number of observations to guarantee the scientific value and validity of the conclusions. The procedures and research methodologies used to perform the clinical investigation shall be appropriate to the device under investigation.",
+      "he": "על פי סעיף 2 של פרק I בנספח XV ל-MDR, חקירות קליניות יבוצעו על בסיס תוכנית חקירה מתאימה המשקפת את הידע המדעי והטכני העדכני ביותר, ומוגדרת באופן המאפשר לאשש או להפריך את טענות היצרן בנוגע לבטיחות, לביצועים ולהיבטים הקשורים לקביעת יחס התועלת-סיכון של המכשירים. החקירה הקלינית תכלול מספר מספק של תצפיות כדי להבטיח את הערך המדעי ואת תקפותן של המסקנות. ההליכים ומתודולוגיות המחקר המשמשים לביצוע החקירה הקלינית יהיו מתאימים למכשיר הנחקר."
+    },
+    {
+      "id": "sec-1-p3",
+      "type": "paragraph",
+      "en": "Section 3 of Chapter II of Annex XV of the MDR describes the legally required content of the Clinical Investigation Plan (CIP). Further the sections 2.7 in chapter I, 3.12 chapter II as well as 4 and 6 in chapter III of Annex XV indicate that clinical investigations should be conducted in accordance with good clinical practice.",
+      "he": "סעיף 3 של פרק II בנספח XV ל-MDR מתאר את התוכן הנדרש מבחינה משפטית של תוכנית החקירה הקלינית (CIP). בנוסף, סעיפים 2.7 בפרק I, 3.12 בפרק II וכן 4 ו-6 בפרק III של נספח XV מציינים כי חקירות קליניות יש לבצע בהתאם לנוהג קליני טוב (Good Clinical Practice)."
+    },
+    {
+      "id": "sec-1-p4",
+      "type": "paragraph",
+      "en": "The international standard ISO14155:2020 Clinical investigation of medical devices for human subjects - Good clinical practice addresses good clinical practice for the design, conduct, recording and reporting of clinical investigations. This standard has a normative Annex A that outlines the content of a CIP. Adherence with the ISO 14155:2020 standard is strongly recommended as it is a useful resource for sponsors when planning and developing their clinical investigations, although it is not mandatory for clinical investigations conducted in accordance with MDR. Note that standards are regularly updated, and it is foreseen that this guidance will be updated accordingly.",
+      "he": "התקן הבין-לאומי ISO 14155:2020 \"חקירה קלינית של מכשירים רפואיים בנבדקים אנושיים – נוהג קליני טוב\" עוסק בנוהג קליני טוב לתכנון, לביצוע, לתיעוד ולדיווח של חקירות קליניות. לתקן זה נספח A נורמטיבי המתווה את תוכנה של תוכנית החקירה הקלינית (CIP). עמידה בתקן ISO 14155:2020 מומלצת בחום שכן הוא מהווה משאב מועיל לנותני החסות בעת תכנון ופיתוח החקירות הקליניות שלהם, אף שאינו מחייב עבור חקירות קליניות המבוצעות בהתאם ל-MDR. יש לשים לב כי תקנים מתעדכנים באופן שוטף, וצפוי כי הנחיה זו תעודכן בהתאם."
+    },
+    {
+      "id": "sec-1-p5",
+      "type": "paragraph",
+      "en": "When preparing the CIP, sponsors are encouraged to review the full details of the regulation as well as the standard. In case there are discrepancies between MDR and the standard, the legal requirements of the regulation takes precedence. The requirements of both the MDR and ISO14155:2020 as well as experience from the competent authorities have been used to develop this guidance document.",
+      "he": "בעת הכנת ה-CIP, נותני החסות מוזמנים לעיין בפרטים המלאים של התקנה וכן של התקן. במקרה של אי-התאמות בין ה-MDR לבין התקן, הדרישות המשפטיות של התקנה גוברות. הדרישות של ה-MDR ושל ISO 14155:2020 כאחד, וכן ניסיונן של הרשויות המוסמכות, שימשו לפיתוח מסמך הנחיה זה."
+    },
+    {
+      "id": "sec-1-p6",
+      "type": "paragraph",
+      "en": "This guidance document is not legally binding. It has been developed following contribution from national competent authorities, industry and relevant stakeholders and it should therefore be recognised as best practice. It has been written to support sponsors developing their CIP by describing in greater detail what type of information is expected in the respective CIP sections, to pre-empt questions from the competent authorities during the assessment of the clinical investigation application. Moreover, a CIP with the appropriate content will be instrumental in the conduct of the clinical investigation.",
+      "he": "מסמך הנחיה זה אינו מחייב מבחינה משפטית. הוא פותח בעקבות תרומתן של הרשויות המוסמכות הלאומיות, התעשייה ובעלי עניין רלוונטיים, ולכן יש להכיר בו כנוהג מיטבי (best practice). הוא נכתב כדי לתמוך בנותני החסות בפיתוח ה-CIP שלהם, באמצעות תיאור מפורט יותר של סוג המידע הצפוי בסעיפי ה-CIP השונים, כדי להקדים שאלות מצד הרשויות המוסמכות במהלך הערכת הבקשה לחקירה קלינית. יתרה מכך, CIP בעל תוכן מתאים יהיה כלי מסייע בביצוע החקירה הקלינית."
+    },
+    {
+      "id": "sec-1-p7",
+      "type": "paragraph",
+      "en": "The content of the CIP should be adapted based on the type of clinical investigation and the type and development stage of the investigational medical device. The legal requirements in Section 3 of Chapter II of Annex XV of the MDR must be addressed or indicated as \"not applicable\" with justification.",
+      "he": "תוכן ה-CIP יותאם על בסיס סוג החקירה הקלינית, וסוג ושלב הפיתוח של המכשיר הרפואי הנחקר. יש להתייחס לדרישות המשפטיות שבסעיף 3 של פרק II בנספח XV ל-MDR, או לציינן כ\"לא רלוונטיות\" בצירוף הצדקה."
+    },
+    {
+      "id": "sec-1-p8",
+      "type": "paragraph",
+      "en": "This guidance document uses section 3 of chapter II in Annex XV of the MDR as a starting point, and follows the numbering of the regulation, in order to facilitate cross referencing to the legal requirements. It is not intended to be a template for writing a CIP, and it is not mandatory to present the information in a CIP in the same order as they are mentioned in the MDR or in this guidance.",
+      "he": "מסמך הנחיה זה משתמש בסעיף 3 של פרק II בנספח XV ל-MDR כנקודת מוצא, ועוקב אחר המספור של התקנה, כדי להקל על הפניה מוצלבת אל הדרישות המשפטיות. אין הוא נועד לשמש תבנית לכתיבת CIP, ואין חובה להציג את המידע ב-CIP באותו סדר שבו הוא מוזכר ב-MDR או בהנחיה זו."
+    },
+    {
+      "id": "sec-1-p9",
+      "type": "paragraph",
+      "en": "In combined studies of medical devices and pharmaceutical products, there is an obvious need to accommodate the legal requirements from several regulations, and thus the structure and content of the CIP may need to be adapted. However, sponsors need to be aware that the elements required by MDR need to be present in a combined CIP/study protocol, and this guidance is intended to be useful also in those situations.",
+      "he": "במחקרים משולבים של מכשירים רפואיים ומוצרים תרופתיים, קיים צורך ברור לתת מענה לדרישות המשפטיות ממספר תקנות, ולכן ייתכן שיהיה צורך להתאים את מבנה ה-CIP ותוכנו. עם זאת, על נותני החסות להיות מודעים לכך שהרכיבים הנדרשים על פי ה-MDR חייבים להיות נוכחים בפרוטוקול CIP/מחקר משולב, והנחיה זו נועדה להיות מועילה גם במצבים אלה."
+    },
+
+    {
+      "id": "sec-2",
+      "type": "heading",
+      "level": 1,
+      "number": "2",
+      "en": "Purpose of the CIP",
+      "he": "מטרת ה-CIP"
+    },
+    {
+      "id": "sec-2-p1",
+      "type": "paragraph",
+      "en": "The clinical investigation plan (CIP) shall set out the rationale, objectives, design methodology, monitoring, conduct, record-keeping, and the method of analysis for the clinical investigation. The CIP should be detailed enough to serve as a manual for investigators conducting the clinical investigation in a consistent manner across investigational sites and over time. Further, the CIP should allow the competent authorities and ethics committees to assess whether the clinical investigation has been designed in such a way that potential risks to subjects or third persons, after risk minimization, are justified when weighed against the clinical benefits to be expected. The CIP should also allow the assessment of whether the reliability and robustness of the data to be generated in the clinical investigation warrants the exposure of subjects to the investigational device and procedures described in the CIP.",
+      "he": "תוכנית החקירה הקלינית (CIP) תפרט את הרציונל, המטרות, מתודולוגיית התכנון, הניטור, הביצוע, ניהול הרישומים ושיטת הניתוח של החקירה הקלינית. ה-CIP צריכה להיות מפורטת דיה כדי לשמש מדריך לחוקרים המבצעים את החקירה הקלינית באופן עקבי בין אתרי החקירה ולאורך זמן. כמו כן, ה-CIP צריכה לאפשר לרשויות המוסמכות ולוועדות האתיקה להעריך האם החקירה הקלינית תוכננה באופן שבו הסיכונים הפוטנציאליים לנבדקים או לצדדים שלישיים, לאחר מזעור הסיכונים, מוצדקים בעת שקילתם מול התועלות הקליניות הצפויות. ה-CIP צריכה גם לאפשר הערכה של האם מהימנות הנתונים ואיתנותם, שייווצרו בחקירה הקלינית, מצדיקות את חשיפת הנבדקים למכשיר הנחקר ולהליכים המתוארים ב-CIP."
+    },
+
+    {
+      "id": "sec-3",
+      "type": "heading",
+      "level": 1,
+      "number": "3",
+      "en": "Content of the CIP",
+      "he": "תוכן ה-CIP"
+    },
+    {
+      "id": "sec-3-p1",
+      "type": "paragraph",
+      "en": "Note that it is preferred for all necessary information to be included in the CIP. If part of the required information is provided in a separate document, it will be summarised and referenced in the CIP. The referenced documents must be submitted together with the CIP as part of the initial submission package accompanying the clinical investigation application.",
+      "he": "יש לשים לב כי מועדף שכל המידע הנחוץ ייכלל ב-CIP. אם חלק מהמידע הנדרש מסופק במסמך נפרד, יש לסכמו ולהפנות אליו ב-CIP. המסמכים המופנים אליהם חייבים להיות מוגשים יחד עם ה-CIP כחלק מחבילת ההגשה הראשונית המלווה את הבקשה לחקירה קלינית."
+    },
+
+    {
+      "id": "sec-3-1",
+      "type": "heading",
+      "level": 2,
+      "number": "3.1",
+      "en": "General",
+      "he": "כללי"
+    },
+    {
+      "id": "sec-3-1-p1",
+      "type": "paragraph",
+      "en": "The general introduction should include:",
+      "he": "המבוא הכללי צריך לכלול:"
+    },
+    {
+      "id": "sec-3-1-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "The title of the clinical investigation.", "he": "כותרת החקירה הקלינית." },
+        { "en": "The CIP reference number(s).", "he": "מספר/י הייחוס של ה-CIP." },
+        { "en": "Version and date of the CIP.", "he": "גרסת ה-CIP ותאריכה." },
+        { "en": "A summary of the revision history in case of modifications.", "he": "סיכום של היסטוריית הרוויזיות במקרה של שינויים." },
+        { "en": "Abbreviations and acronyms.", "he": "ראשי תיבות וקיצורים." },
+        { "en": "An overall synopsis of the clinical investigation. For detailed guidance regarding content of the synopsis, please refer to recommended template in Annex A of this guidance. Note that information provided in the synopsis should also be detailed in the body of the CIP, and that information which is mentioned more than once needs to be consistent throughout the document. Further, it may be useful to include a graphic flow chart describing the clinical investigation design.", "he": "תקציר כולל (סינופסיס) של החקירה הקלינית. להנחיה מפורטת בנוגע לתוכן התקציר, ראו את התבנית המומלצת בנספח A להנחיה זו. יש לשים לב כי מידע המסופק בתקציר צריך גם להיות מפורט בגוף ה-CIP, וכי מידע המוזכר יותר מפעם אחת צריך להיות עקבי לאורך כל המסמך. כמו כן, ייתכן שיהיה מועיל לכלול תרשים זרימה גרפי המתאר את תכנון החקירה הקלינית." }
+      ]
+    },
+    {
+      "id": "fn-5",
+      "type": "note",
+      "marker": "5",
+      "en": "The sponsor's unique identifier such as CIP code/number, as well as the CIV-ID (issued by competent authority from Eudamed2) or SIN (Single Identification Number – automatically generated when sponsors start to a draft application in EUDAMED).",
+      "he": "המזהה הייחודי של נותן החסות, כגון קוד/מספר ה-CIP, וכן ה-CIV-ID (המונפק על ידי הרשות המוסמכת מתוך Eudamed2) או ה-SIN (Single Identification Number – מספר זיהוי יחיד הנוצר אוטומטית כאשר נותני החסות מתחילים טיוטת בקשה ב-EUDAMED)."
+    },
+    {
+      "id": "sec-3-1-p2",
+      "type": "paragraph",
+      "en": "Note the requirement in section 3.1, chapter II of Annex XV of the MDR to provide an overall synopsis of the clinical investigation in an official Union language determined by the Member State concerned. Sponsors are advised to check national requirements in this regard and provide one synopsis per language.",
+      "he": "יש לשים לב לדרישה שבסעיף 3.1, פרק II של נספח XV ל-MDR לספק תקציר כולל של החקירה הקלינית באחת השפות הרשמיות של האיחוד, כפי שנקבעה על ידי המדינה החברה הנוגעת בדבר. מומלץ לנותני החסות לבדוק את הדרישות הלאומיות בעניין זה ולספק תקציר אחד לכל שפה."
+    },
+    {
+      "id": "sec-3-1-p3",
+      "type": "paragraph",
+      "en": "The name and contact details of the following should be stated:",
+      "he": "יש לציין את השם ופרטי הקשר של הגורמים הבאים:"
+    },
+    {
+      "id": "sec-3-1-list2",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Sponsor.", "he": "נותן החסות." },
+        { "en": "Legal representative (if applicable).", "he": "נציג משפטי (אם רלוונטי)." },
+        { "en": "Principal investigator(s).", "he": "חוקר/ים ראשי/ים." },
+        { "en": "Coordinating investigator(s) (if applicable).", "he": "חוקר/ים מתאם/מים (אם רלוונטי)." },
+        { "en": "Investigational sites in which the clinical investigation will be conducted.", "he": "אתרי החקירה שבהם תתבצע החקירה הקלינית." },
+        { "en": "Other organisations such as central laboratories, clinical research organisations etc. contracted by the sponsor as providers for the clinical investigation (if applicable).", "he": "ארגונים אחרים, כגון מעבדות מרכזיות, ארגוני מחקר קליני וכד', שנותן החסות התקשר עמם כספקים עבור החקירה הקלינית (אם רלוונטי)." },
+        { "en": "Manufacturer of investigational device.", "he": "יצרן המכשיר הנחקר." }
+      ]
+    },
+    {
+      "id": "fn-6",
+      "type": "note",
+      "marker": "6",
+      "en": "The requirement for a sponsor to have a legal representative is described in article 62(2) of the MDR.",
+      "he": "הדרישה כי לנותן החסות יהיה נציג משפטי מתוארת בסעיף 62(2) ל-MDR."
+    },
+    {
+      "id": "fn-7",
+      "type": "note",
+      "marker": "7",
+      "en": "Refer to Article 62(6) of the MDR, Section 10.2 of ISO 14155:2020 and national provisions regarding investigator qualifications.",
+      "he": "ראו את סעיף 62(6) ל-MDR, סעיף 10.2 של ISO 14155:2020 והוראות לאומיות בנוגע לכישורי החוקר."
+    },
+    {
+      "id": "sec-3-1-p4",
+      "type": "paragraph",
+      "en": "The different roles, responsibilities and qualifications of various kinds of investigators shall be specified. In larger or more complex study setups, there may be several levels, e.g. co-ordinating investigator, principal investigators, and members of the investigational site team. Further, in case of combination studies, responsibilities and qualifications need to be clearly described for the various investigators involved, e.g. investigators at clinical investigation sites where patients are recruited and treated, vs investigators at the analysing sites for a performance study.",
+      "he": "יש לפרט את התפקידים, האחריות והכישורים השונים של סוגי החוקרים השונים. במערכי מחקר גדולים או מורכבים יותר, ייתכנו מספר רמות, למשל חוקר מתאם, חוקרים ראשיים וחברי צוות אתר החקירה. כמו כן, במקרה של מחקרים משולבים, יש לתאר באופן ברור את האחריות והכישורים של החוקרים השונים המעורבים, למשל חוקרים באתרי החקירה הקלינית שבהם מטופלים מגויסים ומטופלים, לעומת חוקרים באתרי הניתוח עבור מחקר ביצועים."
+    },
+    {
+      "id": "sec-3-1-p5",
+      "type": "paragraph",
+      "en": "To facilitate updates, the names and contact details of the principal investigator(s) and investigational sites can be listed in a separate document which is referenced in the CIP. Note that in this case, it will be necessary to describe and maintain a procedure where an updated list with names and contact details of sites is available to all investigators throughout the conduct of the clinical investigation to facilitate communication, in, for example, emergency situations.",
+      "he": "כדי להקל על עדכונים, ניתן לרשום את השמות ופרטי הקשר של החוקר/ים הראשי/ים ושל אתרי החקירה במסמך נפרד שמופנים אליו ב-CIP. יש לשים לב כי במקרה זה, יהיה צורך לתאר ולקיים נוהל שבו רשימה מעודכנת של שמות ופרטי קשר של האתרים זמינה לכל החוקרים לאורך ביצוע החקירה הקלינית, כדי להקל על תקשורת, למשל במצבי חירום."
+    },
+    {
+      "id": "sec-3-1-p6",
+      "type": "paragraph",
+      "en": "A brief description of the following must also be included:",
+      "he": "יש לכלול גם תיאור קצר של הגורמים הבאים:"
+    },
+    {
+      "id": "sec-3-1-list3",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "how the clinical investigation is financed.", "he": "כיצד מומנת החקירה הקלינית." },
+        { "en": "the agreement between the sponsor and the site(s).", "he": "ההסכם בין נותן החסות לבין האתר/ים." }
+      ]
+    },
+    {
+      "id": "sec-3-1-p7",
+      "type": "paragraph",
+      "en": "A brief description of the agreement between the sponsor and the manufacturer of the investigational device (if applicable) should be included.",
+      "he": "יש לכלול תיאור קצר של ההסכם בין נותן החסות לבין יצרן המכשיר הנחקר (אם רלוונטי)."
+    },
+    {
+      "id": "sec-3-1-p8",
+      "type": "paragraph",
+      "en": "The information about the agreements between parties may include for instance information about providing investigational device(s) to the site as well as arrangements regarding proprietary information and publications.",
+      "he": "המידע על ההסכמים בין הצדדים עשוי לכלול, למשל, מידע על אספקת המכשיר/ים הנחקר/ים לאתר, וכן הסדרים בנוגע למידע קנייני ולפרסומים."
+    },
+
+    {
+      "id": "sec-3-2",
+      "type": "heading",
+      "level": 2,
+      "number": "3.2",
+      "en": "Identification and description of the investigational device",
+      "he": "זיהוי ותיאור המכשיר הנחקר"
+    },
+    {
+      "id": "sec-3-2-p1",
+      "type": "paragraph",
+      "en": "This section of the CIP should include the information listed below, as applicable. If appropriate, references to the Investigator's Brochure (IB) and/or Instructions for Use (IFU) can be made. In case a comparator device is used the information below should also be provided for the comparator.",
+      "he": "סעיף זה של ה-CIP צריך לכלול את המידע המפורט להלן, ככל שרלוונטי. במקרים מתאימים, ניתן להפנות לחוברת החוקר (IB) ו/או להוראות השימוש (IFU). במקרה שנעשה שימוש במכשיר השוואה, יש לספק את המידע שלהלן גם עבור מכשיר ההשוואה."
+    },
+    {
+      "id": "sec-3-2-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Summary description of the investigational device including its intended purpose in the clinical investigation as well as the populations and indications for which the investigational device is intended. — If there is a known difference between the device's intended purpose/indication/population in the clinical investigation (due to development stage, study design or other reasons) and the planned intended purpose when the device is/will be placed on the market, this difference should be clearly stated. — If the device has already been CE-marked and placed on the market, it should be explained whether the intended purpose of the device in the clinical investigation is different from the intended purpose for which the device has been CE marked, or if it is to be further assessed within the scope of its intended purpose. This should be clearly specified.", "he": "תיאור תמציתי של המכשיר הנחקר, לרבות המטרה המיועדת שלו בחקירה הקלינית, וכן האוכלוסיות וההתוויות שעבורן מיועד המכשיר הנחקר. — אם קיים הבדל ידוע בין המטרה המיועדת/ההתוויה/האוכלוסייה של המכשיר בחקירה הקלינית (עקב שלב הפיתוח, תכנון המחקר או סיבות אחרות) לבין המטרה המיועדת המתוכננת בעת שהמכשיר מוצב/יוצב בשוק, יש לציין הבדל זה באופן ברור. — אם המכשיר כבר קיבל סימון CE והוצב בשוק, יש להסביר האם המטרה המיועדת של המכשיר בחקירה הקלינית שונה מהמטרה המיועדת שעבורה קיבל המכשיר סימון CE, או האם הוא נועד להערכה נוספת בגבולות המטרה המיועדת שלו. יש לפרט זאת באופן ברור." },
+        { "en": "Sponsors are recommended to also include the information required by Section 3.18, chapter II Annex XV of the MDR in the device description, i.e. to list the technical and functional features of the device, with specific mention of those covered by the investigation. Please refer to section 3.18 of this document for further guidance.", "he": "מומלץ לנותני החסות לכלול בתיאור המכשיר גם את המידע הנדרש על פי סעיף 3.18, פרק II נספח XV ל-MDR, כלומר לרשום את התכונות הטכניות והפונקציונליות של המכשיר, תוך אזכור ספציפי של אלו הנכללות בחקירה. ראו את סעיף 3.18 של מסמך זה להנחיה נוספת." },
+        { "en": "Details concerning the manufacturer of the investigational device.", "he": "פרטים בנוגע ליצרן המכשיר הנחקר." },
+        { "en": "Name or number of the model/type, including software version and accessories, if any, to permit full identification.", "he": "שם או מספר הדגם/הסוג, לרבות גרסת התוכנה ואביזרים, אם ישנם, כדי לאפשר זיהוי מלא." },
+        { "en": "Description as to how traceability will be achieved during and after the clinical investigation, for example, by assignment of lot numbers, batch numbers or serial numbers.", "he": "תיאור כיצד תושג מעקביות (traceability) במהלך החקירה הקלינית ולאחריה, למשל באמצעות הקצאת מספרי אצווה (lot), מספרי batch או מספרים סידוריים." },
+        { "en": "A detailed description of the investigational device, including a list of all materials which will be in contact with tissues or body fluids. Also, any medicinal substances, human or animal tissues or their derivates, or other biological active substances incorporated in the device must be defined.", "he": "תיאור מפורט של המכשיר הנחקר, לרבות רשימה של כל החומרים שיבואו במגע עם רקמות או נוזלי גוף. כמו כן, יש להגדיר כל חומר רפואי (תרופתי), רקמות אנושיות או חייתיות או נגזרותיהן, או חומרים ביולוגיים פעילים אחרים המשולבים במכשיר." },
+        { "en": "Summary of the necessary training and experience needed to use the investigational device based on risk assessment.", "he": "סיכום של ההכשרה והניסיון הנחוצים לשימוש במכשיר הנחקר, בהתבסס על הערכת סיכונים." },
+        { "en": "Description of the specific medical or surgical procedures involved in the use of the investigational device.", "he": "תיאור ההליכים הרפואיים או הניתוחיים הספציפיים הכרוכים בשימוש במכשיר הנחקר." },
+        { "en": "A background literature review should be presented.", "he": "יש להציג סקירת ספרות רקע." }
+      ]
+    },
+
+    {
+      "id": "sec-3-3",
+      "type": "heading",
+      "level": 2,
+      "number": "3.3",
+      "en": "Benefits and risks of the investigational device, clinical procedures and clinical investigation",
+      "he": "תועלות וסיכונים של המכשיר הנחקר, ההליכים הקליניים והחקירה הקלינית"
+    },
+
+    {
+      "id": "sec-3-3-1",
+      "type": "heading",
+      "level": 3,
+      "number": "3.3.1",
+      "en": "Benefits",
+      "he": "תועלות"
+    },
+    {
+      "id": "sec-3-3-1-p1",
+      "type": "paragraph",
+      "en": "A description should be provided of the potential benefits of the proposed clinical investigation. This concerns the direct benefit(s) to the study subjects but may also cover the benefit(s) to others.",
+      "he": "יש לספק תיאור של התועלות הפוטנציאליות של החקירה הקלינית המוצעת. הדבר נוגע לתועלת/ות הישירה/ות לנבדקי המחקר, אך עשוי לכלול גם את התועלת/ות לאחרים."
+    },
+    {
+      "id": "sec-3-3-1-p2",
+      "type": "paragraph",
+      "en": "In particular, regarding the direct and indirect benefit(s) to the study subject, the following factors should be considered, individually and in aggregate:",
+      "he": "בפרט, בנוגע לתועלת/ות הישירה/ות והעקיפה/ות לנבדק המחקר, יש לשקול את הגורמים הבאים, בנפרד ובמצטבר:"
+    },
+    {
+      "id": "sec-3-3-1-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "a) type of benefit(s) and estimated magnitude of the benefit(s).", "he": "א) סוג התועלת/ות וגודלה/ן המשוער של התועלת/ות." },
+        { "en": "b) if possible, probability evaluation of the subject experiencing one or more benefits, or identification of subgroups more likely to experience a benefit.", "he": "ב) אם אפשר, הערכת ההסתברות שהנבדק יחווה תועלת אחת או יותר, או זיהוי תת-קבוצות הסבירות יותר לחוות תועלת." },
+        { "en": "c) duration of the benefit(s), i.e., how long the benefit can be expected to last for the subject.", "he": "ג) משך התועלת/ות, כלומר כמה זמן צפויה התועלת להימשך עבור הנבדק." },
+        { "en": "d) medical necessity, if a medical device provides benefits or addresses needs unmet by other medical devices or therapies.", "he": "ד) הכרח רפואי, אם מכשיר רפואי מספק תועלות או נותן מענה לצרכים שאינם מקבלים מענה על ידי מכשירים רפואיים או טיפולים אחרים." }
+      ]
+    },
+    {
+      "id": "sec-3-3-1-p3",
+      "type": "paragraph",
+      "en": "Benefit considerations should also include an assessment of whether another medical device or therapy could be used in substitution, and the availability of that other medical device or therapy. It may be necessary to take regional differences in availability of alternatives into account, which could lead to benefit considerations that vary by region.",
+      "he": "שיקולי התועלת צריכים לכלול גם הערכה של האם ניתן להשתמש במכשיר רפואי או בטיפול אחר כתחליף, ושל זמינותם של אותו מכשיר רפואי או טיפול אחר. ייתכן שיהיה צורך להביא בחשבון הבדלים אזוריים בזמינות החלופות, אשר עשויים להוביל לשיקולי תועלת המשתנים לפי אזור."
+    },
+    {
+      "id": "sec-3-3-1-p4",
+      "type": "paragraph",
+      "en": "Benefit(s) to others include(s) benefits to caregivers, family members, health care personnel, and public health.",
+      "he": "תועלת/ות לאחרים כוללת/ות תועלות למטפלים, לבני משפחה, לצוות הרפואי ולבריאות הציבור."
+    },
+    {
+      "id": "sec-3-3-1-p5",
+      "type": "paragraph",
+      "en": "Other information providing useful context is appreciated and may include consideration of patient preference information (when available) characterizing the subjects' perspective on benefit, i.e., the value that the patients place on the use of the medical device, as well as information characterizing subjects' tolerance for risk.",
+      "he": "מידע נוסף המספק הקשר מועיל יתקבל בברכה ועשוי לכלול שקילה של מידע על העדפות המטופל (כשהוא זמין) המאפיין את נקודת המבט של הנבדקים על התועלת, כלומר הערך שהמטופלים מייחסים לשימוש במכשיר הרפואי, וכן מידע המאפיין את סובלנות הנבדקים לסיכון."
+    },
+    {
+      "id": "sec-3-3-1-p6",
+      "type": "paragraph",
+      "en": "Please note that there are specific requirements for vulnerable populations and subjects that there should be scientific grounds for expecting that participation in the clinical investigation will produce a direct benefit (see article 64-66 and 68 of the MDR).",
+      "he": "יש לשים לב כי קיימות דרישות ספציפיות לאוכלוסיות ולנבדקים פגיעים, ולפיהן צריכים להיות בסיסים מדעיים לציפייה שהשתתפות בחקירה הקלינית תניב תועלת ישירה (ראו סעיפים 64–66 ו-68 ל-MDR)."
+    },
+
+    {
+      "id": "sec-3-3-2",
+      "type": "heading",
+      "level": 3,
+      "number": "3.3.2",
+      "en": "Risks",
+      "he": "סיכונים"
+    },
+    {
+      "id": "sec-3-3-2-p1",
+      "type": "paragraph",
+      "en": "Identify all risks which participation in the clinical investigation will result in subjects being exposed to, whether related to the investigational device or clinical investigation procedures (i.e., risk characterization). Possible interactions with concomitant medical treatments have to be considered.",
+      "he": "יש לזהות את כל הסיכונים שלהם ייחשפו הנבדקים כתוצאה מהשתתפות בחקירה הקלינית, בין שהם קשורים למכשיר הנחקר ובין שהם קשורים להליכי החקירה הקלינית (כלומר אפיון סיכונים). יש לשקול אינטראקציות אפשריות עם טיפולים רפואיים נלווים."
+    },
+    {
+      "id": "sec-3-3-2-p2",
+      "type": "paragraph",
+      "en": "In particular, for risk characterization, the following should be considered, individually and in aggregate: types of risk (taking account of the study design as well), their likelihood (probability of occurrence) and duration along with the severity of harm.",
+      "he": "בפרט, לצורך אפיון הסיכונים, יש לשקול את הגורמים הבאים, בנפרד ובמצטבר: סוגי הסיכון (תוך התחשבות גם בתכנון המחקר), הסבירות שלהם (הסתברות ההתרחשות) והמשך, יחד עם חומרת הנזק."
+    },
+    {
+      "id": "sec-3-3-2-p3",
+      "type": "paragraph",
+      "en": "Also consider the risk factors for health care personnel, family members or caregivers, if any.",
+      "he": "יש לשקול גם את גורמי הסיכון לצוות הרפואי, לבני משפחה או למטפלים, אם ישנם."
+    },
+    {
+      "id": "sec-3-3-2-p4",
+      "type": "paragraph",
+      "en": "Also, consider the risks related to the interpretation of the study data. Specifically, the risk of drawing a false conclusion based on clinical data obtained, and the risks associated with data which are inconclusive or difficult to interpret should be considered.",
+      "he": "כמו כן, יש לשקול את הסיכונים הקשורים לפרשנות נתוני המחקר. באופן ספציפי, יש לשקול את הסיכון להסקת מסקנה שגויה בהתבסס על הנתונים הקליניים שהושגו, ואת הסיכונים הקשורים לנתונים שאינם חד-משמעיים או שקשה לפרשם."
+    },
+    {
+      "id": "sec-3-3-2-p5",
+      "type": "paragraph",
+      "en": "Also describe how the risks are minimised (i.e., risk mitigation). It is not necessary to include specific mitigations for risks that are determined to be negligible due to a low probability of occurrence and low severity of harm. However, it is expected that all possible risks are identified. Non-negligible identified risks should be reduced as far as possible by the following measures, and in the following priority:",
+      "he": "כמו כן, יש לתאר כיצד ממוזערים הסיכונים (כלומר הפחתת סיכונים). אין צורך לכלול אמצעי הפחתה ספציפיים עבור סיכונים שנקבעו כזניחים בשל הסתברות נמוכה להתרחשות וחומרת נזק נמוכה. עם זאת, מצופה כי כל הסיכונים האפשריים יזוהו. סיכונים שזוהו ואינם זניחים יש להפחית ככל האפשר באמצעות האמצעים הבאים, ובסדר העדיפויות הבא:"
+    },
+    {
+      "id": "sec-3-3-2-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Risk elimination/reduction through safe design and manufacture of the device. This involves identifying device risks through pre-clinical testing and making changes in design or manufacturing in advance of the clinical investigation. Verification and validation of device design should be conducted prior to commencement of the clinical investigation application.", "he": "ביטול/הפחתה של הסיכון באמצעות תכנון וייצור בטוחים של המכשיר. הדבר כרוך בזיהוי סיכוני המכשיר באמצעות בדיקות טרום-קליניות ובביצוע שינויים בתכנון או בייצור לקראת החקירה הקלינית. ביצוע אימות (verification) ותיקוף (validation) של תכנון המכשיר יבוצע לפני תחילת הבקשה לחקירה קלינית." },
+        { "en": "Protective measures such as physical protective measures or alarms.", "he": "אמצעי הגנה, כגון אמצעי הגנה פיזיים או התרעות." },
+        { "en": "Communication of safety information, contraindications and residual risks (e.g., through labelling or informed consent), training of health care professionals/investigational staff, optimizing communication between sponsor and the participating sites as well as sponsor optimizing the transfer of relevant information between the sites, communicating safety data and residual risks with ethics committee(s) and competent authority to determine if any additional subject protection measures are needed.", "he": "מסירת מידע בטיחות, התוויות-נגד וסיכונים שיוריים (למשל באמצעות תיוג או הסכמה מדעת), הכשרת אנשי מקצוע בתחום הבריאות/צוות החקירה, ייעול התקשורת בין נותן החסות לאתרים המשתתפים וכן ייעול העברת המידע הרלוונטי בין האתרים על ידי נותן החסות, מסירת נתוני בטיחות וסיכונים שיוריים לוועדת/ות האתיקה ולרשות המוסמכת כדי לקבוע אם נדרשים אמצעי הגנה נוספים על הנבדקים." }
+      ]
+    },
+    {
+      "id": "sec-3-3-2-p6",
+      "type": "paragraph",
+      "en": "Any residual risks related to the device, or the investigation should be mitigated by safe clinical investigation design. Any non-negligible risks which remain following device design and are mitigated by protective measures or communication of safety information should be considered in the clinical investigation design and mitigated further if possible. Examples of how clinical investigation design can contribute to risk mitigation:",
+      "he": "כל סיכון שיורי הקשור למכשיר או לחקירה יש להפחית באמצעות תכנון בטוח של החקירה הקלינית. כל סיכון שאינו זניח הנותר לאחר תכנון המכשיר ומופחת באמצעות אמצעי הגנה או מסירת מידע בטיחות, יש לשקול בתכנון החקירה הקלינית ולהפחית עוד ככל האפשר. דוגמאות לאופן שבו תכנון החקירה הקלינית יכול לתרום להפחתת הסיכון:"
+    },
+    {
+      "id": "sec-3-3-2-list2",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Designing the clinical investigation to be conducted in accordance with relevant international standards, consensus guidance, and good clinical practice.", "he": "תכנון החקירה הקלינית כך שתבוצע בהתאם לתקנים בין-לאומיים רלוונטיים, הנחיות הסכמה (consensus) ונוהג קליני טוב." },
+        { "en": "Performance of the study at specialised clinical sites only, with investigators meeting specific specialist criteria.", "he": "ביצוע המחקר באתרים קליניים מתמחים בלבד, עם חוקרים העומדים בקריטריונים מומחיותיים ספציפיים." },
+        { "en": "Staged enrolment and interim pre-specified subject safety assessment.", "he": "גיוס בשלבים והערכת בטיחות נבדקים ביניים שהוגדרה מראש." },
+        { "en": "The use of pre-specified stopping rules.", "he": "שימוש בכללי עצירה שהוגדרו מראש." },
+        { "en": "Enrolling a narrow study population with more favourable benefit-risk profile.", "he": "גיוס אוכלוסיית מחקר צרה בעלת פרופיל תועלת-סיכון נוח יותר." },
+        { "en": "Study oversight involving expert independent monitoring committees.", "he": "פיקוח על המחקר באמצעות ועדות ניטור עצמאיות של מומחים." },
+        { "en": "Frequent monitoring visits to the site(s) ensuring accurate recording of AEs, including the timing and clinical context and a description of any medical interventions provided and the associated outcomes, as well as compliance with safety reporting requirements.", "he": "ביקורי ניטור תכופים באתר/ים, המבטיחים רישום מדויק של אירועים שליליים (AEs), לרבות העיתוי וההקשר הקליני, ותיאור של כל התערבות רפואית שניתנה והתוצאות הקשורות, וכן עמידה בדרישות הדיווח על בטיחות." }
+      ]
+    },
+    {
+      "id": "sec-3-3-2-p7",
+      "type": "paragraph",
+      "en": "The risks listed should align, to a relevant extent, with the list of anticipated A(D)E, SA(D)E, DD with SADE potential as mentioned in section 3.14.",
+      "he": "הסיכונים המפורטים צריכים להיות מתואמים, במידה רלוונטית, עם רשימת ה-A(D)E, ה-SA(D)E וה-DD בעלי פוטנציאל ל-SADE הצפויים, כמוזכר בסעיף 3.14."
+    },
+    {
+      "id": "sec-3-3-2-p8",
+      "type": "paragraph",
+      "en": "For CE-marked devices (including comparators) a brief summary of the post market surveillance data available is of relevance.",
+      "he": "עבור מכשירים בעלי סימון CE (לרבות מכשירי השוואה), רלוונטי סיכום קצר של נתוני המעקב שלאחר השיווק הזמינים."
+    },
+    {
+      "id": "sec-3-3-2-p9",
+      "type": "paragraph",
+      "en": "The CIP should describe how the risk threshold and the degree of distress is defined and constantly monitored throughout the investigation, as required by the MDR.",
+      "he": "ה-CIP צריכה לתאר כיצד מוגדרים ומנוטרים באופן רציף לאורך החקירה סף הסיכון ומידת המצוקה, כנדרש על פי ה-MDR."
+    },
+    {
+      "id": "fn-8",
+      "type": "note",
+      "marker": "8",
+      "en": "Article 62(4)i of the MDR.",
+      "he": "סעיף 62(4)i ל-MDR."
+    },
+
+    {
+      "id": "sec-3-3-3",
+      "type": "heading",
+      "level": 3,
+      "number": "3.3.3",
+      "en": "Benefit-risk ratio",
+      "he": "יחס תועלת-סיכון"
+    },
+    {
+      "id": "sec-3-3-3-p1",
+      "type": "paragraph",
+      "en": "Summarize the rationale for the benefit-risk ratio of the clinical investigation, taking into account the conditions stated in articles 62(3) and 62(4)e of the MDR. Overall, the investigation must be designed to involve as little pain, discomfort, fear and any other foreseeable risk as possible for the subjects. For that, a rationale in relation to the available preclinical data and results of clinical evaluation is recommended.",
+      "he": "יש לסכם את הרציונל ליחס התועלת-סיכון של החקירה הקלינית, תוך התחשבות בתנאים הקבועים בסעיפים 62(3) ו-62(4)e ל-MDR. בכללותה, החקירה חייבת להיות מתוכננת כך שתכרוך כמה שפחות כאב, אי-נוחות, פחד וכל סיכון צפוי אחר עבור הנבדקים. לשם כך, מומלץ רציונל ביחס לנתונים הטרום-קליניים הזמינים ולתוצאות ההערכה הקלינית."
+    },
+    {
+      "id": "sec-3-3-3-p2",
+      "type": "paragraph",
+      "en": "For clinical investigations carried out with vulnerable populations (incapacitated persons, minor, pregnant or breastfeeding women) clearly explain if the clinical investigation involves an expected direct benefit for the subject. In case of a clinical investigation in an emergency situation, it should be explained if the clinical investigation will have the potential to produce a direct clinically relevant benefit to the subject. In addition, it must be justified that the clinical investigation poses a minimal risk to, and imposes a minimal burden on, the subject in comparison with the standard treatment of the patient's condition.",
+      "he": "עבור חקירות קליניות המבוצעות באוכלוסיות פגיעות (אנשים חסרי כשירות, קטינים, נשים הרות או מניקות) יש להסביר באופן ברור אם החקירה הקלינית כרוכה בתועלת ישירה צפויה לנבדק. במקרה של חקירה קלינית במצב חירום, יש להסביר אם לחקירה הקלינית יהיה פוטנציאל להניב תועלת ישירה ורלוונטית מבחינה קלינית לנבדק. בנוסף, יש להצדיק כי החקירה הקלינית מציבה סיכון מינימלי ומטילה נטל מינימלי על הנבדק בהשוואה לטיפול הסטנדרטי במצבו של המטופל."
+    },
+    {
+      "id": "fn-9",
+      "type": "note",
+      "marker": "9",
+      "en": "Articles 64-66 of the MDR.",
+      "he": "סעיפים 64–66 ל-MDR."
+    },
+    {
+      "id": "fn-10",
+      "type": "note",
+      "marker": "10",
+      "en": "Article 68 of the MDR.",
+      "he": "סעיף 68 ל-MDR."
+    },
+
+    {
+      "id": "sec-3-4",
+      "type": "heading",
+      "level": 2,
+      "number": "3.4",
+      "en": "Relevance of the clinical investigation",
+      "he": "רלוונטיות החקירה הקלינית"
+    },
+    {
+      "id": "sec-3-4-p1",
+      "type": "paragraph",
+      "en": "Describe the relevance of the clinical investigation in the context of the state of the art of clinical practice.",
+      "he": "יש לתאר את רלוונטיות החקירה הקלינית בהקשר של חזית הידע (state of the art) בנוהג הקליני."
+    },
+    {
+      "id": "sec-3-4-p2",
+      "type": "paragraph",
+      "en": "The justification for the design of the clinical investigation should be based on the conclusions of the clinical evaluation. Summarize the evaluation of the relevant pre-clinical testing/assessment and any prior clinical investigations, to justify the use of the investigational device in human subjects. (if applicable). Provide an evaluation of clinical data that are relevant to the proposed clinical investigation.",
+      "he": "ההצדקה לתכנון החקירה הקלינית צריכה להתבסס על מסקנות ההערכה הקלינית. יש לסכם את הערכת הבדיקות/ההערכה הטרום-קליניות הרלוונטיות וכל חקירה קלינית קודמת, כדי להצדיק את השימוש במכשיר הנחקר בנבדקים אנושיים (אם רלוונטי). יש לספק הערכה של נתונים קליניים הרלוונטיים לחקירה הקלינית המוצעת."
+    },
+    {
+      "id": "sec-3-4-p3",
+      "type": "paragraph",
+      "en": "Describe where the clinical investigation fits into the clinical development of the device (i.e., is this a pilot study, a pivotal study or a post-market clinical investigation?). The informative Annex I in ISO 14155:2020 has information on clinical development stages.",
+      "he": "יש לתאר היכן משתלבת החקירה הקלינית בפיתוח הקליני של המכשיר (כלומר, האם זהו מחקר פיילוט, מחקר מכריע (pivotal) או חקירה קלינית שלאחר שיווק?). הנספח המידעי I ב-ISO 14155:2020 כולל מידע על שלבי הפיתוח הקליני."
+    },
+    {
+      "id": "fn-11",
+      "type": "note",
+      "marker": "11",
+      "en": "For details on clinical evaluation, refer to article 61 and Annex XIV of the MDR. The sponsor should also consult relevant MDCG guidance documents and section 6.3 of ISO 14155:2020.",
+      "he": "לפרטים על ההערכה הקלינית, ראו סעיף 61 ונספח XIV ל-MDR. על נותן החסות לעיין גם במסמכי הנחיה רלוונטיים של ה-MDCG ובסעיף 6.3 של ISO 14155:2020."
+    },
+
+    {
+      "id": "sec-3-5",
+      "type": "heading",
+      "level": 2,
+      "number": "3.5",
+      "en": "Objectives and hypotheses",
+      "he": "מטרות והשערות"
+    },
+    {
+      "id": "sec-3-5-p1",
+      "type": "paragraph",
+      "en": "The purpose of the clinical investigation, claims for clinical performance, effectiveness or safety of the investigational device that are to be verified should be described.",
+      "he": "יש לתאר את מטרת החקירה הקלינית ואת הטענות בדבר הביצועים הקליניים, היעילות או הבטיחות של המכשיר הנחקר שעתידות להיבדק."
+    },
+    {
+      "id": "sec-3-5-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Objectives are to be identified as primary, secondary and exploratory as relevant. If applicable, describe whether 'superiority', 'non-inferiority', or 'equivalence' is to be demonstrated.", "he": "יש לזהות את המטרות כעיקריות, משניות וחקרניות (exploratory) ככל שרלוונטי. אם רלוונטי, יש לתאר האם עתידה להיות מודגמת 'עליונות' (superiority), 'אי-נחיתות' (non-inferiority) או 'שקילות' (equivalence)." },
+        { "en": "Include scientific justification and clinical relevance for effect sizes, non-inferiority margins or equivalence limits, where applicable.", "he": "יש לכלול הצדקה מדעית ורלוונטיות קלינית עבור גדלי האפקט, שולי האי-נחיתות או גבולות השקילות, היכן שרלוונטי." },
+        { "en": "Primary and secondary hypothesis, if applicable.", "he": "השערה עיקרית ומשנית, אם רלוונטי." },
+        { "en": "Risks and anticipated adverse device effects that are to be assessed.", "he": "סיכונים והשפעות שליליות צפויות של המכשיר שעתידים להיבחן." }
+      ]
+    },
+    {
+      "id": "sec-3-5-p2",
+      "type": "paragraph",
+      "en": "The objective(s) shall serve the purpose of the clinical investigation and shall relate to the hypotheses (where applicable) and to the corresponding endpoints that shall be relevant to the target population.",
+      "he": "המטרה/ות תשרת/נה את ייעוד החקירה הקלינית ותתייחס/נה להשערות (היכן שרלוונטי) ולנקודות הקצה המתאימות, שיהיו רלוונטיות לאוכלוסיית המטרה."
+    },
+    {
+      "id": "sec-3-5-p3",
+      "type": "paragraph",
+      "en": "The endpoints of the clinical investigation shall address the intended purpose, clinical benefits, performance and safety of the device. The endpoints shall be determined and assessed using scientifically valid methodologies. The primary endpoint shall be appropriate to the device, clinically relevant and should be evaluable.",
+      "he": "נקודות הקצה של החקירה הקלינית יתייחסו למטרה המיועדת, לתועלות הקליניות, לביצועים ולבטיחות של המכשיר. נקודות הקצה ייקבעו וייבחנו באמצעות מתודולוגיות תקפות מדעית. נקודת הקצה העיקרית תהיה מתאימה למכשיר, רלוונטית מבחינה קלינית וניתנת להערכה."
+    },
+
+    {
+      "id": "sec-3-6",
+      "type": "heading",
+      "level": 2,
+      "number": "3.6",
+      "en": "Design of the clinical investigation",
+      "he": "תכנון החקירה הקלינית"
+    },
+    {
+      "id": "sec-3-6-p1",
+      "type": "paragraph",
+      "en": "The design should be sufficiently detailed with evidence of its scientific robustness and validity.",
+      "he": "התכנון צריך להיות מפורט דיו ומלווה בראיות לאיתנותו ולתקפותו המדעית."
+    },
+
+    {
+      "id": "sec-3-6-1",
+      "type": "heading",
+      "level": 3,
+      "number": "3.6.1",
+      "en": "General information such as type of investigation with rationale for choosing it, for its endpoints and for its variables as set out in the clinical evaluation plan",
+      "he": "מידע כללי כגון סוג החקירה בצירוף הרציונל לבחירתו, לנקודות הקצה שלו ולמשתניו, כפי שנקבע בתוכנית ההערכה הקלינית"
+    },
+    {
+      "id": "sec-3-6-1-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Indicate the study type (e.g., exploratory, confirmatory).", "he": "יש לציין את סוג המחקר (למשל, חקרני (exploratory), מאשש (confirmatory))." },
+        { "en": "Define the primary and secondary endpoints, with rationale for their selection and measurement, highlighting the endpoints that address safety and/or performance, as well as clinical benefit(s) of the device. If applicable, composite endpoints, with rationale for their selection and measurement should be justified.", "he": "יש להגדיר את נקודות הקצה העיקריות והמשניות, בצירוף רציונל לבחירתן ולמדידתן, תוך הדגשת נקודות הקצה המתייחסות לבטיחות ו/או לביצועים, וכן לתועלת/ות הקלינית/ות של המכשיר. אם רלוונטי, יש להצדיק נקודות קצה מורכבות (composite), בצירוף רציונל לבחירתן ולמדידתן." },
+        { "en": "For certain investigations, in particular early studies of new/high risk devices additional safety measures should be considered, such as close monitoring by the sponsor and independent safety monitor, and limiting the rate of enrolment (e.g.; the study design could include an evaluation of the first patient before next patient is treated, a phased approach, use of a run-in component).", "he": "עבור חקירות מסוימות, בפרט מחקרים מוקדמים של מכשירים חדשים/בסיכון גבוה, יש לשקול אמצעי בטיחות נוספים, כגון ניטור צמוד על ידי נותן החסות ומנטר בטיחות עצמאי, והגבלת קצב הגיוס (למשל; תכנון המחקר עשוי לכלול הערכה של המטופל הראשון בטרם יטופל המטופל הבא, גישה מדורגת, שימוש ברכיב הרצה (run-in))." },
+        { "en": "Indicate the expected duration of the investigation, for each subject's participation and the estimated total duration of the clinical investigation.", "he": "יש לציין את משך החקירה הצפוי, עבור השתתפותו של כל נבדק ואת המשך הכולל המשוער של החקירה הקלינית." }
+      ]
+    },
+    {
+      "id": "fn-12",
+      "type": "note",
+      "marker": "12",
+      "en": "Composite endpoint is a pre-specified combination of more than one endpoint.",
+      "he": "נקודת קצה מורכבת (composite) היא שילוב שהוגדר מראש של יותר מנקודת קצה אחת."
+    },
+
+    {
+      "id": "sec-3-6-2",
+      "type": "heading",
+      "level": 3,
+      "number": "3.6.2",
+      "en": "Information on the investigational device and any comparator to be used in the clinical investigation.",
+      "he": "מידע על המכשיר הנחקר ועל כל מכשיר השוואה שייעשה בו שימוש בחקירה הקלינית."
+    },
+    {
+      "id": "sec-3-6-2-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Present the study arms, i.e. the investigational device (which was presented in detail as outlined above in section 3.2) versus any comparator (other device, medication, treatment modality or sham procedure) used. The choice of, or absence of, comparator, should be justified.", "he": "יש להציג את זרועות המחקר, כלומר את המכשיר הנחקר (שהוצג בפירוט כמתואר לעיל בסעיף 3.2) לעומת כל מכשיר השוואה (מכשיר אחר, תרופה, אופן טיפול או הליך מדומה) שנעשה בו שימוש. יש להצדיק את בחירת מכשיר ההשוואה, או היעדרו." },
+        { "en": "In case of implantable devices, the sponsor should provide subjects with an implant card. The content of the card and a description of when and how it is provided should be addressed in the CIP, considering relevant aspects of article 18 of the MDR.", "he": "במקרה של מכשירים מושתלים, על נותן החסות לספק לנבדקים כרטיס שתל. יש להתייחס ב-CIP לתוכן הכרטיס ולתיאור מתי וכיצד הוא מסופק, תוך התחשבות בהיבטים הרלוונטיים של סעיף 18 ל-MDR." }
+      ]
+    },
+
+    {
+      "id": "sec-3-6-3",
+      "type": "heading",
+      "level": 3,
+      "number": "3.6.3",
+      "en": "Information on subjects, selection criteria, size of investigation population, representativeness of investigation population in relation to target population and, if applicable, information on vulnerable subjects involved such as children, pregnant women, immuno-compromised or elderly subjects.",
+      "he": "מידע על הנבדקים, קריטריוני הבחירה, גודל אוכלוסיית החקירה, ייצוגיות אוכלוסיית החקירה ביחס לאוכלוסיית המטרה, ואם רלוונטי, מידע על נבדקים פגיעים המעורבים, כגון ילדים, נשים הרות, נבדקים מדוכאי חיסון או קשישים."
+    },
+    {
+      "id": "sec-3-6-3-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Indicate the number of subjects: The planned total number of subjects, as well as the distribution between study arms if applicable.", "he": "יש לציין את מספר הנבדקים: המספר הכולל המתוכנן של נבדקים, וכן את החלוקה בין זרועות המחקר אם רלוונטי." },
+        { "en": "Specify if the clinical investigation will include vulnerable subjects such as children, pregnant and breast-feeding women, incapacitated, immunocompromised or elderly subjects or other subjects which may be deemed vulnerable.", "he": "יש לפרט אם החקירה הקלינית תכלול נבדקים פגיעים, כגון ילדים, נשים הרות ומניקות, חסרי כשירות, מדוכאי חיסון או נבדקים קשישים או נבדקים אחרים שעשויים להיחשב פגיעים." },
+        { "en": "List the subject selection criteria, (i.e. specify inclusion and exclusion criteria), and indicate who is responsible for determining subject eligibility (i.e. define role and qualification).", "he": "יש לרשום את קריטריוני בחירת הנבדקים (כלומר לפרט קריטריוני הכללה והדרה), ולציין מי אחראי לקביעת זכאות הנבדק (כלומר להגדיר תפקיד וכישורים)." },
+        { "en": "Describe the recruitment procedures, including when a subject is enrolled and if applicable, specify the time point of subject randomisation (which may be different from the time of enrolment) in the clinical investigation.", "he": "יש לתאר את הליכי הגיוס, לרבות מתי נבדק נרשם, ואם רלוונטי, לפרט את נקודת הזמן של ההקצאה האקראית (רנדומיזציה) של הנבדק (אשר עשויה להיות שונה ממועד הרישום) בחקירה הקלינית." },
+        { "en": "Note the requirement to perform clinical investigations in a clinical environment that is representative of the normal conditions of use of the device in the target patient population. — Discuss the representativeness of the investigation population in relation to the intended target population. The design may include consideration of, and justification for, aspects such as disease aetiology, disease severity, gender, age (e.g. adult, paediatric) and other special patient populations as appropriate. — Discuss the type of investigation sites (e.g. specialized clinic, primary health care centre, manufacturer's custom built facility etc.) and differences in investigation site environments. Elaborate on why the selected sites are deemed appropriate for the conduct of the clinical investigation. — In multicentre/multinational studies it might be necessary to consider any expected differences in the standard of care or patient outcomes based upon the geographic distribution of the intended patient or user populations. Discuss the impact and account for any local adaptations.", "he": "יש לשים לב לדרישה לבצע חקירות קליניות בסביבה קלינית המייצגת את תנאי השימוש הרגילים של המכשיר באוכלוסיית המטופלים המטרה. — יש לדון בייצוגיות של אוכלוסיית החקירה ביחס לאוכלוסיית המטרה המיועדת. התכנון עשוי לכלול שקילה והצדקה של היבטים כגון אטיולוגיית המחלה, חומרת המחלה, מין, גיל (למשל מבוגר, ילדים) ואוכלוסיות מטופלים מיוחדות אחרות, ככל שמתאים. — יש לדון בסוג אתרי החקירה (למשל מרפאה מתמחה, מרכז בריאות ראשוני, מתקן ייעודי שבנה היצרן וכד') ובהבדלים בסביבות אתרי החקירה. יש לפרט מדוע האתרים הנבחרים נחשבים מתאימים לביצוע החקירה הקלינית. — במחקרים רב-מרכזיים/רב-לאומיים ייתכן שיהיה צורך לשקול הבדלים צפויים בסטנדרט הטיפול או בתוצאות המטופלים על בסיס הפיזור הגיאוגרפי של אוכלוסיות המטופלים או המשתמשים המיועדות. יש לדון בהשפעה ולתת מענה לכל התאמה מקומית." },
+        { "en": "Describe whether patients were or will be involved during the different phases of the clinical investigation, e.g. involvement in determining the objectives, assessing the burden of study participation for subjects or dissemination of the results.", "he": "יש לתאר אם מטופלים היו או יהיו מעורבים במהלך השלבים השונים של החקירה הקלינית, למשל מעורבות בקביעת המטרות, בהערכת נטל ההשתתפות במחקר עבור הנבדקים או בהפצת התוצאות." }
+      ]
+    },
+    {
+      "id": "fn-13",
+      "type": "note",
+      "marker": "13",
+      "en": "Article 62(4)(d), articles 64-68 as well as section 3.6.3 in chapter II, Annex XV of the MDR relate to vulnerable subjects.",
+      "he": "סעיף 62(4)(d), סעיפים 64–68 וכן סעיף 3.6.3 בפרק II, נספח XV ל-MDR נוגעים לנבדקים פגיעים."
+    },
+    {
+      "id": "fn-14",
+      "type": "note",
+      "marker": "14",
+      "en": "Section 2.4 in chapter I, Annex XV of the MDR.",
+      "he": "סעיף 2.4 בפרק I, נספח XV ל-MDR."
+    },
+
+    {
+      "id": "sec-3-6-4",
+      "type": "heading",
+      "level": 3,
+      "number": "3.6.4",
+      "en": "Details of measures to be taken to minimise bias, such as randomisation, and management of potential confounding factors.",
+      "he": "פרטים על אמצעים שיינקטו למזעור הטיה, כגון הקצאה אקראית (רנדומיזציה), וניהול גורמים מבלבלים (confounding) פוטנציאליים."
+    },
+    {
+      "id": "sec-3-6-4-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Describe measures taken to minimize bias or avoid bias, such as randomization, concealment of allocation, blinding/masking, and management of potential confounding factors. Use of either single arm or (choice of) comparator or other (historically) controlled design and the concept of blinding and unblinding, or running open label need to be covered, with rationale and justification.", "he": "יש לתאר אמצעים הננקטים למזעור הטיה או למניעתה, כגון הקצאה אקראית (רנדומיזציה), הסתרת ההקצאה, סמיות (blinding/masking) וניהול גורמים מבלבלים פוטנציאליים. יש להתייחס לשימוש בתכנון של זרוע יחידה או (בחירת) מכשיר השוואה או תכנון מבוקר אחר (היסטורית), ולמושג הסמיות וביטולה, או לעריכת מחקר גלוי (open label), בצירוף רציונל והצדקה." },
+        { "en": "Sham procedures (if any) need to be thoroughly justified, in particular if the procedures are invasive or burdensome, as exposing subjects to risk without the potential benefit of the device/intervention may be questionable from an ethical perspective.", "he": "הליכים מדומים (sham), אם ישנם, צריכים להיות מוצדקים ביסודיות, בפרט אם ההליכים פולשניים או מכבידים, שכן חשיפת נבדקים לסיכון ללא התועלת הפוטנציאלית של המכשיר/ההתערבות עשויה להיות מוטלת בספק מנקודת מבט אתית." },
+        { "en": "Be transparent about any potential conflicts of interest, and if they are present, how these shall be managed. In particular, it needs to be discussed how undue influence on subjects and evaluation of endpoints can be avoided, for example in situations where the device inventors are closely involved in the conduct of the investigation. To avoid bias in certain assessments an independent committee may be used to determine eligibility, classification of events, endpoint adjudication etc. (clinical events committee (CEC)).", "he": "יש לנהוג בשקיפות בנוגע לכל ניגוד עניינים פוטנציאלי, ואם קיים כזה, כיצד ינוהל. בפרט, יש לדון כיצד ניתן להימנע מהשפעה בלתי הוגנת על הנבדקים ועל הערכת נקודות הקצה, למשל במצבים שבהם ממציאי המכשיר מעורבים מקרוב בביצוע החקירה. כדי להימנע מהטיה בהערכות מסוימות, ניתן להיעזר בוועדה עצמאית לקביעת זכאות, סיווג אירועים, הכרעה בנקודות קצה וכד' (ועדת אירועים קליניים (CEC))." },
+        { "en": "Further a data safety monitoring board (DSMB) or data monitoring committee (DMC) should be considered, and in appropriate situations, appointed to continuously monitor the emerging clinical investigation results and advice on the termination or progression of the study.", "he": "כמו כן, יש לשקול מועצת ניטור בטיחות נתונים (DSMB) או ועדת ניטור נתונים (DMC), ובמצבים מתאימים למנות אותה כדי לנטר באופן רציף את תוצאות החקירה הקלינית המתהוות ולייעץ בנוגע לסיום או המשך המחקר." },
+        { "en": "If the clinical investigation involves a blinding/ masking technique, include criteria for who will get access to and is authorised to break the blinding/masking code, and the circumstances when this would occur.", "he": "אם החקירה הקלינית כרוכה בטכניקת סמיות (blinding/masking), יש לכלול קריטריונים לגבי מי יקבל גישה ומי מוסמך לשבור את קוד הסמיות, ובאילו נסיבות הדבר יקרה." }
+      ]
+    },
+
+    {
+      "id": "sec-3-6-5",
+      "type": "heading",
+      "level": 3,
+      "number": "3.6.5",
+      "en": "Description of the clinical procedures and diagnostic methods relating to the clinical investigation and in particular highlighting any deviation from normal clinical practice.",
+      "he": "תיאור ההליכים הקליניים והשיטות האבחנתיות הנוגעים לחקירה הקלינית, ובפרט הדגשת כל סטייה מהנוהג הקליני הרגיל."
+    },
+    {
+      "id": "sec-3-6-5-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Describe all the clinical investigation -related procedures and diagnostic methods used in the clinical investigation. Any deviation from normal clinical practice should be highlighted. A tabular overview/schedule of events may be helpful to summarise the activities by visit, but it also needs to be clearly presented in detail what will have to be performed at which visit, in which order, how and by whom.", "he": "יש לתאר את כל ההליכים והשיטות האבחנתיות הקשורים לחקירה הקלינית, המשמשים בחקירה הקלינית. יש להדגיש כל סטייה מהנוהג הקליני הרגיל. סקירה טבלאית/לוח אירועים עשויים להועיל לסיכום הפעילויות לפי ביקור, אך יש גם להציג בבירור ובפירוט מה יהיה צריך לבצע בכל ביקור, באיזה סדר, כיצד ועל ידי מי." },
+        { "en": "The number of medical devices and comparators (if applicable) used per subject, and procedures to ensure safe use of the device need to be described, in particular in situations where the same device is used for several subjects.", "he": "יש לתאר את מספר המכשירים הרפואיים ומכשירי ההשוואה (אם רלוונטי) המשמשים לכל נבדק, ואת ההליכים להבטחת שימוש בטוח במכשיר, בפרט במצבים שבהם אותו מכשיר משמש מספר נבדקים." },
+        { "en": "Methods and timing for assessing, recording, and analysing variables (such as adverse events, symptoms, parameters and/or results to be studied), including details on the equipment to be used for assessing the clinical investigation variables and arrangements for monitoring the maintenance and calibration of such equipment.", "he": "שיטות ועיתוי להערכה, רישום וניתוח של משתנים (כגון אירועים שליליים, תסמינים, פרמטרים ו/או תוצאות שעתידים להיחקר), לרבות פרטים על הציוד שישמש להערכת משתני החקירה הקלינית והסדרים לניטור תחזוקת הציוד וכיולו." },
+        { "en": "Specify which biological samples are collected for the purpose of the clinical investigation, if any, and describe the arrangements to comply with the applicable rules for the collection, storage and future use of biological samples.", "he": "יש לפרט אילו דגימות ביולוגיות נאספות לצורך החקירה הקלינית, אם ישנן, ולתאר את ההסדרים לעמידה בכללים החלים על איסוף, אחסון ושימוש עתידי בדגימות ביולוגיות." },
+        { "en": "Follow-up of subjects: The follow-up period during the clinical investigation shall permit the demonstration of clinical performance, effectiveness, or safety over a period of time sufficient to represent a realistic test of the investigational device and allow any risks associated with adverse device effects to be identified and assessed.", "he": "מעקב אחר נבדקים: תקופת המעקב במהלך החקירה הקלינית תאפשר הדגמה של ביצועים קליניים, יעילות או בטיחות לאורך פרק זמן מספיק כדי לייצג בחינה ריאליסטית של המכשיר הנחקר ולאפשר זיהוי והערכה של כל סיכון הקשור להשפעות שליליות של המכשיר." },
+        { "en": "Any concomitant treatments permitted or prohibited should be explicitly stated (remember to consider contraindications and interactions not only for the investigational device but also for comparators and required concomitant treatments).", "he": "יש לציין במפורש כל טיפול נלווה המותר או האסור (יש לזכור לשקול התוויות-נגד ואינטראקציות לא רק עבור המכשיר הנחקר אלא גם עבור מכשירי השוואה וטיפולים נלווים נדרשים)." },
+        { "en": "If applicable, lifestyle restrictions such as contraception measures or diet restrictions should be described.", "he": "אם רלוונטי, יש לתאר מגבלות אורח חיים, כגון אמצעי מניעה או הגבלות תזונה." },
+        { "en": "Criteria and procedures for subject withdrawal or lost to follow-up: Describe when and how to withdraw a subject from the clinical investigation or stop the use of the investigational device, efforts to be made to trace subjects that are lost to follow-up and possible reasons, as well as information on whether and how subjects are to be replaced. It is recommended to consider the need for a last safety follow-up visit (if relevant for the clinical investigation and accepted by the subject) for subjects that withdraw from use of the device and/or other follow up activities defined in the CIP.", "he": "קריטריונים והליכים לנסיגת נבדק או לאובדן מעקב: יש לתאר מתי וכיצד להוציא נבדק מהחקירה הקלינית או להפסיק את השימוש במכשיר הנחקר, את המאמצים שיש לעשות כדי לאתר נבדקים שאבדו למעקב ואת הסיבות האפשריות, וכן מידע על האם וכיצד יוחלפו נבדקים. מומלץ לשקול את הצורך בביקור מעקב בטיחות אחרון (אם רלוונטי לחקירה הקלינית ובהסכמת הנבדק) עבור נבדקים שנסוגים מהשימוש במכשיר ו/או מפעילויות מעקב אחרות המוגדרות ב-CIP." },
+        { "en": "Address whether the subjects can continue the use of the medical device once the clinical investigation has been completed, if applicable.", "he": "יש להתייחס לשאלה האם הנבדקים יכולים להמשיך להשתמש במכשיר הרפואי לאחר השלמת החקירה הקלינית, אם רלוונטי." },
+        { "en": "Clinical investigations of implantable devices need to address procedures for explantation (including return and analysis of explants obtained at explantation or post-mortem examinations) and in situations where implants are left in situ, the monitoring of patient safety beyond the study period needs to be ensured.", "he": "חקירות קליניות של מכשירים מושתלים צריכות להתייחס להליכים להוצאת שתל (לרבות החזרה וניתוח של שתלים שהושגו בעת ההוצאה או בבדיקות שלאחר המוות), ובמצבים שבהם שתלים נותרים במקומם (in situ), יש להבטיח את ניטור בטיחות המטופל מעבר לתקופת המחקר." }
+      ]
+    },
+
+    {
+      "id": "sec-3-6-6",
+      "type": "heading",
+      "level": 3,
+      "number": "3.6.6",
+      "en": "Monitoring plan",
+      "he": "תוכנית הניטור"
+    },
+    {
+      "id": "sec-3-6-6-p1",
+      "type": "paragraph",
+      "en": "The sponsor shall ensure adequate monitoring of the clinical investigation to verify that the rights, safety and well-being of subjects are protected, that the reported data are reliable, and robust, and that the conduct of the clinical investigation is in compliance with the requirements of MDR and standard for good clinical practice (GCP).",
+      "he": "נותן החסות יבטיח ניטור הולם של החקירה הקלינית כדי לוודא כי זכויותיהם, בטיחותם ורווחתם של הנבדקים מוגנות, כי הנתונים המדווחים מהימנים ואיתנים, וכי ביצוע החקירה הקלינית עומד בדרישות ה-MDR ובתקן לנוהג קליני טוב (GCP)."
+    },
+    {
+      "id": "sec-3-6-6-p2",
+      "type": "paragraph",
+      "en": "The CIP shall contain information on the monitoring plan. It is acknowledged that a detailed monitoring plan may not have to be provided with the application. The monitoring plan can be a separate document, as determined by the sponsor, but the CIP should include at least the following:",
+      "he": "ה-CIP תכלול מידע על תוכנית הניטור. מוכר כי ייתכן שאין צורך לספק תוכנית ניטור מפורטת יחד עם הבקשה. תוכנית הניטור יכולה להיות מסמך נפרד, כפי שייקבע על ידי נותן החסות, אך ה-CIP צריכה לכלול לכל הפחות את הדברים הבאים:"
+    },
+    {
+      "id": "sec-3-6-6-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "A general outline of the monitoring plan.", "he": "מתווה כללי של תוכנית הניטור." },
+        { "en": "A description of the appointment of a monitor that is independent from the investigational site.", "he": "תיאור של מינוי מנטר שהוא עצמאי מאתר החקירה." },
+        { "en": "A description of the monitor's access to source data and the extent of source data verification planned.", "he": "תיאור של גישת המנטר לנתוני המקור ושל היקף אימות נתוני המקור המתוכנן." }
+      ]
+    },
+    {
+      "id": "sec-3-6-6-p3",
+      "type": "paragraph",
+      "en": "The extent and nature of monitoring the conduct of the investigation in accordance with the clinical investigation plan, good clinical practice and the MDR should be based on the characteristics of the clinical investigation, including objective(s) and methodology of the clinical investigation and degree of deviation of the intervention from normal clinical practice.",
+      "he": "היקף ואופי הניטור של ביצוע החקירה בהתאם לתוכנית החקירה הקלינית, לנוהג הקליני הטוב ול-MDR יתבססו על מאפייני החקירה הקלינית, לרבות מטרה/ות ומתודולוגיה של החקירה הקלינית ומידת סטיית ההתערבות מהנוהג הקליני הרגיל."
+    },
+    {
+      "id": "fn-15",
+      "type": "note",
+      "marker": "15",
+      "en": "Article 72(2) of the MDR.",
+      "he": "סעיף 72(2) ל-MDR."
+    },
+    {
+      "id": "fn-16",
+      "type": "note",
+      "marker": "16",
+      "en": "Section 3.6.6, chapter II, Annex XV of the MDR.",
+      "he": "סעיף 3.6.6, פרק II, נספח XV ל-MDR."
+    },
+
+    {
+      "id": "sec-3-7",
+      "type": "heading",
+      "level": 2,
+      "number": "3.7",
+      "en": "Statistical design and analysis",
+      "he": "תכנון וניתוח סטטיסטי"
+    },
+    {
+      "id": "sec-3-7-p1",
+      "type": "paragraph",
+      "en": "The CIP shall describe and justify the statistical design and analysis of the clinical investigation and should cover following points, if applicable:",
+      "he": "ה-CIP תתאר ותצדיק את התכנון והניתוח הסטטיסטיים של החקירה הקלינית ותכסה את הנקודות הבאות, אם רלוונטי:"
+    },
+    {
+      "id": "sec-3-7-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Analysis population and procedures that take into account all the data.", "he": "אוכלוסיית הניתוח והליכים המביאים בחשבון את כל הנתונים." },
+        { "en": "Descriptive statistics of baseline data, treatments, safety data and where applicable, primary and secondary endpoints.", "he": "סטטיסטיקה תיאורית של נתוני בסיס (baseline), טיפולים, נתוני בטיחות, והיכן שרלוונטי, נקודות קצה עיקריות ומשניות." },
+        { "en": "Analytical procedures including measures of precision such as confidence intervals.", "he": "הליכים אנליטיים, לרבות מדדי דיוק כגון רווחי סמך." },
+        { "en": "With regards to the primary endpoint, the statistical testing strategy should be presented, if applicable, including the power calculation and the level at which statistical significance will be claimed.", "he": "בנוגע לנקודת הקצה העיקרית, יש להציג את אסטרטגיית הבדיקה הסטטיסטית, אם רלוונטי, לרבות חישוב העוצמה (power) והרמה שבה תיטען מובהקות סטטיסטית." },
+        { "en": "Sample size calculation and justification considering: all relevant clinical data on the outcome variable and effect size, if applicable; assumptions about expected outcomes in the treatment groups, where applicable; adjustments due to pre-planned interim analyses, if any; the magnitude of the detectable effects and the non-inferiority margin, which must be smaller than the magnitude of the detectable effects and be justified in relation to the comparator effect, if applicable; the allocation ratio used for randomisation (e.g. 1:1, 1:2) if applicable; the expected drop-out rate, such as withdrawal, loss of sight, death (unless death is an endpoint).", "he": "חישוב גודל המדגם והצדקתו, תוך התחשבות ב: כל הנתונים הקליניים הרלוונטיים בנוגע למשתנה התוצא ולגודל האפקט, אם רלוונטי; הנחות לגבי תוצאות צפויות בקבוצות הטיפול, היכן שרלוונטי; התאמות עקב ניתוחי ביניים שתוכננו מראש, אם ישנם; עוצמת האפקטים הניתנים לזיהוי ושולי האי-נחיתות, אשר חייבים להיות קטנים מעוצמת האפקטים הניתנים לזיהוי ולהיות מוצדקים ביחס לאפקט מכשיר ההשוואה, אם רלוונטי; יחס ההקצאה המשמש להקצאה האקראית (למשל 1:1, 1:2) אם רלוונטי; שיעור הנשירה הצפוי, כגון נסיגה, אובדן מעקב, מוות (אלא אם מוות הוא נקודת קצה)." },
+        { "en": "All statistical parameters and methods used to calculate the sample size or non-inferiority margin should be clearly stated.", "he": "יש לציין באופן ברור את כל הפרמטרים והשיטות הסטטיסטיים המשמשים לחישוב גודל המדגם או שולי האי-נחיתות." },
+        { "en": "For exploratory and observational clinical investigations, where sample size determination by calculation is not required per Annex I of the ISO14155:2020 standard, the scientific justification for the sample size selected should be provided.", "he": "עבור חקירות קליניות חקרניות (exploratory) ותצפיתיות, שבהן אין דרישה לקביעת גודל המדגם באמצעות חישוב על פי נספח I של תקן ISO 14155:2020, יש לספק את ההצדקה המדעית לגודל המדגם שנבחר." },
+        { "en": "The rationale for the number of procedures to be performed by a single user as part of the learning curve and how these data are to be analysed, if applicable.", "he": "הרציונל למספר ההליכים שיבוצעו על ידי משתמש יחיד כחלק מעקומת הלמידה וכיצד ינותחו נתונים אלה, אם רלוונטי." },
+        { "en": "Pass/fail criteria to be applied to the results of the clinical investigation.", "he": "קריטריוני הצלחה/כישלון (pass/fail) שיוחלו על תוצאות החקירה הקלינית." },
+        { "en": "The provision for interim analyses, if applicable, and the provision of objective, quantifiable, statistical criteria for the termination of the clinical investigation.", "he": "ההסדר לניתוחי ביניים, אם רלוונטי, וההסדר לקריטריונים סטטיסטיים אובייקטיביים וניתנים לכימות לסיום החקירה הקלינית." },
+        { "en": "Management of bias and, when randomization, matching, or blinding are applied, plan of assessment of success thereof. Strategies to manage and control for potential confounding factors (e.g. stratified randomisation or stratification of the analysis). These strategies should be justified.", "he": "ניהול הטיה, וכאשר מיושמות הקצאה אקראית, התאמה (matching) או סמיות – תוכנית להערכת הצלחתן. אסטרטגיות לניהול ולבקרת גורמים מבלבלים פוטנציאליים (למשל הקצאה אקראית מרובדת או ריבוד הניתוח). יש להצדיק אסטרטגיות אלה." },
+        { "en": "For multicentre clinical investigations, a strategy for handling the potential imbalance of the numbers of subjects across investigation sites.", "he": "עבור חקירות קליניות רב-מרכזיות, אסטרטגיה לטיפול באי-איזון פוטנציאלי במספרי הנבדקים בין אתרי החקירה." },
+        { "en": "Description of procedures for multiplicity control and adjustment of error probabilities.", "he": "תיאור הליכים לבקרת ריבוי (multiplicity) ולהתאמת הסתברויות שגיאה." },
+        { "en": "The specification and justification of subgroups for analysis, including specification of whether response to treatment is expected to be different in these groups.", "he": "פירוט והצדקה של תת-קבוצות לניתוח, לרבות פירוט האם צפויה תגובה שונה לטיפול בקבוצות אלה." },
+        { "en": "Management, justification, and documentation of missing, unused or spurious data, including drop-outs.", "he": "ניהול, הצדקה ותיעוד של נתונים חסרים, בלתי מנוצלים או מזויפים (spurious), לרבות נושרים." },
+        { "en": "Exploratory analysis and sensitivity analysis (e.g. to explore robustness of results of primary and secondary analysis with respect to different methods used for handling missing data).", "he": "ניתוח חקרני וניתוח רגישות (למשל לבחינת איתנות תוצאות הניתוח העיקרי והמשני ביחס לשיטות שונות המשמשות לטיפול בנתונים חסרים)." },
+        { "en": "Procedures for reporting any deviations(s) from the original statistical plan.", "he": "הליכים לדיווח על כל סטייה מהתוכנית הסטטיסטית המקורית." },
+        { "en": "A strategy for pooling data, if applicable.", "he": "אסטרטגיה לאיחוד נתונים (pooling), אם רלוונטי." }
+      ]
+    },
+    {
+      "id": "fn-17",
+      "type": "note",
+      "marker": "17",
+      "en": "There could also be non-statistical grounds for termination of a clinical investigation.",
+      "he": "ייתכנו גם נימוקים שאינם סטטיסטיים לסיום חקירה קלינית."
+    },
+    {
+      "id": "sec-3-7-p2",
+      "type": "paragraph",
+      "en": "It is recommended to consult appropriate statistical expertise when designing the clinical investigation and writing the clinical investigation plan.",
+      "he": "מומלץ להיוועץ במומחיות סטטיסטית מתאימה בעת תכנון החקירה הקלינית וכתיבת תוכנית החקירה הקלינית."
+    },
+
+    {
+      "id": "sec-3-8",
+      "type": "heading",
+      "level": 2,
+      "number": "3.8",
+      "en": "Data management",
+      "he": "ניהול נתונים"
+    },
+    {
+      "id": "sec-3-8-p1",
+      "type": "paragraph",
+      "en": "In the clinical investigation plan, a description should be provided of the procedures implemented which can guarantee that the data generated in the clinical investigation is reliable and robust. Present the arrangements to record, process, handle and store data in such a way that it can be accurately reported, interpreted and verified while the confidentiality of records and the personal data of the subjects remain protected in accordance with the applicable law on personal data protection. Present post-collection procedures to check data accuracy and completeness, as well as procedures for issuing and resolving data queries and methods for data base locking at the start of the analysis.",
+      "he": "בתוכנית החקירה הקלינית יש לספק תיאור של ההליכים המיושמים אשר יכולים להבטיח כי הנתונים הנוצרים בחקירה הקלינית מהימנים ואיתנים. יש להציג את ההסדרים לרישום, עיבוד, טיפול ואחסון הנתונים באופן שיאפשר לדווח עליהם, לפרשם ולאמתם במדויק, תוך שמירה על סודיות הרישומים והנתונים האישיים של הנבדקים בהתאם לדין החל על הגנת נתונים אישיים. יש להציג הליכים שלאחר האיסוף לבדיקת דיוק הנתונים ושלמותם, וכן הליכים להנפקה ולפתרון של שאילתות נתונים ושיטות לנעילת מסד הנתונים בתחילת הניתוח."
+    },
+    {
+      "id": "sec-3-8-p2",
+      "type": "paragraph",
+      "en": "Throughout, and after the completion of, the clinical investigation, appropriate technical and organizational measures should be installed to protect information and personal data processed against unauthorized or unlawful access, disclosure, dissemination, alteration, or destruction or accidental loss, in particular where the processing involves transmission over a network.",
+      "he": "לאורך החקירה הקלינית ולאחר השלמתה, יש להתקין אמצעים טכניים וארגוניים מתאימים כדי להגן על המידע והנתונים האישיים המעובדים מפני גישה, גילוי, הפצה, שינוי או השמדה בלתי-מורשים או בלתי-חוקיים או מפני אובדן מקרי, בפרט כאשר העיבוד כרוך בהעברה ברשת."
+    },
+    {
+      "id": "sec-3-8-p3",
+      "type": "paragraph",
+      "en": "The MDR specifically requires that the application for a clinical investigation includes a description of measures that will be implemented in case of a data security breach in order to mitigate the possible adverse effects. The data management section of the CIP is a reasonable place to include this information, or a separate document can be included.",
+      "he": "ה-MDR דורש במפורש כי הבקשה לחקירה קלינית תכלול תיאור של אמצעים שייושמו במקרה של הפרת אבטחת נתונים, כדי להפחית את ההשפעות השליליות האפשריות. סעיף ניהול הנתונים של ה-CIP הוא מקום סביר לכלול בו מידע זה, או שניתן לכלול מסמך נפרד."
+    },
+    {
+      "id": "sec-3-8-p4",
+      "type": "paragraph",
+      "en": "Also the data retention requirements as specified in section 3 of chapter III in Annex XV of the MDR should be addressed.",
+      "he": "כמו כן, יש להתייחס לדרישות שמירת הנתונים כפי שמפורט בסעיף 3 של פרק III בנספח XV ל-MDR."
+    },
+    {
+      "id": "fn-18",
+      "type": "note",
+      "marker": "18",
+      "en": "Refer to sections 6.6, 7.8 and A.8 of the ISO14155:2020 for additional guidance on data management aspects.",
+      "he": "ראו סעיפים 6.6, 7.8 ו-A.8 של ISO 14155:2020 להנחיה נוספת בנוגע להיבטי ניהול נתונים."
+    },
+
+    {
+      "id": "sec-3-9",
+      "type": "heading",
+      "level": 2,
+      "number": "3.9",
+      "en": "Modifications of the CIP",
+      "he": "שינויים ב-CIP"
+    },
+    {
+      "id": "sec-3-9-p1",
+      "type": "paragraph",
+      "en": "It should be clear from the clinical investigation plan that, the competent authority shall be notified of all proposed changes to the approved clinical investigation that are likely to have a substantial impact on the safety, health or rights of the subjects or on the robustness or reliability of the clinical data generated by the investigation, as required in Article 75 of the MDR. Also the CIP should inform the investigator of the need to wait for the time specified in article 75 of the MDR or for the approval of the substantial modification, whichever comes first, before implementing the changes.",
+      "he": "צריך להיות ברור מתוכנית החקירה הקלינית כי יש להודיע לרשות המוסמכת על כל שינוי מוצע בחקירה הקלינית המאושרת שעלול להיות בעל השפעה מהותית על הבטיחות, הבריאות או הזכויות של הנבדקים, או על איתנות או מהימנות הנתונים הקליניים שנוצרים בחקירה, כנדרש בסעיף 75 ל-MDR. כמו כן, ה-CIP צריכה ליידע את החוקר על הצורך להמתין למשך הזמן הקבוע בסעיף 75 ל-MDR או לאישור השינוי המהותי, לפי המוקדם, בטרם יישום השינויים."
+    },
+    {
+      "id": "sec-3-9-p2",
+      "type": "paragraph",
+      "en": "The procedures to manage non-substantial modifications to the CIP also needs to be described.",
+      "he": "יש לתאר גם את ההליכים לניהול שינויים שאינם מהותיים ב-CIP."
+    },
+    {
+      "id": "fn-19",
+      "type": "note",
+      "marker": "19",
+      "en": "last indent of section 4.5, chapter II in Annex XV of the MDR.",
+      "he": "הסעיף-קטן האחרון של סעיף 4.5, פרק II בנספח XV ל-MDR."
+    },
+    {
+      "id": "fn-20",
+      "type": "note",
+      "marker": "20",
+      "en": "Note that it may be necessary to take into consideration also national requirements in relation to submission of substantial modifications to the Ethics Committee.",
+      "he": "יש לשים לב כי ייתכן שיהיה צורך להביא בחשבון גם דרישות לאומיות בנוגע להגשת שינויים מהותיים לוועדת האתיקה."
+    },
+
+    {
+      "id": "sec-3-10",
+      "type": "heading",
+      "level": 2,
+      "number": "3.10",
+      "en": "Deviations from the CIP",
+      "he": "סטיות מה-CIP"
+    },
+    {
+      "id": "sec-3-10-p1",
+      "type": "paragraph",
+      "en": "There should be a statement specifying that the investigator is not allowed to deviate from the CIP, except if to protect the rights, safety and well-being of human subjects under emergency circumstances, when the investigator may deviate without prior approval of the sponsor.",
+      "he": "צריכה להיות הצהרה הקובעת כי לחוקר אסור לסטות מה-CIP, למעט לשם הגנה על זכויותיהם, בטיחותם ורווחתם של נבדקים אנושיים בנסיבות חירום, שאז רשאי החוקר לסטות ללא אישור מוקדם של נותן החסות."
+    },
+    {
+      "id": "sec-3-10-p2",
+      "type": "paragraph",
+      "en": "It further needs to be clearly stated in the CIP that waivers from the CIP are not permitted. Procedures for recording, reporting, and analysing CIP deviations should be described, including notification requirements and time frames. Also, corrective and preventive actions and principal investigator disqualification criteria are to be included.",
+      "he": "כמו כן, יש לציין בבירור ב-CIP כי ויתורים (waivers) מה-CIP אינם מותרים. יש לתאר הליכים לרישום, דיווח וניתוח של סטיות מה-CIP, לרבות דרישות הודעה ולוחות זמנים. בנוסף, יש לכלול פעולות מתקנות ומונעות וקריטריונים לפסילת החוקר הראשי."
+    },
+
+    {
+      "id": "sec-3-11",
+      "type": "heading",
+      "level": 2,
+      "number": "3.11",
+      "en": "Device accountability",
+      "he": "אחריותיות על המכשיר (Device accountability)"
+    },
+    {
+      "id": "sec-3-11-p1",
+      "type": "paragraph",
+      "en": "Adequate procedures for the accountability and traceability of the investigational device should be incorporated in the CIP, in particular control of access to and adequate storage of the device, follow-up in relation to the device used in the clinical investigation and the return of unused, expired or malfunctioning devices.",
+      "he": "יש לשלב ב-CIP הליכים הולמים לאחריותיות ולמעקביות של המכשיר הנחקר, בפרט בקרת גישה ואחסון הולם של המכשיר, מעקב בנוגע למכשיר המשמש בחקירה הקלינית והחזרת מכשירים בלתי-מנוצלים, שפג תוקפם או תקולים."
+    },
+    {
+      "id": "sec-3-11-p2",
+      "type": "paragraph",
+      "en": "Describe in detail how the use of the investigational device is restricted, so that they are used only in the clinical investigation and according to the CIP. Specify that the investigator shall keep records to document",
+      "he": "יש לתאר בפירוט כיצד מוגבל השימוש במכשיר הנחקר, כך שהוא ישמש רק בחקירה הקלינית ובהתאם ל-CIP. יש לפרט כי החוקר ינהל רישומים לתיעוד"
+    },
+    {
+      "id": "sec-3-11-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "name(s) of person(s) who received, used, returned, or disposed of the device.", "he": "שם/ות האדם/ים שקיבל/ו, השתמש/ו, החזיר/ו או סילק/ו את המכשיר." },
+        { "en": "the date of receipt, identification, and quantity of each investigational device (batch number/serial number or unique code).", "he": "תאריך הקבלה, הזיהוי והכמות של כל מכשיר נחקר (מספר אצווה/מספר סידורי או קוד ייחודי)." },
+        { "en": "the expiry date, if applicable; d) the date or dates of use.", "he": "תאריך התפוגה, אם רלוונטי; ד) תאריך או תאריכי השימוש." },
+        { "en": "subject identification;.", "he": "זיהוי הנבדק;." },
+        { "en": "date on which the investigational device was returned/explanted from subject, if applicable.", "he": "התאריך שבו המכשיר הנחקר הוחזר/הוצא כשתל מהנבדק, אם רלוונטי." },
+        { "en": "the date of return of unused, expired, or malfunctioning investigational devices, if applicable.", "he": "תאריך החזרת מכשירים נחקרים בלתי-מנוצלים, שפג תוקפם או תקולים, אם רלוונטי." },
+        { "en": "the date and documentation of disposal of the investigational devices as per instructions of the sponsor, if applicable.", "he": "התאריך והתיעוד של סילוק המכשירים הנחקרים בהתאם להוראות נותן החסות, אם רלוונטי." }
+      ]
+    },
+    {
+      "id": "fn-21",
+      "type": "note",
+      "marker": "21",
+      "en": "It may be acceptable to make exemptions regarding device accountability for those clinical investigations where CE marked devices are used within their intended purpose.",
+      "he": "ייתכן שיהיה מקובל לעשות חריגים בנוגע לאחריותיות על המכשיר עבור חקירות קליניות שבהן נעשה שימוש במכשירים בעלי סימון CE בגבולות המטרה המיועדת שלהם."
+    },
+
+    {
+      "id": "sec-3-12",
+      "type": "heading",
+      "level": 2,
+      "number": "3.12",
+      "en": "Statements of compliance",
+      "he": "הצהרות עמידה (compliance)"
+    },
+    {
+      "id": "sec-3-12-p1",
+      "type": "paragraph",
+      "en": "The following statements should be included in the CIP:",
+      "he": "יש לכלול ב-CIP את ההצהרות הבאות:"
+    },
+    {
+      "id": "sec-3-12-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Statement specifying that the clinical investigation shall be conducted in accordance with the ethical principles that have their origin in the Declaration of Helsinki.", "he": "הצהרה הקובעת כי החקירה הקלינית תבוצע בהתאם לעקרונות האתיים שמקורם בהצהרת הלסינקי (Declaration of Helsinki)." },
+        { "en": "Statement specifying compliance with any relevant international standards and/or consensus guidance, such as the latest version of the international standard ISO 14155 Clinical investigation of medical devices for human subjects – Good clinical practice", "he": "הצהרה הקובעת עמידה בכל תקן בין-לאומי רלוונטי ו/או הנחיית הסכמה (consensus), כגון הגרסה העדכנית ביותר של התקן הבין-לאומי ISO 14155 \"חקירה קלינית של מכשירים רפואיים בנבדקים אנושיים – נוהג קליני טוב\"." },
+        { "en": "Statement specifying compliance with the national legislation and MDR.", "he": "הצהרה הקובעת עמידה בחקיקה הלאומית וב-MDR." },
+        { "en": "Statement specifying that the clinical investigation shall not begin until the required regulatory and ethical assessments have been completed with non-negative outcomes, in accordance with MDR and national legislation.", "he": "הצהרה הקובעת כי החקירה הקלינית לא תחל עד שיושלמו ההערכות הרגולטוריות והאתיות הנדרשות בתוצאות שאינן שליליות, בהתאם ל-MDR ולחקיקה הלאומית." },
+        { "en": "Statement specifying that any additional requirements imposed by the Ethics Committee or regulatory authority shall be followed, if appropriate.", "he": "הצהרה הקובעת כי כל דרישה נוספת שהוטלה על ידי ועדת האתיקה או הרשות הרגולטורית תקוים, ככל שמתאים." },
+        { "en": "Statement specifying the type of insurance that shall be provided for subjects, if appropriate.", "he": "הצהרה המפרטת את סוג הביטוח שיסופק לנבדקים, ככל שמתאים." }
+      ]
+    },
+    {
+      "id": "fn-22",
+      "type": "note",
+      "marker": "22",
+      "en": "If the sponsor chooses not to comply with this standard, it is necessary to demonstrate that the alternative solutions do ensure sufficient protection of the rights, safety and well-being of subjects, the scientific conduct of the clinical investigation and the credibility of the clinical investigation results at a level that is equal or superior to the methods specified in the standard.",
+      "he": "אם נותן החסות בוחר שלא לעמוד בתקן זה, יש להוכיח כי הפתרונות החלופיים אכן מבטיחים הגנה מספקת על זכויותיהם, בטיחותם ורווחתם של הנבדקים, על הביצוע המדעי של החקירה הקלינית ועל אמינות תוצאות החקירה הקלינית, ברמה השווה לשיטות המפורטות בתקן או עולה עליהן."
+    },
+
+    {
+      "id": "sec-3-13",
+      "type": "heading",
+      "level": 2,
+      "number": "3.13",
+      "en": "Informed consent process",
+      "he": "תהליך ההסכמה מדעת"
+    },
+    {
+      "id": "sec-3-13-p1",
+      "type": "paragraph",
+      "en": "Describe the general process for obtaining informed consent, including the process for providing subjects with new information and process for compensation to subjects for participation in the clinical investigation, as needed. If applicable, the description of the process in circumstances where the subject is unable to give informed consent must also be included.",
+      "he": "יש לתאר את התהליך הכללי לקבלת הסכמה מדעת, לרבות התהליך למסירת מידע חדש לנבדקים ותהליך הפיצוי לנבדקים בעבור ההשתתפות בחקירה הקלינית, לפי הצורך. אם רלוונטי, יש לכלול גם את תיאור התהליך בנסיבות שבהן הנבדק אינו מסוגל לתת הסכמה מדעת."
+    },
+    {
+      "id": "sec-3-13-p2",
+      "type": "paragraph",
+      "en": "For clinical investigations on minors, the CIP must provide a summary of how it meets MDR Article (65) requirements, including the informed consent of the minor's legally designated representative, and the provision of information to the minor in a way that is adapted to their age and mental maturity.",
+      "he": "עבור חקירות קליניות בקטינים, ה-CIP חייבת לספק סיכום של אופן עמידתה בדרישות סעיף (65) ל-MDR, לרבות ההסכמה מדעת של הנציג המיועד מבחינה משפטית של הקטין, ומסירת מידע לקטין באופן המותאם לגילו ולבגרותו הנפשית."
+    },
+    {
+      "id": "sec-3-13-p3",
+      "type": "paragraph",
+      "en": "For clinical investigations in emergency situations, it should be justified why and how the conditions in article 68 of the MDR, that allow inclusion of subjects and a first intervention without a prior informed consent, are considered to be fulfilled. Describe the planned procedures to identify a legally designated representative for such subjects to ensure that informed consent can be obtained without undue delay either from the legally designated representative or the subject, whichever can be done sooner. National legislation in appointing legally designated representatives differs. To ensure compliance with national provisions it is necessary for the sponsor to provide the investigators with appropriate guidance on how to proceed in their country. For multinational investigations, the information could be provided as a country specific appendix to the CIP.",
+      "he": "עבור חקירות קליניות במצבי חירום, יש להצדיק מדוע וכיצד נחשבים מתקיימים התנאים שבסעיף 68 ל-MDR, המתירים הכללת נבדקים והתערבות ראשונה ללא הסכמה מדעת מוקדמת. יש לתאר את ההליכים המתוכננים לזיהוי נציג מיועד מבחינה משפטית עבור נבדקים אלה, כדי להבטיח שניתן יהיה לקבל הסכמה מדעת ללא דיחוי בלתי-הולם, בין מהנציג המיועד מבחינה משפטית ובין מהנבדק, לפי המוקדם. החקיקה הלאומית בנוגע למינוי נציגים מיועדים מבחינה משפטית שונה ממדינה למדינה. כדי להבטיח עמידה בהוראות הלאומיות, על נותן החסות לספק לחוקרים הנחיה מתאימה כיצד לפעול במדינתם. עבור חקירות רב-לאומיות, ניתן לספק את המידע כנספח ספציפי למדינה ל-CIP."
+    },
+
+    {
+      "id": "sec-3-14",
+      "type": "heading",
+      "level": 2,
+      "number": "3.14",
+      "en": "Adverse events, adverse device effects and device deficiencies",
+      "he": "אירועים שליליים, השפעות שליליות של מכשיר וליקויים במכשיר"
+    },
+    {
+      "id": "sec-3-14-p1",
+      "type": "paragraph",
+      "en": "List the definitions of adverse events (AE), adverse device effects (ADE), device deficiencies (DD), serious adverse events (SAE) and serious adverse device effects (SADE). Note the requirements for recording and reporting of adverse events in article 80 of the MDR, and consult the guidance document MDCG 2020-10/1 for definitions and more information on the reporting of SAE and DD.",
+      "he": "יש לרשום את ההגדרות של אירועים שליליים (AE), השפעות שליליות של מכשיר (ADE), ליקויים במכשיר (DD), אירועים שליליים חמורים (SAE) והשפעות שליליות חמורות של מכשיר (SADE). יש לשים לב לדרישות לרישום ולדיווח של אירועים שליליים בסעיף 80 ל-MDR, ולעיין במסמך ההנחיה MDCG 2020-10/1 להגדרות ולמידע נוסף בנוגע לדיווח על SAE ו-DD."
+    },
+    {
+      "id": "sec-3-14-p2",
+      "type": "paragraph",
+      "en": "A list of foreseeable adverse events and anticipated adverse device effects, together with their likely probability of occurrence, mitigation, or treatment must be specified.",
+      "he": "יש לפרט רשימה של אירועים שליליים צפויים והשפעות שליליות צפויות של המכשיר, יחד עם הסתברות ההתרחשות הסבירה שלהם, ההפחתה או הטיפול בהם."
+    },
+    {
+      "id": "sec-3-14-p3",
+      "type": "paragraph",
+      "en": "Should the sponsor wish to exclude some adverse events from recording and/or reporting, these should be listed, and a rationale provided for why they are to be considered non-reportable.",
+      "he": "אם נותן החסות מבקש להחריג אירועים שליליים מסוימים מרישום ו/או דיווח, יש לרשום אותם ולספק רציונל מדוע ייחשבו בלתי-מדווחים."
+    },
+    {
+      "id": "sec-3-14-p4",
+      "type": "paragraph",
+      "en": "Details of the process for recording, follow-up and reporting adverse events and device deficiencies should be described, including the time frame which the principal investigator must report to the sponsor and, where appropriate, the sponsor must report to the competent authority. Emergency contact details for reporting SAE and SADE must be specified, so that the investigator knows whom to contact.",
+      "he": "יש לתאר את פרטי התהליך לרישום, מעקב ודיווח של אירועים שליליים וליקויים במכשיר, לרבות מסגרת הזמן שבה על החוקר הראשי לדווח לנותן החסות, ובמקרים מתאימים, שבה על נותן החסות לדווח לרשות המוסמכת. יש לפרט פרטי קשר לחירום לדיווח על SAE ו-SADE, כך שהחוקר ידע למי לפנות."
+    },
+    {
+      "id": "sec-3-14-p5",
+      "type": "paragraph",
+      "en": "Information on the presence or absence of a data safety monitoring board/data monitoring committee (DSMB/DMC) should be provided. In case of the absence of a DSMB/DMC, a justification should be provided.",
+      "he": "יש לספק מידע על נוכחותה או היעדרה של מועצת ניטור בטיחות נתונים/ועדת ניטור נתונים (DSMB/DMC). במקרה של היעדר DSMB/DMC, יש לספק הצדקה."
+    },
+    {
+      "id": "fn-23",
+      "type": "note",
+      "marker": "23",
+      "en": "MDCG 2020-10/1 Rev 1 Safety reporting in clinical investigations of medical devices under the Regulation (EU) 2017/745",
+      "he": "MDCG 2020-10/1 Rev 1 – דיווח בטיחות בחקירות קליניות של מכשירים רפואיים על פי תקנה (האיחוד האירופי) 2017/745."
+    },
+
+    {
+      "id": "sec-3-15",
+      "type": "heading",
+      "level": 2,
+      "number": "3.15",
+      "en": "End, suspension, or premature termination of the clinical investigation",
+      "he": "סיום, השעיה או סיום מוקדם של החקירה הקלינית"
+    },
+    {
+      "id": "sec-3-15-p1",
+      "type": "paragraph",
+      "en": "Define the end of the clinical investigation. The end of investigation definition is important in relation to reporting requirements at the end of the study as outlined in article 77 of the MDR.",
+      "he": "יש להגדיר את סיום החקירה הקלינית. הגדרת סיום החקירה חשובה ביחס לדרישות הדיווח בסיום המחקר כמתואר בסעיף 77 ל-MDR."
+    },
+    {
+      "id": "sec-3-15-p2",
+      "type": "paragraph",
+      "en": "The clinical investigation plan should consider appropriate stopping criteria on both subject and study level. Consider that depending on the situation, it might be necessary to stop recruitment of new subjects and treatment of subjects currently exposed to the device, but also necessary to continue follow up of already treated/ implanted patients. Procedures should be described for the follow-up and continuing care of subjects following the end or temporary halt of the investigation. If applicable, procedures should be described for follow-up of subjects who have withdrawn their consent and for subjects lost to follow-up. For implantable devices it should be specified whether the devices are to remain implanted or be explanted at the end of the study and how traceability is achieved.",
+      "he": "תוכנית החקירה הקלינית צריכה לשקול קריטריוני עצירה מתאימים הן ברמת הנבדק והן ברמת המחקר. יש לקחת בחשבון שבהתאם למצב, ייתכן שיהיה צורך להפסיק את גיוס הנבדקים החדשים ואת הטיפול בנבדקים החשופים כעת למכשיר, אך גם להמשיך במעקב אחר מטופלים שכבר טופלו/הושתלו. יש לתאר הליכים למעקב ולטיפול מתמשך בנבדקים לאחר סיום החקירה או עצירתה הזמנית. אם רלוונטי, יש לתאר הליכים למעקב אחר נבדקים שמשכו את הסכמתם ואחר נבדקים שאבדו למעקב. עבור מכשירים מושתלים, יש לפרט האם המכשירים יישארו מושתלים או יוצאו כשתל בסיום המחקר וכיצד מושגת מעקביות."
+    },
+    {
+      "id": "sec-3-15-p3",
+      "type": "paragraph",
+      "en": "Include a description of any required follow-up (incl. the duration of such a follow-up period) of SAE with a causal relationship with the investigational device, still ongoing at the end of the clinical investigation, based on a risk assessment by the sponsor of the characteristics and properties of the investigation and the investigational device. This description should also include how any potential new SAEs that are detected during such follow-up are to be handled.",
+      "he": "יש לכלול תיאור של כל מעקב נדרש (לרבות משך תקופת המעקב) אחר SAE בעל קשר סיבתי למכשיר הנחקר, שעודנו נמשך בסיום החקירה הקלינית, בהתבסס על הערכת סיכונים של נותן החסות לגבי מאפייני ותכונות החקירה והמכשיר הנחקר. תיאור זה צריך לכלול גם כיצד יטופלו SAE חדשים פוטנציאליים המתגלים במהלך מעקב כזה."
+    },
+    {
+      "id": "sec-3-15-p4",
+      "type": "paragraph",
+      "en": "Further, it must be clear from the clinical investigation plan that the competent authority shall be notified of the temporary halt or (premature) end of the clinical investigation, and that a justification shall be provided in case of a temporary study halt or early termination. In accordance with MDR article 77 study (premature) end or temporary halt reporting is mandatory within 15 days (or 24 hours if based on safety grounds).",
+      "he": "כמו כן, צריך להיות ברור מתוכנית החקירה הקלינית כי יש להודיע לרשות המוסמכת על עצירה זמנית או סיום (מוקדם) של החקירה הקלינית, וכי תסופק הצדקה במקרה של עצירת מחקר זמנית או סיום מוקדם. בהתאם לסעיף 77 ל-MDR, דיווח על סיום (מוקדם) או עצירה זמנית של המחקר הוא חובה בתוך 15 ימים (או 24 שעות אם הוא מבוסס על נימוקי בטיחות)."
+    },
+    {
+      "id": "sec-3-15-p5",
+      "type": "paragraph",
+      "en": "In addition, a clinical investigation report needs to be submitted to the competent authority within one year of the end of the clinical investigation or within three months of the early termination or temporary halt. The clinical investigation report shall be accompanied by a summary presented in terms that are easily understandable to the intended user. Refer to the Commission Guidance on the content and structure of the clinical investigation report (2023/C 163/06).",
+      "he": "בנוסף, יש להגיש דוח חקירה קלינית לרשות המוסמכת בתוך שנה מסיום החקירה הקלינית או בתוך שלושה חודשים מהסיום המוקדם או העצירה הזמנית. דוח החקירה הקלינית ילווה בתקציר המוצג במונחים הניתנים להבנה בקלות על ידי המשתמש המיועד. ראו את הנחיית הנציבות בנוגע לתוכן ולמבנה של דוח החקירה הקלינית (2023/C 163/06)."
+    },
+    {
+      "id": "fn-24",
+      "type": "note",
+      "marker": "24",
+      "en": "A data monitoring committee can be established by the sponsor to assess at intervals, the progress of the clinical investigation, the safety data or the critical clinical performance or effectiveness endpoints and to recommend the sponsor whether to continue, suspend, modify, or stop the clinical investigation. Sponsor can pre-empt requests for information from the competent authorities during the assessment of the clinical investigation application by submitting the DSMB charter with the initial application.",
+      "he": "ועדת ניטור נתונים יכולה להיות מוקמת על ידי נותן החסות כדי להעריך בפרקי זמן את התקדמות החקירה הקלינית, את נתוני הבטיחות או את נקודות הקצה הקריטיות של הביצועים או היעילות הקליניים, ולהמליץ לנותן החסות אם להמשיך, להשעות, לשנות או להפסיק את החקירה הקלינית. נותן החסות יכול להקדים בקשות מידע מצד הרשויות המוסמכות במהלך הערכת הבקשה לחקירה קלינית באמצעות הגשת מסמך ההסמכה (charter) של ה-DSMB עם הבקשה הראשונית."
+    },
+    {
+      "id": "fn-25",
+      "type": "note",
+      "marker": "25",
+      "en": "Note that it may be necessary to consider also national requirements regarding reporting at the end of the clinical investigation which may include reporting to the Ethics Committee.",
+      "he": "יש לשים לב כי ייתכן שיהיה צורך לשקול גם דרישות לאומיות בנוגע לדיווח בסיום החקירה הקלינית, אשר עשויות לכלול דיווח לוועדת האתיקה."
+    },
+
+    {
+      "id": "sec-3-16",
+      "type": "heading",
+      "level": 2,
+      "number": "3.16",
+      "en": "Arrangements for subjects following participation",
+      "he": "הסדרים לנבדקים בעקבות ההשתתפות"
+    },
+    {
+      "id": "sec-3-16-p1",
+      "type": "paragraph",
+      "en": "Describe the arrangements for taking care of the subjects after their participation in the clinical investigation has ended, where such additional care is necessary because of the subjects' participation in the clinical investigation and where it differs from that normally expected for the medical condition in question.",
+      "he": "יש לתאר את ההסדרים לטיפול בנבדקים לאחר תום השתתפותם בחקירה הקלינית, כאשר טיפול נוסף כזה נחוץ עקב השתתפותם של הנבדקים בחקירה הקלינית, וכאשר הוא שונה מזה המצופה בדרך כלל למצב הרפואי המדובר."
+    },
+
+    {
+      "id": "sec-3-17",
+      "type": "heading",
+      "level": 2,
+      "number": "3.17",
+      "en": "Publication policy",
+      "he": "מדיניות פרסום"
+    },
+    {
+      "id": "sec-3-17-p1",
+      "type": "paragraph",
+      "en": "Following statements must be included:",
+      "he": "יש לכלול את ההצהרות הבאות:"
+    },
+    {
+      "id": "sec-3-17-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Statement that the clinical investigation will be registered in a publicly available database.", "he": "הצהרה כי החקירה הקלינית תירשם במסד נתונים הזמין לציבור." },
+        { "en": "Statement indicating that the results of the clinical investigation will be made publicly available.", "he": "הצהרה המציינת כי תוצאות החקירה הקלינית יועמדו לרשות הציבור." },
+        { "en": "Statement indicating the conditions and timeframes under which the results of the clinical investigation will be offered for publication including the role of the sponsor and criteria for authorship.", "he": "הצהרה המציינת את התנאים ולוחות הזמנים שבמסגרתם יוצעו תוצאות החקירה הקלינית לפרסום, לרבות תפקיד נותן החסות וקריטריונים למחברות (authorship)." }
+      ]
+    },
+
+    {
+      "id": "sec-3-18",
+      "type": "heading",
+      "level": 2,
+      "number": "3.18",
+      "en": "Technical and functional features of the device",
+      "he": "תכונות טכניות ופונקציונליות של המכשיר"
+    },
+    {
+      "id": "sec-3-18-p1",
+      "type": "paragraph",
+      "en": "List the technical and functional features of the device and specify those features which are studied in the clinical investigation.",
+      "he": "יש לרשום את התכונות הטכניות והפונקציונליות של המכשיר ולפרט את התכונות הנחקרות בחקירה הקלינית."
+    },
+    {
+      "id": "sec-3-18-p2",
+      "type": "paragraph",
+      "en": "A tabular presentation of the relevant product characteristics of the investigational device is expected with an indication of the associated product specifications and assignment of the expected clinical outcome. Please, state the expected clinical performance outcomes specifically (e.g., according to the clinical investigation endpoints) and generally (whether it is a safety or performance characteristic).",
+      "he": "מצופה הצגה טבלאית של מאפייני המוצר הרלוונטיים של המכשיר הנחקר, בצירוף ציון של מפרטי המוצר הקשורים והקצאת התוצא הקליני הצפוי. יש לציין את תוצאות הביצועים הקליניים הצפויות באופן ספציפי (למשל, בהתאם לנקודות הקצה של החקירה הקלינית) ובאופן כללי (האם מדובר בתכונת בטיחות או ביצועים)."
+    },
+    {
+      "id": "sec-3-18-p3",
+      "type": "paragraph",
+      "en": "Depending on the level of complexity, this information could be integrated with other sections, such as the device description and/or endpoint (refer to sections 3.2 and 3.6.1 above) or may need to be presented in a separate section.",
+      "he": "בהתאם לרמת המורכבות, מידע זה עשוי להשתלב עם סעיפים אחרים, כגון תיאור המכשיר ו/או נקודת הקצה (ראו סעיפים 3.2 ו-3.6.1 לעיל), או שייתכן שיהיה צורך להציגו בסעיף נפרד."
+    },
+
+    {
+      "id": "sec-3-19",
+      "type": "heading",
+      "level": 2,
+      "number": "3.19",
+      "en": "Bibliography",
+      "he": "ביבליוגרפיה"
+    },
+    {
+      "id": "sec-3-19-p1",
+      "type": "paragraph",
+      "en": "List of bibliographic references relating to the clinical investigation.",
+      "he": "רשימת הפניות ביבליוגרפיות הנוגעות לחקירה הקלינית."
+    },
+    {
+      "id": "fn-26",
+      "type": "note",
+      "marker": "26",
+      "en": "Once EUDAMED is fully functional, the clinical investigations will be registered there upon application, but until EUDAMED is fully functional, sponsors will have to register the clinical investigation elsewhere to be compliant with article 35 of the Declaration of Helsinki and section 5.4 of ISO14155:2020.",
+      "he": "ברגע ש-EUDAMED יהיה פעיל במלואו, החקירות הקליניות יירשמו שם עם הגשת הבקשה, אך עד ש-EUDAMED יהיה פעיל במלואו, נותני החסות יידרשו לרשום את החקירה הקלינית במקום אחר כדי לעמוד בסעיף 35 של הצהרת הלסינקי ובסעיף 5.4 של ISO 14155:2020."
+    },
+
+    {
+      "id": "appendix-a",
+      "type": "heading",
+      "level": 1,
+      "number": "Appendix A",
+      "en": "Appendix A: Clinical Investigation Plan Synopsis Template",
+      "he": "נספח A: תבנית תקציר תוכנית החקירה הקלינית"
+    },
+    {
+      "id": "appendix-a-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          { "en": "Clinical Investigation Synopsis (Template)", "he": "תקציר החקירה הקלינית (תבנית)" },
+          { "en": "", "he": "" }
+        ],
+        [
+          { "en": "Title", "he": "כותרת" },
+          { "en": "[enter text here]", "he": "[הזן טקסט כאן]" }
+        ],
+        [
+          { "en": "Short title", "he": "כותרת מקוצרת" },
+          { "en": "[enter text here]", "he": "[הזן טקסט כאן]" }
+        ],
+        [
+          { "en": "Lay title, if applicable", "he": "כותרת בשפה פשוטה (lay), אם רלוונטי" },
+          { "en": "[enter text here]", "he": "[הזן טקסט כאן]" }
+        ],
+        [
+          { "en": "CIP number, version, and date", "he": "מספר ה-CIP, גרסה ותאריך" },
+          { "en": "[enter text here]", "he": "[הזן טקסט כאן]" }
+        ],
+        [
+          { "en": "EUDAMED Single Reference Number (SRN) or CIV-ID, if previously assigned", "he": "מספר ייחוס יחיד (SRN) של EUDAMED או CIV-ID, אם הוקצה קודם לכן" },
+          { "en": "[enter text here]", "he": "[הזן טקסט כאן]" }
+        ],
+        [
+          { "en": "CI modification number, if applicable", "he": "מספר שינוי החקירה הקלינית (CI), אם רלוונטי" },
+          { "en": "[enter text here]", "he": "[הזן טקסט כאן]" }
+        ],
+        [
+          { "en": "Sponsor name and address", "he": "שם וכתובת נותן החסות" },
+          { "en": "[enter text here]", "he": "[הזן טקסט כאן]" }
+        ],
+        [
+          { "en": "Participating Location(s) and country(ies)", "he": "מיקום/ים משתתף/ים ומדינה/ות" },
+          { "en": "[enter text here]", "he": "[הזן טקסט כאן]" }
+        ],
+        [
+          { "en": "Name of Investigational Device", "he": "שם המכשיר הנחקר" },
+          { "en": "[enter text here]", "he": "[הזן טקסט כאן]" }
+        ],
+        [
+          { "en": "Clinical investigation Purpose and Background • Rationale for CI • Background of device and condition • Current standard of care", "he": "מטרת החקירה הקלינית ורקע • הרציונל לחקירה הקלינית • רקע על המכשיר ועל המצב הרפואי • סטנדרט הטיפול הנוכחי" },
+          { "en": "[enter text here]", "he": "[הזן טקסט כאן]" }
+        ],
+        [
+          { "en": "Name of Comparator, if applicable", "he": "שם מכשיר ההשוואה, אם רלוונטי" },
+          { "en": "[enter text here]", "he": "[הזן טקסט כאן]" }
+        ],
+        [
+          { "en": "Clinical development stage", "he": "שלב הפיתוח הקליני" },
+          { "en": "[enter text here]", "he": "[הזן טקסט כאן]" }
+        ],
+        [
+          { "en": "Design of the clinical investigation", "he": "תכנון החקירה הקלינית" },
+          { "en": "[enter text here]", "he": "[הזן טקסט כאן]" }
+        ],
+        [
+          { "en": "Objectives", "he": "מטרות" },
+          { "en": "[enter text here]", "he": "[הזן טקסט כאן]" }
+        ],
+        [
+          { "en": "Primary endpoints", "he": "נקודות קצה עיקריות" },
+          { "en": "[enter text here]", "he": "[הזן טקסט כאן]" }
+        ],
+        [
+          { "en": "Secondary endpoints", "he": "נקודות קצה משניות" },
+          { "en": "[enter text here]", "he": "[הזן טקסט כאן]" }
+        ],
+        [
+          { "en": "Safety endpoints", "he": "נקודות קצה של בטיחות" },
+          { "en": "[enter text here]", "he": "[הזן טקסט כאן]" }
+        ],
+        [
+          { "en": "Exploratory / Other endpoints and outcomes", "he": "נקודות קצה ותוצאות חקרניות (exploratory) / אחרות" },
+          { "en": "[enter text here]", "he": "[הזן טקסט כאן]" }
+        ],
+        [
+          { "en": "Description of participants / study population", "he": "תיאור המשתתפים / אוכלוסיית המחקר" },
+          { "en": "[enter text here]", "he": "[הזן טקסט כאן]" }
+        ],
+        [
+          { "en": "Inclusion criteria", "he": "קריטריוני הכללה" },
+          { "en": "[enter text here]", "he": "[הזן טקסט כאן]" }
+        ],
+        [
+          { "en": "Exclusion criteria", "he": "קריטריוני הדרה" },
+          { "en": "[enter text here]", "he": "[הזן טקסט כאן]" }
+        ],
+        [
+          { "en": "Sample size", "he": "גודל המדגם" },
+          { "en": "[enter text here]", "he": "[הזן טקסט כאן]" }
+        ],
+        [
+          { "en": "Duration and follow up of the clinical investigation", "he": "משך ומעקב של החקירה הקלינית" },
+          { "en": "[enter text here]", "he": "[הזן טקסט כאן]" }
+        ],
+        [
+          { "en": "Statistical considerations", "he": "שיקולים סטטיסטיים" },
+          { "en": "[enter text here]", "he": "[הזן טקסט כאן]" }
+        ]
+      ]
+    },
+    {
+      "id": "appendix-a-note",
+      "type": "note",
+      "en": "Note: For combination studies, more details may be relevant, such as EU number of the clinical trial, name and description of investigational medicinal product or CIV-ID/SRN of performance study of an in vitro diagnostic device.",
+      "he": "הערה: עבור מחקרים משולבים, ייתכן שיהיו רלוונטיים פרטים נוספים, כגון מספר ה-EU של הניסוי הקליני, שם ותיאור של המוצר הרפואי (התרופתי) הנחקר או CIV-ID/SRN של מחקר ביצועים של מכשיר לאבחון ויטרו."
+    }
+  ]
+}

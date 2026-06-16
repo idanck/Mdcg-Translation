@@ -1,0 +1,1533 @@
+{
+  "id": "MDCG-2020-13",
+  "title": {
+    "en": "Clinical evaluation assessment report template",
+    "he": "תבנית לדוח הערכת ההערכה הקלינית"
+  },
+  "category": "Clinical Investigation and Evaluation",
+  "publicationDate": "2020-07",
+  "source": {
+    "url": "https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en",
+    "file": "original/md_2020-13_en.pdf"
+  },
+  "language": "he",
+  "direction": "rtl",
+  "translationStatus": "review",
+  "glossaryVersion": "2026-06",
+  "blocks": [
+    {
+      "id": "disclaimer-1",
+      "type": "paragraph",
+      "en": "This document has been endorsed by the Medical Device Coordination Group (MDCG) established by Article 103 of Regulation (EU) 2017/745. The MDCG is composed of representatives of all Member States and a representative of the European Commission chairs it.",
+      "he": "מסמך זה אושר על ידי קבוצת תיאום המכשירים הרפואיים (MDCG) שהוקמה מכוח סעיף 103 לתקנה (האיחוד האירופי) 2017/745. ה-MDCG מורכבת מנציגים של כל המדינות החברות, ובראשה עומד נציג של הנציבות האירופית."
+    },
+    {
+      "id": "disclaimer-2",
+      "type": "paragraph",
+      "en": "The document is not a European Commission document and it cannot be regarded as reflecting the official position of the European Commission. Any views expressed in this document are not legally binding and only the Court of Justice of the European Union can give binding interpretations of Union law.",
+      "he": "המסמך אינו מסמך של הנציבות האירופית ואין לראות בו כמשקף את העמדה הרשמית של הנציבות האירופית. כל דעה המובעת במסמך זה אינה מחייבת מבחינה משפטית, ורק בית הדין לצדק של האיחוד האירופי מוסמך לתת פרשנות מחייבת לדין האיחוד."
+    },
+
+    {
+      "id": "contents-heading",
+      "type": "heading",
+      "level": 1,
+      "en": "Contents",
+      "he": "תוכן העניינים"
+    },
+    {
+      "id": "contents-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Introduction", "he": "מבוא" },
+        { "en": "Scope", "he": "תחולה" },
+        { "en": "Approach to Template", "he": "הגישה לתבנית" },
+        { "en": "Template CEAR", "he": "תבנית ה-CEAR" },
+        { "en": "Section A: Administrative particulars (notified body, manufacturer, product and clinical evaluation report reference)", "he": "סעיף A: פרטים מנהליים (גוף מאונתר, יצרן, מוצר וסימוכין של דוח ההערכה הקלינית)" },
+        { "en": "Section B: Reviewers involved in the notified body assessment of the clinical evaluation", "he": "סעיף B: סוקרים המעורבים בהערכת ההערכה הקלינית מטעם הגוף המאונתר" },
+        { "en": "Section C: Device description, classification, clinical evaluation plan, information materials supplied by the manufacturer, common specifications and harmonised standards applied, equivalence and state of the art", "he": "סעיף C: תיאור המכשיר, סיווג, תוכנית ההערכה הקלינית, חומרי מידע שסיפק היצרן, מפרטים משותפים (CS) ותקנים מתואמים שיושמו, שקילוּת ומצב הידע העדכני (state of the art)" },
+        { "en": "Section D: Clinical literature review", "he": "סעיף D: סקירת ספרות קלינית" },
+        { "en": "Section E: Clinical investigations and related documentation", "he": "סעיף E: חקירות קליניות ותיעוד נלווה" },
+        { "en": "Section F: PMS, PMCF and the plan for updates", "he": "סעיף F: PMS, PMCF ותוכנית העדכונים" },
+        { "en": "Section G: IFU, SSCP, labelling and other information supplied with the device", "he": "סעיף G: IFU, SSCP, תיוג ומידע אחר המסופק עם המכשיר" },
+        { "en": "Overall Conclusions", "he": "מסקנות כלליות" },
+        { "en": "Specific Considerations", "he": "שיקולים ייחודיים" },
+        { "en": "Section I: Clinical evaluation consultation procedure for certain class III and class IIb devices (Article 54)", "he": "סעיף I: הליך ההיוועצות בהערכה הקלינית עבור מכשירים מסוימים מסיווג III ומסיווג IIb (סעיף 54)" },
+        { "en": "Section J: Where demonstration of conformity based on clinical data is not deemed appropriate (Article 61(10))", "he": "סעיף J: מקום שבו הוכחת התאמה על בסיס נתונים קליניים אינה נחשבת מתאימה (סעיף 61(10))" },
+        { "en": "Section K: The voluntary clinical consultation on the clinical development strategy (Article 61(2))", "he": "סעיף K: ההיוועצות הקלינית הוולונטרית בנוגע לאסטרטגיית הפיתוח הקלינית (סעיף 61(2))" }
+      ]
+    },
+
+    {
+      "id": "acronyms-heading",
+      "type": "heading",
+      "level": 1,
+      "en": "List of acronyms",
+      "he": "רשימת ראשי תיבות"
+    },
+    {
+      "id": "acronyms-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [ { "en": "Acronym", "he": "ראשי תיבות" }, { "en": "Meaning", "he": "משמעות" } ],
+        [ { "en": "CEAR", "he": "CEAR" }, { "en": "Clinical Evaluation Assessment Report", "he": "דוח הערכת ההערכה הקלינית (Clinical Evaluation Assessment Report)" } ],
+        [ { "en": "CECP", "he": "CECP" }, { "en": "Clinical Evaluation Consultation Procedure", "he": "הליך ההיוועצות בהערכה הקלינית (Clinical Evaluation Consultation Procedure)" } ],
+        [ { "en": "CER", "he": "CER" }, { "en": "Clinical Evaluation Report", "he": "דוח הערכה קלינית (Clinical Evaluation Report)" } ],
+        [ { "en": "CIP", "he": "CIP" }, { "en": "Clinical Investigation Plan", "he": "תוכנית חקירה קלינית (Clinical Investigation Plan)" } ],
+        [ { "en": "EUDAMED", "he": "EUDAMED" }, { "en": "European Databank on Medical Devices", "he": "מסד הנתונים האירופי למכשירים רפואיים (EUDAMED)" } ],
+        [ { "en": "IFU", "he": "IFU" }, { "en": "Instructions for Use", "he": "הוראות שימוש (Instructions for Use)" } ],
+        [ { "en": "MDR", "he": "MDR" }, { "en": "Medical Device Regulation (Regulation (EU) 2017/745 on medical devices)", "he": "תקנת המכשירים הרפואיים (תקנה (האיחוד האירופי) 2017/745 בנושא מכשירים רפואיים)" } ],
+        [ { "en": "PMCF", "he": "PMCF" }, { "en": "Post-Market Clinical Follow-up", "he": "מעקב קליני שלאחר שיווק (Post-Market Clinical Follow-up)" } ],
+        [ { "en": "PMS", "he": "PMS" }, { "en": "Post-Market Surveillance", "he": "מעקב שלאחר שיווק (Post-Market Surveillance)" } ],
+        [ { "en": "PSUR", "he": "PSUR" }, { "en": "Post-Market Surveillance Update Report", "he": "דוח עדכון בטיחות תקופתי (Periodic Safety Update Report)" } ],
+        [ { "en": "SRN", "he": "SRN" }, { "en": "Single Registration Number", "he": "מספר רישום יחיד (Single Registration Number)" } ],
+        [ { "en": "SSCP", "he": "SSCP" }, { "en": "Summary of Safety and Clinical Performance", "he": "סיכום בטיחות וביצועים קליניים (Summary of Safety and Clinical Performance)" } ],
+        [ { "en": "TDAR", "he": "TDAR" }, { "en": "Technical Documentation Assessment Report", "he": "דוח הערכת תיעוד טכני (Technical Documentation Assessment Report)" } ],
+        [ { "en": "UDI-DI", "he": "UDI-DI" }, { "en": "Unique Device Identification Device Identifier", "he": "מזהה המכשיר במסגרת הזיהוי הייחודי של המכשיר (Unique Device Identification Device Identifier)" } ]
+      ]
+    },
+
+    {
+      "id": "intro-heading",
+      "type": "heading",
+      "level": 1,
+      "en": "Introduction",
+      "he": "מבוא"
+    },
+    {
+      "id": "intro-p1",
+      "type": "paragraph",
+      "en": "A clinical evaluation assessment report (CEAR) is a report used by the notified body to clearly document the conclusions of its assessment of the clinical evidence presented by the manufacturer in the clinical evaluation report (CER) and the related clinical evaluation that was conducted – a core requirement of the Medical Device Regulation (EU) 2017/745 (MDR).",
+      "he": "דוח הערכת ההערכה הקלינית (CEAR) הוא דוח שבו משתמש הגוף המאונתר כדי לתעד באופן ברור את מסקנות הערכתו לראיות הקליניות שהציג היצרן בדוח ההערכה הקלינית (CER) ולהערכה הקלינית הנלווית שבוצעה – דרישת ליבה של תקנת המכשירים הרפואיים (האיחוד האירופי) 2017/745 (ה-MDR)."
+    },
+    {
+      "id": "intro-p2",
+      "type": "paragraph",
+      "en": "The clinical evaluation must be a part of the manufacturer's quality management. It should also be aligned with and reflected in other aspects of the technical documentation, such as:",
+      "he": "ההערכה הקלינית חייבת להיות חלק מניהול האיכות של היצרן. עליה גם להיות מתואמת עם היבטים אחרים של התיעוד הטכני ולבוא בהם לידי ביטוי, כגון:"
+    },
+    {
+      "id": "intro-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "The interface of the clinical evaluation with the risk management process and its appraisal and analysis of the pre-clinical and clinical evaluation and their relevance for the demonstration of conformity with the relevant requirements in Annex I.", "he": "הממשק של ההערכה הקלינית עם תהליך ניהול הסיכונים, וכן ההערכה והניתוח של ההערכה הקדם-קלינית והקלינית ורלוונטיותן להוכחת ההתאמה לדרישות הרלוונטיות בנספח I." },
+        { "en": "Post-market surveillance including any corrective and preventive actions involving the device.", "he": "מעקב שלאחר שיווק (PMS), לרבות כל פעולה מתקנת ומונעת הנוגעת למכשיר." },
+        { "en": "Post-market clinical follow-up plan and where appropriate the post-market clinical follow-up report.", "he": "תוכנית המעקב הקליני שלאחר שיווק (PMCF) ובמקרים המתאימים גם דוח המעקב הקליני שלאחר שיווק." },
+        { "en": "Instructions for use, which provide adequate information on intended purpose, proper use and warnings about risks to patients and healthcare practitioners.", "he": "הוראות השימוש (IFU), המספקות מידע הולם על המטרה המיועדת, השימוש הנכון ואזהרות לגבי סיכונים למטופלים ולאנשי מקצוע רפואיים." }
+      ]
+    },
+    {
+      "id": "fn-1",
+      "type": "note",
+      "marker": "1",
+      "en": "MDR, Annex VII Section 4.5.1 and 4.5.5",
+      "he": "ה-MDR, נספח VII סעיף 4.5.1 ו-4.5.5"
+    },
+    {
+      "id": "intro-p3",
+      "type": "paragraph",
+      "en": "As part of its conformity assessment activities the notified body shall examine, validate and verify that manufacturers' procedures and documentation adequately address the requirements relating to the technical documentation and clearly document its assessment.",
+      "he": "כחלק מפעילויות הערכת ההתאמה שלו, הגוף המאונתר יבחן, יאמת ויוודא כי הנהלים והתיעוד של היצרנים נותנים מענה הולם לדרישות הנוגעות לתיעוד הטכני, ויתעד באופן ברור את הערכתו."
+    },
+    {
+      "id": "fn-2",
+      "type": "note",
+      "marker": "2",
+      "en": "MDR, Annexes II and III",
+      "he": "ה-MDR, נספחים II ו-III"
+    },
+    {
+      "id": "fn-3",
+      "type": "note",
+      "marker": "3",
+      "en": "MDR Annex VII Section 4.5.5 and 4.6",
+      "he": "ה-MDR, נספח VII סעיף 4.5.5 ו-4.6"
+    },
+    {
+      "id": "intro-p4",
+      "type": "paragraph",
+      "en": "The notified body shall review the clinical evidence presented by the manufacturer in the clinical evaluation report and the related clinical evaluation that was conducted, which includes:",
+      "he": "הגוף המאונתר יסקור את הראיות הקליניות שהציג היצרן בדוח ההערכה הקלינית ואת ההערכה הקלינית הנלווית שבוצעה, הכוללת:"
+    },
+    {
+      "id": "fn-4",
+      "type": "note",
+      "marker": "4",
+      "en": "MDR, Annex IX Sections 4.4 to 4.7",
+      "he": "ה-MDR, נספח IX סעיפים 4.4 עד 4.7"
+    },
+    {
+      "id": "intro-list2",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Assessing the suitability of using data from claimed equivalent devices, taking into account factors such as new indications and innovation. The notified body shall clearly document its conclusions on the claimed equivalence, and on the relevance and adequacy of the data for demonstrating conformity. For any characteristic of the device claimed as innovative by the manufacturer or for new indications, the notified body shall assess to what extent specific claims are supported by specific pre-clinical and clinical data and risk analysis.", "he": "הערכת ההתאמה של שימוש בנתונים ממכשירים שנטענה לגביהם שקילוּת, תוך התחשבות בגורמים כגון התוויות חדשות וחדשנות. הגוף המאונתר יתעד באופן ברור את מסקנותיו בנוגע לשקילוּת הנטענת, ולרלוונטיות ולהתאמה של הנתונים להוכחת ההתאמה. לגבי כל מאפיין של המכשיר שהיצרן טוען כי הוא חדשני, או לגבי התוויות חדשות, הגוף המאונתר יעריך באיזו מידה טענות ספציפיות נתמכות בנתונים קדם-קליניים וקליניים ספציפיים ובניתוח סיכונים." },
+        { "en": "Verifying that the clinical evidence and the clinical evaluation are adequate and shall verify the conclusions drawn by the manufacturer on the conformity with the relevant general safety and performance requirements. That verification shall include consideration of the adequacy of the benefit-risk determination, the risk management, the instructions for use, the user training and the manufacturer's post-market surveillance plan, and include a review of the need for, and the adequacy of, the PMCF plan proposed, where applicable.", "he": "אימות שהראיות הקליניות וההערכה הקלינית הולמות, ואימות המסקנות שהסיק היצרן בנוגע להתאמה לדרישות הכלליות הרלוונטיות לבטיחות וביצועים (GSPR). אימות זה יכלול שקילה של נאותות הקביעה של תועלת מול סיכון, ניהול הסיכונים, הוראות השימוש (IFU), הדרכת המשתמשים ותוכנית המעקב שלאחר שיווק (PMS) של היצרן, וכן סקירה של הצורך בתוכנית ה-PMCF המוצעת ונאותותה, היכן שרלוונטי." },
+        { "en": "Considering the clinical evaluation and the benefit-risk determination, and whether specific milestones need to be defined to allow the notified body to review updates to the clinical evidence that result from post-market surveillance and PMCF data.", "he": "שקילת ההערכה הקלינית והקביעה של תועלת מול סיכון, והאם יש להגדיר אבני דרך ספציפיות כדי לאפשר לגוף המאונתר לסקור עדכונים לראיות הקליניות הנובעים מנתוני המעקב שלאחר שיווק (PMS) ומנתוני ה-PMCF." }
+      ]
+    },
+    {
+      "id": "intro-p5",
+      "type": "paragraph",
+      "en": "The outcome of this assessment must be clearly documented in the CEAR. A harmonised CEAR template provides a standardised method for documenting the notified body's assessment of the manufacturer's clinical evaluation and related documents. CEARs in this format will also support specific additional requirements such as the clinical evaluation consultation procedure and reviews by designating authorities.",
+      "he": "תוצאת הערכה זו חייבת להיות מתועדת באופן ברור ב-CEAR. תבנית CEAR מתואמת מספקת שיטה מתוקננת לתיעוד הערכת הגוף המאונתר של ההערכה הקלינית של היצרן ושל המסמכים הנלווים. דוחות CEAR בפורמט זה יתמכו גם בדרישות נוספות ספציפיות, כגון הליך ההיוועצות בהערכה הקלינית וסקירות מטעם הרשויות הממנות."
+    },
+    {
+      "id": "fn-5",
+      "type": "note",
+      "marker": "5",
+      "en": "MDR, Annex IX 4.8",
+      "he": "ה-MDR, נספח IX 4.8"
+    },
+    {
+      "id": "fn-6",
+      "type": "note",
+      "marker": "6",
+      "en": "MDR, Article 54",
+      "he": "ה-MDR, סעיף 54"
+    },
+    {
+      "id": "fn-7",
+      "type": "note",
+      "marker": "7",
+      "en": "MDR, Article 45",
+      "he": "ה-MDR, סעיף 45"
+    },
+
+    {
+      "id": "scope-heading",
+      "type": "heading",
+      "level": 1,
+      "en": "Scope",
+      "he": "תחולה"
+    },
+    {
+      "id": "scope-p1",
+      "type": "paragraph",
+      "en": "This template applies to MDR Annexes IX section 4 and Annex X section 3. It also applies to assessments of technical documentations on a sampling basis for class IIa/IIb devices in accordance with Annex IX sections 2.3 and 3.5 and Section 10 of Annex XI(A). Aspects related to the clinical evaluation assessment are also laid down in Section 4.5.5 and other relevant sections of Annex VII. It also applies to medical devices for which clinical data is not deemed appropriate, to demonstrate conformity with Annex I, and the demonstration of an adequate justification for this.",
+      "he": "תבנית זו חלה על נספח IX סעיף 4 ועל נספח X סעיף 3 ל-MDR. היא חלה גם על הערכות של תיעוד טכני על בסיס דגימה עבור מכשירים מסיווג IIa/IIb בהתאם לנספח IX סעיפים 2.3 ו-3.5 ולסעיף 10 של נספח XI(A). היבטים הנוגעים להערכת ההערכה הקלינית מפורטים גם בסעיף 4.5.5 ובסעיפים רלוונטיים אחרים של נספח VII. היא חלה גם על מכשירים רפואיים שלגביהם נתונים קליניים אינם נחשבים מתאימים, להוכחת ההתאמה לנספח I, ועל הוכחת הצדקה הולמת לכך."
+    },
+    {
+      "id": "fn-8",
+      "type": "note",
+      "marker": "8",
+      "en": "MDCG 2019-13",
+      "he": "MDCG 2019-13"
+    },
+    {
+      "id": "fn-9",
+      "type": "note",
+      "marker": "9",
+      "en": "Article 61(10)",
+      "he": "סעיף 61(10)"
+    },
+    {
+      "id": "fn-10",
+      "type": "note",
+      "marker": "10",
+      "en": "Based on the results of the manufacturer's risk management and on consideration of the specifics of the interaction between the device and the human body, the clinical performance intended and the claims of the manufacturer.",
+      "he": "בהתבסס על תוצאות ניהול הסיכונים של היצרן ועל שקילת הפרטים הספציפיים של האינטראקציה בין המכשיר לגוף האדם, הביצועים הקליניים המיועדים וטענות היצרן."
+    },
+
+    {
+      "id": "approach-heading",
+      "type": "heading",
+      "level": 1,
+      "en": "Approach to Template",
+      "he": "הגישה לתבנית"
+    },
+    {
+      "id": "approach-p1",
+      "type": "paragraph",
+      "en": "Please note that the explanatory text under each heading provides brief descriptions of the type of information which will be included by the notified body, however it is not an all-inclusive list and further detail may be required depending upon the device or the intended purpose for which it will be used. This template represents the minimum content for a CEAR and needs to be incorporated into the process and procedures of the notified body. The CEAR shall also make a recommendation to support a final review and a final decision to be taken by the notified body.",
+      "he": "נא לשים לב כי הטקסט המסביר שתחת כל כותרת מספק תיאורים תמציתיים של סוג המידע שייכלל על ידי הגוף המאונתר, אך אין מדובר ברשימה ממצה ועשוי להידרש פירוט נוסף בהתאם למכשיר או למטרה המיועדת שלשמה ישמש. תבנית זו מייצגת את התוכן המינימלי של CEAR וצריכה להשתלב בתהליך ובנהלים של הגוף המאונתר. ה-CEAR יכלול גם המלצה לתמיכה בסקירה סופית ובהחלטה סופית שתתקבל על ידי הגוף המאונתר."
+    },
+    {
+      "id": "fn-11",
+      "type": "note",
+      "marker": "11",
+      "en": "MDR, Annex VII Section 4.6",
+      "he": "ה-MDR, נספח VII סעיף 4.6"
+    },
+    {
+      "id": "approach-p2",
+      "type": "paragraph",
+      "en": "Any non-compliances identified during the assessment of the aspects described in the relevant sections of the template, as well as the appropriate follow up actions taken by the manufacturer to close them need to be documented. This template may be used by the notified body to document the non-compliance/deficiencies and queries raised during the assessment and the assessment of responses received. It is important to note that the completed CEAR may not necessarily contain comprehensive information regarding the non-compliance/deficiencies, which were raised by the notified body during the course of the assessment. The CEAR shall document the outcome and the conclusions of the assessment.",
+      "he": "יש לתעד כל אי-התאמה שזוהתה במהלך הערכת ההיבטים המתוארים בסעיפים הרלוונטיים של התבנית, וכן את פעולות המעקב המתאימות שנקט היצרן לסגירתן. הגוף המאונתר רשאי להשתמש בתבנית זו לתיעוד אי-ההתאמות/הליקויים והשאלות שהועלו במהלך ההערכה והערכת התשובות שהתקבלו. חשוב לציין כי ה-CEAR המושלם לא בהכרח יכיל מידע מקיף בנוגע לאי-ההתאמות/הליקויים שהעלה הגוף המאונתר במהלך ההערכה. ה-CEAR יתעד את התוצאה ואת מסקנות ההערכה."
+    },
+    {
+      "id": "fn-12",
+      "type": "note",
+      "marker": "12",
+      "en": "MDR, Annex IX Section 4.8",
+      "he": "ה-MDR, נספח IX סעיף 4.8"
+    },
+    {
+      "id": "fn-13",
+      "type": "note",
+      "marker": "13",
+      "en": "MDR, Annex VII Section 4.6",
+      "he": "ה-MDR, נספח VII סעיף 4.6"
+    },
+    {
+      "id": "approach-p3",
+      "type": "paragraph",
+      "en": "Designating authorities shall assess whether the clinical evaluation assessment was conducted appropriately, considering the assessment, procedures, associated documentation and the conclusions; Designating authorities will have access to the complete 'audit trail' of the notified body.",
+      "he": "הרשויות הממנות יעריכו האם הערכת ההערכה הקלינית בוצעה כראוי, תוך התחשבות בהערכה, בנהלים, בתיעוד הנלווה ובמסקנות; לרשויות הממנות תהיה גישה ל'נתיב הביקורת' (audit trail) המלא של הגוף המאונתר."
+    },
+    {
+      "id": "fn-14",
+      "type": "note",
+      "marker": "14",
+      "en": "MDR, Article 45(3)",
+      "he": "ה-MDR, סעיף 45(3)"
+    },
+    {
+      "id": "approach-p4",
+      "type": "paragraph",
+      "en": "Expert panels who are conducting a clinical evaluation consultation procedure shall assess the CEAR, however they may not have access to the complete conformity assessment for the device and associated procedures and documentation. To enable the expert panel work, the CEAR shall provide sufficient information with respect to the clinical evidence provided by the manufacturer, in particular concerning the benefit-risk determination, the consistency of that evidence with the intended purpose, including the medical indication or indications and the PMCF plan. Expert panels may also request the notified body to present its conclusions regarding the clinical evaluation assessment report.",
+      "he": "פאנלי מומחים המבצעים הליך היוועצות בהערכה הקלינית יעריכו את ה-CEAR, אך ייתכן שלא תהיה להם גישה להערכת ההתאמה המלאה של המכשיר ולנהלים ולתיעוד הנלווים. כדי לאפשר את עבודת פאנל המומחים, ה-CEAR יספק מידע מספיק בנוגע לראיות הקליניות שסיפק היצרן, ובפרט בנוגע לקביעה של תועלת מול סיכון, להלימה של ראיות אלה עם המטרה המיועדת, לרבות ההתוויה או ההתוויות הרפואיות ותוכנית ה-PMCF. פאנלי המומחים רשאים גם לבקש מהגוף המאונתר להציג את מסקנותיו בנוגע לדוח הערכת ההערכה הקלינית."
+    },
+    {
+      "id": "fn-15",
+      "type": "note",
+      "marker": "15",
+      "en": "MDR, Annex IX Section 5.1(c)",
+      "he": "ה-MDR, נספח IX סעיף 5.1(c)"
+    },
+    {
+      "id": "fn-16",
+      "type": "note",
+      "marker": "16",
+      "en": "MDR, Annex IX Section 5.1(b)",
+      "he": "ה-MDR, נספח IX סעיף 5.1(b)"
+    },
+    {
+      "id": "approach-p5",
+      "type": "paragraph",
+      "en": "It is only once all the non-compliances have been closed out that the relevant tick-box should be completed to signal that the assessment is positive. In the rare event that there is one or more open minor non-compliances at the conclusion of the assessment stage, this must be clearly described in the template, together with appropriate follow-up actions to close them, and expected completion timelines to be followed by the manufacturer under the supervision of the notified body.",
+      "he": "רק לאחר שכל אי-ההתאמות נסגרו יש לסמן את תיבת הסימון הרלוונטית כדי לציין שההערכה חיובית. במקרה הנדיר שבו קיימת אי-התאמה מינורית פתוחה אחת או יותר בתום שלב ההערכה, יש לתאר זאת באופן ברור בתבנית, יחד עם פעולות המעקב המתאימות לסגירתן ולוחות הזמנים הצפויים להשלמה שעל היצרן לעמוד בהם בפיקוח הגוף המאונתר."
+    },
+    {
+      "id": "approach-p6",
+      "type": "paragraph",
+      "en": "The sections covered in Annex I of this template are generally applicable depending on the type of assessment. The sections covered in Annex II may be applicable, depending upon the device under evaluation. All applicable sections should be completed, relevant conclusions reached and corresponding boxes ticked for the report to be complete. The CEAR should be signed-off by the relevant personnel in accordance with the quality management system of the notified body. When making available the CEAR to third parties, the notified body should treat the personal data within it as per its procedures for the management of personal data, in compliance with Regulation (EU) 2016/679 General Data Protection Regulation.",
+      "he": "הסעיפים הנכללים בנספח I לתבנית זו חלים בדרך כלל בהתאם לסוג ההערכה. הסעיפים הנכללים בנספח II עשויים לחול, בהתאם למכשיר המוערך. יש להשלים את כל הסעיפים הרלוונטיים, להגיע למסקנות הרלוונטיות ולסמן את התיבות המתאימות כדי שהדוח יהיה שלם. ה-CEAR ייחתם על ידי הגורמים הרלוונטיים בהתאם למערכת ניהול האיכות של הגוף המאונתר. בעת העמדת ה-CEAR לרשות צדדים שלישיים, על הגוף המאונתר לטפל בנתונים האישיים שבו בהתאם לנהליו לניהול נתונים אישיים, בהתאם לתקנה (האיחוד האירופי) 2016/679, התקנה הכללית להגנת נתונים."
+    },
+
+    {
+      "id": "template-heading",
+      "type": "heading",
+      "level": 1,
+      "en": "Template CEAR",
+      "he": "תבנית ה-CEAR"
+    },
+
+    {
+      "id": "sec-a-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Section A: Administrative particulars (notified body, manufacturer, product and clinical evaluation report reference)",
+      "he": "סעיף A: פרטים מנהליים (גוף מאונתר, יצרן, מוצר וסימוכין של דוח ההערכה הקלינית)"
+    },
+    {
+      "id": "sec-a-table",
+      "type": "table",
+      "header": false,
+      "rows": [
+        [
+          { "en": "Medical device name model and type:\n☐ Basic UDI-DI(s) (if available):\n☐ Certificate number (if applicable):\nProject number:\nRisk Class:\nApplicable code(s) per Commission Implementing Regulation (EU) 2017/2185:", "he": "שם, דגם וסוג המכשיר הרפואי:\n☐ Basic UDI-DI (אם זמין):\n☐ מספר התעודה (אם רלוונטי):\nמספר הפרויקט:\nסיווג סיכון:\nקוד(ים) רלוונטי(ים) לפי תקנת היישום של הנציבות (האיחוד האירופי) 2017/2185:" },
+          { "en": "Manufacturer(s) name and SRN:\nAuthorised representative (if applicable) name and SRN:", "he": "שם היצרן/ים ו-SRN:\nשם הנציג המורשה (אם רלוונטי) ו-SRN:" },
+          { "en": "Notified body:\nNotified body number:\nE-mail contact of NB:\nTelephone contact of NB:", "he": "גוף מאונתר:\nמספר הגוף המאונתר:\nאיש קשר בדוא\"ל של הגוף המאונתר:\nאיש קשר טלפוני של הגוף המאונתר:" },
+          { "en": "Parts of this template which have been applied\nGeneral considerations\n☐ Section A: Administrative particulars\n☐ Section B: Reviewers involved\n☐ Section C: Device description, classification, clinical evaluation plan, information materials supplied by the manufacturer, common specifications and harmonised standards applied, equivalence and state of the art\n☐ Section D: Clinical literature review\n☐ Section E: Clinical investigations and related documentation\n☐ Section F: PMS and PMCF\n☐ Section G: IFU, SSCP, labelling and other information supplied with the device\n☐ Section H: Summary of all available data and conclusions\n☐ Overall Conclusions\nSpecific Considerations", "he": "חלקי תבנית זו שיושמו\nשיקולים כלליים\n☐ סעיף A: פרטים מנהליים\n☐ סעיף B: סוקרים מעורבים\n☐ סעיף C: תיאור המכשיר, סיווג, תוכנית ההערכה הקלינית, חומרי מידע שסיפק היצרן, מפרטים משותפים ותקנים מתואמים שיושמו, שקילוּת ומצב הידע העדכני (state of the art)\n☐ סעיף D: סקירת ספרות קלינית\n☐ סעיף E: חקירות קליניות ותיעוד נלווה\n☐ סעיף F: PMS ו-PMCF\n☐ סעיף G: IFU, SSCP, תיוג ומידע אחר המסופק עם המכשיר\n☐ סעיף H: סיכום כל הנתונים הזמינים והמסקנות\n☐ מסקנות כלליות\nשיקולים ייחודיים" }
+        ],
+        [
+          { "en": "Type of assessment:\n☐ Initial conformity assessment\n☐ Assessment of changes and update of the clinical evaluation\n☐ Re-certification assessment\n☐ Assessment of technical documentation for class IIa / IIb devices on a sampling basis", "he": "סוג ההערכה:\n☐ הערכת התאמה ראשונית\n☐ הערכת שינויים ועדכון ההערכה הקלינית\n☐ הערכת הסמכה מחדש\n☐ הערכת תיעוד טכני עבור מכשירים מסיווג IIa / IIb על בסיס דגימה" },
+          { "en": "Intended purpose:", "he": "מטרה מיועדת:" },
+          { "en": "Check of clinical evaluation report authors\n☐ CER dated and signed\n☐ CVs provided for CER author(s)\nComments:\nConfirm CVs are up to date\nConfirm CER authors have full range of required expertise represented (e.g. research methods, information management, regulatory requirements, device technology, diagnosis and management of conditions to be treated)\nCVs are considered acceptable: ☐", "he": "בדיקת מחברי דוח ההערכה הקלינית\n☐ ה-CER נושא תאריך וחתום\n☐ סופקו קורות חיים של מחבר(י) ה-CER\nהערות:\nאשר כי קורות החיים מעודכנים\nאשר כי מחברי ה-CER מייצגים את מלוא טווח המומחיות הנדרשת (למשל שיטות מחקר, ניהול מידע, דרישות רגולטוריות, טכנולוגיית המכשיר, אבחון וטיפול במצבים שיש לטפל בהם)\nקורות החיים נחשבים מקובלים: ☐" }
+        ],
+        [
+          { "en": "According to Annex / section:\nInsert the Annex and section", "he": "בהתאם לנספח / סעיף:\nהזן את הנספח והסעיף" },
+          { "en": "", "he": "" },
+          { "en": "Specific Considerations\n☐ Section I: Clinical evaluation consultation procedure for certain class III and class IIb devices (Article 54)\n☐ Section J: Where demonstration of conformity based on clinical data is not deemed appropriate (Article 61(10))\n☐ Section K: The voluntary clinical consultation on the clinical development strategy (Article 61(2))", "he": "שיקולים ייחודיים\n☐ סעיף I: הליך ההיוועצות בהערכה הקלינית עבור מכשירים מסוימים מסיווג III ומסיווג IIb (סעיף 54)\n☐ סעיף J: מקום שבו הוכחת התאמה על בסיס נתונים קליניים אינה נחשבת מתאימה (סעיף 61(10))\n☐ סעיף K: ההיוועצות הקלינית הוולונטרית בנוגע לאסטרטגיית הפיתוח הקלינית (סעיף 61(2))" }
+        ]
+      ]
+    },
+    {
+      "id": "fn-17",
+      "type": "note",
+      "marker": "17",
+      "en": "These must be completed in all cases",
+      "he": "אלה חייבים להיות מושלמים בכל המקרים"
+    },
+    {
+      "id": "fn-18",
+      "type": "note",
+      "marker": "18",
+      "en": "MDR, Annex IX Section 4.10",
+      "he": "ה-MDR, נספח IX סעיף 4.10"
+    },
+    {
+      "id": "fn-19",
+      "type": "note",
+      "marker": "19",
+      "en": "For example in accordance with Annex VII, Section 4(10)",
+      "he": "למשל בהתאם לנספח VII, סעיף 4(10)"
+    },
+    {
+      "id": "sec-a-p1",
+      "type": "paragraph",
+      "en": "Technical file identification number and technical documentation assessment report (TDAR) reference if available or any other references that allow the correlation between TDAR and CEAR:",
+      "he": "מספר הזיהוי של התיק הטכני וסימוכין של דוח הערכת התיעוד הטכני (TDAR) אם זמין, או כל סימוכין אחר המאפשר את הקישור בין ה-TDAR ל-CEAR:"
+    },
+    {
+      "id": "sec-a-p2",
+      "type": "paragraph",
+      "en": "Documents assessed: For example, clinical evaluation report, clinical investigation plan, clinical investigation report, ethics committee approval, Competent Authority approval, post market surveillance data, publications. Include the title, version number/reference and date of the documents. When the CER has been updated verify that this update corresponds to the most recently updated PMS/PMCF reports and any conditions set on the first certification, if applicable. Note that references to the technical documentation should be made in order to ensure document control.",
+      "he": "מסמכים שהוערכו: לדוגמה, דוח הערכה קלינית, תוכנית חקירה קלינית, דוח חקירה קלינית, אישור ועדת אתיקה, אישור רשות מוסמכת, נתוני מעקב שלאחר שיווק, פרסומים. כלול את הכותרת, מספר הגרסה/הסימוכין ותאריך המסמכים. כאשר ה-CER עודכן, ודא כי עדכון זה תואם את דוחות ה-PMS/PMCF המעודכנים ביותר וכל תנאי שנקבע בהסמכה הראשונה, אם רלוונטי. שים לב כי יש לכלול הפניות לתיעוד הטכני כדי להבטיח בקרת מסמכים."
+    },
+
+    {
+      "id": "sec-b-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Section B: Reviewers involved in the notified body assessment of the clinical evaluation",
+      "he": "סעיף B: סוקרים המעורבים בהערכת ההערכה הקלינית מטעם הגוף המאונתר"
+    },
+    {
+      "id": "sec-b-p1",
+      "type": "paragraph",
+      "en": "Provide the name or the employee code of the personnel with relevant clinical expertise (as per 3.2.4 of annex VII):",
+      "he": "ציין את שם או את קוד העובד של אנשי הצוות בעלי המומחיות הקלינית הרלוונטית (בהתאם לסעיף 3.2.4 של נספח VII):"
+    },
+    {
+      "id": "sec-b-p2",
+      "type": "paragraph",
+      "en": "Relevant clinical expertise:",
+      "he": "מומחיות קלינית רלוונטית:"
+    },
+    {
+      "id": "sec-b-p3",
+      "type": "paragraph",
+      "en": "Have additional reviewers been involved? ☐Yes ☐No. Provide a justification:",
+      "he": "האם היו מעורבים סוקרים נוספים? ☐כן ☐לא. ספק הצדקה:"
+    },
+    {
+      "id": "sec-b-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          { "en": "Additional reviewers assigned to review the clinical evaluation", "he": "סוקרים נוספים שהוקצו לסקירת ההערכה הקלינית" },
+          { "en": "Specific aspects assessed (by each additional reviewer): For example, rationale for the design and chosen statistical methodology of clinical investigation etc.", "he": "היבטים ספציפיים שהוערכו (על ידי כל סוקר נוסף): לדוגמה, ההיגיון מאחורי העיצוב והמתודולוגיה הסטטיסטית שנבחרה לחקירה הקלינית וכד'." },
+          { "en": "Competence area / codes: List of relevant MDR codes or area this person is authorised to, according to the Authorisation Matrix, as of Annex VII, 3.3.2) Relevant expertise:", "he": "תחום מיומנות / קודים: רשימת קודי MDR רלוונטיים או התחום שאדם זה מורשה לו, בהתאם למטריצת ההרשאות, כאמור בנספח VII, 3.3.2). מומחיות רלוונטית:" }
+        ],
+        [
+          { "en": "Number of additional reviewers", "he": "מספר הסוקרים הנוספים" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" }
+        ],
+        [
+          { "en": "Names of additional reviewers:\nSeparate the internal and external clinical reviewers.\nYou may use employee codes", "he": "שמות הסוקרים הנוספים:\nהפרד בין הסוקרים הקליניים הפנימיים לחיצוניים.\nניתן להשתמש בקודי עובדים" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" }
+        ]
+      ]
+    },
+
+    {
+      "id": "sec-c-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Section C: Device description, classification, clinical evaluation plan, information materials supplied by the manufacturer, common specifications and harmonised standards applied, equivalence and state of the art",
+      "he": "סעיף C: תיאור המכשיר, סיווג, תוכנית ההערכה הקלינית, חומרי מידע שסיפק היצרן, מפרטים משותפים (CS) ותקנים מתואמים שיושמו, שקילוּת ומצב הידע העדכני (state of the art)"
+    },
+    {
+      "id": "sec-c-device-desc-h",
+      "type": "heading",
+      "level": 3,
+      "en": "Device description",
+      "he": "תיאור המכשיר"
+    },
+    {
+      "id": "sec-c-device-desc-p",
+      "type": "paragraph",
+      "en": "Describe the device and comment on the intended purpose, including:",
+      "he": "תאר את המכשיר והערך את המטרה המיועדת, לרבות:"
+    },
+    {
+      "id": "sec-c-device-desc-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "The intended patient population and medical conditions to be diagnosed, treated and/or monitored.", "he": "אוכלוסיית המטופלים המיועדת והמצבים הרפואיים שאמורים להיות מאובחנים, מטופלים ו/או מנוטרים." },
+        { "en": "A general description of the key functional elements: its parts/components (including software if appropriate), its formulation, its composition, its functionality and, where relevant, its qualitative and quantitative composition.", "he": "תיאור כללי של הרכיבים הפונקציונליים המרכזיים: חלקיו/רכיביו (לרבות תוכנה אם רלוונטי), הרכבו, מבנהו, פונקציונליותו, והיכן שרלוונטי הרכבו האיכותי והכמותי." },
+        { "en": "The principles of operation of the device and its mode of action; explanation of any novel features.", "he": "עקרונות הפעולה של המכשיר ואופן פעולתו; הסבר של כל מאפיין חדשני." }
+      ]
+    },
+    {
+      "id": "sec-c-class-h",
+      "type": "heading",
+      "level": 3,
+      "en": "Classification",
+      "he": "סיווג"
+    },
+    {
+      "id": "sec-c-class-p",
+      "type": "paragraph",
+      "en": "List the applicable classification rule(s) and indents.",
+      "he": "פרט את כלל(י) הסיווג הרלוונטי(ים) ואת תתי-הסעיפים."
+    },
+    {
+      "id": "sec-c-config-p",
+      "type": "paragraph",
+      "en": "Device configurations/variants included in this application: Include the manufacturers description of the sizes, differences in design features, different configurations etc. Include an image of the device where possible. If applicable, include the manufacturers description of the device history and/or changes in the device since its last assessment. Where relevant, include the manufacturers description of the reason for differences in design variants with illustrative images where possible.",
+      "he": "תצורות/וריאנטים של המכשיר הכלולים בבקשה זו: כלול את תיאור היצרן של המידות, ההבדלים במאפייני העיצוב, התצורות השונות וכד'. כלול תמונה של המכשיר היכן שאפשר. אם רלוונטי, כלול את תיאור היצרן של היסטוריית המכשיר ו/או השינויים במכשיר מאז הערכתו האחרונה. היכן שרלוונטי, כלול את תיאור היצרן של הסיבה להבדלים בין וריאנטים של עיצוב, עם תמונות להמחשה היכן שאפשר."
+    },
+    {
+      "id": "sec-c-acc-p",
+      "type": "paragraph",
+      "en": "Accessories or compatible devices: Describe any accessories or compatible devices if any or state, \"none\"). Include component devices in case of system/procedure pack. If the use of accessories or compatible devices has an impact on clinical safety or performance or the scope or validity of the clinical evaluation, identify this here. If it is necessary to understand the usage of the device, include images or other relevant information such as diagrams.",
+      "he": "אביזרים או מכשירים תואמים: תאר כל אביזר או מכשיר תואם אם קיים, או ציין \"אין\". כלול מכשירים מרכיבים במקרה של ערכת מערכת/הליך. אם לשימוש באביזרים או במכשירים תואמים יש השפעה על הבטיחות או הביצועים הקליניים, או על היקף או תוקף ההערכה הקלינית, ציין זאת כאן. אם הדבר נחוץ להבנת השימוש במכשיר, כלול תמונות או מידע רלוונטי אחר כגון תרשימים."
+    },
+    {
+      "id": "sec-c-prev-p",
+      "type": "paragraph",
+      "en": "Previous generations of the device and similar devices (if applicable): Verify that the manufacturer has provided:",
+      "he": "דורות קודמים של המכשיר ומכשירים דומים (אם רלוונטי): ודא כי היצרן סיפק:"
+    },
+    {
+      "id": "sec-c-prev-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "an overview of the previous generation or generations of the device produced by the manufacturer, where such devices exist.", "he": "סקירה כללית של הדור הקודם או הדורות הקודמים של המכשיר שייצר היצרן, היכן שמכשירים כאלה קיימים." },
+        { "en": "an overview of identified similar devices available on the Union or international markets, where such devices exist, including length of time on the market, sales volume etc.", "he": "סקירה כללית של מכשירים דומים שזוהו וזמינים בשווקי האיחוד או בשווקים הבין-לאומיים, היכן שמכשירים כאלה קיימים, לרבות משך הזמן בשוק, היקף המכירות וכד'." }
+      ]
+    },
+    {
+      "id": "sec-c-nc-1",
+      "type": "paragraph",
+      "en": "Non-compliances identified and resolved for this section may be briefly described in this box.",
+      "he": "ניתן לתאר בקצרה בתיבה זו אי-התאמות שזוהו ונפתרו עבור סעיף זה."
+    },
+    {
+      "id": "sec-c-concl-1",
+      "type": "paragraph",
+      "en": "Device details, intended purpose and classification are: Compliant with the applicable requirements of the MDR: ☐ (Include any relevant comments). Compliant with the applicable requirements of the MDR with the exception of the minor non-compliance below: ☐ (Add a clear description of any remaining minor non-compliance together with required follow-up actions to close them and timelines for their completion to be followed by the manufacturer.)",
+      "he": "פרטי המכשיר, המטרה המיועדת והסיווג: תואמים את הדרישות הרלוונטיות של ה-MDR: ☐ (כלול כל הערה רלוונטית). תואמים את הדרישות הרלוונטיות של ה-MDR למעט אי-ההתאמה המינורית שלהלן: ☐ (הוסף תיאור ברור של כל אי-התאמה מינורית שנותרה, יחד עם פעולות המעקב הנדרשות לסגירתה ולוחות הזמנים להשלמתה שעל היצרן לעמוד בהם.)"
+    },
+    {
+      "id": "sec-c-cep-h",
+      "type": "heading",
+      "level": 3,
+      "en": "Clinical evaluation plan",
+      "he": "תוכנית ההערכה הקלינית"
+    },
+    {
+      "id": "sec-c-cep-p",
+      "type": "paragraph",
+      "en": "Briefly summarise the manufacturer's clinical evaluation plan and confirm that it meets the requirements of Annex XIV Part A Section 1a, highlighting the areas which require particular attention for this assessment:",
+      "he": "סכם בקצרה את תוכנית ההערכה הקלינית של היצרן ואשר כי היא עומדת בדרישות נספח XIV חלק A סעיף 1a, תוך הדגשת התחומים הדורשים תשומת לב מיוחדת בהערכה זו:"
+    },
+    {
+      "id": "sec-c-cep-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "an identification of the general safety and performance requirements that require support from relevant clinical data;", "he": "זיהוי הדרישות הכלליות לבטיחות וביצועים (GSPR) הדורשות תמיכה בנתונים קליניים רלוונטיים;" },
+        { "en": "a specification of the intended purpose of the device;", "he": "פירוט המטרה המיועדת של המכשיר;" },
+        { "en": "a clear specification of intended target groups with clear indications and contra-indications;", "he": "פירוט ברור של קבוצות היעד המיועדות עם התוויות והתוויות-נגד ברורות;" },
+        { "en": "a detailed description of intended clinical benefits to patients with relevant and specified clinical outcome parameters;", "he": "תיאור מפורט של התועלות הקליניות המיועדות למטופלים עם פרמטרים רלוונטיים ומפורטים של תוצאים קליניים;" },
+        { "en": "a specification of methods to be used for examination of qualitative and quantitative aspects of clinical safety with clear reference to the determination of residual risks and side-effects;", "he": "פירוט השיטות שישמשו לבחינת היבטים איכותיים וכמותיים של הבטיחות הקלינית, עם התייחסות ברורה לקביעת סיכונים שיוריים ותופעות לוואי;" },
+        { "en": "an indicative list and specification of parameters to be used to determine, based on the state of the art in medicine, the acceptability of the benefit-risk ratio for the various indications and for the intended purpose or purposes of the device;", "he": "רשימה מנחה ופירוט של הפרמטרים שישמשו לקביעה, בהתבסס על מצב הידע העדכני (state of the art) ברפואה, של מידת הקבילות של יחס תועלת מול סיכון עבור ההתוויות השונות ועבור המטרה או המטרות המיועדות של המכשיר;" },
+        { "en": "an indication how benefit-risk issues relating to specific components such as use of pharmaceutical, non-viable animal or human tissues, are to be addressed; and", "he": "ציון האופן שבו יטופלו סוגיות של תועלת מול סיכון הנוגעות לרכיבים ספציפיים, כגון שימוש ברקמות תרופתיות, ברקמות מן החי שאינן ברות-קיימא או ברקמות אדם; וכן" },
+        { "en": "a clinical development plan indicating progression from exploratory investigations, such as first-in-man studies, feasibility and pilot studies, to confirmatory investigations, such as pivotal clinical investigations, and a PMCF as referred to in Part B of Annex XIV of MDR, with an indication of milestones and a description of potential acceptance criteria.", "he": "תוכנית פיתוח קלינית המציינת התקדמות מחקירות חקרניות, כגון מחקרים ראשונים בבני אדם, מחקרי היתכנות ומחקרי פיילוט, אל חקירות מאשרות, כגון חקירות קליניות מכריעות (pivotal), ו-PMCF כאמור בחלק B של נספח XIV ל-MDR, עם ציון אבני דרך ותיאור של קריטריוני קבלה אפשריים." }
+      ]
+    },
+    {
+      "id": "sec-c-cep-p2",
+      "type": "paragraph",
+      "en": "A detailed description of the clinical development plan is not required for the purpose of this template unless there are specific concerns. Add the manufacturer's reference and version and date of the clinical evaluation plan.",
+      "he": "תיאור מפורט של תוכנית הפיתוח הקלינית אינו נדרש לצורך תבנית זו, אלא אם קיימות חששות ספציפיים. הוסף את הסימוכין של היצרן ואת הגרסה והתאריך של תוכנית ההערכה הקלינית."
+    },
+    {
+      "id": "sec-c-perf-h",
+      "type": "heading",
+      "level": 3,
+      "en": "Clinical performance",
+      "he": "ביצועים קליניים"
+    },
+    {
+      "id": "sec-c-perf-p",
+      "type": "paragraph",
+      "en": "Summarise the clinical data to demonstrate the ability of the device, resulting from any direct or indirect medical effects which stem from its technical or functional characteristics, including diagnostic characteristics, to achieve its intended purpose as claimed by the manufacturer, thereby leading to a clinical benefit for patients, when used as intended by the manufacturer. Describe the clinical benefits.",
+      "he": "סכם את הנתונים הקליניים כדי להוכיח את יכולתו של המכשיר, הנובעת מכל השפעה רפואית ישירה או עקיפה שמקורה במאפייניו הטכניים או הפונקציונליים, לרבות מאפיינים אבחוניים, להשיג את מטרתו המיועדת כפי שטוען היצרן, ובכך להוביל לתועלת קלינית למטופלים, כאשר נעשה בו שימוש כפי שהתכוון היצרן. תאר את התועלות הקליניות."
+    },
+    {
+      "id": "sec-c-safety-h",
+      "type": "heading",
+      "level": 3,
+      "en": "Safety",
+      "he": "בטיחות"
+    },
+    {
+      "id": "sec-c-safety-p",
+      "type": "paragraph",
+      "en": "Does the clinical evaluation adequately addresses the qualitative and quantitative aspects of clinical safety with clear reference to the determination of residual risks and undesirable side-effects and the confirmation of the relevant safety and performance requirements provided for in Annex I? Summarise the clinical data regarding safety, and also describe residual risks and any undesirable side-effects. Does the clinical evaluation specify the methods to be used for examination of qualitative and quantitative aspects of clinical safety with clear reference to the determination of residual risks and undesirable side-effects? If relevant, briefly summarise any significant complaint, trends or vigilance issues associated with earlier device iterations, which may be equivalent or similar devices, and explain whether or not they have any impact on the clinical evaluation assessment.",
+      "he": "האם ההערכה הקלינית נותנת מענה הולם להיבטים האיכותיים והכמותיים של הבטיחות הקלינית, עם התייחסות ברורה לקביעת סיכונים שיוריים ותופעות לוואי בלתי רצויות ולאישור דרישות הבטיחות והביצועים הרלוונטיות הקבועות בנספח I? סכם את הנתונים הקליניים בנוגע לבטיחות, ותאר גם סיכונים שיוריים וכל תופעת לוואי בלתי רצויה. האם ההערכה הקלינית מפרטת את השיטות שישמשו לבחינת ההיבטים האיכותיים והכמותיים של הבטיחות הקלינית, עם התייחסות ברורה לקביעת סיכונים שיוריים ותופעות לוואי בלתי רצויות? אם רלוונטי, סכם בקצרה כל תלונה משמעותית, מגמות או סוגיות ערנות (vigilance) הקשורות לגרסאות קודמות של המכשיר, שעשויות להיות מכשירים שקולים או דומים, והסבר אם יש להן השפעה כלשהי על הערכת ההערכה הקלינית."
+    },
+    {
+      "id": "sec-c-nc-2",
+      "type": "paragraph",
+      "en": "Non-compliances identified and resolved for this section may be briefly described in this box.",
+      "he": "ניתן לתאר בקצרה בתיבה זו אי-התאמות שזוהו ונפתרו עבור סעיף זה."
+    },
+    {
+      "id": "sec-c-concl-2",
+      "type": "paragraph",
+      "en": "The clinical evaluation plan is: Compliant with the applicable requirements of the MDR: ☐ (Include any relevant comments). Compliant with the applicable requirements of the MDR with the exception of the minor non-compliance below: ☐ (Add a clear description of any remaining minor non-compliance together with required follow-up actions to close them and timelines for their completion to be followed by the manufacturer.)",
+      "he": "תוכנית ההערכה הקלינית: תואמת את הדרישות הרלוונטיות של ה-MDR: ☐ (כלול כל הערה רלוונטית). תואמת את הדרישות הרלוונטיות של ה-MDR למעט אי-ההתאמה המינורית שלהלן: ☐ (הוסף תיאור ברור של כל אי-התאמה מינורית שנותרה, יחד עם פעולות המעקב הנדרשות לסגירתה ולוחות הזמנים להשלמתה שעל היצרן לעמוד בהם.)"
+    },
+    {
+      "id": "sec-c-cs-h",
+      "type": "heading",
+      "level": 3,
+      "en": "Common specifications, harmonised standards or other solutions applied",
+      "he": "מפרטים משותפים (CS), תקנים מתואמים או פתרונות אחרים שיושמו"
+    },
+    {
+      "id": "sec-c-cs-p",
+      "type": "paragraph",
+      "en": "Are there common specifications relevant to the device under evaluation? Have they been complied with? If not:",
+      "he": "האם קיימים מפרטים משותפים (CS) הרלוונטיים למכשיר המוערך? האם עמדו בהם? אם לא:"
+    },
+    {
+      "id": "sec-c-cs-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Explain any deviations and how these might affect the validity of the clinical evaluation and its conclusions, and any equivalence claims.", "he": "הסבר כל סטייה וכיצד היא עשויה להשפיע על תוקף ההערכה הקלינית ומסקנותיה, ועל כל טענת שקילוּת." },
+        { "en": "Confirm that the manufacturer has adopted solutions that ensure a level of safety and performance that is at least equivalent thereto in accordance with Article 9(3).", "he": "אשר כי היצרן אימץ פתרונות המבטיחים רמת בטיחות וביצועים השקולה לפחות לכך בהתאם לסעיף 9(3)." }
+      ]
+    },
+    {
+      "id": "sec-c-cs-p2",
+      "type": "paragraph",
+      "en": "Are there harmonised standards relevant to the clinical evaluation of the device under evaluation? Have they been applied? If partially applied add the manufacturers justification and confirm that the manufacturer has adopted solutions that ensure a level of safety and performance required by the Regulation (EU) 2017/745. If there are deviations explain any deviations and how these might affect the validity of the clinical evaluation and its conclusions, and any equivalence claims. Is the most up-to-date revision being used by the manufacturer? (state which revision was used) Are there other solutions that have been applied? Describe any standards, guidance or other solutions that have been applied, and the manufacturers justification.",
+      "he": "האם קיימים תקנים מתואמים הרלוונטיים להערכה הקלינית של המכשיר המוערך? האם יושמו? אם יושמו באופן חלקי, הוסף את הצדקת היצרן ואשר כי היצרן אימץ פתרונות המבטיחים רמת בטיחות וביצועים הנדרשת בתקנה (האיחוד האירופי) 2017/745. אם קיימות סטיות, הסבר כל סטייה וכיצד היא עשויה להשפיע על תוקף ההערכה הקלינית ומסקנותיה, ועל כל טענת שקילוּת. האם היצרן משתמש בגרסה המעודכנת ביותר? (ציין באיזו גרסה נעשה שימוש) האם קיימים פתרונות אחרים שיושמו? תאר כל תקן, הנחיה או פתרון אחר שיושם, ואת הצדקת היצרן."
+    },
+    {
+      "id": "fn-20",
+      "type": "note",
+      "marker": "20",
+      "en": "Excluding devices listed in Annex XVI which must comply with the relevant common specifications in accordance with Article 9(4).",
+      "he": "למעט מכשירים המפורטים בנספח XVI אשר חייבים לעמוד במפרטים המשותפים הרלוונטיים בהתאם לסעיף 9(4)."
+    },
+    {
+      "id": "sec-c-nc-3",
+      "type": "paragraph",
+      "en": "Non-compliances identified and resolved for this section may be briefly described in this box.",
+      "he": "ניתן לתאר בקצרה בתיבה זו אי-התאמות שזוהו ונפתרו עבור סעיף זה."
+    },
+    {
+      "id": "sec-c-concl-3",
+      "type": "paragraph",
+      "en": "The application of CS, harmonised standards or other solutions is: Compliant with the applicable requirements of the MDR: ☐ (Include any relevant comments). Compliant with the applicable requirements of the MDR with the exception of the minor non-compliance below: ☐ (Add a clear description of any remaining minor non-compliance together with required follow-up actions to close them and timelines for their completion to be followed by the manufacturer.)",
+      "he": "יישום ה-CS, התקנים המתואמים או פתרונות אחרים: תואם את הדרישות הרלוונטיות של ה-MDR: ☐ (כלול כל הערה רלוונטית). תואם את הדרישות הרלוונטיות של ה-MDR למעט אי-ההתאמה המינורית שלהלן: ☐ (הוסף תיאור ברור של כל אי-התאמה מינורית שנותרה, יחד עם פעולות המעקב הנדרשות לסגירתה ולוחות הזמנים להשלמתה שעל היצרן לעמוד בהם.)"
+    },
+    {
+      "id": "sec-c-equiv-h",
+      "type": "heading",
+      "level": 3,
+      "en": "The demonstration of equivalence",
+      "he": "הוכחת השקילוּת"
+    },
+    {
+      "id": "sec-c-equiv-p",
+      "type": "paragraph",
+      "en": "Is the clinical evaluation based upon clinical investigation(s) or other studies reported in scientific literature, of a device for which equivalence to the device in question can be demonstrated? State Yes / No. Device(s) to which equivalence has been claimed: Is the clinical evaluation based upon reports published in peer reviewed scientific literature on a device for which equivalence to the device in question can be demonstrated? State Yes / No. If yes, specify the source(s) of the data, if it is the device in question, or an equivalent device, or both. Device(s) to which equivalence has been claimed: Device which is most relevant:",
+      "he": "האם ההערכה הקלינית מבוססת על חקירה/חקירות קליניות או על מחקרים אחרים המדווחים בספרות המדעית, של מכשיר שניתן להוכיח לגביו שקילוּת למכשיר הנדון? ציין כן / לא. המכשיר/ים שלגביהם נטענה שקילוּת: האם ההערכה הקלינית מבוססת על דוחות שפורסמו בספרות מדעית שעברה שיפוט עמיתים בנוגע למכשיר שניתן להוכיח לגביו שקילוּת למכשיר הנדון? ציין כן / לא. אם כן, פרט את מקור(ות) הנתונים, אם מדובר במכשיר הנדון, או במכשיר שקול, או בשניהם. המכשיר/ים שלגביהם נטענה שקילוּת: המכשיר הרלוונטי ביותר:"
+    },
+    {
+      "id": "sec-c-equiv-assess-h",
+      "type": "heading",
+      "level": 4,
+      "en": "Assessment of equivalence",
+      "he": "הערכת השקילוּת"
+    },
+    {
+      "id": "sec-c-equiv-assess-list",
+      "type": "list",
+      "ordered": true,
+      "items": [
+        { "en": "Equivalence rationales: Indicate which devices are/are not equivalent, and confirm that data relating to devices which are not equivalent have been excluded from the analysis of clinical data for the purposes for demonstrating safety and performance. If equivalence has been claimed to more than one device, each demonstration of equivalence can only be based on a single device. Each equivalent device must meet all three equivalence criteria (clinical, technical, biological).", "he": "נימוקי שקילוּת: ציין אילו מכשירים שקולים/אינם שקולים, ואשר כי נתונים הנוגעים למכשירים שאינם שקולים הוצאו מניתוח הנתונים הקליניים לצורכי הוכחת בטיחות וביצועים. אם נטענה שקילוּת ליותר ממכשיר אחד, כל הוכחת שקילוּת יכולה להתבסס על מכשיר יחיד בלבד. כל מכשיר שקול חייב לעמוד בכל שלושת קריטריוני השקילוּת (קליני, טכני, ביולוגי)." },
+        { "en": "Are the devices equivalent in accordance with Section 3 of Annex XIV including technical, biological and clinical characteristics? State Yes / No. Identify any differences in these parameters, and verify why these are not expected to adversely affect the safety and performance of the medical device under evaluation.", "he": "האם המכשירים שקולים בהתאם לסעיף 3 של נספח XIV, לרבות מאפיינים טכניים, ביולוגיים וקליניים? ציין כן / לא. זהה כל הבדל בפרמטרים אלה, וודא מדוע אין צפי שהם ישפיעו לרעה על הבטיחות והביצועים של המכשיר הרפואי המוערך." }
+      ]
+    },
+    {
+      "id": "sec-c-nc-4",
+      "type": "paragraph",
+      "en": "Non-compliances identified and resolved for this section may be briefly described in this box.",
+      "he": "ניתן לתאר בקצרה בתיבה זו אי-התאמות שזוהו ונפתרו עבור סעיף זה."
+    },
+    {
+      "id": "sec-c-concl-4",
+      "type": "paragraph",
+      "en": "The demonstration of equivalence is: Compliant with the applicable requirements of the MDR: ☐ (Include any relevant comments). Compliant with the applicable requirements of the MDR with the exception of the minor non-compliance below: ☐ (Add a clear description of any remaining minor non-compliance together with required follow-up actions to close them and timelines for their completion to be followed by the manufacturer.)",
+      "he": "הוכחת השקילוּת: תואמת את הדרישות הרלוונטיות של ה-MDR: ☐ (כלול כל הערה רלוונטית). תואמת את הדרישות הרלוונטיות של ה-MDR למעט אי-ההתאמה המינורית שלהלן: ☐ (הוסף תיאור ברור של כל אי-התאמה מינורית שנותרה, יחד עם פעולות המעקב הנדרשות לסגירתה ולוחות הזמנים להשלמתה שעל היצרן לעמוד בהם.)"
+    },
+    {
+      "id": "sec-c-access-h",
+      "type": "heading",
+      "level": 3,
+      "en": "Access to data",
+      "he": "גישה לנתונים"
+    },
+    {
+      "id": "sec-c-access-p",
+      "type": "paragraph",
+      "en": "Comment on the manufacturer's access to data, relating to devices with which they are claiming equivalence in order to justify their claims of equivalence. For implantable and Class III devices, if equivalence is claimed with a device marketed by another manufacturer, confirm that there is a current valid contract between the two manufacturers allowing ongoing access to the technical documentation in accordance with Article 61 (5) of the MDR. Has the original clinical evaluation been performed in compliance with the requirements of Regulation 2017/745, and has the manufacturer of the second device provided clear evidence thereof? State Yes / No. Confirm that access to data is sufficient to provide the manufacturer with enough information about the equivalent devices to support equivalence claims, including any testing which may have been undertaken to confirm equivalence of specifications/performance/etc.",
+      "he": "התייחס לגישת היצרן לנתונים הנוגעים למכשירים שלגביהם הוא טוען שקילוּת, כדי להצדיק את טענות השקילוּת שלו. עבור מכשירים מושתלים ומכשירים מסיווג III, אם נטענת שקילוּת למכשיר המשווק על ידי יצרן אחר, אשר כי קיים חוזה תקף בין שני היצרנים המאפשר גישה מתמשכת לתיעוד הטכני בהתאם לסעיף 61(5) ל-MDR. האם ההערכה הקלינית המקורית בוצעה בהתאם לדרישות תקנה 2017/745, והאם יצרן המכשיר השני סיפק ראיה ברורה לכך? ציין כן / לא. אשר כי הגישה לנתונים מספקת ליצרן מידע מספיק על המכשירים השקולים כדי לתמוך בטענות השקילוּת, לרבות כל בדיקה שייתכן שבוצעה לאישור שקילוּת של מפרטים/ביצועים/וכד'."
+    },
+    {
+      "id": "sec-c-access-p2",
+      "type": "paragraph",
+      "en": "Any other limitations with respect to equivalent devices: Comment on any other limitations with respect to the equivalent devices or manufacturer's equivalence claims, and the extent to which these limitations impact the manufacturer's clinical evaluation and conclusions.",
+      "he": "כל מגבלה אחרת בנוגע למכשירים שקולים: התייחס לכל מגבלה אחרת בנוגע למכשירים השקולים או לטענות השקילוּת של היצרן, ולמידה שבה מגבלות אלה משפיעות על ההערכה הקלינית ומסקנות היצרן."
+    },
+    {
+      "id": "sec-c-nc-5",
+      "type": "paragraph",
+      "en": "Non-compliances identified and resolved for this section may be briefly described in this box.",
+      "he": "ניתן לתאר בקצרה בתיבה זו אי-התאמות שזוהו ונפתרו עבור סעיף זה."
+    },
+    {
+      "id": "sec-c-concl-5",
+      "type": "paragraph",
+      "en": "Manufacturer demonstration of equivalence and access to data is: Compliant with the applicable requirements of the MDR: ☐ (Include any relevant comments). Compliant with the applicable requirements of the MDR with the exception of the minor non-compliance below: ☐ (Add a clear description of any remaining minor non-compliance together with required follow-up actions to close them and timelines for their completion to be followed by the manufacturer.)",
+      "he": "הוכחת השקילוּת והגישה לנתונים של היצרן: תואמת את הדרישות הרלוונטיות של ה-MDR: ☐ (כלול כל הערה רלוונטית). תואמת את הדרישות הרלוונטיות של ה-MDR למעט אי-ההתאמה המינורית שלהלן: ☐ (הוסף תיאור ברור של כל אי-התאמה מינורית שנותרה, יחד עם פעולות המעקב הנדרשות לסגירתה ולוחות הזמנים להשלמתה שעל היצרן לעמוד בהם.)"
+    },
+    {
+      "id": "sec-c-sota-h",
+      "type": "heading",
+      "level": 3,
+      "en": "State of the art",
+      "he": "מצב הידע העדכני (state of the art)"
+    },
+    {
+      "id": "sec-c-sota-p",
+      "type": "paragraph",
+      "en": "Benchmark devices, state of the art and other available treatment options: Describe the alternative available treatment options identified by the manufacturer which could offer comparable safety and performance for the same treatment indications / patient populations, etc. Briefly describe how benchmarks for safety and performance have been identified by the manufacturer in terms of the state of the art. Benchmarks will normally be based on aggregate data from several devices considered to have acceptable performance (e.g. systematic reviews or registry analysis); if individual devices are selected as benchmarks for safety and performance, a suitable rationale should be provided. Confirm that the manufacturer's description of the state of the art is based upon an appropriate literature search (see section D)? For devices previously marketed, is the description of the state of the art still accurate? Can the device still be considered to be state of the art?",
+      "he": "מכשירי ייחוס (benchmark), מצב הידע העדכני (state of the art) ואפשרויות טיפול אחרות זמינות: תאר את אפשרויות הטיפול החלופיות הזמינות שזיהה היצרן, אשר יכולות להציע בטיחות וביצועים דומים עבור אותן התוויות טיפול / אוכלוסיות מטופלים וכד'. תאר בקצרה כיצד זיהה היצרן מדדי ייחוס לבטיחות ולביצועים במונחי מצב הידע העדכני. מדדי הייחוס יתבססו בדרך כלל על נתונים מצרפיים מכמה מכשירים הנחשבים בעלי ביצועים מקובלים (למשל סקירות שיטתיות או ניתוח מרשמים); אם מכשירים בודדים נבחרים כמדדי ייחוס לבטיחות ולביצועים, יש לספק נימוק מתאים. אשר כי תיאור מצב הידע העדכני של היצרן מבוסס על חיפוש ספרות הולם (ראה סעיף D)? עבור מכשירים ששווקו בעבר, האם תיאור מצב הידע העדכני עדיין מדויק? האם ניתן עדיין לראות במכשיר כמייצג את מצב הידע העדכני?"
+    },
+    {
+      "id": "sec-c-sota-p2",
+      "type": "paragraph",
+      "en": "Safety, performance and benefit-risk claims - requirements in terms of the state of the art: What performance and safety endpoints has the manufacturer identified? In light of the outcomes achievable with benchmark products and other treatment options, are these endpoints appropriate and clinically relevant? Have surrogate endpoints been adequately justified? Has the manufacturer adequately described an indicative list and specification of parameters used to determine, based on the state of the art in medicine, the acceptability of the benefit-risk ratio for the various indications and for the intended purpose or purposes of the device?",
+      "he": "טענות בנוגע לבטיחות, ביצועים ותועלת מול סיכון - דרישות במונחי מצב הידע העדכני: אילו נקודות קצה (endpoints) של ביצועים ובטיחות זיהה היצרן? לאור התוצאים הניתנים להשגה עם מוצרי ייחוס ואפשרויות טיפול אחרות, האם נקודות קצה אלה מתאימות ורלוונטיות מבחינה קלינית? האם נקודות קצה תחליפיות (surrogate) הוצדקו כראוי? האם היצרן תיאר כראוי רשימה מנחה ופירוט של הפרמטרים ששימשו לקביעה, בהתבסס על מצב הידע העדכני ברפואה, של מידת הקבילות של יחס תועלת מול סיכון עבור ההתוויות השונות ועבור המטרה או המטרות המיועדות של המכשיר?"
+    },
+    {
+      "id": "sec-c-nc-6",
+      "type": "paragraph",
+      "en": "Non-compliances identified and resolved for this section may be briefly described in this box.",
+      "he": "ניתן לתאר בקצרה בתיבה זו אי-התאמות שזוהו ונפתרו עבור סעיף זה."
+    },
+    {
+      "id": "sec-c-concl-6",
+      "type": "paragraph",
+      "en": "Manufacturer demonstration of state of the art is: Compliant with the applicable requirements of the MDR: ☐ (Include any relevant comments). Compliant with the applicable requirements of the MDR with the exception of the minor non-compliance below: ☐ (Add a clear description of any remaining minor non-compliance together with required follow-up actions to close them and timelines for their completion to be followed by the manufacturer.)",
+      "he": "הוכחת מצב הידע העדכני של היצרן: תואמת את הדרישות הרלוונטיות של ה-MDR: ☐ (כלול כל הערה רלוונטית). תואמת את הדרישות הרלוונטיות של ה-MDR למעט אי-ההתאמה המינורית שלהלן: ☐ (הוסף תיאור ברור של כל אי-התאמה מינורית שנותרה, יחד עם פעולות המעקב הנדרשות לסגירתה ולוחות הזמנים להשלמתה שעל היצרן לעמוד בהם.)"
+    },
+    {
+      "id": "sec-c-novelty-h",
+      "type": "heading",
+      "level": 3,
+      "en": "Novelty",
+      "he": "חדשנות"
+    },
+    {
+      "id": "sec-c-novelty-p",
+      "type": "paragraph",
+      "en": "Include the manufacturer's explanation of any novel features of the device and/or the related clinical procedures and their purpose. What is the possible clinical or health impact in terms of benefit/risk? Is novelty adequately addressed? ☐",
+      "he": "כלול את הסבר היצרן בנוגע לכל מאפיין חדשני של המכשיר ו/או ההליכים הקליניים הנלווים ומטרתם. מהי ההשפעה הקלינית או הבריאותית האפשרית במונחי תועלת/סיכון? האם החדשנות מקבלת מענה הולם? ☐"
+    },
+
+    {
+      "id": "sec-d-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Section D: Clinical literature review",
+      "he": "סעיף D: סקירת ספרות קלינית"
+    },
+    {
+      "id": "sec-d-p1",
+      "type": "paragraph",
+      "en": "With respect to the search criteria of the literature review, does it:",
+      "he": "בנוגע לקריטריוני החיפוש של סקירת הספרות, האם היא:"
+    },
+    {
+      "id": "sec-d-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "☐ Address all device sizes, variants, model and accessories?", "he": "☐ מתייחסת לכל מידות המכשיר, הווריאנטים, הדגם והאביזרים?" },
+        { "en": "☐ Address the same clinical condition?", "he": "☐ מתייחסת לאותו מצב קליני?" }
+      ]
+    },
+    {
+      "id": "sec-d-p2",
+      "type": "paragraph",
+      "en": "Further information regarding literature search methods is available in MEDDEV 2.7/1 revision 4, section A5. Searches for the device in question, equivalent devices and other devices (for example to support a description of the state of the art) should be described separately. With respect to the selection criteria of the literature review, does it relate to both below:",
+      "he": "מידע נוסף בנוגע לשיטות חיפוש ספרות זמין ב-MEDDEV 2.7/1 גרסה 4, סעיף A5. חיפושים עבור המכשיר הנדון, מכשירים שקולים ומכשירים אחרים (למשל לתמיכה בתיאור מצב הידע העדכני) צריכים להיות מתוארים בנפרד. בנוגע לקריטריוני הבחירה של סקירת הספרות, האם היא נוגעת לשני אלה:"
+    },
+    {
+      "id": "sec-d-list2",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "☐ The device under evaluation or to a device demonstrated to be equivalent?", "he": "☐ המכשיר המוערך או מכשיר שהוכח כשקול?" },
+        { "en": "☐ The state of the art or alternative available treatment option?", "he": "☐ מצב הידע העדכני או אפשרות טיפול חלופית זמינה?" }
+      ]
+    },
+    {
+      "id": "sec-d-p3",
+      "type": "paragraph",
+      "en": "The clinical evaluation should clearly describe the selection criteria with respect to the regulatory purpose to which it will apply. The CER should clearly differentiate between the two types of data referenced above. If the data does not relate to either of the above, provide a rationale with respect to its inclusion.",
+      "he": "ההערכה הקלינית צריכה לתאר באופן ברור את קריטריוני הבחירה בנוגע למטרה הרגולטורית שעליה היא תחול. ה-CER צריך להבחין באופן ברור בין שני סוגי הנתונים הנזכרים לעיל. אם הנתונים אינם נוגעים לאף אחד מהאמורים לעיל, ספק נימוק להכללתם."
+    },
+    {
+      "id": "sec-d-lsp-h",
+      "type": "heading",
+      "level": 3,
+      "en": "Literature search protocol",
+      "he": "פרוטוקול חיפוש ספרות"
+    },
+    {
+      "id": "fn-21",
+      "type": "note",
+      "marker": "21",
+      "en": "For general guidance on a literature search, see MEDDEV 2.7/1 revision 4, A5. Literature search and literature review protocol, key elements.",
+      "he": "להנחיה כללית בנוגע לחיפוש ספרות, ראה MEDDEV 2.7/1 גרסה 4, A5. פרוטוקול חיפוש ספרות וסקירת ספרות, רכיבי מפתח."
+    },
+    {
+      "id": "sec-d-lsp-p",
+      "type": "paragraph",
+      "en": "Provide a brief summary of the literature search strategy applied, commenting on:",
+      "he": "ספק סיכום קצר של אסטרטגיית חיפוש הספרות שיושמה, תוך התייחסות ל:"
+    },
+    {
+      "id": "sec-d-lsp-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "The adequacy of search terms: for example, it should be sufficiently broad to establish benchmarks, determine the general state of the art, determine potential risk, adverse events, undesirable side-effects, etc. Note that a search which is restricted to the manufacturer's own product or the name of their chosen equivalent could miss important information and therefore is not acceptable.", "he": "נאותות מונחי החיפוש: למשל, עליהם להיות רחבים מספיק כדי לקבוע מדדי ייחוס, לקבוע את מצב הידע העדכני הכללי, לקבוע סיכון פוטנציאלי, אירועים שליליים, תופעות לוואי בלתי רצויות וכד'. שים לב כי חיפוש המוגבל למוצר היצרן עצמו או לשם המכשיר השקול שבחר עלול להחמיץ מידע חשוב ולכן אינו מקובל." },
+        { "en": "Databases used (to minimize bias multiple databases should be used).", "he": "מסדי הנתונים שבהם נעשה שימוש (כדי למזער הטיה יש להשתמש במספר מסדי נתונים)." },
+        { "en": "Acceptability of inclusion and exclusion criteria.", "he": "קבילות קריטריוני ההכללה וההחרגה." },
+        { "en": "Both favourable and unfavourable data included.", "he": "הכללת נתונים מיטיבים ושליליים כאחד." },
+        { "en": "Strategies for avoiding duplication of data (for example, across different publications or between manufacturer and published data).", "he": "אסטרטגיות להימנעות מכפילות נתונים (למשל, בין פרסומים שונים או בין נתוני היצרן לנתונים שפורסמו)." },
+        { "en": "Literature search and review protocol (i.e. how did the manufacturer test this protocol to ensure comprehensive identification of relevant data / demonstrate that all relevant data has been retrieved?).", "he": "פרוטוקול חיפוש וסקירת ספרות (כלומר, כיצד בדק היצרן פרוטוקול זה כדי להבטיח זיהוי מקיף של נתונים רלוונטיים / להוכיח שכל הנתונים הרלוונטיים אותרו?)." },
+        { "en": "Any deviations from the manufacturer's literature search protocol.", "he": "כל סטייה מפרוטוקול חיפוש הספרות של היצרן." },
+        { "en": "Overall conclusions regarding the adequacy of search methods, likelihood of having retrieved all relevant data, and methods used to avoid bias.", "he": "מסקנות כלליות בנוגע לנאותות שיטות החיפוש, הסבירות שכל הנתונים הרלוונטיים אותרו, והשיטות ששימשו להימנעות מהטיה." }
+      ]
+    },
+    {
+      "id": "sec-d-systematic-p",
+      "type": "paragraph",
+      "en": "Comment if systematic search and review methods such as the following have been used:",
+      "he": "התייחס לשאלה אם נעשה שימוש בשיטות חיפוש וסקירה שיטתיות כגון הבאות:"
+    },
+    {
+      "id": "sec-d-systematic-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "PICO (patient characteristics, type of intervention, control, and outcome queries).", "he": "PICO (מאפייני המטופל, סוג ההתערבות, ביקורת ושאילתות תוצאים)." },
+        { "en": "Cochrane Handbook for Systematic Reviews of Interventions.", "he": "מדריך Cochrane לסקירות שיטתיות של התערבויות." },
+        { "en": "PRISMA (The Preferred Reporting Items for Systematic Reviews and Meta-Analyses) Statement.", "he": "הצהרת PRISMA (The Preferred Reporting Items for Systematic Reviews and Meta-Analyses)." },
+        { "en": "MOOSE Proposal (Meta-analysis Of Observational Studies in Epidemiology).", "he": "הצעת MOOSE (Meta-analysis Of Observational Studies in Epidemiology)." },
+        { "en": "Other (specify or describe).", "he": "אחר (פרט או תאר)." }
+      ]
+    },
+    {
+      "id": "sec-d-lsd-p",
+      "type": "paragraph",
+      "en": "Literature search documentation:",
+      "he": "תיעוד חיפוש הספרות:"
+    },
+    {
+      "id": "sec-d-lsd-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "☐ Literature search protocol provided", "he": "☐ סופק פרוטוקול חיפוש ספרות" },
+        { "en": "☐ Literature search reports provided", "he": "☐ סופקו דוחות חיפוש ספרות" },
+        { "en": "☐ Full list of retrieved articles provided", "he": "☐ סופקה רשימה מלאה של המאמרים שאותרו" },
+        { "en": "☐ Full list of excluded articles provided, with reasons for exclusion", "he": "☐ סופקה רשימה מלאה של המאמרים שהוחרגו, עם נימוקי ההחרגה" },
+        { "en": "☐ Full text copies of relevant documents available", "he": "☐ זמינים עותקי טקסט מלאים של המסמכים הרלוונטיים" }
+      ]
+    },
+    {
+      "id": "sec-d-lsd-comment",
+      "type": "paragraph",
+      "en": "Comments: Provide rationale if any of the above has not been provided.",
+      "he": "הערות: ספק נימוק אם מי מהפריטים שלעיל לא סופק."
+    },
+    {
+      "id": "sec-d-nb-p",
+      "type": "paragraph",
+      "en": "Nota bene:",
+      "he": "לתשומת הלב (Nota bene):"
+    },
+    {
+      "id": "sec-d-nb-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "A literature search and other retrieval of data should be carried out based on a search protocol. The search protocol should document the planning of the search before execution.", "he": "חיפוש ספרות ואיתור נתונים אחר צריכים להתבצע על בסיס פרוטוקול חיפוש. פרוטוקול החיפוש צריך לתעד את תכנון החיפוש לפני ביצועו." },
+        { "en": "Once the searches have been executed, the adequacy of the searches should be verified and a literature search report should be compiled to present details of the execution, any deviations from the literature search protocol, and the results of the search.", "he": "לאחר ביצוע החיפושים, יש לאמת את נאותות החיפושים ולערוך דוח חיפוש ספרות המציג את פרטי הביצוע, כל סטייה מפרוטוקול חיפוש הספרות, ואת תוצאות החיפוש." },
+        { "en": "It is important that the literature search is documented to such degree that the methods can be appraised critically, the results can be verified, and the search reproduced if necessary.", "he": "חשוב שחיפוש הספרות יתועד במידה כזו שתאפשר הערכה ביקורתית של השיטות, אימות התוצאות, ושחזור החיפוש במידת הצורך." },
+        { "en": "Abstracts lack sufficient detail to allow issues to be evaluated thoroughly and independently, but may be sufficient to allow a first evaluation of the relevance of a paper. Copies of the full text papers and documents should be obtained for the appraisal stage.", "he": "תקצירים חסרים פירוט מספיק כדי לאפשר הערכה יסודית ובלתי תלויה של הסוגיות, אך עשויים להספיק להערכה ראשונית של רלוונטיות המאמר. יש להשיג עותקים של המאמרים והמסמכים בטקסט מלא עבור שלב ההערכה." },
+        { "en": "The literature search protocol(s), the literature search report(s), and full text copies of relevant documents using URL links, become part of the clinical evidence and, in turn, the technical documentation for the medical device.", "he": "פרוטוקול(ות) חיפוש הספרות, דוח(ות) חיפוש הספרות, ועותקי טקסט מלאים של מסמכים רלוונטיים באמצעות קישורי URL, הופכים לחלק מהראיות הקליניות, ובתורם מהתיעוד הטכני של המכשיר הרפואי." }
+      ]
+    },
+    {
+      "id": "sec-d-nc-1",
+      "type": "paragraph",
+      "en": "Non-compliances identified and resolved for this section may be briefly described in this box.",
+      "he": "ניתן לתאר בקצרה בתיבה זו אי-התאמות שזוהו ונפתרו עבור סעיף זה."
+    },
+    {
+      "id": "sec-d-concl-1",
+      "type": "paragraph",
+      "en": "Literature search protocol and outputs are: Compliant with the applicable requirements of the MDR: ☐ (Include any relevant comments). Compliant with the applicable requirements of the MDR with the exception of the minor non-compliance below: ☐ (Add a clear description of any remaining minor non-compliance together with required follow-up actions to close them and timelines for their completion to be followed by the manufacturer.)",
+      "he": "פרוטוקול חיפוש הספרות והתפוקות: תואמים את הדרישות הרלוונטיות של ה-MDR: ☐ (כלול כל הערה רלוונטית). תואמים את הדרישות הרלוונטיות של ה-MDR למעט אי-ההתאמה המינורית שלהלן: ☐ (הוסף תיאור ברור של כל אי-התאמה מינורית שנותרה, יחד עם פעולות המעקב הנדרשות לסגירתה ולוחות הזמנים להשלמתה שעל היצרן לעמוד בהם.)"
+    },
+    {
+      "id": "sec-d-appraisal-h",
+      "type": "heading",
+      "level": 3,
+      "en": "Data appraisal",
+      "he": "הערכת הנתונים"
+    },
+    {
+      "id": "sec-d-appraisal-p",
+      "type": "paragraph",
+      "en": "Provide a brief summary of the manufacturer's data appraisal methods (i.e. how they determine whether the data from a given study or other source of data is of sufficient quality and relevance to be included in the clinical evaluation. This includes evaluation of criteria including study design, sources of bias, peer review, relevance to subject device, etc. Retrieved studies and data sets should be weighted on the basis of scientific quality and relevance to the scope and objectives of the clinical evaluation for the subject devices). Justify the acceptability of the appraisal in terms of:",
+      "he": "ספק סיכום קצר של שיטות הערכת הנתונים של היצרן (כלומר, כיצד הוא קובע אם הנתונים ממחקר נתון או ממקור נתונים אחר הם באיכות וברלוונטיות מספקות להכללה בהערכה הקלינית. הדבר כולל הערכת קריטריונים לרבות עיצוב המחקר, מקורות הטיה, שיפוט עמיתים, רלוונטיות למכשיר הנדון וכד'. יש לשקלל מחקרים וסדרות נתונים שאותרו על בסיס איכות מדעית ורלוונטיות להיקף ולמטרות של ההערכה הקלינית עבור המכשירים הנדונים). הצדק את קבילות ההערכה במונחי:"
+    },
+    {
+      "id": "sec-d-appraisal-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Methodological quality and scientific validity of articles retrieved and evaluated appropriately.", "he": "איכות מתודולוגית ותוקף מדעי של המאמרים אותרו והוערכו כראוי." },
+        { "en": "Relevance of the information to the clinical evaluation determined and documented.", "he": "רלוונטיות המידע להערכה הקלינית נקבעה ותועדה." },
+        { "en": "Contribution of each data set to the clinical evaluation weighted according to systematic criteria.", "he": "תרומת כל סדרת נתונים להערכה הקלינית שוקללה בהתאם לקריטריונים שיטתיים." }
+      ]
+    },
+    {
+      "id": "sec-d-nc-2",
+      "type": "paragraph",
+      "en": "Non-compliances identified and resolved for this section may be briefly described in this box.",
+      "he": "ניתן לתאר בקצרה בתיבה זו אי-התאמות שזוהו ונפתרו עבור סעיף זה."
+    },
+    {
+      "id": "sec-d-concl-2",
+      "type": "paragraph",
+      "en": "Data appraisal is: Compliant with the applicable requirements of the MDR: ☐ (Include any relevant comments). Compliant with the applicable requirements of the MDR with the exception of the minor non-compliance below: ☐ (Add a clear description of any remaining minor non-compliance together with required follow-up actions to close them and timelines for their completion to be followed by the manufacturer.)",
+      "he": "הערכת הנתונים: תואמת את הדרישות הרלוונטיות של ה-MDR: ☐ (כלול כל הערה רלוונטית). תואמת את הדרישות הרלוונטיות של ה-MDR למעט אי-ההתאמה המינורית שלהלן: ☐ (הוסף תיאור ברור של כל אי-התאמה מינורית שנותרה, יחד עם פעולות המעקב הנדרשות לסגירתה ולוחות הזמנים להשלמתה שעל היצרן לעמוד בהם.)"
+    },
+
+    {
+      "id": "sec-e-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Section E: Clinical investigations and related documentation",
+      "he": "סעיף E: חקירות קליניות ותיעוד נלווה"
+    },
+    {
+      "id": "sec-e-p1",
+      "type": "paragraph",
+      "en": "Has the manufacturer conducted clinical investigation(s)? State Yes / No. Has the manufacturer conducted pre-market or post-market clinical investigations? Provide detail. If the manufacturer has not conducted clinical investigation: What is the rationale? Why is this acceptable / unacceptable? Has the manufacturer provided a copy of all clinical investigation reports? State Yes / No. Were all clinical investigations publicly registered? State Yes / No. Have been verified that clinical investigations conducted with respect to Regulation (EU) 745/2017 publicly registered on EUDAMED? State Yes / No. Provide the EUDAMED single registration number where available. Did the clinical investigations result in a publication in a scientific journal? State Yes / No.",
+      "he": "האם היצרן ביצע חקירה/חקירות קליניות? ציין כן / לא. האם היצרן ביצע חקירות קליניות טרום-שיווק או שלאחר שיווק? ספק פירוט. אם היצרן לא ביצע חקירה קלינית: מהו הנימוק? מדוע הדבר מקובל / אינו מקובל? האם היצרן סיפק עותק של כל דוחות החקירה הקלינית? ציין כן / לא. האם כל החקירות הקליניות נרשמו באופן פומבי? ציין כן / לא. האם אומת כי חקירות קליניות שבוצעו בהתאם לתקנה (האיחוד האירופי) 745/2017 נרשמו באופן פומבי ב-EUDAMED? ציין כן / לא. ספק את מספר הרישום היחיד (SRN) של EUDAMED היכן שזמין. האם החקירות הקליניות הובילו לפרסום בכתב עת מדעי? ציין כן / לא."
+    },
+    {
+      "id": "sec-e-p2",
+      "type": "paragraph",
+      "en": "If yes, does the clinical investigation report reflect the results of clinical investigation(s) or other studies reported in scientific literature, or reports published in peer reviewed scientific literature on other clinical experience? If there are any differences describe these and summarise the rationale provided by the manufacturer. Has the manufacturer provided all Competent/Regulatory Authority correspondence (from all countries, including outside of EU). State Yes / No. Are the conclusions drawn by the manufacturer, based upon the results of the clinical investigation, valid in the light of the approved clinical investigation plan? Provide detail.",
+      "he": "אם כן, האם דוח החקירה הקלינית משקף את תוצאות החקירה/חקירות הקליניות או מחקרים אחרים המדווחים בספרות המדעית, או דוחות שפורסמו בספרות מדעית שעברה שיפוט עמיתים בנוגע לניסיון קליני אחר? אם קיימים הבדלים, תאר אותם וסכם את הנימוק שסיפק היצרן. האם היצרן סיפק את כל ההתכתבויות עם הרשות המוסמכת/הרגולטורית (מכל המדינות, לרבות מחוץ לאיחוד האירופי). ציין כן / לא. האם המסקנות שהסיק היצרן, בהתבסס על תוצאות החקירה הקלינית, תקפות לאור תוכנית החקירה הקלינית המאושרת? ספק פירוט."
+    },
+    {
+      "id": "sec-e-p3",
+      "type": "paragraph",
+      "en": "If clinical investigations not performed under Regulation (EU) 745/2017 were not publicly registered or published:",
+      "he": "אם חקירות קליניות שלא בוצעו לפי תקנה (האיחוד האירופי) 745/2017 לא נרשמו או לא פורסמו באופן פומבי:"
+    },
+    {
+      "id": "sec-e-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Confirm that a rationale was provided.", "he": "אשר כי סופק נימוק." },
+        { "en": "Confirm that the SSCP and where relevant the IFU (for example with respect to the description of clinical benefits) adequately provide information for the intended user and if relevant, the patient.", "he": "אשר כי ה-SSCP ובמקרים הרלוונטיים ה-IFU (למשל בנוגע לתיאור התועלות הקליניות) מספקים מידע הולם למשתמש המיועד ובמידת הרלוונטיות למטופל." }
+      ]
+    },
+    {
+      "id": "sec-e-cip-h",
+      "type": "heading",
+      "level": 3,
+      "en": "Clinical Investigation Plan (CIP) reference",
+      "he": "סימוכין לתוכנית החקירה הקלינית (CIP)"
+    },
+    {
+      "id": "sec-e-cip-p",
+      "type": "paragraph",
+      "en": "CIP complies with MDR, Annex XV, and EN ISO 14155 Annex A. State Yes / No. CIP scope and study design. Adequacy of CIP scope and study design for demonstration of safety, performance and benefit risk of subject devices:",
+      "he": "ה-CIP תואם את ה-MDR, נספח XV, ואת EN ISO 14155 נספח A. ציין כן / לא. היקף ה-CIP ועיצוב המחקר. נאותות היקף ה-CIP ועיצוב המחקר להוכחת הבטיחות, הביצועים ויחס תועלת מול סיכון של המכשירים הנדונים:"
+    },
+    {
+      "id": "sec-e-cip-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Study design.", "he": "עיצוב המחקר." },
+        { "en": "Devices identified.", "he": "המכשירים שזוהו." },
+        { "en": "Patient population.", "he": "אוכלוסיית המטופלים." },
+        { "en": "Patient numbers.", "he": "מספרי המטופלים." },
+        { "en": "Objectives and endpoints.", "he": "מטרות ונקודות קצה (endpoints)." },
+        { "en": "Length of follow up and intervals.", "he": "משך המעקב והמרווחים." },
+        { "en": "Study locations.", "he": "מיקומי המחקר." },
+        { "en": "Overall conclusions.", "he": "מסקנות כלליות." }
+      ]
+    },
+    {
+      "id": "sec-e-nc-1",
+      "type": "paragraph",
+      "en": "Non-compliances identified and resolved for this section may be briefly described in this box.",
+      "he": "ניתן לתאר בקצרה בתיבה זו אי-התאמות שזוהו ונפתרו עבור סעיף זה."
+    },
+    {
+      "id": "sec-e-concl-1",
+      "type": "paragraph",
+      "en": "Manufacturer clinical investigations and related documentation are: Compliant with the applicable requirements of the MDR: ☐ (Include any relevant comments). Compliant with the applicable requirements of the MDR with the exception of the minor non-compliance below: ☐ (Add a clear description of any remaining minor non-compliance together with required follow-up actions to close them and timelines for their completion to be followed by the manufacturer.)",
+      "he": "החקירות הקליניות של היצרן והתיעוד הנלווה: תואמים את הדרישות הרלוונטיות של ה-MDR: ☐ (כלול כל הערה רלוונטית). תואמים את הדרישות הרלוונטיות של ה-MDR למעט אי-ההתאמה המינורית שלהלן: ☐ (הוסף תיאור ברור של כל אי-התאמה מינורית שנותרה, יחד עם פעולות המעקב הנדרשות לסגירתה ולוחות הזמנים להשלמתה שעל היצרן לעמוד בהם.)"
+    },
+
+    {
+      "id": "sec-f-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Section F: PMS, PMCF and the plan for updates",
+      "he": "סעיף F: PMS, PMCF ותוכנית העדכונים"
+    },
+    {
+      "id": "sec-f-p1",
+      "type": "paragraph",
+      "en": "Documents reviewed, where relevant:",
+      "he": "מסמכים שנסקרו, היכן שרלוונטי:"
+    },
+    {
+      "id": "sec-f-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "☐ PMS Plan", "he": "☐ תוכנית PMS" },
+        { "en": "☐ PMS Report (where relevant)", "he": "☐ דוח PMS (היכן שרלוונטי)" },
+        { "en": "☐ PMCF Plan", "he": "☐ תוכנית PMCF" },
+        { "en": "☐ PMCF Report (where relevant)", "he": "☐ דוח PMCF (היכן שרלוונטי)" },
+        { "en": "☐ PSUR (if available)", "he": "☐ PSUR (אם זמין)" }
+      ]
+    },
+    {
+      "id": "sec-f-p2",
+      "type": "paragraph",
+      "en": "Include references to the above documents. The demonstration of equivalence and the link to post-market clinical follow-up. Describe how the manufacturer will verify the presumption that there would be no clinically significant difference in the safety and clinical performance of the device under evaluation compared with the equivalent device by post market surveillance or post market clinical follow-up? Is there a post-market clinical follow-up planned? State Yes / No. Is this an implantable or class III device for which clinical investigations have not been performed in accordance with Article 61(4)? State Yes / No. For these devices the PMCF plan should include post market clinical studies to demonstrate the safety and performance of the device. Comments on appropriateness of PMS/PMCF Plan: If no PMCF is planned, has the manufacturer provided an acceptable justification for not conducting a PMCF? State Yes / No.",
+      "he": "כלול הפניות למסמכים שלעיל. הוכחת השקילוּת והקשר למעקב הקליני שלאחר שיווק. תאר כיצד יאמת היצרן את ההנחה שלא יהיה הבדל משמעותי מבחינה קלינית בבטיחות ובביצועים הקליניים של המכשיר המוערך בהשוואה למכשיר השקול, באמצעות מעקב שלאחר שיווק (PMS) או מעקב קליני שלאחר שיווק (PMCF)? האם מתוכנן מעקב קליני שלאחר שיווק? ציין כן / לא. האם מדובר במכשיר מושתל או במכשיר מסיווג III שלגביו לא בוצעו חקירות קליניות בהתאם לסעיף 61(4)? ציין כן / לא. עבור מכשירים אלה, תוכנית ה-PMCF צריכה לכלול מחקרים קליניים שלאחר שיווק להוכחת הבטיחות והביצועים של המכשיר. הערות בנוגע להתאמת תוכנית ה-PMS/PMCF: אם לא מתוכנן PMCF, האם היצרן סיפק הצדקה מקובלת לאי-ביצוע PMCF? ציין כן / לא."
+    },
+    {
+      "id": "sec-f-updates-h",
+      "type": "heading",
+      "level": 3,
+      "en": "Clinical evaluation updates",
+      "he": "עדכוני ההערכה הקלינית"
+    },
+    {
+      "id": "sec-f-updates-p",
+      "type": "paragraph",
+      "en": "Identify when updates to the clinical evaluation report shall be assessed during the surveillance and post certification monitoring activities and which frequency should be considered. Provide further detail taking into account the manufacturer's PMCF plan and the post-market surveillance plan.",
+      "he": "זהה מתי יוערכו עדכונים לדוח ההערכה הקלינית במהלך פעילויות המעקב והניטור שלאחר ההסמכה, ואיזו תדירות יש לשקול. ספק פירוט נוסף בהתחשב בתוכנית ה-PMCF של היצרן ובתוכנית המעקב שלאחר שיווק."
+    },
+    {
+      "id": "sec-f-nc-1",
+      "type": "paragraph",
+      "en": "Non-compliances identified and resolved for this section may be briefly described in this box.",
+      "he": "ניתן לתאר בקצרה בתיבה זו אי-התאמות שזוהו ונפתרו עבור סעיף זה."
+    },
+    {
+      "id": "sec-f-concl-1",
+      "type": "paragraph",
+      "en": "The PMS, PMCF and the plan for updates are: Compliant with the applicable requirements of the MDR: ☐ (Include any relevant comments). Compliant with the applicable requirements of the MDR with the exception of the minor non-compliance below: ☐ (Add a clear description of any remaining minor non-compliance together with required follow-up actions to close them and timelines for their completion to be followed by the manufacturer.)",
+      "he": "ה-PMS, ה-PMCF ותוכנית העדכונים: תואמים את הדרישות הרלוונטיות של ה-MDR: ☐ (כלול כל הערה רלוונטית). תואמים את הדרישות הרלוונטיות של ה-MDR למעט אי-ההתאמה המינורית שלהלן: ☐ (הוסף תיאור ברור של כל אי-התאמה מינורית שנותרה, יחד עם פעולות המעקב הנדרשות לסגירתה ולוחות הזמנים להשלמתה שעל היצרן לעמוד בהם.)"
+    },
+
+    {
+      "id": "sec-g-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Section G: IFU, SSCP, labelling and other information supplied with the device",
+      "he": "סעיף G: IFU, SSCP, תיוג ומידע אחר המסופק עם המכשיר"
+    },
+    {
+      "id": "sec-g-p1",
+      "type": "paragraph",
+      "en": "Information materials supplied by the manufacturer and the instructions for use: Describe what has been reviewed – IFU, promotional materials (if available), SSCP, labelling etc. In case several documents have been assessed, identify answers to the questions below for each of the documents.",
+      "he": "חומרי מידע שסיפק היצרן והוראות השימוש: תאר מה נסקר – IFU, חומרים שיווקיים (אם זמינים), SSCP, תיוג וכד'. במקרה שהוערכו מספר מסמכים, זהה את התשובות לשאלות שלהלן עבור כל אחד מהמסמכים."
+    },
+    {
+      "id": "fn-22",
+      "type": "note",
+      "marker": "22",
+      "en": "Note that the SSCP requires a separate validation report.",
+      "he": "שים לב כי ה-SSCP מחייב דוח אימות נפרד."
+    },
+    {
+      "id": "sec-g-p2",
+      "type": "paragraph",
+      "en": "Intended purpose: Does the clinical evidence support this? Intended patient population: Who is the intended patient population? Does the clinical evidence support this? Are all the appropriate/relevant restrictions, warnings or contraindications in place?",
+      "he": "מטרה מיועדת: האם הראיות הקליניות תומכות בכך? אוכלוסיית המטופלים המיועדת: מיהי אוכלוסיית המטופלים המיועדת? האם הראיות הקליניות תומכות בכך? האם כל המגבלות, האזהרות או ההתוויות-נגד המתאימות/הרלוונטיות קיימות?"
+    },
+    {
+      "id": "sec-g-p3",
+      "type": "paragraph",
+      "en": "Intended users: Is the device to be used by healthcare professionals or lay users? Does the IFU provide all the appropriate/relevant information for the intended user? Has the manufacturer taken into account the technical knowledge, experience, education, training and use environment, where applicable, and the medical and physical conditions of intended users (design for lay, professional, disabled or other users). Is any training for users required as a risk control measure? If not, is this justified with respect to the risk management file and the clinical evaluation?",
+      "he": "משתמשים מיועדים: האם המכשיר מיועד לשימוש על ידי אנשי מקצוע רפואיים או על ידי משתמשים שאינם מקצועיים (lay users)? האם ה-IFU מספק את כל המידע המתאים/הרלוונטי עבור המשתמש המיועד? האם היצרן התחשב בידע הטכני, בניסיון, בהשכלה, בהדרכה ובסביבת השימוש, היכן שרלוונטי, ובמצבם הרפואי והפיזי של המשתמשים המיועדים (עיצוב למשתמשים שאינם מקצועיים, מקצועיים, בעלי מוגבלות או אחרים)? האם נדרשת הדרכה כלשהי למשתמשים כאמצעי לבקרת סיכון? אם לא, האם הדבר מוצדק ביחס לתיק ניהול הסיכונים ולהערכה הקלינית?"
+    },
+    {
+      "id": "sec-g-p4",
+      "type": "paragraph",
+      "en": "Limitations: Has the manufacturer adequately/clearly described any limitations for the device use? Does the device require any specific limitations? Contraindications: Have contraindications been adequately/clearly described? Are any further contraindications necessary? Warnings and precautions: Have warnings, precautions and/or measures to be taken in the event of malfunction of the device or changes in its performance that may affect safety been adequately descried?",
+      "he": "מגבלות: האם היצרן תיאר כראוי/באופן ברור כל מגבלה על השימוש במכשיר? האם המכשיר מצריך מגבלות ספציפיות כלשהן? התוויות-נגד: האם ההתוויות-נגד תוארו כראוי/באופן ברור? האם דרושות התוויות-נגד נוספות? אזהרות ואמצעי זהירות: האם תוארו כראוי אזהרות, אמצעי זהירות ו/או צעדים שיש לנקוט במקרה של תקלה במכשיר או שינויים בביצועיו שעלולים להשפיע על הבטיחות?"
+    },
+    {
+      "id": "sec-g-p5",
+      "type": "paragraph",
+      "en": "Does the information supplied by the manufacturer adequately/clearly provide the safety and performance information relevant to the user, or any other person, as appropriate/relevant? Is the estimation of associated risks and residual risk adequate? Is this estimation quantitative (i.e. a percentage rate or rate with a confidence interval) or qualitative? Is the description appropriate for patients and users? Is the information provided to the end user written in a clear and understandable way (instructions of use, indications, and warnings)?",
+      "he": "האם המידע שסיפק היצרן מספק כראוי/באופן ברור את מידע הבטיחות והביצועים הרלוונטי למשתמש, או לכל אדם אחר, לפי העניין? האם אומדן הסיכונים הנלווים והסיכון השיורי הולם? האם אומדן זה כמותי (כלומר שיעור באחוזים או שיעור עם רווח בר-סמך) או איכותי? האם התיאור מתאים למטופלים ולמשתמשים? האם המידע המסופק למשתמש הקצה כתוב באופן ברור ומובן (הוראות שימוש, התוויות ואזהרות)?"
+    },
+    {
+      "id": "sec-g-p6",
+      "type": "paragraph",
+      "en": "Is the IFU and other information materials supplied by the manufacturer aligned with the other parts of the technical documentation? Consider:",
+      "he": "האם ה-IFU וחומרי המידע האחרים שסיפק היצרן מתואמים עם החלקים האחרים של התיעוד הטכני? שקול:"
+    },
+    {
+      "id": "sec-g-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "the clinical evaluation (the device description used for the clinical evaluation, other contents of the clinical evaluation report).", "he": "ההערכה הקלינית (תיאור המכשיר ששימש להערכה הקלינית, תכנים אחרים של דוח ההערכה הקלינית)." },
+        { "en": "the available clinical data (such as the public registration and results of clinical investigations, publications, PMCF studies, etc.).", "he": "הנתונים הקליניים הזמינים (כגון הרישום הפומבי ותוצאות החקירות הקליניות, פרסומים, מחקרי PMCF וכד')." },
+        { "en": "PMS report or PSUR.", "he": "דוח PMS או PSUR." },
+        { "en": "the risk management file.", "he": "תיק ניהול הסיכונים." }
+      ]
+    },
+    {
+      "id": "sec-g-nc-1",
+      "type": "paragraph",
+      "en": "Non-compliances identified and resolved for this section may be briefly described in this box.",
+      "he": "ניתן לתאר בקצרה בתיבה זו אי-התאמות שזוהו ונפתרו עבור סעיף זה."
+    },
+    {
+      "id": "sec-g-concl-1",
+      "type": "paragraph",
+      "en": "IFU, promotional materials, labelling are: Compliant with the applicable requirements of the MDR: ☐ (Include any relevant comments). Compliant with the applicable requirements of the MDR with the exception of the minor non-compliance below: ☐ (Add a clear description of any remaining minor non-compliance together with required follow-up actions to close them and timelines for their completion to be followed by the manufacturer.)",
+      "he": "ה-IFU, החומרים השיווקיים והתיוג: תואמים את הדרישות הרלוונטיות של ה-MDR: ☐ (כלול כל הערה רלוונטית). תואמים את הדרישות הרלוונטיות של ה-MDR למעט אי-ההתאמה המינורית שלהלן: ☐ (הוסף תיאור ברור של כל אי-התאמה מינורית שנותרה, יחד עם פעולות המעקב הנדרשות לסגירתה ולוחות הזמנים להשלמתה שעל היצרן לעמוד בהם.)"
+    },
+
+    {
+      "id": "sec-h-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Section H: Summary of all available data and conclusions",
+      "he": "סעיף H: סיכום כל הנתונים הזמינים והמסקנות"
+    },
+    {
+      "id": "sec-h-p1",
+      "type": "paragraph",
+      "en": "Has the manufacturer conducted clinical investigation(s) for the device under evaluation? State Yes / No. Has the manufacturer demonstrated equivalence with respect to section 3 of Annex XIV of the MDR? State Yes / No. If the manufacturer conducted CIs, does clinical data from clinical investigations of the device under evaluation adequately demonstrate compliance with the relevant general safety and performance requirements? State Yes / No. Has the reliability of the source of clinical investigation data been assured through monitoring activities and verification of the application of appropriate clinical research standards? State Yes / No. If the manufacturer demonstrated equivalence with respect to section 3 of Annex XIV of the MDR does the data from an equivalent device demonstrate compliance with Annex I? State Yes / No. Provide a summary of safety data (with reference to the relevant section of the CER). Provide a summary of performance data (with reference to the relevant section of the CER).",
+      "he": "האם היצרן ביצע חקירה/חקירות קליניות עבור המכשיר המוערך? ציין כן / לא. האם היצרן הוכיח שקילוּת בהתאם לסעיף 3 של נספח XIV ל-MDR? ציין כן / לא. אם היצרן ביצע חקירות קליניות (CIs), האם נתונים קליניים מהחקירות הקליניות של המכשיר המוערך מוכיחים כראוי את ההתאמה לדרישות הכלליות הרלוונטיות לבטיחות וביצועים (GSPR)? ציין כן / לא. האם מהימנות מקור נתוני החקירה הקלינית הובטחה באמצעות פעילויות ניטור ואימות יישומם של תקני מחקר קליני מתאימים? ציין כן / לא. אם היצרן הוכיח שקילוּת בהתאם לסעיף 3 של נספח XIV ל-MDR, האם הנתונים ממכשיר שקול מוכיחים התאמה לנספח I? ציין כן / לא. ספק סיכום של נתוני הבטיחות (תוך הפניה לסעיף הרלוונטי של ה-CER). ספק סיכום של נתוני הביצועים (תוך הפניה לסעיף הרלוונטי של ה-CER)."
+    },
+    {
+      "id": "sec-h-p2",
+      "type": "paragraph",
+      "en": "Does the clinical data provide sufficient clinical evidence to:",
+      "he": "האם הנתונים הקליניים מספקים ראיות קליניות מספיקות כדי:"
+    },
+    {
+      "id": "fn-23",
+      "type": "note",
+      "marker": "23",
+      "en": "For legacy products, see MDCG 2020-6",
+      "he": "עבור מוצרים מורשת (legacy), ראה MDCG 2020-6"
+    },
+    {
+      "id": "sec-h-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Demonstrate compliance with the relevant general safety and performance requirements? State Yes / No, and provide additional information if relevant.", "he": "להוכיח התאמה לדרישות הכלליות הרלוונטיות לבטיחות וביצועים (GSPR)? ציין כן / לא, וספק מידע נוסף אם רלוונטי." },
+        { "en": "Support the intended purpose, the claims and the information in the IFU and SSCP? State Yes / No, and provide additional information if relevant.", "he": "לתמוך במטרה המיועדת, בטענות ובמידע שב-IFU וב-SSCP? ציין כן / לא, וספק מידע נוסף אם רלוונטי." }
+      ]
+    },
+    {
+      "id": "sec-h-p3",
+      "type": "paragraph",
+      "en": "What are the remaining unanswered questions regarding the device under evaluation? Describe these with respect to the plan for PMS / PMCF.",
+      "he": "מהן השאלות הפתוחות שנותרו בנוגע למכשיר המוערך? תאר אותן ביחס לתוכנית ה-PMS / PMCF."
+    },
+
+    {
+      "id": "overall-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Overall Conclusions",
+      "he": "מסקנות כלליות"
+    },
+    {
+      "id": "overall-br-h",
+      "type": "heading",
+      "level": 3,
+      "en": "Benefit-risk conclusions",
+      "he": "מסקנות תועלת מול סיכון"
+    },
+    {
+      "id": "overall-p1",
+      "type": "paragraph",
+      "en": "Summarise the clinical benefits. Describe them briefly in relation to the meaningful and measurable patient relevant clinical outcomes, including outcome(s) related to diagnosis. Describe their positive impact on patient management or public health. Summarise the risks with clinical relevance (e.g uncertainties or limitations of clinical data, undesirable side-effects, potential for misuse, etc) and provide a short description (e.g. incidence, severity, duration, vulnerable patient subgroups, dose-response relationship where relevant, etc). Discuss the impact of risks (as described above) in relation to the clinical benefits taking into account the factors described and in particular the uncertainties in relation to available clinical data.",
+      "he": "סכם את התועלות הקליניות. תאר אותן בקצרה ביחס לתוצאים קליניים משמעותיים, ניתנים למדידה ורלוונטיים למטופל, לרבות תוצא(ים) הנוגע(ים) לאבחון. תאר את השפעתם החיובית על ניהול המטופל או על בריאות הציבור. סכם את הסיכונים בעלי הרלוונטיות הקלינית (למשל אי-ודאויות או מגבלות של הנתונים הקליניים, תופעות לוואי בלתי רצויות, פוטנציאל לשימוש לרעה וכד') וספק תיאור קצר (למשל היארעות, חומרה, משך, תת-קבוצות מטופלים פגיעות, קשר מנה-תגובה היכן שרלוונטי וכד'). דון בהשפעת הסיכונים (כמתואר לעיל) ביחס לתועלות הקליניות, בהתחשב בגורמים המתוארים ובפרט באי-הוודאויות בנוגע לנתונים הקליניים הזמינים."
+    },
+    {
+      "id": "overall-p2",
+      "type": "paragraph",
+      "en": "Have all the risks that could have a significant impact on the benefit-risk analysis' been identified in the clinical evaluation? Is there alignment between the risk management and clinical evaluation? State Yes / No. Describe how the clinical benefits outweigh the risks also considering the current state of the art. Have all deficiencies/non-compliances been raised and satisfactorily addressed in the course of this clinical evaluation assessment? State Yes / No. Is it possible to follow the changes that have been made to address them?",
+      "he": "האם כל הסיכונים שעשויים להשפיע באופן משמעותי על ניתוח התועלת מול הסיכון זוהו בהערכה הקלינית? האם קיימת הלימה בין ניהול הסיכונים לבין ההערכה הקלינית? ציין כן / לא. תאר כיצד התועלות הקליניות עולות על הסיכונים, גם בהתחשב במצב הידע העדכני הנוכחי. האם כל הליקויים/אי-ההתאמות הועלו וטופלו באופן מספק במהלך הערכת ההערכה הקלינית הזו? ציין כן / לא. האם ניתן לעקוב אחר השינויים שבוצעו לטיפול בהם?"
+    },
+    {
+      "id": "overall-p3",
+      "type": "paragraph",
+      "en": "Overall conclusion on the assessment of the manufacturer's clinical evaluation including a clinical judgement of the opinion provided by any external expert. Make a clear recommendation to the notified body's decision maker in regards to the conclusions of this assessment for the purpose of granting certification, stating in addition:",
+      "he": "מסקנה כללית על הערכת ההערכה הקלינית של היצרן, לרבות שיפוט קליני של חוות הדעת שסיפק כל מומחה חיצוני. תן המלצה ברורה למקבל ההחלטות של הגוף המאונתר בנוגע למסקנות הערכה זו לצורך מתן הסמכה, תוך ציון בנוסף:"
+    },
+    {
+      "id": "overall-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "whether the post-market surveillance plan, including the PMCF plan, is adequate.", "he": "האם תוכנית המעקב שלאחר שיווק, לרבות תוכנית ה-PMCF, הולמת." },
+        { "en": "specific milestones to be set for further review of the up to date clinical evaluation by the notified body.", "he": "אבני דרך ספציפיות שייקבעו לסקירה נוספת של ההערכה הקלינית המעודכנת על ידי הגוף המאונתר." },
+        { "en": "considerations to define the period of certification.", "he": "שיקולים להגדרת תקופת ההסמכה." },
+        { "en": "additional conditions on the certification to be considered.", "he": "תנאים נוספים על ההסמכה שיש לשקול." }
+      ]
+    },
+    {
+      "id": "overall-concl",
+      "type": "paragraph",
+      "en": "Sufficient information are provided to demonstrate acceptability of benefit-risk conclusions and confirm that the relevant MDR requirements are met: ☐",
+      "he": "סופק מידע מספיק כדי להוכיח את קבילות מסקנות התועלת מול הסיכון ולאשר כי דרישות ה-MDR הרלוונטיות מתקיימות: ☐"
+    },
+
+    {
+      "id": "specific-heading",
+      "type": "heading",
+      "level": 1,
+      "en": "Specific Considerations",
+      "he": "שיקולים ייחודיים"
+    },
+
+    {
+      "id": "sec-i-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Section I: Clinical evaluation consultation procedure for certain class III and class IIb devices (Article 54)",
+      "he": "סעיף I: הליך ההיוועצות בהערכה הקלינית עבור מכשירים מסוימים מסיווג III ומסיווג IIb (סעיף 54)"
+    },
+    {
+      "id": "sec-i-p1",
+      "type": "paragraph",
+      "en": "Is the procedure required by Article 54(1) to be applied? State Yes / No. Provide further information where necessary with respect to this justification. If this procedure is not to be applied, with respect to Article 54(2) what is the reason?",
+      "he": "האם יש ליישם את ההליך הנדרש לפי סעיף 54(1)? ציין כן / לא. ספק מידע נוסף היכן שנחוץ בנוגע להצדקה זו. אם אין ליישם הליך זה, בהתאם לסעיף 54(2) מהי הסיבה?"
+    },
+    {
+      "id": "fn-24",
+      "type": "note",
+      "marker": "24",
+      "en": "See MDCG 2019-3, Interpretation of Article 54(2)b",
+      "he": "ראה MDCG 2019-3, פרשנות סעיף 54(2)b"
+    },
+    {
+      "id": "sec-i-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "(a) renewal of a certificate issued under the MDR; ☐", "he": "(a) חידוש תעודה שהונפקה לפי ה-MDR; ☐" },
+        { "en": "(b) the device has been designed by modifying a device already marketed by the same manufacturer for the same intended purpose, and the manufacturer has demonstrated to the satisfaction of the notified body that the modifications do not adversely affect the benefit-risk ratio of the device; ☐", "he": "(b) המכשיר עוצב על ידי שינוי מכשיר המשווק כבר על ידי אותו יצרן לאותה מטרה מיועדת, והיצרן הוכיח להנחת דעתו של הגוף המאונתר כי השינויים אינם משפיעים לרעה על יחס התועלת מול הסיכון של המכשיר; ☐" }
+      ]
+    },
+    {
+      "id": "sec-i-p2",
+      "type": "paragraph",
+      "en": "Provide a summary of the modification(s) that have been made to the device? Provide a summary of the manufacturer's rationale demonstrating that the benefit-risk ratio of the device is not adversely affected. Has the clinical data been provided to support the conclusions of the manufacturer regarding the benefit-risk of the modified device with respect to the previous version?",
+      "he": "ספק סיכום של השינוי/ים שבוצעו במכשיר? ספק סיכום של נימוק היצרן המוכיח כי יחס התועלת מול הסיכון של המכשיר אינו מושפע לרעה. האם סופקו נתונים קליניים לתמיכה במסקנות היצרן בנוגע לתועלת מול הסיכון של המכשיר ששונה ביחס לגרסה הקודמת?"
+    },
+    {
+      "id": "sec-i-p3",
+      "type": "paragraph",
+      "en": "For legacy devices, verify:",
+      "he": "עבור מכשירי מורשת (legacy), ודא:"
+    },
+    {
+      "id": "sec-i-list2",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "that the modifications do not adversely affect the benefit-risk ratio.", "he": "שהשינויים אינם משפיעים לרעה על יחס התועלת מול הסיכון." },
+        { "en": "that the device in question had a valid certificate under the Directives.", "he": "שלמכשיר הנדון הייתה תעודה תקפה לפי ההנחיות (Directives)." },
+        { "en": "in case the certificate has been withdrawn, suspended or expired, if there is an impact on compliance with the general safety and performance requirements, and", "he": "במקרה שהתעודה נמשכה, הושעתה או פגה, האם יש השפעה על ההתאמה לדרישות הכלליות לבטיחות וביצועים (GSPR), וכן" },
+        { "en": "that there is no pending assessment of changes for the device or outstanding non-compliance.", "he": "שאין הערכת שינויים תלויה ועומדת עבור המכשיר או אי-התאמה פתוחה." },
+        { "en": "the description of modifications provided and assess if these modifications are limited only to those needed in order to comply with the new legal requirements introduced by the MDR.", "he": "את תיאור השינויים שסופק, והערך אם שינויים אלה מוגבלים אך ורק לאלה הדרושים כדי לעמוד בדרישות החוקיות החדשות שהונהגו על ידי ה-MDR." }
+      ]
+    },
+    {
+      "id": "fn-25",
+      "type": "note",
+      "marker": "25",
+      "en": "The devices for which the certificates were withdrawn or suspended due to lack of compliance with essential requirements will require a clinical evaluation consultation procedure as this adversely affects the benefit-risk ratio of the device.",
+      "he": "מכשירים שתעודותיהם נמשכו או הושעו עקב אי-עמידה בדרישות החיוניות יחייבו הליך היוועצות בהערכה הקלינית, מאחר שהדבר משפיע לרעה על יחס התועלת מול הסיכון של המכשיר."
+    },
+    {
+      "id": "sec-i-note-p",
+      "type": "paragraph",
+      "en": "Note: limitations of the intended purpose of the device should not trigger the consultation procedure in accordance to Art. 54.",
+      "he": "הערה: הגבלות על המטרה המיועדת של המכשיר אינן צריכות להפעיל את הליך ההיוועצות בהתאם לסעיף 54."
+    },
+    {
+      "id": "sec-i-list3",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "(c) the principles of the clinical evaluation of the device type or category have been addressed in a CS referred to in Article 9 and the notified body confirms that the clinical evaluation of the manufacturer for this device is in compliance with the relevant CS for clinical evaluation of that kind of device. ☐", "he": "(c) עקרונות ההערכה הקלינית של סוג או קטגוריית המכשיר טופלו במפרט משותף (CS) הנזכר בסעיף 9, והגוף המאונתר מאשר כי ההערכה הקלינית של היצרן עבור מכשיר זה תואמת את ה-CS הרלוונטי להערכה הקלינית של מכשיר מסוג זה. ☐" }
+      ]
+    },
+    {
+      "id": "sec-i-panel-h",
+      "type": "heading",
+      "level": 3,
+      "en": "Relevant scientific panel and associated competence area(s)",
+      "he": "פאנל מדעי רלוונטי ותחומי המיומנות הנלווים"
+    },
+    {
+      "id": "sec-i-panel-p",
+      "type": "paragraph",
+      "en": "Indicate your opinion on the relevant scientific and associated competence area(s) for the device under assessment:",
+      "he": "ציין את חוות דעתך בנוגע לתחום המדעי הרלוונטי ולתחומי המיומנות הנלווים עבור המכשיר המוערך:"
+    },
+    {
+      "id": "sec-i-panel-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          { "en": "Medical area(s)", "he": "תחום/ות רפואי/ים" },
+          { "en": "Associated competence-related areas", "he": "תחומים נלווים הקשורים למיומנות" }
+        ],
+        [
+          { "en": "Orthopaedics, traumatology, rehabilitation, rheumatology", "he": "אורתופדיה, טראומטולוגיה, שיקום, ראומטולוגיה" },
+          { "en": "Joint replacements (hip, knee, shoulder); Spinal devices; Non-articulating devices, rehabilitation; Other", "he": "החלפות מפרקים (ירך, ברך, כתף); מכשירים לעמוד השדרה; מכשירים שאינם מפרקיים, שיקום; אחר" }
+        ],
+        [
+          { "en": "Circulatory system: cardiovascular / lymphatic system", "he": "מערכת הדם: מערכת קרדיווסקולרית / לימפתית" },
+          { "en": "Prosthetic heart valves and devices for heart valve repair; Cardiovascular stents (metallic and bioresorbable) and vascular prostheses; Active implantable cardiac devices and electrophysiological devices; Structural interventions and new devices (e.g. LAA/PFO occluders, heart failure devices); Cardiac surgery including extracorporeal membrane oxygenation, cardiopulmonary bypass devices, artificial hearts (and left ventricular assist devices); Other", "he": "מסתמי לב תותבים ומכשירים לתיקון מסתמי לב; תומכנים (stents) קרדיווסקולריים (מתכתיים וניתנים לספיגה ביולוגית) ותותבי כלי דם; מכשירים לבביים מושתלים פעילים ומכשירים אלקטרופיזיולוגיים; התערבויות מבניות ומכשירים חדשים (למשל מתקני סגירת LAA/PFO, מכשירים לאי-ספיקת לב); ניתוחי לב לרבות חמצון ממברנה חוץ-גופי (ECMO), מכשירי מעקף לב-ריאה, לבבות מלאכותיים (ומכשירי תמיכה חדרית שמאלית); אחר" }
+        ],
+        [
+          { "en": "Respiratory, anaesthesiology, intensive care", "he": "מערכת הנשימה, הרדמה, טיפול נמרץ" },
+          { "en": "Respiratory and anaesthetic devices", "he": "מכשירי נשימה והרדמה" }
+        ],
+        [
+          { "en": "Neurology", "he": "נוירולוגיה" },
+          { "en": "Central and peripheral nervous system devices; Implants for hearing and vision (sensory recovery); Neurosurgical devices; Other", "he": "מכשירים למערכת העצבים המרכזית וההיקפית; שתלים לשמיעה וראייה (שיקום חושי); מכשירים נוירוכירורגיים; אחר" }
+        ],
+        [
+          { "en": "Endocrinology and diabetes", "he": "אנדוקרינולוגיה וסוכרת" },
+          { "en": "Endocrinology and diabetes (e.g. insulin delivery systems and closed-loop systems, continuous glucose monitoring); Implantable systems", "he": "אנדוקרינולוגיה וסוכרת (למשל מערכות הזרקת אינסולין ומערכות לולאה סגורה, ניטור גלוקוז רציף); מערכות מושתלות" }
+        ],
+        [
+          { "en": "General and plastic surgery, dentistry", "he": "כירורגיה כללית ופלסטית, רפואת שיניים" },
+          { "en": "Surgical implants and general surgery; Plastic surgery and wound care; Maxillofacial surgery; Dentistry (devices for dentistry (oral surgery, implantology, dental materials incl.)); Other", "he": "שתלים כירורגיים וכירורגיה כללית; כירורגיה פלסטית וטיפול בפצעים; כירורגיה של הלסת והפנים (maxillofacial); רפואת שיניים (מכשירים לרפואת שיניים (כירורגיית פה, אימפלנטולוגיה, חומרים דנטליים בכלל זה)); אחר" }
+        ],
+        [
+          { "en": "Obstetrics & gynaecology including reproductive medicine", "he": "מיילדות וגינקולוגיה לרבות רפואת פוריות" },
+          { "en": "Devices for obstetrics and gynaecology", "he": "מכשירים למיילדות וגינקולוגיה" }
+        ],
+        [
+          { "en": "Gastroenterology & hepatology", "he": "גסטרואנטרולוגיה והפטולוגיה" },
+          { "en": "Devices for gastroenterology and hepatology", "he": "מכשירים לגסטרואנטרולוגיה והפטולוגיה" }
+        ],
+        [
+          { "en": "Nephrology & urology", "he": "נפרולוגיה ואורולוגיה" },
+          { "en": "Devices for nephrology and urology", "he": "מכשירים לנפרולוגיה ואורולוגיה" }
+        ],
+        [
+          { "en": "Ophthalmology", "he": "רפואת עיניים" },
+          { "en": "Devices for ophthalmology", "he": "מכשירים לרפואת עיניים" }
+        ]
+      ]
+    },
+    {
+      "id": "sec-i-p4",
+      "type": "paragraph",
+      "en": "Provide further information necessary with respect to this justification.",
+      "he": "ספק מידע נוסף הנחוץ בנוגע להצדקה זו."
+    },
+    {
+      "id": "sec-i-concl-h",
+      "type": "heading",
+      "level": 3,
+      "en": "Conclusion for certain class III and IIb devices to be considered by the expert panel",
+      "he": "מסקנה עבור מכשירים מסוימים מסיווג III ו-IIb שתישקל על ידי פאנל המומחים"
+    },
+    {
+      "id": "sec-i-novel-h",
+      "type": "heading",
+      "level": 3,
+      "en": "Novel aspects",
+      "he": "היבטים חדשניים"
+    },
+    {
+      "id": "sec-i-novel-p",
+      "type": "paragraph",
+      "en": "See section C, subsection 'Novelty'.",
+      "he": "ראה סעיף C, תת-הסעיף 'חדשנות'."
+    },
+    {
+      "id": "sec-i-br-h",
+      "type": "heading",
+      "level": 3,
+      "en": "Benefit-risk determination",
+      "he": "קביעת תועלת מול סיכון"
+    },
+    {
+      "id": "sec-i-br-p",
+      "type": "paragraph",
+      "en": "See section H and the Overall Conclusion sections.",
+      "he": "ראה סעיף H ואת סעיפי המסקנות הכלליות."
+    },
+    {
+      "id": "sec-i-cons-h",
+      "type": "heading",
+      "level": 3,
+      "en": "Consistency of clinical evidence with intended purpose and PMCF",
+      "he": "הלימת הראיות הקליניות עם המטרה המיועדת ועם ה-PMCF"
+    },
+    {
+      "id": "sec-i-cons-p",
+      "type": "paragraph",
+      "en": "Provide an assessment of the consistency of the clinical evidence with:",
+      "he": "ספק הערכה של הלימת הראיות הקליניות עם:"
+    },
+    {
+      "id": "sec-i-cons-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "(a) the intended purpose, including medical indication(s),", "he": "(a) המטרה המיועדת, לרבות ההתוויה/ות הרפואיות," },
+        { "en": "(b) the post-market clinical follow-up (PMCF) plan.", "he": "(b) תוכנית המעקב הקליני שלאחר שיווק (PMCF)." }
+      ]
+    },
+
+    {
+      "id": "sec-j-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Section J: Where demonstration of conformity based on clinical data is not deemed appropriate (Article 61(10))",
+      "he": "סעיף J: מקום שבו הוכחת התאמה על בסיס נתונים קליניים אינה נחשבת מתאימה (סעיף 61(10))"
+    },
+    {
+      "id": "sec-j-p1",
+      "type": "paragraph",
+      "en": "Has the manufacturer claimed that the demonstration of conformity with general safety and performance requirements based on clinical data is not deemed appropriate in accordance with Article 61(10)? State Yes / No.",
+      "he": "האם היצרן טען כי הוכחת ההתאמה לדרישות הכלליות לבטיחות וביצועים (GSPR) על בסיס נתונים קליניים אינה נחשבת מתאימה בהתאם לסעיף 61(10)? ציין כן / לא."
+    },
+    {
+      "id": "sec-j-nb-p",
+      "type": "paragraph",
+      "en": "Nota bene: A clinical evaluation is still required and the above information and evidence-based justification shall be presented in the clinical evaluation report. Has the manufacturer provided a justification for reliance upon Article 61(10)? State Yes / No. If yes, describe the evidence which the manufacturer is relying on, with respect to:",
+      "he": "לתשומת הלב (Nota bene): עדיין נדרשת הערכה קלינית, והמידע שלעיל וההצדקה המבוססת על ראיות יוצגו בדוח ההערכה הקלינית. האם היצרן סיפק הצדקה להסתמכות על סעיף 61(10)? ציין כן / לא. אם כן, תאר את הראיות שעליהן מסתמך היצרן, בנוגע ל:"
+    },
+    {
+      "id": "sec-j-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Performance evaluation", "he": "הערכת ביצועים" },
+        { "en": "Bench testing", "he": "בדיקות מעבדה (bench testing)" },
+        { "en": "Pre-clinical evaluation", "he": "הערכה קדם-קלינית" }
+      ]
+    },
+    {
+      "id": "sec-j-consider-p",
+      "type": "paragraph",
+      "en": "Consider:",
+      "he": "שקול:"
+    },
+    {
+      "id": "sec-j-list2",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Has any available clinical data for the device or an equivalent device been searched for and/or identified by the manufacturer? If yes – was the identified clinical data integrated in the clinical evaluation. This should include an evaluation of clinical data identified from the literature, and an appraisal of their relevance to the device under evaluation.", "he": "האם היצרן חיפש ו/או זיהה נתונים קליניים זמינים כלשהם עבור המכשיר או עבור מכשיר שקול? אם כן – האם הנתונים הקליניים שזוהו שולבו בהערכה הקלינית. הדבר צריך לכלול הערכה של נתונים קליניים שזוהו מהספרות, והערכה של רלוונטיותם למכשיר המוערך." },
+        { "en": "Is clinical data available for similar devices, does this provide information with relevant to the safety and performance of the device under evaluation? Has the manufacturer conducted an appropriate search of scientific literature? If clinical data for similar devices is available – this should be included in the CER and evaluated and may be of particular relevance to post-market surveillance / PMCF planning.", "he": "האם זמינים נתונים קליניים עבור מכשירים דומים, והאם הם מספקים מידע הרלוונטי לבטיחות ולביצועים של המכשיר המוערך? האם היצרן ביצע חיפוש הולם של הספרות המדעית? אם זמינים נתונים קליניים עבור מכשירים דומים – יש לכלול אותם ב-CER ולהעריך אותם, והם עשויים להיות בעלי רלוונטיות מיוחדת לתכנון המעקב שלאחר שיווק / ה-PMCF." },
+        { "en": "The results of the manufacturer's risk management. Are the results of the manufacturer's risk management supportive of the use of non-clinical testing methods?", "he": "תוצאות ניהול הסיכונים של היצרן. האם תוצאות ניהול הסיכונים של היצרן תומכות בשימוש בשיטות בדיקה לא-קליניות?" },
+        { "en": "Consideration of the specifics of the interaction between the device and the human body. Is the device under assessment part of a system or stand-alone? Is there sufficient information regarding this interaction available from sources other than clinical data?", "he": "שקילת הפרטים הספציפיים של האינטראקציה בין המכשיר לגוף האדם. האם המכשיר המוערך הוא חלק ממערכת או עצמאי (stand-alone)? האם זמין מידע מספיק בנוגע לאינטראקציה זו ממקורות שאינם נתונים קליניים?" },
+        { "en": "The clinical performance intended. What is the intended performance? Is it reasonable to rely upon non-clinical data for the proposed intended performance?", "he": "הביצועים הקליניים המיועדים. מהם הביצועים המיועדים? האם סביר להסתמך על נתונים לא-קליניים עבור הביצועים המיועדים המוצעים?" },
+        { "en": "The claims of the manufacturer. The manufacturer should not make any claims which are not supported by clinical data.", "he": "טענות היצרן. על היצרן להימנע מטענות שאינן נתמכות בנתונים קליניים." }
+      ]
+    },
+    {
+      "id": "sec-j-overall-h",
+      "type": "heading",
+      "level": 3,
+      "en": "Overall conclusion",
+      "he": "מסקנה כללית"
+    },
+    {
+      "id": "sec-j-nc-1",
+      "type": "paragraph",
+      "en": "Non-compliances identified and resolved for this section may be briefly described in this box.",
+      "he": "ניתן לתאר בקצרה בתיבה זו אי-התאמות שזוהו ונפתרו עבור סעיף זה."
+    },
+    {
+      "id": "sec-j-concl-1",
+      "type": "paragraph",
+      "en": "The justification of the manufacturer for reliance upon Article 61(10) is: Compliant with the applicable requirements of the MDR: ☐ (Include any relevant comments). Compliant with the applicable requirements of the MDR with the exception of the minor non-compliance below: ☐ (Add a clear description of any remaining minor non-compliance together with required follow-up actions to close them and timelines for their completion to be followed by the manufacturer.)",
+      "he": "הצדקת היצרן להסתמכות על סעיף 61(10): תואמת את הדרישות הרלוונטיות של ה-MDR: ☐ (כלול כל הערה רלוונטית). תואמת את הדרישות הרלוונטיות של ה-MDR למעט אי-ההתאמה המינורית שלהלן: ☐ (הוסף תיאור ברור של כל אי-התאמה מינורית שנותרה, יחד עם פעולות המעקב הנדרשות לסגירתה ולוחות הזמנים להשלמתה שעל היצרן לעמוד בהם.)"
+    },
+
+    {
+      "id": "sec-k-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Section K: The voluntary clinical consultation on the clinical development strategy (Article 61(2))",
+      "he": "סעיף K: ההיוועצות הקלינית הוולונטרית בנוגע לאסטרטגיית הפיתוח הקלינית (סעיף 61(2))"
+    },
+    {
+      "id": "sec-k-p1",
+      "type": "paragraph",
+      "en": "Expert Panel consultation reference: Expert Panel recommendations: Have the views of the expert panel been given due consideration by the manufacturer? Has this been included in the clinical evaluation report? Is there any divergence between the manufacturers clinical development strategy and the views of the expert panel? If yes – what is the justification for this? Is this acceptable? Explain why.",
+      "he": "סימוכין להיוועצות פאנל המומחים: המלצות פאנל המומחים: האם היצרן נתן את הדעת כראוי לעמדות פאנל המומחים? האם הדבר נכלל בדוח ההערכה הקלינית? האם קיים פער כלשהו בין אסטרטגיית הפיתוח הקלינית של היצרן לבין עמדות פאנל המומחים? אם כן – מהי ההצדקה לכך? האם הדבר מקובל? הסבר מדוע."
+    }
+  ]
+}

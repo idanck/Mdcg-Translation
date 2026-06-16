@@ -1,0 +1,1862 @@
+{
+  "id": "MDCG-2020-10-rev1",
+  "title": {
+    "en": "Safety reporting in clinical investigations of medical devices under the Regulation (EU) 2017/745",
+    "he": "דיווח בטיחות בחקירות קליניות של מכשירים רפואיים לפי התקנה (האיחוד האירופי) 2017/745"
+  },
+  "category": "Clinical Investigation and Evaluation",
+  "publicationDate": "2022-10",
+  "source": {
+    "url": "https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en",
+    "file": "original/mdcg_2020-10-1_en.pdf"
+  },
+  "language": "he",
+  "direction": "rtl",
+  "translationStatus": "review",
+  "glossaryVersion": "2026-06",
+  "blocks": [
+    {
+      "id": "disclaimer-1",
+      "type": "paragraph",
+      "en": "This document has been endorsed by the Medical Device Coordination Group (MDCG) established by Article 103 of Regulation (EU) 2017/745. The MDCG is composed of representatives of all Member States and it is chaired by a representative of the European Commission.",
+      "he": "מסמך זה אושר על ידי קבוצת תיאום המכשירים הרפואיים (MDCG) שהוקמה מכוח סעיף 103 לתקנה (האיחוד האירופי) 2017/745. ה-MDCG מורכבת מנציגים של כל המדינות החברות ובראשה עומד נציג של הנציבות האירופית."
+    },
+    {
+      "id": "disclaimer-2",
+      "type": "paragraph",
+      "en": "The document is not a European Commission document and it cannot be regarded as reflecting the official position of the European Commission. Any views expressed in this document are not legally binding and only the Court of Justice of the European Union can give binding interpretations of Union law.",
+      "he": "המסמך אינו מסמך של הנציבות האירופית ואין לראות בו כמשקף את העמדה הרשמית של הנציבות האירופית. כל דעה המובעת במסמך זה אינה מחייבת מבחינה משפטית, ורק בית הדין לצדק של האיחוד האירופי מוסמך לתת פרשנות מחייבת לדין האיחוד."
+    },
+    {
+      "id": "cover-subtitle",
+      "type": "paragraph",
+      "en": "MDCG 2020-10/1 Rev 1 — Safety reporting in clinical investigations of medical devices under the Regulation (EU) 2017/745. October 2022.",
+      "he": "MDCG 2020-10/1 Rev 1 — דיווח בטיחות בחקירות קליניות של מכשירים רפואיים לפי התקנה (האיחוד האירופי) 2017/745. אוקטובר 2022."
+    },
+    {
+      "id": "changelog-heading",
+      "type": "heading",
+      "level": 1,
+      "en": "MDCG 2020-10/1 Rev.1 changes",
+      "he": "שינויים במהדורה MDCG 2020-10/1 Rev.1"
+    },
+    {
+      "id": "changelog-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          { "en": "Location", "he": "מיקום" },
+          { "en": "Change", "he": "שינוי" }
+        ],
+        [
+          { "en": "Section 3", "he": "Section 3" },
+          { "en": "new definitions", "he": "הגדרות חדשות" }
+        ],
+        [
+          { "en": "Section 4, intro", "he": "Section 4, מבוא" },
+          { "en": "clarification on filling in the reporting table", "he": "הבהרה בנוגע למילוי טבלת הדיווח" }
+        ],
+        [
+          { "en": "Section 5, table", "he": "Section 5, טבלה" },
+          { "en": "updated", "he": "עודכנה" }
+        ],
+        [
+          { "en": "Section 5.1", "he": "Section 5.1" },
+          { "en": "clarification on reporting duties", "he": "הבהרה בנוגע לחובות הדיווח" }
+        ],
+        [
+          { "en": "Section 5.2.2", "he": "Section 5.2.2" },
+          { "en": "internal reference", "he": "הפניה פנימית" }
+        ],
+        [
+          { "en": "Section 9.4", "he": "Section 9.4" },
+          { "en": "clarification", "he": "הבהרה" }
+        ],
+        [
+          { "en": "Section 10.2.1", "he": "Section 10.2.1" },
+          { "en": "coding", "he": "קידוד" }
+        ],
+        [
+          { "en": "Sections 10.2.15-17", "he": "Sections 10.2.15-17" },
+          { "en": "new", "he": "חדשים" }
+        ],
+        [
+          { "en": "Section 10.2.19-20", "he": "Section 10.2.19-20" },
+          { "en": "clarification", "he": "הבהרה" }
+        ]
+      ]
+    },
+    {
+      "id": "sec-1",
+      "type": "heading",
+      "level": 1,
+      "number": "1",
+      "en": "Introduction",
+      "he": "מבוא"
+    },
+    {
+      "id": "sec-1-p1",
+      "type": "paragraph",
+      "en": "Safety reporting in clinical investigations of medical devices shall be performed in line with the requirements of the Regulation (EU) 2017/745 – Medical Device Regulation (MDR) Article 80(2):",
+      "he": "דיווח בטיחות בחקירות קליניות של מכשירים רפואיים יבוצע בהתאם לדרישות התקנה (האיחוד האירופי) 2017/745 – תקנת המכשירים הרפואיים (MDR), סעיף 80(2):"
+    },
+    {
+      "id": "sec-1-p2",
+      "type": "paragraph",
+      "en": "The sponsor shall report, without delay to all Member States in which the clinical investigation is being conducted, all of the following by means of the electronic system referred to in MDR Article 73:",
+      "he": "נותן החסות ידווח, ללא דיחוי, לכל המדינות החברות שבהן מתבצעת החקירה הקלינית, על כל הדברים הבאים באמצעות המערכת האלקטרונית הנזכרת בסעיף 73 ל-MDR:"
+    },
+    {
+      "id": "sec-1-list1",
+      "type": "list",
+      "ordered": true,
+      "items": [
+        { "en": "any serious adverse event that has a causal relationship with the investigational device, the comparator or the investigation procedure or where such causal relationship is reasonably possible;", "he": "כל אירוע שלילי חמור שיש לו קשר סיבתי עם המכשיר הנחקר, מכשיר ההשוואה או הליך החקירה, או שבו קשר סיבתי כזה אפשרי באופן סביר;" },
+        { "en": "any device deficiency that might have led to a serious adverse event if appropriate action had not been taken, intervention had not occurred, or circumstances had been less fortunate;", "he": "כל ליקוי במכשיר שהיה עלול להוביל לאירוע שלילי חמור אילולא ננקטה פעולה מתאימה, אילולא התרחשה התערבות, או אילו הנסיבות היו פחות מוצלחות;" },
+        { "en": "any new findings in relation to any event referred to in points a) and b).", "he": "כל ממצא חדש בנוגע לכל אירוע הנזכר בנקודות א) ו-ב)." }
+      ]
+    },
+    {
+      "id": "sec-1-p3",
+      "type": "paragraph",
+      "en": "The period for reporting shall take account of the severity of the event. Where necessary to ensure timely reporting, the sponsor may submit an initial report that is incomplete followed up by a complete report.",
+      "he": "פרק הזמן לדיווח יביא בחשבון את חומרת האירוע. ככל שנדרש להבטיח דיווח בזמן, רשאי נותן החסות להגיש דיווח ראשוני שאינו שלם, ולאחריו דיווח מלא."
+    },
+    {
+      "id": "sec-1-p4",
+      "type": "paragraph",
+      "en": "Upon request by any Member State in which the clinical investigation is being conducted, the sponsor shall provide all information referred to in paragraph 1.",
+      "he": "לבקשת כל מדינה חברה שבה מתבצעת החקירה הקלינית, יספק נותן החסות את כל המידע הנזכר בפסקה 1."
+    },
+    {
+      "id": "sec-1-p5",
+      "type": "paragraph",
+      "en": "For post-market clinical follow up (PMCF) investigations of CE-marked devices used within the intended use covered by the CE-marking, reporting requirements of MDR Article 80(5) and (6) apply. This means that the vigilance provisions laid down in Articles 87 to 90 and in the acts adopted pursuant to Article 91 shall apply for PMCF clinical investigations. However, this guidance document is still relevant for PMCF clinical investigations as the reporting of serious adverse events where a causal relationship to the preceding investigational procedure has been established shall follow the reporting procedures of clinical investigations as outlined in Article 80.",
+      "he": "עבור חקירות מעקב קליני שלאחר שיווק (PMCF) של מכשירים בעלי סימון CE המשמשים בגבולות השימוש המיועד המכוסה בסימון ה-CE, חלות דרישות הדיווח של סעיף 80(5) ו-(6) ל-MDR. משמעות הדבר היא כי הוראות הערנות הקבועות בסעיפים 87 עד 90 ובמעשים שאומצו מכוח סעיף 91 יחולו על חקירות קליניות מסוג PMCF. עם זאת, מסמך הנחיה זה עדיין רלוונטי לחקירות קליניות מסוג PMCF, שכן דיווח על אירועים שליליים חמורים שבהם נקבע קשר סיבתי להליך החקירה הקודם יתבצע בהתאם לנהלי הדיווח של חקירות קליניות כמתואר בסעיף 80."
+    },
+    {
+      "id": "sec-1-1",
+      "type": "heading",
+      "level": 2,
+      "number": "1.1",
+      "en": "Safety reporting in the absence of Eudamed",
+      "he": "דיווח בטיחות בהיעדר Eudamed"
+    },
+    {
+      "id": "sec-1-1-p1",
+      "type": "paragraph",
+      "en": "Since the electronic system referred to in Article 73 (Eudamed) will not be available and fully functional at the Date of application of the MDR this guidance outlines the procedures for safety reporting in clinical investigations in the absence of Eudamed.",
+      "he": "מאחר שהמערכת האלקטרונית הנזכרת בסעיף 73 (Eudamed) לא תהיה זמינה ופעילה במלואה במועד תחולת ה-MDR, הנחיה זו מתווה את הנהלים לדיווח בטיחות בחקירות קליניות בהיעדר Eudamed."
+    },
+    {
+      "id": "sec-1-1-p2",
+      "type": "paragraph",
+      "en": "This document defines Serious Adverse Event (SAE) reporting modalities and includes a summary tabulation reporting format.",
+      "he": "מסמך זה מגדיר את אופני הדיווח על אירוע שלילי חמור (SAE) וכולל פורמט דיווח בטבלת סיכום."
+    },
+    {
+      "id": "fn-1",
+      "type": "note",
+      "marker": "1",
+      "en": "The PMCF investigations referred to in MDR Article 74(1).",
+      "he": "חקירות ה-PMCF הנזכרות בסעיף 74(1) ל-MDR."
+    },
+    {
+      "id": "sec-2",
+      "type": "heading",
+      "level": 1,
+      "number": "2",
+      "en": "Scope",
+      "he": "תחולה"
+    },
+    {
+      "id": "sec-2-1",
+      "type": "heading",
+      "level": 2,
+      "number": "2.1",
+      "en": "Clinical investigations of medical devices",
+      "he": "חקירות קליניות של מכשירים רפואיים"
+    },
+    {
+      "id": "sec-2-1-p1",
+      "type": "paragraph",
+      "en": "The reporting modalities and format set out in this guidance apply to:",
+      "he": "אופני הדיווח והפורמט הקבועים בהנחיה זו חלים על:"
+    },
+    {
+      "id": "sec-2-1-p2",
+      "type": "paragraph",
+      "en": "Pre-market clinical investigations covered by Articles 62 and 74(2) of the MDR conducted with:",
+      "he": "חקירות קליניות טרום-שיווק המכוסות בסעיפים 62 ו-74(2) ל-MDR, המבוצעות עם:"
+    },
+    {
+      "id": "sec-2-1-list1",
+      "type": "list",
+      "ordered": true,
+      "items": [
+        { "en": "Non-CE marked devices,", "he": "מכשירים ללא סימון CE," },
+        { "en": "CE marked devices used outside the intended use(s) covered by the CE-marking.", "he": "מכשירים בעלי סימון CE המשמשים מחוץ לשימוש/ים המיועד/ים המכוסה/ים בסימון ה-CE." },
+        { "en": "The term pre-market clinical investigation may also include some studies covered by MDR Article 82. As MDR Article 82 allows member states to define national requirements for such clinical investigations, sponsors are encouraged to check with the applicable NCA whether this guidance or other reporting procedures should be applied.", "he": "המונח \"חקירה קלינית טרום-שיווק\" עשוי לכלול גם מחקרים מסוימים המכוסים בסעיף 82 ל-MDR. מאחר שסעיף 82 ל-MDR מאפשר למדינות החברות להגדיר דרישות לאומיות לחקירות קליניות מסוג זה, מומלץ לנותני החסות לברר מול ה-NCA הרלוונטית האם יש להחיל הנחיה זו או נהלי דיווח אחרים." }
+      ]
+    },
+    {
+      "id": "sec-2-1-p3",
+      "type": "paragraph",
+      "en": "In situations where a clinical investigation has started using a non-CE marked device, and the right to bear the CE marking has been obtained before the end of the clinical investigation, the SAE reporting continues until completion of the investigation, according to the clinical investigation plan and these guidelines apply throughout the SAE reporting period.",
+      "he": "במצבים שבהם חקירה קלינית החלה תוך שימוש במכשיר ללא סימון CE, והזכות לשאת את סימון ה-CE התקבלה לפני תום החקירה הקלינית, נמשך הדיווח על SAE עד להשלמת החקירה, בהתאם לתוכנית החקירה הקלינית, והנחיות אלה חלות לאורך כל תקופת הדיווח על SAE."
+    },
+    {
+      "id": "sec-2-1-p4",
+      "type": "paragraph",
+      "en": "For pre-market clinical investigations involving CE marked comparator devices used within their intended purpose, SAEs occurring in or to subjects that are in the comparator arm of an investigation shall also be reported in accordance with these guidelines.",
+      "he": "עבור חקירות קליניות טרום-שיווק הכוללות מכשירי השוואה בעלי סימון CE המשמשים בגבולות מטרתם המיועדת, אירועים שליליים חמורים המתרחשים בקרב נבדקים, או לנבדקים, הנמצאים בזרוע ההשוואה של החקירה ידווחו אף הם בהתאם להנחיות אלה."
+    },
+    {
+      "id": "sec-2-1-note1",
+      "type": "note",
+      "en": "Note: SAEs concerning CE marked devices which meet the vigilance reporting criteria also need to be handled under the post-market surveillance/vigilance system.",
+      "he": "הערה: אירועים שליליים חמורים הנוגעים למכשירים בעלי סימון CE העומדים בקריטריונים לדיווח ערנות, מצריכים טיפול גם במסגרת מערכת המעקב שלאחר שיווק/הערנות."
+    },
+    {
+      "id": "sec-2-1-list2",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Those Post-Market Clinical Follow Up (PMCF) investigations that involve procedures additional to those performed under the normal conditions of use of the device, and where those additional procedures imposed by the clinical investigation plan are invasive or burdensome, covered by MDR Article 74(1). For these clinical investigations the safety reporting for events pertaining to MDR Article 80(6) follow the Serious Adverse Event reporting process only, and are outlined in this guidance. Events pertaining to MDR Article 80(5) are reported following the vigilance process only and are outside the scope of this guidance.", "he": "אותן חקירות מעקב קליני שלאחר שיווק (PMCF) הכוללות הליכים נוספים מעבר לאלה המבוצעים בתנאי השימוש הרגילים של המכשיר, וכאשר אותם הליכים נוספים המוטלים על ידי תוכנית החקירה הקלינית הם פולשניים או מכבידים, המכוסות בסעיף 74(1) ל-MDR. עבור חקירות קליניות אלה, דיווח הבטיחות לאירועים הנוגעים לסעיף 80(6) ל-MDR מתבצע אך ורק בתהליך הדיווח על אירוע שלילי חמור, והוא מתואר בהנחיה זו. אירועים הנוגעים לסעיף 80(5) ל-MDR מדווחים אך ורק בהתאם לתהליך הערנות והם מחוץ לתחולת הנחיה זו." },
+        { "en": "Note that other post-market clinical investigations may be subject to safety reporting requirements in line with this guidance due to national requirements following MDR Article 82, but there is no such general requirement. Sponsors are encouraged to check with the applicable NCA whether this guidance or other reporting procedures should be applied.", "he": "יש לשים לב כי חקירות קליניות אחרות שלאחר שיווק עשויות להיות כפופות לדרישות דיווח בטיחות בהתאם להנחיה זו עקב דרישות לאומיות הנובעות מסעיף 82 ל-MDR, אך אין דרישה כללית כזו. מומלץ לנותני החסות לברר מול ה-NCA הרלוונטית האם יש להחיל הנחיה זו או נהלי דיווח אחרים." },
+        { "en": "Due to the transitional provisions in MDR Article 120(11) this guidance also covers clinical investigations which have started to be conducted in accordance with Article 10 of Directive 90/385/EEC (AIMDD) or Article 15 of Directive 93/42/EEC (MDD) prior to 26 May 2021. These investigations may continue to be conducted after date of application of the MDR, but the reporting of serious adverse events and device deficiencies shall be carried out in accordance with the MDR requirements from 26 May 2021 and onwards.", "he": "בשל ההוראות המעבריות שבסעיף 120(11) ל-MDR, הנחיה זו מכסה גם חקירות קליניות שהחלו להתבצע בהתאם לסעיף 10 להוראה 90/385/EEC (AIMDD) או לסעיף 15 להוראה 93/42/EEC (MDD) לפני 26 במאי 2021. חקירות אלה רשאיות להמשיך להתבצע לאחר מועד תחולת ה-MDR, אך הדיווח על אירועים שליליים חמורים ועל ליקויים במכשיר יתבצע בהתאם לדרישות ה-MDR מ-26 במאי 2021 ואילך." }
+      ]
+    },
+    {
+      "id": "sec-2-2",
+      "type": "heading",
+      "level": 2,
+      "number": "2.2",
+      "en": "Medical devices used in clinical trials of medicinal products (drug trials)",
+      "he": "מכשירים רפואיים המשמשים בניסויים קליניים של מוצרים רפואיים (ניסויי תרופות)"
+    },
+    {
+      "id": "sec-2-2-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "A CE-marked device which is used outside its intended purpose, or a non-CE marked device in a clinical drug trial would implicitly have to be assessed for safety and performance and the study shall follow both MDR (Chapter VI) and the applicable legislation for clinical drug trials. This guidance document is then relevant for compliance with the MDR regarding safety reporting.", "he": "מכשיר בעל סימון CE המשמש מחוץ למטרתו המיועדת, או מכשיר ללא סימון CE בניסוי תרופתי קליני, יחויב במשתמע בהערכת בטיחות וביצועים, והמחקר יפעל הן לפי ה-MDR (פרק VI) והן לפי החקיקה החלה לניסויים תרופתיים קליניים. במקרה זה מסמך הנחיה זה רלוונטי לעמידה ב-MDR בכל הנוגע לדיווח בטיחות." },
+        { "en": "If a drug-device study (or a drug trial) is not undertaken to assess the safety or performance of a device used in the study, the reporting requirements of MDR Article 80 do not apply, as long as the device is CE marked and used within its intended purpose. This guidance is not applicable, but the vigilance reporting provisions of MDR apply in those situations, as for any commercially available device. Sponsors should make sure that the device manufacturer is notified about any incidents related to the device and the legal manufacturer of the device is responsible for the subsequent vigilance reporting.", "he": "אם מחקר תרופה-מכשיר (או ניסוי תרופתי) אינו מבוצע כדי להעריך את הבטיחות או הביצועים של מכשיר המשמש במחקר, דרישות הדיווח של סעיף 80 ל-MDR אינן חלות, כל עוד המכשיר בעל סימון CE ומשמש בגבולות מטרתו המיועדת. הנחיה זו אינה ישימה, אך הוראות דיווח הערנות של ה-MDR חלות במצבים אלה, כמו עבור כל מכשיר זמין מסחרית. על נותני החסות לוודא כי יצרן המכשיר מקבל הודעה על כל אירוע (incident) הקשור למכשיר, והיצרן החוקי של המכשיר אחראי לדיווח הערנות שלאחר מכן." }
+      ]
+    },
+    {
+      "id": "fn-2",
+      "type": "note",
+      "marker": "2",
+      "en": "For the purpose of this guidance, \"NCAs\" encompasses the National Competent Authorities of the EEA, Switzerland and Turkey.",
+      "he": "לצורך הנחיה זו, \"NCAs\" כולל את הרשויות המוסמכות הלאומיות של ה-EEA, שווייץ וטורקיה."
+    },
+    {
+      "id": "sec-3",
+      "type": "heading",
+      "level": 1,
+      "number": "3",
+      "en": "Definitions",
+      "he": "הגדרות"
+    },
+    {
+      "id": "sec-3-1",
+      "type": "heading",
+      "level": 2,
+      "number": "3.1",
+      "en": "Investigational device",
+      "he": "מכשיר נחקר"
+    },
+    {
+      "id": "sec-3-1-p1",
+      "type": "paragraph",
+      "en": "A device that is assessed in a clinical investigation (MDR Article 2(46))",
+      "he": "מכשיר המוערך בחקירה קלינית (סעיף 2(46) ל-MDR)"
+    },
+    {
+      "id": "sec-3-1-note",
+      "type": "note",
+      "en": "Note: An investigational device can be a non-CE marked device or a CE marked device. The definition in MDR Article 2(46) does not differentiate between different regulatory statuses of devices. However, the reporting requirements are different depending on whether the clinical investigation is done for purposes described in Article 62, 74 or 82. The definition is understood to cover also the devices investigated in PMCF investigations, even if they are not subject to notification per Art 74.1.",
+      "he": "הערה: מכשיר נחקר יכול להיות מכשיר ללא סימון CE או מכשיר בעל סימון CE. ההגדרה שבסעיף 2(46) ל-MDR אינה מבחינה בין מעמדים רגולטוריים שונים של מכשירים. עם זאת, דרישות הדיווח שונות בהתאם לשאלה אם החקירה הקלינית מבוצעת למטרות המתוארות בסעיף 62, 74 או 82. ההגדרה מובנת ככוללת גם את המכשירים הנחקרים בחקירות PMCF, גם אם הם אינם כפופים להודעה לפי סעיף 74.1."
+    },
+    {
+      "id": "sec-3-2",
+      "type": "heading",
+      "level": 2,
+      "number": "3.2",
+      "en": "Adverse Event (AE)",
+      "he": "אירוע שלילי (AE)"
+    },
+    {
+      "id": "sec-3-2-p1",
+      "type": "paragraph",
+      "en": "Any untoward medical occurrence, unintended disease or injury or any untoward clinical signs, including an abnormal laboratory finding, in subjects, users or other persons, in the context of a clinical investigation, whether or not related to the investigational device. (MDR Article 2(57))",
+      "he": "כל התרחשות רפואית בלתי רצויה, מחלה או פגיעה לא מכוונת, או כל סימן קליני בלתי רצוי, לרבות ממצא מעבדה חריג, בקרב נבדקים, משתמשים או אנשים אחרים, בהקשר של חקירה קלינית, בין אם קשורים למכשיר הנחקר ובין אם לאו. (סעיף 2(57) ל-MDR)"
+    },
+    {
+      "id": "sec-3-2-note",
+      "type": "paragraph",
+      "en": "Note:",
+      "he": "הערה:"
+    },
+    {
+      "id": "sec-3-2-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "This definition includes events that are anticipated as well as unanticipated events", "he": "הגדרה זו כוללת אירועים צפויים וכן אירועים בלתי צפויים" },
+        { "en": "This definition includes events occurring in the context of a clinical investigation related to the investigational device, the comparator or the procedures involved.", "he": "הגדרה זו כוללת אירועים המתרחשים בהקשר של חקירה קלינית הקשורים למכשיר הנחקר, למכשיר ההשוואה או להליכים המעורבים." }
+      ]
+    },
+    {
+      "id": "sec-3-3",
+      "type": "heading",
+      "level": 2,
+      "number": "3.3",
+      "en": "Adverse device effect (ADE)",
+      "he": "השפעה שלילית של מכשיר (ADE)"
+    },
+    {
+      "id": "sec-3-3-p1",
+      "type": "paragraph",
+      "en": "Any adverse event related to the use of an investigational medical device or a comparator.",
+      "he": "כל אירוע שלילי הקשור לשימוש במכשיר רפואי נחקר או במכשיר השוואה."
+    },
+    {
+      "id": "sec-3-4",
+      "type": "heading",
+      "level": 2,
+      "number": "3.4",
+      "en": "Anticipated serious adverse device effect (ASADE)",
+      "he": "השפעה שלילית חמורה צפויה של מכשיר (ASADE)"
+    },
+    {
+      "id": "sec-3-4-p1",
+      "type": "paragraph",
+      "en": "Any serious adverse device effect which by its nature, incidence, severity or outcome has been identified in the last risk assessment document upon serious adverse device effect occurred.",
+      "he": "כל השפעה שלילית חמורה של מכשיר אשר מבחינת טבעה, שכיחותה, חומרתה או תוצאתה זוהתה במסמך הערכת הסיכונים האחרון, בעת שאירעה ההשפעה השלילית החמורה של המכשיר."
+    },
+    {
+      "id": "sec-3-5",
+      "type": "heading",
+      "level": 2,
+      "number": "3.5",
+      "en": "Device deficiency (DD)",
+      "he": "ליקוי במכשיר (DD)"
+    },
+    {
+      "id": "sec-3-5-p1",
+      "type": "paragraph",
+      "en": "Any inadequacy in the identity, quality, durability, reliability, safety or performance of an investigational device, including malfunction, use errors or inadequacy in information supplied by the manufacturer. (MDR Article 2(59))",
+      "he": "כל אי-התאמה בזהות, באיכות, בעמידות, באמינות, בבטיחות או בביצועים של מכשיר נחקר, לרבות תקלה, טעויות שימוש או אי-התאמה במידע המסופק על ידי היצרן. (סעיף 2(59) ל-MDR)"
+    },
+    {
+      "id": "sec-3-6",
+      "type": "heading",
+      "level": 2,
+      "number": "3.6",
+      "en": "Incident",
+      "he": "אירוע (Incident)"
+    },
+    {
+      "id": "sec-3-6-p1",
+      "type": "paragraph",
+      "en": "Any malfunction or deterioration in the characteristics or performance of a device made available on the market, including use-error due to ergonomic features, as well as any inadequacy in the information supplied by the manufacturer and any undesirable side-effect. (MDR Article 2(64))",
+      "he": "כל תקלה או הידרדרות במאפיינים או בביצועים של מכשיר שהועמד לרשות השוק, לרבות טעות שימוש עקב מאפיינים ארגונומיים, וכן כל אי-התאמה במידע המסופק על ידי היצרן וכל תופעת לוואי בלתי רצויה. (סעיף 2(64) ל-MDR)"
+    },
+    {
+      "id": "fn-3",
+      "type": "note",
+      "marker": "3",
+      "en": "For the purpose of safety reporting all activities related to the use of a medical device may be considered procedures",
+      "he": "לצורך דיווח בטיחות, כל הפעילויות הקשורות לשימוש במכשיר רפואי עשויות להיחשב להליכים"
+    },
+    {
+      "id": "sec-3-7",
+      "type": "heading",
+      "level": 2,
+      "number": "3.7",
+      "en": "New Finding",
+      "he": "ממצא חדש"
+    },
+    {
+      "id": "sec-3-7-p1",
+      "type": "paragraph",
+      "en": "New information discovered as the result of an inquiry/investigation/test based on the occurrence of the event. Follow-up from the event.",
+      "he": "מידע חדש שהתגלה כתוצאה מבירור/חקירה/בדיקה המבוססים על התרחשות האירוע. מעקב לאחר האירוע."
+    },
+    {
+      "id": "sec-3-8",
+      "type": "heading",
+      "level": 2,
+      "number": "3.8",
+      "en": "Serious Adverse Event (SAE)",
+      "he": "אירוע שלילי חמור (SAE)"
+    },
+    {
+      "id": "sec-3-8-p1",
+      "type": "paragraph",
+      "en": "Any adverse event that led to any of the following:",
+      "he": "כל אירוע שלילי שהוביל לאחד מן הבאים:"
+    },
+    {
+      "id": "sec-3-8-list",
+      "type": "list",
+      "ordered": true,
+      "items": [
+        { "en": "death,", "he": "מוות," },
+        { "en": "serious deterioration in the health of the subject, that resulted in any of the following: i. life-threatening illness or injury, ii. permanent impairment of a body structure or a body function, iii. hospitalisation or prolongation of patient hospitalisation, iv. medical or surgical intervention to prevent life-threatening illness or injury or permanent impairment to a body structure or a body function, v. chronic disease,", "he": "הידרדרות חמורה בבריאות הנבדק, שהביאה לאחד מן הבאים: i. מחלה או פגיעה מסכנת חיים, ii. פגיעה קבועה במבנה גוף או בתפקוד גוף, iii. אשפוז או הארכת אשפוז המטופל, iv. התערבות רפואית או כירורגית למניעת מחלה או פגיעה מסכנת חיים או פגיעה קבועה במבנה גוף או בתפקוד גוף, v. מחלה כרונית," },
+        { "en": "foetal distress, foetal death or a congenital physical or mental impairment or birth defect (MDR Article 2(58))", "he": "מצוקה עוברית, מוות עוברי או פגיעה גופנית או נפשית מולדת או מום מולד (סעיף 2(58) ל-MDR)" }
+      ]
+    },
+    {
+      "id": "sec-3-9",
+      "type": "heading",
+      "level": 2,
+      "number": "3.9",
+      "en": "Serious adverse device effect (SADE)",
+      "he": "השפעה שלילית חמורה של מכשיר (SADE)"
+    },
+    {
+      "id": "sec-3-9-p1",
+      "type": "paragraph",
+      "en": "Any adverse device effect that has resulted in any of the consequences characteristic of a serious adverse event.",
+      "he": "כל השפעה שלילית של מכשיר שהביאה לאחת מן ההשלכות האופייניות לאירוע שלילי חמור."
+    },
+    {
+      "id": "sec-3-10",
+      "type": "heading",
+      "level": 2,
+      "number": "3.10",
+      "en": "Serious incident",
+      "he": "אירוע חמור"
+    },
+    {
+      "id": "sec-3-10-p1",
+      "type": "paragraph",
+      "en": "Any incident that directly or indirectly led, might have led or might lead to any of the following:",
+      "he": "כל אירוע (incident) אשר במישרין או בעקיפין הוביל, היה עלול להוביל או עלול להוביל לאחד מן הבאים:"
+    },
+    {
+      "id": "sec-3-10-list",
+      "type": "list",
+      "ordered": true,
+      "items": [
+        { "en": "the death of a patient, user or other person,", "he": "מוות של מטופל, משתמש או אדם אחר," },
+        { "en": "the temporary or permanent serious deterioration of a patient's, user's or other person's state of health,", "he": "הידרדרות חמורה זמנית או קבועה במצב בריאותו של מטופל, משתמש או אדם אחר," },
+        { "en": "a serious public health threat. (MDR Article 2(65))", "he": "איום חמור על בריאות הציבור. (סעיף 2(65) ל-MDR)" }
+      ]
+    },
+    {
+      "id": "sec-3-11",
+      "type": "heading",
+      "level": 2,
+      "number": "3.11",
+      "en": "Unanticipated serious adverse device effect (USADE)",
+      "he": "השפעה שלילית חמורה בלתי צפויה של מכשיר (USADE)"
+    },
+    {
+      "id": "sec-3-11-p1",
+      "type": "paragraph",
+      "en": "Any serious adverse device effect, the nature, severity or outcome of which is not consistent with the reference safety information.",
+      "he": "כל השפעה שלילית חמורה של מכשיר, אשר טבעה, חומרתה או תוצאתה אינם עולים בקנה אחד עם מידע הבטיחות הייחוסי."
+    },
+    {
+      "id": "sec-4",
+      "type": "heading",
+      "level": 1,
+      "number": "4",
+      "en": "Reporting method",
+      "he": "שיטת הדיווח"
+    },
+    {
+      "id": "sec-4-p1",
+      "type": "paragraph",
+      "en": "A new template for the Summary Reporting Form should be used for all studies from 26 May 2021. The tabular format featured in the Appendix needs to be filled in/updated for each reportable event or for new findings/updates to already reported events. It shall be transmitted to all NCAs where the clinical investigation is being performed. For a new finding or update, the line of the SAE needs to be updated and the first column set to \"m\". Write the new findings in the free description of event column and highlight the additions. When applicable, update the others columns as well.",
+      "he": "יש להשתמש בתבנית חדשה של טופס דיווח הסיכום עבור כל המחקרים מ-26 במאי 2021. את הפורמט הטבלאי המופיע בנספח יש למלא/לעדכן עבור כל אירוע בר-דיווח או עבור ממצאים חדשים/עדכונים לאירועים שכבר דווחו. הוא יועבר לכל ה-NCAs שבהן מתבצעת החקירה הקלינית. עבור ממצא חדש או עדכון, יש לעדכן את שורת ה-SAE ולהגדיר את העמודה הראשונה ל-\"m\". יש לכתוב את הממצאים החדשים בעמודת התיאור החופשי של האירוע ולהבליט את התוספות. ככל שרלוונטי, יש לעדכן גם את שאר העמודות."
+    },
+    {
+      "id": "sec-4-p2",
+      "type": "paragraph",
+      "en": "For more details on how to complete the form refer to section 10. Reporting form.",
+      "he": "לפרטים נוספים על אופן מילוי הטופס ראה סעיף 10. טופס הדיווח."
+    },
+    {
+      "id": "sec-4-1",
+      "type": "heading",
+      "level": 2,
+      "number": "4.1",
+      "en": "Transition to reporting via Eudamed",
+      "he": "מעבר לדיווח באמצעות Eudamed"
+    },
+    {
+      "id": "sec-4-1-p1",
+      "type": "paragraph",
+      "en": "Once Eudamed is available and fully functional the obligations and requirements that relate to performing safety reporting via Eudamed shall apply from the date corresponding to six months after the date of publication of the notice referred to in Article 34(3) of the MDR.",
+      "he": "ברגע ש-Eudamed יהיה זמין ופעיל במלואו, החובות והדרישות הנוגעות לביצוע דיווח בטיחות באמצעות Eudamed יחולו מהמועד המתאים לשישה חודשים לאחר מועד פרסום ההודעה הנזכרת בסעיף 34(3) ל-MDR."
+    },
+    {
+      "id": "sec-4-1-1",
+      "type": "heading",
+      "level": 3,
+      "number": "4.1.1",
+      "en": "Ongoing events at time of transition to Eudamed",
+      "he": "אירועים מתמשכים בעת המעבר ל-Eudamed"
+    },
+    {
+      "id": "sec-4-1-1-p1",
+      "type": "paragraph",
+      "en": "It is acknowledged that at the time of transition to reporting via Eudamed, there will be ongoing events for which initial reports have been made according to the procedures described in this document. For these reportable events follow-up and final reports will be submitted to the NCAs by the same procedure, but all new reportable events shall be entered in Eudamed.",
+      "he": "מוכר כי בעת המעבר לדיווח באמצעות Eudamed יהיו אירועים מתמשכים שעבורם נערכו דיווחים ראשוניים בהתאם לנהלים המתוארים במסמך זה. עבור אירועים ברי-דיווח אלה, דיווחי מעקב ודיווחים סופיים יוגשו ל-NCAs באותו נוהל, אך כל אירוע בר-דיווח חדש יוזן ב-Eudamed."
+    },
+    {
+      "id": "sec-4-1-1-p2",
+      "type": "paragraph",
+      "en": "Whether retrospective uploading of previous event reports to Eudamed will be possible is not clear at the time this guidance is issued.",
+      "he": "השאלה אם תתאפשר העלאה רטרוספקטיבית של דיווחי אירועים קודמים ל-Eudamed אינה ברורה בעת פרסום הנחיה זו."
+    },
+    {
+      "id": "sec-4-2",
+      "type": "heading",
+      "level": 2,
+      "number": "4.2",
+      "en": "Overview of formats to be used by sponsors when reporting to NCAs",
+      "he": "סקירת הפורמטים שעל נותני החסות להשתמש בהם בעת דיווח ל-NCAs"
+    },
+    {
+      "id": "sec-4-2-table",
+      "type": "table",
+      "header": false,
+      "rows": [
+        [
+          { "en": "Under directives legislation", "he": "תחת חקיקת ההוראות" },
+          { "en": "", "he": "" }
+        ],
+        [
+          { "en": "Until May 25th, 2021:", "he": "עד 25 במאי 2021:" },
+          { "en": "The tabular format from MEDDEV 2.7/3 Appendix I should be used", "he": "יש להשתמש בפורמט הטבלאי מתוך MEDDEV 2.7/3 נספח I" }
+        ],
+        [
+          { "en": "Transition period", "he": "תקופת המעבר" },
+          { "en": "", "he": "" }
+        ],
+        [
+          { "en": "From May 26th, 2021 and until Eudamed is available", "he": "מ-26 במאי 2021 ועד ש-Eudamed יהיה זמין" },
+          { "en": "The Tabular format of this guidance (Appendix- Summary Reporting Form) should be used.", "he": "יש להשתמש בפורמט הטבלאי של הנחיה זו (נספח – טופס דיווח הסיכום)." }
+        ],
+        [
+          { "en": "When Eudamed is available but not yet mandatory and until the timepoint when Eudamed becomes mandatory", "he": "כאשר Eudamed זמין אך עדיין אינו חובה, ועד למועד שבו Eudamed הופך לחובה" },
+          { "en": "Either the Tabular format of this guidance (Appendix- Summary Reporting Form) or the Eudamed web form can be used. Note: Once the shift to Eudamed reporting has been made for a specific clinical investigation, Eudamed should continue to be used for reporting all new events and updates to those events throughout the remainder of the clinical investigation.", "he": "ניתן להשתמש בפורמט הטבלאי של הנחיה זו (נספח – טופס דיווח הסיכום) או בטופס המקוון של Eudamed. הערה: לאחר שבוצע המעבר לדיווח ב-Eudamed עבור חקירה קלינית מסוימת, יש להמשיך להשתמש ב-Eudamed לדיווח על כל האירועים החדשים והעדכונים לאותם אירועים לאורך יתרת החקירה הקלינית." }
+        ],
+        [
+          { "en": "From the timepoint when Eudamed is mandatory* (*From the date corresponding to six months after the date of publication of the notice referred to in Article 34(3) of the MDR.)", "he": "מהמועד שבו Eudamed הופך לחובה* (*מהמועד המתאים לשישה חודשים לאחר מועד פרסום ההודעה הנזכרת בסעיף 34(3) ל-MDR.)" },
+          { "en": "Web form via Eudamed shall be used for all new events, and updates to those events. The Tabular format of this guidance (Appendix- Summary Reporting Form) can be used only to transmit follow-up reports/final reports to the NCAs on events which were initially reported in this format.", "he": "יש להשתמש בטופס המקוון באמצעות Eudamed עבור כל האירועים החדשים והעדכונים לאותם אירועים. ניתן להשתמש בפורמט הטבלאי של הנחיה זו (נספח – טופס דיווח הסיכום) רק לצורך העברת דיווחי מעקב/דיווחים סופיים ל-NCAs על אירועים שדווחו בתחילה בפורמט זה." }
+        ]
+      ]
+    },
+    {
+      "id": "sec-4-3",
+      "type": "heading",
+      "level": 2,
+      "number": "4.3",
+      "en": "Collecting reports from investigators",
+      "he": "איסוף דיווחים מהחוקרים"
+    },
+    {
+      "id": "sec-4-3-p1",
+      "type": "paragraph",
+      "en": "The format in which sponsors wish to receive single event reports from investigators will be up to the sponsor to design and they may be adapted to an individual clinical investigation. When sponsors design such reporting forms, they should consult this guidance document to ensure all relevant details are captured in the reports from the investigator, so that the sponsors can fulfil their reporting obligations.",
+      "he": "הפורמט שבו נותני החסות מעוניינים לקבל דיווחי אירוע בודד מהחוקרים יעוצב על ידי נותן החסות, וניתן להתאימו לחקירה קלינית מסוימת. בעת עיצוב טופסי דיווח כאלה, על נותני החסות לעיין במסמך הנחיה זה כדי להבטיח שכל הפרטים הרלוונטיים נלכדים בדיווחים מהחוקר, כך שנותני החסות יוכלו לקיים את חובות הדיווח שלהם."
+    },
+    {
+      "id": "sec-5",
+      "type": "heading",
+      "level": 1,
+      "number": "5",
+      "en": "Reportable events",
+      "he": "אירועים ברי-דיווח"
+    },
+    {
+      "id": "sec-5-p1",
+      "type": "paragraph",
+      "en": "For the purpose of this guidance and based on the definitions above, the following events are considered reportable events in accordance with MDR Art. 80(2):",
+      "he": "לצורך הנחיה זו ובהתבסס על ההגדרות לעיל, האירועים הבאים נחשבים לאירועים ברי-דיווח בהתאם לסעיף 80(2) ל-MDR:"
+    },
+    {
+      "id": "sec-5-list1",
+      "type": "list",
+      "ordered": true,
+      "items": [
+        { "en": "any serious adverse event that has a causal relationship with the investigational device, the comparator or the investigation procedure or where such causal relationship is reasonably possible;", "he": "כל אירוע שלילי חמור שיש לו קשר סיבתי עם המכשיר הנחקר, מכשיר ההשוואה או הליך החקירה, או שבו קשר סיבתי כזה אפשרי באופן סביר;" },
+        { "en": "any device deficiency that might have led to a serious adverse event if appropriate action had not been taken, intervention had not occurred, or circumstances had been less fortunate;", "he": "כל ליקוי במכשיר שהיה עלול להוביל לאירוע שלילי חמור אילולא ננקטה פעולה מתאימה, אילולא התרחשה התערבות, או אילו הנסיבות היו פחות מוצלחות;" },
+        { "en": "any new findings in relation to any event referred to in points a) and b).", "he": "כל ממצא חדש בנוגע לכל אירוע הנזכר בנקודות א) ו-ב)." }
+      ]
+    },
+    {
+      "id": "sec-5-p2",
+      "type": "paragraph",
+      "en": "Serious adverse events related to a CE marked device which is part of the investigation procedure (for example a CE-marked implanting tool used in combination with a non-CE marked investigational device) are reportable per MDR Article 80(2) if there is a causal, (or reasonably possible) relationship to the device, the comparator or the investigation procedure. The reporting procedures described in this guide should then be followed in addition to the normal vigilance reporting procedures for CE marked devices.",
+      "he": "אירועים שליליים חמורים הקשורים למכשיר בעל סימון CE שהוא חלק מהליך החקירה (לדוגמה, כלי השתלה בעל סימון CE המשמש בשילוב עם מכשיר נחקר ללא סימון CE) ניתנים לדיווח לפי סעיף 80(2) ל-MDR אם קיים קשר סיבתי (או אפשרי באופן סביר) למכשיר, למכשיר ההשוואה או להליך החקירה. במקרה זה יש לפעול לפי נהלי הדיווח המתוארים במדריך זה, בנוסף לנהלי דיווח הערנות הרגילים למכשירים בעלי סימון CE."
+    },
+    {
+      "id": "sec-5-p3",
+      "type": "paragraph",
+      "en": "All causality assessments should be made using the guidance in section 9. Only causality level 1 (i.e. \"not related\") is excluded from reporting. If either the sponsor or the investigator has assigned a higher causality level than \"not related\", the event should be reported.",
+      "he": "כל הערכות הסיבתיות יבוצעו באמצעות ההנחיה שבסעיף 9. רק רמת סיבתיות 1 (כלומר \"לא קשור\") אינה כלולה בדיווח. אם נותן החסות או החוקר הקצה רמת סיבתיות גבוהה יותר מ-\"לא קשור\", יש לדווח על האירוע."
+    },
+    {
+      "id": "sec-5-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          { "en": "Type of Clinical Investigation", "he": "סוג החקירה הקלינית" },
+          { "en": "Applicable legislation", "he": "החקיקה החלה" },
+          { "en": "MDR regulation", "he": "הוראת MDR" }
+        ],
+        [
+          { "en": "Clinical investigation may be used for conformity procedure for investigational device cf. article 62", "he": "חקירה קלינית שניתן להשתמש בה להליך הערכת התאמה עבור מכשיר נחקר, ר' סעיף 62" },
+          { "en": "MDR", "he": "MDR" },
+          { "en": "MDR art. 80 §2-3", "he": "MDR art. 80 §2-3" }
+        ],
+        [
+          { "en": "PMCF investigation with additional burdensome and/or invasive procedures", "he": "חקירת PMCF עם הליכים נוספים מכבידים ו/או פולשניים" },
+          { "en": "MDR", "he": "MDR" },
+          { "en": "MDR art. 80 §5 => MDR chapter VII AND MDR art. 80 §6. Notwithstanding §5, this Article shall apply where a \"causal relationship\" (per section 9 of this guide) between the serious adverse event and the preceding investigational procedure has been established. For more information see 5.1 Exceptions for PMCF investigations according to MDR Article 74.1", "he": "MDR art. 80 §5 => MDR פרק VII וגם MDR art. 80 §6. על אף האמור ב-§5, סעיף זה יחול כאשר נקבע \"קשר סיבתי\" (לפי סעיף 9 של מדריך זה) בין האירוע השלילי החמור לבין הליך החקירה הקודם. למידע נוסף ראה 5.1 חריגים לחקירות PMCF לפי סעיף 74.1 ל-MDR" }
+        ],
+        [
+          { "en": "PMCF investigation without additional burdensome and/or invasive procedures", "he": "חקירת PMCF ללא הליכים נוספים מכבידים ו/או פולשניים" },
+          { "en": "MDR", "he": "MDR" },
+          { "en": "MDR chapter VII", "he": "MDR פרק VII" }
+        ],
+        [
+          { "en": "Other clinical investigation cf. article 82 or other national legislation", "he": "חקירה קלינית אחרת, ר' סעיף 82 או חקיקה לאומית אחרת" },
+          { "en": "National legislation", "he": "חקיקה לאומית" },
+          { "en": "No provisions in MDR. Safety reporting may be regulated in national legislations in the country where the investigation is conducted.", "he": "אין הוראות ב-MDR. דיווח בטיחות עשוי להיות מוסדר בחקיקה לאומית במדינה שבה מתבצעת החקירה." }
+        ]
+      ]
+    },
+    {
+      "id": "sec-5-1",
+      "type": "heading",
+      "level": 2,
+      "number": "5.1",
+      "en": "Exceptions for PMCF investigations falling under MDR Article 74.1",
+      "he": "חריגים לחקירות PMCF הנכנסות תחת סעיף 74.1 ל-MDR"
+    },
+    {
+      "id": "sec-5-1-p1",
+      "type": "paragraph",
+      "en": "Following Article 74.1 the SAE reporting for these PMCF clinical investigations is governed by Articles 80(5) and 80(6).",
+      "he": "בהתאם לסעיף 74.1, הדיווח על SAE עבור חקירות קליניות מסוג PMCF אלה מוסדר על ידי סעיפים 80(5) ו-80(6)."
+    },
+    {
+      "id": "sec-5-1-p2",
+      "type": "paragraph",
+      "en": "Thus the provisions of vigilance laid down in Articles 87-90 and acts adopted pursuant to Article 91 shall apply. However, the SAEs where a causal relationship between the serious adverse event and the preceding investigational procedure has been established shall follow the reporting procedures of clinical investigations as outlined in Article 80.",
+      "he": "לפיכך, הוראות הערנות הקבועות בסעיפים 87-90 והמעשים שאומצו מכוח סעיף 91 יחולו. עם זאת, אירועים שליליים חמורים שבהם נקבע קשר סיבתי בין האירוע השלילי החמור לבין הליך החקירה הקודם יתבצעו בהתאם לנהלי הדיווח של חקירות קליניות כמתואר בסעיף 80."
+    },
+    {
+      "id": "sec-5-1-p3",
+      "type": "paragraph",
+      "en": "This means that:",
+      "he": "משמעות הדבר היא כי:"
+    },
+    {
+      "id": "sec-5-1-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "For the purpose of this guidance (safety reporting in clinical investigations) reportable events in PMCF clinical investigations are those serious adverse events where a causal relationship between the serious adverse event and a preceding investigational procedure has been established. The other relationship categories i.e. not related, possible and probable do not need to be reported in the context of the clinical investigation under Article 80.", "he": "לצורך הנחיה זו (דיווח בטיחות בחקירות קליניות), אירועים ברי-דיווח בחקירות קליניות מסוג PMCF הם אותם אירועים שליליים חמורים שבהם נקבע קשר סיבתי בין האירוע השלילי החמור לבין הליך חקירה קודם. שאר קטגוריות הקשר, כלומר לא קשור, אפשרי וסביר, אינן צריכות להיות מדווחות בהקשר של החקירה הקלינית לפי סעיף 80." },
+        { "en": "In the context of vigilance, articles 87-90 need to be taken into account and this concerns the Serious Incidents where a relationship between the incident and the device or a procedure stated in the IFU is at least reasonably possible. Also not related, possible and probable events need to be reported in the context of vigilance (Art. 87-90).", "he": "בהקשר של הערנות, יש לקחת בחשבון את סעיפים 87-90, והדבר נוגע לאירועים החמורים (Serious Incidents) שבהם קשר בין האירוע לבין המכשיר או הליך המצוין בהוראות השימוש אפשרי לפחות באופן סביר. גם אירועים שאינם קשורים, אפשריים וסבירים צריכים להיות מדווחים בהקשר של הערנות (סעיפים 87-90)." }
+      ]
+    },
+    {
+      "id": "sec-5-1-p4",
+      "type": "paragraph",
+      "en": "It is thus possible that events occurring in such clinical investigations need to be reported to both the competent authorities in charge of SAE in clinical investigations AND to the competent authorities in charge of vigilance, as outlined above, including a relationship to a procedure stated in the IFU.",
+      "he": "לפיכך ייתכן שאירועים המתרחשים בחקירות קליניות כאלה יצריכו דיווח הן לרשויות המוסמכות האחראיות ל-SAE בחקירות קליניות והן לרשויות המוסמכות האחראיות לערנות, כמתואר לעיל, לרבות קשר להליך המצוין בהוראות השימוש."
+    },
+    {
+      "id": "sec-5-1-p5",
+      "type": "paragraph",
+      "en": "\"Preceding investigational procedure\" shall be understood as a procedure which is imposed by the Clinical Investigation Plan and which has taken place before (or coincided in time) with the serious adverse event. This includes both the investigational device application procedure and any additional burdensome or invasive procedure(s) which defines whether the study is subject to notification requirements following MDR article 74(1).",
+      "he": "\"הליך חקירה קודם\" יובן כהליך המוטל על ידי תוכנית החקירה הקלינית (CIP) ואשר התרחש לפני האירוע השלילי החמור (או בעת ובעונה אחת עמו). הדבר כולל הן את הליך יישום המכשיר הנחקר והן כל הליך/ים נוסף/ים מכביד או פולשני, אשר מגדיר אם המחקר כפוף לדרישות ההודעה לפי סעיף 74(1) ל-MDR."
+    },
+    {
+      "id": "sec-5-2",
+      "type": "heading",
+      "level": 2,
+      "number": "5.2",
+      "en": "Reportable events occurring in other Member States / Third Countries",
+      "he": "אירועים ברי-דיווח המתרחשים במדינות חברות אחרות / מדינות שלישיות"
+    },
+    {
+      "id": "sec-5-2-1",
+      "type": "heading",
+      "level": 3,
+      "number": "5.2.1",
+      "en": "Reportable events occurring in other MS",
+      "he": "אירועים ברי-דיווח המתרחשים במדינות חברות אחרות"
+    },
+    {
+      "id": "sec-5-2-1-p1",
+      "type": "paragraph",
+      "en": "The sponsor shall report the reportable SAEs per clinical investigation (CI). If several CIs are conducted with the same device, only those SAEs that happen in CIs that have the same clinical investigation plan (CIP) code should be reported for those CIs, and only to those MS where a CI with that specific CIP code is being conducted.",
+      "he": "נותן החסות ידווח על האירועים השליליים החמורים ברי-הדיווח לפי חקירה קלינית (CI). אם מתבצעות מספר חקירות קליניות עם אותו מכשיר, יש לדווח עבור אותן חקירות רק על אותם אירועים שליליים חמורים המתרחשים בחקירות בעלות אותו קוד תוכנית חקירה קלינית (CIP), ורק לאותן מדינות חברות שבהן מתבצעת חקירה קלינית עם אותו קוד CIP ספציפי."
+    },
+    {
+      "id": "sec-5-2-1-p2",
+      "type": "paragraph",
+      "en": "It is acknowledged that the same CI can be conducted under different versions of the same clinical investigation plan (same CIP code) in different Member States, e.g. with country specific adaptations, and in those cases the SAE reporting can normally be combined for all the versions of the CIP for the same clinical investigation.",
+      "he": "מוכר כי אותה חקירה קלינית יכולה להתבצע תחת גרסאות שונות של אותה תוכנית חקירה קלינית (אותו קוד CIP) במדינות חברות שונות, למשל עם התאמות ספציפיות למדינה, ובמקרים אלה הדיווח על SAE יכול בדרך כלל להיות מאוחד עבור כל גרסאות ה-CIP של אותה חקירה קלינית."
+    },
+    {
+      "id": "sec-5-2-2",
+      "type": "heading",
+      "level": 3,
+      "number": "5.2.2",
+      "en": "Reportable events occurring in Third Countries",
+      "he": "אירועים ברי-דיווח המתרחשים במדינות שלישיות"
+    },
+    {
+      "id": "sec-5-2-2-p1",
+      "type": "paragraph",
+      "en": "Reportable events occurring in Third Countries in which a clinical investigation is performed under the same clinical investigation plan (see 5.2.1 Reportable events occurring in other MS for what is meant with same CIP) have to be reported in accordance with this guidance to the NCA(s) of the European countries in which the clinical investigation is being conducted.",
+      "he": "אירועים ברי-דיווח המתרחשים במדינות שלישיות שבהן מתבצעת חקירה קלינית תחת אותה תוכנית חקירה קלינית (ראה 5.2.1 אירועים ברי-דיווח המתרחשים במדינות חברות אחרות לעניין משמעות \"אותו CIP\") יש לדווח בהתאם להנחיה זו ל-NCA(s) של המדינות האירופיות שבהן מתבצעת החקירה הקלינית."
+    },
+    {
+      "id": "sec-5-2-2-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "The NCA shall start receiving the reportable events occurring in Third Countries as soon as the clinical investigation is authorised to start in that Member State.", "he": "ה-NCA תתחיל לקבל את האירועים ברי-הדיווח המתרחשים במדינות שלישיות מרגע שהחקירה הקלינית מורשית להתחיל באותה מדינה חברה." },
+        { "en": "Events occurring in Third Countries after the participating European sites have closed shall continue to be reported.", "he": "אירועים המתרחשים במדינות שלישיות לאחר שאתרי החקירה האירופיים המשתתפים נסגרו ימשיכו להיות מדווחים." }
+      ]
+    },
+    {
+      "id": "sec-5-3",
+      "type": "heading",
+      "level": 2,
+      "number": "5.3",
+      "en": "Transition period for reportable events in pre-market clinical investigations initiated under directives legislation",
+      "he": "תקופת מעבר לאירועים ברי-דיווח בחקירות קליניות טרום-שיווק שיזומות תחת חקיקת ההוראות"
+    },
+    {
+      "id": "sec-5-3-p1",
+      "type": "paragraph",
+      "en": "It is acknowledged that the MDR implies changes to the reporting requirements compared to the directives' requirements where all SAEs should be reported regardless of relatedness. Under MDR sponsors are no longer obliged to report SAEs that are \"not related\" to the clinical investigation procedures or the investigational device. At the date of application for MDR there will be ongoing events for clinical investigations initiated under directives legislation. As from the 26th of May 2021 sponsors are no longer expected to submit follow-up reports to NCAs for events that have been deemed \"not related\" (see section 9 of this document for guidance on causality assessment). For ongoing events that have a causality assessment other than \"not related\" follow up reports will still have to be provided.",
+      "he": "מוכר כי ה-MDR מטיל שינויים בדרישות הדיווח בהשוואה לדרישות ההוראות, שבהן יש לדווח על כל האירועים השליליים החמורים ללא קשר למידת הקשר. תחת ה-MDR, נותני החסות אינם מחויבים עוד לדווח על אירועים שליליים חמורים שאינם \"קשורים\" להליכי החקירה הקלינית או למכשיר הנחקר. במועד תחולת ה-MDR יהיו אירועים מתמשכים עבור חקירות קליניות שיזומות תחת חקיקת ההוראות. החל מ-26 במאי 2021 לא צפוי עוד מנותני החסות להגיש דיווחי מעקב ל-NCAs עבור אירועים שנחשבו \"לא קשורים\" (ראה סעיף 9 של מסמך זה להנחיה בנושא הערכת סיבתיות). עבור אירועים מתמשכים שיש להם הערכת סיבתיות שאינה \"לא קשור\", עדיין יהיה צורך לספק דיווחי מעקב."
+    },
+    {
+      "id": "sec-5-3-p2",
+      "type": "paragraph",
+      "en": "To facilitate the transition and give time for sponsors to update Clinical Investigation Plans and study procedures in clinical investigations a sponsor may continue to report all SAEs to NCAs until Eudamed reporting is mandatory (see section 4.1 Transition to reporting via Eudamed). This applies only to studies which have started to be conducted in accordance with Article 10 of Directive 90/385/EEC or Article 15 of Directive 93/42/EEC prior to 26 May 2021.",
+      "he": "כדי להקל על המעבר ולתת לנותני החסות זמן לעדכן את תוכניות החקירה הקלינית ואת נהלי המחקר בחקירות קליניות, רשאי נותן החסות להמשיך לדווח על כל האירועים השליליים החמורים ל-NCAs עד שהדיווח ב-Eudamed יהפוך לחובה (ראה סעיף 4.1 מעבר לדיווח באמצעות Eudamed). הדבר חל רק על מחקרים שהחלו להתבצע בהתאם לסעיף 10 להוראה 90/385/EEC או לסעיף 15 להוראה 93/42/EEC לפני 26 במאי 2021."
+    },
+    {
+      "id": "sec-5-4",
+      "type": "heading",
+      "level": 2,
+      "number": "5.4",
+      "en": "Transition for reportable events in PMCF clinical investigations initiated under directives legislation",
+      "he": "מעבר לאירועים ברי-דיווח בחקירות קליניות מסוג PMCF שיזומות תחת חקיקת ההוראות"
+    },
+    {
+      "id": "sec-5-4-p1",
+      "type": "paragraph",
+      "en": "In case of PMCF studies which required SAE reporting according to the Pre-MDR national legislations, MDR article 80 (5) and 80(6) shall apply from May 26th, 2021.",
+      "he": "במקרה של מחקרי PMCF שהצריכו דיווח על SAE בהתאם לחקיקה הלאומית שקדמה ל-MDR, סעיף 80(5) ו-80(6) ל-MDR יחולו מ-26 במאי 2021."
+    },
+    {
+      "id": "fn-4",
+      "type": "note",
+      "marker": "4",
+      "en": "Countries other than Switzerland, Turkey and those belonging to the EEA.",
+      "he": "מדינות שאינן שווייץ, טורקיה ואלה השייכות ל-EEA."
+    },
+    {
+      "id": "fn-5",
+      "type": "note",
+      "marker": "5",
+      "en": "For the purpose of safety reporting this is defined as \"Authorised to start in the individual Member State in line with applicable directives legislation, regardless of whether any subjects have been recruited in the Member State or not.\"",
+      "he": "לצורך דיווח בטיחות, מוגדר זאת כ-\"מורשה להתחיל במדינה החברה הספציפית בהתאם לחקיקת ההוראות החלה, ללא קשר לשאלה אם גויסו נבדקים במדינה החברה או לא.\""
+    },
+    {
+      "id": "sec-6",
+      "type": "heading",
+      "level": 1,
+      "number": "6",
+      "en": "Report by whom",
+      "he": "מי מדווח"
+    },
+    {
+      "id": "sec-6-p1",
+      "type": "paragraph",
+      "en": "Reportable events have to be reported by the sponsor of the clinical investigation, which could be the manufacturer, the legal representative or another person or entity.",
+      "he": "אירועים ברי-דיווח חייבים להיות מדווחים על ידי נותן החסות של החקירה הקלינית, שעשוי להיות היצרן, הנציג המשפטי או אדם או ישות אחרים."
+    },
+    {
+      "id": "fn-6",
+      "type": "note",
+      "marker": "6",
+      "en": "Contact person established by the sponsor in line with Article 62(2) if accepted by Member State.",
+      "he": "איש קשר שמינה נותן החסות בהתאם לסעיף 62(2), אם התקבל על ידי המדינה החברה."
+    },
+    {
+      "id": "sec-7",
+      "type": "heading",
+      "level": 1,
+      "number": "7",
+      "en": "Report to whom",
+      "he": "למי מדווחים"
+    },
+    {
+      "id": "sec-7-p1",
+      "type": "paragraph",
+      "en": "Reportable events must be reported at the same time to all NCAs where the clinical investigation has commenced using the summary tabulation featured in the Appendix.",
+      "he": "אירועים ברי-דיווח חייבים להיות מדווחים בו-זמנית לכל ה-NCAs שבהן החלה החקירה הקלינית, באמצעות טבלת הסיכום המופיעה בנספח."
+    },
+    {
+      "id": "sec-7-p2",
+      "type": "paragraph",
+      "en": "A list of clinical investigation contact points within the NCAs is published at the Commission's homepage.",
+      "he": "רשימה של נקודות קשר לחקירות קליניות בתוך ה-NCAs מתפרסמת בדף הבית של הנציבות."
+    },
+    {
+      "id": "sec-7-p3",
+      "type": "paragraph",
+      "en": "For the purpose of this guidance, an investigation is considered to have commenced in an individual Member State:",
+      "he": "לצורך הנחיה זו, חקירה נחשבת כאילו החלה במדינה חברה ספציפית:"
+    },
+    {
+      "id": "sec-7-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "For investigations under the directives: When the sponsor is authorized to start the investigation in accordance with the notification procedures in that Member State.", "he": "עבור חקירות תחת ההוראות: כאשר נותן החסות מורשה להתחיל את החקירה בהתאם לנהלי ההודעה באותה מדינה חברה." },
+        { "en": "For investigations started under the MDR: When the sponsor is authorized to start the investigation in that Member State in accordance with the provisions laid out in the MDR.", "he": "עבור חקירות שהחלו תחת ה-MDR: כאשר נותן החסות מורשה להתחיל את החקירה באותה מדינה חברה בהתאם להוראות הקבועות ב-MDR." }
+      ]
+    },
+    {
+      "id": "sec-7-p4",
+      "type": "paragraph",
+      "en": "Member States may also require separate reporting to the Ethics Committee(s).",
+      "he": "המדינות החברות עשויות לדרוש גם דיווח נפרד לוועדה/ות האתיקה."
+    },
+    {
+      "id": "sec-8",
+      "type": "heading",
+      "level": 1,
+      "number": "8",
+      "en": "Reporting timelines",
+      "he": "לוחות זמנים לדיווח"
+    },
+    {
+      "id": "sec-8-1",
+      "type": "heading",
+      "level": 2,
+      "number": "8.1",
+      "en": "Report by sponsor to NCAs",
+      "he": "דיווח של נותן החסות ל-NCAs"
+    },
+    {
+      "id": "sec-8-1-p1",
+      "type": "paragraph",
+      "en": "The sponsor must report to all NCAs where the clinical investigation is authorised to start:",
+      "he": "נותן החסות חייב לדווח לכל ה-NCAs שבהן החקירה הקלינית מורשית להתחיל:"
+    },
+    {
+      "id": "sec-8-1-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "For all reportable events as described in section 5 which indicate an imminent risk of death, serious injury, or serious illness and that requires prompt remedial action for other patients/subjects, users or other persons or a new finding to it: Immediately, but not later than 2 calendar days after awareness by sponsor of a new reportable event or of new information in relation with an already reported event. This includes events that are of significant and unexpected nature such that they become alarming as a potential public health hazard. It also includes the possibility of multiple deaths occurring at short intervals. These concerns may be identified by either the NCA or the manufacturer.", "he": "עבור כל האירועים ברי-הדיווח כמתואר בסעיף 5 המעידים על סיכון מיידי למוות, פגיעה חמורה או מחלה חמורה, והמצריכים פעולה מתקנת מהירה עבור מטופלים/נבדקים אחרים, משתמשים או אנשים אחרים, או ממצא חדש לאירוע כזה: מיד, אך לא יאוחר מ-2 ימים קלנדריים לאחר היוודע לנותן החסות על אירוע בר-דיווח חדש או על מידע חדש בקשר לאירוע שכבר דווח. הדבר כולל אירועים בעלי אופי משמעותי ובלתי צפוי, עד כי הם הופכים למדאיגים כסיכון פוטנציאלי לבריאות הציבור. הוא כולל גם את האפשרות של מקרי מוות מרובים המתרחשים במרווחי זמן קצרים. חששות אלה עשויים להיות מזוהים על ידי ה-NCA או על ידי היצרן." },
+        { "en": "Any other reportable events as described in section 5 or a new finding/update to it: Immediately, but not later than 7 calendar days following the date of awareness by the sponsor of the new reportable event or of new information in relation with an already reported event.", "he": "כל אירוע בר-דיווח אחר כמתואר בסעיף 5, או ממצא חדש/עדכון לו: מיד, אך לא יאוחר מ-7 ימים קלנדריים לאחר המועד שבו נודע לנותן החסות על האירוע בר-הדיווח החדש או על מידע חדש בקשר לאירוע שכבר דווח." }
+      ]
+    },
+    {
+      "id": "sec-8-1-p2",
+      "type": "paragraph",
+      "en": "In some cases, a different periodicity or different modalities may be agreed between the participating NCAs and the sponsor according to the investigation's design and to the pathology under clinical investigation. This would allow implementation of adequate provision for clinical investigations in which SAE frequency is expected to be high due to the natural progression of the disease (e.g. palliative oncology).",
+      "he": "במקרים מסוימים, ניתן להסכים על תדירות שונה או אופנים שונים בין ה-NCAs המשתתפות לבין נותן החסות בהתאם לעיצוב החקירה ולפתולוגיה הנחקרת. הדבר יאפשר יישום הסדר הולם עבור חקירות קליניות שבהן צפויה תדירות SAE גבוהה עקב ההתקדמות הטבעית של המחלה (למשל אונקולוגיה פליאטיבית)."
+    },
+    {
+      "id": "sec-8-2",
+      "type": "heading",
+      "level": 2,
+      "number": "8.2",
+      "en": "Report by the investigator to the sponsor",
+      "he": "דיווח של החוקר לנותן החסות"
+    },
+    {
+      "id": "sec-8-2-p1",
+      "type": "paragraph",
+      "en": "The sponsor shall implement and maintain a system to ensure that the reporting of the reportable events as defined under chapter 5 will be provided by the investigator to the sponsor immediately, but not later than 3 calendar days after investigation site study personnel's awareness of the event.",
+      "he": "נותן החסות ייישם ויתחזק מערכת שתבטיח כי הדיווח על האירועים ברי-הדיווח כהגדרתם בפרק 5 יימסר על ידי החוקר לנותן החסות מיד, אך לא יאוחר מ-3 ימים קלנדריים לאחר היוודע לצוות המחקר באתר החקירה על האירוע."
+    },
+    {
+      "id": "sec-9",
+      "type": "heading",
+      "level": 1,
+      "number": "9",
+      "en": "Causality assessment",
+      "he": "הערכת סיבתיות"
+    },
+    {
+      "id": "sec-9-p1",
+      "type": "paragraph",
+      "en": "The relationship between the use of the medical device (including the medical - surgical procedure) and the occurrence of each adverse event shall be assessed and categorized.",
+      "he": "הקשר בין השימוש במכשיר הרפואי (לרבות ההליך הרפואי-כירורגי) לבין התרחשות כל אירוע שלילי יוערך ויסווג."
+    },
+    {
+      "id": "sec-9-p2",
+      "type": "paragraph",
+      "en": "During causality assessment activity, clinical judgement shall be used and the relevant documents, such as the Investigator's Brochure, the Clinical Investigation Plan or the Risk Analysis Report shall be consulted, as all the foreseeable serious adverse events and the potential risks are listed and assessed there. The presence of confounding factors, such as concomitant medication/treatment, the natural history of the underlying disease, other concurrent illness or risk factors shall also be considered.",
+      "he": "במהלך פעילות הערכת הסיבתיות יש להשתמש בשיקול דעת קליני ולעיין במסמכים הרלוונטיים, כגון חוברת החוקר (Investigator's Brochure), תוכנית החקירה הקלינית או דוח ניתוח הסיכונים, שכן כל האירועים השליליים החמורים הצפויים והסיכונים הפוטנציאליים מפורטים ומוערכים שם. כמו כן יש לשקול את נוכחותם של גורמים מבלבלים (confounding factors), כגון תרופה/טיפול נלווים, ההיסטוריה הטבעית של המחלה הבסיסית, מחלה אחרת במקביל או גורמי סיכון."
+    },
+    {
+      "id": "sec-9-p3",
+      "type": "paragraph",
+      "en": "The above considerations apply also to the serious adverse events occurring in the comparison group.",
+      "he": "השיקולים לעיל חלים גם על אירועים שליליים חמורים המתרחשים בקבוצת ההשוואה."
+    },
+    {
+      "id": "sec-9-p4",
+      "type": "paragraph",
+      "en": "For the purpose of harmonizing reports, each SAE will be classified according to four different levels of causality:",
+      "he": "לצורך האחדת הדיווחים, כל אירוע שלילי חמור יסווג לפי ארבע רמות סיבתיות שונות:"
+    },
+    {
+      "id": "sec-9-list-levels",
+      "type": "list",
+      "ordered": true,
+      "items": [
+        { "en": "Not related", "he": "לא קשור" },
+        { "en": "Possible", "he": "אפשרי" },
+        { "en": "Probable", "he": "סביר" },
+        { "en": "Causal relationship", "he": "קשר סיבתי" }
+      ]
+    },
+    {
+      "id": "sec-9-p5",
+      "type": "paragraph",
+      "en": "The sponsor and the investigators will use the following definitions to assess the relationship of the serious adverse event to the investigational device, the comparator or the investigation procedure.",
+      "he": "נותן החסות והחוקרים ישתמשו בהגדרות הבאות כדי להעריך את הקשר של האירוע השלילי החמור למכשיר הנחקר, למכשיר ההשוואה או להליך החקירה."
+    },
+    {
+      "id": "sec-9-level1-p",
+      "type": "paragraph",
+      "en": "1. Not related: Relationship to the device, comparator or procedures can be excluded when:",
+      "he": "1. לא קשור: ניתן לשלול קשר למכשיר, למכשיר ההשוואה או להליכים כאשר:"
+    },
+    {
+      "id": "sec-9-level1-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "the event has no temporal relationship with the use of the investigational device, or the procedures related to application of the investigational device;", "he": "לאירוע אין קשר זמני עם השימוש במכשיר הנחקר, או עם ההליכים הקשורים ליישום המכשיר הנחקר;" },
+        { "en": "the serious adverse event does not follow a known response pattern to the medical device (if the response pattern is previously known) and is biologically implausible;", "he": "האירוע השלילי החמור אינו עוקב אחר דפוס תגובה ידוע למכשיר הרפואי (אם דפוס התגובה ידוע מראש) ואינו סביר מבחינה ביולוגית;" },
+        { "en": "the discontinuation of medical device application or the reduction of the level of activation/exposure - when clinically feasible - and reintroduction of its use (or increase of the level of activation/exposure), do not impact on the serious adverse event;", "he": "הפסקת יישום המכשיר הרפואי או הפחתת רמת ההפעלה/החשיפה – כאשר הדבר אפשרי מבחינה קלינית – וחידוש השימוש בו (או הגדלת רמת ההפעלה/החשיפה), אינם משפיעים על האירוע השלילי החמור;" },
+        { "en": "the event involves a body-site or an organ that cannot be affected by the device or procedure;", "he": "האירוע מערב אזור גוף או איבר שאינו יכול להיות מושפע מהמכשיר או מההליך;" },
+        { "en": "the serious adverse event can be attributed to another cause (e.g. an underlying or concurrent illness/ clinical condition, an effect of another device, drug, treatment or other risk factors);", "he": "ניתן לייחס את האירוע השלילי החמור לסיבה אחרת (למשל מחלה/מצב קליני בסיסי או במקביל, השפעה של מכשיר אחר, תרופה, טיפול או גורמי סיכון אחרים);" },
+        { "en": "the event does not depend on a false result given by the investigational device used for diagnosis, when applicable;", "he": "האירוע אינו תלוי בתוצאה שגויה שניתנה על ידי המכשיר הנחקר המשמש לאבחון, ככל שרלוונטי;" }
+      ]
+    },
+    {
+      "id": "sec-9-level1-p2",
+      "type": "paragraph",
+      "en": "In order to establish the non-relatedness, not all the criteria listed above might be met at the same time, depending on the type of device/procedures and the serious adverse event.",
+      "he": "כדי לבסס את אי-הקשר, ייתכן שלא כל הקריטריונים המפורטים לעיל יתקיימו בו-זמנית, בהתאם לסוג המכשיר/ההליכים ולאירוע השלילי החמור."
+    },
+    {
+      "id": "sec-9-level2-p",
+      "type": "paragraph",
+      "en": "2. Possible: The relationship with the use of the investigational device or comparator, or the relationship with procedures, is weak but cannot be ruled out completely. Alternative causes are also possible (e.g. an underlying or concurrent illness/ clinical condition or/and an effect of another device, drug or treatment). Cases where relatedness cannot be assessed, or no information has been obtained should also be classified as possible.",
+      "he": "2. אפשרי: הקשר עם השימוש במכשיר הנחקר או במכשיר ההשוואה, או הקשר עם ההליכים, חלש אך אינו ניתן לשלילה מוחלטת. גם סיבות חלופיות אפשריות (למשל מחלה/מצב קליני בסיסי או במקביל ו/או השפעה של מכשיר אחר, תרופה או טיפול). מקרים שבהם לא ניתן להעריך את הקשר, או שלא התקבל מידע, יסווגו אף הם כאפשריים."
+    },
+    {
+      "id": "sec-9-level3-p",
+      "type": "paragraph",
+      "en": "3. Probable: The relationship with the use of the investigational device or comparator, or the relationship with procedures, seems relevant and/or the event cannot be reasonably explained by another cause.",
+      "he": "3. סביר: הקשר עם השימוש במכשיר הנחקר או במכשיר ההשוואה, או הקשר עם ההליכים, נראה רלוונטי ו/או לא ניתן להסביר את האירוע באופן סביר באמצעות סיבה אחרת."
+    },
+    {
+      "id": "sec-9-level4-p",
+      "type": "paragraph",
+      "en": "4. Causal relationship: the serious adverse event is associated with the investigational device, comparator or with procedures beyond reasonable doubt when:",
+      "he": "4. קשר סיבתי: האירוע השלילי החמור קשור למכשיר הנחקר, למכשיר ההשוואה או להליכים מעבר לכל ספק סביר כאשר:"
+    },
+    {
+      "id": "sec-9-level4-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "the event is a known side effect of the product category the device belongs to or of similar devices and procedures;", "he": "האירוע הוא תופעת לוואי ידועה של קטגוריית המוצרים שאליה שייך המכשיר או של מכשירים והליכים דומים;" },
+        { "en": "the event has a temporal relationship with investigational device use/application or procedures;", "he": "לאירוע יש קשר זמני עם השימוש/היישום של המכשיר הנחקר או עם ההליכים;" },
+        { "en": "the event involves a body-site or organ that: the investigational device or procedures are applied to; the investigational device or procedures have an effect on;", "he": "האירוע מערב אזור גוף או איבר ש: המכשיר הנחקר או ההליכים מיושמים עליו; למכשיר הנחקר או להליכים יש השפעה עליו;" },
+        { "en": "the serious adverse event follows a known response pattern to the medical device (if the response pattern is previously known);", "he": "האירוע השלילי החמור עוקב אחר דפוס תגובה ידוע למכשיר הרפואי (אם דפוס התגובה ידוע מראש);" },
+        { "en": "the discontinuation of medical device application (or reduction of the level of activation/exposure) and reintroduction of its use (or increase of the level of activation/exposure), impact on the serious adverse event (when clinically feasible);", "he": "הפסקת יישום המכשיר הרפואי (או הפחתת רמת ההפעלה/החשיפה) וחידוש השימוש בו (או הגדלת רמת ההפעלה/החשיפה) משפיעים על האירוע השלילי החמור (כאשר הדבר אפשרי מבחינה קלינית);" },
+        { "en": "other possible causes (e.g. an underlying or concurrent illness/ clinical condition or/and an effect of another device, drug or treatment) have been adequately ruled out;", "he": "סיבות אפשריות אחרות (למשל מחלה/מצב קליני בסיסי או במקביל ו/או השפעה של מכשיר אחר, תרופה או טיפול) נשללו כראוי;" },
+        { "en": "harm to the subject is due to error in use;", "he": "הנזק לנבדק נגרם עקב טעות בשימוש;" },
+        { "en": "the event depends on a false result given by the investigational device used for diagnosis, when applicable;", "he": "האירוע תלוי בתוצאה שגויה שניתנה על ידי המכשיר הנחקר המשמש לאבחון, ככל שרלוונטי;" }
+      ]
+    },
+    {
+      "id": "sec-9-level4-p2",
+      "type": "paragraph",
+      "en": "In order to establish the relatedness, not all the criteria listed above might be met at the same time, depending on the type of device/procedures and the serious adverse event.",
+      "he": "כדי לבסס את הקשר, ייתכן שלא כל הקריטריונים המפורטים לעיל יתקיימו בו-זמנית, בהתאם לסוג המכשיר/ההליכים ולאירוע השלילי החמור."
+    },
+    {
+      "id": "sec-9-p6",
+      "type": "paragraph",
+      "en": "The sponsor and the investigators will distinguish between the serious adverse events related to the investigational device and those related to the procedures (any procedure specific to the clinical investigation). An adverse event can be related both to procedures and the investigational device. Complications caused by concomitant treatments not imposed by the clinical investigation plan are considered not related. Similarly, several routine diagnostic or patient management procedures are applied to patients regardless of the clinical investigation plan. If routine procedures are not imposed by the clinical investigation plan, complications caused by them are also considered not related.",
+      "he": "נותן החסות והחוקרים יבחינו בין האירועים השליליים החמורים הקשורים למכשיר הנחקר לבין אלה הקשורים להליכים (כל הליך הספציפי לחקירה הקלינית). אירוע שלילי יכול להיות קשור הן להליכים והן למכשיר הנחקר. סיבוכים הנגרמים מטיפולים נלווים שאינם מוטלים על ידי תוכנית החקירה הקלינית נחשבים ללא קשורים. באופן דומה, מספר הליכים שגרתיים לאבחון או לניהול המטופל מיושמים על מטופלים ללא קשר לתוכנית החקירה הקלינית. אם הליכים שגרתיים אינם מוטלים על ידי תוכנית החקירה הקלינית, סיבוכים הנגרמים מהם נחשבים אף הם ללא קשורים."
+    },
+    {
+      "id": "sec-9-p7",
+      "type": "paragraph",
+      "en": "The relationship between a serious adverse event and the procedure or the device, needs to be assessed separately. This does however not mean that they are mutually exclusive, a serious adverse event can be related to both the procedure and the device, or it can be related only to the procedure or only to the device. When it is unclear whether an event is related to the device or to the procedure, the investigator should:",
+      "he": "הקשר בין אירוע שלילי חמור לבין ההליך או המכשיר צריך להיות מוערך בנפרד. עם זאת, אין משמעות הדבר שהם סותרים זה את זה; אירוע שלילי חמור יכול להיות קשור הן להליך והן למכשיר, או שהוא יכול להיות קשור רק להליך או רק למכשיר. כאשר אין זה ברור אם אירוע קשור למכשיר או להליך, על החוקר:"
+    },
+    {
+      "id": "sec-9-p7-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "set the Relationship to device to possible (or higher) AND", "he": "להגדיר את הקשר למכשיר כאפשרי (או גבוה יותר) וגם" },
+        { "en": "set the Relationship to procedure to possible (or higher)", "he": "להגדיר את הקשר להליך כאפשרי (או גבוה יותר)" }
+      ]
+    },
+    {
+      "id": "sec-9-p8",
+      "type": "paragraph",
+      "en": "Since it is the healthcare provider who performs the procedures and manages/handles the medical device(s), the causality assessment of this healthcare provider should prevail.",
+      "he": "מאחר שספק שירותי הבריאות הוא זה המבצע את ההליכים ומנהל/מטפל במכשיר/ים הרפואי/ים, הערכת הסיבתיות של ספק שירותי בריאות זה תגבר."
+    },
+    {
+      "id": "sec-9-p9",
+      "type": "paragraph",
+      "en": "In some particular cases the event may not be adequately assessed because information is insufficient or contradictory and/or the data cannot be verified or supplemented. The sponsor and the Investigators will make the maximum effort to define and categorize the event and avoid these situations. Where an investigator assessment is not available and/or the sponsor remains uncertain about classifying the serious adverse event, the sponsor should not exclude the relatedness; the event should be classified as \"possible\" and the reporting not be delayed.",
+      "he": "במקרים מסוימים ייתכן שהאירוע לא יוערך כראוי משום שהמידע אינו מספיק או סותר ו/או לא ניתן לאמת או להשלים את הנתונים. נותן החסות והחוקרים יעשו את המאמץ המרבי להגדיר ולסווג את האירוע ולהימנע ממצבים אלה. כאשר הערכת חוקר אינה זמינה ו/או נותן החסות נותר בלתי בטוח בסיווג האירוע השלילי החמור, אל לו לנותן החסות לשלול את הקשר; יש לסווג את האירוע כ\"אפשרי\" ואין לעכב את הדיווח."
+    },
+    {
+      "id": "sec-9-p10",
+      "type": "paragraph",
+      "en": "Particular attention shall be given to the causality evaluation of unanticipated serious adverse events. The occurrence of unanticipated events related could suggest that the clinical investigation places subjects at increased risk of harm than was to be expected beforehand.",
+      "he": "יש להקדיש תשומת לב מיוחדת להערכת הסיבתיות של אירועים שליליים חמורים בלתי צפויים. התרחשותם של אירועים בלתי צפויים קשורים עשויה להעיד על כך שהחקירה הקלינית מעמידה את הנבדקים בסיכון מוגבר לנזק מכפי שהיה צפוי מראש."
+    },
+    {
+      "id": "fn-7",
+      "type": "note",
+      "marker": "7",
+      "en": "Intended as both investigational device and comparator.",
+      "he": "הכוונה היא הן למכשיר הנחקר והן למכשיר ההשוואה."
+    },
+    {
+      "id": "fn-8",
+      "type": "note",
+      "marker": "8",
+      "en": "For a comparator device, the Operator's Manual could be a relevant document.",
+      "he": "עבור מכשיר השוואה, מדריך המפעיל (Operator's Manual) עשוי להיות מסמך רלוונטי."
+    },
+    {
+      "id": "fn-9",
+      "type": "note",
+      "marker": "9",
+      "en": "If an investigational device gives an incorrect diagnosis, the patient might, for example, receive an unnecessary treatment and incur all the risks that accompany that treatment, or might be incorrectly diagnosed with a serious disease. In other cases, the patient might not receive an effective treatment (thereby missing out on the benefits that treatment would confer) or might not be diagnosed with the correct disease or condition.",
+      "he": "אם מכשיר נחקר נותן אבחנה שגויה, המטופל עלול, למשל, לקבל טיפול מיותר ולשאת בכל הסיכונים הנלווים לאותו טיפול, או עלול להיות מאובחן בטעות במחלה חמורה. במקרים אחרים, המטופל עלול שלא לקבל טיפול יעיל (ובכך לפספס את התועלות שטיפול זה היה מקנה) או עלול שלא להיות מאובחן במחלה או במצב הנכונים."
+    },
+    {
+      "id": "fn-10",
+      "type": "note",
+      "marker": "10",
+      "en": "If an investigational device gives an incorrect diagnosis, the patient might, for example, receive an unnecessary treatment and incur all the risks that accompany that treatment, or might be incorrectly diagnosed with a serious disease. In other cases, the patient might not receive an effective treatment (thereby missing out on the benefits that treatment would confer), or might not be diagnosed with the correct disease or condition.",
+      "he": "אם מכשיר נחקר נותן אבחנה שגויה, המטופל עלול, למשל, לקבל טיפול מיותר ולשאת בכל הסיכונים הנלווים לאותו טיפול, או עלול להיות מאובחן בטעות במחלה חמורה. במקרים אחרים, המטופל עלול שלא לקבל טיפול יעיל (ובכך לפספס את התועלות שטיפול זה היה מקנה), או עלול שלא להיות מאובחן במחלה או במצב הנכונים."
+    },
+    {
+      "id": "sec-10",
+      "type": "heading",
+      "level": 1,
+      "number": "10",
+      "en": "Reporting form",
+      "he": "טופס הדיווח"
+    },
+    {
+      "id": "sec-10-p1",
+      "type": "paragraph",
+      "en": "The reporting form template for the summary SAE tabulation is given in the Appendix of this document.",
+      "he": "תבנית טופס הדיווח עבור טבלת סיכום ה-SAE מובאת בנספח של מסמך זה."
+    },
+    {
+      "id": "sec-10-p2",
+      "type": "paragraph",
+      "en": "The reporting form is study specific and covers only a given clinical investigation, defined by a distinct clinical investigation plan. English is the recommended language for the reporting form. The report form can be modified in any applicable software (not only Microsoft Excel) but the file needs to be compatible with Microsoft Excel when sent to the participating NCAs.",
+      "he": "טופס הדיווח הוא ספציפי למחקר ומכסה רק חקירה קלינית נתונה, המוגדרת על ידי תוכנית חקירה קלינית ייחודית. אנגלית היא השפה המומלצת לטופס הדיווח. ניתן לערוך את טופס הדיווח בכל תוכנה ישימה (לא רק Microsoft Excel), אך הקובץ צריך להיות תואם ל-Microsoft Excel בעת שליחתו ל-NCAs המשתתפות."
+    },
+    {
+      "id": "sec-10-p3",
+      "type": "paragraph",
+      "en": "The template form contains inserted filters and functionality to facilitate use of preferred terminology in the reporting. These are important for the analysis and should be maintained.",
+      "he": "טופס התבנית מכיל מסננים מובנים ופונקציונליות להקלת השימוש במינוח המועדף בדיווח. אלה חשובים לניתוח ויש לשמרם."
+    },
+    {
+      "id": "sec-10-p4",
+      "type": "paragraph",
+      "en": "Sponsors who generate the excel report file by automated processes may implement other technical features in their systems for excel file generation to ensure the preferred terms listed in metadata are used.",
+      "he": "נותני חסות המפיקים את קובץ דיווח ה-Excel באמצעות תהליכים אוטומטיים רשאים ליישם תכונות טכניות אחרות במערכותיהם לצורך הפקת קובץ ה-Excel, כדי להבטיח שייעשה שימוש במונחים המועדפים המפורטים במטא-נתונים."
+    },
+    {
+      "id": "sec-10-p5",
+      "type": "paragraph",
+      "en": "The table gives a cumulative overview of the reportable events per clinical investigation and will be updated and transmitted to participating NCAs each time a new reportable event or a new finding to an already reported event is to be reported. More detailed information has to be provided on request of an NCA, if so requested by using the individual study specific reporting form (see further section 4.3 Collecting reports from investigators).",
+      "he": "הטבלה מספקת סקירה מצטברת של האירועים ברי-הדיווח לכל חקירה קלינית, ותעודכן ותועבר ל-NCAs המשתתפות בכל פעם שיש לדווח על אירוע בר-דיווח חדש או על ממצא חדש לאירוע שכבר דווח. יש לספק מידע מפורט יותר לבקשת NCA, אם תתבקש, באמצעות טופס הדיווח הספציפי למחקר הבודד (ראה עוד סעיף 4.3 איסוף דיווחים מהחוקרים)."
+    },
+    {
+      "id": "sec-10-1",
+      "type": "heading",
+      "level": 2,
+      "number": "10.1",
+      "en": "Completion guidelines: Form header",
+      "he": "הנחיות מילוי: כותרת הטופס"
+    },
+    {
+      "id": "sec-10-1-1",
+      "type": "heading",
+      "level": 3,
+      "number": "10.1.1",
+      "en": "EUDAMED/CIV-ID",
+      "he": "EUDAMED/CIV-ID"
+    },
+    {
+      "id": "sec-10-1-1-p1",
+      "type": "paragraph",
+      "en": "The union-wide Single Identification Number mentioned in MDR Article 70(1) will not be possible to generate until Eudamed for MDR is fully functional. For the transition period, clinical investigations will get tracking numbers (CIV-ID) upon registration in the Eudamed2 database which is performed by the NCA upon receipt of an application. This CIV ID is provided to the sponsor during the NCA's handling of the initial application for the clinical investigation and should be entered on the safety reporting form.",
+      "he": "לא יהיה ניתן ליצור את מספר הזיהוי היחיד כלל-איחודי הנזכר בסעיף 70(1) ל-MDR עד ש-Eudamed עבור ה-MDR יהיה פעיל במלואו. בתקופת המעבר, חקירות קליניות יקבלו מספרי מעקב (CIV-ID) עם הרישום במסד הנתונים Eudamed2, המבוצע על ידי ה-NCA עם קבלת הבקשה. CIV-ID זה נמסר לנותן החסות במהלך טיפול ה-NCA בבקשה הראשונית לחקירה הקלינית, ויש להזינו בטופס דיווח הבטיחות."
+    },
+    {
+      "id": "sec-10-1-1-p2",
+      "type": "paragraph",
+      "en": "The CIV ID should already be available for a clinical investigation started under the directives' legislation, where it should be indicated on the MEDDEV 2.7/3 reporting form etc. Sponsors who are not aware of the CIV ID of their clinical investigations are invited to contact the concerned NCA to get this information.",
+      "he": "CIV-ID צריך להיות זמין כבר עבור חקירה קלינית שהחלה תחת חקיקת ההוראות, שם הוא צריך להיות מצוין בטופס הדיווח MEDDEV 2.7/3 וכד'. נותני חסות שאינם מודעים ל-CIV-ID של חקירותיהם הקליניות מוזמנים לפנות ל-NCA הנוגעת בדבר כדי לקבל מידע זה."
+    },
+    {
+      "id": "sec-10-1-2",
+      "type": "heading",
+      "level": 3,
+      "number": "10.1.2",
+      "en": "Title of Clinical Investigation",
+      "he": "כותרת החקירה הקלינית"
+    },
+    {
+      "id": "sec-10-1-2-p1",
+      "type": "paragraph",
+      "en": "The identifying title of the Clinical Investigation. The title indicated here should be consistent with other title entries (such as in clinical investigation application form, clinical investigation plan cover page etc).",
+      "he": "הכותרת המזהה של החקירה הקלינית. הכותרת המצוינת כאן צריכה להיות עקבית עם רשומות כותרת אחרות (כגון בטופס הבקשה לחקירה קלינית, בעמוד השער של תוכנית החקירה הקלינית וכד')."
+    },
+    {
+      "id": "sec-10-1-3",
+      "type": "heading",
+      "level": 3,
+      "number": "10.1.3",
+      "en": "CIP number/code",
+      "he": "מספר/קוד CIP"
+    },
+    {
+      "id": "sec-10-1-3-p1",
+      "type": "paragraph",
+      "en": "The unique identification code or short name assigned to the specific clinical investigation plan by the Sponsor (numeric, alphanumeric or acronym) should be indicated.",
+      "he": "יש לציין את קוד הזיהוי הייחודי או השם הקצר שהוקצה לתוכנית החקירה הקלינית הספציפית על ידי נותן החסות (מספרי, אלפאנומרי או ראשי תיבות)."
+    },
+    {
+      "id": "sec-10-1-4",
+      "type": "heading",
+      "level": 3,
+      "number": "10.1.4",
+      "en": "Contact person",
+      "he": "איש קשר"
+    },
+    {
+      "id": "sec-10-1-4-p1",
+      "type": "paragraph",
+      "en": "Name, address, e-mail and telephone number should be provided for the person who is sponsor's point of contact in case NCA have follow up questions regarding submitted safety report forms.",
+      "he": "יש לספק שם, כתובת, דוא\"ל ומספר טלפון עבור האדם שהוא נקודת הקשר של נותן החסות, למקרה שיש ל-NCA שאלות מעקב בנוגע לטופסי דיווח הבטיחות שהוגשו."
+    },
+    {
+      "id": "sec-10-1-5",
+      "type": "heading",
+      "level": 3,
+      "number": "10.1.5",
+      "en": "MS+NCA Reference numbers",
+      "he": "מספרי ייחוס של מדינה חברה + NCA"
+    },
+    {
+      "id": "sec-10-1-5-p1",
+      "type": "paragraph",
+      "en": "For each participating Member State indicate the country code and the NCA's national reference number for the clinical investigation.",
+      "he": "עבור כל מדינה חברה משתתפת, יש לציין את קוד המדינה ואת מספר הייחוס הלאומי של ה-NCA עבור החקירה הקלינית."
+    },
+    {
+      "id": "ex-10-1-5",
+      "type": "example",
+      "caption": {
+        "en": "Example — MS + NCA reference numbers (sample, kept verbatim).",
+        "he": "דוגמה — מספרי ייחוס של מדינה חברה + NCA (לדוגמה בלבד, נשמר verbatim)."
+      },
+      "verbatim": "SE 5.1-20YY-XXXXXX\nDK 20YYXXXXXX"
+    },
+    {
+      "id": "sec-10-1-6",
+      "type": "heading",
+      "level": 3,
+      "number": "10.1.6",
+      "en": "No. of subjects enrolled to date total",
+      "he": "מספר הנבדקים שגויסו עד כה – סה\"כ"
+    },
+    {
+      "id": "sec-10-1-6-p1",
+      "type": "paragraph",
+      "en": "Indicate the total number of subjects who have been enrolled (per date of report) in the clinical investigation globally.",
+      "he": "יש לציין את המספר הכולל של הנבדקים שגויסו (נכון לתאריך הדיווח) בחקירה הקלינית בעולם כולו."
+    },
+    {
+      "id": "sec-10-1-7",
+      "type": "heading",
+      "level": 3,
+      "number": "10.1.7",
+      "en": "No. of subjects enrolled to date per country",
+      "he": "מספר הנבדקים שגויסו עד כה – לפי מדינה"
+    },
+    {
+      "id": "sec-10-1-7-p1",
+      "type": "paragraph",
+      "en": "List all countries where the clinical investigation has been authorised by date of report and indicate the number of subjects who have been enrolled in the clinical investigation (per date of report) in each country.",
+      "he": "יש למנות את כל המדינות שבהן אושרה החקירה הקלינית נכון לתאריך הדיווח, ולציין את מספר הנבדקים שגויסו בחקירה הקלינית (נכון לתאריך הדיווח) בכל מדינה."
+    },
+    {
+      "id": "sec-10-1-8",
+      "type": "heading",
+      "level": 3,
+      "number": "10.1.8",
+      "en": "Device type",
+      "he": "סוג המכשיר"
+    },
+    {
+      "id": "sec-10-1-8-p1",
+      "type": "paragraph",
+      "en": "Indicate the type of device(s) assessed in the clinical investigation (e.g. pacemaker, coronary stent, hip implant).",
+      "he": "יש לציין את סוג המכשיר/ים המוערך/ים בחקירה הקלינית (למשל קוצב לב, תומכן כלילי, שתל ירך)."
+    },
+    {
+      "id": "sec-10-1-9",
+      "type": "heading",
+      "level": 3,
+      "number": "10.1.9",
+      "en": "Reference Member State",
+      "he": "מדינה חברה מייחסת"
+    },
+    {
+      "id": "sec-10-1-9-p1",
+      "type": "paragraph",
+      "en": "Indicate the name of the Member State which drew the unique EUDAMED/CIV ID (normally the first Member State receiving an application for the clinical investigation). Once the coordinated assessment procedure (per MDR Article 78) is up and running, the coordinating Member State should be indicated here.",
+      "he": "יש לציין את שם המדינה החברה שהפיקה את ה-EUDAMED/CIV-ID הייחודי (בדרך כלל המדינה החברה הראשונה שקיבלה בקשה לחקירה הקלינית). לאחר שהליך ההערכה המתואם (לפי סעיף 78 ל-MDR) יהיה פעיל, יש לציין כאן את המדינה החברה המתאמת."
+    },
+    {
+      "id": "sec-10-1-10",
+      "type": "heading",
+      "level": 3,
+      "number": "10.1.10",
+      "en": "No. of investigational devices used to date total",
+      "he": "מספר המכשירים הנחקרים שנעשה בהם שימוש עד כה – סה\"כ"
+    },
+    {
+      "id": "sec-10-1-10-p1",
+      "type": "paragraph",
+      "en": "Indicate the total number of investigational devices which have been used (per date of report) in the clinical investigation globally.",
+      "he": "יש לציין את המספר הכולל של המכשירים הנחקרים שנעשה בהם שימוש (נכון לתאריך הדיווח) בחקירה הקלינית בעולם כולו."
+    },
+    {
+      "id": "sec-10-1-11",
+      "type": "heading",
+      "level": 3,
+      "number": "10.1.11",
+      "en": "No. of investigational devices used to date per country",
+      "he": "מספר המכשירים הנחקרים שנעשה בהם שימוש עד כה – לפי מדינה"
+    },
+    {
+      "id": "sec-10-1-11-p1",
+      "type": "paragraph",
+      "en": "List all countries where the clinical investigation has been authorised by date of report and indicate the number of investigational devices which have been used in the clinical investigation (per date of report) in each country.",
+      "he": "יש למנות את כל המדינות שבהן אושרה החקירה הקלינית נכון לתאריך הדיווח, ולציין את מספר המכשירים הנחקרים שנעשה בהם שימוש בחקירה הקלינית (נכון לתאריך הדיווח) בכל מדינה."
+    },
+    {
+      "id": "sec-10-1-12",
+      "type": "heading",
+      "level": 3,
+      "number": "10.1.12",
+      "en": "Date of report",
+      "he": "תאריך הדיווח"
+    },
+    {
+      "id": "sec-10-1-12-p1",
+      "type": "paragraph",
+      "en": "Indicate the date when the report is compiled for transmission to NCAs. Format DD/MM/YYYY.",
+      "he": "יש לציין את התאריך שבו הוכן הדיווח לשם העברה ל-NCAs. פורמט DD/MM/YYYY."
+    },
+    {
+      "id": "sec-10-2",
+      "type": "heading",
+      "level": 2,
+      "number": "10.2",
+      "en": "Completion guidelines: Event details",
+      "he": "הנחיות מילוי: פרטי האירוע"
+    },
+    {
+      "id": "sec-10-2-p1",
+      "type": "paragraph",
+      "en": "Each unique reportable event is presented in a separate line. Updates to a previously reported event should be made by changing the information in the same line, and clearly identified according to the principles described below.",
+      "he": "כל אירוע בר-דיווח ייחודי מוצג בשורה נפרדת. עדכונים לאירוע שדווח קודם לכן ייעשו על ידי שינוי המידע באותה שורה, ויזוהו בבירור בהתאם לעקרונות המתוארים להלן."
+    },
+    {
+      "id": "sec-10-2-p2",
+      "type": "paragraph",
+      "en": "Any new information added in the form should be highlighted in bold and/or colour. This includes any new lines added and any changes made to the information in an already existing line.",
+      "he": "כל מידע חדש המתווסף לטופס יודגש בהדגשה (bold) ו/או בצבע. הדבר כולל כל שורה חדשה שמתווספת וכל שינוי שנעשה במידע בשורה קיימת."
+    },
+    {
+      "id": "sec-10-2-p3",
+      "type": "paragraph",
+      "en": "In the initial report, in any given line, no fields shall be left intentionally blank. To meet this requirement, preliminary information should be filled in, despite the need of further updating.",
+      "he": "בדיווח הראשוני, בכל שורה נתונה, לא יושארו שדות ריקים במכוון. כדי לעמוד בדרישה זו, יש למלא מידע ראשוני, על אף הצורך בעדכון נוסף."
+    },
+    {
+      "id": "sec-10-2-1",
+      "type": "heading",
+      "level": 3,
+      "number": "10.2.1",
+      "en": "Status",
+      "he": "סטטוס"
+    },
+    {
+      "id": "sec-10-2-1-p1",
+      "type": "paragraph",
+      "en": "The sponsor shall identify the new/updated information in the status column as:",
+      "he": "נותן החסות יזהה את המידע החדש/המעודכן בעמודת הסטטוס כך:"
+    },
+    {
+      "id": "sec-10-2-1-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "A = added = new reportable event;", "he": "A = נוסף = אירוע בר-דיווח חדש;" },
+        { "en": "D = deleted = already reported event that has been deleted due to downgrading to non-serious, due to integration in another event, or … Add the reason for deletion in the corresponding cell in column \"Description of event\".", "he": "D = נמחק = אירוע שכבר דווח ונמחק עקב הורדת דירוג ללא-חמור, עקב מיזוג באירוע אחר, או … יש להוסיף את סיבת המחיקה בתא המתאים בעמודת \"תיאור האירוע\"." },
+        { "en": "M = modified = new finding/update to an already reported event;", "he": "M = שונה = ממצא חדש/עדכון לאירוע שכבר דווח;" },
+        { "en": "U = unchanged.", "he": "U = ללא שינוי." }
+      ]
+    },
+    {
+      "id": "sec-10-2-1-p2",
+      "type": "paragraph",
+      "en": "Do not add other options.",
+      "he": "אין להוסיף אפשרויות אחרות."
+    },
+    {
+      "id": "sec-10-2-2",
+      "type": "heading",
+      "level": 3,
+      "number": "10.2.2",
+      "en": "Date Sponsor received report of SAE/DD",
+      "he": "התאריך שבו קיבל נותן החסות דיווח על SAE/DD"
+    },
+    {
+      "id": "sec-10-2-2-p1",
+      "type": "paragraph",
+      "en": "Indicate the date when the sponsor was first notified by the investigation site about the event. This date is checked for compliance with reporting timelines as outlined in section 8 Reporting timelines. Format DD/MM/YYYY.",
+      "he": "יש לציין את התאריך שבו נמסרה לנותן החסות לראשונה הודעה מאתר החקירה על האירוע. תאריך זה נבדק לעמידה בלוחות הזמנים לדיווח כמתואר בסעיף 8 לוחות זמנים לדיווח. פורמט DD/MM/YYYY."
+    },
+    {
+      "id": "sec-10-2-3",
+      "type": "heading",
+      "level": 3,
+      "number": "10.2.3",
+      "en": "Country code",
+      "he": "קוד מדינה"
+    },
+    {
+      "id": "sec-10-2-3-p1",
+      "type": "paragraph",
+      "en": "Indicate the country code for the country in which the subject associated with the event has been enrolled.",
+      "he": "יש לציין את קוד המדינה עבור המדינה שבה גויס הנבדק הקשור לאירוע."
+    },
+    {
+      "id": "sec-10-2-4",
+      "type": "heading",
+      "level": 3,
+      "number": "10.2.4",
+      "en": "Investigation site",
+      "he": "אתר החקירה"
+    },
+    {
+      "id": "sec-10-2-4-p1",
+      "type": "paragraph",
+      "en": "Name identifying institution or site where the clinical investigation is carried out.",
+      "he": "שם המזהה את המוסד או האתר שבו מתבצעת החקירה הקלינית."
+    },
+    {
+      "id": "sec-10-2-5",
+      "type": "heading",
+      "level": 3,
+      "number": "10.2.5",
+      "en": "Subject ID code",
+      "he": "קוד מזהה הנבדק"
+    },
+    {
+      "id": "sec-10-2-5-p1",
+      "type": "paragraph",
+      "en": "The study specific subject ID code, i.e. the link between study data and the actual subject identity (which is not to be provided in this form).",
+      "he": "קוד מזהה הנבדק הספציפי למחקר, כלומר הקישור בין נתוני המחקר לבין זהותו האמיתית של הנבדק (שאין לספקה בטופס זה)."
+    },
+    {
+      "id": "sec-10-2-6",
+      "type": "heading",
+      "level": 3,
+      "number": "10.2.6",
+      "en": "SAE ID code",
+      "he": "קוד מזהה SAE"
+    },
+    {
+      "id": "sec-10-2-6-p1",
+      "type": "paragraph",
+      "en": "The investigator, sponsor or manufacturer should assign a unique ID to each SAE that has occurred. This number shall remain unchanged throughout all other alterations of the particular SAE-reporting due to ongoing assessment.",
+      "he": "החוקר, נותן החסות או היצרן יקצה מזהה ייחודי לכל SAE שהתרחש. מספר זה יישאר ללא שינוי לאורך כל יתר השינויים בדיווח על אותו SAE הנובעים מהערכה מתמשכת."
+    },
+    {
+      "id": "sec-10-2-7",
+      "type": "heading",
+      "level": 3,
+      "number": "10.2.7",
+      "en": "Date of procedure/First use",
+      "he": "תאריך ההליך/השימוש הראשון"
+    },
+    {
+      "id": "sec-10-2-7-p1",
+      "type": "paragraph",
+      "en": "Indicate the date of the relevant procedure or the date when the subject was exposed to the device for first use. Format DD/MM/YYYY.",
+      "he": "יש לציין את תאריך ההליך הרלוונטי או את התאריך שבו נחשף הנבדק למכשיר בשימוש הראשון. פורמט DD/MM/YYYY."
+    },
+    {
+      "id": "sec-10-2-8",
+      "type": "heading",
+      "level": 3,
+      "number": "10.2.8",
+      "en": "Date of event onset",
+      "he": "תאריך הופעת האירוע"
+    },
+    {
+      "id": "sec-10-2-8-p1",
+      "type": "paragraph",
+      "en": "The date when the first signs of an event were noticed may be different (earlier) than the date when the event fulfilled the seriousness criteria (see further the definition in section 3.3 Serious Adverse Event (SAE)). The date when the event became an SAE should be reported as Date of event onset. In case of Device Deficiencies which did not lead to an SAE, the date the DD was discovered should be indicated. Format DD/MM/YYYY.",
+      "he": "התאריך שבו הבחינו לראשונה בסימני האירוע עשוי להיות שונה (מוקדם יותר) מהתאריך שבו האירוע עמד בקריטריוני החומרה (ראה עוד את ההגדרה בסעיף 3.3 אירוע שלילי חמור (SAE)). התאריך שבו הפך האירוע ל-SAE ידווח כתאריך הופעת האירוע. במקרה של ליקויים במכשיר שלא הובילו ל-SAE, יש לציין את התאריך שבו התגלה ה-DD. פורמט DD/MM/YYYY."
+    },
+    {
+      "id": "sec-10-2-9",
+      "type": "heading",
+      "level": 3,
+      "number": "10.2.9",
+      "en": "SAE or DD",
+      "he": "SAE או DD"
+    },
+    {
+      "id": "sec-10-2-9-p1",
+      "type": "paragraph",
+      "en": "Choose one option from SAE (Serious Adverse Event) or DD (Device Deficiency). Do not add other options.",
+      "he": "יש לבחור אפשרות אחת מבין SAE (אירוע שלילי חמור) או DD (ליקוי במכשיר). אין להוסיף אפשרויות אחרות."
+    },
+    {
+      "id": "sec-10-2-10",
+      "type": "heading",
+      "level": 3,
+      "number": "10.2.10",
+      "en": "Age",
+      "he": "גיל"
+    },
+    {
+      "id": "sec-10-2-10-p1",
+      "type": "paragraph",
+      "en": "The subject's age at date of event onset should be indicated. In cases where exact date of birth is not available as a basis for age calculation, it is acknowledged that an approximate age at date of event onset could be calculated based on the age at enrollment. Normally the Age should be indicated in Years, although for paediatric/neonatal populations it may be more relevant to indicated age in months, weeks or days. When a different unit than years is used, the unit should be indicated as appropriate.",
+      "he": "יש לציין את גיל הנבדק בתאריך הופעת האירוע. במקרים שבהם תאריך הלידה המדויק אינו זמין כבסיס לחישוב הגיל, מוכר כי ניתן לחשב גיל מקורב בתאריך הופעת האירוע על בסיס הגיל בעת הגיוס. בדרך כלל יש לציין את הגיל בשנים, אם כי עבור אוכלוסיות ילדים/יילודים ייתכן שיהיה רלוונטי יותר לציין את הגיל בחודשים, שבועות או ימים. כאשר נעשה שימוש ביחידה שונה משנים, יש לציין את היחידה בהתאם."
+    },
+    {
+      "id": "sec-10-2-11",
+      "type": "heading",
+      "level": 3,
+      "number": "10.2.11",
+      "en": "Patient gender",
+      "he": "מין המטופל"
+    },
+    {
+      "id": "sec-10-2-11-p1",
+      "type": "paragraph",
+      "en": "Choose one option from the following list (do not add other options):",
+      "he": "יש לבחור אפשרות אחת מהרשימה הבאה (אין להוסיף אפשרויות אחרות):"
+    },
+    {
+      "id": "sec-10-2-11-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Female", "he": "נקבה" },
+        { "en": "Male", "he": "זכר" },
+        { "en": "Other", "he": "אחר" },
+        { "en": "Unknown", "he": "לא ידוע" }
+      ]
+    },
+    {
+      "id": "sec-10-2-12",
+      "type": "heading",
+      "level": 3,
+      "number": "10.2.12",
+      "en": "Location of device",
+      "he": "מיקום המכשיר"
+    },
+    {
+      "id": "sec-10-2-12-p1",
+      "type": "paragraph",
+      "en": "For this field, it is the location of the device at the time the report is submitted to NCA is of interest (i.e not at the time of investigator or sponsor awareness of the event). Changed location of the device is in itself not a reason to provide an updated report. However, whenever an update/final report is provided for other reasons, it is relevant to update this field if the device for example has reached the sponsor by then. Choose one option from the following list (do not add other options):",
+      "he": "עבור שדה זה, המיקום של המכשיר במועד הגשת הדיווח ל-NCA הוא הרלוונטי (כלומר, לא במועד שבו נודע לחוקר או לנותן החסות על האירוע). שינוי במיקום המכשיר אינו כשלעצמו סיבה לספק דיווח מעודכן. עם זאת, בכל פעם שמסופק דיווח עדכון/סופי מסיבות אחרות, רלוונטי לעדכן שדה זה אם, למשל, המכשיר הגיע לנותן החסות עד אז. יש לבחור אפשרות אחת מהרשימה הבאה (אין להוסיף אפשרויות אחרות):"
+    },
+    {
+      "id": "sec-10-2-12-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Investigational/study site", "he": "אתר החקירה/המחקר" },
+        { "en": "Sponsor", "he": "נותן החסות" },
+        { "en": "Subject", "he": "הנבדק" },
+        { "en": "Manufacturer", "he": "היצרן" },
+        { "en": "Remains implanted", "he": "נשאר מושתל" },
+        { "en": "Discarded", "he": "הושלך" },
+        { "en": "Unknown", "he": "לא ידוע" },
+        { "en": "Other", "he": "אחר" }
+      ]
+    },
+    {
+      "id": "sec-10-2-13",
+      "type": "heading",
+      "level": 3,
+      "number": "10.2.13",
+      "en": "Classification of event",
+      "he": "סיווג האירוע"
+    },
+    {
+      "id": "sec-10-2-13-p1",
+      "type": "paragraph",
+      "en": "Choose one option from the following list of consequence characteristics (do not add other options):",
+      "he": "יש לבחור אפשרות אחת מרשימת מאפייני ההשלכות הבאה (אין להוסיף אפשרויות אחרות):"
+    },
+    {
+      "id": "sec-10-2-13-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Death", "he": "מוות" },
+        { "en": "Life-threatening illness or injury", "he": "מחלה או פגיעה מסכנת חיים" },
+        { "en": "Permanent impairment/ Chronic disease", "he": "פגיעה קבועה / מחלה כרונית" },
+        { "en": "Hospitalization", "he": "אשפוז" },
+        { "en": "Medical or surgical intervention", "he": "התערבות רפואית או כירורגית" },
+        { "en": "Foetal distress, fœtal death or congenital physical or mental or birth defect", "he": "מצוקה עוברית, מוות עוברי או פגיעה גופנית או נפשית מולדת או מום מולד" },
+        { "en": "Not applicable (Note that this option is only to be selected in case of reportable Device deficiencies that did not lead to an SAE)", "he": "לא ישים (יש לשים לב כי יש לבחור אפשרות זו רק במקרה של ליקויים במכשיר ברי-דיווח שלא הובילו ל-SAE)" }
+      ]
+    },
+    {
+      "id": "sec-10-2-13-p2",
+      "type": "paragraph",
+      "en": "It is acknowledged that for a specific event two or more options may be equally applicable, e.g. \"Hospitalization\" and \"medical intervention\". The highest-ranking classification should be indicated, using the following ranking order: 1) Death, 2) life threatening, 3) foetal distress, 4) permanent impairment, 5) Medical or surgical intervention 6) hospitalization.",
+      "he": "מוכר כי עבור אירוע מסוים שתי אפשרויות או יותר עשויות להיות ישימות באותה מידה, למשל \"אשפוז\" ו-\"התערבות רפואית\". יש לציין את הסיווג הגבוה ביותר בדירוג, לפי סדר הדירוג הבא: 1) מוות, 2) מסכן חיים, 3) מצוקה עוברית, 4) פגיעה קבועה, 5) התערבות רפואית או כירורגית, 6) אשפוז."
+    },
+    {
+      "id": "sec-10-2-14",
+      "type": "heading",
+      "level": 3,
+      "number": "10.2.14",
+      "en": "Free description of event",
+      "he": "תיאור חופשי של האירוע"
+    },
+    {
+      "id": "sec-10-2-14-p1",
+      "type": "paragraph",
+      "en": "Provide a description of the event in free text. Below is a non-exhaustive list of items that could be relevant to cover:",
+      "he": "יש לספק תיאור של האירוע בטקסט חופשי. להלן רשימה לא ממצה של פריטים שעשויים להיות רלוונטיים לכלול:"
+    },
+    {
+      "id": "sec-10-2-14-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Nature of the observed symptoms", "he": "טבע התסמינים שנצפו" },
+        { "en": "Duration and severity of the symptoms", "he": "משך וחומרת התסמינים" },
+        { "en": "Date of onset of first signs of the event (before it became a SAE)", "he": "תאריך הופעת הסימנים הראשונים של האירוע (לפני שהפך ל-SAE)" },
+        { "en": "Medical background of the patient", "he": "רקע רפואי של המטופל" },
+        { "en": "Medical care of the patient", "he": "הטיפול הרפואי במטופל" },
+        { "en": "Comments on the event in relation to already known safety data", "he": "הערות על האירוע ביחס לנתוני בטיחות ידועים כבר" }
+      ]
+    },
+    {
+      "id": "sec-10-2-14-p2",
+      "type": "paragraph",
+      "en": "Use of standardised terminology corresponding to relevant IMDRF codes is encouraged.",
+      "he": "מומלץ להשתמש במינוח מתוקנן התואם לקודי IMDRF הרלוונטיים."
+    },
+    {
+      "id": "sec-10-2-15",
+      "type": "heading",
+      "level": 3,
+      "number": "10.2.15",
+      "en": "Device issue (if applicable)",
+      "he": "בעיית מכשיר (אם רלוונטי)"
+    },
+    {
+      "id": "sec-10-2-15-p1",
+      "type": "paragraph",
+      "en": "In the worksheet \"Device issue\", the IMDRF codes applicable to device issues can be found. You can use this worksheet to look up the appropriate codes. Please report all the appropriate codes applicable for the SAE or DD reported. Please separate each code by \";\".",
+      "he": "בגיליון העבודה \"Device issue\" ניתן למצוא את קודי ה-IMDRF הישימים לבעיות מכשיר. ניתן להשתמש בגיליון עבודה זה כדי לאתר את הקודים המתאימים. יש לדווח על כל הקודים המתאימים הישימים עבור ה-SAE או ה-DD המדווח. יש להפריד בין כל קוד באמצעות \";\"."
+    },
+    {
+      "id": "sec-10-2-16",
+      "type": "heading",
+      "level": 3,
+      "number": "10.2.16",
+      "en": "Clinical signs/symptoms",
+      "he": "סימנים/תסמינים קליניים"
+    },
+    {
+      "id": "sec-10-2-16-p1",
+      "type": "paragraph",
+      "en": "In the worksheet \"Device issue\", the IMDRF codes applicable to clinical signs/symptoms can be found. You can use this worksheet to look up the appropriate codes. Please report all the appropriate codes applicable for the SAE or DD reported. Please separate each code by \";\".",
+      "he": "בגיליון העבודה \"Device issue\" ניתן למצוא את קודי ה-IMDRF הישימים לסימנים/תסמינים קליניים. ניתן להשתמש בגיליון עבודה זה כדי לאתר את הקודים המתאימים. יש לדווח על כל הקודים המתאימים הישימים עבור ה-SAE או ה-DD המדווח. יש להפריד בין כל קוד באמצעות \";\"."
+    },
+    {
+      "id": "sec-10-2-17",
+      "type": "heading",
+      "level": 3,
+      "number": "10.2.17",
+      "en": "Clinical impact",
+      "he": "השפעה קלינית"
+    },
+    {
+      "id": "sec-10-2-17-p1",
+      "type": "paragraph",
+      "en": "In the worksheet \"Device issue\", the IMDRF codes applicable to clinical impact of the SAE or DD can be found. You can use this worksheet to look up the appropriate codes. Please report all the appropriate codes applicable for the SAE or DD reported. Please separate each code by \";\".",
+      "he": "בגיליון העבודה \"Device issue\" ניתן למצוא את קודי ה-IMDRF הישימים להשפעה הקלינית של ה-SAE או ה-DD. ניתן להשתמש בגיליון עבודה זה כדי לאתר את הקודים המתאימים. יש לדווח על כל הקודים המתאימים הישימים עבור ה-SAE או ה-DD המדווח. יש להפריד בין כל קוד באמצעות \";\"."
+    },
+    {
+      "id": "sec-10-2-18",
+      "type": "heading",
+      "level": 3,
+      "number": "10.2.18",
+      "en": "Action/treatment /outcome",
+      "he": "פעולה/טיפול/תוצאה"
+    },
+    {
+      "id": "sec-10-2-18-p1",
+      "type": "paragraph",
+      "en": "Provide information in free text on actions taken, treatment(s) administered and the outcome.",
+      "he": "יש לספק מידע בטקסט חופשי על הפעולות שננקטו, הטיפול/ים שניתן/ו והתוצאה."
+    },
+    {
+      "id": "sec-10-2-19",
+      "type": "heading",
+      "level": 3,
+      "number": "10.2.19",
+      "en": "Relationship to procedure",
+      "he": "קשר להליך"
+    },
+    {
+      "id": "sec-10-2-19-p1",
+      "type": "paragraph",
+      "en": "Choose one option from the following list of causality levels (for explanatory texts see section 9 Causality assessment) (do not add other options):",
+      "he": "יש לבחור אפשרות אחת מרשימת רמות הסיבתיות הבאה (לטקסטים המסבירים ראה סעיף 9 הערכת סיבתיות) (אין להוסיף אפשרויות אחרות):"
+    },
+    {
+      "id": "sec-10-2-19-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Not related", "he": "לא קשור" },
+        { "en": "Possible", "he": "אפשרי" },
+        { "en": "Probable", "he": "סביר" },
+        { "en": "Causal", "he": "סיבתי" }
+      ]
+    },
+    {
+      "id": "sec-10-2-19-p2",
+      "type": "paragraph",
+      "en": "Please report the assessments by sponsor and investigator in the respective columns.",
+      "he": "יש לדווח על הערכות נותן החסות והחוקר בעמודות המתאימות."
+    },
+    {
+      "id": "sec-10-2-20",
+      "type": "heading",
+      "level": 3,
+      "number": "10.2.20",
+      "en": "Relationship to device",
+      "he": "קשר למכשיר"
+    },
+    {
+      "id": "sec-10-2-20-p1",
+      "type": "paragraph",
+      "en": "Choose one option from the following list of causality levels (for explanatory texts see section 9 Causality assessment) (do not add other options):",
+      "he": "יש לבחור אפשרות אחת מרשימת רמות הסיבתיות הבאה (לטקסטים המסבירים ראה סעיף 9 הערכת סיבתיות) (אין להוסיף אפשרויות אחרות):"
+    },
+    {
+      "id": "sec-10-2-20-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Not related", "he": "לא קשור" },
+        { "en": "Possible", "he": "אפשרי" },
+        { "en": "Probable", "he": "סביר" },
+        { "en": "Causal", "he": "סיבתי" }
+      ]
+    },
+    {
+      "id": "sec-10-2-20-p2",
+      "type": "paragraph",
+      "en": "Please report the assessments by sponsor and investigator in the respective columns.",
+      "he": "יש לדווח על הערכות נותן החסות והחוקר בעמודות המתאימות."
+    },
+    {
+      "id": "sec-10-2-21",
+      "type": "heading",
+      "level": 3,
+      "number": "10.2.21",
+      "en": "Unanticipated SADE",
+      "he": "SADE בלתי צפוי"
+    },
+    {
+      "id": "sec-10-2-21-p1",
+      "type": "paragraph",
+      "en": "Choose option Yes or No. An Unanticipated Serious Adverse Device Effect is an effect which by its nature, incidence, severity or outcome has not been identified in the current risk assessment. Procedures associated with the use of a device should be addressed in the risk assessment, which makes it possible to determine whether the procedure related SAEs are Unanticipated Serious Adverse Device Effect or not. SAEs related to procedures imposed by the clinical investigation plan but not with the use of the device should not be considered Serious Adverse Device Effects.",
+      "he": "יש לבחור באפשרות כן או לא. השפעה שלילית חמורה בלתי צפויה של מכשיר היא השפעה אשר מבחינת טבעה, שכיחותה, חומרתה או תוצאתה לא זוהתה בהערכת הסיכונים הנוכחית. יש להתייחס בהערכת הסיכונים להליכים הקשורים לשימוש במכשיר, מה שמאפשר לקבוע אם אירועים שליליים חמורים הקשורים להליך הם השפעה שלילית חמורה בלתי צפויה של מכשיר אם לאו. אירועים שליליים חמורים הקשורים להליכים המוטלים על ידי תוכנית החקירה הקלינית אך לא לשימוש במכשיר אין לראותם כהשפעות שליליות חמורות של מכשיר."
+    },
+    {
+      "id": "sec-10-2-22",
+      "type": "heading",
+      "level": 3,
+      "number": "10.2.22",
+      "en": "Investigation arm",
+      "he": "זרוע החקירה"
+    },
+    {
+      "id": "sec-10-2-22-p1",
+      "type": "paragraph",
+      "en": "Choose one option from the following list:",
+      "he": "יש לבחור אפשרות אחת מהרשימה הבאה:"
+    },
+    {
+      "id": "sec-10-2-22-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Test group", "he": "קבוצת הניסוי" },
+        { "en": "Comparison group", "he": "קבוצת ההשוואה" },
+        { "en": "Blinded", "he": "מוסווה (Blinded)" },
+        { "en": "Not applicable", "he": "לא ישים" }
+      ]
+    },
+    {
+      "id": "sec-10-2-22-note",
+      "type": "note",
+      "en": "Note: For some study designs it might be more relevant to add name of device; i.e. in a clinical investigation with several test groups it might be useful to differentiate which investigational device that the subject has been exposed to.",
+      "he": "הערה: עבור עיצובי מחקר מסוימים ייתכן שיהיה רלוונטי יותר להוסיף את שם המכשיר; כלומר, בחקירה קלינית עם מספר קבוצות ניסוי ייתכן שיהיה שימושי להבחין לאיזה מכשיר נחקר נחשף הנבדק."
+    },
+    {
+      "id": "sec-10-2-23",
+      "type": "heading",
+      "level": 3,
+      "number": "10.2.23",
+      "en": "Event status",
+      "he": "סטטוס האירוע"
+    },
+    {
+      "id": "sec-10-2-23-p1",
+      "type": "paragraph",
+      "en": "Choose one option from the following list (do not add other options):",
+      "he": "יש לבחור אפשרות אחת מהרשימה הבאה (אין להוסיף אפשרויות אחרות):"
+    },
+    {
+      "id": "sec-10-2-23-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Resolved", "he": "נפתר" },
+        { "en": "Resolved with Sequelae", "he": "נפתר עם השלכות (sequelae)" },
+        { "en": "Ongoing", "he": "מתמשך" },
+        { "en": "Death", "he": "מוות" }
+      ]
+    },
+    {
+      "id": "sec-10-2-24",
+      "type": "heading",
+      "level": 3,
+      "number": "10.2.24",
+      "en": "Date of event resolution",
+      "he": "תאריך פתרון האירוע"
+    },
+    {
+      "id": "sec-10-2-24-p1",
+      "type": "paragraph",
+      "en": "Add date in format DD/MM/YYYY. If event status is \"Ongoing\" enter Not Applicable.",
+      "he": "יש להוסיף תאריך בפורמט DD/MM/YYYY. אם סטטוס האירוע הוא \"מתמשך\", יש להזין \"לא ישים\"."
+    },
+    {
+      "id": "sec-11",
+      "type": "heading",
+      "level": 1,
+      "number": "11",
+      "en": "References",
+      "he": "אסמכתאות"
+    },
+    {
+      "id": "sec-11-list",
+      "type": "list",
+      "ordered": true,
+      "items": [
+        { "en": "Regulation (EU) 2017/745 of the European Parliament and of the council of 5 April 2017 on medical devices, amending Directive 2001/83/EC, Regulation (EC No 178/2002 and Regulation (EC) No 1223/2009 and repealing Council Directives 90/385/EEC and 93/42/EEC.", "he": "תקנה (האיחוד האירופי) 2017/745 של הפרלמנט האירופי ושל המועצה מ-5 באפריל 2017 בנושא מכשירים רפואיים, המתקנת את הוראה 2001/83/EC, תקנה (EC No 178/2002) ותקנה (EC) No 1223/2009 ומבטלת את הוראות המועצה 90/385/EEC ו-93/42/EEC." },
+        { "en": "Council Directive 90/385/EEC of 20 June 1990 on the approximation of the laws of the Member States relating to active implantable medical devices, last amended by Directive 2007/47/EC.", "he": "הוראת המועצה 90/385/EEC מ-20 ביוני 1990 בנושא קירוב חוקי המדינות החברות הנוגעים למכשירים רפואיים מושתלים פעילים, שתוקנה לאחרונה על ידי הוראה 2007/47/EC." },
+        { "en": "Council Directive 93/42/EEC of 14 June 1993 concerning medical devices, last amended by Directive 2007/47/EC.", "he": "הוראת המועצה 93/42/EEC מ-14 ביוני 1993 בנושא מכשירים רפואיים, שתוקנה לאחרונה על ידי הוראה 2007/47/EC." },
+        { "en": "Codes for the representation of names of countries and their subdivisions – Part 1: Country codes (ISO 3166-1) published by International Organisation for Standardization (ISO).", "he": "קודים לייצוג שמות מדינות וחלוקות המשנה שלהן – חלק 1: קודי מדינות (ISO 3166-1) שפורסם על ידי הארגון הבינלאומי לתקינה (ISO)." }
+      ]
+    },
+    {
+      "id": "sec-12",
+      "type": "heading",
+      "level": 1,
+      "number": "12",
+      "en": "Appendix – Clinical Investigation Summary Safety Reporting Form",
+      "he": "נספח – טופס דיווח בטיחות מסכם לחקירה קלינית"
+    },
+    {
+      "id": "sec-12-note",
+      "type": "note",
+      "en": "The reporting form template for the summary SAE tabulation referenced throughout this guidance is provided as an Appendix to the original document (an Excel-compatible tabular form). Its detailed field-by-field completion guidance is given in section 10 above.",
+      "he": "תבנית טופס הדיווח עבור טבלת סיכום ה-SAE הנזכרת לאורך הנחיה זו מסופקת כנספח למסמך המקורי (טופס טבלאי תואם Excel). הנחיית המילוי המפורטת שלו, שדה אחר שדה, מובאת בסעיף 10 לעיל."
+    },
+    {
+      "id": "fn-11",
+      "type": "note",
+      "marker": "11",
+      "en": "Use ISO-3166-1 alpha-2 codes, i.e. two-letter country codes as defined in ISO 3166-1",
+      "he": "יש להשתמש בקודי ISO 3166-1 alpha-2, כלומר קודי מדינה בני שתי אותיות כהגדרתם ב-ISO 3166-1"
+    },
+    {
+      "id": "fn-12",
+      "type": "note",
+      "marker": "12",
+      "en": "An adverse device effect is an adverse event related to the use of an investigational device. A serious adverse device effect is an adverse device effect that has resulted in any of the consequence characteristics of a serious adverse event.",
+      "he": "השפעה שלילית של מכשיר היא אירוע שלילי הקשור לשימוש במכשיר נחקר. השפעה שלילית חמורה של מכשיר היא השפעה שלילית של מכשיר שהביאה לאחד ממאפייני ההשלכות של אירוע שלילי חמור."
+    }
+  ]
+}
