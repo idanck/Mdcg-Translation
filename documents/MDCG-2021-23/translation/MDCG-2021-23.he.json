@@ -1,0 +1,591 @@
+{
+  "id": "MDCG-2021-23",
+  "title": {
+    "en": "Guidance for notified bodies, distributors and importers on certification activities in accordance with Article 16(4) of Regulation (EU) 2017/745 and Regulation (EU) 2017/746",
+    "he": "הנחיה לגופים מאונתרים, למפיצים וליבואנים בנוגע לפעילויות הסמכה בהתאם לסעיף 16(4) לתקנה (האיחוד האירופי) 2017/745 ולתקנה (האיחוד האירופי) 2017/746"
+  },
+  "category": "Quality Management System",
+  "publicationDate": "2021-08",
+  "source": {
+    "url": "https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en",
+    "file": "original/mdcg_2021-23_en.pdf"
+  },
+  "language": "he",
+  "direction": "rtl",
+  "translationStatus": "review",
+  "glossaryVersion": "2026-06",
+  "blocks": [
+    {
+      "id": "disclaimer-1",
+      "type": "paragraph",
+      "en": "This document has been endorsed by the Medical Device Coordination Group (MDCG) established by Article 103 of Regulation (EU) 2017/745. The MDCG is composed of representatives of all Member States and it is chaired by a representative of the European Commission.",
+      "he": "מסמך זה אושר על ידי קבוצת תיאום המכשירים הרפואיים (MDCG) שהוקמה מכוח סעיף 103 לתקנה (האיחוד האירופי) 2017/745. ה-MDCG מורכבת מנציגים של כל המדינות החברות ובראשה עומד נציג של הנציבות האירופית."
+    },
+    {
+      "id": "disclaimer-2",
+      "type": "paragraph",
+      "en": "The document is not a European Commission document and it cannot be regarded as reflecting the official position of the European Commission. Any views expressed in this document are not legally binding and only the Court of Justice of the European Union can give binding interpretations of Union law.",
+      "he": "המסמך אינו מסמך של הנציבות האירופית ואין לראות בו כמשקף את העמדה הרשמית של הנציבות האירופית. כל דעה המובעת במסמך זה אינה מחייבת מבחינה משפטית, ורק בית הדין לצדק של האיחוד האירופי מוסמך לתת פרשנות מחייבת לדין האיחוד."
+    },
+
+    {
+      "id": "doc-title",
+      "type": "heading",
+      "level": 1,
+      "en": "Guidance for notified bodies, distributors and importers on certification activities in accordance with Article 16(4) of Regulation (EU) 2017/745 and Regulation (EU) 2017/746",
+      "he": "הנחיה לגופים מאונתרים, למפיצים וליבואנים בנוגע לפעילויות הסמכה בהתאם לסעיף 16(4) לתקנה (האיחוד האירופי) 2017/745 ולתקנה (האיחוד האירופי) 2017/746"
+    },
+
+    {
+      "id": "sec-1",
+      "type": "heading",
+      "level": 1,
+      "number": "1",
+      "en": "Introduction",
+      "he": "מבוא"
+    },
+    {
+      "id": "sec-1-p1",
+      "type": "paragraph",
+      "en": "Article 16(3) of Regulation (EU) 2017/745 (MDR) and Regulation (EU) 2017/746 (IVDR) introduces requirements on the quality management system to be established by distributors and importers carrying out any of the activities mentioned in points (a) and (b) of Article 16(2) concerning relabelling and repackaging of devices.",
+      "he": "סעיף 16(3) לתקנה (האיחוד האירופי) 2017/745 (MDR) ולתקנה (האיחוד האירופי) 2017/746 (IVDR) קובע דרישות לגבי מערכת ניהול האיכות שעל המפיצים והיבואנים¹ לבסס בעת ביצוע כל אחת מהפעילויות המוזכרות בפסקאות (a)² ו-(b)³ של סעיף 16(2) הנוגעות לתיוג מחדש ולאריזה מחדש של מכשירים⁴."
+    },
+    {
+      "id": "sec-1-p2",
+      "type": "paragraph",
+      "en": "Article 16(4) of the MDR / IVDR provides for a notified body to certify that the quality management system of the distributor or importer complies with the requirements laid down in the abovementioned Article 16(3).",
+      "he": "סעיף 16(4) ל-MDR / IVDR קובע כי גוף מאונתר יסמיך שמערכת ניהול האיכות של המפיץ או היבואן עומדת בדרישות שנקבעו בסעיף 16(3) הנזכר לעיל."
+    },
+    {
+      "id": "sec-1-p3",
+      "type": "paragraph",
+      "en": "Notified bodies providing such certifications are required to be designated for the type of devices that are subject to activities mentioned in points (a) and (b) of Article 16(2). However, such certification activities to be performed by them are not related to conformity assessment activities carried out to certify manufacturer’s devices according to either Article 52 of the MDR or Article 48 of the IVDR. Therefore, notified bodies need to establish the assessment activities necessary in order to certify the quality management system of a distributor or importer intended to relabel and / or repackage a device. In addition, it is also important to get clarity on the elements to be addressed by distributors and importers in the abovementioned quality management system.",
+      "he": "גופים מאונתרים המספקים הסמכות מסוג זה נדרשים להיות מיועדים (designated) לסוג המכשירים הנתון לפעילויות המוזכרות בפסקאות (a) ו-(b) של סעיף 16(2). עם זאת, פעילויות הסמכה כאלה שעליהם לבצע אינן קשורות לפעילויות הערכת ההתאמה המבוצעות לשם הסמכת מכשירי היצרן בהתאם לסעיף 52 ל-MDR או לסעיף 48 ל-IVDR. לפיכך, על הגופים המאונתרים לבסס את פעילויות ההערכה הנדרשות כדי להסמיך את מערכת ניהול האיכות של מפיץ או יבואן המתעתד לתייג מחדש ו/או לארוז מחדש מכשיר. בנוסף, חשוב גם להבהיר את הרכיבים שעל המפיצים והיבואנים לטפל בהם במערכת ניהול האיכות הנזכרת לעיל."
+    },
+    {
+      "id": "sec-1-p4",
+      "type": "paragraph",
+      "en": "This guidance document is mainly focused on activities performed by notified bodies, providing also clarification on the quality management system they are expected to assess.",
+      "he": "מסמך הנחיה זה מתמקד בעיקר בפעילויות המבוצעות על ידי גופים מאונתרים, ומספק גם הבהרה לגבי מערכת ניהול האיכות שהם אמורים להעריך."
+    },
+    {
+      "id": "sec-1-p5",
+      "type": "paragraph",
+      "en": "A separate MDCG guidance document, in the form of Questions & Answers, is being developed to complement and address implementation of other relevant requirements for distributors and importers introduced by Article 16 of MDR / IVDR.",
+      "he": "מסמך הנחיה נפרד של ה-MDCG, בצורת שאלות ותשובות, נמצא בפיתוח כדי להשלים ולטפל ביישום דרישות רלוונטיות אחרות החלות על מפיצים ויבואנים אשר נקבעו בסעיף 16 ל-MDR / IVDR."
+    },
+    {
+      "id": "fn-1",
+      "type": "note",
+      "marker": "1",
+      "en": "“Other natural or legal persons” referred to in Article 16(1) are not subject to paragraphs (3) and (4) of Article 16.",
+      "he": "\"אנשים טבעיים או משפטיים אחרים\" הנזכרים בסעיף 16(1) אינם כפופים לפסקאות (3) ו-(4) של סעיף 16."
+    },
+    {
+      "id": "fn-2",
+      "type": "note",
+      "marker": "2",
+      "en": "(a) provision, including translation, of the information supplied by the manufacturer, in accordance with Section 23 of Annex I, relating to a device already placed on the market and of further information which is necessary in order to market the device in the relevant Member State;",
+      "he": "(a) אספקה, לרבות תרגום, של המידע המסופק על ידי היצרן, בהתאם לסעיף 23 לנספח I, הנוגע למכשיר שכבר הוצב בשוק, וכן של מידע נוסף הנחוץ לשם שיווק המכשיר במדינה החברה הרלוונטית;"
+    },
+    {
+      "id": "fn-3",
+      "type": "note",
+      "marker": "3",
+      "en": "(b) changes to the outer packaging of a device already placed on the market, including a change of pack size, if the repackaging is necessary in order to market the device in the relevant Member State and if it is carried out in such conditions that the original condition of the device cannot be affected by it. In the case of devices placed on the market in sterile condition, it shall be presumed that the original condition of the device is adversely affected if the packaging that is necessary for maintaining the sterile condition is opened, damaged or otherwise negatively affected by the repackaging.",
+      "he": "(b) שינויים באריזה החיצונית של מכשיר שכבר הוצב בשוק, לרבות שינוי בגודל האריזה, אם האריזה מחדש נחוצה לשם שיווק המכשיר במדינה החברה הרלוונטית ואם היא מבוצעת בתנאים שבהם מצבו המקורי של המכשיר אינו עלול להיפגע מכך. במקרה של מכשירים שהוצבו בשוק במצב סטרילי, חזקה שמצבו המקורי של המכשיר נפגע לרעה אם האריזה הנחוצה לשמירה על המצב הסטרילי נפתחה, ניזוקה או נפגעה באופן שלילי אחר עקב האריזה מחדש."
+    },
+    {
+      "id": "fn-4",
+      "type": "note",
+      "marker": "4",
+      "en": "For the purpose of this guidance document, references to relabelling or repackaging activities do also include instructions for use.",
+      "he": "לצורך מסמך הנחיה זה, הפניות לפעילויות תיוג מחדש או אריזה מחדש כוללות גם הוראות שימוש."
+    },
+
+    {
+      "id": "sec-2",
+      "type": "heading",
+      "level": 1,
+      "number": "2",
+      "en": "Scope",
+      "he": "תחולה"
+    },
+    {
+      "id": "sec-2-p1",
+      "type": "paragraph",
+      "en": "This guidance is intended to provide assistance to notified bodies to implement requirements established by MDR and IVDR with regard to certification activities to be carried out according to Article 16(4), attesting that the quality management system of the distributor or importer carrying out any of the activities mentioned in points (a) and (b) of Article 16(2) complies with the relevant requirements. This guidance is also addressed to distributors and importers in respect to their quality management system to be certified by a notified body.",
+      "he": "הנחיה זו נועדה לסייע לגופים מאונתרים ליישם את הדרישות שנקבעו ב-MDR וב-IVDR בנוגע לפעילויות ההסמכה שיש לבצע בהתאם לסעיף 16(4), המאשרות כי מערכת ניהול האיכות של המפיץ או היבואן המבצע כל אחת מהפעילויות המוזכרות בפסקאות (a) ו-(b) של סעיף 16(2) עומדת בדרישות הרלוונטיות. הנחיה זו מופנית גם למפיצים וליבואנים בנוגע למערכת ניהול האיכות שלהם שתוסמך על ידי גוף מאונתר."
+    },
+
+    {
+      "id": "sec-3",
+      "type": "heading",
+      "level": 1,
+      "number": "3",
+      "en": "Quality Management System for distributors or importers",
+      "he": "מערכת ניהול איכות עבור מפיצים או יבואנים"
+    },
+    {
+      "id": "sec-3-p1",
+      "type": "paragraph",
+      "en": "Without prejudice to general obligations that apply to all distributors (Article 14 MDR / IVDR) and importers (Article 13 MDR / IVDR), distributors or importers carrying out any of the activities mentioned in points (a) and (b) of paragraph 2 of Article 16 of the MDR or IVDR are required to ensure that they have in place a quality management system. This quality management system includes procedures, which ensure that the translation of information supplied with the device is accurate and up-to-date. These procedures also ensure that those activities are performed by means and under conditions that preserve the original condition of the device. In addition, they ensure that the packaging of the repackaged device is not defective, of poor quality or untidy.",
+      "he": "מבלי לפגוע בחובות הכלליות החלות על כל המפיצים (סעיף 14 ל-MDR / IVDR) והיבואנים (סעיף 13 ל-MDR / IVDR), מפיצים או יבואנים המבצעים כל אחת מהפעילויות המוזכרות בפסקאות (a) ו-(b) של פסקה 2 לסעיף 16 ל-MDR או IVDR נדרשים לוודא כי קיימת ברשותם מערכת ניהול איכות. מערכת ניהול איכות זו כוללת נהלים המבטיחים שתרגום המידע המסופק עם המכשיר מדויק ומעודכן. נהלים אלה מבטיחים גם שפעילויות אלה מבוצעות באמצעים ובתנאים השומרים על מצבו המקורי של המכשיר. בנוסף, הם מבטיחים שאריזת המכשיר הארוז מחדש אינה פגומה, ירודה באיכותה או בלתי מסודרת."
+    },
+    {
+      "id": "sec-3-p2",
+      "type": "paragraph",
+      "en": "Furthermore, the procedures established under the quality management system should address elements related to contractual relationships in order to ensure compliance with certain provisions established by Article 16:",
+      "he": "יתר על כן, על הנהלים שנקבעו במסגרת מערכת ניהול האיכות לטפל ברכיבים הקשורים ליחסים חוזיים, כדי להבטיח עמידה בהוראות מסוימות שנקבעו בסעיף 16:"
+    },
+    {
+      "id": "sec-3-list-1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "en": "Contracts with any economic operator the distributor or importer is purchasing the device from should ensure that the distributor or importer is informed in a timely manner about any corrective action taken by the manufacturer in relation to the device in question in order to respond to safety issues or to bring it into conformity with the Regulation;",
+          "he": "חוזים עם כל גורם כלכלי שממנו רוכש המפיץ או היבואן את המכשיר צריכים להבטיח שהמפיץ או היבואן יקבל מידע במועד בנוגע לכל פעולה מתקנת שביצע היצרן בקשר למכשיר הנדון, כדי להגיב לסוגיות בטיחות או כדי להביא אותו לכלל התאמה לתקנה;"
+        },
+        {
+          "en": "In addition, the contract between the notified body and the distributor or importer should specify the possibility for the notified body to perform on-site audits at the premises of the distributor and importer or their subcontractors if needed, as specified in section 6 of this document.",
+          "he": "בנוסף, החוזה בין הגוף המאונתר לבין המפיץ או היבואן צריך לציין את האפשרות שהגוף המאונתר יבצע ביקורות באתר במקום העסק של המפיץ והיבואן או של קבלני המשנה שלהם, במידת הצורך, כמפורט בסעיף 6 למסמך זה."
+        }
+      ]
+    },
+    {
+      "id": "sec-3-p3",
+      "type": "paragraph",
+      "en": "Procedures being part of the quality management system should ensure that the activities according to Article 16 paragraph 2 points (a) and (b) performed by the distributor or the importer do not affect compliance of the device with the applicable requirements.",
+      "he": "נהלים המהווים חלק ממערכת ניהול האיכות צריכים להבטיח שהפעילויות לפי פסקאות (a) ו-(b) של פסקה 2 לסעיף 16, המבוצעות על ידי המפיץ או היבואן, אינן פוגעות בעמידת המכשיר בדרישות החלות."
+    },
+    {
+      "id": "sec-3-p4",
+      "type": "paragraph",
+      "en": "The quality management system should govern the structure, responsibilities, procedures, processes and management of resources required to implement the principles and actions necessary to achieve compliance with the provisions of Article 16(3) of the MDR / IVDR.",
+      "he": "מערכת ניהול האיכות צריכה להסדיר את המבנה, האחריות, הנהלים, התהליכים וניהול המשאבים הנדרשים ליישום העקרונות והפעולות הנחוצים להשגת עמידה בהוראות סעיף 16(3) ל-MDR / IVDR."
+    },
+    {
+      "id": "sec-3-p5",
+      "type": "paragraph",
+      "en": "The quality management system is expected to cover and address at least the following:",
+      "he": "מערכת ניהול האיכות אמורה לכסות ולטפל לכל הפחות בנושאים הבאים:"
+    },
+    {
+      "id": "sec-3-list-2",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "en": "documentation of the management system, including responsibility of the management, and development of policies and procedures,",
+          "he": "תיעוד מערכת הניהול, לרבות אחריות ההנהלה, ופיתוח מדיניות ונהלים,"
+        },
+        {
+          "en": "resource management, including premises and equipment necessary to carry out activities referred to in points (a) and (b) of Article 16(2) as well as selection and control of suppliers and sub-contractors,",
+          "he": "ניהול משאבים, לרבות מקום העסק והציוד הנחוצים לביצוע הפעילויות הנזכרות בפסקאות (a) ו-(b) של סעיף 16(2), וכן בחירה ובקרה של ספקים וקבלני משנה,"
+        },
+        {
+          "en": "policies for assignment of activities and responsibilities to personnel ensuring the availability of resources and information necessary to support the operation and monitoring of the activities mentioned,",
+          "he": "מדיניות להקצאת פעילויות ואחריות לעובדים, המבטיחה את זמינות המשאבים והמידע הנחוצים לתמיכה בהפעלת הפעילויות המוזכרות ובניטורן,"
+        },
+        {
+          "en": "procedures ensuring that the distributor or importer is informed of any corrective action taken by the manufacturer in relation to the device in question in order to respond to safety issues or to bring it into conformity with the Regulation (Article 16 paragraph 2 points (a) and (b)),",
+          "he": "נהלים המבטיחים שהמפיץ או היבואן יקבל מידע על כל פעולה מתקנת שביצע היצרן בקשר למכשיר הנדון, כדי להגיב לסוגיות בטיחות או כדי להביא אותו לכלל התאמה לתקנה⁵ (פסקאות (a) ו-(b) של פסקה 2 לסעיף 16),"
+        },
+        {
+          "en": "management of corrective actions including procedures for handling non-conforming devices and market recalls due to the activities carried out under point (a) and (b) of Article 16(2), including, when necessary, field safety corrective actions and verification of their effectiveness,",
+          "he": "ניהול פעולות מתקנות, לרבות נהלים לטיפול במכשירים שאינם תואמים ובהשבת מוצרים מהשוק עקב הפעילויות המבוצעות לפי פסקאות (a) ו-(b) של סעיף 16(2), לרבות, בעת הצורך, פעולות מתקנות בטיחות בשטח ואימות יעילותן,"
+        },
+        {
+          "en": "procedures to ensure traceability of the devices as well as labels, instructions for use and outer packaging indicating the changes made to the product,",
+          "he": "נהלים להבטחת עקיבות המכשירים וכן התוויות, הוראות השימוש והאריזה החיצונית המציינים את השינויים שבוצעו במוצר,"
+        },
+        {
+          "en": "control of documents,",
+          "he": "בקרת מסמכים,"
+        },
+        {
+          "en": "control of records,",
+          "he": "בקרת רשומות,"
+        },
+        {
+          "en": "supervision of the implementation and maintenance of the quality management system, including internal audits and management review.",
+          "he": "פיקוח על יישום מערכת ניהול האיכות ותחזוקתה, לרבות ביקורות פנימיות וסקירת הנהלה."
+        }
+      ]
+    },
+    {
+      "id": "sec-3-p6",
+      "type": "paragraph",
+      "en": "The quality management system should be capable of supporting and demonstrating the consistent achievement of the requirements of Article 16(3) MDR / IVDR.",
+      "he": "מערכת ניהול האיכות צריכה להיות מסוגלת לתמוך בהשגה עקבית של דרישות סעיף 16(3) ל-MDR / IVDR ולהדגים זאת."
+    },
+
+    {
+      "id": "sec-4",
+      "type": "heading",
+      "level": 1,
+      "number": "4",
+      "en": "Certification scheme to be established by the notified body",
+      "he": "מערך ההסמכה שעל הגוף המאונתר לבסס"
+    },
+    {
+      "id": "sec-4-p1",
+      "type": "paragraph",
+      "en": "Notified bodies performing certification activities according to Article 16(4) MDR / IVDR need to be designated for the type of devices that are subject to the activities mentioned in points (a) and (b) of paragraph 2 of Article 16 MDR / IVDR.",
+      "he": "גופים מאונתרים המבצעים פעילויות הסמכה לפי סעיף 16(4) ל-MDR / IVDR צריכים להיות מיועדים (designated) לסוג המכשירים הנתון לפעילויות המוזכרות בפסקאות (a) ו-(b) של פסקה 2 לסעיף 16 ל-MDR / IVDR⁶."
+    },
+    {
+      "id": "sec-4-p2",
+      "type": "paragraph",
+      "en": "Notified bodies must be capable of carrying out all the tasks related to such certification activities and must have the necessary personnel that possess the competence needed.",
+      "he": "גופים מאונתרים חייבים להיות מסוגלים לבצע את כל המשימות הקשורות בפעילויות הסמכה כאלה, וחייב להיות ברשותם כוח האדם הנדרש בעל הכשירות הדרושה⁷."
+    },
+    {
+      "id": "sec-4-p3",
+      "type": "paragraph",
+      "en": "In line with the organisational and general requirements set out in Annex VII MDR / IVDR, notified bodies must appropriately establish, document, implement and maintain:",
+      "he": "בהתאם לדרישות הארגוניות והכלליות שנקבעו בנספח VII ל-MDR / IVDR, על הגופים המאונתרים לבסס, לתעד, ליישם ולתחזק כראוי:"
+    },
+    {
+      "id": "sec-4-list-1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "en": "qualification criteria and procedures for selection and authorisation of all persons involved;",
+          "he": "קריטריונים לכשירות ונהלים לבחירה והרשאה של כל המעורבים;"
+        },
+        {
+          "en": "documents and records concerning qualification of each member of personnel involved, including the maintenance of this qualification;",
+          "he": "מסמכים ורשומות בנוגע לכשירות של כל אחד מאנשי הצוות המעורבים, לרבות שמירה על כשירות זו;"
+        },
+        {
+          "en": "processes and sufficiently detailed procedures for the conduct of certification according to Article 16(4) MDR / IVDR, comprising at least steps and aspects as:",
+          "he": "תהליכים ונהלים מפורטים די הצורך לביצוע ההסמכה לפי סעיף 16(4) ל-MDR / IVDR, הכוללים לכל הפחות שלבים והיבטים כגון:"
+        }
+      ]
+    },
+    {
+      "id": "sec-4-list-2",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "en": "(pre-)application and / or contractual activities, including quotations;",
+          "he": "פעילויות (טרום-)הגשה ו/או פעילויות חוזיות, לרבות הצעות מחיר;"
+        },
+        {
+          "en": "allocation of resources;",
+          "he": "הקצאת משאבים;"
+        },
+        {
+          "en": "procedures sufficient to effectively plan and conduct both on-site and off-site assessment activities for auditing the distributor's or importer’s management responsibilities and quality management system documentation [see section 3 of this document];",
+          "he": "נהלים המספיקים לתכנון ולביצוע יעילים של פעילויות הערכה הן באתר והן מחוץ לאתר לצורך ביקורת על אחריות ההנהלה ועל תיעוד מערכת ניהול האיכות של המפיץ או היבואן [ראו סעיף 3 למסמך זה];"
+        },
+        {
+          "en": "reporting procedures so that the conclusions of the assessment are clear and can represent objective evidence of such compliance to persons that are not themselves involved in the assessment, e.g. competent authorities;",
+          "he": "נהלי דיווח כך שמסקנות ההערכה יהיו ברורות ויוכלו לשמש ראיה אובייקטיבית לעמידה כזו עבור גורמים שאינם מעורבים בעצמם בהערכה, למשל רשויות מוסמכות;"
+        },
+        {
+          "en": "final review and decision-making, including criteria for the issuance, suspension, restriction and withdrawal of certificates;",
+          "he": "סקירה סופית וקבלת החלטות, לרבות קריטריונים להנפקה, להשעיה, להגבלה ולמשיכה של תעודות;"
+        }
+      ]
+    },
+    {
+      "id": "sec-4-list-3",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "en": "procedures for dealing with changes and modifications, including possible extensions to the scope of certifications;",
+          "he": "נהלים לטיפול בשינויים ובהתאמות, לרבות הרחבות אפשריות של היקף ההסמכות;"
+        },
+        {
+          "en": "surveillance activities ensuring that the distributor or importer consistently meets the requirements of Art 16(3), see section 6 of this document;",
+          "he": "פעילויות פיקוח המבטיחות שהמפיץ או היבואן עומד באופן עקבי בדרישות סעיף 16(3), ראו סעיף 6 למסמך זה;"
+        },
+        {
+          "en": "procedures for re-certification, including maximum validity of certificates;",
+          "he": "נהלים להסמכה מחדש, לרבות תוקף מרבי של תעודות;"
+        },
+        {
+          "en": "procedures for complaints and appeals.",
+          "he": "נהלים לטיפול בתלונות ובערעורים."
+        }
+      ]
+    },
+
+    {
+      "id": "sec-5",
+      "type": "heading",
+      "level": 1,
+      "number": "5",
+      "en": "Content of certificates",
+      "he": "תוכן התעודות"
+    },
+    {
+      "id": "sec-5-p1",
+      "type": "paragraph",
+      "en": "Certificates according to Article 16(4) MDR / IVDR should be drawn up in one of the official languages of the Union and should be issued to only one distributor or importer. The name and address of the distributor or importer has to be clearly specified and the scope of the certificates should unambiguously identify the types of devices covered. The MDA, MDN or IVR codes in Commission Implementing Regulation (EU) 2017/2185 have to be used to identify the types of devices. In case only subsections of such codes apply, limitations need to be identified using the wording(s) of the respective code. The scope should also mention the activities in points (a) and (b) of paragraph 2 of Article 16 MDR / IVDR. Where a certificate is supplemented, modified or re-issued, the new certificate should contain a reference to the preceding certificate and its date of issue with identification of the changes.",
+      "he": "תעודות לפי סעיף 16(4) ל-MDR / IVDR צריכות להיערך באחת מהשפות הרשמיות של האיחוד ולהינתן למפיץ או ליבואן אחד בלבד. שמו וכתובתו של המפיץ או היבואן⁸ חייבים להיות מצוינים בבירור, והיקף התעודות צריך לזהות באופן חד-משמעי את סוגי המכשירים המכוסים. יש להשתמש בקודי MDA, MDN או IVR שבתקנת היישום של הנציבות (האיחוד האירופי) 2017/2185 לזיהוי סוגי המכשירים. במקרה שרק תת-סעיפים של קודים כאלה חלים, יש לזהות את ההגבלות באמצעות נוסח/י הקוד המתאים. ההיקף צריך לציין גם את הפעילויות שבפסקאות (a) ו-(b) של פסקה 2 לסעיף 16 ל-MDR / IVDR. במקום שבו תעודה מושלמת, משונה או מונפקת מחדש, התעודה החדשה צריכה לכלול הפניה לתעודה הקודמת ולתאריך הנפקתה, תוך זיהוי השינויים."
+    },
+    {
+      "id": "sec-5-p2",
+      "type": "paragraph",
+      "en": "As a minimum, certificates need to contain the following information:",
+      "he": "כמינימום, על התעודות לכלול את המידע הבא:"
+    },
+    {
+      "id": "sec-5-list-1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "en": "name, address and identification number of the notified body;",
+          "he": "שם, כתובת ומספר זיהוי של הגוף המאונתר;"
+        },
+        {
+          "en": "name and address of the distributor or importer;",
+          "he": "שם וכתובת של המפיץ או היבואן;"
+        },
+        {
+          "en": "unique number identifying the certificate;",
+          "he": "מספר ייחודי המזהה את התעודה;"
+        },
+        {
+          "en": "date of issue;",
+          "he": "תאריך הנפקה;"
+        },
+        {
+          "en": "date of expiry;",
+          "he": "תאריך פקיעת תוקף;"
+        },
+        {
+          "en": "data needed for the unambiguous identification of the types of devices covered by the quality system using the wording of the code(s), if needed parts can be deleted or the scope may be further specified, e.g. MDA 0309 Active non-implantable ophthalmologic devices: applanation tonometers. EMDN (European Medical Device Nomenclature) codes may also be used for further identification of the types of devices;",
+          "he": "נתונים הנחוצים לזיהוי חד-משמעי של סוגי המכשירים המכוסים על ידי מערכת האיכות באמצעות נוסח הקוד/ים; במידת הצורך ניתן למחוק חלקים או לפרט את ההיקף ביתר דיוק, למשל MDA 0309 מכשירים אופתלמולוגיים פעילים שאינם מושתלים: טונומטרים מסוג אפלנציה. ניתן להשתמש גם בקודי EMDN (נומנקלטורת המכשירים הרפואיים האירופית) לזיהוי נוסף של סוגי המכשירים;"
+        },
+        {
+          "en": "the activities in points (a) and (b) of paragraph 2 of Article 16 MDR / IVDR covered by the certificate, i.e.",
+          "he": "הפעילויות שבפסקאות (a) ו-(b) של פסקה 2 לסעיף 16 ל-MDR / IVDR המכוסות על ידי התעודה, כלומר"
+        }
+      ]
+    },
+    {
+      "id": "sec-5-list-2",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "en": "provision, including translation, of the information supplied by the manufacturer in accordance with Section 23 of Annex I of MDR / IVDR, relating to a device already placed on the market and of further information which is necessary in order to market the device in the relevant Member State;",
+          "he": "אספקה, לרבות תרגום, של המידע המסופק על ידי היצרן בהתאם לסעיף 23 לנספח I של MDR / IVDR, הנוגע למכשיר שכבר הוצב בשוק, וכן של מידע נוסף הנחוץ לשם שיווק המכשיר במדינה החברה הרלוונטית;"
+        },
+        {
+          "en": "changes to the outer packaging of a device already placed on the market, including a change of pack size.",
+          "he": "שינויים באריזה החיצונית של מכשיר שכבר הוצב בשוק, לרבות שינוי בגודל האריזה."
+        }
+      ]
+    },
+    {
+      "id": "sec-5-p3",
+      "type": "paragraph",
+      "en": "The activities should be linked to the abovementioned specific types of devices covered by the quality system;",
+      "he": "יש לקשר את הפעילויות לסוגי המכשירים הספציפיים הנזכרים לעיל המכוסים על ידי מערכת האיכות;"
+    },
+    {
+      "id": "sec-5-list-3",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "en": "a statement that the quality management system of the distributor or importer that carried out any of the activities mentioned in points (a) and (b) of Art 16(2) complies with the requirements laid down in paragraph 3 of Article 16 MDR / IVDR;",
+          "he": "הצהרה כי מערכת ניהול האיכות של המפיץ או היבואן שביצע כל אחת מהפעילויות המוזכרות בפסקאות (a) ו-(b) של סעיף 16(2) עומדת בדרישות שנקבעו בפסקה 3 לסעיף 16 ל-MDR / IVDR;"
+        },
+        {
+          "en": "if applicable, reference to any previous certificate;",
+          "he": "אם רלוונטי, הפניה לכל תעודה קודמת;"
+        },
+        {
+          "en": "information about the surveillance by the notified body;",
+          "he": "מידע על הפיקוח מטעם הגוף המאונתר;"
+        },
+        {
+          "en": "conditions for or limitations to the validity of the certificate;",
+          "he": "תנאים או הגבלות לתוקף התעודה;"
+        },
+        {
+          "en": "legally binding signature of the notified body in accordance with the applicable national law.",
+          "he": "חתימה מחייבת משפטית של הגוף המאונתר בהתאם לדין הלאומי החל."
+        }
+      ]
+    },
+
+    {
+      "id": "sec-6",
+      "type": "heading",
+      "level": 1,
+      "number": "6",
+      "en": "Surveillance and changes, including extensions to scope",
+      "he": "פיקוח ושינויים, לרבות הרחבות היקף"
+    },
+    {
+      "id": "sec-6-p1",
+      "type": "paragraph",
+      "en": "Certificates issued according to Article 16(4) of MDR / IVDR should have a maximum validity of 5 years. The notified body should ensure that proper surveillance activities are performed, taking into account the following aspects.",
+      "he": "לתעודות שהונפקו לפי סעיף 16(4) ל-MDR / IVDR צריך להיות תוקף מרבי של 5 שנים. על הגוף המאונתר לוודא שמבוצעות פעילויות פיקוח נאותות, תוך התחשבות בהיבטים הבאים."
+    },
+
+    {
+      "id": "sec-6-1",
+      "type": "heading",
+      "level": 2,
+      "number": "6.1",
+      "en": "Auditing",
+      "he": "ביקורת"
+    },
+    {
+      "id": "sec-6-1-p1",
+      "type": "paragraph",
+      "en": "Initial certification of the distributor / importer’s quality management system according to Article 16(4) should always include an on-site audit.",
+      "he": "הסמכה ראשונית של מערכת ניהול האיכות של המפיץ/היבואן לפי סעיף 16(4) צריכה לכלול תמיד ביקורת באתר⁹."
+    },
+    {
+      "id": "sec-6-1-p2",
+      "type": "paragraph",
+      "en": "In order to verify the actual implementation as well as the proper functioning of a newly certified distributor / importer’s quality management system, the notified body should perform annual surveillance audits. The need to perform on-site surveillance audits should be based on a risk assessment in respect to the auditee, its organisation and experience gained in the initial audit and follow-up activities.",
+      "he": "כדי לאמת את היישום בפועל וכן את התפקוד התקין של מערכת ניהול האיכות של מפיץ/יבואן שהוסמך לאחרונה, על הגוף המאונתר לבצע ביקורות פיקוח שנתיות. הצורך לבצע ביקורות פיקוח באתר צריך להתבסס על הערכת סיכונים בנוגע למבוקר, לארגונו ולניסיון שנצבר בביקורת הראשונית ובפעילויות המעקב."
+    },
+    {
+      "id": "sec-6-1-p3",
+      "type": "paragraph",
+      "en": "Alternatively, provided that a shorter validity period of the certificate is set (maximum 3 years) the notified body may decide not to perform annual surveillance audits, unless it considers it necessary. After the first certification the notified body should perform one surveillance audit between 12 and max. 24 months in order to confirm the certified quality management system is actually in place and implemented.",
+      "he": "לחלופין, בתנאי שנקבעת תקופת תוקף קצרה יותר לתעודה (3 שנים לכל היותר), רשאי הגוף המאונתר להחליט שלא לבצע ביקורות פיקוח שנתיות, אלא אם כן הוא רואה בכך צורך. לאחר ההסמכה הראשונה על הגוף המאונתר לבצע ביקורת פיקוח אחת בין 12 לבין 24 חודשים לכל היותר, כדי לאשר שמערכת ניהול האיכות המוסמכת אכן קיימת ומיושמת."
+    },
+
+    {
+      "id": "sec-6-2",
+      "type": "heading",
+      "level": 2,
+      "number": "6.2",
+      "en": "Assessment of change notifications",
+      "he": "הערכת הודעות שינוי¹²"
+    },
+    {
+      "id": "sec-6-2-p0",
+      "type": "paragraph",
+      "en": "At the end of each certification cycle, a re-certification audit should be conducted in order to renew the certificate. It is expected that notified bodies perform on-site re-certification audits. Those re-certification audits should take place not earlier than 15 months before the end of validity of the certificate.",
+      "he": "בתום כל מחזור הסמכה, יש לבצע ביקורת הסמכה מחדש כדי לחדש את התעודה. גופים מאונתרים אמורים לבצע ביקורות הסמכה מחדש באתר¹⁰. ביקורות הסמכה מחדש אלה צריכות להתקיים לא מוקדם מ-15 חודשים לפני תום תוקף התעודה."
+    },
+    {
+      "id": "sec-6-2-p0b",
+      "type": "paragraph",
+      "en": "In case non-conformities are raised during the audits, additional audits may be conducted, either on-site or off-site, to verify the effectiveness of the implemented corrective actions. Additional audits may also need to be performed when the distributor or importer proposes (see section 6.2 below):",
+      "he": "במקרה שבמהלך הביקורות מתעוררות אי-התאמות, ניתן לבצע ביקורות נוספות, בין באתר ובין מחוץ לאתר, כדי לאמת את יעילות הפעולות המתקנות שיושמו. ייתכן שיהיה צורך לבצע ביקורות נוספות גם כאשר המפיץ או היבואן מציע (ראו סעיף 6.2 להלן):"
+    },
+    {
+      "id": "sec-6-2-list-1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "en": "a) significant changes to its processes covered by the certificate or",
+          "he": "a) שינויים מהותיים¹¹ בתהליכיו המכוסים על ידי התעודה, או"
+        },
+        {
+          "en": "b) an extension of activities and types of devices to be covered by the certificate.",
+          "he": "b) הרחבה של הפעילויות ושל סוגי המכשירים שיכוסו על ידי התעודה."
+        }
+      ]
+    },
+    {
+      "id": "sec-6-2-p1",
+      "type": "paragraph",
+      "en": "Based on the contractual requirements the distributor or importer need to submit any plan for change that could affect the validity of the certificate according to Article 16(4) MDR / IVDR, especially those in respect to the activities and types of devices covered.",
+      "he": "בהתבסס על הדרישות החוזיות, על המפיץ או היבואן להגיש כל תכנית לשינוי העלול להשפיע על תוקף התעודה לפי סעיף 16(4) ל-MDR / IVDR, ובמיוחד אלה הנוגעים לפעילויות ולסוגי המכשירים המכוסים."
+    },
+    {
+      "id": "sec-6-2-p2",
+      "type": "paragraph",
+      "en": "In case of plans concerning relabelling and / or repackaging of new types of devices not previously indicated on the Art 16(4) certificate, the distributer or importer should verify that the notified body that issued the certificate is designated also for the new type(s). If this is not the case, the distributor or importer should apply to a notified body bearing the required designation.",
+      "he": "במקרה של תכניות הנוגעות לתיוג מחדש ו/או לאריזה מחדש של סוגי מכשירים חדשים שלא צוינו קודם לכן בתעודה לפי סעיף 16(4), על המפיץ או היבואן לוודא שהגוף המאונתר שהנפיק את התעודה מיועד (designated) גם לסוג/ים החדש/ים. אם אין זה המצב, על המפיץ או היבואן לפנות לגוף מאונתר הנושא את הייעוד (designation) הנדרש¹³."
+    },
+    {
+      "id": "sec-6-2-p3",
+      "type": "paragraph",
+      "en": "The notified body should assess such change notifications and, depending on the type of the proposed change, decide if there is the need to perform an audit, either on-site or off-site, prior to their approval. Changes that have a significant impact on the activities to be certified under Article 16(4) such as broadening the scope of certificate, including new types of devices not previously indicated on the Art 16(4) certificate, concerning the activity in Article 16 (2) b) or change of the site(s) (including subcontractors) where those activities are performed, should always require an on-site assessment. In case of new activities or new types of devices, the certificate needs to be supplemented.",
+      "he": "על הגוף המאונתר להעריך הודעות שינוי כאלה, ובהתאם לסוג השינוי המוצע, להחליט אם יש צורך לבצע ביקורת, בין באתר ובין מחוץ לאתר, לפני אישורן. שינויים בעלי השפעה מהותית על הפעילויות שיוסמכו לפי סעיף 16(4), כגון הרחבת היקף התעודה — לרבות סוגי מכשירים חדשים שלא צוינו קודם לכן בתעודה לפי סעיף 16(4), הנוגעים לפעילות שבסעיף 16(2)(b), או שינוי האתר/ים (לרבות קבלני משנה) שבהם מבוצעות פעילויות אלה — צריכים תמיד לחייב הערכה באתר¹⁴. במקרה של פעילויות חדשות או סוגי מכשירים חדשים, יש להשלים את התעודה."
+    },
+
+    {
+      "id": "fn-5",
+      "type": "note",
+      "marker": "5",
+      "en": "It is manufacturer’s responsibility to respond to safety issues and to bring the device into conformity. The distributor or importer should be informed about it.",
+      "he": "באחריות היצרן להגיב לסוגיות בטיחות ולהביא את המכשיר לכלל התאמה. יש ליידע את המפיץ או היבואן על כך."
+    },
+    {
+      "id": "fn-6",
+      "type": "note",
+      "marker": "6",
+      "en": "According to Article 16(4) MDR / IVDR this applies irrespective of the risk class of the devices, i.e. also for class I devices.",
+      "he": "לפי סעיף 16(4) ל-MDR / IVDR הדבר חל ללא קשר לסיווג הסיכון של המכשירים, כלומר גם למכשירי סיווג I."
+    },
+    {
+      "id": "fn-7",
+      "type": "note",
+      "marker": "7",
+      "en": "This means that the notified body is expected to be designated for the corresponding MDA, MDN or IVR codes in Commission Implementing Regulation (EU) 2017/2185.",
+      "he": "פירוש הדבר שהגוף המאונתר אמור להיות מיועד (designated) לקודי MDA, MDN או IVR המתאימים שבתקנת היישום של הנציבות (האיחוד האירופי) 2017/2185."
+    },
+    {
+      "id": "fn-8",
+      "type": "note",
+      "marker": "8",
+      "en": "The name and address of the importer referenced in the certificate should be the same as name and address registered in the electronic system referred to in Article 30 MDR and Article 27 IVDR.",
+      "he": "שמו וכתובתו של היבואן המאוזכרים בתעודה צריכים להיות זהים לשם ולכתובת הרשומים במערכת האלקטרונית הנזכרת בסעיף 30 ל-MDR ובסעיף 27 ל-IVDR."
+    },
+    {
+      "id": "fn-9",
+      "type": "note",
+      "marker": "9",
+      "en": "In duly justified cases when the notified body is unable to carry out the initial audit on-site, alternative measures can be applied, including remote audits. For these cases, it is anyhow expected the notified body to carry out an on-site audit as soon as possible and at the time of the first surveillance the latest.",
+      "he": "במקרים מוצדקים כראוי שבהם הגוף המאונתר אינו מסוגל לבצע את הביקורת הראשונית באתר, ניתן ליישם אמצעים חלופיים, לרבות ביקורות מרחוק. במקרים אלה, בכל מקרה הגוף המאונתר אמור לבצע ביקורת באתר בהקדם האפשרי, ולכל המאוחר במועד הפיקוח הראשון."
+    },
+    {
+      "id": "fn-10",
+      "type": "note",
+      "marker": "10",
+      "en": "Similarly to initial audits, also in case of re-certification audits, alternative measures can be applied, including remote audits when the notified body is unable to carry out the audit on-site.",
+      "he": "בדומה לביקורות הראשוניות, גם במקרה של ביקורות הסמכה מחדש ניתן ליישם אמצעים חלופיים, לרבות ביקורות מרחוק כאשר הגוף המאונתר אינו מסוגל לבצע את הביקורת באתר."
+    },
+    {
+      "id": "fn-11",
+      "type": "note",
+      "marker": "11",
+      "en": "For the purpose of this document, significant changes are meant as changes having a significant impact on the activities to be certified under Article 16(4), as referred to in paragraph 6.2 of this document.",
+      "he": "לצורך מסמך זה, שינויים מהותיים פירושם שינויים בעלי השפעה מהותית על הפעילויות שיוסמכו לפי סעיף 16(4), כנזכר בפסקה 6.2 למסמך זה."
+    },
+    {
+      "id": "fn-12",
+      "type": "note",
+      "marker": "12",
+      "en": "For notification obligations of distributors and importers see Questions & Answers for distributors and importers.",
+      "he": "לעניין חובות ההודעה של מפיצים ויבואנים ראו שאלות ותשובות עבור מפיצים ויבואנים."
+    },
+    {
+      "id": "fn-13",
+      "type": "note",
+      "marker": "13",
+      "en": "The distributor or importer can either ask for a voluntary change to a notified body designated for all types of relabelled / repackaged devices or have two (or more) separate notified bodies certifying the quality management system for different types of devices according to Article 16(4).",
+      "he": "המפיץ או היבואן יכול לבקש מעבר מרצון לגוף מאונתר המיועד (designated) לכל סוגי המכשירים המתויגים מחדש/הארוזים מחדש, או להיעזר בשני גופים מאונתרים נפרדים (או יותר) המסמיכים את מערכת ניהול האיכות עבור סוגי מכשירים שונים לפי סעיף 16(4)."
+    },
+    {
+      "id": "fn-14",
+      "type": "note",
+      "marker": "14",
+      "en": "Alternative measures can be applied in duly justified cases.",
+      "he": "ניתן ליישם אמצעים חלופיים במקרים מוצדקים כראוי."
+    }
+  ]
+}

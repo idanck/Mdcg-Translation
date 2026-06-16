@@ -11,8 +11,8 @@
 
 | Item | Status |
 |------|--------|
-| Original (EN) | ⬜ Not yet added |
-| Hebrew translation | ⬜ Not yet started |
+| Original (EN) | ✅ `original/mdcg_2021-8_en.pdf` |
+| Hebrew translation | 🔍 Under review (full translation done) |
 
 ---
 

@@ -1,0 +1,218 @@
+{
+  "id": "MDCG-2021-8",
+  "title": {
+    "en": "Clinical investigation application/notification documents",
+    "he": "מסמכי בקשה/הודעה לחקירה קלינית"
+  },
+  "category": "Clinical Investigation and Evaluation",
+  "publicationDate": "2021-05",
+  "source": {
+    "url": "https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en",
+    "file": "original/mdcg_2021-8_en.pdf"
+  },
+  "language": "he",
+  "direction": "rtl",
+  "translationStatus": "review",
+  "glossaryVersion": "2026-06",
+  "blocks": [
+    {
+      "id": "disclaimer-1",
+      "type": "paragraph",
+      "en": "This document has been endorsed by the Medical Device Coordination Group (MDCG) established by Article 103 of Regulation (EU) 2017/745. The MDCG is composed of representatives of all Member States and a representative of the European Commission chairs it.",
+      "he": "מסמך זה אושר על ידי קבוצת תיאום המכשירים הרפואיים (MDCG) שהוקמה מכוח סעיף 103 לתקנה (האיחוד האירופי) 2017/745. ה-MDCG מורכבת מנציגים של כל המדינות החברות ובראשה עומד נציג של הנציבות האירופית."
+    },
+    {
+      "id": "disclaimer-2",
+      "type": "paragraph",
+      "en": "The document is not a European Commission document and it cannot be regarded as reflecting the official position of the European Commission. Any views expressed in this document are not legally binding and only the Court of Justice of the European Union can give binding interpretations of Union law.",
+      "he": "המסמך אינו מסמך של הנציבות האירופית ואין לראות בו כמשקף את העמדה הרשמית של הנציבות האירופית. כל דעה המובעת במסמך זה אינה מחייבת מבחינה משפטית, ורק בית הדין לצדק של האיחוד האירופי מוסמך לתת פרשנות מחייבת לדין האיחוד."
+    },
+
+    {
+      "id": "acronyms",
+      "type": "heading",
+      "level": 1,
+      "en": "Acronyms",
+      "he": "ראשי תיבות"
+    },
+    {
+      "id": "acronyms-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          { "en": "Acronym", "he": "ראשי תיבות" },
+          { "en": "Meaning", "he": "משמעות" }
+        ],
+        [
+          { "en": "EUDAMED", "he": "EUDAMED" },
+          { "en": "European database on medical devices", "he": "מסד הנתונים האירופי למכשירים רפואיים" }
+        ],
+        [
+          { "en": "GSPR", "he": "GSPR" },
+          { "en": "General safety and performance requirements", "he": "דרישות כלליות לבטיחות וביצועים" }
+        ],
+        [
+          { "en": "NCA", "he": "NCA" },
+          { "en": "National Competent Authority", "he": "רשות מוסמכת לאומית" }
+        ],
+        [
+          { "en": "PMCF", "he": "PMCF" },
+          { "en": "Post-market clinical follow-up", "he": "מעקב קליני שלאחר שיווק" }
+        ],
+        [
+          { "en": "REC", "he": "REC" },
+          { "en": "Research ethics committee", "he": "ועדת אתיקה למחקר" }
+        ]
+      ]
+    },
+
+    {
+      "id": "intro",
+      "type": "heading",
+      "level": 1,
+      "en": "Introduction",
+      "he": "מבוא"
+    },
+    {
+      "id": "intro-p1",
+      "type": "paragraph",
+      "en": "The sponsor of a clinical investigation is required to submit an application/notification to the Member State(s) in which a clinical investigation is to be conducted, accompanied by the documentation referred to in Chapter II of Annex XV of Regulation (EU) 2017/745 (MDR). The application/notification is required to be submitted by means of the electronic system referred to in Article 73 of the MDR.",
+      "he": "נותן החסות של חקירה קלינית נדרש להגיש בקשה/הודעה¹ למדינה/ות החברה/ות שבהן עתידה להתבצע החקירה הקלינית, בלוויית התיעוד הנזכר בפרק II לנספח XV לתקנה (האיחוד האירופי) 2017/745 (MDR)². הבקשה/הודעה נדרשת להיות מוגשת באמצעות המערכת האלקטרונית הנזכרת בסעיף 73 ל-MDR."
+    },
+    {
+      "id": "intro-p2",
+      "type": "paragraph",
+      "en": "In the absence of the European database on medical devices (EUDAMED), a series of clinical investigation application/notification documents have been created to support clinical investigation procedures with respect to MDR.",
+      "he": "בהיעדר מסד הנתונים האירופי למכשירים רפואיים (EUDAMED), נוצרה סדרת מסמכי בקשה/הודעה לחקירה קלינית כדי לתמוך בהליכי החקירה הקלינית ביחס ל-MDR."
+    },
+    {
+      "id": "intro-p3",
+      "type": "paragraph",
+      "en": "These documents include:",
+      "he": "מסמכים אלה כוללים:"
+    },
+    {
+      "id": "intro-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "en": "Clinical investigation – application/notification form under the MDR",
+          "he": "חקירה קלינית – טופס בקשה/הודעה על פי ה-MDR"
+        },
+        {
+          "en": "Addendum to the clinical investigation application/notification form for: Additional investigational device(s) (section 3); Additional comparator device(s) (section 4); Additional investigation site(s) (section 5)",
+          "he": "תוספת לטופס הבקשה/הודעה לחקירה קלינית עבור: מכשיר/י חקירה נוספ/ים (סעיף 3); מכשיר/י השוואה (קומפרטור) נוספ/ים (סעיף 4); אתר/י חקירה נוספ/ים (סעיף 5)"
+        },
+        {
+          "en": "Clinical investigation supporting documents - Appendix of documents to attach",
+          "he": "מסמכים תומכים לחקירה קלינית – נספח של מסמכים לצירוף"
+        },
+        {
+          "en": "Checklist of general safety and performance requirements, Standards, common specifications and scientific advice",
+          "he": "רשימת תיוג של דרישות כלליות לבטיחות וביצועים, תקנים, מפרטים משותפים וייעוץ מדעי"
+        }
+      ]
+    },
+    {
+      "id": "intro-p4",
+      "type": "paragraph",
+      "en": "Insofar as possible, the clinical investigation application/notification form includes same data fields to the EUDAMED system in development.",
+      "he": "ככל הניתן, טופס הבקשה/הודעה לחקירה קלינית כולל שדות נתונים זהים לאלה של מערכת EUDAMED הנמצאת בפיתוח."
+    },
+    {
+      "id": "intro-p5",
+      "type": "paragraph",
+      "en": "For further guidance with respect to the application of certain MDR provisions during the absence of EUDAMED please see MDCG 2021-1 Rev.1. In the absence of EUDAMED, the Union-wide unique single identification number for a clinical investigation, which shall be used for all relevant communication in relation to that clinical investigation will be the CIV-ID which is currently used for Eudamed2, the electronic system which supports the medical device Directives.",
+      "he": "להנחיות נוספות ביחס ליישום הוראות מסוימות של ה-MDR בתקופת היעדרו של EUDAMED ראו MDCG 2021-1 Rev.1³. בהיעדר EUDAMED, מספר הזיהוי הייחודי היחיד ברחבי האיחוד עבור חקירה קלינית, אשר ישמש בכל התקשורת הרלוונטית הנוגעת לאותה חקירה קלינית, יהיה ה-CIV-ID המשמש כיום עבור Eudamed2, המערכת האלקטרונית התומכת בדירקטיבות המכשירים הרפואיים⁴."
+    },
+
+    {
+      "id": "templates",
+      "type": "heading",
+      "level": 1,
+      "en": "Use of templates",
+      "he": "השימוש בתבניות"
+    },
+    {
+      "id": "templates-p1",
+      "type": "paragraph",
+      "en": "These documents are intended to be facilitative and their use by the Competent Authorities and sponsors is encouraged, however it is important to check with the individual Member State in which the clinical investigation is planned to be conducted as to any specific national requirements. It is planned that these templates will be withdrawn once the EUDAMED module for clinical investigations is fully functional. Further operational guidance with respect to the use of the guidance may be provided in due course.",
+      "he": "מסמכים אלה נועדו להקל, והשימוש בהם על ידי הרשויות המוסמכות ונותני החסות מעודד, אולם חשוב לבדוק מול כל מדינה חברה שבה מתוכננת החקירה הקלינית להתבצע מהן הדרישות הלאומיות הספציפיות. מתוכנן כי תבניות אלה יבוטלו לאחר שמודול EUDAMED לחקירות קליניות יהיה פעיל במלואו. הנחיות תפעוליות נוספות בנוגע לשימוש בהנחיה עשויות להינתן בבוא העת."
+    },
+
+    {
+      "id": "fn-1",
+      "type": "note",
+      "marker": "1",
+      "en": "Clinical investigation application (MDR Art. 62(1)), PMCF investigation notification (MDR Art. 74(1)), other clinical investigation application/notification, i.e. a national application (MDR Art. 82(1)).",
+      "he": "בקשה לחקירה קלינית (MDR סעיף 62(1)), הודעה על חקירת PMCF (MDR סעיף 74(1)), בקשה/הודעה אחרת לחקירה קלינית, קרי בקשה לאומית (MDR סעיף 82(1))."
+    },
+    {
+      "id": "fn-2",
+      "type": "note",
+      "marker": "2",
+      "en": "Regulation (EU) 2017/745 of the European Parliament and of the Council of 5 April 2017 on medical devices, amending Directive 2001/83/EC, Regulation (EC) No 178/2002 and Regulation (EC) No 1223/2009 and repealing Council Directives 90/385/EEC and 93/42/EEC, OJ L 117, 5.5.2017, p. 1–175.",
+      "he": "תקנה (האיחוד האירופי) 2017/745 של הפרלמנט האירופי ושל המועצה מ-5 באפריל 2017 בנושא מכשירים רפואיים, המתקנת את דירקטיבה 2001/83/EC, תקנה (EC) מס' 178/2002 ותקנה (EC) מס' 1223/2009 ומבטלת את דירקטיבות המועצה 90/385/EEC ו-93/42/EEC, OJ L 117, 5.5.2017, עמ' 1–175."
+    },
+    {
+      "id": "fn-3",
+      "type": "note",
+      "marker": "3",
+      "en": "MDCG 2021-1 Rev.1 Guidance on harmonised administrative practices and alternative technical solutions until EUDAMED is fully functional, May 2021.",
+      "he": "MDCG 2021-1 Rev.1 הנחיה בנושא נוהלי מינהל מתואמים ופתרונות טכניים חלופיים עד אשר EUDAMED יהיה פעיל במלואו, מאי 2021."
+    },
+    {
+      "id": "fn-4",
+      "type": "note",
+      "marker": "4",
+      "en": "Council Directives 90/385/EEC and 93/42/EEC.",
+      "he": "דירקטיבות המועצה 90/385/EEC ו-93/42/EEC."
+    },
+
+    {
+      "id": "annex",
+      "type": "heading",
+      "level": 1,
+      "number": "Annex",
+      "en": "Annex - Templates",
+      "he": "נספח – תבניות"
+    },
+    {
+      "id": "annex-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          { "en": "Title", "he": "כותרת" },
+          { "en": "Document", "he": "מסמך" }
+        ],
+        [
+          { "en": "Clinical investigation – application/notification form under the Medical Device Regulation", "he": "חקירה קלינית – טופס בקשה/הודעה על פי תקנת המכשירים הרפואיים" },
+          { "en": "Clinical investigation_notification form under the MDR", "he": "Clinical investigation_notification form under the MDR" }
+        ],
+        [
+          { "en": "Additional investigational device(s) (section 3)", "he": "מכשיר/י חקירה נוספ/ים (סעיף 3)" },
+          { "en": "Section 3 - Additional investigational device(s)", "he": "Section 3 - Additional investigational device(s)" }
+        ],
+        [
+          { "en": "Additional comparator device(s) (section 4)", "he": "מכשיר/י השוואה (קומפרטור) נוספ/ים (סעיף 4)" },
+          { "en": "Section 4 - Additional comparator device(s)", "he": "Section 4 - Additional comparator device(s)" }
+        ],
+        [
+          { "en": "Additional investigation site(s) (section 5)", "he": "אתר/י חקירה נוספ/ים (סעיף 5)" },
+          { "en": "Section 5 - Additional investigation site(s).pdf", "he": "Section 5 - Additional investigation site(s).pdf" }
+        ],
+        [
+          { "en": "Clinical investigation supporting documents - Appendix of documents to attach", "he": "מסמכים תומכים לחקירה קלינית – נספח של מסמכים לצירוף" },
+          { "en": "CI supporting documents - appendix", "he": "CI supporting documents - appendix" }
+        ],
+        [
+          { "en": "Checklist of general safety and performance requirements, Standards, common specifications and scientific advice", "he": "רשימת תיוג של דרישות כלליות לבטיחות וביצועים, תקנים, מפרטים משותפים וייעוץ מדעי" },
+          { "en": "GSPR and list of standards applied.doc", "he": "GSPR and list of standards applied.doc" }
+        ]
+      ]
+    }
+  ]
+}

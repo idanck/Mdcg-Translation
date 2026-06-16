@@ -1,0 +1,239 @@
+{
+  "id": "MDCG-2021-4-rev1",
+  "title": {
+    "en": "Application of transitional provisions for certification of class D in vitro diagnostic medical devices according to Regulation (EU) 2017/746",
+    "he": "יישום הוראות מעבר לאישור מכשירים רפואיים לאבחנה ויטרו (IVD) מסיווג D על פי תקנה (האיחוד האירופי) 2017/746"
+  },
+  "category": "In Vitro Diagnostic Medical Devices (IVD)",
+  "publicationDate": "2024-09",
+  "source": {
+    "url": "https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en",
+    "file": "original/mdcg_2021-4_en.pdf"
+  },
+  "language": "he",
+  "direction": "rtl",
+  "translationStatus": "review",
+  "glossaryVersion": "2026-06",
+  "blocks": [
+    {
+      "id": "disclaimer-1",
+      "type": "paragraph",
+      "en": "This document has been endorsed by the Medical Device Coordination Group (MDCG) established by Article 103 of Regulation (EU) 2017/745. The MDCG is composed of representatives of all Member States and a representative of the European Commission chairs it.",
+      "he": "מסמך זה אושר על ידי קבוצת תיאום המכשירים הרפואיים (MDCG) שהוקמה מכוח סעיף 103 לתקנה (האיחוד האירופי) 2017/745. ה-MDCG מורכבת מנציגים של כל המדינות החברות, ובראשה עומד נציג של הנציבות האירופית."
+    },
+    {
+      "id": "disclaimer-2",
+      "type": "paragraph",
+      "en": "The document is not a European Commission document and it cannot be regarded as reflecting the official position of the European Commission. Any views expressed in this document are not legally binding and only the Court of Justice of the European Union can give binding interpretations of Union law.",
+      "he": "המסמך אינו מסמך של הנציבות האירופית ואין לראות בו כמשקף את העמדה הרשמית של הנציבות האירופית. כל דעה המובעת במסמך זה אינה מחייבת מבחינה משפטית, ורק בית הדין לצדק של האיחוד האירופי מוסמך לתת פרשנות מחייבת לדין האיחוד."
+    },
+
+    {
+      "id": "doc-title-heading",
+      "type": "heading",
+      "level": 1,
+      "en": "Application of transitional provisions for certification of class D in vitro diagnostic medical devices according to Regulation (EU) 2017/746",
+      "he": "יישום הוראות מעבר לאישור מכשירים רפואיים לאבחנה ויטרו (IVD) מסיווג D על פי תקנה (האיחוד האירופי) 2017/746"
+    },
+
+    {
+      "id": "changes-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "MDCG 2021-4 revision 1 changes",
+      "he": "שינויים בגרסה 1 (revision 1) של MDCG 2021-4"
+    },
+    {
+      "id": "changes-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          { "en": "MDCG 2021-4 revision 1 changes", "he": "שינויים בגרסה 1 של MDCG 2021-4" },
+          { "en": "", "he": "" }
+        ],
+        [
+          { "en": "Introduction", "he": "מבוא" },
+          { "en": "Clarifications on scope", "he": "הבהרות לגבי התחולה" }
+        ],
+        [
+          { "en": "Q1", "he": "שאלה 1" },
+          { "en": "Indication that question is obsolete", "he": "ציון שהשאלה אינה רלוונטית עוד" }
+        ],
+        [
+          { "en": "Q2", "he": "שאלה 2" },
+          { "en": "Minor revision", "he": "תיקון מינורי" }
+        ],
+        [
+          { "en": "Q3", "he": "שאלה 3" },
+          { "en": "Introduction of reference to MDCG 2021-22 Rev 1", "he": "הוספת הפניה ל-MDCG 2021-22 Rev 1" }
+        ],
+        [
+          { "en": "Q4", "he": "שאלה 4" },
+          { "en": "Editorial change", "he": "שינוי עריכה" }
+        ],
+        [
+          { "en": "Q5", "he": "שאלה 5" },
+          { "en": "Minor revision", "he": "תיקון מינורי" }
+        ],
+        [
+          { "en": "Q6", "he": "שאלה 6" },
+          { "en": "Revision", "he": "תיקון" }
+        ],
+        [
+          { "en": "Q7", "he": "שאלה 7" },
+          { "en": "New question", "he": "שאלה חדשה" }
+        ]
+      ]
+    },
+
+    {
+      "id": "intro-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Introduction",
+      "he": "מבוא"
+    },
+    {
+      "id": "intro-p1",
+      "type": "paragraph",
+      "en": "According to Regulation (EU) 2017/746 on in vitro diagnostic medical devices (the IVDR), as part of conformity assessment of class D in vitro diagnostic medical devices (IVDs), the manufacturer must submit an application to a notified body. In addition to the assessment by the notified body, under certain conditions particular elements may be reviewed by an expert panel and/or tested by an EU reference laboratory (EURL). This document provides indications for how to apply the IVDR provisions related to expert panels and EURLs before the IVDR application date, i.e. 26 May 2022, as well as around the time when the first EURL designations become applicable for the purpose of EURL tasks (1 October 2024 according to Commission Implementing Regulation (EU) 2023/2713).",
+      "he": "על פי תקנה (האיחוד האירופי) 2017/746 בנושא מכשירים רפואיים לאבחנה ויטרו (ה-IVDR), כחלק מהערכת ההתאמה של מכשירים רפואיים לאבחנה ויטרו (IVD) מסיווג D, על היצרן להגיש בקשה לגוף מאונתר. בנוסף להערכה שמבצע הגוף המאונתר, בתנאים מסוימים רכיבים מסוימים עשויים להיבחן על ידי פאנל מומחים ו/או להיבדק על ידי מעבדת ייחוס של האיחוד האירופי (EURL). מסמך זה מספק הנחיות כיצד ליישם את הוראות ה-IVDR הנוגעות לפאנלי מומחים ולמעבדות הייחוס של האיחוד (EURL) לפני מועד תחילת היישום של ה-IVDR, קרי 26 במאי 2022, וכן סביב המועד שבו ייעודן הראשון של מעבדות הייחוס של האיחוד נכנס לתוקף לצורך משימות ה-EURL (1 באוקטובר 2024, על פי תקנת היישום של הנציבות (האיחוד האירופי) 2023/2713)."
+    },
+
+    {
+      "id": "q1-heading",
+      "type": "heading",
+      "level": 2,
+      "number": "Q1",
+      "en": "Q1. Before 26 May 2022, may notified bodies accept applications from manufacturers for certification of class D IVDs, and issue the corresponding certificates, if the IVD expert panel is not yet operational?",
+      "he": "שאלה 1. האם לפני 26 במאי 2022 רשאים גופים מאונתרים לקבל בקשות מיצרנים לאישור מכשירי IVD מסיווג D, ולהנפיק את האישורים המתאימים, אם פאנל המומחים ל-IVD אינו פעיל עדיין?"
+    },
+    {
+      "id": "q1-p1",
+      "type": "paragraph",
+      "en": "Notified bodies may accept and begin the assessment of applications for class D IVDs. However, the notified bodies may not issue the certificate before the expert panel is operational and, for the devices that require consultation of the panel, before the panel has provided its views (see also Q2 and Q3).",
+      "he": "גופים מאונתרים רשאים לקבל בקשות לאישור מכשירי IVD מסיווג D ולהתחיל בהערכתן. עם זאת, הגופים המאונתרים אינם רשאים להנפיק את האישור לפני שפאנל המומחים פעיל, ועבור המכשירים המחייבים התייעצות עם הפאנל — לפני שהפאנל מסר את חוות דעתו (ראו גם שאלות 2 ו-3)."
+    },
+    {
+      "id": "q1-p2",
+      "type": "paragraph",
+      "en": "[This question is obsolete as the IVD expert panel is operational, see the relevant Commission webpage.]",
+      "he": "[שאלה זו אינה רלוונטית עוד, שכן פאנל המומחים ל-IVD פעיל; ראו את דף האינטרנט הרלוונטי של הנציבות.]"
+    },
+
+    {
+      "id": "q2-heading",
+      "type": "heading",
+      "level": 2,
+      "number": "Q2",
+      "en": "Q2. For devices to which this requirement is applicable, when must the notified body submit the performance evaluation report of the manufacturer to the expert panel?",
+      "he": "שאלה 2. עבור מכשירים שלגביהם חלה דרישה זו, מתי על הגוף המאונתר להגיש את דוח הערכת הביצועים של היצרן לפאנל המומחים?"
+    },
+    {
+      "id": "q2-p1",
+      "type": "paragraph",
+      "en": "According to IVDR Art 48(6), “the notified body shall provide the performance evaluation report of the manufacturer to the expert panel within five days of receiving it from the manufacturer”.",
+      "he": "על פי סעיף 48(6) ל-IVDR, \"הגוף המאונתר ימסור לפאנל המומחים את דוח הערכת הביצועים של היצרן בתוך חמישה ימים ממועד קבלתו מהיצרן\"."
+    },
+
+    {
+      "id": "q3-heading",
+      "type": "heading",
+      "level": 2,
+      "number": "Q3",
+      "en": "Q3. How should the notified body determine whether the device will have to undergo consultation of the expert panel prior to issuing the certificate?",
+      "he": "שאלה 3. כיצד על הגוף המאונתר לקבוע אם המכשיר יידרש לעבור התייעצות עם פאנל המומחים בטרם הנפקת האישור?"
+    },
+    {
+      "id": "q3-p1",
+      "type": "paragraph",
+      "en": "According to IVDR Article 48 (6), “where no CS are available for class D devices and where it is also the first certification for that type of device, the notified body shall consult the relevant experts referred to in Article 106 of Regulation (EU) 2017/745 on the performance evaluation report of the manufacturer”. Guidance on what constitutes a “type of device”, as well as on the process that the notified bodies should follow to determine whether a given certification is the first one for that type, is available in MDCG 2021-22 Rev 1.",
+      "he": "על פי סעיף 48(6) ל-IVDR, \"כאשר אין מפרטים משותפים (CS) זמינים עבור מכשירים מסיווג D, וכאשר מדובר גם באישור הראשון לסוג מכשיר זה, הגוף המאונתר יתייעץ עם המומחים הרלוונטיים הנזכרים בסעיף 106 לתקנה (האיחוד האירופי) 2017/745 לגבי דוח הערכת הביצועים של היצרן\". הנחיה לגבי מהו \"סוג מכשיר\", וכן לגבי התהליך שעל הגופים המאונתרים לנקוט כדי לקבוע אם אישור נתון הוא האישור הראשון עבור אותו סוג, זמינה ב-MDCG 2021-22 Rev 1."
+    },
+
+    {
+      "id": "q4-heading",
+      "type": "heading",
+      "level": 2,
+      "number": "Q4",
+      "en": "Q4. When can the notified body expect to receive the views of the expert panel?",
+      "he": "שאלה 4. מתי יכול הגוף המאונתר לצפות לקבל את חוות דעתו של פאנל המומחים?"
+    },
+    {
+      "id": "q4-p1",
+      "type": "paragraph",
+      "en": "According to IVDR Article 48(6), “The experts shall provide their views to the notified body within the deadline for delivery of the scientific opinion by the EU reference laboratory”. Regardless of whether or not an EU reference laboratory (EURL) is designated for the device in question, the expert panel should provide its views within 60 days, in line with the time available for the EURL to issue its opinion according to Annex IX Section 4.9 and Annex X Section 3 (j).",
+      "he": "על פי סעיף 48(6) ל-IVDR, \"המומחים ימסרו את חוות דעתם לגוף המאונתר במסגרת המועד האחרון למסירת חוות הדעת המדעית על ידי מעבדת הייחוס של האיחוד האירופי\". בין אם מעבדת ייחוס של האיחוד האירופי (EURL) יועדה עבור המכשיר הנדון ובין אם לאו, על פאנל המומחים למסור את חוות דעתו בתוך 60 ימים, בהתאם לזמן העומד לרשות ה-EURL להנפקת חוות דעתו על פי נספח IX סעיף 4.9 ונספח X סעיף 3(j)."
+    },
+
+    {
+      "id": "q5-heading",
+      "type": "heading",
+      "level": 2,
+      "number": "Q5",
+      "en": "Q5. May notified bodies accept applications from manufacturers for certification of a class D IVD, and issue the corresponding certificate(s), if an EURL is not designated for that device?",
+      "he": "שאלה 5. האם רשאים גופים מאונתרים לקבל בקשות מיצרנים לאישור מכשיר IVD מסיווג D, ולהנפיק את האישור/ים המתאים/ים, אם לא יועדה מעבדת ייחוס של האיחוד (EURL) עבור אותו מכשיר?"
+    },
+    {
+      "id": "q5-p1",
+      "type": "paragraph",
+      "en": "Yes. Notified bodies may accept applications for a class D IVD and issue the corresponding certificate(s) if an EURL is not designated for that device.",
+      "he": "כן. גופים מאונתרים רשאים לקבל בקשות לאישור מכשיר IVD מסיווג D ולהנפיק את האישור/ים המתאים/ים אם לא יועדה מעבדת ייחוס של האיחוד (EURL) עבור אותו מכשיר."
+    },
+
+    {
+      "id": "q6-heading",
+      "type": "heading",
+      "level": 2,
+      "number": "Q6",
+      "en": "Q6. What will happen to devices certified under the IVDR in the absence of an EURL if an EURL is designated for the corresponding scope at a later time point?",
+      "he": "שאלה 6. מה יקרה למכשירים שאושרו על פי ה-IVDR בהיעדר מעבדת ייחוס של האיחוד (EURL), אם תיועד EURL עבור התחום המתאים במועד מאוחר יותר?"
+    },
+    {
+      "id": "q6-p1",
+      "type": "paragraph",
+      "en": "The certificate will remain valid until its expiry date established by the notified body and according to the IVDR. On sample or batch testing, the notified body and manufacturer should follow the EURL-related provisions of Section 4.12 of Annex IX or Section 5 of Annex XI from the time that the EURL becomes operational (see Q7). For performance verification, the notified body should follow the EURL-related provisions of Section 4.9 of Annex IX or Section 3 (j) of Annex X in the course of the renewal of EU technical documentation assessment certificates and EU type-examination certificates in line with Section 4.11 (f) of Annex VII. The provisions on consulting the EURL in case of changes (second paragraph of Section 4.11 of Annex IX or Section 5.4 of Annex X) apply if the initial performance verification by an EURL has been carried out.",
+      "he": "האישור יישאר בתוקף עד למועד פקיעתו שנקבע על ידי הגוף המאונתר ובהתאם ל-IVDR. בנוגע לבדיקת דגימה או אצווה, על הגוף המאונתר ועל היצרן לפעול בהתאם להוראות הנוגעות ל-EURL שבסעיף 4.12 של נספח IX או בסעיף 5 של נספח XI, מהמועד שבו ה-EURL הופכת לפעילה (ראו שאלה 7). בנוגע לאימות ביצועים, על הגוף המאונתר לפעול בהתאם להוראות הנוגעות ל-EURL שבסעיף 4.9 של נספח IX או בסעיף 3(j) של נספח X, במהלך חידוש אישורי הערכת התיעוד הטכני של האיחוד (EU) ואישורי בחינת הטיפוס של האיחוד (EU), בהתאם לסעיף 4.11(f) של נספח VII. ההוראות בדבר התייעצות עם ה-EURL במקרה של שינויים (הפסקה השנייה של סעיף 4.11 של נספח IX או סעיף 5.4 של נספח X) חלות אם בוצע אימות הביצועים הראשוני על ידי EURL."
+    },
+
+    {
+      "id": "q7-heading",
+      "type": "heading",
+      "level": 2,
+      "number": "Q7",
+      "en": "Q7. What does the date of application of the designation of EURLs (1 October 2024) mean in practical terms for EURL tasks, and in particular for sample or batch testing according to Article 100(2)(b) IVDR and performance verification according to Article 100(2)(a)?",
+      "he": "שאלה 7. מה משמעותו המעשית של מועד תחילת תחולת ייעוד מעבדות הייחוס של האיחוד (EURL) (1 באוקטובר 2024) לגבי משימות ה-EURL, ובפרט לגבי בדיקת דגימה או אצווה על פי סעיף 100(2)(b) ל-IVDR ואימות ביצועים על פי סעיף 100(2)(a)?"
+    },
+    {
+      "id": "q7-p1",
+      "type": "paragraph",
+      "en": "The Commission Implementing Regulation (EU) 2023/2713 states that, for the purpose of the tasks referred to in Article 100(2) of the IVDR, the designation of the EURLs shall apply from 1 October 2024. The activities that are part of fulfilling the tasks are laid down in Commission Implementing Regulation (EU) 2022/944. When the designation of the EURLs becomes applicable for these tasks on 1 October 2024, the EURLs are required to engage in the activities described in Articles 10-16 of Commission Implementing Regulation (EU) 2022/944.",
+      "he": "תקנת היישום של הנציבות (האיחוד האירופי) 2023/2713 קובעת כי, לצורך המשימות הנזכרות בסעיף 100(2) ל-IVDR, ייעוד מעבדות הייחוס של האיחוד (EURL) יחול מ-1 באוקטובר 2024. הפעילויות שהן חלק ממילוי המשימות מפורטות בתקנת היישום של הנציבות (האיחוד האירופי) 2022/944. כאשר ייעוד מעבדות הייחוס של האיחוד נכנס לתוקף עבור משימות אלה ב-1 באוקטובר 2024, נדרשות מעבדות הייחוס של האיחוד לעסוק בפעילויות המתוארות בסעיפים 10–16 של תקנת היישום של הנציבות (האיחוד האירופי) 2022/944."
+    },
+    {
+      "id": "q7-p2",
+      "type": "paragraph",
+      "en": "In particular for batch testing, as of 1 October 2024, for all class D devices for which notified bodies have issued a certificate under the IVDR, and which fall within a scope of a designated EURL, notified bodies are obliged to contact an appropriate EURL and engage in the activities described in Articles 10, 11 and 13 of Commission Implementing Regulation (EU) 2022/944.",
+      "he": "בפרט בנוגע לבדיקת אצווה, החל מ-1 באוקטובר 2024, עבור כל המכשירים מסיווג D שלגביהם הנפיקו גופים מאונתרים אישור על פי ה-IVDR, ואשר נופלים בתחום של EURL מיועדת, חייבים הגופים המאונתרים לפנות ל-EURL מתאימה ולעסוק בפעילויות המתוארות בסעיפים 10, 11 ו-13 של תקנת היישום של הנציבות (האיחוד האירופי) 2022/944."
+    },
+    {
+      "id": "q7-p3",
+      "type": "paragraph",
+      "en": "More generally, notified bodies should engage with an appropriate EURL as regards preparation for batch testing in advance of the issuance of the certificate for all class D devices for which they are involved in conformity assessment activities under the IVDR, and which fall in scope of the designated EURLs.",
+      "he": "באופן כללי יותר, על הגופים המאונתרים לפעול מול EURL מתאימה בנוגע להיערכות לבדיקת אצווה לפני הנפקת האישור, עבור כל המכשירים מסיווג D שבהם הם מעורבים בפעילויות הערכת התאמה על פי ה-IVDR, ואשר נופלים בתחומן של מעבדות הייחוס של האיחוד המיועדות."
+    },
+    {
+      "id": "q7-p4",
+      "type": "paragraph",
+      "en": "For each device testing, there are preparatory elements to complete, such as: signing of contracts, shipping of equipment, shipping of device samples, installation activities etc. As the EURL is required to support and carry out these activities as of 1 October 2024, it may not be possible to start the testing itself on this date. Testing should take place, on a case-by-case basis, as soon as all the arrangements such as proper installation and validation of any equipment are in place. While these preparatory elements of the task are being put in place, the notified body can request other testing or evidence from the manufacturer to ensure appropriate batch verification in line with the provisions in Annex IX 4.3, 4.12 or Annex X 3(a) and 5 and Annex VII 4.5.3 IVDR, especially if such arrangements were in place before the application of the EURL designation.",
+      "he": "עבור בדיקת כל מכשיר קיימים רכיבים מכינים שיש להשלים, כגון: חתימה על חוזים, משלוח ציוד, משלוח דגימות של מכשירים, פעולות התקנה וכדומה. מאחר שה-EURL נדרשת לתמוך בפעילויות אלה ולבצען החל מ-1 באוקטובר 2024, ייתכן שלא ניתן יהיה להתחיל את הבדיקה עצמה במועד זה. הבדיקה צריכה להתבצע, על בסיס פרטני, ברגע שכל ההסדרים — כגון התקנה נכונה ואימות תקפות של כל ציוד — מצויים במקומם. בעוד רכיבים מכינים אלה של המשימה מצויים בהליכי הקמה, הגוף המאונתר רשאי לדרוש מהיצרן בדיקות אחרות או ראיות אחרות כדי להבטיח אימות אצווה מתאים בהתאם להוראות בנספח IX 4.3, 4.12 או נספח X 3(a) ו-5 ונספח VII 4.5.3 ל-IVDR, במיוחד אם הסדרים אלה היו קיימים לפני תחילת תחולת ייעוד ה-EURL."
+    },
+    {
+      "id": "q7-p5",
+      "type": "paragraph",
+      "en": "For performance verification, for all class D devices for which a formal application is lodged with the notified body from 1 October 2024, and which fall in scope of the designated EURLs, notified bodies are obliged to contact appropriate EURLs to engage in activities described in Articles 10-12 of Commission Implementing Regulation 2022/944 as part of the conformity assessment procedure. For class D devices for which a formal application is lodged with the notified body before 1 October 2024 but a certificate was not yet issued by that date, the notified body should follow the EURL-related provisions of Section 4.9 of Annex IX or Section 3 (j) of Annex X in the course of the renewal of EU technical documentation assessment certificates and EU type-examination certificates.",
+      "he": "בנוגע לאימות ביצועים, עבור כל המכשירים מסיווג D שלגביהם הוגשה בקשה רשמית לגוף המאונתר החל מ-1 באוקטובר 2024, ואשר נופלים בתחומן של מעבדות הייחוס של האיחוד המיועדות, חייבים הגופים המאונתרים לפנות למעבדות ייחוס מתאימות של האיחוד כדי לעסוק בפעילויות המתוארות בסעיפים 10–12 של תקנת היישום של הנציבות 2022/944, כחלק מהליך הערכת ההתאמה. עבור מכשירים מסיווג D שלגביהם הוגשה בקשה רשמית לגוף המאונתר לפני 1 באוקטובר 2024 אך עד אותו מועד טרם הונפק אישור, על הגוף המאונתר לפעול בהתאם להוראות הנוגעות ל-EURL שבסעיף 4.9 של נספח IX או בסעיף 3(j) של נספח X, במהלך חידוש אישורי הערכת התיעוד הטכני של האיחוד (EU) ואישורי בחינת הטיפוס של האיחוד (EU)."
+    }
+  ]
+}
