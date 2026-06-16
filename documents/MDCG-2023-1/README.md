@@ -11,8 +11,8 @@
 
 | Item | Status |
 |------|--------|
-| Original (EN) | ⬜ Not yet added |
-| Hebrew translation | ⬜ Not yet started |
+| Original (EN) | ✅ `original/mdcg_2023-1_en.pdf` |
+| Hebrew translation | 🔍 Under review (full translation done) |
 
 ---
 
@@ -20,11 +20,20 @@
 
 | File | Description |
 |------|-------------|
-| `original/` | Original English document (PDF) |
-| `translation/` | Hebrew translation |
+| `original/mdcg_2023-1_en.pdf` | Original English document (PDF) |
+| `translation/MDCG-2023-1.he.json` | Canonical bilingual translation (source of truth) |
+| `translation/MDCG-2023-1.he.html` | Hebrew RTL rendering, generated from the JSON |
 
 ---
 
 ## Notes
 
-<!-- Add translation notes, terminology decisions, open questions here -->
+- Full translation of Sections 1–3 (3.1–3.11), Annex A and Annex B.
+- Annex A public declaration is a *template*: the declaration field labels and the in-house
+  device table headers are translated, while the form's blank placeholders are kept as fill-in
+  fields. Footnotes (hospital note, risk-class note) are rendered as note blocks.
+- Glossary terms applied (e.g. Health Institution → מוסד בריאות, GSPR → דרישות כלליות לבטיחות וביצועים).
+  New term introduced: In-house device → מכשיר מתוצרת עצמית.
+- To regenerate the HTML after editing the JSON:
+  `python3 tools/render_html.py MDCG-2023-1`
+- To validate the JSON against the schema: `python3 tools/validate.py MDCG-2023-1`
