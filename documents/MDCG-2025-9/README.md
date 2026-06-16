@@ -11,8 +11,8 @@
 
 | Item | Status |
 |------|--------|
-| Original (EN) | ⬜ Not yet added |
-| Hebrew translation | ⬜ Not yet started |
+| Original (EN) | ✅ `original/mdcg_2025-9_en.pdf` |
+| Hebrew translation | 🔍 Under review (full translation done) |
 
 ---
 
@@ -20,11 +20,13 @@
 
 | File | Description |
 |------|-------------|
-| `original/` | Original English document (PDF) |
-| `translation/` | Hebrew translation |
+| `original/mdcg_2025-9_en.pdf` | Original English document (PDF) |
+| `translation/MDCG-2025-9.he.json` | Canonical bilingual translation (source of truth) |
+| `translation/MDCG-2025-9.he.html` | Hebrew RTL rendering, generated from the JSON |
 
 ---
 
 ## Notes
 
-<!-- Add translation notes, terminology decisions, open questions here -->
+- Covers the Breakthrough Device (BtX) designation procedure under MDR (EU) 2017/745 and IVDR (EU) 2017/746.
+- All criteria, procedural steps, and Q&A sections are fully translated.
