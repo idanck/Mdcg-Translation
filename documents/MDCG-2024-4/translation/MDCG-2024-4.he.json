@@ -1,0 +1,1855 @@
+{
+  "id": "MDCG-2024-4",
+  "title": {
+    "en": "Safety reporting in performance studies of in vitro diagnostic medical devices under Regulation (EU) 2017/746",
+    "he": "דיווח בטיחות במחקרי ביצועים של מכשירים רפואיים לאבחון ויטרו לפי תקנה (האיחוד האירופי) 2017/746"
+  },
+  "category": "In Vitro Diagnostic Medical Devices (IVD)",
+  "publicationDate": "2024-04",
+  "source": {
+    "url": "https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en",
+    "file": "original/mdcg_2024-4_en.pdf"
+  },
+  "language": "he",
+  "direction": "rtl",
+  "translationStatus": "review",
+  "glossaryVersion": "2026-06",
+  "blocks": [
+    {
+      "id": "disclaimer-1",
+      "type": "paragraph",
+      "en": "This document has been endorsed by the Medical Device Coordination Group (MDCG) established by Article 103 of Regulation (EU) 2017/745. The MDCG is composed of representatives of all Member States and it is chaired by a representative of the European Commission.",
+      "he": "מסמך זה אושר על ידי קבוצת תיאום המכשירים הרפואיים (MDCG) שהוקמה מכוח סעיף 103 לתקנה (האיחוד האירופי) 2017/745. ה-MDCG מורכבת מנציגים של כל המדינות החברות ובראשה עומד נציג של הנציבות האירופית."
+    },
+    {
+      "id": "disclaimer-2",
+      "type": "paragraph",
+      "en": "The document is not a European Commission document and it cannot be regarded as reflecting the official position of the European Commission. Any views expressed in this document are not legally binding and only the Court of Justice of the European Union can give binding interpretations of Union law.",
+      "he": "המסמך אינו מסמך של הנציבות האירופית ואין לראות בו כמשקף את העמדה הרשמית של הנציבות האירופית. כל דעה המובעת במסמך זה אינה מחייבת מבחינה משפטית, ורק בית הדין לצדק של האיחוד האירופי מוסמך לתת פרשנות מחייבת לדין האיחוד."
+    },
+
+    {
+      "id": "toc-heading",
+      "type": "heading",
+      "level": 1,
+      "en": "Table of contents",
+      "he": "תוכן העניינים"
+    },
+    {
+      "id": "toc-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "1 Introduction", "he": "1 מבוא" },
+        { "en": "2 Scope", "he": "2 תחולה" },
+        { "en": "2.1 Performance studies of in vitro diagnostic medical devices", "he": "2.1 מחקרי ביצועים של מכשירים רפואיים לאבחון ויטרו" },
+        { "en": "3 Abbreviations", "he": "3 ראשי תיבות" },
+        { "en": "4 Definitions", "he": "4 הגדרות" },
+        { "en": "5 Reporting method", "he": "5 שיטת הדיווח" },
+        { "en": "6 Reportable events", "he": "6 אירועים בני-דיווח" },
+        { "en": "7 Report by whom", "he": "7 מי מדווח" },
+        { "en": "8 Report to whom", "he": "8 למי מדווחים" },
+        { "en": "9 Reporting timelines", "he": "9 לוחות זמנים לדיווח" },
+        { "en": "10 Causality assessment", "he": "10 הערכת סיבתיות" },
+        { "en": "11 Reporting form", "he": "11 טופס הדיווח" },
+        { "en": "12 References", "he": "12 הפניות" },
+        { "en": "13 Appendix – Performance Study Summary Safety Reporting Form", "he": "13 נספח – טופס דיווח בטיחות מסכם למחקר ביצועים" }
+      ]
+    },
+
+    {
+      "id": "sec-1",
+      "type": "heading",
+      "level": 1,
+      "number": "1",
+      "en": "Introduction",
+      "he": "מבוא"
+    },
+    {
+      "id": "sec-1-p1",
+      "type": "paragraph",
+      "en": "Safety reporting in performance studies of in vitro diagnostic medical devices (IVDs) shall be performed in line with the requirements of Article 76(2) of Regulation (EU) 2017/746 – In Vitro Diagnostic Medical Device Regulation (IVDR):",
+      "he": "דיווח בטיחות במחקרי ביצועים של מכשירים רפואיים לאבחון ויטרו (IVDs) יבוצע בהתאם לדרישות סעיף 76(2) לתקנה (האיחוד האירופי) 2017/746 – תקנת המכשירים הרפואיים לאבחון ויטרו (IVDR):"
+    },
+    {
+      "id": "sec-1-p2",
+      "type": "paragraph",
+      "en": "The sponsor shall report without delay to all Member States in which a performance study is being conducted all of the following by means of the electronic system referred to in IVDR Article 69:",
+      "he": "ה-Sponsor ידווח ללא דיחוי לכל המדינות החברות שבהן מתבצע מחקר ביצועים על כל אלה, באמצעות המערכת האלקטרונית הנזכרת בסעיף 69 ל-IVDR:"
+    },
+    {
+      "id": "sec-1-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "a) any serious adverse event that has a causal relationship with the device, the comparator or the study procedure or where such causal relationship is reasonably possible;", "he": "א) כל אירוע חמור (serious adverse event) שיש לו קשר סיבתי עם המכשיר, עם המשווה (comparator) או עם הליך המחקר, או כאשר קשר סיבתי כזה אפשרי באופן סביר;" },
+        { "en": "b) any device deficiency that might have led to a serious adverse event if appropriate action had not been taken, intervention had not occurred, or circumstances had been less fortunate;", "he": "ב) כל ליקוי מכשיר (device deficiency) שיכול היה להוביל לאירוע חמור אילולא ננקטה פעולה מתאימה, אילולא התבצעה התערבות, או אילו היו הנסיבות פחות מיטיבות;" },
+        { "en": "c) any new findings in relation to any event referred to in points a) and b).", "he": "ג) כל ממצא חדש (new finding) הנוגע לכל אירוע הנזכר בפסקאות א) ו-ב)." }
+      ]
+    },
+    {
+      "id": "sec-1-p3",
+      "type": "paragraph",
+      "en": "The period for reporting shall take account of the severity of the event. Where necessary to ensure timely reporting, the sponsor may submit an initial report that is incomplete followed up by a complete report.",
+      "he": "תקופת הדיווח תיקח בחשבון את חומרת האירוע. במקרים שבהם הדבר נחוץ כדי להבטיח דיווח בזמן, ה-Sponsor רשאי להגיש דוח ראשוני שאינו שלם, ובעקבותיו דוח מלא."
+    },
+    {
+      "id": "sec-1-p4",
+      "type": "paragraph",
+      "en": "Upon request by any Member State in which the performance study is being conducted, the sponsor shall provide all information referred to in paragraph 1 of IVDR Article 76(1).",
+      "he": "לבקשת כל מדינה חברה שבה מתבצע מחקר הביצועים, ה-Sponsor יספק את כל המידע הנזכר בפסקה 1 של סעיף 76(1) ל-IVDR."
+    },
+    {
+      "id": "sec-1-p5",
+      "type": "paragraph",
+      "en": "For post-market performance follow-up (PMPF) studies of CE marked devices used within the intended purpose covered by the CE marking, reporting requirements of IVDR Articles 76(5-6) apply. This means that the vigilance provisions laid down in IVDR Articles 82 to 85 and in the acts adopted pursuant to IVDR Article 86 apply to PMPF studies. However, this guidance document is still relevant for PMPF studies as the reporting of serious adverse events (SAEs) where a causal relationship to the preceding PMPF study has been established follow the reporting procedures of performance studies as outlined in IVDR Article 76.",
+      "he": "עבור מחקרי מעקב ביצועים שלאחר שיווק (PMPF) של מכשירים נושאי סימון CE¹ המשמשים במסגרת המטרה המיועדת המכוסה בסימון ה-CE, חלות דרישות הדיווח של סעיפים 76(5-6) ל-IVDR. משמעות הדבר היא שהוראות הערנות (vigilance) שנקבעו בסעיפים 82 עד 85 ל-IVDR ובמעשים שאומצו מכוח סעיף 86 ל-IVDR חלות על מחקרי PMPF. עם זאת, מסמך הנחיה זה עודנו רלוונטי למחקרי PMPF, מאחר שדיווח על אירועים חמורים (SAEs) שלגביהם נקבע קשר סיבתי למחקר ה-PMPF הקודם נעשה לפי הליכי הדיווח של מחקרי ביצועים כמתואר בסעיף 76 ל-IVDR."
+    },
+    {
+      "id": "sec-1-p6",
+      "type": "paragraph",
+      "en": "Since the electronic system referred to in IVDR Article 69 (Eudamed and its module for clinical investigations and performance studies) is not yet available and fully functional from the date of application of the IVDR, this guidance outlines the procedures for safety reporting in performance studies in the absence of the Eudamed module or when Eudamed is not yet fully functional (see also sections 5.1 and 5.2 in this guidance).",
+      "he": "מאחר שהמערכת האלקטרונית הנזכרת בסעיף 69 ל-IVDR (EUDAMED והמודול שלה לחקירות קליניות ולמחקרי ביצועים) אינה עדיין זמינה ופועלת במלואה החל ממועד החלת ה-IVDR, הנחיה זו מתווה את ההליכים לדיווח בטיחות במחקרי ביצועים בהיעדר מודול ה-EUDAMED או כאשר EUDAMED אינו עדיין פועל במלואו (ראה גם סעיפים 5.1 ו-5.2 בהנחיה זו)."
+    },
+    {
+      "id": "sec-1-p7",
+      "type": "paragraph",
+      "en": "This document defines SAE reporting modalities and includes a summary tabulation reporting format.",
+      "he": "מסמך זה מגדיר את אופני הדיווח על SAE וכולל פורמט דיווח טבלאי מסכם."
+    },
+    {
+      "id": "fn-1",
+      "type": "note",
+      "marker": "1",
+      "en": "The PMPF studies referred to in IVDR Article 70(1).",
+      "he": "מחקרי ה-PMPF הנזכרים בסעיף 70(1) ל-IVDR."
+    },
+
+    {
+      "id": "sec-2",
+      "type": "heading",
+      "level": 1,
+      "number": "2",
+      "en": "Scope",
+      "he": "תחולה"
+    },
+    {
+      "id": "sec-2-1",
+      "type": "heading",
+      "level": 2,
+      "number": "2.1",
+      "en": "Performance studies of in vitro diagnostic medical devices",
+      "he": "מחקרי ביצועים של מכשירים רפואיים לאבחון ויטרו"
+    },
+    {
+      "id": "sec-2-1-p1",
+      "type": "paragraph",
+      "en": "The reporting modalities and format set out in this guidance apply to:",
+      "he": "אופני הדיווח והפורמט שנקבעו בהנחיה זו חלים על:"
+    },
+    {
+      "id": "sec-2-1-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Performance studies covered by IVDR Article 58(1): in which surgically invasive sample-taking is done only for the purpose of the performance study; that is an interventional clinical performance study as defined in IVDR Article 2(46); where the conduct of the study involves additional invasive procedures or other risks for the subjects of the studies;", "he": "מחקרי ביצועים המכוסים בסעיף 58(1) ל-IVDR: שבהם נטילת דגימה פולשנית-כירורגית נעשית אך ורק לצורך מחקר הביצועים; שהם מחקר ביצועים קליני התערבותי (interventional clinical performance study) כהגדרתו בסעיף 2(46) ל-IVDR; שבהם ניהול המחקר כרוך בהליכים פולשניים נוספים או בסיכונים אחרים לנבדקי המחקרים;" },
+        { "en": "performance studies covered by IVDR Article 58(2) involving companion diagnostics (except when only using left-over samples);", "he": "מחקרי ביצועים המכוסים בסעיף 58(2) ל-IVDR הכרוכים באבחון נלווה (companion diagnostics) (למעט כאשר משתמשים בדגימות שיורית (left-over) בלבד);" },
+        { "en": "PMPF studies covered by IVDR Article 70(1) that involve procedures additional to those performed under the normal conditions of use of the IVD and where those additional procedures are invasive or burdensome, in case a causal relationship between a SAE and the preceding performance study has been established;", "he": "מחקרי PMPF המכוסים בסעיף 70(1) ל-IVDR הכרוכים בהליכים נוספים על אלה המבוצעים בתנאי השימוש הרגילים של ה-IVD, וכאשר אותם הליכים נוספים הם פולשניים או מכבידים, במקרה שנקבע קשר סיבתי בין SAE לבין מחקר הביצועים הקודם;" },
+        { "en": "performance studies covered by IVDR Article 70(2) that are conducted to assess, outside the scope of its intended purpose, an IVD that already bears the CE marking.", "he": "מחקרי ביצועים המכוסים בסעיף 70(2) ל-IVDR המתבצעים כדי להעריך, מחוץ לתחום המטרה המיועדת שלו, IVD הנושא כבר את סימון ה-CE.²" },
+        { "en": "combined studies of medicinal products and IVDs. When the study satisfies the definition of a performance study of an IVD, regardless of whether it is conducted in the context of a clinical trial of a medicinal product, the requirements of the IVDR and including its safety reporting obligations apply to the study. This guidance document is then relevant for compliance with the IVDR regarding safety reporting. MDCG 2022-10 provides further guidance on the interface between Regulation (EU) 536/2014 on clinical trials for medicinal products for human use (CTR) and the IVDR.", "he": "מחקרים משולבים של תכשירים רפואיים ו-IVDs. כאשר המחקר עומד בהגדרה של מחקר ביצועים של IVD, ללא קשר לשאלה אם הוא מתבצע בהקשר של ניסוי קליני של תכשיר רפואי, חלות על המחקר דרישות ה-IVDR, לרבות חובות דיווח הבטיחות שלו. מסמך הנחיה זה רלוונטי אז לעמידה ב-IVDR בנוגע לדיווח בטיחות. MDCG 2022-10 מספק הנחיה נוספת בנוגע לממשק בין תקנה (האיחוד האירופי) 536/2014 בנושא ניסויים קליניים בתכשירים רפואיים לשימוש בבני אדם (CTR) לבין ה-IVDR." }
+      ]
+    },
+    {
+      "id": "fn-2",
+      "type": "note",
+      "marker": "2",
+      "en": "The performance study sponsor is responsible for reporting per IVDR Article 76. However, the device manufacturer remains responsible for postmarket surveillance and vigilance obligations for the CE Mark device per IVDR Articles 82-83.",
+      "he": "ה-Sponsor של מחקר הביצועים אחראי לדיווח לפי סעיף 76 ל-IVDR. עם זאת, יצרן המכשיר נותר אחראי לחובות המעקב שלאחר שיווק והערנות עבור המכשיר נושא סימון ה-CE לפי סעיפים 82-83 ל-IVDR."
+    },
+
+    {
+      "id": "sec-3",
+      "type": "heading",
+      "level": 1,
+      "number": "3",
+      "en": "Abbreviations",
+      "he": "ראשי תיבות"
+    },
+    {
+      "id": "sec-3-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [ { "en": "Abbreviation", "he": "ראשי תיבות" }, { "en": "Meaning", "he": "משמעות" } ],
+        [ { "en": "ADE", "he": "ADE" }, { "en": "Adverse Device Effect", "he": "השפעת מכשיר שלילית (Adverse Device Effect)" } ],
+        [ { "en": "AE", "he": "AE" }, { "en": "Adverse Event", "he": "אירוע שלילי (Adverse Event)" } ],
+        [ { "en": "ASADE", "he": "ASADE" }, { "en": "Anticipated Serious Adverse Device Effect", "he": "השפעת מכשיר שלילית חמורה צפויה (Anticipated Serious Adverse Device Effect)" } ],
+        [ { "en": "CDx", "he": "CDx" }, { "en": "Companion diagnostic", "he": "אבחון נלווה (Companion diagnostic)" } ],
+        [ { "en": "DD", "he": "DD" }, { "en": "Device deficiency", "he": "ליקוי מכשיר (Device deficiency)" } ],
+        [ { "en": "IVD", "he": "IVD" }, { "en": "In Vitro diagnostic medical device", "he": "מכשיר רפואי לאבחון ויטרו" } ],
+        [ { "en": "IVDR", "he": "IVDR" }, { "en": "Regulation (EU) 2017/746 on in vitro diagnostic medical devices", "he": "תקנה (האיחוד האירופי) 2017/746 בנושא מכשירים רפואיים לאבחון ויטרו" } ],
+        [ { "en": "MDR", "he": "MDR" }, { "en": "Regulation (EU) 2017/745 on medical devices", "he": "תקנה (האיחוד האירופי) 2017/745 בנושא מכשירים רפואיים" } ],
+        [ { "en": "MS", "he": "MS" }, { "en": "Member State", "he": "מדינה חברה" } ],
+        [ { "en": "NCA", "he": "NCA" }, { "en": "national competent authority", "he": "רשות מוסמכת לאומית" } ],
+        [ { "en": "PS", "he": "PS" }, { "en": "Performance study", "he": "מחקר ביצועים" } ],
+        [ { "en": "PSP", "he": "PSP" }, { "en": "Performance study plan", "he": "תוכנית מחקר ביצועים" } ],
+        [ { "en": "SADE", "he": "SADE" }, { "en": "Serious Adverse Device Effect", "he": "השפעת מכשיר שלילית חמורה (Serious Adverse Device Effect)" } ],
+        [ { "en": "SAE", "he": "SAE" }, { "en": "Serious Adverse Event", "he": "אירוע חמור (Serious Adverse Event)" } ],
+        [ { "en": "USADE", "he": "USADE" }, { "en": "Unanticipated serious adverse device effect", "he": "השפעת מכשיר שלילית חמורה בלתי צפויה (Unanticipated serious adverse device effect)" } ]
+      ]
+    },
+
+    {
+      "id": "sec-4",
+      "type": "heading",
+      "level": 1,
+      "number": "4",
+      "en": "Definitions",
+      "he": "הגדרות"
+    },
+    {
+      "id": "sec-4-1",
+      "type": "heading",
+      "level": 2,
+      "number": "4.1",
+      "en": "Adverse Device Effect (ADE)",
+      "he": "השפעת מכשיר שלילית (ADE)"
+    },
+    {
+      "id": "sec-4-1-p1",
+      "type": "paragraph",
+      "en": "Any adverse event related to the use of a device for performance study or a comparator. See ISO 20916 section 3.1.",
+      "he": "כל אירוע שלילי הקשור לשימוש במכשיר למחקר ביצועים או במשווה (comparator)³. ראה ISO 20916 סעיף 3.1."
+    },
+    {
+      "id": "sec-4-2",
+      "type": "heading",
+      "level": 2,
+      "number": "4.2",
+      "en": "Adverse Event (AE)",
+      "he": "אירוע שלילי (AE)"
+    },
+    {
+      "id": "sec-4-2-p1",
+      "type": "paragraph",
+      "en": "Any untoward medical occurrence, inappropriate patient management decision, unintended disease or injury or any untoward clinical signs, including an abnormal laboratory finding, in subjects, users or other persons, in the context of a performance study, whether or not related to the device for performance study. See IVDR Article 2(60).",
+      "he": "כל התרחשות רפואית בלתי רצויה, החלטת ניהול מטופל בלתי הולמת, מחלה או פגיעה בלתי מכוונת, או כל סימן קליני בלתי רצוי, לרבות ממצא מעבדה חריג, בנבדקים, במשתמשים או באנשים אחרים, בהקשר של מחקר ביצועים, בין אם הוא קשור למכשיר למחקר הביצועים ובין אם לאו. ראה סעיף 2(60) ל-IVDR."
+    },
+    {
+      "id": "sec-4-3",
+      "type": "heading",
+      "level": 2,
+      "number": "4.3",
+      "en": "Anticipated Serious Adverse Device Effect (ASADE)",
+      "he": "השפעת מכשיר שלילית חמורה צפויה (ASADE)"
+    },
+    {
+      "id": "sec-4-3-p1",
+      "type": "paragraph",
+      "en": "Any serious adverse device effect which by its nature, incidence, severity or outcome has been identified in the risk assessment. See ISO 20916 section 3.5.",
+      "he": "כל השפעת מכשיר שלילית חמורה אשר על פי טבעה, שכיחותה, חומרתה או תוצאתה זוהתה בהערכת הסיכונים. ראה ISO 20916 סעיף 3.5."
+    },
+    {
+      "id": "sec-4-4",
+      "type": "heading",
+      "level": 2,
+      "number": "4.4",
+      "en": "Companion diagnostic (CDx)",
+      "he": "אבחון נלווה (CDx)"
+    },
+    {
+      "id": "sec-4-4-p1",
+      "type": "paragraph",
+      "en": "A device which is essential for the safe and effective use of a corresponding medicinal product to:",
+      "he": "מכשיר החיוני לשימוש בטוח ויעיל בתכשיר רפואי מקביל לשם:"
+    },
+    {
+      "id": "sec-4-4-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "(a) identify, before and/or during treatment, subjects who are most likely to benefit from the corresponding medicinal product; or", "he": "(א) זיהוי, לפני הטיפול ו/או במהלכו, של נבדקים שסביר ביותר שייהנו מהתכשיר הרפואי המקביל; או" },
+        { "en": "(b) identify, before and/or during treatment, subjects likely to be at increased risk of serious adverse reactions as a result of treatment with the corresponding medicinal product.", "he": "(ב) זיהוי, לפני הטיפול ו/או במהלכו, של נבדקים שסביר כי יהיו בסיכון מוגבר לתגובות שליליות חמורות כתוצאה מטיפול בתכשיר הרפואי המקביל." }
+      ]
+    },
+    {
+      "id": "sec-4-4-p2",
+      "type": "paragraph",
+      "en": "See IVDR Article 2(7).",
+      "he": "ראה סעיף 2(7) ל-IVDR."
+    },
+    {
+      "id": "sec-4-5",
+      "type": "heading",
+      "level": 2,
+      "number": "4.5",
+      "en": "Device for performance study",
+      "he": "מכשיר למחקר ביצועים"
+    },
+    {
+      "id": "sec-4-5-p1",
+      "type": "paragraph",
+      "en": "A device intended by the manufacturer to be used in a performance study. A device intended to be used for research purposes, without any medical objective, shall not be deemed to be a device for performance study. See IVDR Article 2(45).",
+      "he": "מכשיר שהיצרן מייעד לשימוש במחקר ביצועים. מכשיר המיועד לשימוש למטרות מחקר, ללא כל מטרה רפואית, לא ייחשב למכשיר למחקר ביצועים. ראה סעיף 2(45) ל-IVDR."
+    },
+    {
+      "id": "sec-4-6",
+      "type": "heading",
+      "level": 2,
+      "number": "4.6",
+      "en": "Device deficiency (DD)",
+      "he": "ליקוי מכשיר (DD)"
+    },
+    {
+      "id": "sec-4-6-p1",
+      "type": "paragraph",
+      "en": "Any inadequacy in the identity, quality, durability, reliability, usability, safety or performance of a device for performance study, including malfunction, use errors or inadequacy in information supplied by the manufacturer. See IVDR Article 2(62).",
+      "he": "כל אי-הלימה בזהות, באיכות, בעמידות, באמינות, בשמישות, בבטיחות או בביצועים של מכשיר למחקר ביצועים, לרבות תקלה (malfunction), שגיאות שימוש או אי-הלימה במידע המסופק על ידי היצרן. ראה סעיף 2(62) ל-IVDR."
+    },
+    {
+      "id": "sec-4-7",
+      "type": "heading",
+      "level": 2,
+      "number": "4.7",
+      "en": "Incident",
+      "he": "אירוע (Incident)"
+    },
+    {
+      "id": "sec-4-7-p1",
+      "type": "paragraph",
+      "en": "Any malfunction or deterioration in the characteristics or performance of a device made available on the market, including use-error due to ergonomic features, as well as any inadequacy in the information supplied by the manufacturer and any harm as a consequence of a medical decision, action taken or not taken on the basis of information or result(s) provided by the device. See IVDR Article 2(67).",
+      "he": "כל תקלה או הידרדרות במאפיינים או בביצועים של מכשיר שהועמד לרשות השוק, לרבות שגיאת שימוש עקב מאפיינים ארגונומיים, וכן כל אי-הלימה במידע המסופק על ידי היצרן וכל נזק כתוצאה מהחלטה רפואית, פעולה שננקטה או לא ננקטה על בסיס מידע או תוצאה/ות שסיפק המכשיר. ראה סעיף 2(67) ל-IVDR."
+    },
+    {
+      "id": "sec-4-8",
+      "type": "heading",
+      "level": 2,
+      "number": "4.8",
+      "en": "In-house IVD",
+      "he": "IVD מייצור עצמי (In-house IVD)"
+    },
+    {
+      "id": "sec-4-8-p1",
+      "type": "paragraph",
+      "en": "An IVD manufactured and used within the same health institution as outlined in IVDR Article 5(5). Health institution is defined in IVDR Article 2(29).",
+      "he": "IVD המיוצר ומשמש בתוך אותו מוסד בריאות עצמו כמתואר בסעיף 5(5) ל-IVDR. מוסד בריאות מוגדר בסעיף 2(29) ל-IVDR."
+    },
+    {
+      "id": "sec-4-9",
+      "type": "heading",
+      "level": 2,
+      "number": "4.9",
+      "en": "Interventional clinical performance study",
+      "he": "מחקר ביצועים קליני התערבותי"
+    },
+    {
+      "id": "sec-4-9-p1",
+      "type": "paragraph",
+      "en": "A clinical performance study where the test results may influence patient management decisions and/or may be used to guide treatment. See IVDR Article 2(46).",
+      "he": "מחקר ביצועים קליני שבו תוצאות הבדיקה עשויות להשפיע על החלטות ניהול מטופל ו/או עשויות לשמש להכוונת הטיפול. ראה סעיף 2(46) ל-IVDR."
+    },
+    {
+      "id": "sec-4-10",
+      "type": "heading",
+      "level": 2,
+      "number": "4.10",
+      "en": "Investigator",
+      "he": "חוקר (Investigator)"
+    },
+    {
+      "id": "sec-4-10-p1",
+      "type": "paragraph",
+      "en": "An individual responsible for the conduct of a performance study at a performance study site. See IVDR Article 2(48).",
+      "he": "אדם האחראי לניהול מחקר ביצועים באתר מחקר הביצועים. ראה סעיף 2(48) ל-IVDR."
+    },
+    {
+      "id": "sec-4-11",
+      "type": "heading",
+      "level": 2,
+      "number": "4.11",
+      "en": "Left-over sample",
+      "he": "דגימה שיורית (Left-over sample)"
+    },
+    {
+      "id": "sec-4-11-p1",
+      "type": "paragraph",
+      "en": "Unadulterated remainder of human derived samples collected as part of routine clinical practice and after all standard analysis has been performed. Such specimens/samples would be otherwise discarded as there is no remaining clinical need for them. This can include specimens collected for research or other purposes not connected to the clinical performance study in question. Left-over samples include “specimen or sample that are collected in the past and obtained from repositories (e.g. tissue banks, commercial vendor collections). See ISO 20916 section 3.25.",
+      "he": "שארית בלתי-מזוהמת של דגימות ממקור אנושי שנאספו כחלק מפרקטיקה קלינית שגרתית ולאחר שבוצעו כל הניתוחים התקניים. דגימות/מדגמים כאלה היו אחרת מושלכים, מאחר שאין בהם צורך קליני נותר. הדבר יכול לכלול מדגמים שנאספו למטרות מחקר או למטרות אחרות שאינן קשורות למחקר הביצועים הקליני הנדון. דגימות שיורית כוללות \"מדגם או דגימה שנאספו בעבר והתקבלו ממאגרים (למשל בנקי רקמות, אוספים של ספקים מסחריים)\". ראה ISO 20916 סעיף 3.25."
+    },
+    {
+      "id": "sec-4-12",
+      "type": "heading",
+      "level": 2,
+      "number": "4.12",
+      "en": "Malfunction",
+      "he": "תקלה (Malfunction)"
+    },
+    {
+      "id": "sec-4-12-p1",
+      "type": "paragraph",
+      "en": "Any failure of an device for performance study to perform in accordance with its intended use when used in accordance with the instructions for use or performance study plan. See ISO 20916 section 3.27.",
+      "he": "כל כשל של מכשיר למחקר ביצועים לתפקד בהתאם למטרתו המיועדת בעת שימוש בהתאם להוראות השימוש או לתוכנית מחקר הביצועים. ראה ISO 20916 סעיף 3.27."
+    },
+    {
+      "id": "sec-4-13",
+      "type": "heading",
+      "level": 2,
+      "number": "4.13",
+      "en": "Manufacturer",
+      "he": "יצרן (Manufacturer)"
+    },
+    {
+      "id": "sec-4-13-p1",
+      "type": "paragraph",
+      "en": "A natural or legal person who manufactures or fully refurbishes a device or has a device designed, manufactured or fully refurbished, and markets that device under its name or trade mark. See IVDR Article 2(23).",
+      "he": "אדם טבעי או משפטי המייצר או משפץ באופן מלא מכשיר, או שמכשיר עוצב, יוצר או שופץ באופן מלא עבורו, והמשווק את אותו מכשיר תחת שמו או סימנו המסחרי. ראה סעיף 2(23) ל-IVDR."
+    },
+    {
+      "id": "sec-4-14",
+      "type": "heading",
+      "level": 2,
+      "number": "4.14",
+      "en": "New Finding",
+      "he": "ממצא חדש (New Finding)"
+    },
+    {
+      "id": "sec-4-14-p1",
+      "type": "paragraph",
+      "en": "New information discovered as the result of an inquiry/investigation/test based on the occurrence of the event. Follow-up from the event. See MDCG 2020-10/1.",
+      "he": "מידע חדש שהתגלה כתוצאה מבירור/חקירה/בדיקה על בסיס התרחשות האירוע. מעקב בעקבות האירוע. ראה MDCG 2020-10/1."
+    },
+    {
+      "id": "sec-4-15",
+      "type": "heading",
+      "level": 2,
+      "number": "4.15",
+      "en": "Performance study (PS)",
+      "he": "מחקר ביצועים (PS)"
+    },
+    {
+      "id": "sec-4-15-p1",
+      "type": "paragraph",
+      "en": "A study undertaken to establish or confirm the analytical or clinical performance of a device. See IVDR Article 2(42).",
+      "he": "מחקר המבוצע כדי לבסס או לאשש את הביצועים האנליטיים או הקליניים של מכשיר. ראה סעיף 2(42) ל-IVDR."
+    },
+    {
+      "id": "sec-4-16",
+      "type": "heading",
+      "level": 2,
+      "number": "4.16",
+      "en": "Performance study plan (PSP)",
+      "he": "תוכנית מחקר ביצועים (PSP)"
+    },
+    {
+      "id": "sec-4-16-p1",
+      "type": "paragraph",
+      "en": "A document that describes the rationale, objectives, design methodology, monitoring, statistical considerations, organisation and conduct of a PS. See IVDR Article 2(43).",
+      "he": "מסמך המתאר את ההיגיון, המטרות, מתודולוגיית התכנון, הניטור, השיקולים הסטטיסטיים, הארגון וניהולו של PS. ראה סעיף 2(43) ל-IVDR."
+    },
+    {
+      "id": "sec-4-17",
+      "type": "heading",
+      "level": 2,
+      "number": "4.17",
+      "en": "Serious Adverse Device Effect (SADE)",
+      "he": "השפעת מכשיר שלילית חמורה (SADE)"
+    },
+    {
+      "id": "sec-4-17-p1",
+      "type": "paragraph",
+      "en": "Any ADE that has resulted in any of the consequences characteristic of a serious adverse event. See ISO 20916 section 3.43.",
+      "he": "כל ADE שהביא לכל אחת מהתוצאות האופייניות לאירוע חמור. ראה ISO 20916 סעיף 3.43."
+    },
+    {
+      "id": "sec-4-18",
+      "type": "heading",
+      "level": 2,
+      "number": "4.18",
+      "en": "Serious Adverse Event (SAE)",
+      "he": "אירוע חמור (SAE)"
+    },
+    {
+      "id": "sec-4-18-p1",
+      "type": "paragraph",
+      "en": "Any AE that led to any of the following:",
+      "he": "כל AE שהוביל לכל אחד מאלה:"
+    },
+    {
+      "id": "sec-4-18-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "a) a patient management decision resulting in death or an imminent life-threatening situation for the individual being tested, or in the death of the individual's offspring,", "he": "א) החלטת ניהול מטופל הגורמת למוות או למצב מסכן חיים מיידי לאדם הנבדק, או למות צאצאו של האדם," },
+        { "en": "b) death,", "he": "ב) מוות," },
+        { "en": "c) serious deterioration in the health of the individual being tested or the recipient of tested donations or materials, that resulted in any of the following: i. life-threatening illness or injury, ii. permanent impairment of a body structure or a body function, iii. hospitalisation or prolongation of subject hospitalisation, iv. medical or surgical intervention to prevent life-threatening illness or injury or permanent impairment to a body structure or a body function, v. chronic disease,", "he": "ג) הידרדרות חמורה בבריאות האדם הנבדק או של מקבל תרומות או חומרים שנבדקו, אשר הביאה לכל אחד מאלה: i. מחלה או פגיעה מסכנת חיים, ii. פגיעה קבועה במבנה גופני או בתפקוד גופני, iii. אשפוז או הארכת אשפוז הנבדק, iv. התערבות רפואית או כירורגית למניעת מחלה או פגיעה מסכנת חיים או פגיעה קבועה במבנה גופני או בתפקוד גופני, v. מחלה כרונית," },
+        { "en": "d) foetal distress, foetal death or a congenital physical or mental impairment or birth defect.", "he": "ד) מצוקה עוברית, מות עובר, או ליקוי גופני או נפשי מולד או מום מלידה." }
+      ]
+    },
+    {
+      "id": "sec-4-18-p2",
+      "type": "paragraph",
+      "en": "See IVDR Article 2(61).",
+      "he": "ראה סעיף 2(61) ל-IVDR."
+    },
+    {
+      "id": "sec-4-19",
+      "type": "heading",
+      "level": 2,
+      "number": "4.19",
+      "en": "Specimen",
+      "he": "מדגם (Specimen)"
+    },
+    {
+      "id": "sec-4-19-p1",
+      "type": "paragraph",
+      "en": "Any discrete portion of a body fluid or tissue taken for examination, study, or analysis of one or more quantities or characteristics to determine the character of the whole body fluid or tissue. See ISO 20916 section 3.47.",
+      "he": "כל חלק נפרד של נוזל גוף או רקמה הנלקח לבחינה, מחקר או ניתוח של כמות או מאפיין אחד או יותר, כדי לקבוע את אופי נוזל הגוף או הרקמה בכללותם. ראה ISO 20916 סעיף 3.47."
+    },
+    {
+      "id": "sec-4-20",
+      "type": "heading",
+      "level": 2,
+      "number": "4.20",
+      "en": "Sponsor",
+      "he": "Sponsor (נותן חסות)"
+    },
+    {
+      "id": "sec-4-20-p1",
+      "type": "paragraph",
+      "en": "Any individual, company, institution or organisation which takes responsibility for the initiation, for the management and setting up of the financing of the PS. See IVDR Article 2(57).",
+      "he": "כל אדם, חברה, מוסד או ארגון הנוטל אחריות ליזום, לניהול ולהקמת המימון של ה-PS. ראה סעיף 2(57) ל-IVDR."
+    },
+    {
+      "id": "sec-4-21",
+      "type": "heading",
+      "level": 2,
+      "number": "4.21",
+      "en": "Study procedure",
+      "he": "הליך מחקר (Study procedure)"
+    },
+    {
+      "id": "sec-4-21-p1",
+      "type": "paragraph",
+      "en": "Any procedure foreseen in the PS (e.g. specimen collection) with the aim of investigating the device.",
+      "he": "כל הליך הצפוי ב-PS (למשל איסוף מדגם) שמטרתו לחקור את המכשיר."
+    },
+    {
+      "id": "sec-4-22",
+      "type": "heading",
+      "level": 2,
+      "number": "4.22",
+      "en": "Subject",
+      "he": "נבדק (Subject)"
+    },
+    {
+      "id": "sec-4-22-p1",
+      "type": "paragraph",
+      "en": "An individual who participates in a PS and whose specimen(s) undergo in vitro examination by a device for PS and/or by a device used for control purposes. See IVDR Article 2(47).",
+      "he": "אדם המשתתף ב-PS, ואשר המדגם/ים שלו עוברים בחינה ויטרו על ידי מכשיר ל-PS ו/או על ידי מכשיר המשמש למטרות בקרה. ראה סעיף 2(47) ל-IVDR."
+    },
+    {
+      "id": "sec-4-23",
+      "type": "heading",
+      "level": 2,
+      "number": "4.23",
+      "en": "Unanticipated serious adverse device effect (USADE)",
+      "he": "השפעת מכשיר שלילית חמורה בלתי צפויה (USADE)"
+    },
+    {
+      "id": "sec-4-23-p1",
+      "type": "paragraph",
+      "en": "Any SADE, the nature, severity or outcome of which is not consistent with the reference safety information. See ISO 20916 section 3.52.",
+      "he": "כל SADE אשר טבעו, חומרתו או תוצאתו אינם עולים בקנה אחד עם מידע הבטיחות הייחוסי. ראה ISO 20916 סעיף 3.52."
+    },
+    {
+      "id": "fn-3",
+      "type": "note",
+      "marker": "3",
+      "en": "A comparator might be: other CE-marked IVD, reference method, gold standard,…",
+      "he": "משווה (comparator) יכול להיות: IVD אחר נושא סימון CE, שיטת ייחוס, תקן זהב (gold standard), וכד'."
+    },
+
+    {
+      "id": "sec-5",
+      "type": "heading",
+      "level": 1,
+      "number": "5",
+      "en": "Reporting method",
+      "he": "שיטת הדיווח"
+    },
+    {
+      "id": "sec-5-p1",
+      "type": "paragraph",
+      "en": "The template of the Summary Reporting Form in the appendix should be used for all studies from 26 May 2022. The tabular form in the appendix needs to be filled in/updated for each reportable event or for new findings/updates to already reported events. It shall be transmitted to all national competent authorities (NCAs) where the PS is being performed. For a new finding or update, the line of the SAE needs to be updated and the first column set to “m”. Write the new findings in the free description of event column and highlight the additions. When applicable, update the others columns as well.",
+      "he": "יש להשתמש בתבנית טופס הדיווח המסכם (Summary Reporting Form)⁴ שבנספח עבור כל המחקרים החל מ-26 במאי 2022. יש למלא/לעדכן את הטופס הטבלאי שבנספח עבור כל אירוע בן-דיווח או עבור ממצאים חדשים/עדכונים לאירועים שכבר דווחו. הוא יועבר לכל הרשויות המוסמכות הלאומיות (NCAs) שבהן מתבצע ה-PS. עבור ממצא חדש או עדכון, יש לעדכן את שורת ה-SAE ולהגדיר את העמודה הראשונה ל-\"m\". כתבו את הממצאים החדשים בעמודת התיאור החופשי של האירוע והדגישו את התוספות. במקרים הרלוונטיים, עדכנו גם את שאר העמודות."
+    },
+    {
+      "id": "sec-5-p2",
+      "type": "paragraph",
+      "en": "For more details on how to complete the form, see section 11. Reporting form.",
+      "he": "לפרטים נוספים על אופן מילוי הטופס, ראה סעיף 11. טופס הדיווח."
+    },
+    {
+      "id": "sec-5-1",
+      "type": "heading",
+      "level": 2,
+      "number": "5.1",
+      "en": "Reportable events in pre-market PS initiated under directives legislation",
+      "he": "אירועים בני-דיווח ב-PS טרום-שיווקי שיזם תחת חקיקת הדירקטיבות"
+    },
+    {
+      "id": "sec-5-1-p1",
+      "type": "paragraph",
+      "en": "Any SAE or DD that may (have) lead to a SAE occurring in a PS after 26 May 2022, regardless of when the PS started, should be reported in accordance with Article 76 of the IVDR.",
+      "he": "כל SAE או DD העלול היה להוביל (או הוביל) ל-SAE המתרחש ב-PS לאחר 26 במאי 2022, ללא קשר למועד שבו החל ה-PS, ידווח בהתאם לסעיף 76 ל-IVDR.⁵"
+    },
+    {
+      "id": "sec-5-2",
+      "type": "heading",
+      "level": 2,
+      "number": "5.2",
+      "en": "Transition to reporting via Eudamed",
+      "he": "מעבר לדיווח באמצעות EUDAMED"
+    },
+    {
+      "id": "sec-5-2-p1",
+      "type": "paragraph",
+      "en": "Once Eudamed is fully functional, the obligations and requirements that relate to safety reporting via Eudamed shall apply. Full functionality of Eudamed shall start from six months after the date of publication of the notice referred to in IVDR Article 34(3) of the MDR.",
+      "he": "ברגע ש-EUDAMED יפעל במלואו, יחולו החובות והדרישות הנוגעות לדיווח בטיחות באמצעות EUDAMED. תפקוד מלא של EUDAMED יחל שישה חודשים לאחר מועד פרסום ההודעה הנזכרת בסעיף 34(3) ל-MDR."
+    },
+    {
+      "id": "sec-5-2-1",
+      "type": "heading",
+      "level": 3,
+      "number": "5.2.1",
+      "en": "Ongoing events at time of transition to Eudamed",
+      "he": "אירועים מתמשכים בעת המעבר ל-EUDAMED"
+    },
+    {
+      "id": "sec-5-2-1-p1",
+      "type": "paragraph",
+      "en": "It is acknowledged that at the time of transition to reporting via Eudamed, there will be ongoing events for which initial reports have been made according to the procedures described in this document. For these reportable events, follow-up and final reports will be submitted to the NCAs by the same procedure, but all new reportable events shall be entered in Eudamed.",
+      "he": "מוכר בזאת כי בעת המעבר לדיווח באמצעות EUDAMED יהיו אירועים מתמשכים שלגביהם נמסרו דוחות ראשוניים בהתאם להליכים המתוארים במסמך זה. עבור אירועים בני-דיווח אלה, דוחות מעקב ודוחות סופיים יוגשו ל-NCAs באותו הליך, אך כל האירועים בני-הדיווח החדשים יוזנו ב-EUDAMED."
+    },
+    {
+      "id": "sec-5-2-1-p2",
+      "type": "paragraph",
+      "en": "Whether retrospective uploading of previous event reports to Eudamed will be possible is not clear at the time this guidance is issued.",
+      "he": "האם תהיה אפשרות להעלאה רטרוספקטיבית של דוחות אירועים קודמים ל-EUDAMED אינו ברור במועד פרסום הנחיה זו."
+    },
+    {
+      "id": "sec-5-3",
+      "type": "heading",
+      "level": 2,
+      "number": "5.3",
+      "en": "Overview of formats to be used by sponsors when reporting to NCAs",
+      "he": "סקירת הפורמטים שעל ה-Sponsors להשתמש בהם בדיווח ל-NCAs"
+    },
+    {
+      "id": "sec-5-3-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [ { "en": "Timepoint", "he": "נקודת זמן" }, { "en": "Format to be used", "he": "פורמט לשימוש" } ],
+        [ { "en": "From 26 May 2022 and until Eudamed is available.", "he": "מ-26 במאי 2022 ועד שיהיה EUDAMED זמין." }, { "en": "The tabular format of this guidance (Appendix- Summary Reporting Form) should be used.", "he": "יש להשתמש בפורמט הטבלאי של הנחיה זו (נספח – טופס הדיווח המסכם)." } ],
+        [ { "en": "When Eudamed is available but not yet mandatory and until the timepoint when Eudamed becomes mandatory.", "he": "כאשר EUDAMED זמין אך עדיין אינו חובה, ועד לנקודת הזמן שבה EUDAMED הופך לחובה." }, { "en": "Either the tabular format of this guidance (Appendix- Summary Reporting Form) or the Eudamed web form can be used. Note: Once the shift to Eudamed reporting has been made for a specific PS, Eudamed should continue to be used for reporting all new events and updates to those events throughout the remainder of the study.", "he": "ניתן להשתמש בפורמט הטבלאי של הנחיה זו (נספח – טופס הדיווח המסכם) או בטופס הרשת (web form) של EUDAMED. הערה: ברגע שבוצע המעבר לדיווח ב-EUDAMED עבור PS מסוים, יש להמשיך להשתמש ב-EUDAMED לדיווח כל האירועים החדשים והעדכונים לאותם אירועים לאורך שאר המחקר." } ],
+        [ { "en": "When Eudamed is mandatory, i.e. from the date corresponding to six months after the date of publication of the notice referred to in MDR Article 34(3).", "he": "כאשר EUDAMED הוא חובה, כלומר מהמועד המתאים לשישה חודשים לאחר מועד פרסום ההודעה הנזכרת בסעיף 34(3) ל-MDR." }, { "en": "Web form via Eudamed shall be used for all new events, and updates to those events. The tabular format of this guidance (Appendix- Summary Reporting Form) can be used only to transmit follow-up reports/final reports to the NCAs on events which were initially reported in this format.", "he": "טופס הרשת באמצעות EUDAMED ישמש לכל האירועים החדשים ולעדכונים לאותם אירועים. הפורמט הטבלאי של הנחיה זו (נספח – טופס הדיווח המסכם) יכול לשמש רק להעברת דוחות מעקב/דוחות סופיים ל-NCAs לגבי אירועים שדווחו במקור בפורמט זה." } ]
+      ]
+    },
+    {
+      "id": "sec-5-4",
+      "type": "heading",
+      "level": 2,
+      "number": "5.4",
+      "en": "Collecting reports from investigators",
+      "he": "איסוף דוחות מחוקרים"
+    },
+    {
+      "id": "sec-5-4-p1",
+      "type": "paragraph",
+      "en": "The format in which sponsors wish to receive single event reports from investigators will be up to the sponsor to design and they may be adapted to an individual PS. When sponsors design such reporting forms, they should consult this guidance document to ensure all relevant details are captured in the reports from the investigator, so that the sponsors can fulfil their reporting obligations.",
+      "he": "הפורמט שבו ה-Sponsors מעוניינים לקבל דוחות אירוע בודד מחוקרים נתון לעיצובו של ה-Sponsor, וניתן להתאים אותו ל-PS פרטני. כאשר Sponsors מעצבים טופסי דיווח כאלה, עליהם לעיין במסמך הנחיה זה כדי להבטיח שכל הפרטים הרלוונטיים נלכדים בדוחות מהחוקר, כך שה-Sponsors יוכלו למלא את חובות הדיווח שלהם."
+    },
+    {
+      "id": "fn-4",
+      "type": "note",
+      "marker": "4",
+      "en": "National provisions can apply",
+      "he": "ייתכן שיחולו הוראות לאומיות."
+    },
+    {
+      "id": "fn-5",
+      "type": "note",
+      "marker": "5",
+      "en": "National requirements may apply to PS that commenced under the IVDD.",
+      "he": "ייתכן שיחולו דרישות לאומיות על PS שהחל תחת ה-IVDD."
+    },
+
+    {
+      "id": "sec-6",
+      "type": "heading",
+      "level": 1,
+      "number": "6",
+      "en": "Reportable events",
+      "he": "אירועים בני-דיווח"
+    },
+    {
+      "id": "sec-6-p1",
+      "type": "paragraph",
+      "en": "For the purpose of this guidance and based on the definitions above, the following events are considered reportable events in accordance with IVDR Article 76(2):",
+      "he": "לצורך הנחיה זו ובהתבסס על ההגדרות לעיל, האירועים הבאים נחשבים לאירועים בני-דיווח בהתאם לסעיף 76(2) ל-IVDR:"
+    },
+    {
+      "id": "sec-6-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "a) any SAE that has a causal relationship with the device, the comparator or the study procedure or where such causal relationship is reasonably possible;", "he": "א) כל SAE שיש לו קשר סיבתי עם המכשיר⁶, עם המשווה⁷ או עם הליך המחקר, או כאשר קשר סיבתי כזה אפשרי באופן סביר;" },
+        { "en": "b) any DD that might have led to a SAE if appropriate action had not been taken, intervention had not occurred, or circumstances had been less fortunate;", "he": "ב) כל DD שיכול היה להוביל ל-SAE אילולא ננקטה פעולה מתאימה, אילולא התבצעה התערבות, או אילו היו הנסיבות פחות מיטיבות;" },
+        { "en": "c) any new findings in relation to any event referred to in points a) and b).", "he": "ג) כל ממצא חדש הנוגע לכל אירוע הנזכר בפסקאות א) ו-ב)." }
+      ]
+    },
+    {
+      "id": "sec-6-p2",
+      "type": "paragraph",
+      "en": "From the definition above, it also follows that SAEs related to a CE marked IVD which is part of a PS with an IVD for PS (for example a CE marked comparator IVD or a CE marked IVD that is used during the study procedure) are reportable if there is a causal (or reasonably possible) relationship to that IVD. The reporting procedures described in this guide should then be followed by the PS sponsor, in addition to the normal vigilance reporting for CE marked devices by the manufacturer (double reporting is certainly possible).",
+      "he": "מההגדרה לעיל עולה גם כי SAEs הקשורים ל-IVD נושא סימון CE שהוא חלק מ-PS עם IVD ל-PS (למשל IVD משווה נושא סימון CE או IVD נושא סימון CE המשמש במהלך הליך המחקר) הם בני-דיווח אם קיים קשר סיבתי (או אפשרי באופן סביר) לאותו IVD. במקרה זה על ה-Sponsor של ה-PS לפעול לפי הליכי הדיווח המתוארים במדריך זה, בנוסף לדיווח הערנות הרגיל עבור מכשירים נושאי סימון CE על ידי היצרן (דיווח כפול בהחלט אפשרי)."
+    },
+    {
+      "id": "sec-6-p3",
+      "type": "paragraph",
+      "en": "All causality assessments should be made using section 10 of this guidance. Only causality level 1 (i.e. “not related”) is excluded from reporting. If either the sponsor or the investigator has assigned a higher causality level than \"not related\", the event should be reported.",
+      "he": "כל הערכות הסיבתיות ייעשו באמצעות סעיף 10 של הנחיה זו. רק רמת סיבתיות 1 (כלומר \"לא קשור\") מוחרגת מדיווח. אם ה-Sponsor או החוקר הקצה רמת סיבתיות גבוהה מ\"לא קשור\", יש לדווח על האירוע."
+    },
+    {
+      "id": "sec-6-p4",
+      "type": "paragraph",
+      "en": "As not all safety provisions in the IVDR are applicable to all types of IVD PS, the following table depicts the safety provisions laid out in the IVDR that are applicable per type of IVD PS.",
+      "he": "מאחר שלא כל הוראות הבטיחות ב-IVDR חלות על כל סוגי ה-PS של IVD, הטבלה הבאה מציגה את הוראות הבטיחות שנקבעו ב-IVDR החלות לפי סוג ה-PS של IVD."
+    },
+    {
+      "id": "sec-6-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [ { "en": "Type of PS", "he": "סוג ה-PS" }, { "en": "IVDR safety reporting provisions", "he": "הוראות דיווח בטיחות של ה-IVDR" } ],
+        [ { "en": "PS referred to in IVDR Article 58(1-2): Any PS or any combined IVD study (a clinical study of a medicinal product, medical device, in which an IVD is also studied): a. in which surgically invasive sample-taking is done only for the purpose of the PS; b. that is an interventional clinical PS as defined in IVDR Article 2(46); c. where the conduct of the study involves additional invasive procedures or other risks for the subjects of the studies; d. involving CDx (except when only using left-over samples).", "he": "PS הנזכר בסעיף 58(1-2) ל-IVDR: כל PS או כל מחקר IVD משולב (מחקר קליני של תכשיר רפואי, מכשיר רפואי, שבו נחקר גם IVD): א. שבו נטילת דגימה פולשנית-כירורגית נעשית אך ורק לצורך ה-PS; ב. שהוא PS קליני התערבותי כהגדרתו בסעיף 2(46) ל-IVDR; ג. שבו ניהול המחקר כרוך בהליכים פולשניים נוספים או בסיכונים אחרים לנבדקי המחקרים; ד. הכרוך ב-CDx (למעט כאשר משתמשים בדגימות שיורית בלבד)." }, { "en": "IVDR Article 76(2-3)", "he": "סעיף 76(2-3) ל-IVDR" } ],
+        [ { "en": "PMPF study referred to in IVDR Article 70(1) with additional burdensome and/or invasive procedures.", "he": "מחקר PMPF הנזכר בסעיף 70(1) ל-IVDR עם הליכים מכבידים ו/או פולשניים נוספים." }, { "en": "IVDR Article 76(5) AND IVDR Article 76(6). For more information, see section 6.1: Exceptions for PMPF studies falling under IVDR Article 70(1) and Section 10: causality Assessment.", "he": "סעיף 76(5) ל-IVDR וגם סעיף 76(6) ל-IVDR. למידע נוסף, ראה סעיף 6.1: חריגים למחקרי PMPF הנופלים תחת סעיף 70(1) ל-IVDR וסעיף 10: הערכת סיבתיות." } ],
+        [ { "en": "PS referred to IVDR Article 70(2) conducted to assess, outside the scope of its intended purpose, a device which already bears the CE marking.", "he": "PS הנזכר בסעיף 70(2) ל-IVDR המתבצע כדי להעריך, מחוץ לתחום מטרתו המיועדת, מכשיר הנושא כבר את סימון ה-CE." }, { "en": "IVDR Article 76(2-3)", "he": "סעיף 76(2-3) ל-IVDR" } ],
+        [ { "en": "PS with an in-house IVD referred to in IVDR Article 5(5).", "he": "PS עם IVD מייצור עצמי הנזכר בסעיף 5(5) ל-IVDR." }, { "en": "No provisions on safety reporting according to the IVDR. However, safety reporting may be regulated by national legislation.", "he": "אין הוראות לדיווח בטיחות לפי ה-IVDR. עם זאת, ייתכן שדיווח בטיחות יוסדר בחקיקה לאומית." } ]
+      ]
+    },
+    {
+      "id": "sec-6-1",
+      "type": "heading",
+      "level": 2,
+      "number": "6.1",
+      "en": "Exceptions for PMPF studies falling under IVDR Article 70(1)",
+      "he": "חריגים למחקרי PMPF הנופלים תחת סעיף 70(1) ל-IVDR"
+    },
+    {
+      "id": "sec-6-1-p1",
+      "type": "paragraph",
+      "en": "SAE reporting for PMPF studies falling under Article 70(1) is governed by Articles 76(5) and 76(6). This means that the provisions on vigilance apply and need to by the manufacturer of the CE marked device(s). However, when a causal relationship between the SAE and the preceding PS has been established, reporting procedures for PS should be followed by the PS sponsor.",
+      "he": "דיווח SAE עבור מחקרי PMPF הנופלים תחת סעיף 70(1) מוסדר על ידי סעיפים 76(5) ו-76(6). משמעות הדבר היא שהוראות הערנות חלות ועל יצרן המכשיר/ים נושא/י סימון ה-CE לעמוד בהן. עם זאת, כאשר נקבע קשר סיבתי בין ה-SAE לבין ה-PS הקודם, על ה-Sponsor של ה-PS לפעול לפי הליכי הדיווח עבור PS."
+    },
+    {
+      "id": "sec-6-1-p2",
+      "type": "paragraph",
+      "en": "This means that:",
+      "he": "משמעות הדבר היא כי:"
+    },
+    {
+      "id": "sec-6-1-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "For the purpose of this guidance (safety reporting in PS), reportable events in PMPF studies are those SAEs where a causal relationship between the SAE and the preceding PS has been established. The other relationship categories i.e. ‘not related’, ‘possible’ and ‘probable’ do not need to be reported.", "he": "לצורך הנחיה זו (דיווח בטיחות ב-PS), אירועים בני-דיווח במחקרי PMPF הם אותם SAEs שלגביהם נקבע קשר סיבתי בין ה-SAE לבין ה-PS הקודם. קטגוריות הקשר האחרות, כלומר \"לא קשור\", \"אפשרי\" ו\"סביר\", אינן חייבות בדיווח." },
+        { "en": "In the context of vigilance, IVDR Articles 82-85 need to be taken into account and this concerns the serious incidents where a relationship between the incident and the device is at least reasonably possible.", "he": "בהקשר של ערנות, יש להביא בחשבון את סעיפים 82-85 ל-IVDR, והדבר נוגע לאירועים החמורים (serious incidents) שבהם הקשר בין האירוע לבין המכשיר אפשרי לפחות באופן סביר." }
+      ]
+    },
+    {
+      "id": "sec-6-1-p3",
+      "type": "paragraph",
+      "en": "It is thus possible that events occurring in such PS need to be reported to both the competent authorities in charge of PS AND to the competent authorities in charge of vigilance.",
+      "he": "לפיכך ייתכן שאירועים המתרחשים ב-PS כזה יחויבו בדיווח גם לרשויות המוסמכות האחראיות ל-PS וגם לרשויות המוסמכות האחראיות לערנות."
+    },
+    {
+      "id": "sec-6-2",
+      "type": "heading",
+      "level": 2,
+      "number": "6.2",
+      "en": "Reportable events occurring in other MSs / Third Countries",
+      "he": "אירועים בני-דיווח המתרחשים במדינות חברות אחרות / מדינות שלישיות"
+    },
+    {
+      "id": "sec-6-2-1",
+      "type": "heading",
+      "level": 3,
+      "number": "6.2.1",
+      "en": "Reportable events occurring in other MSs (MS)",
+      "he": "אירועים בני-דיווח המתרחשים במדינות חברות אחרות (MS)"
+    },
+    {
+      "id": "sec-6-2-1-p1",
+      "type": "paragraph",
+      "en": "The sponsor shall report the reportable SAEs per PS. If several PS are conducted (e.g. specimen collection in multiple sites) with the same device, only those SAEs that happen in PS that have the same PSP code should be reported for those PS, and only to those MS where a PS with that specific PSP code is being conducted.",
+      "he": "ה-Sponsor ידווח על ה-SAEs בני-הדיווח לפי PS. אם מתבצעים מספר PS (למשל איסוף מדגם במספר אתרים) עם אותו מכשיר, יש לדווח עבור אותם PS רק על אותם SAEs המתרחשים ב-PS בעלי אותו קוד PSP, ורק לאותן מדינות חברות שבהן מתבצע PS עם אותו קוד PSP מסוים⁸."
+    },
+    {
+      "id": "sec-6-2-1-p2",
+      "type": "paragraph",
+      "en": "It is acknowledged that the same PS can be conducted under different versions of the same PSP code in different MS, e.g. with country specific adaptations, and in those cases the SAE reporting can normally be combined for all the versions of the PSP for the same PS.",
+      "he": "מוכר בזאת כי אותו PS יכול להתבצע תחת גרסאות שונות של אותו קוד PSP במדינות חברות שונות, למשל עם התאמות ספציפיות למדינה, ובמקרים אלה ניתן בדרך כלל לאחד את דיווח ה-SAE עבור כל גרסאות ה-PSP של אותו PS."
+    },
+    {
+      "id": "sec-6-2-1-p3",
+      "type": "paragraph",
+      "en": "Reportable events occurring before the PS is authorised to start in a MS will be reported to this MS upon authorization in this MS.",
+      "he": "אירועים בני-דיווח המתרחשים לפני שה-PS אושר להתחיל במדינה חברה ידווחו למדינה חברה זו עם מתן האישור בה."
+    },
+    {
+      "id": "sec-6-2-2",
+      "type": "heading",
+      "level": 3,
+      "number": "6.2.2",
+      "en": "Reportable events occurring in third countries",
+      "he": "אירועים בני-דיווח המתרחשים במדינות שלישיות"
+    },
+    {
+      "id": "sec-6-2-2-p1",
+      "type": "paragraph",
+      "en": "Reportable events occurring in third countries in which a PS is conducted (e.g. specimen collection in that country) under the same PSP (see section 6.2.1 for what is meant with same PSP) have to be reported in accordance with this guidance to the NCA(s) of the European MS(s) in which the PS is being conducted.",
+      "he": "אירועים בני-דיווח המתרחשים במדינות שלישיות⁹ שבהן מתבצע PS (למשל איסוף מדגם באותה מדינה) תחת אותו PSP (ראה סעיף 6.2.1 למשמעות \"אותו PSP\") חייבים בדיווח בהתאם להנחיה זו ל-NCA/s של המדינה/ות החברה/ות האירופית/ות שבה/ן מתבצע ה-PS."
+    },
+    {
+      "id": "sec-6-2-2-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "The NCA will start receiving the reportable events occurring in third countries as soon as the PS is authorised to start in that MS.", "he": "ה-NCA יתחיל לקבל את האירועים בני-הדיווח המתרחשים במדינות שלישיות ברגע שה-PS אושר להתחיל באותה מדינה חברה." },
+        { "en": "Reportable events occurring in third countries after the participating European sites have closed, shall continue to be reported to the MSs in which the PS was conducted.", "he": "אירועים בני-דיווח המתרחשים במדינות שלישיות לאחר שהאתרים האירופיים המשתתפים נסגרו, ימשיכו להיות מדווחים למדינות החברות שבהן התבצע ה-PS." }
+      ]
+    },
+    {
+      "id": "sec-6-2-2-p2",
+      "type": "paragraph",
+      "en": "Reportable events occurring before the PS is authorized to start in a MS will be reported to this MS upon authorization in this MS.",
+      "he": "אירועים בני-דיווח המתרחשים לפני שה-PS אושר להתחיל במדינה חברה ידווחו למדינה חברה זו עם מתן האישור בה."
+    },
+    {
+      "id": "fn-6",
+      "type": "note",
+      "marker": "6",
+      "en": "Device= device for performance study.",
+      "he": "מכשיר = מכשיר למחקר ביצועים."
+    },
+    {
+      "id": "fn-7",
+      "type": "note",
+      "marker": "7",
+      "en": "A comparator might be: other CE-marked IVD, reference method, gold standard,…",
+      "he": "משווה (comparator) יכול להיות: IVD אחר נושא סימון CE, שיטת ייחוס, תקן זהב (gold standard), וכד'."
+    },
+    {
+      "id": "fn-8",
+      "type": "note",
+      "marker": "8",
+      "en": "“Is being conducted” has to be interpreted as “has been approved or have been notified to the NCA”.",
+      "he": "את \"מתבצע\" יש לפרש כ\"אושר או נמסר עליו דיווח ל-NCA\"."
+    },
+    {
+      "id": "fn-9",
+      "type": "note",
+      "marker": "9",
+      "en": "Countries other than Switzerland, Turkey and those belonging to the EEA.",
+      "he": "מדינות שאינן שווייץ, טורקיה ואלה השייכות ל-EEA (האזור הכלכלי האירופי)."
+    },
+
+    {
+      "id": "sec-7",
+      "type": "heading",
+      "level": 1,
+      "number": "7",
+      "en": "Report by whom",
+      "he": "מי מדווח"
+    },
+    {
+      "id": "sec-7-p1",
+      "type": "paragraph",
+      "en": "Reportable events have to be reported by the sponsor of the PS (or the PS sponsor’s delegate), which could be the manufacturer, the legal representative or another person or entity.",
+      "he": "אירועים בני-דיווח חייבים בדיווח על ידי ה-Sponsor של ה-PS (או נציגו של ה-Sponsor של ה-PS), אשר יכול להיות היצרן, הנציג המשפטי או אדם או גוף אחר¹⁰."
+    },
+
+    {
+      "id": "sec-8",
+      "type": "heading",
+      "level": 1,
+      "number": "8",
+      "en": "Report to whom",
+      "he": "למי מדווחים"
+    },
+    {
+      "id": "sec-8-p1",
+      "type": "paragraph",
+      "en": "Reportable events must be reported at the same time to all NCAs where the PS has commenced, using the summary table featured in the appendix.",
+      "he": "אירועים בני-דיווח חייבים בדיווח באותו זמן לכל ה-NCAs שבהם החל ה-PS, באמצעות הטבלה המסכמת המופיעה בנספח."
+    },
+    {
+      "id": "sec-8-p2",
+      "type": "paragraph",
+      "en": "A list of PS contact points within the NCAs is published at the European Commission's webpage.",
+      "he": "רשימת נקודות הקשר ל-PS בתוך ה-NCAs מתפרסמת בדף האינטרנט של הנציבות האירופית."
+    },
+    {
+      "id": "sec-8-p3",
+      "type": "paragraph",
+      "en": "For the purpose of this guidance, a PS is considered to have commenced in an individual MS when the sponsor is authorised to start the study in that MS in accordance with the provisions laid down in the IVDR.",
+      "he": "לצורך הנחיה זו, PS ייחשב לכזה שהחל במדינה חברה פרטנית כאשר ה-Sponsor אושר להתחיל את המחקר באותה מדינה חברה בהתאם להוראות שנקבעו ב-IVDR."
+    },
+    {
+      "id": "sec-8-p4",
+      "type": "paragraph",
+      "en": "MSs may also require separate reporting to the Ethics Committee(s).",
+      "he": "מדינות חברות עשויות לדרוש גם דיווח נפרד לוועדת/ועדות האתיקה."
+    },
+
+    {
+      "id": "sec-9",
+      "type": "heading",
+      "level": 1,
+      "number": "9",
+      "en": "Reporting timelines",
+      "he": "לוחות זמנים לדיווח"
+    },
+    {
+      "id": "sec-9-1",
+      "type": "heading",
+      "level": 2,
+      "number": "9.1",
+      "en": "Report by sponsor to NCAs.",
+      "he": "דיווח על ידי ה-Sponsor ל-NCAs."
+    },
+    {
+      "id": "sec-9-1-p1",
+      "type": "paragraph",
+      "en": "The sponsor must report to all NCAs where the PS is authorised to start:",
+      "he": "ה-Sponsor חייב לדווח לכל ה-NCAs שבהם ה-PS אושר להתחיל:"
+    },
+    {
+      "id": "sec-9-1-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "For all reportable events as described in section 6 which indicate an imminent risk of death, serious injury, or serious illness and that requires prompt remedial action for other patients/subjects, users or other persons or a new finding to it: immediately, but not later than 2 calendar days after awareness by sponsor of a new reportable event or of new information in relation with an already reported event. This includes events that are of significant and unexpected nature such that they become alarming as a potential public health hazard. It also includes the possibility of multiple deaths occurring at short intervals. These concerns may be identified by either the NCA or the sponsor.", "he": "עבור כל האירועים בני-הדיווח כמתואר בסעיף 6 המעידים על סיכון מיידי למוות, לפגיעה חמורה או למחלה חמורה, והדורשים פעולה מתקנת מהירה עבור מטופלים/נבדקים אחרים, משתמשים או אנשים אחרים, או ממצא חדש הנוגע אליו: מיד, אך לא יאוחר מ-2 ימים קלנדריים לאחר שה-Sponsor נודע לו על אירוע חדש בן-דיווח או על מידע חדש הנוגע לאירוע שכבר דווח. הדבר כולל אירועים בעלי אופי משמעותי ובלתי צפוי עד כדי שהם הופכים למדאיגים כסכנה אפשרית לבריאות הציבור. הוא כולל גם את האפשרות של מקרי מוות מרובים המתרחשים בפרקי זמן קצרים. חששות אלה עשויים להיות מזוהים על ידי ה-NCA או ה-Sponsor." },
+        { "en": "Any other reportable events as described in section 6 or a new finding/update to it: immediately, but not later than 7 calendar days following the date of awareness by the sponsor of the new reportable event or of new information in relation with an already reported event.", "he": "כל אירוע אחר בן-דיווח כמתואר בסעיף 6, או ממצא חדש/עדכון הנוגע אליו: מיד, אך לא יאוחר מ-7 ימים קלנדריים לאחר המועד שבו נודע ל-Sponsor על האירוע החדש בן-הדיווח או על מידע חדש הנוגע לאירוע שכבר דווח." }
+      ]
+    },
+    {
+      "id": "sec-9-1-p2",
+      "type": "paragraph",
+      "en": "In some cases, a different periodicity or different modalities may be agreed between the participating NCAs and the sponsor according to the study’s design and to the pathology studied in the PS. This would allow implementation of adequate provision for PS in which SAE frequency is expected to be high due to the natural progression of the disease (e.g. palliative oncology).",
+      "he": "במקרים מסוימים, ניתן להסכים בין ה-NCAs המשתתפים לבין ה-Sponsor על מחזוריות שונה או אופנים שונים בהתאם לתכנון המחקר ולפתולוגיה הנחקרת ב-PS. הדבר יאפשר יישום הסדר הולם עבור PS שבו צפויה שכיחות גבוהה של SAE עקב ההתקדמות הטבעית של המחלה (למשל אונקולוגיה פליאטיבית)."
+    },
+    {
+      "id": "sec-9-2",
+      "type": "heading",
+      "level": 2,
+      "number": "9.2",
+      "en": "Report by the investigator to the sponsor",
+      "he": "דיווח על ידי החוקר ל-Sponsor"
+    },
+    {
+      "id": "sec-9-2-p1",
+      "type": "paragraph",
+      "en": "The sponsor must implement and maintain a system to ensure that the reporting of the reportable events as defined under section 6 will be provided by the investigator to the sponsor immediately, but not later than 3 calendar days after awareness of the event.",
+      "he": "ה-Sponsor חייב ליישם ולתחזק מערכת שתבטיח כי דיווח האירועים בני-הדיווח כהגדרתם בסעיף 6 יימסר על ידי החוקר ל-Sponsor מיד, אך לא יאוחר מ-3 ימים קלנדריים לאחר שנודע לו על האירוע."
+    },
+
+    {
+      "id": "sec-10",
+      "type": "heading",
+      "level": 1,
+      "number": "10",
+      "en": "Causality assessment",
+      "he": "הערכת סיבתיות"
+    },
+    {
+      "id": "sec-10-p1",
+      "type": "paragraph",
+      "en": "The relationship between the use of the in vitro diagnostic medical device (including the study procedure) and the occurrence of each SAE must be assessed and categorized.",
+      "he": "הקשר בין השימוש במכשיר הרפואי לאבחון ויטרו¹¹ (לרבות הליך המחקר) לבין התרחשות כל SAE חייב בהערכה ובסיווג."
+    },
+    {
+      "id": "sec-10-p2",
+      "type": "paragraph",
+      "en": "During causality assessment activity, clinical judgement must be used and the relevant documents, such as the Investigator’s Brochure, the PSP or the Risk Analysis Report must be consulted, as all the foreseeable SAEs and the potential risks are listed and assessed there. The presence of confounding factors, such as concomitant medication/treatment, the natural history of the underlying disease, other concurrent illness or risk factors must also be considered. The above considerations also apply to the SAEs occurring in the comparison group.",
+      "he": "במהלך פעילות הערכת הסיבתיות יש להפעיל שיקול דעת קליני, ויש לעיין במסמכים הרלוונטיים, כגון חוברת החוקר (Investigator’s Brochure), ה-PSP או דוח ניתוח הסיכונים, מאחר שכל ה-SAEs הצפויים והסיכונים הפוטנציאליים מפורטים ומוערכים שם¹². יש להביא בחשבון גם את נוכחותם של גורמים מבלבלים (confounding factors), כגון תרופות/טיפול נלווים, המהלך הטבעי של המחלה הבסיסית, מחלה נלווית אחרת או גורמי סיכון. השיקולים לעיל חלים גם על ה-SAEs המתרחשים בקבוצת ההשוואה."
+    },
+    {
+      "id": "sec-10-p3",
+      "type": "paragraph",
+      "en": "For the purpose of harmonizing reports, each SAE will be classified according to four different levels of causality:",
+      "he": "לצורך האחדת הדוחות, כל SAE יסווג לפי ארבע רמות שונות של סיבתיות:"
+    },
+    {
+      "id": "sec-10-list1",
+      "type": "list",
+      "ordered": true,
+      "items": [
+        { "en": "Not related", "he": "לא קשור (Not related)" },
+        { "en": "Possible", "he": "אפשרי (Possible)" },
+        { "en": "Probable", "he": "סביר (Probable)" },
+        { "en": "Causal relationship", "he": "קשר סיבתי (Causal relationship)" }
+      ]
+    },
+    {
+      "id": "sec-10-p4",
+      "type": "paragraph",
+      "en": "The sponsor and the investigators will use the following definitions to assess the relationship of the SAE to the device for PS, the comparator or the study procedure.",
+      "he": "ה-Sponsor והחוקרים ישתמשו בהגדרות הבאות כדי להעריך את הקשר של ה-SAE למכשיר ל-PS, למשווה או להליך המחקר."
+    },
+    {
+      "id": "sec-10-list2",
+      "type": "list",
+      "ordered": true,
+      "items": [
+        { "en": "Not related: the relationship to the device for PS, the comparator or to study procedures can be excluded when: the event has no temporal relationship with the use of the device for PS, or the procedures related to use of the device for PS; the relationship between the SAE and the device for PS is biologically implausible; the discontinuation of device use or the reduction of the level of activation/exposure - when clinically feasible - and reintroduction of its use (or increase of the level of activation/exposure), do not impact on the SAE; the event involves a body-site or an organ that cannot be affected by the device for PS or procedure; the SAE can clearly be attributed to another cause (e.g. an underlying or concurrent illness/ clinical condition, an effect of another device, drug, treatment or other risk factors); the SAE does not depend on a false result given by the device for PS. In order to establish the non-relatedness, not all the criteria listed above might be met at the same time, depending on the type of device/procedures and the SAE.", "he": "לא קשור: ניתן לשלול את הקשר למכשיר ל-PS, למשווה או להליכי המחקר כאשר: לאירוע אין קשר זמני לשימוש במכשיר ל-PS, או להליכים הקשורים לשימוש במכשיר ל-PS; הקשר בין ה-SAE לבין המכשיר ל-PS אינו סביר מבחינה ביולוגית; הפסקת השימוש במכשיר או הפחתת רמת ההפעלה/החשיפה — כאשר הדבר אפשרי קלינית — וחידוש השימוש בו (או הגברת רמת ההפעלה/החשיפה) אינם משפיעים על ה-SAE; האירוע מערב אזור גוף או איבר שאינם יכולים להיות מושפעים מהמכשיר ל-PS או מההליך; ניתן לייחס את ה-SAE בבירור לסיבה אחרת (למשל מחלה/מצב קליני בסיסי או נלווה, השפעה של מכשיר, תרופה, טיפול או גורמי סיכון אחרים); ה-SAE אינו תלוי בתוצאה שגויה שנתן המכשיר ל-PS. כדי לבסס את אי-הקשר, לא בהכרח יתקיימו כל הקריטריונים המפורטים לעיל בו-זמנית, בהתאם לסוג המכשיר/ההליכים ול-SAE." },
+        { "en": "Possible: the relationship with the use of the device for PS or the comparator, or the relationship with study procedures, is weak but cannot be ruled out completely. Alternative causes are also possible (e.g. an underlying or concurrent illness/clinical condition or/and an effect of another device, drug or treatment). Cases where relatedness cannot be assessed, or no information has been obtained, should also be classified as possible.", "he": "אפשרי: הקשר לשימוש במכשיר ל-PS או למשווה, או הקשר להליכי המחקר, חלש אך אינו ניתן לשלילה מוחלטת. סיבות חלופיות אפשריות אף הן (למשל מחלה/מצב קליני בסיסי או נלווה ו/או השפעה של מכשיר, תרופה או טיפול אחרים). מקרים שבהם לא ניתן להעריך את הקשר, או שלא הושג מידע, יסווגו אף הם כאפשריים." },
+        { "en": "Probable: the relationship with the use of the device for PS or the comparator, or the relationship with study procedures, seems relevant and/or the event cannot be reasonably explained by another cause.", "he": "סביר: הקשר לשימוש במכשיר ל-PS או למשווה, או הקשר להליכי המחקר, נראה רלוונטי ו/או האירוע אינו ניתן להסבר סביר על ידי סיבה אחרת." },
+        { "en": "Causal relationship: the SAE is associated with the device for PS, comparator or with study procedures beyond reasonable doubt when: the product category the device for PS belongs to or similar IVDs and study procedures are known to have this event; the event has a temporal relationship with the device for PS or study procedures; other possible causes (e.g. an underlying or concurrent illness/ clinical condition or/and an effect of another device, drug or treatment) have been adequately ruled out; harm to the subject is due to error in use; the event depends on a false result given by the device for PS used for diagnosis, when applicable. In order to establish the relatedness, not all the criteria listed above might be met at the same time, depending on the type of device/procedures and the SAE.", "he": "קשר סיבתי: ה-SAE קשור למכשיר ל-PS, למשווה או להליכי המחקר מעבר לכל ספק סביר כאשר: קטגוריית המוצר שאליה שייך המכשיר ל-PS, או IVDs דומים והליכי מחקר, ידועים כגורמים לאירוע זה; לאירוע יש קשר זמני למכשיר ל-PS או להליכי המחקר; סיבות אפשריות אחרות (למשל מחלה/מצב קליני בסיסי או נלווה ו/או השפעה של מכשיר, תרופה או טיפול אחרים) נשללו כראוי; הנזק לנבדק נובע משגיאה בשימוש; האירוע תלוי בתוצאה שגויה שנתן המכשיר ל-PS המשמש לאבחון¹³, במקרים הרלוונטיים. כדי לבסס את הקשר, לא בהכרח יתקיימו כל הקריטריונים המפורטים לעיל בו-זמנית, בהתאם לסוג המכשיר/ההליכים ול-SAE." }
+      ]
+    },
+    {
+      "id": "sec-10-p5",
+      "type": "paragraph",
+      "en": "The sponsor and the investigators will distinguish between the SAEs related to the device for PS and those related to the procedures (any procedure specific to the PSP). Complications caused by concomitant treatments not imposed by the PSP are considered not related. Similarly, several routine diagnostic or patient management procedures are applied to subjects regardless of the PSP. If routine procedures are not imposed by the PSP, complications caused by them are also considered not related.",
+      "he": "ה-Sponsor והחוקרים יבחינו בין ה-SAEs הקשורים למכשיר ל-PS לבין אלה הקשורים להליכים (כל הליך ספציפי ל-PSP). סיבוכים הנגרמים מטיפולים נלווים שאינם נכפים על ידי ה-PSP נחשבים ללא קשורים. באופן דומה, מספר הליכי אבחון או ניהול מטופל שגרתיים מיושמים על נבדקים ללא קשר ל-PSP. אם הליכים שגרתיים אינם נכפים על ידי ה-PSP, סיבוכים הנגרמים מהם נחשבים אף הם ללא קשורים."
+    },
+    {
+      "id": "sec-10-p6",
+      "type": "paragraph",
+      "en": "The relationship between a SAE and the procedure or the device needs to be assessed separately. This does however not mean that they are mutually exclusive; a SAE can be related to both the procedure and the device, or it can be related only to the procedure or only to the device. When it is unclear whether an event is related to the device or to the procedure, the investigator should:",
+      "he": "יש להעריך בנפרד את הקשר בין SAE לבין ההליך או המכשיר. עם זאת, אין משמעות הדבר שהם סותרים זה את זה; SAE יכול להיות קשור גם להליך וגם למכשיר, או שהוא יכול להיות קשור רק להליך או רק למכשיר. כאשר אין זה ברור אם אירוע קשור למכשיר או להליך, על החוקר:"
+    },
+    {
+      "id": "sec-10-list3",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "set the relationship to device to possible (or higher) AND", "he": "להגדיר את הקשר למכשיר כאפשרי (או גבוה יותר) וגם" },
+        { "en": "set the relationship to procedure to possible (or higher)", "he": "להגדיר את הקשר להליך כאפשרי (או גבוה יותר)" }
+      ]
+    },
+    {
+      "id": "sec-10-p7",
+      "type": "paragraph",
+      "en": "When the healthcare provider performs the procedures and uses the device(s) for PS, the causality assessment of this healthcare provider should prevail. In case of self-tests, the assessment by the sponsor and the one by the user are equally weighted.",
+      "he": "כאשר ספק שירותי הבריאות מבצע את ההליכים ומשתמש במכשיר/ים ל-PS, הערכת הסיבתיות של ספק שירותי בריאות זה תגבר. במקרה של בדיקות עצמיות (self-tests), ההערכה של ה-Sponsor וזו של המשתמש זוכות למשקל שווה."
+    },
+    {
+      "id": "sec-10-p8",
+      "type": "paragraph",
+      "en": "In some particular cases the event may not be adequately assessed because information is insufficient or contradictory and/or the data cannot be verified or supplemented. The sponsor and the investigators will make the maximum effort to define and categorize the event and avoid these situations. Where an investigator assessment is not available and/or the sponsor remains uncertain about classifying the SAE, the sponsor should not exclude the relatedness; the event should be classified as “possible”, and the reporting is not to be delayed.",
+      "he": "במקרים מסוימים ייתכן שהאירוע לא יוערך כראוי משום שהמידע אינו מספיק או סותר ו/או שהנתונים אינם ניתנים לאימות או להשלמה. ה-Sponsor והחוקרים יעשו את המאמץ המרבי להגדיר ולסווג את האירוע ולהימנע ממצבים אלה. כאשר הערכת חוקר אינה זמינה ו/או ה-Sponsor נותר בלתי ודאי לגבי סיווג ה-SAE, על ה-Sponsor שלא לשלול את הקשר; יש לסווג את האירוע כ\"אפשרי\", ואין לעכב את הדיווח."
+    },
+    {
+      "id": "sec-10-p9",
+      "type": "paragraph",
+      "en": "Particular attention shall be given to the causality evaluation of unanticipated SAEs. The occurrence of unanticipated events could suggest that the PS places subjects at increased risk of harm than was to be expected beforehand.",
+      "he": "תשומת לב מיוחדת תינתן להערכת הסיבתיות של SAEs בלתי צפויים. התרחשות אירועים בלתי צפויים עשויה להעיד כי ה-PS מציב את הנבדקים בסיכון מוגבר לנזק מכפי שהיה צפוי מראש."
+    },
+    {
+      "id": "fn-10",
+      "type": "note",
+      "marker": "10",
+      "en": "Contact person established by the sponsor in line with IVDR Article 58(4) if accepted by MS.",
+      "he": "איש קשר שנקבע על ידי ה-Sponsor בהתאם לסעיף 58(4) ל-IVDR, אם התקבל על ידי המדינה החברה."
+    },
+    {
+      "id": "fn-11",
+      "type": "note",
+      "marker": "11",
+      "en": "Intended as both device for PS and comparator.",
+      "he": "מיועד הן למכשיר ל-PS והן למשווה."
+    },
+    {
+      "id": "fn-12",
+      "type": "note",
+      "marker": "12",
+      "en": "For a comparator device, the instructions for use could be a relevant document.",
+      "he": "עבור מכשיר משווה, הוראות השימוש עשויות להוות מסמך רלוונטי."
+    },
+    {
+      "id": "fn-13",
+      "type": "note",
+      "marker": "13",
+      "en": "If a device for performance study gives an incorrect diagnosis, the subject might, for example, receive an unnecessary treatment and incur all the risks that accompany that treatment, or might be incorrectly diagnosed with a serious disease. In other cases, the subject might not receive an effective treatment (thereby missing out on the benefits that treatment would confer), or might not be diagnosed with the correct disease or condition.",
+      "he": "אם מכשיר למחקר ביצועים מספק אבחנה שגויה, הנבדק עלול, למשל, לקבל טיפול מיותר ולשאת בכל הסיכונים הנלווים לאותו טיפול, או להיות מאובחן בטעות במחלה חמורה. במקרים אחרים, הנבדק עלול שלא לקבל טיפול יעיל (ובכך להחמיץ את התועלת שהטיפול היה מקנה), או שלא יאובחן במחלה או במצב הנכונים."
+    },
+
+    {
+      "id": "sec-11",
+      "type": "heading",
+      "level": 1,
+      "number": "11",
+      "en": "Reporting form",
+      "he": "טופס הדיווח"
+    },
+    {
+      "id": "sec-11-p1",
+      "type": "paragraph",
+      "en": "The reporting form template for the summary SAE tabulation is given in the Appendix of this document.",
+      "he": "תבנית טופס הדיווח עבור הטבלה המסכמת של ה-SAE ניתנת בנספח של מסמך זה."
+    },
+    {
+      "id": "sec-11-p2",
+      "type": "paragraph",
+      "en": "The reporting form is study specific and covers only a given PS, defined by a distinct PSP. English is the recommended language for the reporting form. The reporting form can be modified in any applicable software (not only Microsoft Excel), but the file needs to be compatible with Microsoft Excel when sent to the participating NCAs. Sponsors who generate the excel report file by automated processes may implement other technical features in their systems for excel file generation to ensure the preferred terms listed in metadata are used.",
+      "he": "טופס הדיווח הוא ספציפי למחקר ומכסה רק PS נתון, המוגדר על ידי PSP מובחן. אנגלית היא השפה המומלצת לטופס הדיווח. ניתן לערוך את טופס הדיווח בכל תוכנה ישימה (לא רק Microsoft Excel), אך הקובץ צריך להיות תואם ל-Microsoft Excel בעת שליחתו ל-NCAs המשתתפים. Sponsors המפיקים את קובץ דוח ה-Excel בתהליכים אוטומטיים רשאים ליישם תכונות טכניות אחרות במערכותיהם להפקת קובצי Excel כדי להבטיח שייעשה שימוש במונחים המועדפים המפורטים במטא-נתונים."
+    },
+    {
+      "id": "sec-11-p3",
+      "type": "paragraph",
+      "en": "The template form contains inserted filters and functionalities to facilitate the use of preferred terminology in the reporting. These are important for the analysis and should be maintained.",
+      "he": "טופס התבנית מכיל מסננים ופונקציות מוטמעים כדי להקל על השימוש במינוח המועדף בדיווח. אלה חשובים לניתוח ויש לשמר אותם."
+    },
+    {
+      "id": "sec-11-p4",
+      "type": "paragraph",
+      "en": "The table gives a cumulative overview of the reportable events per PS and will be updated and transmitted to participating NCAs each time a new reportable event or a new finding to an already reported event is to be reported. If more detailed information has to be provided on request of an NCA, the individual study specific reporting form should be used.",
+      "he": "הטבלה מספקת סקירה מצטברת של האירועים בני-הדיווח לכל PS, ותעודכן ותועבר ל-NCAs המשתתפים בכל פעם שיש לדווח על אירוע חדש בן-דיווח או על ממצא חדש לאירוע שכבר דווח. אם יש לספק מידע מפורט יותר לבקשת NCA, יש להשתמש בטופס הדיווח הספציפי למחקר הפרטני."
+    },
+    {
+      "id": "sec-11-1",
+      "type": "heading",
+      "level": 2,
+      "number": "11.1",
+      "en": "Completion guidelines: Form header",
+      "he": "הנחיות מילוי: כותרת הטופס"
+    },
+    {
+      "id": "sec-11-1-1",
+      "type": "heading",
+      "level": 3,
+      "number": "11.1.1",
+      "en": "EUDAMED/CIV-ID",
+      "he": "EUDAMED/CIV-ID"
+    },
+    {
+      "id": "sec-11-1-1-p1",
+      "type": "paragraph",
+      "en": "It will not be possible to generate the Union-wide unique single identification number mentioned in IVDR Article 66 (1) before Eudamed is fully functional. Until Eudamed is fully functional, PS will get tracking numbers (CIV-ID) upon registration in the Eudamed2 database which is performed by the NCA upon receipt of an application. This CIV-ID is provided to the sponsor during the NCA’s handling of the initial application for the PS and should be entered on the safety reporting form.",
+      "he": "לא יהיה ניתן להפיק את מספר הזיהוי היחיד הייחודי ברמת האיחוד הנזכר בסעיף 66(1) ל-IVDR לפני ש-EUDAMED יפעל במלואו. עד ש-EUDAMED יפעל במלואו, PS יקבל מספרי מעקב (CIV-ID) עם הרישום במסד הנתונים Eudamed2, המתבצע על ידי ה-NCA עם קבלת בקשה. CIV-ID זה נמסר ל-Sponsor במהלך טיפול ה-NCA בבקשה הראשונית ל-PS, ויש להזינו בטופס דיווח הבטיחות."
+    },
+    {
+      "id": "sec-11-1-2",
+      "type": "heading",
+      "level": 3,
+      "number": "11.1.2",
+      "en": "Title of PS",
+      "he": "כותרת ה-PS"
+    },
+    {
+      "id": "sec-11-1-2-p1",
+      "type": "paragraph",
+      "en": "The identifying title of the PS. The title indicated here should be consistent with other title entries (such as in PS application form, PSP cover page etc).",
+      "he": "הכותרת המזהה של ה-PS. הכותרת המצוינת כאן צריכה להיות עקבית עם רשומות כותרת אחרות (כגון בטופס הבקשה ל-PS, עמוד השער של ה-PSP וכד')."
+    },
+    {
+      "id": "sec-11-1-3",
+      "type": "heading",
+      "level": 3,
+      "number": "11.1.3",
+      "en": "PSP number/code",
+      "he": "מספר/קוד PSP"
+    },
+    {
+      "id": "sec-11-1-3-p1",
+      "type": "paragraph",
+      "en": "The unique identification code or short name assigned to the specific PSP by the sponsor (numeric, alphanumeric or acronym) should be indicated.",
+      "he": "יש לציין את קוד הזיהוי הייחודי או השם הקצר שהוקצה ל-PSP הספציפי על ידי ה-Sponsor (מספרי, אלפאנומרי או ראשי תיבות)."
+    },
+    {
+      "id": "sec-11-1-4",
+      "type": "heading",
+      "level": 3,
+      "number": "11.1.4",
+      "en": "Contact person",
+      "he": "איש קשר"
+    },
+    {
+      "id": "sec-11-1-4-p1",
+      "type": "paragraph",
+      "en": "Name, address, e-mail and telephone number should be provided for the person who is the sponsor’s point of contact in case the NCA has follow-up questions regarding submitted safety report forms.",
+      "he": "יש לספק שם, כתובת, דואר אלקטרוני ומספר טלפון של האדם המשמש כנקודת הקשר של ה-Sponsor למקרה שיש ל-NCA שאלות המשך בנוגע לטופסי דיווח בטיחות שהוגשו."
+    },
+    {
+      "id": "sec-11-1-5",
+      "type": "heading",
+      "level": 3,
+      "number": "11.1.5",
+      "en": "MS+NCA Reference numbers",
+      "he": "מספרי ייחוס של MS+NCA"
+    },
+    {
+      "id": "sec-11-1-5-p1",
+      "type": "paragraph",
+      "en": "For each participating MS, indicate the country code and the NCA’s national reference number for the PS.",
+      "he": "עבור כל מדינה חברה משתתפת, ציינו את קוד המדינה¹⁴ ואת מספר הייחוס הלאומי של ה-NCA עבור ה-PS."
+    },
+    {
+      "id": "ex-ms-ref",
+      "type": "example",
+      "caption": {
+        "en": "Example — MS+NCA reference numbers",
+        "he": "דוגמה — מספרי ייחוס של MS+NCA"
+      },
+      "verbatim": "Example:\nSE 5.1-20YY-XXXXXX\nDK 20YYXXXXXX"
+    },
+    {
+      "id": "sec-11-1-6",
+      "type": "heading",
+      "level": 3,
+      "number": "11.1.6",
+      "en": "No. of subjects enrolled to date total & No. of specimens tested with the IVD to date total",
+      "he": "מספר הנבדקים שגויסו עד כה בסך הכול ומספר המדגמים שנבדקו עם ה-IVD עד כה בסך הכול"
+    },
+    {
+      "id": "sec-11-1-6-p1",
+      "type": "paragraph",
+      "en": "Indicate the total number of subjects who have been enrolled and number of specimens that have been tested with the IVD (per date of report) in the PS globally.",
+      "he": "ציינו את המספר הכולל של נבדקים שגויסו ואת מספר המדגמים שנבדקו עם ה-IVD (נכון למועד הדוח) ב-PS באופן גלובלי."
+    },
+    {
+      "id": "sec-11-1-7",
+      "type": "heading",
+      "level": 3,
+      "number": "11.1.7",
+      "en": "No. of subjects enrolled to date per country & No. of specimens collected to date per country",
+      "he": "מספר הנבדקים שגויסו עד כה לפי מדינה ומספר המדגמים שנאספו עד כה לפי מדינה"
+    },
+    {
+      "id": "sec-11-1-7-p1",
+      "type": "paragraph",
+      "en": "List all countries where the PS has been authorised by the report date and indicate the number of enrolled subjects and number of obtained specimens in the PS (per date of report) in each country.",
+      "he": "פרטו את כל המדינות שבהן ה-PS אושר עד מועד הדוח, וציינו את מספר הנבדקים שגויסו ואת מספר המדגמים שהושגו ב-PS (נכון למועד הדוח) בכל מדינה."
+    },
+    {
+      "id": "sec-11-1-8",
+      "type": "heading",
+      "level": 3,
+      "number": "11.1.8",
+      "en": "Device type",
+      "he": "סוג המכשיר"
+    },
+    {
+      "id": "sec-11-1-8-p1",
+      "type": "paragraph",
+      "en": "Indicate the type of device(s) assessed in the PS according to EMDN categories (use the level as specialised as possible). The EMDN can be accessed and downloaded in pdf and excel format at webgate.ec.europa.eu/dyna2/emdn and the European Commission’s website page for MDCG documents.",
+      "he": "ציינו את סוג המכשיר/ים המוערך/ים ב-PS בהתאם לקטגוריות EMDN (השתמשו ברמה המפורטת ביותר האפשרית). ניתן לגשת ל-EMDN ולהורידו בפורמט pdf ו-excel בכתובת webgate.ec.europa.eu/dyna2/emdn ובדף האתר של הנציבות האירופית למסמכי MDCG."
+    },
+    {
+      "id": "sec-11-1-9",
+      "type": "heading",
+      "level": 3,
+      "number": "11.1.9",
+      "en": "Reference MS",
+      "he": "מדינה חברה ייחוסית"
+    },
+    {
+      "id": "sec-11-1-9-p1",
+      "type": "paragraph",
+      "en": "Indicate the name of the MS which drew the unique EUDAMED ID (normally the first MS receiving an application for the PS). Once the coordinated assessment procedure (per IVDR Article 74) is up and running, the coordinating MS should be indicated here.",
+      "he": "ציינו את שם המדינה החברה ששלפה את מזהה ה-EUDAMED הייחודי (בדרך כלל המדינה החברה הראשונה שמקבלת בקשה ל-PS). ברגע שהליך ההערכה המתואם (לפי סעיף 74 ל-IVDR) יפעל, יש לציין כאן את המדינה החברה המתאמת."
+    },
+    {
+      "id": "sec-11-1-10",
+      "type": "heading",
+      "level": 3,
+      "number": "11.1.10",
+      "en": "No. of devices for PS used to date total",
+      "he": "מספר המכשירים ל-PS שבהם נעשה שימוש עד כה בסך הכול"
+    },
+    {
+      "id": "sec-11-1-10-p1",
+      "type": "paragraph",
+      "en": "Indicate the total number of devices for PS (e.g. reagent kits) which have been used (per date of report) in the PS globally. The number of devices used could be indicative of a quality issue. Therefore, if not applicable to the device used, please provide justification and add another parameter to assess quality issues with the IVD.",
+      "he": "ציינו את המספר הכולל של מכשירים ל-PS (למשל ערכות ריאגנטים) שבהם נעשה שימוש (נכון למועד הדוח) ב-PS באופן גלובלי. מספר המכשירים שבהם נעשה שימוש עשוי להעיד על בעיית איכות. לפיכך, אם אין הדבר ישים למכשיר שבו נעשה שימוש, נא לספק הצדקה ולהוסיף פרמטר אחר להערכת בעיות איכות עם ה-IVD."
+    },
+    {
+      "id": "sec-11-1-11",
+      "type": "heading",
+      "level": 3,
+      "number": "11.1.11",
+      "en": "No. of devices for PS used to date per country",
+      "he": "מספר המכשירים ל-PS שבהם נעשה שימוש עד כה לפי מדינה"
+    },
+    {
+      "id": "sec-11-1-11-p1",
+      "type": "paragraph",
+      "en": "List all countries where the PS has been authorised by the report date and indicate the number of devices for PS (e.g. reagent kits) which have been used in the PS (per date of report) in each country. The number of devices used could be indicative of a quality issue. Therefore, if not applicable to the device used, please provide justification and add another parameter to assess quality issues with the IVD.",
+      "he": "פרטו את כל המדינות שבהן ה-PS אושר עד מועד הדוח, וציינו את מספר המכשירים ל-PS (למשל ערכות ריאגנטים) שבהם נעשה שימוש ב-PS (נכון למועד הדוח) בכל מדינה. מספר המכשירים שבהם נעשה שימוש עשוי להעיד על בעיית איכות. לפיכך, אם אין הדבר ישים למכשיר שבו נעשה שימוש, נא לספק הצדקה ולהוסיף פרמטר אחר להערכת בעיות איכות עם ה-IVD."
+    },
+    {
+      "id": "sec-11-1-12",
+      "type": "heading",
+      "level": 3,
+      "number": "11.1.12",
+      "en": "Date of report",
+      "he": "תאריך הדוח"
+    },
+    {
+      "id": "sec-11-1-12-p1",
+      "type": "paragraph",
+      "en": "Indicate the date when the report is compiled for transmission to NCAs. Format DD/MM/YYYY.",
+      "he": "ציינו את התאריך שבו הדוח מורכב לצורך העברה ל-NCAs. פורמט DD/MM/YYYY."
+    },
+    {
+      "id": "sec-11-2",
+      "type": "heading",
+      "level": 2,
+      "number": "11.2",
+      "en": "Completion guidelines: Event details",
+      "he": "הנחיות מילוי: פרטי האירוע"
+    },
+    {
+      "id": "sec-11-2-p1",
+      "type": "paragraph",
+      "en": "Each unique reportable event is presented in a separate line. Updates to a previously reported event should be made by changing the information in the same line, and clearly identified according to the principles described below.",
+      "he": "כל אירוע ייחודי בן-דיווח מוצג בשורה נפרדת. עדכונים לאירוע שדווח קודם לכן ייעשו על ידי שינוי המידע באותה שורה, ויזוהו בבירור בהתאם לעקרונות המתוארים להלן."
+    },
+    {
+      "id": "sec-11-2-p2",
+      "type": "paragraph",
+      "en": "Any new information added in the form should be highlighted in bold and/or colour. This includes any new lines added and any changes made to the information in an already existing line.",
+      "he": "כל מידע חדש שנוסף בטופס יודגש במודגש ו/או בצבע. הדבר כולל כל שורה חדשה שנוספה וכל שינוי שנעשה במידע בשורה קיימת."
+    },
+    {
+      "id": "sec-11-2-p3",
+      "type": "paragraph",
+      "en": "In the initial report, in any given line, no fields shall be left intentionally blank. To meet this requirement, preliminary information should be filled in, despite the need of further updating.",
+      "he": "בדוח הראשוני, בכל שורה נתונה, לא יושארו שדות ריקים במכוון. כדי לעמוד בדרישה זו, יש למלא מידע ראשוני, על אף הצורך בעדכון נוסף."
+    },
+    {
+      "id": "sec-11-2-1",
+      "type": "heading",
+      "level": 3,
+      "number": "11.2.1",
+      "en": "Status",
+      "he": "סטטוס"
+    },
+    {
+      "id": "sec-11-2-1-p1",
+      "type": "paragraph",
+      "en": "The sponsor shall identify the new/updated information in the status column as:",
+      "he": "ה-Sponsor יזהה את המידע החדש/המעודכן בעמודת הסטטוס כך:"
+    },
+    {
+      "id": "sec-11-2-1-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "A = added = new reportable event;", "he": "A = נוסף (added) = אירוע חדש בן-דיווח;" },
+        { "en": "D = deleted = already reported event that has been deleted due to downgrading to non-serious, due to integration in another event, or … Add the reason for deletion in the corresponding cell in column “Free description of event”.", "he": "D = נמחק (deleted) = אירוע שכבר דווח ונמחק עקב הורדת דירוג ללא-חמור, עקב מיזוג באירוע אחר, או … הוסיפו את סיבת המחיקה בתא המתאים בעמודה \"תיאור חופשי של האירוע\"." },
+        { "en": "M = modified = new finding/update to an already reported event;", "he": "M = שונה (modified) = ממצא חדש/עדכון לאירוע שכבר דווח;" },
+        { "en": "U = unchanged.", "he": "U = ללא שינוי (unchanged)." }
+      ]
+    },
+    {
+      "id": "sec-11-2-1-p2",
+      "type": "paragraph",
+      "en": "Do not add other options.",
+      "he": "אין להוסיף אפשרויות אחרות."
+    },
+    {
+      "id": "sec-11-2-2",
+      "type": "heading",
+      "level": 3,
+      "number": "11.2.2",
+      "en": "Date Sponsor received report of SAE/DD",
+      "he": "התאריך שבו ה-Sponsor קיבל דיווח על SAE/DD"
+    },
+    {
+      "id": "sec-11-2-2-p1",
+      "type": "paragraph",
+      "en": "Indicate the date when the sponsor was first notified by the study site about the event. This date is checked for compliance with reporting timelines as outlined in section 9 Reporting timelines. Format DD/MM/YYYY.",
+      "he": "ציינו את התאריך שבו ה-Sponsor קיבל לראשונה הודעה מאתר המחקר על האירוע. תאריך זה נבדק לעמידה בלוחות הזמנים לדיווח כמתואר בסעיף 9 לוחות זמנים לדיווח. פורמט DD/MM/YYYY."
+    },
+    {
+      "id": "sec-11-2-3",
+      "type": "heading",
+      "level": 3,
+      "number": "11.2.3",
+      "en": "Country code",
+      "he": "קוד מדינה"
+    },
+    {
+      "id": "sec-11-2-3-p1",
+      "type": "paragraph",
+      "en": "Indicate the country code for the country in which the subject associated with the event has been enrolled. Choose from dropdown menu or enter manually if code is not available.",
+      "he": "ציינו את קוד המדינה¹⁴ עבור המדינה שבה גויס הנבדק הקשור לאירוע. בחרו מהתפריט הנפתח או הזינו ידנית אם הקוד אינו זמין."
+    },
+    {
+      "id": "sec-11-2-4",
+      "type": "heading",
+      "level": 3,
+      "number": "11.2.4",
+      "en": "Study site",
+      "he": "אתר המחקר"
+    },
+    {
+      "id": "sec-11-2-4-1",
+      "type": "heading",
+      "level": 4,
+      "number": "11.2.4.1",
+      "en": "Specimen collection",
+      "he": "איסוף מדגם"
+    },
+    {
+      "id": "sec-11-2-4-1-p1",
+      "type": "paragraph",
+      "en": "Name identifying the institution or site where the specimen was collected.",
+      "he": "שם המזהה את המוסד או האתר שבו נאסף המדגם."
+    },
+    {
+      "id": "sec-11-2-4-2",
+      "type": "heading",
+      "level": 4,
+      "number": "11.2.4.2",
+      "en": "Specimen analysis",
+      "he": "ניתוח מדגם"
+    },
+    {
+      "id": "sec-11-2-4-2-p1",
+      "type": "paragraph",
+      "en": "Name identifying the institution or site where the specimen was analysed.",
+      "he": "שם המזהה את המוסד או האתר שבו נותח המדגם."
+    },
+    {
+      "id": "sec-11-2-5",
+      "type": "heading",
+      "level": 3,
+      "number": "11.2.5",
+      "en": "Subject ID code",
+      "he": "קוד מזהה נבדק"
+    },
+    {
+      "id": "sec-11-2-5-p1",
+      "type": "paragraph",
+      "en": "The study specific subject ID code, i.e. the link between study data and the actual subject identity (which is not to be provided in this form).",
+      "he": "קוד מזהה הנבדק הספציפי למחקר, כלומר החוליה המקשרת בין נתוני המחקר לבין זהותו הממשית של הנבדק (שאין לספקה בטופס זה)."
+    },
+    {
+      "id": "sec-11-2-6",
+      "type": "heading",
+      "level": 3,
+      "number": "11.2.6",
+      "en": "SAE or DD ID code",
+      "he": "קוד מזהה SAE או DD"
+    },
+    {
+      "id": "sec-11-2-6-p1",
+      "type": "paragraph",
+      "en": "The investigator, sponsor or manufacturer should assign a unique ID to each SAE or DD that has occurred. This number shall remain unchanged throughout all other alterations of the particular SAE reporting due to ongoing assessment.",
+      "he": "החוקר, ה-Sponsor או היצרן יקצו מזהה ייחודי לכל SAE או DD שהתרחש. מספר זה יישאר ללא שינוי לאורך כל שאר השינויים בדיווח ה-SAE המסוים עקב הערכה מתמשכת."
+    },
+    {
+      "id": "sec-11-2-7",
+      "type": "heading",
+      "level": 3,
+      "number": "11.2.7",
+      "en": "Date of specimen collection",
+      "he": "תאריך איסוף המדגם"
+    },
+    {
+      "id": "sec-11-2-7-p1",
+      "type": "paragraph",
+      "en": "Indicate the date of the relevant collection of the specimen. Format DD/MM/YYYY.",
+      "he": "ציינו את תאריך האיסוף הרלוונטי של המדגם. פורמט DD/MM/YYYY."
+    },
+    {
+      "id": "sec-11-2-8",
+      "type": "heading",
+      "level": 3,
+      "number": "11.2.8",
+      "en": "Date of event onset",
+      "he": "תאריך תחילת האירוע"
+    },
+    {
+      "id": "sec-11-2-8-p1",
+      "type": "paragraph",
+      "en": "The date when the first signs of an event were noticed may be different (earlier) than the date when the event fulfilled the seriousness criteria (see further the definition in section 4.15). The date when the event became an SAE should be reported as Date of event onset. In case of DDs which did not lead to an SAE, the date the DD was discovered should be indicated. Format DD/MM/YYYY.",
+      "he": "התאריך שבו הבחינו לראשונה בסימני אירוע עשוי להיות שונה (מוקדם יותר) מהתאריך שבו האירוע מילא את קריטריוני החומרה (ראה עוד את ההגדרה בסעיף 4.15). התאריך שבו האירוע הפך ל-SAE ידווח כתאריך תחילת האירוע. במקרה של DDs שלא הובילו ל-SAE, יש לציין את התאריך שבו התגלה ה-DD. פורמט DD/MM/YYYY."
+    },
+    {
+      "id": "sec-11-2-9",
+      "type": "heading",
+      "level": 3,
+      "number": "11.2.9",
+      "en": "SAE or DD",
+      "he": "SAE או DD"
+    },
+    {
+      "id": "sec-11-2-9-p1",
+      "type": "paragraph",
+      "en": "Choose one option from SAE or DD. When a DD lead to a SAE, both need to be reported on separate lines. In the line of the DD/SAE, refer to the associated SAE/DD. Complete all possible information in both lines. This might mean double reporting of some information, but it is necessary that both the DD and the SAE have all information and can be analysed separately. Do not add other options.",
+      "he": "בחרו אפשרות אחת מבין SAE או DD. כאשר DD הוביל ל-SAE, יש לדווח על שניהם בשורות נפרדות. בשורת ה-DD/SAE, הפנו ל-SAE/DD המשויך. השלימו את כל המידע האפשרי בשתי השורות. ייתכן שמשמעות הדבר היא דיווח כפול של חלק מהמידע, אך נחוץ ששורת ה-DD וגם שורת ה-SAE יכללו את כל המידע ויהיו ניתנות לניתוח בנפרד. אין להוסיף אפשרויות אחרות."
+    },
+    {
+      "id": "sec-11-2-10",
+      "type": "heading",
+      "level": 3,
+      "number": "11.2.10",
+      "en": "Subject gender",
+      "he": "מגדר הנבדק"
+    },
+    {
+      "id": "sec-11-2-10-p1",
+      "type": "paragraph",
+      "en": "Choose one option from the following list (do not add other options):",
+      "he": "בחרו אפשרות אחת מהרשימה הבאה (אין להוסיף אפשרויות אחרות):"
+    },
+    {
+      "id": "sec-11-2-10-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Female", "he": "נקבה" },
+        { "en": "Male", "he": "זכר" },
+        { "en": "Other", "he": "אחר" },
+        { "en": "Unknown", "he": "לא ידוע" }
+      ]
+    },
+    {
+      "id": "sec-11-2-11",
+      "type": "heading",
+      "level": 3,
+      "number": "11.2.11",
+      "en": "Classification of event",
+      "he": "סיווג האירוע"
+    },
+    {
+      "id": "sec-11-2-11-p1",
+      "type": "paragraph",
+      "en": "Choose one option from the following list of consequence characteristics (do not add other options):",
+      "he": "בחרו אפשרות אחת מהרשימה הבאה של מאפייני תוצאה (אין להוסיף אפשרויות אחרות):"
+    },
+    {
+      "id": "sec-11-2-11-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Patient management decision resulting in death or an imminent life-threatening situation for the individual being tested or in the death of the individual’s offspring", "he": "החלטת ניהול מטופל הגורמת למוות או למצב מסכן חיים מיידי לאדם הנבדק או למות צאצאו של האדם" },
+        { "en": "Death", "he": "מוות" },
+        { "en": "Life-threatening illness or injury", "he": "מחלה או פגיעה מסכנת חיים" },
+        { "en": "Permanent impairment of body structure or body function", "he": "פגיעה קבועה במבנה גופני או בתפקוד גופני" },
+        { "en": "Hospitalization or prolongation of hospitalization", "he": "אשפוז או הארכת אשפוז" },
+        { "en": "Medical or surgical intervention", "he": "התערבות רפואית או כירורגית" },
+        { "en": "Chronic disease", "he": "מחלה כרונית" },
+        { "en": "Foetal distress, foetal death or congenital physical or mental or birth defect", "he": "מצוקה עוברית, מות עובר, או ליקוי גופני או נפשי מולד או מום מלידה" },
+        { "en": "Not applicable (Note that this option is only to be selected in case of reportable DDs that did not lead to an SAE)", "he": "לא ישים (שימו לב שאפשרות זו תיבחר רק במקרה של DDs בני-דיווח שלא הובילו ל-SAE)" }
+      ]
+    },
+    {
+      "id": "sec-11-2-12",
+      "type": "heading",
+      "level": 3,
+      "number": "11.2.12",
+      "en": "SAE connected to specimen collection or to specimen analysis",
+      "he": "SAE הקשור לאיסוף מדגם או לניתוח מדגם"
+    },
+    {
+      "id": "sec-11-2-12-p1",
+      "type": "paragraph",
+      "en": "Choose one option from the following list (do not add other options):",
+      "he": "בחרו אפשרות אחת מהרשימה הבאה (אין להוסיף אפשרויות אחרות):"
+    },
+    {
+      "id": "sec-11-2-12-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Specimen collection", "he": "איסוף מדגם" },
+        { "en": "Specimen analysis (including pre-analytical, analytical and post-analytical phase)", "he": "ניתוח מדגם (לרבות השלב הטרום-אנליטי, האנליטי והבתר-אנליטי)" }
+      ]
+    },
+    {
+      "id": "sec-11-2-13",
+      "type": "heading",
+      "level": 3,
+      "number": "11.2.13",
+      "en": "Free description of event",
+      "he": "תיאור חופשי של האירוע"
+    },
+    {
+      "id": "sec-11-2-13-p1",
+      "type": "paragraph",
+      "en": "Provide a description of the event in free text. Please provide other relevant information not already captured in this report. Below is a non-exhaustive list of items that could be relevant to cover:",
+      "he": "ספקו תיאור של האירוע בטקסט חופשי. נא ספקו מידע רלוונטי אחר שטרם נלכד בדוח זה. להלן רשימה לא ממצה של פריטים שעשויים להיות רלוונטיים לכיסוי:"
+    },
+    {
+      "id": "sec-11-2-13-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Nature of the observed symptoms", "he": "טבע הסימפטומים שנצפו" },
+        { "en": "Duration and severity of the symptoms", "he": "משך וחומרת הסימפטומים" },
+        { "en": "Date of onset of first signs of the event (before it became a SAE)", "he": "תאריך הופעת הסימנים הראשונים של האירוע (לפני שהפך ל-SAE)" },
+        { "en": "Medical background of the subject", "he": "רקע רפואי של הנבדק" },
+        { "en": "Medical care of the subject", "he": "טיפול רפואי בנבדק" },
+        { "en": "Comments on the event in relation to already known safety data", "he": "הערות על האירוע ביחס לנתוני בטיחות ידועים כבר" }
+      ]
+    },
+    {
+      "id": "sec-11-2-14",
+      "type": "heading",
+      "level": 3,
+      "number": "11.2.14",
+      "en": "Device issue (if applicable)",
+      "he": "בעיית מכשיר (אם ישים)"
+    },
+    {
+      "id": "sec-11-2-14-p1",
+      "type": "paragraph",
+      "en": "The IMDRF codes applicable to device issues can be found in annex A on the IMDRF webpage related to AE terminology. You can use this worksheet to look up the appropriate codes. Please report all the appropriate codes applicable for the SAE or DD reported. Please separate each code only by “;”. Please do not use the terminology, but only the codes.",
+      "he": "קודי ה-IMDRF הישימים לבעיות מכשיר נמצאים בנספח A בדף האינטרנט של IMDRF הנוגע למינוח AE. ניתן להשתמש בגיליון עבודה זה כדי לאתר את הקודים המתאימים. נא דווחו על כל הקודים המתאימים הישימים ל-SAE או ל-DD המדווח. נא הפרידו בין כל קוד אך ורק באמצעות \";\". נא אל תשתמשו במינוח, אלא בקודים בלבד."
+    },
+    {
+      "id": "sec-11-2-15",
+      "type": "heading",
+      "level": 3,
+      "number": "11.2.15",
+      "en": "Clinical signs/symptoms",
+      "he": "סימנים/סימפטומים קליניים"
+    },
+    {
+      "id": "sec-11-2-15-p1",
+      "type": "paragraph",
+      "en": "The IMDRF codes applicable to clinical signs/symptoms can be found in annex E on the IMDRF webpage related to AE terminology. Please report all the appropriate codes applicable for the SAE or DD reported. Please separate each code only by “;”. Please do not use the terminology, but only the codes.",
+      "he": "קודי ה-IMDRF הישימים לסימנים/סימפטומים קליניים נמצאים בנספח E בדף האינטרנט של IMDRF הנוגע למינוח AE. נא דווחו על כל הקודים המתאימים הישימים ל-SAE או ל-DD המדווח. נא הפרידו בין כל קוד אך ורק באמצעות \";\". נא אל תשתמשו במינוח, אלא בקודים בלבד."
+    },
+    {
+      "id": "sec-11-2-16",
+      "type": "heading",
+      "level": 3,
+      "number": "11.2.16",
+      "en": "Clinical impact",
+      "he": "השפעה קלינית"
+    },
+    {
+      "id": "sec-11-2-16-p1",
+      "type": "paragraph",
+      "en": "The IMDRF codes applicable to clinical impact of the SAE or DD can be found in annex F on the IMDRF webpage related to AE terminology. Please report all the appropriate codes applicable for the SAE or DD reported. Please separate each code only by “;”. Please do not use the terminology, but only the codes.",
+      "he": "קודי ה-IMDRF הישימים להשפעה הקלינית של ה-SAE או ה-DD נמצאים בנספח F בדף האינטרנט של IMDRF הנוגע למינוח AE. נא דווחו על כל הקודים המתאימים הישימים ל-SAE או ל-DD המדווח. נא הפרידו בין כל קוד אך ורק באמצעות \";\". נא אל תשתמשו במינוח, אלא בקודים בלבד."
+    },
+    {
+      "id": "sec-11-2-17",
+      "type": "heading",
+      "level": 3,
+      "number": "11.2.17",
+      "en": "Action / treatment / outcome",
+      "he": "פעולה / טיפול / תוצאה"
+    },
+    {
+      "id": "sec-11-2-17-p1",
+      "type": "paragraph",
+      "en": "Provide information in free text on actions taken, treatment(s) administered and the outcome. “Outcome” is a broader term then “event status” and the value to be entered here is considered to be more specific than the options given for “event status” (see 11.4.13).",
+      "he": "ספקו מידע בטקסט חופשי על הפעולות שננקטו, הטיפול/ים שניתנו והתוצאה. \"תוצאה\" הוא מונח רחב יותר מ\"סטטוס אירוע\", והערך שיוזן כאן נחשב ספציפי יותר מהאפשרויות הניתנות עבור \"סטטוס אירוע\" (ראה 11.4.13)."
+    },
+    {
+      "id": "sec-11-2-18",
+      "type": "heading",
+      "level": 3,
+      "number": "11.2.18",
+      "en": "Relationship to procedure",
+      "he": "קשר להליך"
+    },
+    {
+      "id": "sec-11-2-18-p1",
+      "type": "paragraph",
+      "en": "Choose one option from the following list of causality levels (for explanatory texts see section 10 Causality assessment) (do not add other options):",
+      "he": "בחרו אפשרות אחת מהרשימה הבאה של רמות סיבתיות (לטקסטים מסבירים ראה סעיף 10 הערכת סיבתיות) (אין להוסיף אפשרויות אחרות):"
+    },
+    {
+      "id": "sec-11-2-18-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Not related", "he": "לא קשור" },
+        { "en": "Possible", "he": "אפשרי" },
+        { "en": "Probable", "he": "סביר" },
+        { "en": "Causal", "he": "סיבתי" },
+        { "en": "Not applicable (please justify)", "he": "לא ישים (נא לנמק)" }
+      ]
+    },
+    {
+      "id": "sec-11-2-18-p2",
+      "type": "paragraph",
+      "en": "Please report the assessments by sponsor and investigator in the respective columns. The investigator could mean the specimen collection site investigator or the specimen analysis site investigator.",
+      "he": "נא דווחו על ההערכות של ה-Sponsor ושל החוקר בעמודות המתאימות. החוקר יכול להיות חוקר אתר איסוף המדגם או חוקר אתר ניתוח המדגם."
+    },
+    {
+      "id": "sec-11-2-19",
+      "type": "heading",
+      "level": 3,
+      "number": "11.2.19",
+      "en": "Relationship to device",
+      "he": "קשר למכשיר"
+    },
+    {
+      "id": "sec-11-2-19-p1",
+      "type": "paragraph",
+      "en": "Choose one option from the following list of causality levels (for explanatory texts see section 10 Causality assessment) (do not add other options):",
+      "he": "בחרו אפשרות אחת מהרשימה הבאה של רמות סיבתיות (לטקסטים מסבירים ראה סעיף 10 הערכת סיבתיות) (אין להוסיף אפשרויות אחרות):"
+    },
+    {
+      "id": "sec-11-2-19-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Not related", "he": "לא קשור" },
+        { "en": "Possible", "he": "אפשרי" },
+        { "en": "Probable", "he": "סביר" },
+        { "en": "Causal", "he": "סיבתי" },
+        { "en": "Not applicable (please justify)", "he": "לא ישים (נא לנמק)" }
+      ]
+    },
+    {
+      "id": "sec-11-2-19-p2",
+      "type": "paragraph",
+      "en": "Please report the assessments by sponsor and investigator in the respective columns. The investigator could mean the specimen collection site investigator or the specimen analysis site investigator.",
+      "he": "נא דווחו על ההערכות של ה-Sponsor ושל החוקר בעמודות המתאימות. החוקר יכול להיות חוקר אתר איסוף המדגם או חוקר אתר ניתוח המדגם."
+    },
+    {
+      "id": "sec-11-2-20",
+      "type": "heading",
+      "level": 3,
+      "number": "11.2.20",
+      "en": "Study arm",
+      "he": "זרוע המחקר"
+    },
+    {
+      "id": "sec-11-2-20-p1",
+      "type": "paragraph",
+      "en": "Choose one option from the following list:",
+      "he": "בחרו אפשרות אחת מהרשימה הבאה:"
+    },
+    {
+      "id": "sec-11-2-20-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Test group (described in the PSP)", "he": "קבוצת בדיקה (המתוארת ב-PSP)" },
+        { "en": "Comparison group (described in the PSP)", "he": "קבוצת השוואה (המתוארת ב-PSP)" },
+        { "en": "Blinded", "he": "מסומא (Blinded)" },
+        { "en": "Not applicable", "he": "לא ישים" }
+      ]
+    },
+    {
+      "id": "sec-11-2-20-p2",
+      "type": "paragraph",
+      "en": "Note: For some study designs it might be more relevant to add name of device; i.e. in a PS with several test groups it might be useful to differentiate which study device was used for testing the subject.",
+      "he": "הערה: עבור תכנוני מחקר מסוימים עשוי להיות רלוונטי יותר להוסיף את שם המכשיר; כלומר ב-PS עם מספר קבוצות בדיקה עשוי להיות שימושי להבחין באיזה מכשיר מחקר נעשה שימוש לבדיקת הנבדק."
+    },
+    {
+      "id": "sec-11-2-21",
+      "type": "heading",
+      "level": 3,
+      "number": "11.2.21",
+      "en": "Event status (only applicable for SAE)",
+      "he": "סטטוס האירוע (ישים רק עבור SAE)"
+    },
+    {
+      "id": "sec-11-2-21-p1",
+      "type": "paragraph",
+      "en": "Choose one option from the following list (do not add other options):",
+      "he": "בחרו אפשרות אחת מהרשימה הבאה (אין להוסיף אפשרויות אחרות):"
+    },
+    {
+      "id": "sec-11-2-21-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Resolved", "he": "נפתר" },
+        { "en": "Resolved with Sequelae", "he": "נפתר עם השלכות (Sequelae)" },
+        { "en": "Ongoing", "he": "מתמשך" },
+        { "en": "Death", "he": "מוות" }
+      ]
+    },
+    {
+      "id": "sec-11-2-21-p2",
+      "type": "paragraph",
+      "en": "Doesn’t need to be completed for DD.",
+      "he": "אין צורך למלא עבור DD."
+    },
+    {
+      "id": "sec-11-2-22",
+      "type": "heading",
+      "level": 3,
+      "number": "11.2.22",
+      "en": "Date of event resolution (only applicable for SAE)",
+      "he": "תאריך פתרון האירוע (ישים רק עבור SAE)"
+    },
+    {
+      "id": "sec-11-2-22-p1",
+      "type": "paragraph",
+      "en": "Add date in format DD/MM/YYYY. If event status is “Ongoing” enter Not Applicable.",
+      "he": "הוסיפו תאריך בפורמט DD/MM/YYYY. אם סטטוס האירוע הוא \"מתמשך\", הזינו \"לא ישים\"."
+    },
+    {
+      "id": "fn-14",
+      "type": "note",
+      "marker": "14",
+      "en": "Use ISO-3166-1 alpha-2 codes, i.e. two-letter country codes as defined in ISO 3166-1",
+      "he": "השתמשו בקודי ISO-3166-1 alpha-2, כלומר קודי מדינה בני שתי אותיות כהגדרתם ב-ISO 3166-1."
+    },
+
+    {
+      "id": "sec-12",
+      "type": "heading",
+      "level": 1,
+      "number": "12",
+      "en": "References",
+      "he": "הפניות"
+    },
+    {
+      "id": "sec-12-list",
+      "type": "list",
+      "ordered": true,
+      "items": [
+        { "en": "Regulation (EU) 2017/746 of the European Parliament and of the Council of 5 April 2017 on in vitro diagnostic medical devices and repealing Directive 98/79/EC and Commission Decision 2010/227/EU.", "he": "תקנה (האיחוד האירופי) 2017/746 של הפרלמנט האירופי ושל המועצה מ-5 באפריל 2017 בנושא מכשירים רפואיים לאבחון ויטרו, ובדבר ביטול דירקטיבה 98/79/EC והחלטת הנציבות 2010/227/EU." },
+        { "en": "Council Directive 98/79/EC of 27 October 1998 on in vitro diagnostic medical devices.", "he": "דירקטיבת המועצה 98/79/EC מ-27 באוקטובר 1998 בנושא מכשירים רפואיים לאבחון ויטרו." },
+        { "en": "Commission Decision 2010/227/EU of 19 April 2010 on the European Databank on Medical Devices (Eudamed).", "he": "החלטת הנציבות 2010/227/EU מ-19 באפריל 2010 בנושא מאגר הנתונים האירופי למכשירים רפואיים (EUDAMED)." },
+        { "en": "Codes for the representation of names of countries and their subdivisions – Part 1: Country codes (ISO 3166-1) published by International Organisation for Standardization (ISO).", "he": "קודים לייצוג שמות מדינות וחלוקות המשנה שלהן – חלק 1: קודי מדינה (ISO 3166-1) שפורסם על ידי הארגון הבין-לאומי לתקינה (ISO)." },
+        { "en": "In vitro diagnostic medical devices — Clinical performance studies using specimens from human subjects — Good study practice (ISO 20916) published by International Organisation for Standardization (ISO).", "he": "מכשירים רפואיים לאבחון ויטרו — מחקרי ביצועים קליניים תוך שימוש במדגמים מנבדקים אנושיים — פרקטיקת מחקר טובה (ISO 20916) שפורסם על ידי הארגון הבין-לאומי לתקינה (ISO)." },
+        { "en": "Documents by the International Medical Device Regulators Forum (IMDRF) to support regulatory harmonization: https://www.imdrf.org/documents.", "he": "מסמכים של הפורום הבין-לאומי של רגולטורים למכשירים רפואיים (IMDRF) לתמיכה בהאחדה רגולטורית: https://www.imdrf.org/documents." },
+        { "en": "MDCG 2022-10: Q&A on the interface between Regulation (EU) 536/2014 on clinical trials for medicinal products for human use (CTR) and Regulation (EU) 2017/746 on in vitro diagnostic medical devices (IVDR).", "he": "MDCG 2022-10: שאלות ותשובות בנוגע לממשק בין תקנה (האיחוד האירופי) 536/2014 בנושא ניסויים קליניים בתכשירים רפואיים לשימוש בבני אדם (CTR) לבין תקנה (האיחוד האירופי) 2017/746 בנושא מכשירים רפואיים לאבחון ויטרו (IVDR)." }
+      ]
+    },
+
+    {
+      "id": "sec-13",
+      "type": "heading",
+      "level": 1,
+      "number": "13",
+      "en": "Appendix – Performance Study Summary Safety Reporting Form",
+      "he": "נספח – טופס דיווח בטיחות מסכם למחקר ביצועים"
+    },
+    {
+      "id": "sec-13-p1",
+      "type": "paragraph",
+      "en": "The appendix contains the Performance Study Summary Safety Reporting Form template (a Microsoft Excel spreadsheet). The form header captures the study-level fields described in section 11.1 (EUDAMED/CIV-ID, Title of PS, PSP number/code, Contact person, MS+NCA reference numbers, numbers of subjects/specimens/devices, device type, reference MS, date of report). The event-detail columns capture the per-event fields described in section 11.2 (Status; Date sponsor received report of SAE/DD; Country code; Study site — specimen collection and specimen analysis; Subject ID code; SAE or DD ID code; Date of specimen collection; Date of event onset; SAE or DD; Subject gender; Classification of event; SAE connected to specimen collection or to specimen analysis; Free description of event; Device issue; Clinical signs/symptoms; Clinical impact; Action/treatment/outcome; Relationship to procedure — sponsor and investigator; Relationship to device — sponsor and investigator; Study arm; Event status; Date of event resolution).",
+      "he": "הנספח מכיל את תבנית טופס דיווח הבטיחות המסכם למחקר ביצועים (גיליון Microsoft Excel). כותרת הטופס לוכדת את שדות רמת המחקר המתוארים בסעיף 11.1 (EUDAMED/CIV-ID, כותרת ה-PS, מספר/קוד PSP, איש קשר, מספרי ייחוס של MS+NCA, מספרי נבדקים/מדגמים/מכשירים, סוג המכשיר, מדינה חברה ייחוסית, תאריך הדוח). עמודות פרטי האירוע לוכדות את השדות לכל אירוע המתוארים בסעיף 11.2 (סטטוס; תאריך קבלת דיווח ה-SAE/DD על ידי ה-Sponsor; קוד מדינה; אתר המחקר — איסוף מדגם וניתוח מדגם; קוד מזהה נבדק; קוד מזהה SAE או DD; תאריך איסוף המדגם; תאריך תחילת האירוע; SAE או DD; מגדר הנבדק; סיווג האירוע; SAE הקשור לאיסוף מדגם או לניתוח מדגם; תיאור חופשי של האירוע; בעיית מכשיר; סימנים/סימפטומים קליניים; השפעה קלינית; פעולה/טיפול/תוצאה; קשר להליך — Sponsor וחוקר; קשר למכשיר — Sponsor וחוקר; זרוע המחקר; סטטוס האירוע; תאריך פתרון האירוע)."
+    },
+    {
+      "id": "ex-appendix-form",
+      "type": "example",
+      "caption": {
+        "en": "Performance Study Summary Safety Reporting Form — illustrative column structure (translated field labels; sample data preserved verbatim).",
+        "he": "טופס דיווח בטיחות מסכם למחקר ביצועים — מבנה עמודות להמחשה (תוויות שדה מתורגמות; נתוני דוגמה נשמרו verbatim)."
+      },
+      "verbatim": "FORM HEADER\nEUDAMED/CIV-ID:\nTitle of PS:\nPSP number/code:\nContact person (name / address / e-mail / telephone):\nMS + NCA reference numbers:   SE 5.1-20YY-XXXXXX ;   DK 20YYXXXXXX\nNo. of subjects enrolled to date (total):\nNo. of specimens tested with the IVD to date (total):\nNo. of subjects enrolled to date per country:\nNo. of specimens collected to date per country:\nDevice type (EMDN):\nReference MS:\nNo. of devices for PS used to date (total):\nNo. of devices for PS used to date per country:\nDate of report (DD/MM/YYYY):\n\nEVENT DETAILS (one line per reportable event)\nStatus (A/D/M/U) | Date sponsor received report of SAE/DD | Country code | Study site - specimen collection | Study site - specimen analysis | Subject ID code | SAE or DD ID code | Date of specimen collection | Date of event onset | SAE or DD | Subject gender | Classification of event | SAE connected to specimen collection or specimen analysis | Free description of event | Device issue (IMDRF code) | Clinical signs/symptoms (IMDRF code) | Clinical impact (IMDRF code) | Action / treatment / outcome | Relationship to procedure (sponsor) | Relationship to procedure (investigator) | Relationship to device (sponsor) | Relationship to device (investigator) | Study arm | Event status | Date of event resolution"
+    }
+  ]
+}
