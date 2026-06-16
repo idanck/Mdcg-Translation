@@ -1,0 +1,750 @@
+{
+  "id": "MDCG-2024-14-rev1",
+  "title": {
+    "en": "Guidance on the implementation of the Master UDI-DI solution for contact lenses",
+    "he": "הנחיה ליישום פתרון ה-Master UDI-DI עבור עדשות מגע"
+  },
+  "category": "Unique Device Identification (UDI)",
+  "publicationDate": "2025-08",
+  "source": {
+    "url": "https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en",
+    "file": "original/mdcg_2024-14_en.pdf"
+  },
+  "language": "he",
+  "direction": "rtl",
+  "translationStatus": "review",
+  "glossaryVersion": "2026-06",
+  "blocks": [
+    {
+      "id": "doc-subtitle",
+      "type": "paragraph",
+      "en": "MDCG 2024-14 Rev. 1 — Revision 1 – August 2025",
+      "he": "MDCG 2024-14 מהדורה 1 — מהדורה 1 – אוגוסט 2025"
+    },
+    {
+      "id": "disclaimer-1",
+      "type": "paragraph",
+      "en": "This document has been endorsed by the Medical Device Coordination Group (MDCG) established by Article 103 of Regulation (EU) 2017/745. The MDCG is composed of representatives of all Member States and it is chaired by a representative of the European Commission.",
+      "he": "מסמך זה אושר על ידי קבוצת תיאום המכשירים הרפואיים (MDCG) שהוקמה מכוח סעיף 103 לתקנה (האיחוד האירופי) 2017/745. ה-MDCG מורכבת מנציגים של כל המדינות החברות ובראשה עומד נציג של הנציבות האירופית."
+    },
+    {
+      "id": "disclaimer-2",
+      "type": "paragraph",
+      "en": "The document is not a European Commission document and it cannot be regarded as reflecting the official position of the European Commission. Any views expressed in this document are not legally binding and only the Court of Justice of the European Union can give binding interpretations of Union law.",
+      "he": "המסמך אינו מסמך של הנציבות האירופית ואין לראות בו כמשקף את העמדה הרשמית של הנציבות האירופית. כל דעה המובעת במסמך זה אינה מחייבת מבחינה משפטית, ורק בית הדין לצדק של האיחוד האירופי מוסמך לתת פרשנות מחייבת לדין האיחוד."
+    },
+    {
+      "id": "changes-heading",
+      "type": "heading",
+      "level": 1,
+      "en": "MDCG 2024-14 Rev. 1 changes",
+      "he": "שינויים במהדורה 1 של MDCG 2024-14"
+    },
+    {
+      "id": "changes-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          { "en": "Page", "he": "עמוד" },
+          { "en": "Change", "he": "שינוי" }
+        ],
+        [
+          { "en": "Page 4", "he": "עמוד 4" },
+          { "en": "Addition of reference to Commission Delegated Regulation (EU) 2025/788, and footnote", "he": "הוספת הפניה ל-Commission Delegated Regulation (EU) 2025/788 ולהערת שוליים" }
+        ],
+        [
+          { "en": "Page 4", "he": "עמוד 4" },
+          { "en": "Update of the link to the current consolidated version of the MDR", "he": "עדכון הקישור לגרסה המאוחדת הנוכחית של ה-MDR" }
+        ],
+        [
+          { "en": "Page 12", "he": "עמוד 12" },
+          { "en": "Addition of reference to Commission Delegated Regulation (EU) 2025/788 and the new date of application of the Master UDI-DI for contact lenses", "he": "הוספת הפניה ל-Commission Delegated Regulation (EU) 2025/788 ולמועד התחולה החדש של ה-Master UDI-DI עבור עדשות מגע" }
+        ],
+        [
+          { "en": "Page 12", "he": "עמוד 12" },
+          { "en": "Addition of references to the MDCG 2025-7 Position Paper and to the webpage on \"Master UDI-DI for highly individualised devices\"", "he": "הוספת הפניות לנייר העמדה MDCG 2025-7 ולעמוד האינטרנט בנושא \"Master UDI-DI for highly individualised devices\" (Master UDI-DI עבור מכשירים בעלי מידת התאמה אישית גבוהה)" }
+        ]
+      ]
+    },
+    {
+      "id": "toc-heading",
+      "type": "heading",
+      "level": 1,
+      "en": "Contents",
+      "he": "תוכן העניינים"
+    },
+    {
+      "id": "toc-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Introduction and scope ... 4", "he": "מבוא ותחולה ... 4" },
+        { "en": "1. Terminology ... 5", "he": "1. מינוח ... 5" },
+        { "en": "2. The Master UDI-DI ... 6", "he": "2. ה-Master UDI-DI ... 6" },
+        { "en": "2.1 Master UDI-DI assignment ... 7", "he": "2.1 הקצאת Master UDI-DI ... 7" },
+        { "en": "2.1.1 Standard contact lenses ... 7", "he": "2.1.1 עדשות מגע סטנדרטיות ... 7" },
+        { "en": "2.1.2 Made to order (MtO) contact lenses ... 8", "he": "2.1.2 עדשות מגע בייצור לפי הזמנה (MtO) ... 8" },
+        { "en": "3. Master UDI-DI assignment on container package, packaging levels and packaging variants ... 10", "he": "3. הקצאת Master UDI-DI על אריזת מכל, רמות אריזה וגרסאות אריזה ... 10" },
+        { "en": "4. Vigilance reporting ... 11", "he": "4. דיווח ערנות ... 11" },
+        { "en": "4.1 Vigilance reporting for Regulation contact lenses ... 11", "he": "4.1 דיווח ערנות עבור עדשות מגע על פי התקנה ... 11" },
+        { "en": "4.2 Vigilance reporting for legacy contact lenses ... 11", "he": "4.2 דיווח ערנות עבור עדשות מגע מדור קודם (legacy) ... 11" },
+        { "en": "5. Timeline for the application of the Master UDI-DI ... 12", "he": "5. לוח זמנים לתחולת ה-Master UDI-DI ... 12" },
+        { "en": "6. Device registration in Eudamed ... 13", "he": "6. רישום מכשירים ב-Eudamed ... 13" }
+      ]
+    },
+    {
+      "id": "intro-heading",
+      "type": "heading",
+      "level": 1,
+      "en": "Introduction and scope",
+      "he": "מבוא ותחולה"
+    },
+    {
+      "id": "intro-p1",
+      "type": "paragraph",
+      "en": "The introduction of the Unique Device Identification (UDI) system referred to in Article 27 of Regulation (EU) 2017/745 on medical devices (MDR) aims to ensure an adequate level of identification and traceability with respect to medical devices. Basic UDI-DIs, UDI-DIs and UDI-PIs shall be assigned (in compliance with the rules of the designated issuing entities) by manufacturers to all devices, other than custom-made devices, prior to their placement on the market.",
+      "he": "הנהגת מערכת זיהוי המכשיר הייחודי (UDI) הנזכרת בסעיף 27 לתקנה (האיחוד האירופי) 2017/745 בנושא מכשירים רפואיים (MDR)¹ נועדה להבטיח רמה נאותה של זיהוי ועקיבות ביחס למכשירים רפואיים. על היצרנים להקצות Basic UDI-DI, UDI-DI ו-UDI-PI (בהתאם לכללי גופי ההנפקה (issuing entities) הייעודיים) לכל המכשירים, למעט מכשירים בהזמנה אישית (custom-made), בטרם העמדתם בשוק."
+    },
+    {
+      "id": "intro-p2",
+      "type": "paragraph",
+      "en": "To further strengthen and enhance traceability and recording of UDIs, manufacturers shall register Basic UDI-DIs and UDI-DIs in the European database on medical devices (Eudamed).",
+      "he": "כדי לחזק ולשפר עוד יותר את העקיבות והרישום של מזהי UDI, על היצרנים לרשום Basic UDI-DI ו-UDI-DI במסד הנתונים האירופי בנושא מכשירים רפואיים (Eudamed)²."
+    },
+    {
+      "id": "intro-p3",
+      "type": "paragraph",
+      "en": "For contact lenses, which are devices presenting a high level of individualisation ('highly individualised devices'), the assignment of a Master UDI-DI has been foreseen according to Annex VI, Part C, Section 6.6.1 MDR, as amended by Commission Delegated Regulation (EU) 2023/2197 on Master UDI-DI for contact lenses, in turn amended by Commission Delegated Regulation (EU) 2025/788 as regards the date of application.",
+      "he": "עבור עדשות מגע, שהן מכשירים בעלי מידת התאמה אישית גבוהה ('highly individualised devices'), נצפתה הקצאתו של Master UDI-DI בהתאם ל-Annex VI, Part C, Section 6.6.1 MDR, כפי שתוקנה על ידי Commission Delegated Regulation (EU) 2023/2197 בנושא Master UDI-DI עבור עדשות מגע³, אשר בתורה תוקנה על ידי Commission Delegated Regulation (EU) 2025/788 בנוגע למועד התחולה⁴."
+    },
+    {
+      "id": "intro-p4",
+      "type": "paragraph",
+      "en": "Even though all economic operators have to contribute to an appropriate level of traceability according to Article 25 MDR, the main responsibility to apply the means to achieve proper identification and traceability of the device lies with the manufacturer.",
+      "he": "אף שכל הגורמים הכלכליים חייבים לתרום לרמה נאותה של עקיבות בהתאם ל-Article 25 MDR, האחריות העיקרית ליישם את האמצעים להשגת זיהוי ועקיבות נאותים של המכשיר מוטלת על היצרן."
+    },
+    {
+      "id": "intro-p5",
+      "type": "paragraph",
+      "en": "This document aims to provide guidance in the implementation of Master UDI-DI rules for contact lenses as regards its structure, assignment, labelling and registration in Eudamed.",
+      "he": "מסמך זה נועד לספק הנחיה ליישום כללי ה-Master UDI-DI עבור עדשות מגע בנוגע למבנהו, הקצאתו, התיוג והרישום ב-Eudamed."
+    },
+    {
+      "id": "intro-note",
+      "type": "note",
+      "en": "NOTE: this document is intended to be read in conjunction with Regulation (EU) 2017/745 on medical devices (MDR), Commission Delegated Regulation (EU) 2023/2197 as amended by Commission Delegated Regulation (EU) 2025/788, and other MDCG Guidance documents on UDI.",
+      "he": "הערה: מסמך זה נועד להיקרא יחד עם תקנה (האיחוד האירופי) 2017/745 בנושא מכשירים רפואיים (MDR), Commission Delegated Regulation (EU) 2023/2197 כפי שתוקנה על ידי Commission Delegated Regulation (EU) 2025/788, ומסמכי הנחיה אחרים של MDCG בנושא UDI⁵."
+    },
+    {
+      "id": "fn-1",
+      "type": "note",
+      "marker": "1",
+      "en": "Regulation (EU) 2017/745 of the European Parliament and of the Council of 5 April 2017 on medical devices, amending Directive 2001/83/EC, Regulation (EC) No 178/2002 and Regulation (EC) No 1223/2009 and repealing Council Directives 90/385/EEC and 93/42/EEC (OJ L 117 5.5.2017, p. 1. Current consolidated version ELI: http://data.europa.eu/eli/reg/2017/745/2025-01-10).",
+      "he": "Regulation (EU) 2017/745 of the European Parliament and of the Council of 5 April 2017 on medical devices, amending Directive 2001/83/EC, Regulation (EC) No 178/2002 and Regulation (EC) No 1223/2009 and repealing Council Directives 90/385/EEC and 93/42/EEC (OJ L 117 5.5.2017, p. 1. Current consolidated version ELI: http://data.europa.eu/eli/reg/2017/745/2025-01-10)."
+    },
+    {
+      "id": "fn-2",
+      "type": "note",
+      "marker": "2",
+      "en": "https://health.ec.europa.eu/medical-devices-eudamed_en.",
+      "he": "https://health.ec.europa.eu/medical-devices-eudamed_en."
+    },
+    {
+      "id": "fn-3",
+      "type": "note",
+      "marker": "3",
+      "en": "Commission Delegated Regulation (EU) 2023/2197 of 10 July 2023 amending Regulation (EU) 2017/745 of the European Parliament and of the Council, as regards the assignment of Unique Device Identifiers for contact lenses (OJ L, 2023/2197, 20.10.2023, ELI: http://data.europa.eu/eli/reg_del/2023/2197/oj).",
+      "he": "Commission Delegated Regulation (EU) 2023/2197 of 10 July 2023 amending Regulation (EU) 2017/745 of the European Parliament and of the Council, as regards the assignment of Unique Device Identifiers for contact lenses (OJ L, 2023/2197, 20.10.2023, ELI: http://data.europa.eu/eli/reg_del/2023/2197/oj)."
+    },
+    {
+      "id": "fn-4",
+      "type": "note",
+      "marker": "4",
+      "en": "Commission Delegated Regulation (EU) 2025/788 of 16 April 2025 amending Delegated Regulation (EU) 2023/2197 as regards the date of application (OJ L, 2025/788, 28.07.2025, ELI: http://data.europa.eu/eli/reg_del/2025/788/oj).",
+      "he": "Commission Delegated Regulation (EU) 2025/788 of 16 April 2025 amending Delegated Regulation (EU) 2023/2197 as regards the date of application (OJ L, 2025/788, 28.07.2025, ELI: http://data.europa.eu/eli/reg_del/2025/788/oj)."
+    },
+    {
+      "id": "fn-5",
+      "type": "note",
+      "marker": "5",
+      "en": "https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en#sec18.",
+      "he": "https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en#sec18."
+    },
+    {
+      "id": "sec-1",
+      "type": "heading",
+      "level": 1,
+      "number": "1",
+      "en": "Terminology",
+      "he": "מינוח⁶"
+    },
+    {
+      "id": "sec-1-standard",
+      "type": "paragraph",
+      "en": "Standard contact lenses (covering both standard soft contact lenses and rigid gas permeable (RGP) contact lenses): mass-produced contact lenses which are generally held in stock by the manufacturer / distributor / eye care professional and have a limited range of parameters. Example: standard soft daily disposable contact lenses.",
+      "he": "עדשות מגע סטנדרטיות (Standard contact lenses) (כוללות הן עדשות מגע רכות סטנדרטיות והן עדשות מגע קשיחות מחדירות גז (RGP)): עדשות מגע המיוצרות בייצור המוני המוחזקות בדרך כלל במלאי על ידי היצרן / המפיץ / איש מקצוע טיפול העיניים ובעלות טווח פרמטרים מוגבל. דוגמה: עדשות מגע רכות סטנדרטיות חד-יומיות לשימוש חד-פעמי."
+    },
+    {
+      "id": "sec-1-mto",
+      "type": "paragraph",
+      "en": "Made to Order contact lenses (soft or rigid): lenses where (part of) the production process is initiated based on a specific individual order. These typically have a wide range of parameters. Example: lathe cut 3-monthly made-to order lens.",
+      "he": "עדשות מגע בייצור לפי הזמנה (Made to Order) (רכות או קשיחות): עדשות שבהן (חלק מ-)תהליך הייצור מופעל על בסיס הזמנה אישית ספציפית. בדרך כלל יש להן טווח פרמטרים רחב. דוגמה: עדשה רב-חודשית (3 חודשים) המעובדת בחיתוך מחרטה (lathe cut) בייצור לפי הזמנה."
+    },
+    {
+      "id": "sec-1-design-params",
+      "type": "paragraph",
+      "en": "Contact Lens Design Parameters: the contact lens parameters that are used to identify the clinical sizes towards the users, eye care professionals and other concerned stakeholders: e.g. Base Curve, Diameter, Add Power, Axis…",
+      "he": "פרמטרי תכן עדשת המגע (Contact Lens Design Parameters): פרמטרי עדשת המגע המשמשים לזיהוי המידות הקליניות כלפי המשתמשים, אנשי מקצוע טיפול העיניים ובעלי עניין נוגעים אחרים: למשל עקמומיות בסיס (Base Curve), קוטר (Diameter), Add Power, Axis…"
+    },
+    {
+      "id": "sec-1-budi",
+      "type": "paragraph",
+      "en": "Basic UDI-DI: the primary identifier of a device model, which means the identifier to connect devices with the same intended purpose, risk class and essential design and manufacturing characteristics. For contact lenses the parameters to trigger the assignment of Basic UDI-DI may include for example the material, filters and tint, lens type (spheric/toric/multifocal etc.). It is the main key for records in the UDI database in Eudamed and is referenced in relevant certificates and EU declarations of conformity. Rules for Basic UDI-DI do not change for contact lenses.",
+      "he": "Basic UDI-DI: המזהה העיקרי של דגם מכשיר, כלומר המזהה המקשר בין מכשירים בעלי אותה מטרה מיועדת, אותו סיווג סיכון ואותם מאפייני תכן וייצור מהותיים. עבור עדשות מגע, הפרמטרים המפעילים את הקצאת ה-Basic UDI-DI עשויים לכלול, למשל, את החומר, מסננים וגוון, סוג העדשה (ספרי (spheric)/טורי (toric)/רב-מוקדי (multifocal) וכד'). הוא המפתח העיקרי לרשומות במסד הנתונים של UDI ב-Eudamed ומופנים אליו בתעודות הרלוונטיות ובהצהרות ההתאמה של האיחוד האירופי. כללי ה-Basic UDI-DI אינם משתנים עבור עדשות מגע."
+    },
+    {
+      "id": "sec-1-mudi",
+      "type": "paragraph",
+      "en": "Master UDI-DI: the unique identifier used for grouping certain highly individualised devices. Such highly individualised devices present specific similarities with respect to pre-defined clinically relevant parameters (e.g. a single Master UDI-DI should be assigned to contact lenses that have the same combination of contact lens design parameters, including at least base curve and diameter). The Master UDI-DI is the access key to device information related to a group of devices with the same intended purpose and the same principal design, stored in Eudamed. Master UDI-DI assignment should follow the rules of EU designated issuing entities. The Master UDI-DI shall be associated to a Basic UDI-DI, which shall be assigned per the MDR and MDCG 2018-1.",
+      "he": "Master UDI-DI: המזהה הייחודי המשמש לקיבוץ מכשירים מסוימים בעלי מידת התאמה אישית גבוהה. מכשירים אלה בעלי מידת התאמה אישית גבוהה מציגים דמיון ספציפי ביחס לפרמטרים רלוונטיים קלינית שהוגדרו מראש (למשל יש להקצות Master UDI-DI יחיד לעדשות מגע בעלות אותו צירוף של פרמטרי תכן עדשת מגע, הכולל לכל הפחות עקמומיות בסיס (base curve) וקוטר (diameter)). ה-Master UDI-DI הוא מפתח הגישה למידע על מכשירים הקשור לקבוצת מכשירים בעלי אותה מטרה מיועדת ואותו תכן עיקרי, המאוחסן ב-Eudamed. הקצאת Master UDI-DI צריכה לעקוב אחר כללי גופי ההנפקה הייעודיים של האיחוד האירופי. ה-Master UDI-DI ישויך ל-Basic UDI-DI, אשר יוקצה בהתאם ל-MDR ול-MDCG 2018-1."
+    },
+    {
+      "id": "sec-1-udipi",
+      "type": "paragraph",
+      "en": "UDI-PI: according to Annex VI, Part C, Section 1 MDR, the different types of UDI-PIs include serial number, lot number, software identification and manufacturing or expiry date or both types of date. The UDI-PI types also apply to contact lenses. The UDI (Master UDI-DI + UDI-PI) intends to enable the automatic identification of the individual device to conform with the UDI requirements in the MDR.",
+      "he": "UDI-PI: בהתאם ל-Annex VI, Part C, Section 1 MDR, הסוגים השונים של UDI-PI כוללים מספר סידורי, מספר אצווה, זיהוי תוכנה ותאריך ייצור או תאריך תפוגה או שני סוגי התאריך. סוגי ה-UDI-PI חלים גם על עדשות מגע. ה-UDI (Master UDI-DI + UDI-PI) נועד לאפשר את הזיהוי האוטומטי של המכשיר הבודד כדי לעמוד בדרישות ה-UDI שב-MDR."
+    },
+    {
+      "id": "fn-6",
+      "type": "note",
+      "marker": "6",
+      "en": "For UDI-related definitions and other terminology, see Part C of Annex VI to the MDR.",
+      "he": "להגדרות הקשורות ל-UDI ולמינוח אחר, ראה Part C of Annex VI to the MDR."
+    },
+    {
+      "id": "sec-2",
+      "type": "heading",
+      "level": 1,
+      "number": "2",
+      "en": "The Master UDI-DI",
+      "he": "ה-Master UDI-DI"
+    },
+    {
+      "id": "sec-2-p1",
+      "type": "paragraph",
+      "en": "The hierarchy of assignment of Basic UDI-DI (BUDI) and Master UDI-DI (MUDI) differs from the assignment of UDI-DI. In figure 1 below, each and every sub-box would be assigned a UDI-DI, yielding a huge number of UDI-DIs which is not practicable and would introduce unnecessary complexity with no added value for authorities and economic actors. The assignment of Master UDI-DI on grouped level, corresponding to the second row from the top in figure 1, will be more appropriate.",
+      "he": "היררכיית הקצאתם של Basic UDI-DI (BUDI) ושל Master UDI-DI (MUDI) שונה מהקצאת ה-UDI-DI. באיור 1 שלהלן, לכל תת-תיבה ותת-תיבה היה מוקצה UDI-DI, מה שהיה מניב מספר עצום של מזהי UDI-DI שאינו מעשי והיה מחולל מורכבות מיותרת ללא ערך מוסף עבור הרשויות והגורמים הכלכליים. הקצאת Master UDI-DI ברמה המקובצת, המקבילה לשורה השנייה מלמעלה באיור 1, תהיה מתאימה יותר."
+    },
+    {
+      "id": "fig-1-caption",
+      "type": "paragraph",
+      "en": "Figure 1: Representation of the hierarchy of the Master UDI-DI and Basic UDI-DI assignment",
+      "he": "איור 1: ייצוג היררכיית ההקצאה של ה-Master UDI-DI ושל ה-Basic UDI-DI"
+    },
+    {
+      "id": "sec-2-p2",
+      "type": "paragraph",
+      "en": "The table below compares different device identifiers and levels of identification given by the assignment of UDI-DIs to contact lenses and other devices.",
+      "he": "הטבלה שלהלן משווה בין מזהי מכשירים שונים ורמות זיהוי הניתנות על ידי הקצאת מזהי UDI-DI לעדשות מגע ולמכשירים אחרים."
+    },
+    {
+      "id": "sec-2-overview-caption",
+      "type": "paragraph",
+      "en": "Overview of the Unique Device Identifiers for contact lenses",
+      "he": "סקירה של מזהי המכשיר הייחודיים עבור עדשות מגע"
+    },
+    {
+      "id": "sec-2-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          { "en": "Identifier", "he": "מזהה" },
+          { "en": "Other MDs", "he": "מכשירים רפואיים אחרים" },
+          { "en": "Contact Lenses (standard and MtO)", "he": "עדשות מגע (סטנדרטיות ו-MtO)" },
+          { "en": "On the label", "he": "על התווית" },
+          { "en": "In Eudamed", "he": "ב-Eudamed" }
+        ],
+        [
+          { "en": "Basic UDI-DI", "he": "Basic UDI-DI" },
+          { "en": "Yes", "he": "כן" },
+          { "en": "Yes", "he": "כן" },
+          { "en": "No", "he": "לא" },
+          { "en": "Yes", "he": "כן" }
+        ],
+        [
+          { "en": "Master UDI-DI / UDI-DI", "he": "Master UDI-DI / UDI-DI" },
+          { "en": "UDI-DI", "he": "UDI-DI" },
+          { "en": "Master UDI-DI", "he": "Master UDI-DI" },
+          { "en": "Yes (either)", "he": "כן (אחד מהם)" },
+          { "en": "Yes (either)", "he": "כן (אחד מהם)" }
+        ],
+        [
+          { "en": "Unit of use UDI-DI", "he": "UDI-DI של יחידת שימוש (unit of use)" },
+          { "en": "Yes (if applicable)", "he": "כן (אם רלוונטי)" },
+          { "en": "No", "he": "לא" },
+          { "en": "No", "he": "לא" },
+          { "en": "N/A", "he": "לא רלוונטי" }
+        ],
+        [
+          { "en": "Direct marking UDI-DI", "he": "UDI-DI לסימון ישיר (direct marking)" },
+          { "en": "Yes (if applicable)", "he": "כן (אם רלוונטי)" },
+          { "en": "N/A", "he": "לא רלוונטי" },
+          { "en": "No", "he": "לא" },
+          { "en": "N/A", "he": "לא רלוונטי" }
+        ],
+        [
+          { "en": "UDI-PI", "he": "UDI-PI" },
+          { "en": "Yes", "he": "כן" },
+          { "en": "Yes", "he": "כן" },
+          { "en": "Yes", "he": "כן" },
+          { "en": "No", "he": "לא⁷" }
+        ]
+      ]
+    },
+    {
+      "id": "fn-7",
+      "type": "note",
+      "marker": "7",
+      "en": "The UDI-PI type (whether a serial number, lot number or else is used) is indicated in the UDI/Device Registration module of Eudamed. The actual UDI-PI is reported only in the Vigilance and Post-Market Surveillance module in case of serious incidents.",
+      "he": "סוג ה-UDI-PI (האם נעשה שימוש במספר סידורי, מספר אצווה או אחר) מצוין במודול רישום ה-UDI/המכשירים (UDI/Device Registration) של Eudamed. ה-UDI-PI בפועל מדווח רק במודול הערנות והמעקב שלאחר השיווק (Vigilance and Post-Market Surveillance) במקרה של אירועים חמורים."
+    },
+    {
+      "id": "sec-2-1",
+      "type": "heading",
+      "level": 2,
+      "number": "2.1",
+      "en": "Master UDI-DI assignment",
+      "he": "הקצאת Master UDI-DI"
+    },
+    {
+      "id": "sec-2-1-1",
+      "type": "heading",
+      "level": 3,
+      "number": "2.1.1",
+      "en": "Standard contact lenses",
+      "he": "עדשות מגע סטנדרטיות"
+    },
+    {
+      "id": "sec-2-1-1-p1",
+      "type": "paragraph",
+      "en": "The Master UDI-DI for standard contact lenses will be assigned to a given combination of contact lens design parameters as defined by the manufacturer, including at least the 'Base Curve' (BC) and 'Diameter', and completed with other relevant parameters as indicated on the labelling for the end-user, the eye care professional etc.",
+      "he": "ה-Master UDI-DI עבור עדשות מגע סטנדרטיות יוקצה לצירוף נתון של פרמטרי תכן עדשת מגע כפי שהוגדרו על ידי היצרן, הכולל לכל הפחות את 'עקמומיות הבסיס (Base Curve)' (BC) ואת 'הקוטר (Diameter)', ומושלם בפרמטרים רלוונטיים אחרים כמצוין בתיוג עבור משתמש הקצה, איש מקצוע טיפול העיניים וכד'."
+    },
+    {
+      "id": "sec-2-1-1-p2",
+      "type": "paragraph",
+      "en": "When a lens is available in one material, in spheric, toric and multifocal design variants, it would be covered by three Basic UDI-DI (one material + design type) and around 9 Master UDI-DIs, corresponding to each variant.",
+      "he": "כאשר עדשה זמינה בחומר אחד, בגרסאות תכן ספרי (spheric), טורי (toric) ורב-מוקדי (multifocal), היא תכוסה על ידי שלושה Basic UDI-DI (חומר אחד + סוג תכן) וכ-9 מזהי Master UDI-DI, בהתאמה לכל גרסה."
+    },
+    {
+      "id": "sec-2-1-1-p3",
+      "type": "paragraph",
+      "en": "See some examples below:",
+      "he": "ראה כמה דוגמאות להלן:"
+    },
+    {
+      "id": "sec-2-1-1-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Basic UDI-DI 1: material XY + Spheric design", "he": "Basic UDI-DI 1: חומר XY + תכן ספרי (Spheric)" },
+        { "en": "Master UDI-DI 1-1: Spheric Design Base Curve value x, Diameter value a", "he": "Master UDI-DI 1-1: תכן ספרי (Spheric), עקמומיות בסיס (Base Curve) בערך x, קוטר (Diameter) בערך a" },
+        { "en": "Master UDI-DI 1-2: Spheric Design Base Curve value y, Diameter value b", "he": "Master UDI-DI 1-2: תכן ספרי (Spheric), עקמומיות בסיס בערך y, קוטר בערך b" },
+        { "en": "Master UDI-DI 1-3: Spheric Design Base Curve value x, Diameter value b", "he": "Master UDI-DI 1-3: תכן ספרי (Spheric), עקמומיות בסיס בערך x, קוטר בערך b" },
+        { "en": "Master UDI-DI 1-4: Spheric Design Base Curve value z, Diameter value c", "he": "Master UDI-DI 1-4: תכן ספרי (Spheric), עקמומיות בסיס בערך z, קוטר בערך c" },
+        { "en": "etc.", "he": "וכד'." }
+      ]
+    },
+    {
+      "id": "sec-2-1-1-list2",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Basic UDI-DI 2: material XY + Toric design", "he": "Basic UDI-DI 2: חומר XY + תכן טורי (Toric)" },
+        { "en": "Master UDI-DI 2-1: Toric Design Base Curve value x, Diameter value a", "he": "Master UDI-DI 2-1: תכן טורי (Toric), עקמומיות בסיס בערך x, קוטר בערך a" },
+        { "en": "Master UDI-DI 2-2: Toric Design Base Curve value y, Diameter value b", "he": "Master UDI-DI 2-2: תכן טורי (Toric), עקמומיות בסיס בערך y, קוטר בערך b" },
+        { "en": "etc.", "he": "וכד'." }
+      ]
+    },
+    {
+      "id": "sec-2-1-1-list3",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Basic UDI-DI 3: material XY + Multifocal design", "he": "Basic UDI-DI 3: חומר XY + תכן רב-מוקדי (Multifocal)" },
+        { "en": "Master UDI-DI 3-1: Multifocal design Base Curve value x, Diameter value a", "he": "Master UDI-DI 3-1: תכן רב-מוקדי (Multifocal), עקמומיות בסיס בערך x, קוטר בערך a" },
+        { "en": "Master UDI-DI 3-2: Multifocal design Base Curve value y, Diameter value b", "he": "Master UDI-DI 3-2: תכן רב-מוקדי (Multifocal), עקמומיות בסיס בערך y, קוטר בערך b" },
+        { "en": "Master UDI-DI 3-3: Multifocal design Base Curve value x, Diameter value b", "he": "Master UDI-DI 3-3: תכן רב-מוקדי (Multifocal), עקמומיות בסיס בערך x, קוטר בערך b" },
+        { "en": "Master UDI-DI 3-4: Multifocal design Base Curve value z, Diameter value c", "he": "Master UDI-DI 3-4: תכן רב-מוקדי (Multifocal), עקמומיות בסיס בערך z, קוטר בערך c" },
+        { "en": "etc.", "he": "וכד'." }
+      ]
+    },
+    {
+      "id": "sec-2-1-1-note",
+      "type": "note",
+      "en": "Note: the above examples are for explicatory purposes only.",
+      "he": "הערה: הדוגמאות לעיל נועדו להמחשה בלבד."
+    },
+    {
+      "id": "sec-2-1-1-udipi-heading",
+      "type": "heading",
+      "level": 4,
+      "en": "UDI-PI",
+      "he": "UDI-PI"
+    },
+    {
+      "id": "sec-2-1-1-udipi-p1",
+      "type": "paragraph",
+      "en": "No specific production identifiers (PIs) are required to be assigned to standard contact lenses, the provisions of Annex VI Part C as regards the PIs apply.",
+      "he": "אין דרישה להקצות מזהי ייצור (PIs) ספציפיים לעדשות מגע סטנדרטיות; חלות הוראות Annex VI Part C בנוגע ל-PIs."
+    },
+    {
+      "id": "sec-2-1-1-label-heading",
+      "type": "heading",
+      "level": 4,
+      "en": "Labelling",
+      "he": "תיוג"
+    },
+    {
+      "id": "sec-2-1-1-label-p1",
+      "type": "paragraph",
+      "en": "The rules on UDI carrier in section 4 of Part C of Annex VI to the MDR apply to the Master UDI-DI.",
+      "he": "הכללים בנוגע לנשא ה-UDI (UDI carrier) ב-section 4 of Part C of Annex VI to the MDR חלים על ה-Master UDI-DI."
+    },
+    {
+      "id": "sec-2-1-1-label-p2",
+      "type": "paragraph",
+      "en": "In figure 2 below, an example of labelling. This is for illustrative purposes only to reflect how the Master UDI-DI identifier could appear and does not reflect a requirement to align exactly as shown nor a fully compliant label. The example reflects the Automatic Identification Data Capture (AIDC) and Human Readable Interpretation (HRI) carriers, which may be combined with other information and barcoding to meet requirements set out in the MDR, in particular, when it comes to the automated identification of the individual device. Format and HRI may vary based on the designated issuing entities. The below label is based on the GS1 issuing entity Master UDI-DI standard.",
+      "he": "באיור 2 שלהלן, דוגמה לתיוג. דוגמה זו נועדה להמחשה בלבד כדי לשקף כיצד מזהה ה-Master UDI-DI עשוי להופיע, ואינה משקפת דרישה ליישר בדיוק כפי שמוצג ואף לא תווית תואמת במלואה. הדוגמה משקפת את נשאי הזיהוי וקליטת הנתונים האוטומטיים (AIDC) והפרשנות הקריאה לאדם (HRI), אשר ניתן לשלבם עם מידע אחר ועם ברקוד כדי לעמוד בדרישות הקבועות ב-MDR, ובפרט כשמדובר בזיהוי האוטומטי של המכשיר הבודד. הפורמט וה-HRI עשויים להשתנות בהתאם לגופי ההנפקה הייעודיים. התווית שלהלן מבוססת על תקן ה-Master UDI-DI של גוף ההנפקה GS1⁸."
+    },
+    {
+      "id": "fig-2-caption",
+      "type": "paragraph",
+      "en": "Figure 2: Example labelling for Master UDI-DI identifier",
+      "he": "איור 2: דוגמת תיוג עבור מזהה ה-Master UDI-DI"
+    },
+    {
+      "id": "sec-2-1-1-label-p3",
+      "type": "paragraph",
+      "en": "The placement of UDI carrier (including Master UDI-DI) on contact lens packaging is dependent on provisions and requirements in the MDR, specifically space constraints and sales unit requirements in Annex VI Part C 4.2 and 4.3. Requirements on labelling of contact lens blisters are dependent on space constraints and what is considered the lowest level of packaging that is used by the final user as per the MDR requirements. If contact lens blisters are considered the lowest level of packaging that is used by the final user per the MDR, the Master UDI-DI may be labelled once for a contact lens strip of e.g. 5 units, provided that the manufacturer has carried out the relevant risk management.",
+      "he": "מיקום נשא ה-UDI (לרבות ה-Master UDI-DI) על אריזת עדשות המגע תלוי בהוראות ובדרישות שב-MDR, ובפרט באילוצי מקום ובדרישות יחידת המכירה ב-Annex VI Part C 4.2 ו-4.3. הדרישות בנוגע לתיוג של בליסטרים (blisters) של עדשות מגע תלויות באילוצי מקום ובמה שנחשב לרמת האריזה הנמוכה ביותר המשמשת את המשתמש הסופי על פי דרישות ה-MDR. אם בליסטרים של עדשות מגע נחשבים לרמת האריזה הנמוכה ביותר המשמשת את המשתמש הסופי על פי ה-MDR, ניתן לתייג את ה-Master UDI-DI פעם אחת עבור רצועת עדשות מגע של, למשל, 5 יחידות, ובלבד שהיצרן ביצע את ניהול הסיכונים הרלוונטי."
+    },
+    {
+      "id": "fn-8",
+      "type": "note",
+      "marker": "8",
+      "en": "https://health.ec.europa.eu/medical-devices-topics-interest/unique-device-identifier-udi_en#udi-issuing-entities.",
+      "he": "https://health.ec.europa.eu/medical-devices-topics-interest/unique-device-identifier-udi_en#udi-issuing-entities."
+    },
+    {
+      "id": "sec-2-1-2",
+      "type": "heading",
+      "level": 3,
+      "number": "2.1.2",
+      "en": "Made to order (MtO) contact lenses",
+      "he": "עדשות מגע בייצור לפי הזמנה (MtO)"
+    },
+    {
+      "id": "sec-2-1-2-p1",
+      "type": "paragraph",
+      "en": "The Master UDI-DI will be assigned to made to order (MtO) contact lenses based on a combination of contact lens design parameters as defined by the manufacturer and combined with other relevant parameters. The assignment of Master UDI-DI does not need to include the actual values of parameters.",
+      "he": "ה-Master UDI-DI יוקצה לעדשות מגע בייצור לפי הזמנה (MtO) על בסיס צירוף של פרמטרי תכן עדשת מגע כפי שהוגדרו על ידי היצרן ובשילוב עם פרמטרים רלוונטיים אחרים. הקצאת ה-Master UDI-DI אינה צריכה לכלול את הערכים בפועל של הפרמטרים."
+    },
+    {
+      "id": "sec-2-1-2-ex-heading",
+      "type": "heading",
+      "level": 4,
+      "en": "Example",
+      "he": "דוגמה"
+    },
+    {
+      "id": "sec-2-1-2-p2",
+      "type": "paragraph",
+      "en": "The contact lens design will be defined by the combination of design parameters, with the parameters including at least base curve and diameter. Examples of combination of design parameters include:",
+      "he": "תכן עדשת המגע יוגדר על ידי צירוף פרמטרי התכן, כאשר הפרמטרים כוללים לכל הפחות עקמומיות בסיס (base curve) וקוטר (diameter). דוגמאות לצירוף פרמטרי תכן כוללות:"
+    },
+    {
+      "id": "sec-2-1-2-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Spherical Design = Base Curve + Diameter + Power", "he": "תכן ספרי (Spherical) = עקמומיות בסיס (Base Curve) + קוטר (Diameter) + Power" },
+        { "en": "Toric Design = Base Curve + Diameter + Power + Cylinder + Axis", "he": "תכן טורי (Toric) = עקמומיות בסיס (Base Curve) + קוטר (Diameter) + Power + Cylinder + Axis" },
+        { "en": "Multifocal Design = Base Curve + Diameter + Power + Add Power", "he": "תכן רב-מוקדי (Multifocal) = עקמומיות בסיס (Base Curve) + קוטר (Diameter) + Power + Add Power" }
+      ]
+    },
+    {
+      "id": "sec-2-1-2-list2",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Master UDI-DI 1 = Material A, Spherical Design", "he": "Master UDI-DI 1 = חומר A, תכן ספרי (Spherical)" },
+        { "en": "Master UDI-DI 2 = Material A, Toric Design", "he": "Master UDI-DI 2 = חומר A, תכן טורי (Toric)" },
+        { "en": "Master UDI-DI 3 = Material A, Multifocal Design", "he": "Master UDI-DI 3 = חומר A, תכן רב-מוקדי (Multifocal)" },
+        { "en": "Master UDI-DI 4 = Material B, Spherical Design", "he": "Master UDI-DI 4 = חומר B, תכן ספרי (Spherical)" },
+        { "en": "Master UDI-DI 5 = Material B, Toric Design", "he": "Master UDI-DI 5 = חומר B, תכן טורי (Toric)" },
+        { "en": "Master UDI-DI 6 = Material B, Multifocal Design", "he": "Master UDI-DI 6 = חומר B, תכן רב-מוקדי (Multifocal)" }
+      ]
+    },
+    {
+      "id": "sec-2-1-2-note",
+      "type": "note",
+      "en": "Note: the above examples are for explicatory purposes only.",
+      "he": "הערה: הדוגמאות לעיל נועדו להמחשה בלבד."
+    },
+    {
+      "id": "sec-2-1-2-udipi-heading",
+      "type": "heading",
+      "level": 4,
+      "en": "UDI-PI",
+      "he": "UDI-PI"
+    },
+    {
+      "id": "sec-2-1-2-udipi-p1",
+      "type": "paragraph",
+      "en": "A unique lot / serial number should be used as UDI-PI for made to order contact lenses.",
+      "he": "יש להשתמש במספר אצווה / מספר סידורי ייחודי כ-UDI-PI עבור עדשות מגע בייצור לפי הזמנה."
+    },
+    {
+      "id": "sec-2-1-2-label-heading",
+      "type": "heading",
+      "level": 4,
+      "en": "Labelling",
+      "he": "תיוג"
+    },
+    {
+      "id": "sec-2-1-2-label-p1",
+      "type": "paragraph",
+      "en": "The rules on UDI carrier in section 4 of Part C of Annex VI MDR apply to the Master UDI-DI.",
+      "he": "הכללים בנוגע לנשא ה-UDI (UDI carrier) ב-section 4 of Part C of Annex VI MDR חלים על ה-Master UDI-DI."
+    },
+    {
+      "id": "sec-2-1-2-label-p2",
+      "type": "paragraph",
+      "en": "In figures 3 and 4 below, some labelling examples for MtO contact lenses. These are for illustrative purposes only to reflect how the Master UDI-DI identifier could appear and do not reflect a requirement to align exactly as shown nor a fully compliant label. The examples reflect the AIDC and HRI carriers, which may be combined with other information and barcoding to meet requirements set out in the MDR. Format and HRI may vary based on the designated issuing entities. The labels are based on the GS1 and HIBCC issuing entities Master UDI-DI standards.",
+      "he": "באיורים 3 ו-4 שלהלן, כמה דוגמאות תיוג עבור עדשות מגע מסוג MtO. אלה נועדו להמחשה בלבד כדי לשקף כיצד מזהה ה-Master UDI-DI עשוי להופיע, ואינן משקפות דרישה ליישר בדיוק כפי שמוצג ואף לא תווית תואמת במלואה. הדוגמאות משקפות את נשאי ה-AIDC וה-HRI, אשר ניתן לשלבם עם מידע אחר ועם ברקוד כדי לעמוד בדרישות הקבועות ב-MDR. הפורמט וה-HRI עשויים להשתנות בהתאם לגופי ההנפקה הייעודיים. התוויות מבוססות על תקני ה-Master UDI-DI של גופי ההנפקה GS1 ו-HIBCC⁹."
+    },
+    {
+      "id": "fig-3-caption",
+      "type": "paragraph",
+      "en": "Figure 3: Example labelling for MtO contact lenses",
+      "he": "איור 3: דוגמת תיוג עבור עדשות מגע מסוג MtO"
+    },
+    {
+      "id": "fig-4-caption",
+      "type": "paragraph",
+      "en": "Figure 4: Fictive example of the Master UDI-DI labelling for MtO contact lenses",
+      "he": "איור 4: דוגמה בדיונית של תיוג ה-Master UDI-DI עבור עדשות מגע מסוג MtO"
+    },
+    {
+      "id": "fn-9",
+      "type": "note",
+      "marker": "9",
+      "en": "https://health.ec.europa.eu/medical-devices-topics-interest/unique-device-identifier-udi_en#udi-issuing-entities.",
+      "he": "https://health.ec.europa.eu/medical-devices-topics-interest/unique-device-identifier-udi_en#udi-issuing-entities."
+    },
+    {
+      "id": "sec-3",
+      "type": "heading",
+      "level": 1,
+      "number": "3",
+      "en": "Master UDI-DI assignment on container package, packaging levels and packaging variants",
+      "he": "הקצאת Master UDI-DI על אריזת מכל, רמות אריזה וגרסאות אריזה"
+    },
+    {
+      "id": "sec-3-p1",
+      "type": "paragraph",
+      "en": "The Master UDI-DI may be associated to a grouping regardless of pack size that have the same combination of contact lens design parameters, which would include identification of all units of use, pack sizes and higher levels of packaging in that grouping. Pack size does not in itself impact key design parameters. Per Regulation (EU) 2017/745 Annex VI Part C, higher levels of packaging shall have their own UDI-DI. As the Master UDI-DI replaces the UDI-DI for contact lenses, higher levels of packaging shall have their own Master UDI-DI, if applicable. Quantity is a trade item level attribute, and many would fall under the same combination of contact lens design parameters.",
+      "he": "ניתן לשייך את ה-Master UDI-DI לקיבוץ, ללא תלות בגודל האריזה, של מכשירים בעלי אותו צירוף של פרמטרי תכן עדשת מגע, אשר יכלול זיהוי של כל יחידות השימוש, גדלי האריזות ורמות האריזה הגבוהות יותר באותו קיבוץ. גודל האריזה כשלעצמו אינו משפיע על פרמטרי התכן המרכזיים. בהתאם ל-Regulation (EU) 2017/745 Annex VI Part C, לרמות אריזה גבוהות יותר יהיה UDI-DI משלהן. מאחר שה-Master UDI-DI מחליף את ה-UDI-DI עבור עדשות מגע, לרמות אריזה גבוהות יותר יהיה Master UDI-DI משלהן, אם רלוונטי. כמות היא מאפיין ברמת פריט המסחר (trade item), ורבים ייכללו תחת אותו צירוף של פרמטרי תכן עדשת מגע."
+    },
+    {
+      "id": "sec-3-p2",
+      "type": "paragraph",
+      "en": "If within the same package there are contact lenses with different Master UDI-DIs, then the package should be considered as a transport container that should not have an assigned Master UDI-UDI.",
+      "he": "אם בתוך אותה אריזה ישנן עדשות מגע בעלות מזהי Master UDI-DI שונים, אזי יש להתייחס לאריזה כאל מכל הובלה (transport container) שאין להקצות לו Master UDI-DI."
+    },
+    {
+      "id": "sec-4",
+      "type": "heading",
+      "level": 1,
+      "number": "4",
+      "en": "Vigilance reporting",
+      "he": "דיווח ערנות"
+    },
+    {
+      "id": "sec-4-1",
+      "type": "heading",
+      "level": 2,
+      "number": "4.1",
+      "en": "Vigilance reporting for Regulation contact lenses",
+      "he": "דיווח ערנות עבור עדשות מגע על פי התקנה"
+    },
+    {
+      "id": "sec-4-1-p1",
+      "type": "paragraph",
+      "en": "In case of vigilance reporting on contact lenses fully compliant with the MDR, the manufacturer should provide the full UDI (Master UDI-DI + UDI-PI) for example in the Manufacturer Incident Report (MIR) form (both when using of a PDF MIR and the Eudamed Vigilance and Post-Market Surveillance module).",
+      "he": "במקרה של דיווח ערנות על עדשות מגע התואמות במלואן ל-MDR, על היצרן לספק את ה-UDI המלא (Master UDI-DI + UDI-PI), למשל בטופס דוח אירוע של היצרן (Manufacturer Incident Report, MIR) (הן בעת שימוש ב-MIR בפורמט PDF¹⁰ והן במודול הערנות והמעקב שלאחר השיווק של Eudamed)."
+    },
+    {
+      "id": "sec-4-1-p2",
+      "type": "paragraph",
+      "en": "The provisions of Annex VI Part C MDR for the assignment of PIs apply also to contact lenses, no specific production identifiers (PIs) are required (except unique lot / serial number for MtO contact lenses). The design of the UDI carrier has to ensure the automated identification of the individual device (or the individual lot/batch of devices). Since one Master UDI-DI encompasses a range of devices, it is important that the manufacturer should provide the full UDI (Master UDI-DI + UDI-PI) it has assigned to the specific contact lense(s) involved in the incident. The UDI shall enable the retrieval of relevant data for traceability of the devices in the quality management system (QMS) of the manufacturer.",
+      "he": "הוראות Annex VI Part C MDR להקצאת PIs חלות גם על עדשות מגע; אין דרישה למזהי ייצור (PIs) ספציפיים (למעט מספר אצווה / מספר סידורי ייחודי עבור עדשות מגע מסוג MtO). תכן נשא ה-UDI חייב להבטיח את הזיהוי האוטומטי של המכשיר הבודד (או של האצווה הבודדת של מכשירים). מאחר ש-Master UDI-DI אחד מקיף טווח של מכשירים, חשוב שהיצרן יספק את ה-UDI המלא (Master UDI-DI + UDI-PI) שהקצה לעדשת/ות המגע הספציפית/ות המעורבת/ות באירוע. ה-UDI יאפשר את אחזור הנתונים הרלוונטיים לעקיבות המכשירים במערכת ניהול האיכות (QMS) של היצרן."
+    },
+    {
+      "id": "sec-4-1-note",
+      "type": "note",
+      "en": "Note: due to the timeline for the application of the Master UDI-DI assignment obligation, there is a possibility that contact lenses may not yet be registered in the UDI/Devices Registration module of Eudamed when it becomes mandatory. Manufacturers should engage with an issuing entity as soon as possible, and at least before the Vigilance and Post-Market Surveillance module of Eudamed becomes mandatory, in order to be able to assign Master UDI-DIs in due time and to handle the reporting of vigilance cases in Eudamed.",
+      "he": "הערה: בשל לוח הזמנים לתחולת חובת הקצאת ה-Master UDI-DI, ייתכן שעדשות מגע טרם יהיו רשומות במודול רישום ה-UDI/המכשירים של Eudamed בעת שהוא יהפוך לחובה. על היצרנים ליצור קשר עם גוף הנפקה בהקדם האפשרי, ולכל הפחות לפני שמודול הערנות והמעקב שלאחר השיווק של Eudamed יהפוך לחובה¹¹, כדי שיוכלו להקצות מזהי Master UDI-DI במועד ולטפל בדיווח מקרי ערנות ב-Eudamed."
+    },
+    {
+      "id": "sec-4-2",
+      "type": "heading",
+      "level": 2,
+      "number": "4.2",
+      "en": "Vigilance reporting for legacy contact lenses",
+      "he": "דיווח ערנות עבור עדשות מגע מדור קודם (legacy)"
+    },
+    {
+      "id": "sec-4-2-p1",
+      "type": "paragraph",
+      "en": "The same principles as for other legacy devices apply. For information on legacy device registration in connection with vigilance reporting in Eudamed, please refer to the Q&A document for the transitional provisions and gradual roll-out of Eudamed, in particular Q8 and Q14.",
+      "he": "חלים אותם עקרונות כמו עבור מכשירים אחרים מדור קודם (legacy). למידע על רישום מכשירים מדור קודם בהקשר של דיווח ערנות ב-Eudamed, נא לעיין במסמך השאלות והתשובות (Q&A) בנוגע להוראות המעבר ולהשקה ההדרגתית של Eudamed¹², ובפרט ב-Q8 וב-Q14."
+    },
+    {
+      "id": "sec-4-2-p2",
+      "type": "paragraph",
+      "en": "For legacy devices that are contact lenses, the devices may be identified by Eudamed ID or UDI-DI (for instance, GTIN) in combination with the UDI-PI for the purpose of vigilance reporting in Eudamed.",
+      "he": "עבור מכשירים מדור קודם שהם עדשות מגע, ניתן לזהות את המכשירים באמצעות Eudamed ID או UDI-DI (למשל, GTIN¹³) בשילוב עם ה-UDI-PI לצורך דיווח ערנות ב-Eudamed."
+    },
+    {
+      "id": "fn-10",
+      "type": "note",
+      "marker": "10",
+      "en": "https://ec.europa.eu/docsroom/documents/41681.",
+      "he": "https://ec.europa.eu/docsroom/documents/41681."
+    },
+    {
+      "id": "fn-11",
+      "type": "note",
+      "marker": "11",
+      "en": "https://health.ec.europa.eu/medical-devices-eudamed/overview_en.",
+      "he": "https://health.ec.europa.eu/medical-devices-eudamed/overview_en."
+    },
+    {
+      "id": "fn-12",
+      "type": "note",
+      "marker": "12",
+      "en": "https://health.ec.europa.eu/medical-devices-sector/new-regulations_en#Extension.",
+      "he": "https://health.ec.europa.eu/medical-devices-sector/new-regulations_en#Extension."
+    },
+    {
+      "id": "fn-13",
+      "type": "note",
+      "marker": "13",
+      "en": "https://www.gs1.org/standards/id-keys/gtin.",
+      "he": "https://www.gs1.org/standards/id-keys/gtin."
+    },
+    {
+      "id": "sec-5",
+      "type": "heading",
+      "level": 1,
+      "number": "5",
+      "en": "Timeline for the application of the Master UDI-DI",
+      "he": "לוח זמנים לתחולת ה-Master UDI-DI"
+    },
+    {
+      "id": "sec-5-p1",
+      "type": "paragraph",
+      "en": "Commission Delegated Regulation (EU) 2023/2197 on Master UDI-DI for contact lenses was published in the Official Journal of the European Union (OJEU) on 20 October 2023 and entered into force on 9 November 2023. It was amended by Commission Delegated Regulation (EU) 2025/788 as regards the date of application and accordingly it applies from 9 November 2026, so it provides for a three-year transition period as from its entry into force before the assignment of Master UDI-DI to contact lenses becomes mandatory. It also provides for the possibility for manufacturers to comply in advance, by assigning Master UDI-DIs before the mandatory application, pending the technical solution is available from the EU issuing entities.",
+      "he": "Commission Delegated Regulation (EU) 2023/2197 בנושא Master UDI-DI עבור עדשות מגע פורסמה בכתב העת הרשמי של האיחוד האירופי (OJEU) ב-20 באוקטובר 2023 ונכנסה לתוקף ב-9 בנובמבר 2023. היא תוקנה על ידי Commission Delegated Regulation (EU) 2025/788 בנוגע למועד התחולה, ובהתאם היא חלה מ-9 בנובמבר 2026, כך שהיא קובעת תקופת מעבר של שלוש שנים ממועד כניסתה לתוקף בטרם תהפוך הקצאת ה-Master UDI-DI לעדשות מגע לחובה. היא גם קובעת אפשרות ליצרנים לעמוד בדרישות מראש, על ידי הקצאת מזהי Master UDI-DI לפני התחולה המחייבת, בכפוף לכך שהפתרון הטכני זמין מגופי ההנפקה של האיחוד האירופי."
+    },
+    {
+      "id": "sec-5-p2",
+      "type": "paragraph",
+      "en": "Until the assignment of Master UDI-DI becomes mandatory, contact lenses can be placed on the market without it being assigned. However, nothing prevents the manufacturers from assigning other types of identifiers (such as GTIN or other standards) for different identification purposes or assigning a Master UDI-DI on a voluntary basis.",
+      "he": "עד שהקצאת ה-Master UDI-DI תהפוך לחובה, ניתן להעמיד עדשות מגע בשוק ללא הקצאתו. עם זאת, אין דבר המונע מהיצרנים להקצות סוגי מזהים אחרים (כגון GTIN או תקנים אחרים) למטרות זיהוי שונות, או להקצות Master UDI-DI על בסיס וולונטרי."
+    },
+    {
+      "id": "sec-5-p3",
+      "type": "paragraph",
+      "en": "The obligations on UDI carriers for Master UDI-DI for contact lenses are applicable as from the date when Delegated Regulation (EU) 2023/2197 as amended by Delegated Regulation 2025/788 becomes applicable. The obligation to register contact lenses in Eudamed should be applicable as from when the transition period for the mandatory use of the UDI/Device Registration module expires. Legacy contact lenses can be registered in Eudamed for the purpose of serious incident reporting without a Master UDI-DI or other identifier assigned, using the equivalent Eudamed ID and Eudamed DI.",
+      "he": "החובות בנוגע לנשאי ה-UDI עבור ה-Master UDI-DI של עדשות מגע חלות החל מהמועד שבו Delegated Regulation (EU) 2023/2197, כפי שתוקנה על ידי Delegated Regulation 2025/788, נעשית בת-תחולה. החובה לרשום עדשות מגע ב-Eudamed צריכה לחול החל מהמועד שבו תקופת המעבר לשימוש המחייב במודול רישום ה-UDI/המכשירים פגה. עדשות מגע מדור קודם (legacy) ניתנות לרישום ב-Eudamed לצורך דיווח אירועים חמורים ללא הקצאת Master UDI-DI או מזהה אחר, באמצעות ה-Eudamed ID וה-Eudamed DI המקבילים."
+    },
+    {
+      "id": "sec-5-p4",
+      "type": "paragraph",
+      "en": "The \"MDCG 2025-7 Position Paper: Timelines of the implementation of 'Master UDI-DI' to contact lenses and spectacle frames, spectacle lenses and ready to wear reading spectacles\" provides timeline clarification for highly individualised device (HID) manufacturers on Master UDI-DI assignment and device labelling requirement in regard to the Class I device requirements laid down in Article 123(f) MDR. Eudamed device registration for HID is also clarified against the Eudamed gradual roll-out timeline applicable to all medical devices other than HID.",
+      "he": "נייר העמדה \"MDCG 2025-7 Position Paper: Timelines of the implementation of 'Master UDI-DI' to contact lenses and spectacle frames, spectacle lenses and ready to wear reading spectacles\"¹⁴ מספק הבהרת לוח זמנים ליצרני מכשירים בעלי מידת התאמה אישית גבוהה (highly individualised device, HID) בנוגע להקצאת ה-Master UDI-DI ולדרישת תיוג המכשיר ביחס לדרישות מכשירי סיווג I הקבועות ב-Article 123(f) MDR. כמו כן, רישום מכשירי HID ב-Eudamed מובהר ביחס ללוח הזמנים של ההשקה ההדרגתית של Eudamed החל על כל המכשירים הרפואיים שאינם HID."
+    },
+    {
+      "id": "sec-5-p5",
+      "type": "paragraph",
+      "en": "All this information is available on the section \"Master UDI-DI for highly individualised devices\" of the Commission webpage \"Public Health > Medical Devices - Topics of Interest > Unique Device Identifier - UDI\".",
+      "he": "כל המידע הזה זמין בקטע \"Master UDI-DI for highly individualised devices\" של עמוד האינטרנט של הנציבות \"Public Health > Medical Devices - Topics of Interest > Unique Device Identifier - UDI\"¹⁵."
+    },
+    {
+      "id": "fn-14",
+      "type": "note",
+      "marker": "14",
+      "en": "https://health.ec.europa.eu/document/download/ad6ae143-baa2-451a-8c5e-0c5d22983e88_en?filename=mdcg_2025-7_en.pdf.",
+      "he": "https://health.ec.europa.eu/document/download/ad6ae143-baa2-451a-8c5e-0c5d22983e88_en?filename=mdcg_2025-7_en.pdf."
+    },
+    {
+      "id": "fn-15",
+      "type": "note",
+      "marker": "15",
+      "en": "https://health.ec.europa.eu/medical-devices-topics-interest/unique-device-identifier-udi_en#master-udi-di-for-highly-individualised-devices.",
+      "he": "https://health.ec.europa.eu/medical-devices-topics-interest/unique-device-identifier-udi_en#master-udi-di-for-highly-individualised-devices."
+    },
+    {
+      "id": "sec-6",
+      "type": "heading",
+      "level": 1,
+      "number": "6",
+      "en": "Device registration in Eudamed",
+      "he": "רישום מכשירים ב-Eudamed"
+    },
+    {
+      "id": "sec-6-p1",
+      "type": "paragraph",
+      "en": "For contact lenses, the Master UDI-DI will be registered and used in Eudamed in lieu of the UDI-DI when special device type 'Standard soft contact lenses' or 'Rigid gas permeable (RGP) contact lenses' or 'Made to order (MtO) soft contact lenses' or 'Made to order (MtO) rigid gas permeable contact lenses' is selected. Sizes will be registered in ranges.",
+      "he": "עבור עדשות מגע, ה-Master UDI-DI יירשם וישמש ב-Eudamed במקום ה-UDI-DI כאשר נבחר סוג המכשיר המיוחד 'Standard soft contact lenses' (עדשות מגע רכות סטנדרטיות) או 'Rigid gas permeable (RGP) contact lenses' (עדשות מגע קשיחות מחדירות גז) או 'Made to order (MtO) soft contact lenses' (עדשות מגע רכות בייצור לפי הזמנה) או 'Made to order (MtO) rigid gas permeable contact lenses' (עדשות מגע קשיחות מחדירות גז בייצור לפי הזמנה). המידות יירשמו בטווחים."
+    },
+    {
+      "id": "sec-6-p2",
+      "type": "paragraph",
+      "en": "Legacy contact lenses should not be registered in Eudamed unless a vigilance action is required.",
+      "he": "אין לרשום עדשות מגע מדור קודם (legacy) ב-Eudamed אלא אם נדרשת פעולת ערנות."
+    },
+    {
+      "id": "sec-6-p3",
+      "type": "paragraph",
+      "en": "More information is available in the Eudamed information centre and in the user guide of the UDI/Devices Registration module of Eudamed.",
+      "he": "מידע נוסף זמין במרכז המידע של Eudamed¹⁶ ובמדריך למשתמש¹⁷ של מודול רישום ה-UDI/המכשירים של Eudamed¹⁸."
+    },
+    {
+      "id": "fn-16",
+      "type": "note",
+      "marker": "16",
+      "en": "https://webgate.ec.europa.eu/eudamed-help/en/welcome-to-the-eudamed-information-centre.html.",
+      "he": "https://webgate.ec.europa.eu/eudamed-help/en/welcome-to-the-eudamed-information-centre.html."
+    },
+    {
+      "id": "fn-17",
+      "type": "note",
+      "marker": "17",
+      "en": "https://webgate.ec.europa.eu/eudamed-help/en/files/UDI%20Devices%20-%20user%20guide.pdf.",
+      "he": "https://webgate.ec.europa.eu/eudamed-help/en/files/UDI%20Devices%20-%20user%20guide.pdf."
+    },
+    {
+      "id": "fn-18",
+      "type": "note",
+      "marker": "18",
+      "en": "https://health.ec.europa.eu/medical-devices-eudamed/udidevices-registration_en.",
+      "he": "https://health.ec.europa.eu/medical-devices-eudamed/udidevices-registration_en."
+    }
+  ]
+}

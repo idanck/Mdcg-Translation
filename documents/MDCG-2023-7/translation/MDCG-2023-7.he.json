@@ -1,0 +1,597 @@
+{
+  "id": "MDCG-2023-7",
+  "title": {
+    "en": "Guidance on exemptions from the requirement to perform clinical investigations pursuant to Article 61(4)-(6) MDR and on 'sufficient levels of access' to data needed to justify claims of equivalence",
+    "he": "הנחיה בנושא פטורים מהדרישה לבצע חקירות קליניות מכוח Article 61(4)-(6) MDR ובנושא 'רמות גישה מספקות' לנתונים הנדרשים להצדקת טענות שקילות"
+  },
+  "category": "Clinical Investigation and Evaluation",
+  "publicationDate": "2023-12",
+  "source": {
+    "url": "https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en",
+    "file": "original/mdcg_2023-7_en.pdf"
+  },
+  "language": "he",
+  "direction": "rtl",
+  "translationStatus": "review",
+  "glossaryVersion": "2026-06",
+  "blocks": [
+    {
+      "id": "disclaimer-1",
+      "type": "paragraph",
+      "en": "This document has been endorsed by the Medical Device Coordination Group (MDCG) established by Article 103 of Regulation (EU) 2017/745. The MDCG is composed of representatives of all Member States and it is chaired by a representative of the European Commission.",
+      "he": "מסמך זה אושר על ידי קבוצת תיאום המכשירים הרפואיים (MDCG) שהוקמה מכוח סעיף 103 לתקנה (האיחוד האירופי) 2017/745. ה-MDCG מורכבת מנציגים של כל המדינות החברות ובראשה עומד נציג של הנציבות האירופית."
+    },
+    {
+      "id": "disclaimer-2",
+      "type": "paragraph",
+      "en": "The document is not a European Commission document and it cannot be regarded as reflecting the official position of the European Commission. Any views expressed in this document are not legally binding and only the Court of Justice of the European Union can give binding interpretations of Union law.",
+      "he": "המסמך אינו מסמך של הנציבות האירופית ואין לראות בו כמשקף את העמדה הרשמית של הנציבות האירופית. כל דעה המובעת במסמך זה אינה מחייבת מבחינה משפטית, ורק בית הדין לצדק של האיחוד האירופי מוסמך לתת פרשנות מחייבת לדין האיחוד."
+    },
+
+    {
+      "id": "toc-heading",
+      "type": "heading",
+      "level": 1,
+      "en": "Table of contents",
+      "he": "תוכן העניינים"
+    },
+    {
+      "id": "toc-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "1. Abbreviations", "he": "1. ראשי תיבות" },
+        { "en": "2. Introduction", "he": "2. מבוא" },
+        { "en": "3. Scope", "he": "3. תחולה" },
+        { "en": "4. When are clinical investigations not mandatory according to Article 61(4)-(6) of the MDR?", "he": "4. מתי חקירות קליניות אינן מחייבות בהתאם ל-Article 61(4)-(6) של ה-MDR?" },
+        { "en": "5. Demonstration of “sufficient levels of access to the data” required to justify claims of equivalence", "he": "5. הוכחת “רמות גישה מספקות לנתונים” הנדרשת להצדקת טענות שקילות" },
+        { "en": "Appendix I: Summary of the cases when implantable and class III devices may be exempted from mandatory clinical investigations", "he": "Appendix I: סיכום המקרים שבהם מכשירים מושתלים ומכשירי class III עשויים להיות פטורים מחקירות קליניות מחייבות" },
+        { "en": "Appendix II: Hierarchy of levels of access to the data regarding the clinical, technical and biological characteristics to be considered for the demonstration of equivalence", "he": "Appendix II: היררכיה של רמות גישה לנתונים בנוגע למאפיינים הקליניים, הטכניים והביולוגיים שיש לשקול לצורך הוכחת שקילות" }
+      ]
+    },
+
+    {
+      "id": "sec-1",
+      "type": "heading",
+      "level": 1,
+      "number": "1",
+      "en": "Abbreviations",
+      "he": "ראשי תיבות"
+    },
+    {
+      "id": "sec-1-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "CER: Clinical evaluation report", "he": "CER: דוח הערכה קלינית (Clinical evaluation report)" },
+        { "en": "CI: Clinical investigation", "he": "CI: חקירה קלינית (Clinical investigation)" },
+        { "en": "CS: Common Specification", "he": "CS: מפרט משותף (Common Specification)" },
+        { "en": "DUE: Device Under Evaluation", "he": "DUE: המכשיר הנבדק (Device Under Evaluation)" },
+        { "en": "ED: Equivalent Device", "he": "ED: מכשיר שקול (Equivalent Device)" },
+        { "en": "MDR: Regulation (EU) 2017/745 on medical devices", "he": "MDR: תקנה (האיחוד האירופי) 2017/745 בנושא מכשירים רפואיים" },
+        { "en": "PMCF: Post Market Clinical Follow Up", "he": "PMCF: מעקב קליני שלאחר שיווק (Post Market Clinical Follow Up)" },
+        { "en": "WET: Well Established Technology (specifically the WET devices listed in Article 61(6)(b) of the MDR)", "he": "WET: טכנולוגיה מבוססת היטב (Well Established Technology) (ובמיוחד מכשירי ה-WET המנויים ב-Article 61(6)(b) של ה-MDR)" }
+      ]
+    },
+
+    {
+      "id": "sec-2",
+      "type": "heading",
+      "level": 1,
+      "number": "2",
+      "en": "Introduction",
+      "he": "מבוא"
+    },
+    {
+      "id": "sec-2-p1",
+      "type": "paragraph",
+      "en": "For ease of reference, the text of Article 61 paragraphs (4)-(6) is included below:",
+      "he": "לנוחות העיון, להלן מובא נוסחו של Article 61 פסקאות (4)-(6):"
+    },
+    {
+      "id": "sec-2-art-heading",
+      "type": "paragraph",
+      "en": "Article 61 — Clinical evaluation",
+      "he": "Article 61 — הערכה קלינית"
+    },
+    {
+      "id": "sec-2-art4-intro",
+      "type": "paragraph",
+      "en": "4. In the case of implantable devices and class III devices, clinical investigations shall be performed, except if:",
+      "he": "4. במקרה של מכשירים מושתלים ומכשירי class III, יבוצעו חקירות קליניות, אלא אם כן:"
+    },
+    {
+      "id": "sec-2-art4-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "the device has been designed by modifications of a device already marketed by the same manufacturer,", "he": "המכשיר עוצב באמצעות שינויים של מכשיר המשווק כבר על ידי אותו יצרן," },
+        { "en": "the modified device has been demonstrated by the manufacturer to be equivalent to the marketed device, in accordance with Section 3 of Annex XIV and this demonstration has been endorsed by the notified body, and", "he": "היצרן הוכיח כי המכשיר ששונה שקול למכשיר המשווק, בהתאם ל-Section 3 של Annex XIV, והוכחה זו אושרה על ידי הגוף המאונתר, וכן" },
+        { "en": "the clinical evaluation of the marketed device is sufficient to demonstrate conformity of the modified device with the relevant safety and performance requirements.", "he": "ההערכה הקלינית של המכשיר המשווק מספיקה להוכיח את התאמת המכשיר ששונה לדרישות הבטיחות והביצועים הרלוונטיות." }
+      ]
+    },
+    {
+      "id": "sec-2-art4-p2",
+      "type": "paragraph",
+      "en": "In this case, the notified body shall check that the PMCF plan is appropriate and includes post market studies to demonstrate the safety and performance of the device. In addition, clinical investigations need not be performed in the cases referred to in paragraph 6.",
+      "he": "במקרה זה, הגוף המאונתר יבדוק כי תוכנית ה-PMCF מתאימה וכוללת מחקרים שלאחר שיווק להוכחת בטיחותו וביצועיו של המכשיר. בנוסף, אין צורך לבצע חקירות קליניות במקרים הנזכרים בפסקה 6."
+    },
+    {
+      "id": "sec-2-art5-intro",
+      "type": "paragraph",
+      "en": "5. A manufacturer of a device demonstrated to be equivalent to an already marketed device not manufactured by him, may also rely on paragraph 4 in order not to perform a clinical investigation provided that the following conditions are fulfilled in addition to what is required in that paragraph:",
+      "he": "5. יצרן של מכשיר אשר הוכח כשקול למכשיר משווק כבר אשר אינו מיוצר על ידו, רשאי אף הוא להסתמך על פסקה 4 כדי שלא לבצע חקירה קלינית, ובלבד שהתנאים הבאים מתקיימים בנוסף לנדרש באותה פסקה:"
+    },
+    {
+      "id": "sec-2-art5-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "the two manufacturers have a contract in place that explicitly allows the manufacturer of the second device full access to the technical documentation on an ongoing basis, and", "he": "לשני היצרנים קיים חוזה המתיר במפורש ליצרן המכשיר השני גישה מלאה לתיעוד הטכני על בסיס מתמשך, וכן" },
+        { "en": "the original clinical evaluation has been performed in compliance with the requirements of this Regulation, and the manufacturer of the second device provides clear evidence thereof to the notified body.", "he": "ההערכה הקלינית המקורית בוצעה בהתאם לדרישות תקנה זו, ויצרן המכשיר השני מספק לגוף המאונתר ראיות ברורות לכך." }
+      ]
+    },
+    {
+      "id": "sec-2-art6-intro",
+      "type": "paragraph",
+      "en": "6. The requirement to perform clinical investigations pursuant to paragraph 4 shall not apply to implantable devices and class III devices:",
+      "he": "6. הדרישה לבצע חקירות קליניות מכוח פסקה 4 לא תחול על מכשירים מושתלים ומכשירי class III:"
+    },
+    {
+      "id": "sec-2-art6-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "(a) which have been lawfully placed on the market or put into service in accordance with Directive 90/385/EEC or Directive 93/42/EEC and for which the clinical evaluation: — is based on sufficient clinical data, and — is in compliance with the relevant product-specific CS for the clinical evaluation of that kind of device, where such a CS is available; or", "he": "(a) אשר הוצבו כדין בשוק או הוכנסו לשירות בהתאם ל-Directive 90/385/EEC או ל-Directive 93/42/EEC, ואשר עבורם ההערכה הקלינית: — מבוססת על נתונים קליניים מספקים, וכן — תואמת את ה-CS הרלוונטי הספציפי למוצר עבור ההערכה הקלינית של מכשיר מסוג זה, מקום שבו CS כזה זמין; או" },
+        { "en": "(b) that are sutures, staples, dental fillings, dental braces, tooth crowns, screws, wedges, plates, wires, pins, clips or connectors for which the clinical evaluation is based on sufficient clinical data and is in compliance with the relevant product-specific CS, where such a CS is available.", "he": "(b) שהם תפרים, סיכות, סתימות שיניים, גשרי יישור שיניים, כתרי שיניים, ברגים, טריזים, לוחיות, חוטים, פינים, קליפסים או מחברים, אשר עבורם ההערכה הקלינית מבוססת על נתונים קליניים מספקים ותואמת את ה-CS הרלוונטי הספציפי למוצר, מקום שבו CS כזה זמין." }
+      ]
+    },
+    {
+      "id": "sec-2-p3",
+      "type": "paragraph",
+      "en": "Article 61(4) of Regulation (EU) 2017/745 on medical devices (MDR) requires clinical investigations to be performed for implantable and class III devices, except in four specific cases as outlined in:",
+      "he": "Article 61(4) של תקנה (האיחוד האירופי) 2017/745 בנושא מכשירים רפואיים (MDR) מחייב ביצוע חקירות קליניות עבור מכשירים מושתלים ומכשירי class III, למעט בארבעה מקרים ספציפיים כמפורט להלן:"
+    },
+    {
+      "id": "sec-2-cases-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "CASE 1) indents 1-3 of Article 61(4);", "he": "CASE 1) פסקאות המשנה 1-3 של Article 61(4);" },
+        { "en": "CASE 2) Article 61(6)(a);", "he": "CASE 2) Article 61(6)(a);" },
+        { "en": "CASE 3) Article 61(6)(b);", "he": "CASE 3) Article 61(6)(b);" },
+        { "en": "CASE 4) Article 61(5).", "he": "CASE 4) Article 61(5)." }
+      ]
+    },
+    {
+      "id": "sec-2-p4",
+      "type": "paragraph",
+      "en": "These four cases which are exempted from the requirement to perform clinical investigations are independent of each other; i.e. the criteria outlined in one paragraph do not apply to the other paragraphs unless directly referenced.",
+      "he": "ארבעת המקרים הללו, הפטורים מהדרישה לבצע חקירות קליניות, בלתי תלויים זה בזה; כלומר, הקריטריונים המפורטים בפסקה אחת אינם חלים על הפסקאות האחרות אלא אם הוזכרו במישרין."
+    },
+    {
+      "id": "sec-2-p5",
+      "type": "paragraph",
+      "en": "One important consequence of this independence of cases is that the requirement for a contract, pursuant to Article 61(5), does not apply to the cases outlined in indents 1-3 of Article 61(4), Article 61(6)(a) and Article 61(6)(b). For these cases, it is only necessary to demonstrate equivalence in accordance with the criteria listed in Annex XIV Section 3 MDR to be able to use the associated clinical data in the clinical evaluation.",
+      "he": "השלכה חשובה אחת של אי-תלות זו בין המקרים היא שהדרישה לחוזה, מכוח Article 61(5), אינה חלה על המקרים המפורטים בפסקאות המשנה 1-3 של Article 61(4), ב-Article 61(6)(a) וב-Article 61(6)(b). עבור מקרים אלה, יש צורך אך ורק להוכיח שקילות בהתאם לקריטריונים המנויים ב-Annex XIV Section 3 MDR כדי שניתן יהיה להשתמש בנתונים הקליניים הקשורים בהערכה הקלינית."
+    },
+    {
+      "id": "sec-2-p6",
+      "type": "paragraph",
+      "en": "In addition to outlining the technical, biological and clinical characteristics to be taken into consideration for the demonstration of equivalence, Annex XIV Section 3 mandates that “It shall be clearly demonstrated that manufacturers have sufficient levels of access to the data relating to devices with which they are claiming equivalence in order to justify their claims of equivalence”. The requirement to have sufficient levels of access to the data required to establish equivalence does not in itself require a contract between the two manufacturers (see Section 5 of this guidance for further detail).",
+      "he": "בנוסף לפירוט המאפיינים הטכניים, הביולוגיים והקליניים שיש להביא בחשבון לצורך הוכחת שקילות, Annex XIV Section 3 מחייב כי “יוכח באופן ברור כי ליצרנים יש רמות גישה מספקות לנתונים הנוגעים למכשירים שלגביהם הם טוענים לשקילות, כדי להצדיק את טענות השקילות שלהם”. הדרישה להחזיק ברמות גישה מספקות לנתונים הנדרשים לביסוס שקילות אינה מחייבת כשלעצמה חוזה בין שני היצרנים (ראו Section 5 של הנחיה זו לפירוט נוסף)."
+    },
+
+    {
+      "id": "sec-3",
+      "type": "heading",
+      "level": 1,
+      "number": "3",
+      "en": "Scope",
+      "he": "תחולה"
+    },
+    {
+      "id": "sec-3-p1",
+      "type": "paragraph",
+      "en": "This guidance is intended to clarify the exemptions from the requirement to perform clinical investigations, and associated conditions related to the demonstration of equivalence, for implantable and class III medical devices to be placed on the European market. It also provides examples and considerations relevant to the demonstration of “sufficient levels of access to the data” per Annex XIV Section 3.",
+      "he": "הנחיה זו נועדה להבהיר את הפטורים מהדרישה לבצע חקירות קליניות, ואת התנאים הנלווים הקשורים בהוכחת שקילות, עבור מכשירים רפואיים מושתלים ומכשירי class III המיועדים להצבה בשוק האירופי. היא מספקת גם דוגמאות ושיקולים הרלוונטיים להוכחת “רמות גישה מספקות לנתונים” לפי Annex XIV Section 3."
+    },
+
+    {
+      "id": "sec-4",
+      "type": "heading",
+      "level": 1,
+      "number": "4",
+      "en": "When are clinical investigations not mandatory according to Article 61(4)-(6) of the MDR?",
+      "he": "מתי חקירות קליניות אינן מחייבות בהתאם ל-Article 61(4)-(6) של ה-MDR?"
+    },
+    {
+      "id": "sec-4-p1",
+      "type": "paragraph",
+      "en": "Article 61(4) states that clinical investigations shall be performed for implantable and class III devices. Indents 1-3 of Article 61(4) outline the first case which can be exempted from this requirement. Articles 61(5) and 61(6) outline additional exemption cases, as illustrated in Appendix I. Appendix I shows the parallel nature, and thus independence, of these cases. The conditions that apply to each case are summarised in Table 1 in this section.",
+      "he": "Article 61(4) קובע כי יבוצעו חקירות קליניות עבור מכשירים מושתלים ומכשירי class III. פסקאות המשנה 1-3 של Article 61(4) מתארות את המקרה הראשון אשר יכול להיות פטור מדרישה זו. Articles 61(5) ו-61(6) מתארים מקרי פטור נוספים, כמודגם ב-Appendix I. Appendix I מציג את אופיים המקביל, ומכאן את אי-התלות, של מקרים אלה. התנאים החלים על כל מקרה מסוכמים ב-Table 1 בסעיף זה."
+    },
+    {
+      "id": "sec-4-nb1",
+      "type": "note",
+      "en": "N.B.: Devices which are neither class III nor implantable are outside the scope of this document. The need for a clinical investigation(s) for such devices is determined by the objectives of the clinical evaluation and the sufficiency of existing clinical evidence to meet those objectives. Please refer to MDCG 2020-5 and MDCG 2020-6 for further guidance.",
+      "he": "הערה: מכשירים שאינם class III ואינם מושתלים נמצאים מחוץ לתחולת מסמך זה. הצורך בחקירה קלינית (או בחקירות קליניות) עבור מכשירים כאלה נקבע על פי מטרותיה של ההערכה הקלינית ועל פי מידת הספיקות של הראיות הקליניות הקיימות לעמידה במטרות אלה. אנא עיינו ב-MDCG 2020-5 וב-MDCG 2020-6 להנחיה נוספת."
+    },
+    {
+      "id": "sec-4-p2",
+      "type": "paragraph",
+      "en": "The beginning of the first sentence of Article 61(4) provides the general obligation, namely “in the case of implantable devices and class III devices, clinical investigations shall be performed”. The remainder of Article 61(4), as well as Article 61(5) and 61(6) describe circumstances under which these devices are exempted from the requirement to conduct clinical investigations; they do not describe conditions for demonstrating equivalence, nor do they describe when data from EDs may be used in a clinical evaluation.",
+      "he": "תחילת המשפט הראשון של Article 61(4) קובעת את החובה הכללית, דהיינו “במקרה של מכשירים מושתלים ומכשירי class III, יבוצעו חקירות קליניות”. יתרת Article 61(4), וכן Article 61(5) ו-61(6), מתארים נסיבות שבהן מכשירים אלה פטורים מהדרישה לערוך חקירות קליניות; הם אינם מתארים תנאים להוכחת שקילות, ואף אינם מתארים מתי ניתן להשתמש בנתונים ממכשירי ED בהערכה קלינית."
+    },
+    {
+      "id": "sec-4-p3",
+      "type": "paragraph",
+      "en": "As summarised in the Introduction to this guidance, the cases in which implantable and class III devices are exempted from mandatory clinical investigations are independent of each other, except where a dependence is explicitly indicated1, 2. In other words, the criteria outlined in one paragraph do not apply to the other paragraphs unless directly referenced. Specifically, the requirement for a contract as described in Article 61(5) does not apply to the exemption cases outlined in Articles 61(4) and 61(6).",
+      "he": "כפי שסוכם במבוא להנחיה זו, המקרים שבהם מכשירים מושתלים ומכשירי class III פטורים מחקירות קליניות מחייבות בלתי תלויים זה בזה, למעט מקום שבו צוינה תלות במפורש¹˒ ². במילים אחרות, הקריטריונים המפורטים בפסקה אחת אינם חלים על הפסקאות האחרות אלא אם הוזכרו במישרין. באופן ספציפי, הדרישה לחוזה כמתואר ב-Article 61(5) אינה חלה על מקרי הפטור המפורטים ב-Articles 61(4) ו-61(6)."
+    },
+    {
+      "id": "sec-4-p4",
+      "type": "paragraph",
+      "en": "A manufacturer may use clinical data generated from another manufacturer’s ED in the clinical evaluation of the DUE, without a contract, in any of the cases 1 to 33. The only requirement in this respect is that the equivalence criteria described in Annex XIV Section 3 are met.",
+      "he": "יצרן רשאי להשתמש בנתונים קליניים שהופקו מ-ED של יצרן אחר בהערכה הקלינית של ה-DUE, ללא חוזה, בכל אחד מהמקרים 1 עד 3³. הדרישה היחידה בהקשר זה היא שקריטריוני השקילות המתוארים ב-Annex XIV Section 3 מתקיימים."
+    },
+    {
+      "id": "sec-4-p5",
+      "type": "paragraph",
+      "en": "Use of ED data may enable a manufacturer to demonstrate that their clinical evaluation is based on “sufficient clinical data”. However the manufacturer is only exempted from the requirement to perform clinical investigations if the conditions outlined in the relevant exemption case are met, as summarised in Table 1 below.",
+      "he": "השימוש בנתוני ED עשוי לאפשר ליצרן להוכיח כי ההערכה הקלינית שלו מבוססת על “נתונים קליניים מספקים”. עם זאת, היצרן פטור מהדרישה לבצע חקירות קליניות רק אם מתקיימים התנאים המפורטים במקרה הפטור הרלוונטי, כפי שמסוכם ב-Table 1 שלהלן."
+    },
+    {
+      "id": "fn-1",
+      "type": "note",
+      "marker": "1",
+      "en": "Article 61(4) states “In addition, clinical investigations need not be performed in the cases referred to in paragraph 6”. The words “in addition” indicates additional exemption cases which do not rely on the exemption criteria of Article 61(4) being met. i.e., CASE 2 and CASE 3, as described in Article 61(6)(a) and Article 61(6)(b), do not need to satisfy the additional requirements listed in Article 61(4). Article 61(5) states “a manufacturer […] may also rely on paragraph 4 in order not to perform a clinical investigation provided that the following conditions are fulfilled in addition to what is required in that paragraph”. This indicates that the exemption case outlined in Article 61(5) is dependent on criteria described in Article 61(4) being met. In legal terms, the phrasing “may also rely upon” indicates a dependence on the referenced paragraph; Article 61(5) has a dependency on Article 61(4), but Articles 61(4) and 61(6) are not dependent on Article 61(5).",
+      "he": "Article 61(4) קובע “בנוסף, אין צורך לבצע חקירות קליניות במקרים הנזכרים בפסקה 6”. המילים “בנוסף” מצביעות על מקרי פטור נוספים שאינם תלויים בהתקיימות קריטריוני הפטור של Article 61(4). כלומר, CASE 2 ו-CASE 3, כמתואר ב-Article 61(6)(a) וב-Article 61(6)(b), אינם נדרשים לעמוד בדרישות הנוספות המנויות ב-Article 61(4). Article 61(5) קובע “יצרן […] רשאי אף הוא להסתמך על פסקה 4 כדי שלא לבצע חקירה קלינית, ובלבד שהתנאים הבאים מתקיימים בנוסף לנדרש באותה פסקה”. הדבר מצביע על כך שמקרה הפטור המפורט ב-Article 61(5) תלוי בהתקיימות הקריטריונים המתוארים ב-Article 61(4). מבחינה משפטית, הניסוח “רשאי אף הוא להסתמך על” מצביע על תלות בפסקה המוזכרת; ל-Article 61(5) יש תלות ב-Article 61(4), אך Articles 61(4) ו-61(6) אינם תלויים ב-Article 61(5)."
+    },
+    {
+      "id": "fn-2",
+      "type": "note",
+      "marker": "2",
+      "en": "It can be inferred from this independence of paragraphs that the devices described in CASE 1 and CASE 4 are neither legacy devices as outlined in CASE 2 nor “sutures, staples, dental fillings, dental braces, tooth crowns, screws, wedges, plates, wires, pins, clips or connectors” as outlined in CASE 3. i.e., the DUE described in Article 61(5) and indents 1-3 of Article 61(4) are new devices which have not previously been marketed under either the Directives or the MDR.",
+      "he": "ניתן להסיק מאי-תלות זו בין הפסקאות שהמכשירים המתוארים ב-CASE 1 וב-CASE 4 אינם מכשירי מורשת (legacy devices) כמתואר ב-CASE 2 ואף אינם “תפרים, סיכות, סתימות שיניים, גשרי יישור שיניים, כתרי שיניים, ברגים, טריזים, לוחיות, חוטים, פינים, קליפסים או מחברים” כמתואר ב-CASE 3. כלומר, ה-DUE המתוארים ב-Article 61(5) ובפסקאות המשנה 1-3 של Article 61(4) הם מכשירים חדשים שלא שווקו קודם לכן לא לפי ה-Directives ולא לפי ה-MDR."
+    },
+    {
+      "id": "fn-3",
+      "type": "note",
+      "marker": "3",
+      "en": "N.B., in CASE 4, a contract with at least one manufacturer will be required along with the other conditions described in Table 1. However, data from other manufacturers’ devices (with which equivalence is demonstrated) can be used without a contract to supplement the data in the clinical evaluation, for those indications covered by the contract. See also footnote 11.",
+      "he": "הערה: ב-CASE 4 יידרש חוזה עם יצרן אחד לפחות יחד עם יתר התנאים המתוארים ב-Table 1. עם זאת, ניתן להשתמש בנתונים ממכשירים של יצרנים אחרים (אשר לגביהם הוכחה שקילות) ללא חוזה כדי להשלים את הנתונים בהערכה הקלינית, עבור אותן התוויות המכוסות בחוזה. ראו גם הערה 11."
+    },
+
+    {
+      "id": "table-1-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Table 1: Criteria for exemption from the Article 61(4) requirement for clinical investigations for implantable and class III devices",
+      "he": "Table 1: קריטריונים לפטור מדרישת Article 61(4) לחקירות קליניות עבור מכשירים מושתלים ומכשירי class III"
+    },
+    {
+      "id": "table-1",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          { "en": "Case", "he": "מקרה" },
+          { "en": "Criteria", "he": "קריטריונים" }
+        ],
+        [
+          { "en": "CASE 1: Indents 1-3 of Article 61(4)", "he": "CASE 1: פסקאות המשנה 1-3 של Article 61(4)" },
+          { "en": "• DUE has been designed by modifications of a device already marketed by the same manufacturer. • Equivalence is demonstrated between the DUE and the manufacturer’s ED in accordance with Section 3 of Annex XIV; demonstration of equivalence has been endorsed by the notified body. For further guidance on the demonstration of equivalence, please refer to MDCG 2020-5. • The clinical evaluation of the marketed device is sufficient to demonstrate conformity of the modified device with the relevant safety and performance requirements4, 5. • PMCF plan is appropriate and includes post market studies to demonstrate the safety and performance of the DUE6.", "he": "• ה-DUE עוצב באמצעות שינויים של מכשיר המשווק כבר על ידי אותו יצרן. • מוכחת שקילות בין ה-DUE לבין ה-ED של היצרן בהתאם ל-Section 3 של Annex XIV; הוכחת השקילות אושרה על ידי הגוף המאונתר. להנחיה נוספת בנושא הוכחת שקילות, אנא עיינו ב-MDCG 2020-5. • ההערכה הקלינית של המכשיר המשווק מספיקה להוכחת התאמת המכשיר ששונה לדרישות הבטיחות והביצועים הרלוונטיות⁴˒ ⁵. • תוכנית ה-PMCF מתאימה וכוללת מחקרים שלאחר שיווק להוכחת בטיחותו וביצועיו של ה-DUE⁶." }
+        ],
+        [
+          { "en": "CASE 2: Article 61(6)(a)", "he": "CASE 2: Article 61(6)(a)" },
+          { "en": "• DUE has been lawfully placed on the market or put into service in accordance with Directive 90/385/EEC or Directive 93/42/EEC. • The clinical evaluation is based on sufficient clinical data7. • The clinical evaluation is in compliance with the relevant product-specific CS for the clinical evaluation of that kind of device, where such a CS is available.", "he": "• ה-DUE הוצב כדין בשוק או הוכנס לשירות בהתאם ל-Directive 90/385/EEC או ל-Directive 93/42/EEC. • ההערכה הקלינית מבוססת על נתונים קליניים מספקים⁷. • ההערכה הקלינית תואמת את ה-CS הרלוונטי הספציפי למוצר עבור ההערכה הקלינית של מכשיר מסוג זה, מקום שבו CS כזה זמין." }
+        ],
+        [
+          { "en": "CASE 3: Article 61(6)(b)", "he": "CASE 3: Article 61(6)(b)" },
+          { "en": "• DUE is one of the listed types of devices: “sutures, staples, dental fillings, dental braces, tooth crowns, screws, wedges, plates, wires, pins, clips or connectors”. • The clinical evaluation is based on sufficient clinical data7. • The clinical evaluation is in compliance with the relevant product-specific CS for the clinical evaluation of that kind of device, where such a CS is available.", "he": "• ה-DUE הוא אחד מסוגי המכשירים המנויים: “תפרים, סיכות, סתימות שיניים, גשרי יישור שיניים, כתרי שיניים, ברגים, טריזים, לוחיות, חוטים, פינים, קליפסים או מחברים”. • ההערכה הקלינית מבוססת על נתונים קליניים מספקים⁷. • ההערכה הקלינית תואמת את ה-CS הרלוונטי הספציפי למוצר עבור ההערכה הקלינית של מכשיר מסוג זה, מקום שבו CS כזה זמין." }
+        ],
+        [
+          { "en": "CASE 4: Article 61(5)8", "he": "CASE 4: Article 61(5)⁸" },
+          { "en": "• Equivalence is demonstrated between the DUE and the other manufacturer’s ED in accordance with Section 3 of Annex XIV; demonstration of equivalence has been endorsed by the notified body (via Article 61(4)). • The clinical data from the clinical evaluation of the ED is sufficient to support the intended purposes of the DUE (via Article 61(4))9. • The two manufacturers have a contract in place that explicitly allows the manufacturer of the ED full access to the technical documentation on an ongoing basis. • The clinical evaluation of the other manufacturer’s ED has been performed in compliance with the requirements of the MDR10, 11. • PMCF plan is appropriate and includes post market studies to demonstrate the safety and performance of the DUE6 (via Article 61(4)).", "he": "• מוכחת שקילות בין ה-DUE לבין ה-ED של היצרן האחר בהתאם ל-Section 3 של Annex XIV; הוכחת השקילות אושרה על ידי הגוף המאונתר (דרך Article 61(4)). • הנתונים הקליניים מההערכה הקלינית של ה-ED מספיקים לתמיכה במטרות המיועדות של ה-DUE (דרך Article 61(4))⁹. • לשני היצרנים קיים חוזה המתיר במפורש ליצרן ה-ED גישה מלאה לתיעוד הטכני על בסיס מתמשך. • ההערכה הקלינית של ה-ED של היצרן האחר בוצעה בהתאם לדרישות ה-MDR¹⁰˒ ¹¹. • תוכנית ה-PMCF מתאימה וכוללת מחקרים שלאחר שיווק להוכחת בטיחותו וביצועיו של ה-DUE⁶ (דרך Article 61(4))." }
+        ]
+      ]
+    },
+    {
+      "id": "fn-4",
+      "type": "note",
+      "marker": "4",
+      "en": "The MDR does not prohibit the use of data from another manufacturer’s ED in the clinical evaluation of the manufacturer’s already marketed device. This does not imply that a manufacturer will rely on equivalence in perpetuity: the additional requirement for PMCF studies to demonstrate the safety and performance of the DUE ensures that clinical data on the DUE itself will be collected post market; this data will be included in future revisions of the clinical evaluation report per Article 61(11). There may however be circumstances in which it is appropriate to continue to include data from EDs in the clinical evaluation, even when clinical data has been generated on the DUE.",
+      "he": "ה-MDR אינו אוסר על שימוש בנתונים מ-ED של יצרן אחר בהערכה הקלינית של המכשיר המשווק כבר של היצרן. אין בכך כדי לרמוז שיצרן יסתמך על שקילות לצמיתות: הדרישה הנוספת למחקרי PMCF להוכחת בטיחותו וביצועיו של ה-DUE מבטיחה כי נתונים קליניים על ה-DUE עצמו ייאספו לאחר השיווק; נתונים אלה ייכללו במהדורות עתידיות של דוח ההערכה הקלינית בהתאם ל-Article 61(11). עם זאת, ייתכנו נסיבות שבהן ראוי להמשיך לכלול נתונים ממכשירי ED בהערכה הקלינית, גם כאשר הופקו נתונים קליניים על ה-DUE."
+    },
+    {
+      "id": "fn-5",
+      "type": "note",
+      "marker": "5",
+      "en": "The clinical evaluation for the manufacturer’s ED does not supersede the clinical evaluation for the DUE; the DUE clinical evaluation and its documentation are still required, in accordance with Article 61(1).",
+      "he": "ההערכה הקלינית של ה-ED של היצרן אינה מחליפה את ההערכה הקלינית של ה-DUE; ההערכה הקלינית של ה-DUE ותיעודה עדיין נדרשים, בהתאם ל-Article 61(1)."
+    },
+    {
+      "id": "fn-6",
+      "type": "note",
+      "marker": "6",
+      "en": "See also MDCG 2020-8: Post-market clinical follow-up (PMCF) Evaluation Report Template - A guide for manufacturers and notified bodies (April 2020)",
+      "he": "ראו גם MDCG 2020-8: תבנית דוח הערכת מעקב קליני שלאחר שיווק (PMCF) - מדריך ליצרנים ולגופים מאונתרים (אפריל 2020)."
+    },
+    {
+      "id": "fn-7",
+      "type": "note",
+      "marker": "7",
+      "en": "“Clinical data” includes data from any of the sources listed in the Article 2(48) definition. This includes data from “a device for which equivalence to the device in question can be demonstrated”. The definition does not include a requirement for a contract between the manufacturers. Additional note: MedDev 2.12/2 indicated that PMCF studies should be undertaken for devices when the clinical evaluation was based on equivalence. In some cases, execution of such studies may have been a condition of certification under the Directives. The acceptance of clinical evidence from EDs as part of the clinical evidence package to support MDR certification does not invalidate any such conditions of certification.",
+      "he": "“נתונים קליניים” כוללים נתונים מכל אחד מהמקורות המנויים בהגדרה שב-Article 2(48). זה כולל נתונים מ“מכשיר שלגביו ניתן להוכיח שקילות למכשיר הנדון”. ההגדרה אינה כוללת דרישה לחוזה בין היצרנים. הערה נוספת: MedDev 2.12/2 ציין כי יש לבצע מחקרי PMCF עבור מכשירים כאשר ההערכה הקלינית התבססה על שקילות. במקרים מסוימים, ביצוע מחקרים כאלה עשוי היה להיות תנאי להסמכה לפי ה-Directives. קבלת ראיות קליניות ממכשירי ED כחלק מחבילת הראיות הקליניות לתמיכה בהסמכה לפי ה-MDR אינה מבטלת תנאי הסמכה כאלה."
+    },
+    {
+      "id": "fn-8",
+      "type": "note",
+      "marker": "8",
+      "en": "Article 61(5) states: “A manufacturer of a device demonstrated to be equivalent to an already marketed device not manufactured by him, may also rely on paragraph 4 in order not to perform a clinical investigation provided that the following conditions are fulfilled in addition to what is required in that paragraph”; i.e., the exemption requirements of Article 61(4) must also be met in addition to the exemption requirements laid out in Article 61(5). This does not include the requirement for the device to be a design modification of the manufacturer’s own already marketed device.",
+      "he": "Article 61(5) קובע: “יצרן של מכשיר אשר הוכח כשקול למכשיר משווק כבר אשר אינו מיוצר על ידו, רשאי אף הוא להסתמך על פסקה 4 כדי שלא לבצע חקירה קלינית, ובלבד שהתנאים הבאים מתקיימים בנוסף לנדרש באותה פסקה”; כלומר, על דרישות הפטור של Article 61(4) להתקיים אף הן בנוסף לדרישות הפטור המפורטות ב-Article 61(5). הדבר אינו כולל את הדרישה שהמכשיר יהיה שינוי עיצובי של המכשיר המשווק כבר של היצרן עצמו."
+    },
+    {
+      "id": "sec-4-p6",
+      "type": "paragraph",
+      "en": "In the case where a clinical investigation(s) is determined to be mandatory12 in order to obtain the needed clinical data to support the clinical evidence for a claimed indication for use, the MDR does not specify the number or extent of the clinical investigation(s) required. However, as a minimum, mandatory clinical investigation(s) should be understood to mean a pivotal clinical investigation(s) generating pivotal data.",
+      "he": "במקרה שבו נקבע כי חקירה קלינית (או חקירות קליניות) מחייבת¹² כדי להשיג את הנתונים הקליניים הנדרשים לתמיכה בראיות הקליניות עבור התוויה נטענת לשימוש, ה-MDR אינו מציין את מספר או היקף החקירות הקליניות הנדרשות. עם זאת, כמינימום, יש להבין כי חקירה קלינית מחייבת (או חקירות קליניות מחייבות) משמעה חקירה קלינית מרכזית (pivotal) המפיקה נתונים מרכזיים (pivotal)."
+    },
+
+    {
+      "id": "sec-5",
+      "type": "heading",
+      "level": 1,
+      "number": "5",
+      "en": "Demonstration of “sufficient levels of access to the data” required to justify claims of equivalence",
+      "he": "הוכחת “רמות גישה מספקות לנתונים” הנדרשת להצדקת טענות שקילות"
+    },
+    {
+      "id": "sec-5-p1",
+      "type": "paragraph",
+      "en": "In addition to outlining the technical, biological and clinical characteristics to be taken into consideration for the demonstration of equivalence, Annex XIV Section 3 MDR requires manufacturers to have “[…] sufficient levels of access to the data relating to devices with which they are claiming equivalence in order to justify their claims of equivalence”. As clarified above, demonstration of “sufficient levels of access” does not require a contract in all circumstances. A contract is only required for the exemption case described in Article 61(5). It should also be noted that Annex XIV Section 3 refers specifically to the data required to justify claims of equivalence: i.e., the requirement is for sufficient access to establish the clinical, technical and biological characteristics against which equivalence is evaluated, not access to the complete technical documentation.",
+      "he": "בנוסף לפירוט המאפיינים הטכניים, הביולוגיים והקליניים שיש להביא בחשבון לצורך הוכחת שקילות, Annex XIV Section 3 MDR מחייב כי ליצרנים תהיינה “[…] רמות גישה מספקות לנתונים הנוגעים למכשירים שלגביהם הם טוענים לשקילות, כדי להצדיק את טענות השקילות שלהם”. כפי שהובהר לעיל, הוכחת “רמות גישה מספקות” אינה מחייבת חוזה בכל הנסיבות. חוזה נדרש אך ורק עבור מקרה הפטור המתואר ב-Article 61(5). יש לציין גם כי Annex XIV Section 3 מתייחס באופן ספציפי לנתונים הנדרשים להצדקת טענות שקילות: כלומר, הדרישה היא לגישה מספקת לביסוס המאפיינים הקליניים, הטכניים והביולוגיים שכנגדם נבחנת השקילות, ולא לגישה לתיעוד הטכני המלא."
+    },
+    {
+      "id": "sec-5-p2",
+      "type": "paragraph",
+      "en": "A contract as described in Article 61(5) is presumed to provide full access to the data needed for the demonstration of equivalence. However, in the cases where a contract is not required, other means of access to data can prove to be adequate to support demonstrations of equivalence. This includes CASEs 1, 2, and 3; it also includes a specific subset of CASE 4, in which equivalence is fully demonstrated with more than one device from more than one manufacturer, and there is a contract in place with at least one of the manufacturers, see footnotes 3 and 11. The manufacturer of the DUE must document their justification within the CER as to why the level of access they have obtained is sufficient, and this has to be accepted by the notified body13.",
+      "he": "חוזה כמתואר ב-Article 61(5) נחשב כמספק גישה מלאה לנתונים הנדרשים להוכחת שקילות. עם זאת, במקרים שבהם אין צורך בחוזה, אמצעי גישה אחרים לנתונים עשויים להתגלות כמספקים לתמיכה בהוכחות שקילות. זה כולל את CASEs 1, 2 ו-3; זה כולל גם תת-קבוצה ספציפית של CASE 4, שבה שקילות מוכחת במלואה מול יותר ממכשיר אחד של יותר מיצרן אחד, וקיים חוזה עם לפחות אחד מהיצרנים, ראו הערות 3 ו-11. על יצרן ה-DUE לתעד את הנמקתו בתוך ה-CER לגבי מדוע רמת הגישה שהשיג מספקת, והנמקה זו צריכה להתקבל על ידי הגוף המאונתר¹³."
+    },
+    {
+      "id": "sec-5-p3",
+      "type": "paragraph",
+      "en": "Table 2 in Appendix II provides some examples of means of access to the data relevant for the demonstration of equivalence and suggests a hierarchy in relation to the level of access to this data. It also indicates potential limitations of these methods and means by which these limitations might be addressed. Table 2 is for illustrative purposes only, and is not intended to be exhaustive or prescriptive.",
+      "he": "Table 2 ב-Appendix II מספק כמה דוגמאות לאמצעי גישה לנתונים הרלוונטיים להוכחת שקילות ומציע היררכיה ביחס לרמת הגישה לנתונים אלה. הוא מציין גם מגבלות אפשריות של שיטות אלה ואמצעים שבאמצעותם ניתן להתמודד עם מגבלות אלה. Table 2 נועד להמחשה בלבד, ואינו מתיימר להיות ממצה או מחייב."
+    },
+    {
+      "id": "sec-5-nb2",
+      "type": "note",
+      "en": "N.B.: A higher level of access is indicated where limitations are considered unacceptable and cannot be adequately addressed. In this context, an unacceptable limitation is one which compromises the completeness or accuracy of the demonstration of equivalence such that it cannot be presumed that the DUE has similar safety and performance characteristics to the device with which equivalence is claimed.",
+      "he": "הערה: רמת גישה גבוהה יותר נדרשת מקום שבו המגבלות נחשבות בלתי מקובלות ולא ניתן להתמודד עמן כראוי. בהקשר זה, מגבלה בלתי מקובלת היא מגבלה הפוגעת בשלמותה או בדיוקה של הוכחת השקילות באופן שלא ניתן להניח כי ל-DUE מאפיינים דומים של בטיחות וביצועים לאלה של המכשיר שלגביו נטענת שקילות."
+    },
+    {
+      "id": "sec-5-p4",
+      "type": "paragraph",
+      "en": "It should also be noted that a higher level of access to data does not directly correlate to a stronger demonstration of equivalence. For example, in example 1a of Table 2, the manufacturer of the DUE has complete access to the data required to demonstrate equivalence, but the devices could still have differences in one or more of the clinical, technical or biological equivalence criteria described in Annex XIV Section 3 of the MDR. By contrast, in the case described in example 1d of Table 2, it may be presumed that the DUE is identical to its claimed equivalent.",
+      "he": "יש לציין גם כי רמת גישה גבוהה יותר לנתונים אינה מתואמת במישרין עם הוכחת שקילות חזקה יותר. לדוגמה, בדוגמה 1a של Table 2, ליצרן ה-DUE יש גישה מלאה לנתונים הנדרשים להוכחת שקילות, אך עדיין עשויים להיות הבדלים בין המכשירים באחד או יותר מקריטריוני השקילות הקליניים, הטכניים או הביולוגיים המתוארים ב-Annex XIV Section 3 של ה-MDR. לעומת זאת, במקרה המתואר בדוגמה 1d של Table 2, ניתן להניח כי ה-DUE זהה למכשיר שלגביו נטענת שקילותו."
+    },
+    {
+      "id": "sec-5-p5",
+      "type": "paragraph",
+      "en": "If a manufacturer is not able to demonstrate sufficient levels of access to the data needed for the demonstration of equivalence, equivalence claims cannot be made for the purpose of conformity assessment13.",
+      "he": "אם יצרן אינו מסוגל להוכיח רמות גישה מספקות לנתונים הנדרשים להוכחת שקילות, לא ניתן להעלות טענות שקילות לצורך הערכת התאמה¹³."
+    },
+    {
+      "id": "fn-9",
+      "type": "note",
+      "marker": "9",
+      "en": "The MDR does not prohibit the use of equivalence, demonstrated in compliance with the MDR, in the clinical evaluation of ED.",
+      "he": "ה-MDR אינו אוסר על שימוש בשקילות, אשר הוכחה בהתאם ל-MDR, בהערכה הקלינית של ED."
+    },
+    {
+      "id": "fn-10",
+      "type": "note",
+      "marker": "10",
+      "en": "The clinical evaluation for the other manufacturer’s ED does not supersede the clinical evaluation for the DUE; the DUE clinical evaluation and its documentation are still required, in accordance with Article 61(1).",
+      "he": "ההערכה הקלינית של ה-ED של היצרן האחר אינה מחליפה את ההערכה הקלינית של ה-DUE; ההערכה הקלינית של ה-DUE ותיעודה עדיין נדרשים, בהתאם ל-Article 61(1)."
+    },
+    {
+      "id": "fn-11",
+      "type": "note",
+      "marker": "11",
+      "en": "The MDR does not prohibit the use of clinical data from more than one manufacturer’s ED in the clinical evaluation of the DUE. In this case, only one contract with one manufacturer is required for the exemption from the requirement for clinical investigations to apply for the specific indications for use covered by the existing contract.",
+      "he": "ה-MDR אינו אוסר על שימוש בנתונים קליניים מ-ED של יותר מיצרן אחד בהערכה הקלינית של ה-DUE. במקרה זה, נדרש חוזה אחד בלבד עם יצרן אחד כדי שהפטור מהדרישה לחקירות קליניות יחול עבור ההתוויות הספציפיות לשימוש המכוסות בחוזה הקיים."
+    },
+    {
+      "id": "fn-12",
+      "type": "note",
+      "marker": "12",
+      "en": "Article 61(4) MDR",
+      "he": "Article 61(4) MDR"
+    },
+    {
+      "id": "fn-13",
+      "type": "note",
+      "marker": "13",
+      "en": "For further guidance on the demonstration of equivalence, please refer to MDCG 2020-5",
+      "he": "להנחיה נוספת בנושא הוכחת שקילות, אנא עיינו ב-MDCG 2020-5."
+    },
+
+    {
+      "id": "appendix-1-heading",
+      "type": "heading",
+      "level": 1,
+      "number": "Appendix I",
+      "en": "Appendix I: Summary of the cases when implantable and class III devices may be exempted from mandatory clinical investigations",
+      "he": "Appendix I: סיכום המקרים שבהם מכשירים מושתלים ומכשירי class III עשויים להיות פטורים מחקירות קליניות מחייבות"
+    },
+    {
+      "id": "appendix-1-intro",
+      "type": "paragraph",
+      "en": "Appendix I is presented in the source as a flowchart showing four parallel decision flows (one per CASE). Each flow begins at a START node, proceeds through a series of YES/NO decision points, and ends either with the conclusion “Clinical investigation not mandatory” (when all conditions are met) or, if any condition is not met (NO), with “CASE exemption not applicable”. The four flows are described below as decision paths.",
+      "he": "Appendix I מוצג במקור כתרשים זרימה המציג ארבעה תהליכי החלטה מקבילים (אחד לכל CASE). כל תהליך מתחיל בצומת START, עובר דרך סדרת נקודות החלטה של כן/לא, ומסתיים אם במסקנה “חקירה קלינית אינה מחייבת” (כאשר כל התנאים מתקיימים), או, אם תנאי כלשהו אינו מתקיים (לא), במסקנה “פטור ה-CASE אינו ישים”. ארבעת התהליכים מתוארים להלן כמסלולי החלטה."
+    },
+    {
+      "id": "appendix-1-case1-heading",
+      "type": "heading",
+      "level": 3,
+      "en": "Considerations for CASE 1: indents 1-3 of Article 61(4)",
+      "he": "שיקולים עבור CASE 1: פסקאות המשנה 1-3 של Article 61(4)"
+    },
+    {
+      "id": "appendix-1-case1-list",
+      "type": "list",
+      "ordered": true,
+      "items": [
+        { "en": "START. Is DUE a design modification of a device already marketed by same manufacturer (MMD)? If NO → CASE 1 exemption not applicable*. If YES → continue.", "he": "START. האם ה-DUE הוא שינוי עיצובי של מכשיר המשווק כבר על ידי אותו יצרן (MMD)? אם לא ← פטור CASE 1 אינו ישים*. אם כן ← המשך." },
+        { "en": "Equivalence demonstrated in accordance with MDR Annex XIV Section 3 and endorsed by the NB? If NO → CASE 1 exemption not applicable*. If YES → continue.", "he": "האם הוכחה שקילות בהתאם ל-MDR Annex XIV Section 3 ואושרה על ידי ה-NB? אם לא ← פטור CASE 1 אינו ישים*. אם כן ← המשך." },
+        { "en": "Is the clinical data sufficient to demonstrate compliance to relevant GSPRs? If NO → CASE 1 exemption not applicable*. If YES → Clinical investigation not mandatory.", "he": "האם הנתונים הקליניים מספיקים להוכחת התאמה ל-GSPRs הרלוונטיים? אם לא ← פטור CASE 1 אינו ישים*. אם כן ← חקירה קלינית אינה מחייבת." },
+        { "en": "PMCF must include studies to demonstrate safety and performance of DUE.", "he": "PMCF חייב לכלול מחקרים להוכחת בטיחותו וביצועיו של ה-DUE." }
+      ]
+    },
+    {
+      "id": "appendix-1-case2-heading",
+      "type": "heading",
+      "level": 3,
+      "en": "Considerations for CASE 2",
+      "he": "שיקולים עבור CASE 2"
+    },
+    {
+      "id": "appendix-1-case2-list",
+      "type": "list",
+      "ordered": true,
+      "items": [
+        { "en": "START. Is DUE lawfully placed on the market or put into service under 90/385/EEC or 93/42/EEC? If NO → CASE 2 exemption not applicable*. If YES → continue.", "he": "START. האם ה-DUE הוצב כדין בשוק או הוכנס לשירות לפי 90/385/EEC או 93/42/EEC? אם לא ← פטור CASE 2 אינו ישים*. אם כן ← המשך." },
+        { "en": "Is there a relevant product-specific CS for the CE for this type of device? If NO → proceed directly to the clinical data check. If YES → Does the clinical evaluation comply with the CS? If NO → CASE 2 exemption not applicable*. If YES → continue.", "he": "האם קיים CS רלוונטי הספציפי למוצר עבור ה-CE לסוג מכשיר זה? אם לא ← המשך ישירות לבדיקת הנתונים הקליניים. אם כן ← האם ההערכה הקלינית תואמת את ה-CS? אם לא ← פטור CASE 2 אינו ישים*. אם כן ← המשך." },
+        { "en": "Is the clinical data sufficient to demonstrate compliance to relevant GSPRs? If NO → CASE 2 exemption not applicable*. If YES → Clinical investigation not mandatory.", "he": "האם הנתונים הקליניים מספיקים להוכחת התאמה ל-GSPRs הרלוונטיים? אם לא ← פטור CASE 2 אינו ישים*. אם כן ← חקירה קלינית אינה מחייבת." }
+      ]
+    },
+    {
+      "id": "appendix-1-case3-heading",
+      "type": "heading",
+      "level": 3,
+      "en": "Considerations for CASE 3",
+      "he": "שיקולים עבור CASE 3"
+    },
+    {
+      "id": "appendix-1-case3-list",
+      "type": "list",
+      "ordered": true,
+      "items": [
+        { "en": "START. Is DUE one of the listed WET? If NO → CASE 3 exemption not applicable*. If YES → continue.", "he": "START. האם ה-DUE הוא אחד מסוגי ה-WET המנויים? אם לא ← פטור CASE 3 אינו ישים*. אם כן ← המשך." },
+        { "en": "Is there a relevant product-specific CS for the CE for this type of device? If NO → proceed directly to the clinical data check. If YES → Does the clinical evaluation comply with the CS? If NO → CASE 3 exemption not applicable*. If YES → continue.", "he": "האם קיים CS רלוונטי הספציפי למוצר עבור ה-CE לסוג מכשיר זה? אם לא ← המשך ישירות לבדיקת הנתונים הקליניים. אם כן ← האם ההערכה הקלינית תואמת את ה-CS? אם לא ← פטור CASE 3 אינו ישים*. אם כן ← המשך." },
+        { "en": "Is the clinical data sufficient to demonstrate compliance to relevant GSPRs? If NO → CASE 3 exemption not applicable*. If YES → Clinical investigation not mandatory.", "he": "האם הנתונים הקליניים מספיקים להוכחת התאמה ל-GSPRs הרלוונטיים? אם לא ← פטור CASE 3 אינו ישים*. אם כן ← חקירה קלינית אינה מחייבת." }
+      ]
+    },
+    {
+      "id": "appendix-1-case4-heading",
+      "type": "heading",
+      "level": 3,
+      "en": "Considerations for CASE 4",
+      "he": "שיקולים עבור CASE 4"
+    },
+    {
+      "id": "appendix-1-case4-list",
+      "type": "list",
+      "ordered": true,
+      "items": [
+        { "en": "START. Does the manufacturer have a contract with another manufacturer, allowing full access to the technical documentation of the ED? If NO → CASE 4 exemption not applicable*. If YES → continue.", "he": "START. האם ליצרן יש חוזה עם יצרן אחר, המתיר גישה מלאה לתיעוד הטכני של ה-ED? אם לא ← פטור CASE 4 אינו ישים*. אם כן ← המשך." },
+        { "en": "Equivalence demonstrated in accordance with MDR Annex XIV Section 3 and endorsed by the NB? If NO → CASE 4 exemption not applicable*. If YES → continue.", "he": "האם הוכחה שקילות בהתאם ל-MDR Annex XIV Section 3 ואושרה על ידי ה-NB? אם לא ← פטור CASE 4 אינו ישים*. אם כן ← המשך." },
+        { "en": "Is the clinical data sufficient to demonstrate compliance to relevant GSPRs? If NO → CASE 4 exemption not applicable*. If YES → Clinical investigation not mandatory.", "he": "האם הנתונים הקליניים מספיקים להוכחת התאמה ל-GSPRs הרלוונטיים? אם לא ← פטור CASE 4 אינו ישים*. אם כן ← חקירה קלינית אינה מחייבת." },
+        { "en": "PMCF must include studies to demonstrate safety and performance of DUE.", "he": "PMCF חייב לכלול מחקרים להוכחת בטיחותו וביצועיו של ה-DUE." }
+      ]
+    },
+    {
+      "id": "appendix-1-footnote",
+      "type": "note",
+      "en": "*if none of the cases is applicable, clinical investigation(s) is mandatory for implantable and class III devices. In all cases above, Article 61(11) MDR applies.",
+      "he": "*אם אף אחד מהמקרים אינו ישים, חקירה קלינית (או חקירות קליניות) מחייבת עבור מכשירים מושתלים ומכשירי class III. בכל המקרים לעיל, Article 61(11) MDR חל."
+    },
+
+    {
+      "id": "appendix-2-heading",
+      "type": "heading",
+      "level": 1,
+      "number": "Appendix II",
+      "en": "Appendix II: Hierarchy of levels of access to the data regarding the clinical, technical and biological characteristics to be considered for the demonstration of equivalence",
+      "he": "Appendix II: היררכיה של רמות גישה לנתונים בנוגע למאפיינים הקליניים, הטכניים והביולוגיים שיש לשקול לצורך הוכחת שקילות"
+    },
+    {
+      "id": "table-2-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Table 2: Hierarchy of levels of access to device equivalence data",
+      "he": "Table 2: היררכיה של רמות גישה לנתוני שקילות מכשירים"
+    },
+    {
+      "id": "table-2",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          { "en": "Examples of means of demonstrating “sufficient access to data”", "he": "דוגמאות לאמצעים להוכחת “גישה מספקת לנתונים”" },
+          { "en": "Level of access and potential limitations", "he": "רמת הגישה והמגבלות האפשריות" },
+          { "en": "Means of addressing limitations14", "he": "אמצעים להתמודדות עם מגבלות¹⁴" }
+        ],
+        [
+          { "en": "1a. Contract with the manufacturer of the ED allowing full access to the technical documentation on an ongoing basis", "he": "1a. חוזה עם יצרן ה-ED המתיר גישה מלאה לתיעוד הטכני על בסיס מתמשך" },
+          { "en": "• Level of access: Full.", "he": "• רמת גישה: מלאה." },
+          { "en": "• N/A", "he": "• לא ישים" }
+        ],
+        [
+          { "en": "1b. DUE is a design modification of a device already marketed by the same manufacturer", "he": "1b. ה-DUE הוא שינוי עיצובי של מכשיר המשווק כבר על ידי אותו יצרן" },
+          { "en": "• Level of access: Full.", "he": "• רמת גישה: מלאה." },
+          { "en": "• N/A", "he": "• לא ישים" }
+        ],
+        [
+          { "en": "1c. Rights to DUE acquired with transfer of all relevant design and clinical data at the time of acquisition", "he": "1c. הזכויות ל-DUE נרכשו עם העברת כל נתוני העיצוב והנתונים הקליניים הרלוונטיים במועד הרכישה" },
+          { "en": "• Level of access: Full.", "he": "• רמת גישה: מלאה." },
+          { "en": "• N/A", "he": "• לא ישים" }
+        ],
+        [
+          { "en": "1d. Device with the same design specification and intended purpose is supplied to several manufacturers by the same production sub-contractor, and manufacturer has access to the technical specifications necessary to demonstrate technical and biological equivalence", "he": "1d. מכשיר בעל אותו מפרט עיצוב ואותה מטרה מיועדת מסופק למספר יצרנים על ידי אותו קבלן משנה ייצור, וליצרן יש גישה למפרטים הטכניים הנדרשים להוכחת שקילות טכנית וביולוגית" },
+          { "en": "• Level of access: High. However, information on clinical safety and performance of the EDs may be limited to data available in the public domain; this could introduce additional biases, such as publication bias, to the literature evaluation.", "he": "• רמת גישה: גבוהה. עם זאת, המידע על הבטיחות והביצועים הקליניים של מכשירי ה-ED עשוי להיות מוגבל לנתונים הזמינים בנחלת הכלל; הדבר עלול להכניס הטיות נוספות, כגון הטיית פרסום (publication bias), להערכת הספרות." },
+          { "en": "• Clinical data on the DUE (including data from pre- or post-market clinical sources)15 • Literature data appraisal in accordance with relevant standards and guidance, to identify and evaluate potential sources of bias • PMCF to supplement the available data and continually update the clinical evaluation as per Annex XIV Part B16", "he": "• נתונים קליניים על ה-DUE (לרבות נתונים ממקורות קליניים טרום-שיווקיים או שלאחר שיווק)¹⁵ • הערכת נתוני ספרות בהתאם לתקנים ולהנחיות הרלוונטיים, לזיהוי והערכה של מקורות הטיה אפשריים • PMCF להשלמת הנתונים הזמינים ולעדכון מתמשך של ההערכה הקלינית בהתאם ל-Annex XIV Part B¹⁶" }
+        ],
+        [
+          { "en": "2. Comparative analysis and/or testing of devices based on samples of both devices (DUE and ED), coupled with information available in the public domain (e.g. IFU, surgical technique brochures, SSCP, etc.)", "he": "2. ניתוח השוואתי ו/או בדיקה של מכשירים על בסיס דגימות של שני המכשירים (DUE ו-ED), בשילוב עם מידע הזמין בנחלת הכלל (למשל IFU, חוברות טכניקה כירורגית, SSCP וכד')" },
+          { "en": "• Level of access: Medium. • Information regarding device history and design changes may be limited, particularly in cases where the state of the art for the category of devices has had significant evolution over its history. • There may be inaccurate correlation of design variants to studies published in literature, due to above limitations of information regarding device history and design changes. • Information on clinical safety and performance of the other manufacturer’s EDs may be limited to data available in the public domain; this could introduce additional biases, such as publication bias, to the literature evaluation.", "he": "• רמת גישה: בינונית. • המידע בנוגע להיסטוריית המכשיר ולשינויי העיצוב עשוי להיות מוגבל, במיוחד במקרים שבהם מצב הידע (state of the art) עבור קטגוריית המכשירים עבר התפתחות משמעותית במהלך ההיסטוריה שלו. • ייתכן מתאם לא מדויק בין וריאנטים של עיצוב לבין מחקרים שפורסמו בספרות, עקב המגבלות שלעיל במידע בנוגע להיסטוריית המכשיר ולשינויי העיצוב. • המידע על הבטיחות והביצועים הקליניים של מכשירי ה-ED של היצרן האחר עשוי להיות מוגבל לנתונים הזמינים בנחלת הכלל; הדבר עלול להכניס הטיות נוספות, כגון הטיית פרסום, להערכת הספרות." },
+          { "en": "• Evaluation of the design history of the ED and potential impact of knowledge gaps with respect to ability to correlate a specific design variant with studies published in the literature • Clinical data on the DUE (including data from pre- or post-market clinical investigations)15 • Literature data appraisal in accordance with relevant standards and guidance, to identify potential sources of bias • PMCF to supplement the available data and continually update the clinical evaluation as per Annex XIV Part B16", "he": "• הערכת היסטוריית העיצוב של ה-ED וההשפעה האפשרית של פערי ידע על היכולת לקשר וריאנט עיצוב ספציפי למחקרים שפורסמו בספרות • נתונים קליניים על ה-DUE (לרבות נתונים מחקירות קליניות טרום-שיווקיות או שלאחר שיווק)¹⁵ • הערכת נתוני ספרות בהתאם לתקנים ולהנחיות הרלוונטיים, לזיהוי מקורות הטיה אפשריים • PMCF להשלמת הנתונים הזמינים ולעדכון מתמשך של ההערכה הקלינית בהתאם ל-Annex XIV Part B¹⁶" }
+        ],
+        [
+          { "en": "3a. Device with the same design specification and intended purpose is supplied to several manufacturers by the same production sub-contractor, but access to data needed to establish equivalence only available through publicly available information", "he": "3a. מכשיר בעל אותו מפרט עיצוב ואותה מטרה מיועדת מסופק למספר יצרנים על ידי אותו קבלן משנה ייצור, אך הגישה לנתונים הנדרשים לביסוס שקילות זמינה רק באמצעות מידע הזמין לציבור" },
+          { "en": "• Level of access: Medium to low, depending on the availability and quality of publicly available information; this could introduce additional biases, such as publication bias, to the literature evaluation.", "he": "• רמת גישה: בינונית עד נמוכה, בהתאם לזמינות ולאיכות של המידע הזמין לציבור; הדבר עלול להכניס הטיות נוספות, כגון הטיית פרסום, להערכת הספרות." },
+          { "en": "• Clinical data on the DUE (including data from pre- or post-market clinical sources)15 • Literature data appraisal in accordance with relevant standards and guidance, to identify and evaluate potential sources of bias • PMCF to supplement the available data and continually update the clinical evaluation as per Annex XIV Part B16", "he": "• נתונים קליניים על ה-DUE (לרבות נתונים ממקורות קליניים טרום-שיווקיים או שלאחר שיווק)¹⁵ • הערכת נתוני ספרות בהתאם לתקנים ולהנחיות הרלוונטיים, לזיהוי והערכה של מקורות הטיה אפשריים • PMCF להשלמת הנתונים הזמינים ולעדכון מתמשך של ההערכה הקלינית בהתאם ל-Annex XIV Part B¹⁶" }
+        ],
+        [
+          { "en": "3b. Product specification determined solely through publicly available information", "he": "3b. מפרט המוצר נקבע אך ורק באמצעות מידע הזמין לציבור" },
+          { "en": "• Level of access: Low, depending on the availability and quality of publicly available information. • There may be additional limitations with respect to accuracies in publicly available information / inability to verify publicly available information", "he": "• רמת גישה: נמוכה, בהתאם לזמינות ולאיכות של המידע הזמין לציבור. • ייתכנו מגבלות נוספות בנוגע לדיוקים במידע הזמין לציבור / אי-יכולת לאמת את המידע הזמין לציבור" },
+          { "en": "• Evaluation of the design history of the ED and potential impact of knowledge gaps with respect to ability to correlate a specific design variant with studies published in the literature • Clinical data on the DUE (including data from pre- or post-market clinical investigations)15 • Literature data appraisal in accordance with relevant standards and guidance, to identify potential sources of bias • PMCF to supplement the available data and continually update the clinical evaluation as per Annex XIV Part B16", "he": "• הערכת היסטוריית העיצוב של ה-ED וההשפעה האפשרית של פערי ידע על היכולת לקשר וריאנט עיצוב ספציפי למחקרים שפורסמו בספרות • נתונים קליניים על ה-DUE (לרבות נתונים מחקירות קליניות טרום-שיווקיות או שלאחר שיווק)¹⁵ • הערכת נתוני ספרות בהתאם לתקנים ולהנחיות הרלוונטיים, לזיהוי מקורות הטיה אפשריים • PMCF להשלמת הנתונים הזמינים ולעדכון מתמשך של ההערכה הקלינית בהתאם ל-Annex XIV Part B¹⁶" }
+        ]
+      ]
+    },
+    {
+      "id": "fn-14",
+      "type": "note",
+      "marker": "14",
+      "en": "These examples are not intended to be exhaustive or prescriptive. Limitations associated with access to data may be addressed without using every means listed in this column.",
+      "he": "דוגמאות אלה אינן מתיימרות להיות ממצות או מחייבות. ניתן להתמודד עם מגבלות הקשורות בגישה לנתונים מבלי להשתמש בכל אחד מהאמצעים המנויים בעמודה זו."
+    },
+    {
+      "id": "fn-15",
+      "type": "note",
+      "marker": "15",
+      "en": "Clinical data on the DUE can corroborate conclusions on safety, performance and clinical benefit based on data from EDs. The higher the quality and quantity of clinical data available on the DUE, the less likely it is that limitations with respect to access to data would be considered unacceptable as defined in Section 5 of this guidance.",
+      "he": "נתונים קליניים על ה-DUE יכולים לאשש מסקנות בנושא בטיחות, ביצועים ותועלת קלינית המבוססות על נתונים ממכשירי ED. ככל שאיכותם וכמותם של הנתונים הקליניים הזמינים על ה-DUE גבוהות יותר, כך פוחתת הסבירות שמגבלות בנוגע לגישה לנתונים ייחשבו בלתי מקובלות כהגדרתן ב-Section 5 של הנחיה זו."
+    },
+    {
+      "id": "fn-16",
+      "type": "note",
+      "marker": "16",
+      "en": "Clinical data on the DUE generated through PMCF activities can corroborate conclusions on safety, performance and clinical benefit based on data from EDs, and can be considered a means of addressing residual risk associated with limitations related to the level of access to device data which have been evaluated and determined to be acceptable.",
+      "he": "נתונים קליניים על ה-DUE שהופקו באמצעות פעילויות PMCF יכולים לאשש מסקנות בנושא בטיחות, ביצועים ותועלת קלינית המבוססות על נתונים ממכשירי ED, וניתן לראותם כאמצעי להתמודדות עם סיכון שיורי הקשור במגבלות הנוגעות לרמת הגישה לנתוני המכשיר אשר הוערכו ונקבע כי הן מקובלות."
+    }
+  ]
+}
