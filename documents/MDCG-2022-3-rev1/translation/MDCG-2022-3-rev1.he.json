@@ -1,0 +1,789 @@
+{
+  "id": "MDCG-2022-3-rev1",
+  "title": {
+    "en": "MDCG 2022-3 Rev. 1 — Verification of manufactured class D IVDs by notified bodies",
+    "he": "MDCG 2022-3 מהדורה 1 — אימות מכשירי IVD מתוצרת סיווג D על ידי גופים מאונתרים"
+  },
+  "category": "In Vitro Diagnostic Medical Devices (IVD)",
+  "publicationDate": "2024-12",
+  "source": {
+    "url": "https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en",
+    "file": "original/mdcg_2022-3_en.pdf"
+  },
+  "language": "he",
+  "direction": "rtl",
+  "translationStatus": "review",
+  "glossaryVersion": "2026-06",
+  "blocks": [
+    {
+      "id": "disclaimer-1",
+      "type": "paragraph",
+      "en": "This document has been endorsed by the Medical Device Coordination Group (MDCG) established by Article 103 of Regulation (EU) 2017/745. The MDCG is composed of representatives of all Member States and it is chaired by a representative of the European Commission.",
+      "he": "מסמך זה אושר על ידי קבוצת תיאום המכשירים הרפואיים (MDCG) שהוקמה מכוח סעיף 103 לתקנה (האיחוד האירופי) 2017/745. ה-MDCG מורכבת מנציגים של כל המדינות החברות ובראשה עומד נציג של הנציבות האירופית."
+    },
+    {
+      "id": "disclaimer-2",
+      "type": "paragraph",
+      "en": "The document is not a European Commission document and it cannot be regarded as reflecting the official position of the European Commission. Any views expressed in this document are not legally binding and only the Court of Justice of the European Union can give binding interpretations of Union law.",
+      "he": "המסמך אינו מסמך של הנציבות האירופית ואין לראות בו כמשקף את העמדה הרשמית של הנציבות האירופית. כל דעה המובעת במסמך זה אינה מחייבת מבחינה משפטית, ורק בית הדין לצדק של האיחוד האירופי מוסמך לתת פרשנות מחייבת לדין האיחוד."
+    },
+    {
+      "id": "changes-heading",
+      "type": "heading",
+      "level": 1,
+      "en": "MDCG 2022-3 revision 1 changes",
+      "he": "שינויים במהדורה 1 של MDCG 2022-3"
+    },
+    {
+      "id": "changes-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          { "en": "Section", "he": "סעיף" },
+          { "en": "Change", "he": "שינוי" }
+        ],
+        [
+          { "en": "2.", "he": "2." },
+          { "en": "Clarification added on applicability of batch testing requirements", "he": "נוספה הבהרה בנוגע לתחולת הדרישות לבדיקת אצוות" }
+        ],
+        [
+          { "en": "4.1.1", "he": "4.1.1" },
+          { "en": "Test plan: bullet 'decision making criteria for success or failure of the batch' removed", "he": "תוכנית בדיקה: הסעיף 'קריטריונים לקבלת החלטה בדבר הצלחת האצווה או כישלונה' הוסר" }
+        ],
+        [
+          { "en": "4.1.1", "he": "4.1.1" },
+          { "en": "Clarification added: 30 'calendar' days", "he": "נוספה הבהרה: 30 ימים 'קלנדריים'" }
+        ],
+        [
+          { "en": "4.1.2", "he": "4.1.2" },
+          { "en": "Test plan: bullet 'decision making criteria for success or failure of the batch' removed", "he": "תוכנית בדיקה: הסעיף 'קריטריונים לקבלת החלטה בדבר הצלחת האצווה או כישלונה' הוסר" }
+        ],
+        [
+          { "en": "4.1.2", "he": "4.1.2" },
+          { "en": "Written contract between the notified body and the EURL: bullet 'decision making criteria for success or failure of the batch' added", "he": "חוזה בכתב בין הגוף המאונתר לבין ה-EURL: הסעיף 'קריטריונים לקבלת החלטה בדבר הצלחת האצווה או כישלונה' נוסף" }
+        ],
+        [
+          { "en": "4.1.2", "he": "4.1.2" },
+          { "en": "Clarification added: 30 'calendar' days", "he": "נוספה הבהרה: 30 ימים 'קלנדריים'" }
+        ],
+        [
+          { "en": "4.1.2", "he": "4.1.2" },
+          { "en": "Paragraph added on agreements between manufacturers and EURLs", "he": "נוספה פסקה בנוגע להסכמים בין יצרנים לבין EURLs" }
+        ],
+        [
+          { "en": "5.", "he": "5." },
+          { "en": "Note under Table 1 removed", "he": "ההערה תחת טבלה 1 הוסרה" }
+        ],
+        [
+          { "en": "5.1", "he": "5.1" },
+          { "en": "First sentence modified", "he": "המשפט הראשון שונה" }
+        ],
+        [
+          { "en": "5.3", "he": "5.3" },
+          { "en": "Note added under Table 3", "he": "נוספה הערה תחת טבלה 3" }
+        ],
+        [
+          { "en": "6.", "he": "6." },
+          { "en": "Clarification added: 30 'calendar' days", "he": "נוספה הבהרה: 30 ימים 'קלנדריים'" }
+        ]
+      ]
+    },
+    {
+      "id": "sec-1",
+      "type": "heading",
+      "level": 1,
+      "number": "1",
+      "en": "Introduction",
+      "he": "מבוא"
+    },
+    {
+      "id": "sec-1-p1",
+      "type": "paragraph",
+      "en": "Regulation (EU) 2017/746 on in vitro diagnostic medical devices (IVDR) establishes the requirements for notified bodies involved in the conformity assessment of applicable classes of in vitro diagnostic medical devices (IVDs). Manufacturers must demonstrate that the devices conform to relevant requirements based upon objective evidence and analysis.",
+      "he": "תקנה (האיחוד האירופי) 2017/746 בנושא מכשירים רפואיים לאבחון in vitro‏ (IVDR) קובעת את הדרישות לגופים מאונתרים המעורבים בהערכת ההתאמה של הסיווגים הרלוונטיים של מכשירים רפואיים לאבחון in vitro‏ (IVDs). על היצרנים להוכיח כי המכשירים תואמים לדרישות הרלוונטיות על בסיס ראיות אובייקטיביות וניתוח."
+    },
+    {
+      "id": "sec-1-p2",
+      "type": "paragraph",
+      "en": "In accordance with these conformity assessment procedures, in addition to quality management system and technical documentation assessments, notified bodies are required to verify product batches of class D IVDs in line with Annexes IX and XI of the IVDR. Therefore, in order to verify the conformity of class D IVDs, manufacturers should forward to notified bodies the reports on tests carried out on each manufactured batch of class D devices. Furthermore, the manufacturer should make available samples of manufactured class D devices or batches of devices to the notified body in accordance with pre-agreed conditions and detailed arrangements. The notified body involved in the conformity assessment of class D IVDs should request one of the EU reference laboratories (EURLs), if designated by the European Commission, to carry out batch testing on those devices. The EURL should, in turn, inform the notified body about its findings. Following this verification procedure, manufacturers may place class D IVDs on the market unless the notified body communicates to the manufacturer within an agreed timeframe, but not later than 30 days after reception of the samples, any other decision. In the absence of a designated EURL for a device, the requirements relating to EURLs do not have to be applied.",
+      "he": "בהתאם להליכי הערכת ההתאמה הללו¹, בנוסף להערכות של מערכת ניהול האיכות והתיעוד הטכני, נדרשים הגופים המאונתרים לאמת אצוות מוצר של מכשירי IVD מסיווג D בהתאם לנספחים IX ו-XI של ה-IVDR. לפיכך, כדי לאמת את התאמתם של מכשירי IVD מסיווג D, על היצרנים להעביר לגופים המאונתרים את הדוחות על הבדיקות שבוצעו על כל אצווה מיוצרת של מכשירי סיווג D². כמו כן, על היצרן להעמיד לרשות הגוף המאונתר דגימות של מכשירי סיווג D מיוצרים או אצוות של מכשירים, בהתאם לתנאים שהוסכמו מראש ולהסדרים מפורטים. על הגוף המאונתר המעורב בהערכת ההתאמה של מכשירי IVD מסיווג D לבקש מאחת ממעבדות הייחוס של האיחוד האירופי (EURLs), אם מונתה על ידי הנציבות האירופית³, לבצע בדיקת אצוות על מכשירים אלה. ה-EURL, בתורה, תיידע את הגוף המאונתר בדבר ממצאיה. בעקבות הליך אימות זה, רשאים היצרנים להעמיד מכשירי IVD מסיווג D בשוק, אלא אם כן הגוף המאונתר מודיע ליצרן, בתוך פרק זמן מוסכם אך לא יאוחר מ-30 ימים לאחר קבלת הדגימות, על כל החלטה אחרת⁴. בהיעדר EURL שמונתה למכשיר, אין צורך ליישם את הדרישות הנוגעות ל-EURLs."
+    },
+    {
+      "id": "fn-1",
+      "type": "note",
+      "marker": "1",
+      "en": "IVDR Article 48",
+      "he": "IVDR סעיף 48"
+    },
+    {
+      "id": "fn-2",
+      "type": "note",
+      "marker": "2",
+      "en": "IVDR Annex IX section 4.12 & Annex XI section 5.1",
+      "he": "IVDR נספח IX סעיף 4.12 ונספח XI סעיף 5.1"
+    },
+    {
+      "id": "fn-3",
+      "type": "note",
+      "marker": "3",
+      "en": "IVDR Article 100",
+      "he": "IVDR סעיף 100"
+    },
+    {
+      "id": "fn-4",
+      "type": "note",
+      "marker": "4",
+      "en": "IVDR Annex IX section 4.13 & Annex XI section 5.2",
+      "he": "IVDR נספח IX סעיף 4.13 ונספח XI סעיף 5.2"
+    },
+    {
+      "id": "sec-2",
+      "type": "heading",
+      "level": 1,
+      "number": "2",
+      "en": "Scope",
+      "he": "תחולה"
+    },
+    {
+      "id": "sec-2-p1",
+      "type": "paragraph",
+      "en": "This document aims to provide guidance to notified bodies to clarify their role and responsibilities in relation to samples of manufactured class D devices or batches of devices in accordance with Annexes IX and XI of the IVDR.",
+      "he": "מסמך זה נועד לספק הנחיה לגופים מאונתרים כדי להבהיר את תפקידם ואחריותם בנוגע לדגימות של מכשירי סיווג D מיוצרים או אצוות של מכשירים, בהתאם לנספחים IX ו-XI של ה-IVDR."
+    },
+    {
+      "id": "sec-2-p2",
+      "type": "paragraph",
+      "en": "This guidance also describes best practices for notified bodies in performing conformity assessment procedures relating to the verification of manufactured class D IVDs. It also includes guidance on:",
+      "he": "הנחיה זו מתארת גם פרקטיקות מיטביות לגופים מאונתרים בביצוע הליכי הערכת התאמה הנוגעים לאימות מכשירי IVD מתוצרת סיווג D. היא כוללת גם הנחיה בנושאים הבאים:"
+    },
+    {
+      "id": "sec-2-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "relevant information to be included within the notified body's procedures,", "he": "מידע רלוונטי שיש לכלול בנהלי הגוף המאונתר," },
+        { "en": "the content of the required pre-agreed conditions and detailed arrangements between the notified body and the manufacturer,", "he": "תוכן התנאים הנדרשים שהוסכמו מראש וההסדרים המפורטים⁵ בין הגוף המאונתר לבין היצרן," },
+        { "en": "guidance on the frequency of samples of devices or batches of devices to be sent to the EURL.", "he": "הנחיה בנוגע לתדירות הדגימות של מכשירים או אצוות של מכשירים שיש לשלוח ל-EURL⁶." }
+      ]
+    },
+    {
+      "id": "sec-2-p3",
+      "type": "paragraph",
+      "en": "It is understood that the IVDR requirements related to testing every product batch, and consequently this guidance document, are relevant for devices for which the concept of batches is applicable. For example, the concept of batches is not applicable for medical device software. Therefore, the corresponding IVDR batch testing requirements and this guidance document are not relevant to class D medical device software.",
+      "he": "מובן כי דרישות ה-IVDR הנוגעות לבדיקת כל אצוות מוצר, וכפועל יוצא מסמך הנחיה זה, רלוונטיות למכשירים שלגביהם מושג האצווה ישים. לדוגמה, מושג האצווה אינו ישים לתוכנת מכשיר רפואי. לפיכך, דרישות בדיקת האצוות המקבילות של ה-IVDR ומסמך הנחיה זה אינם רלוונטיים לתוכנת מכשיר רפואי מסיווג D."
+    },
+    {
+      "id": "fn-5",
+      "type": "note",
+      "marker": "5",
+      "en": "IVDR Annex IX Section 4.12 & Annex XI Section 5.1",
+      "he": "IVDR נספח IX סעיף 4.12 ונספח XI סעיף 5.1"
+    },
+    {
+      "id": "fn-6",
+      "type": "note",
+      "marker": "6",
+      "en": "IVDR Annex IX Section 4.12 & Annex XI Section 5.1",
+      "he": "IVDR נספח IX סעיף 4.12 ונספח XI סעיף 5.1"
+    },
+    {
+      "id": "sec-3",
+      "type": "heading",
+      "level": 1,
+      "number": "3",
+      "en": "Definitions",
+      "he": "הגדרות"
+    },
+    {
+      "id": "sec-3-1",
+      "type": "heading",
+      "level": 2,
+      "number": "3.1",
+      "en": "Class D IVDs",
+      "he": "מכשירי IVD מסיווג D"
+    },
+    {
+      "id": "sec-3-1-p1",
+      "type": "paragraph",
+      "en": "The IVDR refers to class D devices in rules 1 and 2 of Annex VIII as follows:",
+      "he": "ה-IVDR מתייחס למכשירי סיווג D בכללים 1 ו-2 של נספח VIII כדלקמן:"
+    },
+    {
+      "id": "sec-3-1-p2",
+      "type": "paragraph",
+      "en": "Devices intended to be used for the following purposes are classified as class D:",
+      "he": "מכשירים המיועדים לשימוש למטרות הבאות מסווגים כסיווג D:"
+    },
+    {
+      "id": "sec-3-1-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "detection of the presence of, or exposure to, a transmissible agent in blood, blood components, cells, tissues or organs, or in any of their derivatives, in order to assess their suitability for transfusion, transplantation or cell administration;", "he": "גילוי נוכחותו של, או חשיפה ל-, גורם מדבק בדם, ברכיבי דם, בתאים, ברקמות או באיברים, או בכל אחד מנגזרותיהם, על מנת להעריך את התאמתם לעירוי, להשתלה או למתן תאים;" },
+        { "en": "detection of the presence of, or exposure to, a transmissible agent that causes a life-threatening disease with a high or suspected high risk of propagation;", "he": "גילוי נוכחותו של, או חשיפה ל-, גורם מדבק הגורם למחלה מסכנת חיים בעלת סיכון גבוה או חשד לסיכון גבוה להתפשטות;" },
+        { "en": "determining the infectious load of a life-threatening disease where monitoring is critical in the process of patient management.", "he": "קביעת העומס הזיהומי של מחלה מסכנת חיים שבה הניטור הוא קריטי בתהליך ניהול המטופל." }
+      ]
+    },
+    {
+      "id": "sec-3-1-ref1",
+      "type": "paragraph",
+      "en": "[IVDR, Article 47(I) & Annex VIII Section 2 Rule 1]",
+      "he": "[IVDR, סעיף 47(I) ונספח VIII סעיף 2 כלל 1]"
+    },
+    {
+      "id": "sec-3-1-p3",
+      "type": "paragraph",
+      "en": "Devices intended to be used for blood grouping, or to determine foeto-maternal blood group incompatibility, or for tissue typing to ensure the immunological compatibility of blood, blood components, cells, tissue or organs that are intended for transfusion or transplantation or cell administration, are classified as class C, except when intended to determine any of the following markers:",
+      "he": "מכשירים המיועדים לשימוש לקביעת סוג דם, או לקביעת אי-התאמה של סוג דם עוברי-אמהי, או לטיפוס רקמות להבטחת התאמה אימונולוגית של דם, רכיבי דם, תאים, רקמה או איברים המיועדים לעירוי, להשתלה או למתן תאים, מסווגים כסיווג C, למעט כאשר הם מיועדים לקבוע אחד מהסמנים הבאים:"
+    },
+    {
+      "id": "sec-3-1-list2",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "ABO system [A (ABO1), B (ABO2), AB (ABO3)];", "he": "מערכת ABO‏ [A (ABO1), B (ABO2), AB (ABO3)];" },
+        { "en": "Rhesus system [RH1 (D), RHW1, RH2 (C), RH3 (E), RH4 (c), RH5 (e)];", "he": "מערכת Rhesus‏ [RH1 (D), RHW1, RH2 (C), RH3 (E), RH4 (c), RH5 (e)];" },
+        { "en": "Kell system [Kel1 (K)];", "he": "מערכת Kell‏ [Kel1 (K)];" },
+        { "en": "Kidd system [JK1 (Jka), JK2 (Jkb)];", "he": "מערכת Kidd‏ [JK1 (Jka), JK2 (Jkb)];" },
+        { "en": "Duffy system [FY1 (Fya), FY2 (Fyb)]", "he": "מערכת Duffy‏ [FY1 (Fya), FY2 (Fyb)]" }
+      ]
+    },
+    {
+      "id": "sec-3-1-ref2",
+      "type": "paragraph",
+      "en": "[IVDR, Annex VIII Section 2 Rule 2]",
+      "he": "[IVDR, נספח VIII סעיף 2 כלל 2]"
+    },
+    {
+      "id": "sec-3-1-note",
+      "type": "note",
+      "en": "Note: Please see MDCG 2020-16 (Guidance on Classification Rules for in vitro Diagnostic Medical Devices under Regulation (EU) 2017/746) for examples of devices falling in Class D.",
+      "he": "הערה: יש לעיין ב-MDCG 2020-16⁷ (הנחיה בנוגע לכללי סיווג של מכשירים רפואיים לאבחון in vitro על פי תקנה (האיחוד האירופי) 2017/746) לדוגמאות של מכשירים הנכללים בסיווג D."
+    },
+    {
+      "id": "sec-3-2",
+      "type": "heading",
+      "level": 2,
+      "number": "3.2",
+      "en": "Batch",
+      "he": "אצווה (Batch)"
+    },
+    {
+      "id": "sec-3-2-p1",
+      "type": "paragraph",
+      "en": "A defined amount of material, either starting material, intermediate or finished product which is uniform in its properties and has been produced in one process or series of processes. [EN 13975:2003]",
+      "he": "כמות מוגדרת של חומר, בין אם חומר מוצא, מוצר ביניים או מוצר מוגמר, האחיד בתכונותיו ויוצר בתהליך אחד או בסדרת תהליכים. [EN 13975:2003]"
+    },
+    {
+      "id": "sec-3-3",
+      "type": "heading",
+      "level": 2,
+      "number": "3.3",
+      "en": "Common specifications",
+      "he": "מפרטים משותפים (Common specifications)"
+    },
+    {
+      "id": "sec-3-3-p1",
+      "type": "paragraph",
+      "en": "A set of technical and/or clinical requirements, other than a standard, that provides a means of complying with the legal obligations applicable to a device, process or system. [IVDR Article 2 (74)]",
+      "he": "מערך של דרישות טכניות ו/או קליניות, שאינו תקן, המספק אמצעי לעמידה בחובות החוקיות החלות על מכשיר, תהליך או מערכת. [IVDR סעיף 2 (74)]"
+    },
+    {
+      "id": "sec-3-4",
+      "type": "heading",
+      "level": 2,
+      "number": "3.4",
+      "en": "EU Reference Laboratory (EURL)",
+      "he": "מעבדת ייחוס של האיחוד האירופי (EURL)"
+    },
+    {
+      "id": "sec-3-4-p1",
+      "type": "paragraph",
+      "en": "A European Union reference laboratory designated according to Article 100 of the IVDR.",
+      "he": "מעבדת ייחוס של האיחוד האירופי שמונתה בהתאם לסעיף 100 ל-IVDR."
+    },
+    {
+      "id": "sec-3-5",
+      "type": "heading",
+      "level": 2,
+      "number": "3.5",
+      "en": "Verification",
+      "he": "אימות (Verification)"
+    },
+    {
+      "id": "sec-3-5-p1",
+      "type": "paragraph",
+      "en": "Confirmation, through the provision of objective evidence, that specified requirements have been fulfilled. [EN ISO 9000:2015]",
+      "he": "אישור, באמצעות מתן ראיות אובייקטיביות, כי דרישות שצוינו מולאו. [EN ISO 9000:2015]"
+    },
+    {
+      "id": "sec-3-6",
+      "type": "heading",
+      "level": 2,
+      "number": "3.6",
+      "en": "Sample",
+      "he": "דגימה (Sample)"
+    },
+    {
+      "id": "sec-3-6-p1",
+      "type": "paragraph",
+      "en": "One or more units of product, either components or finished devices, drawn from a batch without regard to the quality of the units [EN 13975:2003]",
+      "he": "יחידה אחת או יותר של מוצר, בין אם רכיבים או מכשירים מוגמרים, הנמשכת מאצווה ללא התחשבות באיכות היחידות. [EN 13975:2003]"
+    },
+    {
+      "id": "sec-3-7",
+      "type": "heading",
+      "level": 2,
+      "number": "3.7",
+      "en": "Specimen",
+      "he": "פריט בדיקה (Specimen)"
+    },
+    {
+      "id": "sec-3-7-p1",
+      "type": "paragraph",
+      "en": "Small portion of a body fluid or tissue taken from an individual for examination, study or analysis of one or more quantities or characteristics to determine the character of the whole.",
+      "he": "חלק קטן של נוזל גוף או רקמה הנלקח מאדם לצורך בחינה, חקירה או ניתוח של כמות או מאפיין אחד או יותר, כדי לקבוע את אופיו של השלם."
+    },
+    {
+      "id": "sec-4",
+      "type": "heading",
+      "level": 1,
+      "number": "4",
+      "en": "Notified Body Procedures",
+      "he": "נהלי הגוף המאונתר"
+    },
+    {
+      "id": "sec-4-p1",
+      "type": "paragraph",
+      "en": "The notified body should have documented procedures for:",
+      "he": "על הגוף המאונתר להחזיק נהלים מתועדים⁸ עבור:"
+    },
+    {
+      "id": "sec-4-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "The verification process", "he": "תהליך האימות" },
+        { "en": "The establishment of a test plan identifying all relevant and critical parameters which need to be tested for the device, including decision making criteria for success or failure of the batch", "he": "קביעת תוכנית בדיקה המזהה את כל הפרמטרים הרלוונטיים והקריטיים שיש לבדוק עבור המכשיר, לרבות קריטריונים לקבלת החלטה בדבר הצלחת האצווה או כישלונה" },
+        { "en": "The provision for the reaching of an agreement with the manufacturer concerning when and where the necessary sample or batch testing has to be performed", "he": "הוראה להשגת הסכם עם היצרן בנוגע למתי והיכן יש לבצע את בדיקת הדגימה או האצווה הנחוצה" }
+      ]
+    },
+    {
+      "id": "sec-4-p2",
+      "type": "paragraph",
+      "en": "An agreement on the batch verification arrangements should be in place between the notified body and the manufacturer of the class D IVD. In addition, provided that a EURL is designated for this device, the notified body should also make arrangements with the EURL for the testing of the device.",
+      "he": "יש להחזיק בהסכם בנוגע להסדרי אימות האצוות בין הגוף המאונתר לבין יצרן מכשיר ה-IVD מסיווג D. בנוסף, ובלבד שמונתה EURL למכשיר זה, על הגוף המאונתר לבצע גם הסדרים עם ה-EURL לבדיקת המכשיר."
+    },
+    {
+      "id": "sec-4-p3",
+      "type": "paragraph",
+      "en": "The notified body should draw up a testing plan for the device to be provided to the EURL (see also section 4.1.2 below). This plan should be based upon the results of the notified body's conformity assessment, the performance verification opinion of an EURL, as well as, any other relevant information from the manufacturer and the EURL. The EURL may propose justified changes based on its scientific expertise. The testing plan is then agreed between the notified body and the EURL. It should be included in the agreement between the notified body and the manufacturer, and in the written contract between the notified body and the EURL. It should be noted that EURLs are independent scientific and testing bodies designated by the Commission for the purposes defined in IVDR. Therefore, EURLs should not be considered as subcontractors to notified bodies in the same sense as other testing laboratories.",
+      "he": "על הגוף המאונתר לערוך תוכנית בדיקה עבור המכשיר שתסופק ל-EURL (ראה גם סעיף 4.1.2 להלן). תוכנית זו צריכה להתבסס על תוצאות הערכת ההתאמה של הגוף המאונתר, על חוות הדעת בדבר אימות הביצועים של EURL⁹, וכן על כל מידע רלוונטי אחר מהיצרן ומה-EURL. ה-EURL רשאית להציע שינויים מוצדקים על בסיס מומחיותה המדעית. תוכנית הבדיקה מוסכמת לאחר מכן בין הגוף המאונתר לבין ה-EURL. יש לכלול אותה בהסכם שבין הגוף המאונתר לבין היצרן, ובחוזה בכתב שבין הגוף המאונתר לבין ה-EURL. יש לציין כי EURLs הן גופים מדעיים ובודקים עצמאיים שמונו על ידי הנציבות למטרות המוגדרות ב-IVDR. לפיכך, אין לראות ב-EURLs קבלני משנה של גופים מאונתרים באותו מובן כמו מעבדות בדיקה אחרות."
+    },
+    {
+      "id": "sec-4-1",
+      "type": "heading",
+      "level": 2,
+      "number": "4.1",
+      "en": "Pre-Agreed Conditions and Detailed Arrangements",
+      "he": "תנאים שהוסכמו מראש והסדרים מפורטים"
+    },
+    {
+      "id": "sec-4-1-p1",
+      "type": "paragraph",
+      "en": "The performance of a class D IVD will usually have already been verified by a EURL for that device. The verification of manufactured batches will typically be arranged with the same EURL. Nevertheless, a different EURL designated with the applicable scope and equipment may be chosen. In the case of several EURLs available for a certain device, the notified body should decide (following consultation with the manufacturer) which EURL is most appropriate to perform the batch verification. Factors to be considered include, for example, the product range of the manufacturer (due to other class D devices to be tested), sample logistics as well as language or other issues which may affect the choice of EURL.",
+      "he": "ביצועיו של מכשיר IVD מסיווג D בדרך כלל כבר אומתו על ידי EURL עבור אותו מכשיר¹⁰. אימות האצוות המיוצרות יוסדר בדרך כלל עם אותה EURL. עם זאת, ניתן לבחור EURL אחרת שמונתה עם היקף וציוד מתאימים. במקרה שמספר EURLs זמינות עבור מכשיר מסוים, על הגוף המאונתר להחליט (לאחר התייעצות עם היצרן) איזו EURL מתאימה ביותר לבצע את אימות האצוות. בין הגורמים שיש לשקול נכללים, למשל, מגוון המוצרים של היצרן (בשל מכשירי סיווג D אחרים שיש לבדוק), לוגיסטיקת הדגימות וכן שפה או סוגיות אחרות העשויות להשפיע על בחירת ה-EURL."
+    },
+    {
+      "id": "sec-4-1-1",
+      "type": "heading",
+      "level": 3,
+      "number": "4.1.1",
+      "en": "Agreement between the notified body and the manufacturer",
+      "he": "הסכם בין הגוף המאונתר לבין היצרן"
+    },
+    {
+      "id": "sec-4-1-1-p1",
+      "type": "paragraph",
+      "en": "The agreement between the notified body and the manufacturer should include at least the following:",
+      "he": "ההסכם בין הגוף המאונתר לבין היצרן צריך לכלול לכל הפחות את הדברים הבאים:"
+    },
+    {
+      "id": "sec-4-1-1-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Test plan, as approved by the EURL: Relevant and critical parameters to be tested; Samples to be tested; Specimens to be tested; Other specific materials provided by the manufacturer; Testing frequency; Test platform and protocol used; Reference to any applicable common specifications and relevant standards or other solutions chosen by the manufacturer; Reference to the designation scope of the EURL", "he": "תוכנית בדיקה, כפי שאושרה על ידי ה-EURL: פרמטרים רלוונטיים וקריטיים שיש לבדוק; דגימות שיש לבדוק; פריטי בדיקה שיש לבדוק; חומרים ספציפיים אחרים המסופקים על ידי היצרן; תדירות הבדיקה; פלטפורמת הבדיקה והפרוטוקול שבשימוש; הפניה לכל מפרט משותף ישים ולתקנים רלוונטיים או לפתרונות אחרים שבחר היצרן¹¹; הפניה להיקף ההמנעה (designation scope) של ה-EURL" },
+        { "en": "The logistics of the provision of samples and other materials (e.g. calibrators and controls) or equipment from the manufacturer to either the notified body and/or the EURL, including the need for any special storage and transport arrangements", "he": "הלוגיסטיקה של אספקת דגימות וחומרים אחרים (למשל מכיילים ובקרות) או ציוד מהיצרן אל הגוף המאונתר ו/או ה-EURL, לרבות הצורך בכל הסדר מיוחד לאחסון ולהובלה" },
+        { "en": "Special arrangements in the case of devices or specimens with exceptionally short shelf-lives or the need for special equipment.", "he": "הסדרים מיוחדים במקרה של מכשירים או פריטי בדיקה בעלי חיי מדף קצרים במיוחד או הצורך בציוד מיוחד." },
+        { "en": "Provision of batch release quality control (QC) results from the manufacturer to the notified body", "he": "אספקת תוצאות בקרת איכות (QC) של שחרור אצווה מהיצרן אל הגוף המאונתר" },
+        { "en": "Details of the information to be provided by the manufacturer to the notified body and to the EURL with each batch", "he": "פרטי המידע שעל היצרן לספק לגוף המאונתר ול-EURL עם כל אצווה" },
+        { "en": "Commitment of the manufacturer to inform the notified body if the manufacturer is to send the samples directly to the EURL", "he": "התחייבות היצרן ליידע את הגוף המאונתר אם בכוונת היצרן לשלוח את הדגימות ישירות ל-EURL" },
+        { "en": "Commitment of the manufacturer to immediately inform the notified body of any changes that may have an effect on the verification of manufactured batches. This may include changes to manufacturing, raw materials (ingredients, formulation etc), equipment, quality control, transport or storage", "he": "התחייבות היצרן ליידע מיד את הגוף המאונתר על כל שינוי העשוי להשפיע על אימות האצוות המיוצרות. הדבר עשוי לכלול שינויים בייצור, בחומרי הגלם (מרכיבים, פורמולציה וכד'), בציוד, בבקרת האיכות, בהובלה או באחסון" },
+        { "en": "Commitment of the manufacturer to inform the notified body and the EURL of any relevant scientific, technical or clinical information which has come to its knowledge, which may have an impact on the scientific or technical validity of the batch verification testing scheme. This could include, for example, information on emergence of a new variant strain for microbiological assays, or knowledge of new interfering or cross-reacting substances", "he": "התחייבות היצרן ליידע את הגוף המאונתר ואת ה-EURL על כל מידע מדעי, טכני או קליני רלוונטי שנודע לו, העשוי להשפיע על התקפות המדעית או הטכנית של תוכנית בדיקות אימות האצוות. הדבר עשוי לכלול, למשל, מידע על הופעת זן חדש (variant) עבור בדיקות מיקרוביולוגיות, או ידיעה על חומרים מפריעים או מגיבי-צולב חדשים" },
+        { "en": "Agreement of the manufacturer for the notified body to provide any relevant information to the EURL", "he": "הסכמת היצרן לכך שהגוף המאונתר יספק כל מידע רלוונטי ל-EURL" },
+        { "en": "Provision of the results and conclusions of the verification of manufactured batches from the notified body to the manufacturer, including an agreed timeframe (not more than 30 calendar days after reception of the samples)", "he": "אספקת התוצאות והמסקנות של אימות האצוות המיוצרות מהגוף המאונתר אל היצרן, לרבות פרק זמן מוסכם (לא יותר מ-30 ימים קלנדריים לאחר קבלת הדגימות)" },
+        { "en": "Financial conditions, e.g. costs for material storage and logistics", "he": "תנאים פיננסיים, למשל עלויות אחסון חומרים ולוגיסטיקה" },
+        { "en": "Contact information for communication between the notified body and the manufacturer", "he": "פרטי קשר לתקשורת בין הגוף המאונתר לבין היצרן" }
+      ]
+    },
+    {
+      "id": "sec-4-1-1-p2",
+      "type": "paragraph",
+      "en": "The manufacturer may be actively engaged in the selection of the EURL that will perform the batch testing.",
+      "he": "היצרן רשאי להיות מעורב באופן פעיל בבחירת ה-EURL שתבצע את בדיקת האצוות."
+    },
+    {
+      "id": "fn-7",
+      "type": "note",
+      "marker": "7",
+      "en": "https://ec.europa.eu/health/sites/default/files/md_sector/docs/md_mdcg_2020_guidance_classification_ivd-md_en.pdf",
+      "he": "https://ec.europa.eu/health/sites/default/files/md_sector/docs/md_mdcg_2020_guidance_classification_ivd-md_en.pdf"
+    },
+    {
+      "id": "fn-8",
+      "type": "note",
+      "marker": "8",
+      "en": "IVDR Annex VII",
+      "he": "IVDR נספח VII"
+    },
+    {
+      "id": "fn-9",
+      "type": "note",
+      "marker": "9",
+      "en": "IVDR Articles 48.5 & 100 2(a)",
+      "he": "IVDR סעיפים 48.5 ו-100 2(a)"
+    },
+    {
+      "id": "fn-10",
+      "type": "note",
+      "marker": "10",
+      "en": "IVDR Articles 48.5 & 100.2(a)",
+      "he": "IVDR סעיפים 48.5 ו-100.2(a)"
+    },
+    {
+      "id": "fn-11",
+      "type": "note",
+      "marker": "11",
+      "en": "IVDR Article 100 2(a)",
+      "he": "IVDR סעיף 100 2(a)"
+    },
+    {
+      "id": "sec-4-1-2",
+      "type": "heading",
+      "level": 3,
+      "number": "4.1.2",
+      "en": "Written contract between the notified body and the EURL",
+      "he": "חוזה בכתב בין הגוף המאונתר לבין ה-EURL"
+    },
+    {
+      "id": "sec-4-1-2-p1",
+      "type": "paragraph",
+      "en": "The written contract between the notified body and the EURL should include at least the following:",
+      "he": "החוזה בכתב בין הגוף המאונתר לבין ה-EURL צריך לכלול לכל הפחות את הדברים הבאים:"
+    },
+    {
+      "id": "sec-4-1-2-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Test plan, as approved by the EURL: Relevant and critical parameters to be tested; Samples to be tested; Specimens to be tested; Test platform and protocol used; Other specific materials provided by the manufacturer; Testing frequency; Reference to any applicable Common Specifications and relevant standards or other solutions chosen by the manufacturer; Reference to the designation scope of the EURL", "he": "תוכנית בדיקה, כפי שאושרה על ידי ה-EURL: פרמטרים רלוונטיים וקריטיים שיש לבדוק; דגימות שיש לבדוק; פריטי בדיקה שיש לבדוק; פלטפורמת הבדיקה והפרוטוקול שבשימוש; חומרים ספציפיים אחרים המסופקים על ידי היצרן; תדירות הבדיקה; הפניה לכל מפרט משותף ישים ולתקנים רלוונטיים או לפתרונות אחרים שבחר היצרן¹²; הפניה להיקף ההמנעה (designation scope) של ה-EURL" },
+        { "en": "Decision making criteria for success or failure of the batch", "he": "קריטריונים לקבלת החלטה בדבר הצלחת האצווה או כישלונה" },
+        { "en": "The logistics of the provision of samples and other materials (e.g. calibrators and controls) or equipment from the manufacturer to either the notified body and/or the EURL, including the need for any special storage and transport arrangements", "he": "הלוגיסטיקה של אספקת דגימות וחומרים אחרים (למשל מכיילים ובקרות) או ציוד מהיצרן אל הגוף המאונתר ו/או ה-EURL, לרבות הצורך בכל הסדר מיוחד לאחסון ולהובלה" },
+        { "en": "Special arrangements in the case of devices or specimens with exceptionally short shelf lives or the need for special equipment", "he": "הסדרים מיוחדים במקרה של מכשירים או פריטי בדיקה בעלי חיי מדף קצרים במיוחד או הצורך בציוד מיוחד" },
+        { "en": "Details of the information to be provided to the EURL with each batch", "he": "פרטי המידע שיש לספק ל-EURL עם כל אצווה" },
+        { "en": "Commitment of the notified body to inform the EURL of any changes that may have an effect on the verification of manufactured batches", "he": "התחייבות הגוף המאונתר ליידע את ה-EURL על כל שינוי העשוי להשפיע על אימות האצוות המיוצרות" },
+        { "en": "Commitment of the notified body to inform the EURL of any relevant scientific, technical or clinical information which has come to its knowledge, which may have an impact on the scientific or technical validity of the batch verification testing scheme. This could include, for example, information on emergence of a new variant strain for microbiological assays, or knowledge of new interfering or cross-reacting substances", "he": "התחייבות הגוף המאונתר ליידע את ה-EURL על כל מידע מדעי, טכני או קליני רלוונטי שנודע לו, העשוי להשפיע על התקפות המדעית או הטכנית של תוכנית בדיקות אימות האצוות. הדבר עשוי לכלול, למשל, מידע על הופעת זן חדש (variant) עבור בדיקות מיקרוביולוגיות, או ידיעה על חומרים מפריעים או מגיבי-צולב חדשים" },
+        { "en": "Provision of the results of the verification of manufactured batches from the EURL to the notified body", "he": "אספקת תוצאות אימות האצוות המיוצרות מה-EURL אל הגוף המאונתר" },
+        { "en": "Commitment of the notified body to provide the EURL with all of the necessary information from the conformity assessment, in order for the EURL to plan and perform the batch verification testing", "he": "התחייבות הגוף המאונתר לספק ל-EURL את כל המידע הנחוץ מהערכת ההתאמה, כדי שה-EURL תוכל לתכנן ולבצע את בדיקות אימות האצוות" },
+        { "en": "Estimated timeframe for schedule for testing and reporting of findings from the EURL (maximum 30 calendar days)", "he": "פרק זמן משוער ללוח הזמנים לבדיקה ולדיווח הממצאים מה-EURL (מקסימום 30 ימים קלנדריים)" },
+        { "en": "Provision of the EURL's opinion on performance verification by the notified body to the EURL in cases where a different EURL is to perform the batch verification testing of manufactured batches to the one involved in the initial certification", "he": "אספקת חוות הדעת של ה-EURL בדבר אימות הביצועים מהגוף המאונתר אל ה-EURL, במקרים שבהם EURL אחרת מזו שהייתה מעורבת בהסמכה הראשונית אמורה לבצע את בדיקות אימות האצוות המיוצרות" },
+        { "en": "The findings of previous sample or batch tests performed by this or other EURLs", "he": "ממצאי בדיקות דגימה או אצווה קודמות שבוצעו על ידי EURL זו או אחרות" },
+        { "en": "Testing fees according to the price list of the EURL", "he": "עמלות בדיקה בהתאם למחירון של ה-EURL" },
+        { "en": "Contact information for communication between the notified body and the EURL", "he": "פרטי קשר לתקשורת בין הגוף המאונתר לבין ה-EURL" }
+      ]
+    },
+    {
+      "id": "sec-4-1-2-p2",
+      "type": "paragraph",
+      "en": "The manufacturer may have agreements directly with an EURL for aspects such as logistics of shipment of instruments and samples or responsibility for the equipment, under the oversight of the notified body.",
+      "he": "ליצרן עשויים להיות הסכמים ישירים עם EURL בנוגע להיבטים כגון לוגיסטיקת משלוח מכשירים ודגימות או אחריות לציוד, תחת פיקוחו של הגוף המאונתר."
+    },
+    {
+      "id": "fn-12",
+      "type": "note",
+      "marker": "12",
+      "en": "IVDR Article 100 2(a)",
+      "he": "IVDR סעיף 100 2(a)"
+    },
+    {
+      "id": "sec-5",
+      "type": "heading",
+      "level": 1,
+      "number": "5",
+      "en": "The provision of samples to the EU reference laboratory",
+      "he": "אספקת דגימות למעבדת הייחוס של האיחוד האירופי"
+    },
+    {
+      "id": "sec-5-p1",
+      "type": "paragraph",
+      "en": "The notified body is required to have procedures detailing criteria to determine which products will be made available to the EURL and with which frequency.",
+      "he": "הגוף המאונתר נדרש להחזיק נהלים המפרטים קריטריונים לקביעה אילו מוצרים יועמדו לרשות ה-EURL ובאיזו תדירות."
+    },
+    {
+      "id": "sec-5-p2",
+      "type": "paragraph",
+      "en": "The frequency of sending samples of batches to the EURL should be based upon the general principle that the higher impact of device failure, the higher number of batches has to be tested.",
+      "he": "תדירות שליחת דגימות של אצוות ל-EURL צריכה להתבסס על העיקרון הכללי שלפיו ככל שהשפעת כשל המכשיר גבוהה יותר, כך יש לבדוק מספר רב יותר של אצוות."
+    },
+    {
+      "id": "sec-5-p3",
+      "type": "paragraph",
+      "en": "When determining the frequency of sending samples of batches to the EURL consideration should be given to the relative risk/impact of the device based on the type of intended use, in accordance with the table below:",
+      "he": "בעת קביעת תדירות שליחת דגימות של אצוות ל-EURL יש להתחשב בסיכון/השפעה היחסיים של המכשיר על בסיס סוג השימוש המיועד, בהתאם לטבלה שלהלן:"
+    },
+    {
+      "id": "sec-5-table1",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          { "en": "Transmissible Agents (in order of decreasing risk)", "he": "גורמים מדבקים (לפי סדר יורד של סיכון)" },
+          { "en": "Blood Grouping (in order of decreasing risk)", "he": "קביעת סוג דם (לפי סדר יורד של סיכון)" }
+        ],
+        [
+          { "en": "- First-line assays falling under the first indent of rule 1 section 2 Annex VIII: \"detection of the presence of, or exposure to, a transmissible agent in blood, blood components, cells, tissues or organs, or in any of their derivatives, in order to assess their suitability for transfusion, transplantation or cell administration\"\n- First-line assays falling under the second indent of rule 1 section 2 Annex VIII: \"detection of the presence of, or exposure to, a transmissible agent that causes a life-threatening disease with a high or suspected high risk of propagation\"\n- Confirmatory and supplemental assays\n- Devices falling under the third indent of rule 1 section 2 Annex VIII: \"determining the infectious load of a life-threatening disease where monitoring is critical in the process of patient management.\"", "he": "- בדיקות קו-ראשון הנכללות בתת-הסעיף הראשון של כלל 1 סעיף 2 נספח VIII:‏ \"גילוי נוכחותו של, או חשיפה ל-, גורם מדבק בדם, ברכיבי דם, בתאים, ברקמות או באיברים, או בכל אחד מנגזרותיהם, על מנת להעריך את התאמתם לעירוי, להשתלה או למתן תאים\"\n- בדיקות קו-ראשון הנכללות בתת-הסעיף השני של כלל 1 סעיף 2 נספח VIII:‏ \"גילוי נוכחותו של, או חשיפה ל-, גורם מדבק הגורם למחלה מסכנת חיים בעלת סיכון גבוה או חשד לסיכון גבוה להתפשטות\"\n- בדיקות אישור ובדיקות משלימות\n- מכשירים הנכללים בתת-הסעיף השלישי של כלל 1 סעיף 2 נספח VIII:‏ \"קביעת העומס הזיהומי של מחלה מסכנת חיים שבה הניטור הוא קריטי בתהליך ניהול המטופל.\"" },
+          { "en": "- ABO (risk for blood donation recipients)\n- RH1 (D) (risk of antibody stimulation)\n- Other blood groups (risk of antibody stimulation)", "he": "- ABO (סיכון למקבלי תרומות דם)\n- RH1 (D) (סיכון לעירור נוגדנים)\n- סוגי דם אחרים (סיכון לעירור נוגדנים)" }
+        ]
+      ]
+    },
+    {
+      "id": "sec-5-table1-caption",
+      "type": "paragraph",
+      "en": "Table 1: Relative risk of class D IVDs",
+      "he": "טבלה 1: סיכון יחסי של מכשירי IVD מסיווג D"
+    },
+    {
+      "id": "sec-5-1",
+      "type": "heading",
+      "level": 2,
+      "number": "5.1",
+      "en": "Determining the initial number of samples of manufactured class D devices or batches of devices to be sent to the EURLs",
+      "he": "קביעת המספר ההתחלתי של דגימות מכשירי סיווג D מיוצרים או אצוות של מכשירים שיש לשלוח ל-EURLs"
+    },
+    {
+      "id": "sec-5-1-p1",
+      "type": "paragraph",
+      "en": "For first-line assays falling under the first indent of rule 1 section 2 Annex VIII every batch has to be tested.",
+      "he": "עבור בדיקות קו-ראשון הנכללות בתת-הסעיף הראשון של כלל 1 סעיף 2 נספח VIII יש לבדוק כל אצווה."
+    },
+    {
+      "id": "sec-5-1-p2",
+      "type": "paragraph",
+      "en": "For other devices, the number of batches to be initially tested should be determined by the notified body. The notified body will take into account the batch-testing regime defined by the manufacturer and the views expressed in the scientific opinion of the EURL, and, where applicable, the views expressed by the experts consulted pursuant to Article 48(6) following tables 2-3 below. This number should also be pre-agreed with the EURL. The number may be determined using a risk-based approach based upon a risk analysis developed by the manufacturer and verified by the notified body. This analysis may take the following parameters into account (not an exhaustive list):",
+      "he": "עבור מכשירים אחרים, על הגוף המאונתר לקבוע את מספר האצוות שייבדקו בתחילה. הגוף המאונתר יביא בחשבון את משטר בדיקת האצוות שהגדיר היצרן ואת העמדות שהובעו בחוות הדעת המדעית של ה-EURL, ובמקרים הרלוונטיים את העמדות שהובעו על ידי המומחים שעמם נועצו בהתאם לסעיף 48(6), בהתאם לטבלאות 2–3 שלהלן. יש להסכים על מספר זה מראש גם עם ה-EURL. ניתן לקבוע את המספר באמצעות גישה מבוססת-סיכון על בסיס ניתוח סיכונים שפיתח היצרן ואומת על ידי הגוף המאונתר. ניתוח זה עשוי להביא בחשבון את הפרמטרים הבאים (אין זו רשימה ממצה):"
+    },
+    {
+      "id": "sec-5-1-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Number of batches produced per year", "he": "מספר האצוות המיוצרות בשנה" },
+        { "en": "Batch release data from previous lots", "he": "נתוני שחרור אצוות מאצוות קודמות" },
+        { "en": "Design and technology of the device", "he": "תכנון וטכנולוגיית המכשיר" },
+        { "en": "Any changes that may have an effect on the verification of manufactured batches. This may include changes to manufacturing, equipment, quality control, transport or storage", "he": "כל שינוי העשוי להשפיע על אימות האצוות המיוצרות. הדבר עשוי לכלול שינויים בייצור, בציוד, בבקרת האיכות, בהובלה או באחסון" },
+        { "en": "Devices with short expiry date (e.g. for blood group tests)", "he": "מכשירים בעלי תאריך תפוגה קצר (למשל לבדיקות סוג דם)" },
+        { "en": "Batch size", "he": "גודל האצווה" }
+      ]
+    },
+    {
+      "id": "sec-5-1-p3",
+      "type": "paragraph",
+      "en": "Within a batch, the number of samples to be tested also has to be defined and pre-agreed with the aforementioned three parties.",
+      "he": "בתוך אצווה, יש להגדיר גם את מספר הדגימות שייבדקו ולהסכים עליו מראש עם שלושת הצדדים הנזכרים לעיל."
+    },
+    {
+      "id": "sec-5-2",
+      "type": "heading",
+      "level": 2,
+      "number": "5.2",
+      "en": "Re-assessment of the testing frequency",
+      "he": "הערכה מחדש של תדירות הבדיקה"
+    },
+    {
+      "id": "sec-5-2-p1",
+      "type": "paragraph",
+      "en": "With a demonstrated history of appropriate performance the notified body, in collaboration with the EURL, could agree to the frequency of testing being reduced. Therefore, the notified body should regularly review the manufacturer's risk analysis, the conclusions of which may lead to a modification of the testing frequency. Any adaptations to the testing frequency should be appropriately documented and justified by the notified body taking at least the following into account:",
+      "he": "כאשר קיימת היסטוריה מוכחת של ביצועים נאותים, הגוף המאונתר, בשיתוף עם ה-EURL, רשאי להסכים להפחתת תדירות הבדיקה. לפיכך, על הגוף המאונתר לבחון באופן סדיר את ניתוח הסיכונים של היצרן, אשר מסקנותיו עשויות להוביל לשינוי תדירות הבדיקה. כל התאמה של תדירות הבדיקה צריכה להיות מתועדת ומנומקת כראוי על ידי הגוף המאונתר, תוך התחשבות לכל הפחות בדברים הבאים:"
+    },
+    {
+      "id": "sec-5-2-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Batch release data from the manufacturer and EURL", "he": "נתוני שחרור אצוות מהיצרן ומה-EURL" },
+        { "en": "Manufacturers' quality control release system", "he": "מערכת שחרור בקרת האיכות של היצרנים" },
+        { "en": "Information related to production process changes", "he": "מידע הקשור לשינויים בתהליך הייצור" },
+        { "en": "Post market surveillance data", "he": "נתוני מעקב שלאחר שיווק" },
+        { "en": "The risk and the impact of device failure", "he": "הסיכון וההשפעה של כשל המכשיר" },
+        { "en": "Availability of common specifications", "he": "זמינות מפרטים משותפים" },
+        { "en": "Technical characteristics of the product", "he": "מאפיינים טכניים של המוצר" },
+        { "en": "Stability of the devices", "he": "יציבות המכשירים" },
+        { "en": "Shelf life of the devices", "he": "חיי המדף של המכשירים" }
+      ]
+    },
+    {
+      "id": "sec-5-2-p2",
+      "type": "paragraph",
+      "en": "In cases of control failure or substantial product modification, the initial testing frequency should be applied again.",
+      "he": "במקרים של כשל בקרה או שינוי מהותי במוצר, יש ליישם מחדש את תדירות הבדיקה ההתחלתית."
+    },
+    {
+      "id": "sec-5-3",
+      "type": "heading",
+      "level": 2,
+      "number": "5.3",
+      "en": "Testing frequency:",
+      "he": "תדירות בדיקה:"
+    },
+    {
+      "id": "sec-5-3-p1",
+      "type": "paragraph",
+      "en": "The testing frequency for each group of class D IVDs should be determined using the following possible options:",
+      "he": "תדירות הבדיקה עבור כל קבוצה של מכשירי IVD מסיווג D צריכה להיקבע באמצעות האפשרויות האפשריות הבאות:"
+    },
+    {
+      "id": "sec-5-3-table2",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          { "en": "Transmissible agents", "he": "גורמים מדבקים" },
+          { "en": "Initial testing", "he": "בדיקה התחלתית" },
+          { "en": "Adjusting the frequency", "he": "התאמת התדירות" }
+        ],
+        [
+          { "en": "First-line assays falling under the first indent of rule 1 section 2 Annex VIII", "he": "בדיקות קו-ראשון הנכללות בתת-הסעיף הראשון של כלל 1 סעיף 2 נספח VIII" },
+          { "en": "Every batch", "he": "כל אצווה" },
+          { "en": "No possibility of adjusting testing frequency", "he": "אין אפשרות להתאים את תדירות הבדיקה" }
+        ],
+        [
+          { "en": "First-line assays falling under the second indent of rule 1 section 2 Annex VIII; Confirmatory and supplementary assays; Devices falling under the third indent of rule 1 section 2 Annex VIII", "he": "בדיקות קו-ראשון הנכללות בתת-הסעיף השני של כלל 1 סעיף 2 נספח VIII; בדיקות אישור ובדיקות משלימות; מכשירים הנכללים בתת-הסעיף השלישי של כלל 1 סעיף 2 נספח VIII" },
+          { "en": "5 to 10 batches depending of the relative risk of the device", "he": "5 עד 10 אצוות בהתאם לסיכון היחסי של המכשיר" },
+          { "en": "At least 1 out of 5 batches randomly chosen by NB (calculated on the basis of the number of lots produced the previous year) AND At least 1 batch/year", "he": "לכל הפחות 1 מתוך 5 אצוות שייבחרו אקראית על ידי הגוף המאונתר (מחושב על בסיס מספר האצוות שיוצרו בשנה הקודמת) וכן לכל הפחות אצווה אחת בשנה" }
+        ]
+      ]
+    },
+    {
+      "id": "sec-5-3-table2-caption",
+      "type": "paragraph",
+      "en": "Table 2: Frequency of testing class D IVDs for transmissible agents",
+      "he": "טבלה 2: תדירות בדיקת מכשירי IVD מסיווג D עבור גורמים מדבקים"
+    },
+    {
+      "id": "sec-5-3-table3",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          { "en": "Blood grouping", "he": "קביעת סוג דם" },
+          { "en": "Initial testing", "he": "בדיקה התחלתית" },
+          { "en": "Adjusting possibility", "he": "אפשרות התאמה" }
+        ],
+        [
+          { "en": "ABO determination; RH1 (D)", "he": "קביעת ABO; RH1 (D)" },
+          { "en": "5 to 10 batches (depending of the number of batches produced per year)", "he": "5 עד 10 אצוות (בהתאם למספר האצוות המיוצרות בשנה)" },
+          { "en": "At least 1/5 batches randomly chosen by NB (calculated on the basis of the number of lots produced the previous year) AND At least 1 batch/year", "he": "לכל הפחות 1/5 מהאצוות שייבחרו אקראית על ידי הגוף המאונתר (מחושב על בסיס מספר האצוות שיוצרו בשנה הקודמת) וכן לכל הפחות אצווה אחת בשנה" }
+        ],
+        [
+          { "en": "Other blood groups; Red blood cell reagents (due to very short shelf-life of red blood cells, batches can be released by manufacturer based upon their quality control results before EURL results)", "he": "סוגי דם אחרים; ריאגנטים לתאי דם אדומים (בשל חיי המדף הקצרים מאוד של תאי דם אדומים, ניתן לשחרר אצוות על ידי היצרן על בסיס תוצאות בקרת האיכות שלו לפני תוצאות ה-EURL)" },
+          { "en": "Initially one batch (subsequent batches released on basis of quality control data of manufacturer)", "he": "בתחילה אצווה אחת (אצוות נוספות משוחררות על בסיס נתוני בקרת האיכות של היצרן)" },
+          { "en": "At least 1/5 batches randomly chosen by NB (calculated on the basis of the number of lots produced the previous year) AND At least 1 batch/year (Testing frequency of less than 1/5 may be appropriate for red blood cells if justified and agreed between the NB and EURL.)", "he": "לכל הפחות 1/5 מהאצוות שייבחרו אקראית על ידי הגוף המאונתר (מחושב על בסיס מספר האצוות שיוצרו בשנה הקודמת) וכן לכל הפחות אצווה אחת בשנה (תדירות בדיקה הנמוכה מ-1/5 עשויה להיות מתאימה לתאי דם אדומים אם הדבר מנומק ומוסכם בין הגוף המאונתר לבין ה-EURL.)" }
+        ]
+      ]
+    },
+    {
+      "id": "sec-5-3-table3-caption",
+      "type": "paragraph",
+      "en": "Table 3: Frequency of testing class D IVDs for blood grouping",
+      "he": "טבלה 3: תדירות בדיקת מכשירי IVD מסיווג D עבור קביעת סוג דם"
+    },
+    {
+      "id": "sec-5-3-note",
+      "type": "note",
+      "en": "Note: Calibrators and controls placed on the market separately should follow the testing frequency of the corresponding device(s)/reagent(s). Device/reagent-specific controls placed on the market separately and intended for use with IVDs falling in the first indent of rule 1 in Annex VIII of the IVDR may follow the adjustable testing frequency set out in the second line of Table 2.",
+      "he": "הערה: מכיילים ובקרות המועמדים בשוק בנפרד צריכים לעקוב אחר תדירות הבדיקה של המכשיר(ים)/הריאגנט(ים) המתאימים. בקרות ספציפיות למכשיר/ריאגנט המועמדות בשוק בנפרד והמיועדות לשימוש עם מכשירי IVD הנכללים בתת-הסעיף הראשון של כלל 1 בנספח VIII של ה-IVDR רשאיות לעקוב אחר תדירות הבדיקה הניתנת להתאמה המפורטת בשורה השנייה של טבלה 2."
+    },
+    {
+      "id": "sec-6",
+      "type": "heading",
+      "level": 1,
+      "number": "6",
+      "en": "Notified body verification of batches of Class D IVDs",
+      "he": "אימות אצוות של מכשירי IVD מסיווג D על ידי הגוף המאונתר"
+    },
+    {
+      "id": "sec-6-p1",
+      "type": "paragraph",
+      "en": "Notified bodies are responsible for conducting the verification of batches of manufactured class D IVDs that is performed following review of the manufacturer's QC release data and the findings from the EURL.",
+      "he": "הגופים המאונתרים אחראים לביצוע אימות האצוות של מכשירי IVD מתוצרת סיווג D¹³, המתבצע בעקבות בחינת נתוני שחרור בקרת האיכות (QC) של היצרן והממצאים מה-EURL."
+    },
+    {
+      "id": "sec-6-p2",
+      "type": "paragraph",
+      "en": "In relation to the review of the manufacturer's QC test reports from each batch, the minimum aspects to be checked by the notified body are as follows:",
+      "he": "בנוגע לבחינת דוחות בדיקות בקרת האיכות (QC) של היצרן מכל אצווה¹⁴, ההיבטים המינימליים שעל הגוף המאונתר לבדוק הם כדלקמן:"
+    },
+    {
+      "id": "sec-6-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Verification based on relevant raw data (Data output plus indicating valid/invalid/passed/not passed)", "he": "אימות על בסיס נתונים גולמיים רלוונטיים (פלט נתונים בתוספת ציון תקף/לא תקף/עבר/לא עבר)" },
+        { "en": "In case of blind testing, verification that the results provided by manufacturer are in accordance with expected results", "he": "במקרה של בדיקה עיוורת, אימות שהתוצאות שסיפק היצרן תואמות לתוצאות הצפויות" },
+        { "en": "The decision making criteria for success or failure of the batch", "he": "הקריטריונים לקבלת החלטה בדבר הצלחת האצווה או כישלונה" }
+      ]
+    },
+    {
+      "id": "sec-6-p3",
+      "type": "paragraph",
+      "en": "The notified body should clearly document the outcome of its assessment of the manufacturer's data and EURL's findings.",
+      "he": "על הגוף המאונתר לתעד באופן ברור את תוצאות הערכתו לנתוני היצרן ולממצאי ה-EURL."
+    },
+    {
+      "id": "sec-6-p4",
+      "type": "paragraph",
+      "en": "The notified body and the manufacturer will have agreed a timeframe (of not later than 30 calendar days after reception of the samples) for the communication of the decision of the notified body or any condition imposed by the notified body. Following this verification procedure, manufacturers may place class D IVDs on the market unless the notified body communicates to the manufacturer within this agreed timeframe of any other decision.",
+      "he": "הגוף המאונתר והיצרן יסכימו על פרק זמן (שלא יאוחר מ-30 ימים קלנדריים לאחר קבלת הדגימות¹⁵) למסירת החלטת הגוף המאונתר או כל תנאי שהוטל על ידי הגוף המאונתר. בעקבות הליך אימות זה, רשאים היצרנים להעמיד מכשירי IVD מסיווג D בשוק, אלא אם כן הגוף המאונתר מודיע ליצרן בתוך פרק הזמן המוסכם הזה על כל החלטה אחרת¹⁶."
+    },
+    {
+      "id": "fn-13",
+      "type": "note",
+      "marker": "13",
+      "en": "IVDR Article 48 & Annex VII section 4.5.3",
+      "he": "IVDR סעיף 48 ונספח VII סעיף 4.5.3"
+    },
+    {
+      "id": "fn-14",
+      "type": "note",
+      "marker": "14",
+      "en": "IVDR Annex IX section 4.12 & Annex XI section 5.1",
+      "he": "IVDR נספח IX סעיף 4.12 ונספח XI סעיף 5.1"
+    },
+    {
+      "id": "fn-15",
+      "type": "note",
+      "marker": "15",
+      "en": "IVDR Annex IX section 4.13 & Annex XI section 5.2",
+      "he": "IVDR נספח IX סעיף 4.13 ונספח XI סעיף 5.2"
+    },
+    {
+      "id": "fn-16",
+      "type": "note",
+      "marker": "16",
+      "en": "IVDR Annex IX section 4.12 & Annex XI section 5.2",
+      "he": "IVDR נספח IX סעיף 4.12 ונספח XI סעיף 5.2"
+    }
+  ]
+}
