@@ -1,0 +1,1004 @@
+{
+  "id": "MDCG-2024-11",
+  "title": {
+    "en": "Guidance on qualification of in vitro diagnostic medical devices",
+    "he": "הנחיה בנושא סיווג (qualification) של מכשירים רפואיים לאבחון in vitro"
+  },
+  "category": "In Vitro Diagnostic Medical Devices (IVD)",
+  "publicationDate": "2024-10",
+  "source": {
+    "url": "https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en",
+    "file": "original/mdcg_2024-11_en.pdf"
+  },
+  "language": "he",
+  "direction": "rtl",
+  "translationStatus": "review",
+  "glossaryVersion": "2026-06",
+  "blocks": [
+    {
+      "id": "disclaimer-1",
+      "type": "paragraph",
+      "en": "This document has been endorsed by the Medical Device Coordination Group (MDCG) established by Article 103 of Regulation (EU) 2017/745. The MDCG is composed of representatives of all Member States and it is chaired by a representative of the European Commission.",
+      "he": "מסמך זה אושר על ידי קבוצת תיאום המכשירים הרפואיים (MDCG) שהוקמה מכוח סעיף 103 לתקנה (האיחוד האירופי) 2017/745. ה-MDCG מורכבת מנציגים של כל המדינות החברות ובראשה עומד נציג של הנציבות האירופית."
+    },
+    {
+      "id": "disclaimer-2",
+      "type": "paragraph",
+      "en": "The document is not a European Commission document and it cannot be regarded as reflecting the official position of the European Commission. Any views expressed in this document are not legally binding and only the Court of Justice of the European Union can give binding interpretations of Union law.",
+      "he": "המסמך אינו מסמך של הנציבות האירופית ואין לראות בו כמשקף את העמדה הרשמית של הנציבות האירופית. כל דעה המובעת במסמך זה אינה מחייבת מבחינה משפטית, ורק בית הדין לצדק של האיחוד האירופי מוסמך לתת פרשנות מחייבת לדין האיחוד."
+    },
+
+    {
+      "id": "toc-heading",
+      "type": "heading",
+      "level": 1,
+      "en": "Table of contents",
+      "he": "תוכן העניינים"
+    },
+    {
+      "id": "toc-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Introduction", "he": "מבוא" },
+        { "en": "1. General principles of qualification", "he": "1. עקרונות כלליים לסיווג (qualification)" },
+        { "en": "1.1. Definition of a medical device and an in vitro diagnostic medical device (IVD)", "he": "1.1. הגדרת מכשיר רפואי ומכשיר רפואי לאבחון in vitro (IVD)" },
+        { "en": "1.2 Essential characteristics of an IVD", "he": "1.2 מאפיינים מהותיים של IVD" },
+        { "en": "2. Specific qualification topics", "he": "2. נושאי סיווג ספציפיים" },
+        { "en": "2.1. Accessories", "he": "2.1. אביזרים" },
+        { "en": "2.2. Specimen receptacles and products used for the collection of specimens", "he": "2.2. מכלי דגימה ומוצרים המשמשים לאיסוף דגימות" },
+        { "en": "2.2.1. Specimen receptacles", "he": "2.2.1. מכלי דגימה" },
+        { "en": "2.2.2. Products used for the collection of specimens", "he": "2.2.2. מוצרים המשמשים לאיסוף דגימות" },
+        { "en": "2.3. Devices where no specimen is involved", "he": "2.3. מכשירים שבהם לא מעורבת דגימה" },
+        { "en": "2.4. Products for general laboratory use", "he": "2.4. מוצרים לשימוש מעבדתי כללי" },
+        { "en": "2.5. Products for research use only", "he": "2.5. מוצרים למחקר בלבד" },
+        { "en": "2.6. Combinations of products placed on the market together", "he": "2.6. שילובים של מוצרים המוצבים בשוק יחד" },
+        { "en": "2.6.1 IVD kits", "he": "2.6.1 ערכות IVD" },
+        { "en": "2.6.2 Devices incorporating, as an integral part, a medical device", "he": "2.6.2 מכשירים המשלבים, כחלק בלתי נפרד, מכשיר רפואי" },
+        { "en": "2.7. Calibrators and control materials", "he": "2.7. מכיילים וחומרי בקרה" },
+        { "en": "2.8. Software", "he": "2.8. תוכנה" },
+        { "en": "2.9. Microbiological culture media", "he": "2.9. מצעי גידול מיקרוביולוגיים" },
+        { "en": "2.10. Stains", "he": "2.10. צבענים" },
+        { "en": "2.11. Tests intended to be used in manufacturing process control", "he": "2.11. בדיקות המיועדות לשימוש בבקרת תהליך ייצור" },
+        { "en": "2.12. Tests intended to be used in the context of biological or chemical warfare", "he": "2.12. בדיקות המיועדות לשימוש בהקשר של לוחמה ביולוגית או כימית" },
+        { "en": "2.13. Tests to be used in law enforcement", "he": "2.13. בדיקות לשימוש באכיפת חוק" },
+        { "en": "2.14. Relation with Regulation (EU) No 528/2012 on biocidal products", "he": "2.14. הקשר עם תקנה (האיחוד האירופי) מס' 528/2012 בנושא מוצרים ביוצידיים" }
+      ]
+    },
+
+    {
+      "id": "intro-heading",
+      "type": "heading",
+      "level": 1,
+      "en": "Introduction",
+      "he": "מבוא"
+    },
+    {
+      "id": "intro-p1",
+      "type": "paragraph",
+      "en": "The purpose of this guidance document is to clarify what products fall in scope of Regulation 2017/746 on in vitro diagnostic medical devices (IVDR) – also referred to as ‘qualification’ as an in vitro diagnostic medical device (IVD) or an accessory to an IVD. In order to be qualified as an IVD or an accessory to an IVD, the product must fulfil the definition in Art 2(2) or Art 2(4) of the IVDR respectively. The qualification depends on the intended purpose as described by the manufacturer.",
+      "he": "מטרת מסמך הנחיה זה היא להבהיר אילו מוצרים נכללים בתחולת תקנה 2017/746 בנושא מכשירים רפואיים לאבחון in vitro (IVDR) – המכונה גם 'סיווג' (qualification) כמכשיר רפואי לאבחון in vitro (IVD) או כאביזר ל-IVD. כדי שמוצר יסווג כ-IVD או כאביזר ל-IVD, עליו לעמוד בהגדרה שבסעיף 2(2) או בסעיף 2(4) ל-IVDR, בהתאמה. הסיווג תלוי במטרה המיועדת כפי שתוארה על ידי היצרן."
+    },
+    {
+      "id": "intro-p2",
+      "type": "paragraph",
+      "en": "The demarcation between the IVDR and Regulation (EU) 2017/745 on medical devices (MDR) is of particular importance because the MDR lays down in its article 1 that it shall not apply to in vitro diagnostic medical devices (IVDs).",
+      "he": "ההבחנה בין ה-IVDR לבין תקנה (האיחוד האירופי) 2017/745 בנושא מכשירים רפואיים (MDR) חשובה במיוחד, משום שה-MDR קובע בסעיף 1 שלו כי הוא לא יחול על מכשירים רפואיים לאבחון in vitro (IVDs)."
+    },
+    {
+      "id": "intro-p3",
+      "type": "paragraph",
+      "en": "The present guidance document provides non-exhaustive lists of examples of IVDs and accessories to IVDs. Further detailed examples may be found in the Manual on Borderline and Classification in the Community Regulatory framework for medical devices. The reader could also find it useful to consult MDCG 2019-11 “Guidance on Qualification and Classification of Software in Regulation (EU) 2017/745 – MDR and Regulation (EU) 2017/746 – IVDR”. Both documents are published on the European Commission website¹.",
+      "he": "מסמך הנחיה זה מספק רשימות לא ממצות של דוגמאות ל-IVDs ולאביזרים ל-IVDs. דוגמאות מפורטות נוספות ניתן למצוא ב-Manual on Borderline and Classification in the Community Regulatory framework for medical devices (מדריך לגבולות ולסיווג במסגרת הרגולטורית הקהילתית למכשירים רפואיים). לקורא עשוי להיות מועיל לעיין גם ב-MDCG 2019-11 \"Guidance on Qualification and Classification of Software in Regulation (EU) 2017/745 – MDR and Regulation (EU) 2017/746 – IVDR\". שני המסמכים מתפרסמים באתר האינטרנט של הנציבות האירופית¹."
+    },
+    {
+      "id": "intro-p4",
+      "type": "paragraph",
+      "en": "The examples provided are indicative and the qualification of specific products should be considered on a case-by-case basis by each manufacturer based on their intended purpose. Thus, products detecting or measuring the same analyte could be qualified differently, depending on the intended purposes as assigned by each manufacturer.",
+      "he": "הדוגמאות המובאות הן אינדיקטיביות, ועל כל יצרן לשקול את סיווג המוצרים הספציפיים על בסיס כל מקרה לגופו, בהתאם למטרה המיועדת שלהם. כך, מוצרים המגלים או מודדים את אותו אנליט עשויים להיות מסווגים באופן שונה, בהתאם למטרות המיועדות שהוקצו על ידי כל יצרן."
+    },
+    {
+      "id": "fn-1",
+      "type": "note",
+      "marker": "1",
+      "en": "See Medical Device Coordination Group guidance documents here: https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en#sec1",
+      "he": "ראו את מסמכי ההנחיה של קבוצת תיאום המכשירים הרפואיים כאן: https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en#sec1"
+    },
+
+    {
+      "id": "sec-1",
+      "type": "heading",
+      "level": 1,
+      "number": "1",
+      "en": "General principles of qualification",
+      "he": "עקרונות כלליים לסיווג (qualification)"
+    },
+    {
+      "id": "sec-1-p1",
+      "type": "paragraph",
+      "en": "In deciding on whether a product falls within the scope of the IVDR, the primary considerations are the provisions and definitions set out in Articles 1 and 2 of the IVDR.",
+      "he": "בעת ההכרעה האם מוצר נכלל בתחולת ה-IVDR, השיקולים העיקריים הם ההוראות וההגדרות המפורטות בסעיפים 1 ו-2 ל-IVDR."
+    },
+    {
+      "id": "sec-1-1",
+      "type": "heading",
+      "level": 2,
+      "number": "1.1",
+      "en": "Definitions of a medical device and an in vitro diagnostic medical device (IVD)",
+      "he": "הגדרות של מכשיר רפואי ושל מכשיר רפואי לאבחון in vitro (IVD)"
+    },
+    {
+      "id": "sec-1-1-p1",
+      "type": "paragraph",
+      "en": "Article 2 (2) of the IVDR defines an IVD as:",
+      "he": "סעיף 2(2) ל-IVDR מגדיר IVD כדלקמן:"
+    },
+    {
+      "id": "sec-1-1-ivd-def",
+      "type": "paragraph",
+      "en": "“‘in vitro diagnostic medical device’ means any medical device which is a reagent, reagent product, calibrator, control material, kit, instrument, apparatus, piece of equipment, software or system, whether used alone or in combination, intended by the manufacturer to be used in vitro for the examination of specimens, including blood and tissue donations, derived from the human body, solely or principally for the purpose of providing information on one or more of the following:",
+      "he": "\"'מכשיר רפואי לאבחון in vitro' (in vitro diagnostic medical device) פירושו כל מכשיר רפואי שהוא ריאגנט, מוצר ריאגנט, מכייל (calibrator), חומר בקרה (control material), ערכה (kit), מכשיר, התקן, פריט ציוד, תוכנה או מערכת, בין אם הוא משמש לבדו ובין אם בשילוב, המיועד על ידי היצרן לשימוש in vitro לבחינת דגימות, לרבות תרומות דם ורקמות, הנגזרות מגוף האדם, אך ורק או בעיקר לצורך מתן מידע בנוגע לאחד או יותר מהבאים:"
+    },
+    {
+      "id": "sec-1-1-ivd-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "(a) concerning a physiological or pathological process or state;", "he": "(a) בנוגע לתהליך או מצב פיזיולוגי או פתולוגי;" },
+        { "en": "(b) concerning congenital physical or mental impairments;", "he": "(b) בנוגע לליקויים פיזיים או נפשיים מולדים;" },
+        { "en": "(c) concerning the predisposition to a medical condition or a disease;", "he": "(c) בנוגע לנטייה למצב רפואי או למחלה;" },
+        { "en": "(d) to determine the safety and compatibility with potential recipients;", "he": "(d) לקביעת הבטיחות וההתאמה עם מקבלים פוטנציאליים;" },
+        { "en": "(e) to predict treatment response or reactions;", "he": "(e) לחיזוי תגובה לטיפול או תגובות;" },
+        { "en": "(f) to define or monitoring therapeutic measures.", "he": "(f) להגדרה או לניטור של אמצעים טיפוליים." }
+      ]
+    },
+    {
+      "id": "sec-1-1-ivd-def2",
+      "type": "paragraph",
+      "en": "Specimen receptacles shall also be deemed to be in vitro diagnostic medical devices.”",
+      "he": "מכלי דגימה (specimen receptacles) ייחשבו אף הם למכשירים רפואיים לאבחון in vitro.\""
+    },
+    {
+      "id": "sec-1-1-p2",
+      "type": "paragraph",
+      "en": "Article 2(1) of the MDR defines a medical device as:",
+      "he": "סעיף 2(1) ל-MDR מגדיר מכשיר רפואי כדלקמן:"
+    },
+    {
+      "id": "sec-1-1-md-def",
+      "type": "paragraph",
+      "en": "“‘medical device’ means any instrument, apparatus, appliance, software, implant, reagent, material or other article intended by the manufacturer to be used, alone or in combination, for human beings for one or more of the following specific medical purposes:",
+      "he": "\"'מכשיר רפואי' (medical device) פירושו כל מכשיר, התקן, מתקן, תוכנה, שתל, ריאגנט, חומר או פריט אחר המיועד על ידי היצרן לשימוש, לבדו או בשילוב, בבני אדם, לאחת או יותר מהמטרות הרפואיות הספציפיות הבאות:"
+    },
+    {
+      "id": "sec-1-1-md-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "diagnosis, prevention, monitoring, prediction, prognosis, treatment or alleviation of disease,", "he": "אבחון, מניעה, ניטור, חיזוי, פרוגנוזה, טיפול או הקלה של מחלה," },
+        { "en": "diagnosis, monitoring, treatment, alleviation of, or compensation for, an injury or disability,", "he": "אבחון, ניטור, טיפול, הקלה של פציעה או מוגבלות, או פיצוי עליהן," },
+        { "en": "investigation, replacement or modification of the anatomy or of a physiological or pathological process or state,", "he": "חקירה, החלפה או שינוי של האנטומיה או של תהליך או מצב פיזיולוגי או פתולוגי," },
+        { "en": "providing information by means of in vitro examination of specimens derived from the human body, including organ, blood and tissue donations, and which does not achieve its principal intended action by pharmacological, immunological or metabolic means, in or on the human body, but which may be assisted in its function by such means.", "he": "מתן מידע באמצעות בחינה in vitro של דגימות הנגזרות מגוף האדם, לרבות תרומות איברים, דם ורקמות, ואשר אינו משיג את פעולתו העיקרית המיועדת באמצעים פרמקולוגיים, אימונולוגיים או מטבוליים, בתוך גוף האדם או על גביו, אך אשר תפקודו עשוי להיתמך באמצעים כאלה." }
+      ]
+    },
+    {
+      "id": "sec-1-1-md-def2",
+      "type": "paragraph",
+      "en": "The following products shall also be deemed to be medical devices:",
+      "he": "המוצרים הבאים ייחשבו אף הם למכשירים רפואיים:"
+    },
+    {
+      "id": "sec-1-1-md-list2",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "devices for the control or support of conception;", "he": "מכשירים לבקרה או לתמיכה בהפריה (conception);" },
+        { "en": "products specifically intended for the cleaning, disinfection or sterilisation of devices as referred to in Article 1(4) and of those referred to in the first paragraph of this point.”", "he": "מוצרים המיועדים באופן ספציפי לניקוי, חיטוי או עיקור של מכשירים כמתואר בסעיף 1(4) ושל אלה הנזכרים בפסקה הראשונה של נקודה זו.\"" }
+      ]
+    },
+    {
+      "id": "sec-1-2",
+      "type": "heading",
+      "level": 2,
+      "number": "1.2",
+      "en": "Essential characteristics of an IVD",
+      "he": "מאפיינים מהותיים של IVD"
+    },
+    {
+      "id": "sec-1-2-p1",
+      "type": "paragraph",
+      "en": "The essential characteristics of an IVD are that:",
+      "he": "המאפיינים המהותיים של IVD הם כי:"
+    },
+    {
+      "id": "sec-1-2-a-p",
+      "type": "paragraph",
+      "en": "a) An IVD can be a reagent, reagent product, calibrator, control material, kit, instrument, apparatus, piece of equipment, software or system.",
+      "he": "a) IVD יכול להיות ריאגנט, מוצר ריאגנט, מכייל, חומר בקרה, ערכה, מכשיר, התקן, פריט ציוד, תוכנה או מערכת."
+    },
+    {
+      "id": "sec-1-2-a-note",
+      "type": "paragraph",
+      "en": "Animals used for diagnostic purposes, e.g. dogs used for detection of cancer are not IVDs.",
+      "he": "בעלי חיים המשמשים למטרות אבחון, למשל כלבים המשמשים לגילוי סרטן, אינם IVDs."
+    },
+    {
+      "id": "sec-1-2-b-p",
+      "type": "paragraph",
+      "en": "b) The IVD may be intended to be used either alone or in combination with other devices or products.",
+      "he": "b) ה-IVD עשוי להיות מיועד לשימוש לבדו או בשילוב עם מכשירים או מוצרים אחרים."
+    },
+    {
+      "id": "sec-1-2-c-p",
+      "type": "paragraph",
+      "en": "c) The IVD is used in vitro² for the examination of a specimen derived from the human body.",
+      "he": "c) ה-IVD משמש in vitro² לבחינת דגימה הנגזרת מגוף האדם."
+    },
+    {
+      "id": "sec-1-2-c-note1",
+      "type": "paragraph",
+      "en": "The specimen is never reintroduced into the body.",
+      "he": "הדגימה לעולם אינה מוחזרת אל הגוף."
+    },
+    {
+      "id": "sec-1-2-c-note2",
+      "type": "paragraph",
+      "en": "Note: if no specimen is involved, or if the examination takes place in or on the human body (in vivo), the devices intended to be used for this examination are not IVDs (see section 2.2.2 and 2.3).",
+      "he": "הערה: אם אין מעורבת דגימה, או אם הבחינה מתבצעת בתוך גוף האדם או על גביו (in vivo), המכשירים המיועדים לשמש לבחינה זו אינם IVDs (ראו סעיפים 2.2.2 ו-2.3)."
+    },
+    {
+      "id": "sec-1-2-d-p",
+      "type": "paragraph",
+      "en": "d) The IVD is used in vitro for the examination of a specimen derived from the human body.",
+      "he": "d) ה-IVD משמש in vitro לבחינת דגימה הנגזרת מגוף האדם."
+    },
+    {
+      "id": "sec-1-2-d-note",
+      "type": "paragraph",
+      "en": "Devices for detection of pathological agents in the environment or in animals (e.g. detection of Borrelia in the tick that has bitten a patient to aid the diagnosis of Lyme disease) or devices used in veterinary diagnostics (e.g. for the detection of SARS-CoV-2 or cancer in canines or bovine spongiform encephalopathy in cows) are not IVDs.",
+      "he": "מכשירים לגילוי גורמים פתולוגיים בסביבה או בבעלי חיים (למשל גילוי Borrelia בקרצייה שנשכה מטופל, כסיוע לאבחון מחלת ליים) או מכשירים המשמשים באבחון וטרינרי (למשל לגילוי SARS-CoV-2 או סרטן בכלבים, או אנצפלופתיה ספוגיפורמית בקר בפרות) אינם IVDs."
+    },
+    {
+      "id": "sec-1-2-e-p",
+      "type": "paragraph",
+      "en": "e) The principal intended purpose of an IVD is to solely or principally provide information for one or more medical purposes as follows:",
+      "he": "e) המטרה המיועדת העיקרית של IVD היא לספק, אך ורק או בעיקר, מידע לאחת או יותר מהמטרות הרפואיות כדלקמן:"
+    },
+    {
+      "id": "fn-2",
+      "type": "note",
+      "marker": "2",
+      "en": "In this context, ‘in vitro’ means not in contact with the human body.",
+      "he": "בהקשר זה, 'in vitro' פירושו ללא מגע עם גוף האדם."
+    },
+    {
+      "id": "sec-1-2-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          { "en": "Information:", "he": "מידע:" },
+          { "en": "Examples:", "he": "דוגמאות:" }
+        ],
+        [
+          { "en": "Concerning a physiological process or state", "he": "בנוגע לתהליך או מצב פיזיולוגי" },
+          { "en": "e.g. devices intended for detection of menopause, ovulation or pregnancy", "he": "למשל מכשירים המיועדים לגילוי גיל המעבר, ביוץ או היריון" }
+        ],
+        [
+          { "en": "Concerning a pathological process or state", "he": "בנוגע לתהליך או מצב פתולוגי" },
+          { "en": "e.g. a self-test for HIV screening, devices for screening or staging of cancer, device for identification of IgG antibodies against Helicobacter pylori", "he": "למשל בדיקה עצמית לסקירת HIV, מכשירים לסקירה או לקביעת שלב (staging) של סרטן, מכשיר לזיהוי נוגדני IgG כנגד Helicobacter pylori" }
+        ],
+        [
+          { "en": "Concerning congenital physical or mental impairments", "he": "בנוגע לליקויים פיזיים או נפשיים מולדים" },
+          { "en": "e.g. devices intended for evaluating the risk of trisomy 21, device intended for newborn screening for congenital hypothyroidism, severe combined immunodeficiency (SCID) or spinal muscle atrophy (SMA)", "he": "למשל מכשירים המיועדים להערכת הסיכון לטריזומיה 21, מכשיר המיועד לסקירת יילודים לזיהוי תת-פעילות מולדת של בלוטת התריס, כשל חיסוני משולב חמור (SCID) או ניוון שרירים שדרתי (SMA)" }
+        ],
+        [
+          { "en": "Concerning the predisposition to a medical condition or disease", "he": "בנוגע לנטייה למצב רפואי או למחלה" },
+          { "en": "e.g. devices intended for detection of lactose or gluten intolerance, devices intended for detecting genetic carriers of cystic fibrosis, devices intended to detect genetic alterations of the BRCA1 gene for hereditary breast cancer", "he": "למשל מכשירים המיועדים לגילוי אי-סבילות ללקטוז או לגלוטן, מכשירים המיועדים לגילוי נשאים גנטיים של סיסטיק פיברוזיס, מכשירים המיועדים לגילוי שינויים גנטיים בגן BRCA1 לסרטן שד תורשתי" }
+        ],
+        [
+          { "en": "To determine the safety and compatibility with potential recipients", "he": "לקביעת הבטיחות וההתאמה עם מקבלים פוטנציאליים" },
+          { "en": "e.g. devices intended for ABO system blood grouping, or HLA typing", "he": "למשל מכשירים המיועדים לסיווג קבוצות דם במערכת ABO, או לטיפוס HLA" }
+        ],
+        [
+          { "en": "To predict treatment response or reactions", "he": "לחיזוי תגובה לטיפול או תגובות" },
+          { "en": "e.g. devices intended for screening of the HLA-B*5701 allele to determine the risk of hypersensitivity to abacavir in HIV-infected individual, devices intended for SLCO1B1 variants to predict statin-induced myopathy, devices intended for determining principal gene variants of MTHFR to identify patients with a reduced activity of enzyme MTHFR who are at increased risk of serious adverse events in patients treated with methotrexate", "he": "למשל מכשירים המיועדים לסקירת האלל HLA-B*5701 לקביעת הסיכון לרגישות יתר ל-abacavir באדם נגוע ב-HIV, מכשירים המיועדים לווריאנטים של SLCO1B1 לחיזוי מיופתיה המושרית על ידי סטטינים, מכשירים המיועדים לקביעת ווריאנטים גנטיים עיקריים של MTHFR לזיהוי מטופלים בעלי פעילות מופחתת של האנזים MTHFR הנמצאים בסיכון מוגבר לאירועים שליליים חמורים במטופלים המטופלים ב-methotrexate" }
+        ],
+        [
+          { "en": "To define or monitor therapeutic measures", "he": "להגדרה או לניטור של אמצעים טיפוליים" },
+          { "en": "e.g. devices intended for monitoring of blood glucose levels, devices intended for T-helper cells to monitor therapeutic measures, devices intended for measuring the levels of digitoxin", "he": "למשל מכשירים המיועדים לניטור רמות גלוקוז בדם, מכשירים המיועדים לתאי T-helper לניטור אמצעים טיפוליים, מכשירים המיועדים למדידת רמות digitoxin" }
+        ]
+      ]
+    },
+    {
+      "id": "sec-1-2-p2",
+      "type": "paragraph",
+      "en": "According to Article 2(12) of the IVDR, the ‘intended purpose’ means the use for which a device is intended according to the data supplied by the manufacturer on the label, in the instructions for use or in promotional or sales materials or statements or as specified by the manufacturer in the performance evaluation.",
+      "he": "על פי סעיף 2(12) ל-IVDR, 'מטרה מיועדת' (intended purpose) פירושה השימוש שאליו מיועד מכשיר בהתאם לנתונים שמספק היצרן בתיוג, בהוראות השימוש או בחומרים או הצהרות פרסומיים או מכירתיים, או כפי שמפרט היצרן בהערכת הביצועים."
+    },
+    {
+      "id": "sec-1-2-p3",
+      "type": "paragraph",
+      "en": "A product might have several intended purposes. If at least one of these intended purposes is to provide information for a medical purpose as outlined in Article 2(2) IVDR, then the product must comply with the requirements of the IVDR before the manufacturer can place it on the market. For example, a kit intended by its manufacturer for lay users to reveal their ethnic origins as well as their predisposition to certain diseases should be qualified as an IVD and should therefore comply with the IVDR.",
+      "he": "למוצר עשויות להיות כמה מטרות מיועדות. אם לפחות אחת ממטרות מיועדות אלה היא לספק מידע למטרה רפואית כמתואר בסעיף 2(2) ל-IVDR, אזי על המוצר לעמוד בדרישות ה-IVDR בטרם יוכל היצרן להציבו בשוק. למשל, ערכה המיועדת על ידי יצרנהּ למשתמשים מן השורה כדי לחשוף את מוצאם האתני וכן את נטייתם למחלות מסוימות צריכה להיות מסווגת כ-IVD ולפיכך לעמוד ב-IVDR."
+    },
+    {
+      "id": "sec-1-2-p4",
+      "type": "paragraph",
+      "en": "Products without a medical purpose (as outlined in Article 2(2) IVDR) are not IVDs. Examples: tests to determine ancestry, to find relatives, or to reveal ethnic origins, or tests intended to be used for sport, wellbeing and lifestyle purposes",
+      "he": "מוצרים ללא מטרה רפואית (כמתואר בסעיף 2(2) ל-IVDR) אינם IVDs. דוגמאות: בדיקות לקביעת ייחוס (ancestry), לאיתור קרובי משפחה, או לחשיפת מוצא אתני, או בדיקות המיועדות לשימוש למטרות ספורט, רווחה (wellbeing) ואורח חיים."
+    },
+    {
+      "id": "sec-1-2-p5-note",
+      "type": "paragraph",
+      "en": "Note: products cannot be brought into the scope of the IVDR merely by mentioning IVD or ‘for in vitro diagnostic use’.",
+      "he": "הערה: לא ניתן להכניס מוצרים לתחולת ה-IVDR אך ורק על ידי אזכור IVD או 'לשימוש אבחוני in vitro' (for in vitro diagnostic use)."
+    },
+
+    {
+      "id": "sec-2",
+      "type": "heading",
+      "level": 1,
+      "number": "2",
+      "en": "Specific qualification topics",
+      "he": "נושאי סיווג ספציפיים"
+    },
+    {
+      "id": "sec-2-1",
+      "type": "heading",
+      "level": 2,
+      "number": "2.1",
+      "en": "Accessories",
+      "he": "אביזרים"
+    },
+    {
+      "id": "sec-2-1-p1",
+      "type": "paragraph",
+      "en": "Article 1(1) of the IVDR states that: “This Regulation lays down rules concerning the placing on the market, making available on the market or putting into service of in vitro diagnostic medical devices for human use and accessories for such devices in the Union.”",
+      "he": "סעיף 1(1) ל-IVDR קובע כי: \"תקנה זו קובעת כללים בנוגע להצבה בשוק, להעמדה לרשות בשוק או להפעלה של מכשירים רפואיים לאבחון in vitro לשימוש האדם ושל אביזרים למכשירים כאלה באיחוד.\""
+    },
+    {
+      "id": "sec-2-1-p2",
+      "type": "paragraph",
+      "en": "Article 2(4) of the IVDR defines an accessory as “an article which, whilst not being itself an in vitro diagnostic medical device, is intended by its manufacturer to be used together with one or several particular in vitro diagnostic medical device(s) to specifically enable the in vitro diagnostic medical device(s) to be used in accordance with its/their intended purpose(s) or to specifically and directly assist the medical functionality of the in vitro diagnostic medical device(s) in terms of its/their intended purpose(s)”.",
+      "he": "סעיף 2(4) ל-IVDR מגדיר אביזר כ\"פריט אשר, על אף שאינו כשלעצמו מכשיר רפואי לאבחון in vitro, מיועד על ידי יצרנו לשימוש יחד עם מכשיר רפואי אחד או כמה מכשירים רפואיים מסוימים לאבחון in vitro, כדי לאפשר באופן ספציפי את השימוש במכשיר/ים הרפואי/ים לאבחון in vitro בהתאם למטרה/ות המיועדת/ות שלו/הם, או כדי לסייע באופן ספציפי וישיר לתפקודיות הרפואית של המכשיר/ים הרפואי/ים לאבחון in vitro מבחינת המטרה/ות המיועדת/ות שלו/הם\"."
+    },
+    {
+      "id": "sec-2-1-ex",
+      "type": "paragraph",
+      "en": "Example: a cleaning solution specifically intended by its manufacturer to be used with a defined automated IVD instrument is an accessory of the instrument.",
+      "he": "דוגמה: תמיסת ניקוי המיועדת באופן ספציפי על ידי יצרנהּ לשימוש עם מכשיר IVD אוטומטי מוגדר היא אביזר של המכשיר."
+    },
+    {
+      "id": "sec-2-2",
+      "type": "heading",
+      "level": 2,
+      "number": "2.2",
+      "en": "Specimen receptacles and products used for the collection of specimens",
+      "he": "מכלי דגימה ומוצרים המשמשים לאיסוף דגימות"
+    },
+    {
+      "id": "sec-2-2-1",
+      "type": "heading",
+      "level": 3,
+      "number": "2.2.1",
+      "en": "Specimen receptacles",
+      "he": "מכלי דגימה"
+    },
+    {
+      "id": "sec-2-2-1-p1",
+      "type": "paragraph",
+      "en": "Article 2(2) of the IVDR states that: “Specimen receptacles shall also be deemed to be in vitro diagnostic medical devices.”",
+      "he": "סעיף 2(2) ל-IVDR קובע כי: \"מכלי דגימה ייחשבו אף הם למכשירים רפואיים לאבחון in vitro.\""
+    },
+    {
+      "id": "sec-2-2-1-p2",
+      "type": "paragraph",
+      "en": "Article 2(3) of the IVDR states that: “’Specimen receptacle’ means a device, whether vacuum-type or not, specifically intended by its manufacturer for the primary containment and preservation of specimens derived from the human body for the purpose of in vitro diagnostic examination.”",
+      "he": "סעיף 2(3) ל-IVDR קובע כי: \"'מכל דגימה' (specimen receptacle) פירושו מכשיר, בין אם מסוג ואקום ובין אם לאו, המיועד באופן ספציפי על ידי יצרנו להכלה ושימור ראשוניים של דגימות הנגזרות מגוף האדם לצורך בחינה אבחונית in vitro.\""
+    },
+    {
+      "id": "sec-2-2-1-notes-p",
+      "type": "paragraph",
+      "en": "Notes:",
+      "he": "הערות:"
+    },
+    {
+      "id": "sec-2-2-1-notes-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "(a) the word “primary” does not necessarily refer to the initial or first container of the specimen in point of time, but rather to a container that is intended by its manufacturer to mainly come into direct contact with the specimen and which could therefore affect the specimen, and", "he": "(a) המילה \"ראשוני\" (primary) אינה מתייחסת בהכרח למכל ההתחלתי או הראשון של הדגימה מבחינת הזמן, אלא למכל המיועד על ידי יצרנו לבוא בעיקר במגע ישיר עם הדגימה ואשר על כן עשוי להשפיע על הדגימה, וכן" },
+        { "en": "(b) the word “preservation” does not imply that the receptacle has to contain a specimen preservative, but that the receptacle is intended to protect the specimen, for example, from temperature fluctuations, from light, from physical breakage, from contamination etc.", "he": "(b) המילה \"שימור\" (preservation) אינה מרמזת כי על המכל להכיל חומר משמר לדגימה, אלא כי המכל מיועד להגן על הדגימה, למשל מפני תנודות טמפרטורה, מפני אור, מפני שבירה פיזית, מפני זיהום וכד'." }
+      ]
+    },
+    {
+      "id": "sec-2-2-1-p3",
+      "type": "paragraph",
+      "en": "It is possible that more than one specimen receptacle is involved in the collection, transport and storage of an individual specimen. In such cases the manufacturer of each receptacle must have evidence of compliance with the IVDR.",
+      "he": "ייתכן שיותר ממכל דגימה אחד מעורב באיסוף, בהובלה ובאחסון של דגימה בודדת. במקרים כאלה, על יצרן כל מכל להחזיק בראיה לעמידה ב-IVDR."
+    },
+    {
+      "id": "sec-2-2-1-p4",
+      "type": "paragraph",
+      "en": "Examples: Blood collection tubes, urine or stool specimen containers, are considered to be IVDs. Blood bags intended to store blood with the aim of later introduction into the body are considered to be medical devices, not IVDs.",
+      "he": "דוגמאות: מבחנות לאיסוף דם, מכלי דגימת שתן או צואה, נחשבים ל-IVDs. שקיות דם המיועדות לאחסון דם במטרה להחזירו בהמשך לגוף נחשבות למכשירים רפואיים, ולא ל-IVDs."
+    },
+    {
+      "id": "sec-2-2-1-p5",
+      "type": "paragraph",
+      "en": "Products that come into direct contact with the human body should be handled as described in sections 2.2.2.b and 2.6.2.",
+      "he": "מוצרים הבאים במגע ישיר עם גוף האדם יטופלו כמתואר בסעיפים 2.2.2.b ו-2.6.2."
+    },
+    {
+      "id": "sec-2-2-1-p6",
+      "type": "paragraph",
+      "en": "Other glass or plastic tubes, cups, cuvettes or other receptacles into which the specimen is placed during the analytical process (by aliquoting or otherwise), are not considered to be ‘specimen receptacles’ within the meaning of the IVDR unless they are specifically intended by their manufacturer to be used for in vitro diagnostic examination, e.g. as an accessory. They are usually considered to be general laboratory equipment.",
+      "he": "מבחנות, כוסות, קובטות (cuvettes) או מכלים אחרים מזכוכית או מפלסטיק שאליהם מוכנסת הדגימה במהלך התהליך האנליטי (באמצעות חלוקה למנות (aliquoting) או בדרך אחרת), אינם נחשבים ל'מכלי דגימה' כמשמעותם ב-IVDR, אלא אם כן הם מיועדים באופן ספציפי על ידי יצרנם לשימוש לבחינה אבחונית in vitro, למשל כאביזר. בדרך כלל הם נחשבים לציוד מעבדתי כללי."
+    },
+    {
+      "id": "sec-2-2-2",
+      "type": "heading",
+      "level": 3,
+      "number": "2.2.2",
+      "en": "Products used for the collection of specimens",
+      "he": "מוצרים המשמשים לאיסוף דגימות"
+    },
+    {
+      "id": "sec-2-2-2-a-h",
+      "type": "paragraph",
+      "en": "a) Without intended direct contact with the human body",
+      "he": "a) ללא מגע ישיר מיועד עם גוף האדם"
+    },
+    {
+      "id": "sec-2-2-2-a-p",
+      "type": "paragraph",
+      "en": "A product intended to transfer the specimen, but which is not specifically intended by its manufacturer for the primary containment and preservation of specimens derived from the human body for the purpose of in vitro diagnostic examination, should not be qualified as an IVD (e.g. plastic pipettes to transfer blood drop from finger to measuring device).",
+      "he": "מוצר המיועד להעביר את הדגימה, אך אינו מיועד באופן ספציפי על ידי יצרנו להכלה ושימור ראשוניים של דגימות הנגזרות מגוף האדם לצורך בחינה אבחונית in vitro, אין לסווגו כ-IVD (למשל פיפטות פלסטיק להעברת טיפת דם מהאצבע אל מכשיר מדידה)."
+    },
+    {
+      "id": "sec-2-2-2-b-h",
+      "type": "paragraph",
+      "en": "b) With intended direct contact with the human body",
+      "he": "b) עם מגע ישיר מיועד עם גוף האדם"
+    },
+    {
+      "id": "sec-2-2-2-b-p",
+      "type": "paragraph",
+      "en": "Invasive (within the meaning of the MDR) specimen collection devices or those which are directly applied to the human body for the purpose of obtaining a specimen must not be considered to be accessories to in vitro diagnostic medical devices (Article 2(4) IVDR). These products are regarded as medical devices within the scope of the MDR.",
+      "he": "מכשירים פולשניים (כמשמעותם ב-MDR) לאיסוף דגימות, או כאלה המוחלים ישירות על גוף האדם לצורך השגת דגימה, אין לראותם כאביזרים למכשירים רפואיים לאבחון in vitro (סעיף 2(4) ל-IVDR). מוצרים אלה נחשבים למכשירים רפואיים בתחולת ה-MDR."
+    },
+    {
+      "id": "sec-2-2-2-b-ex",
+      "type": "paragraph",
+      "en": "Examples: needles, lancets, lancing devices, mouth tubes, swabs, urine collection bags, sweat cards placed in direct contact with the skin and intended to be used as part of a system to measure chloride ions in sweat for the diagnosis of cystic fibrosis.",
+      "he": "דוגמאות: מחטים, אזמלים (lancets), מכשירי דקירה (lancing devices), מבחנות פה, מטושים (swabs), שקיות לאיסוף שתן, כרטיסי זיעה (sweat cards) המונחים במגע ישיר עם העור ומיועדים לשמש כחלק ממערכת למדידת יוני כלוריד בזיעה לאבחון סיסטיק פיברוזיס."
+    },
+    {
+      "id": "sec-2-3",
+      "type": "heading",
+      "level": 2,
+      "number": "2.3",
+      "en": "Devices where no specimen is involved",
+      "he": "מכשירים שבהם לא מעורבת דגימה"
+    },
+    {
+      "id": "sec-2-3-p1",
+      "type": "paragraph",
+      "en": "Some diagnostic medical devices function without the need of a containable specimen taken from the patient.",
+      "he": "חלק מהמכשירים הרפואיים האבחוניים מתפקדים ללא צורך בדגימה ניתנת להכלה הנלקחת מהמטופל."
+    },
+    {
+      "id": "sec-2-3-p2",
+      "type": "paragraph",
+      "en": "The definition of an in vitro diagnostic medical device states that IVDs are “intended by the manufacturer to be used in vitro for the examination of specimens, derived from the human body”. Therefore, if no specimen is ’derived from the human body’ the device should not be qualified as an IVD. Such products should be qualified as medical devices.",
+      "he": "הגדרת המכשיר הרפואי לאבחון in vitro קובעת כי IVDs \"מיועדים על ידי היצרן לשימוש in vitro לבחינת דגימות הנגזרות מגוף האדם\". לפיכך, אם אין דגימה ה'נגזרת מגוף האדם', אין לסווג את המכשיר כ-IVD. מוצרים כאלה צריכים להיות מסווגים כמכשירים רפואיים."
+    },
+    {
+      "id": "sec-2-3-p3",
+      "type": "paragraph",
+      "en": "Note that standalone software can fall within the scope of the IVDR, when it is intended to provide information based on results from other IVDs, although it does not analyse the human specimens directly (see section 2.8).",
+      "he": "יש לשים לב כי תוכנה עצמאית (standalone) עשויה להיכלל בתחולת ה-IVDR, כאשר היא מיועדת לספק מידע על בסיס תוצאות מ-IVDs אחרים, אף שאינה מנתחת את הדגימות האנושיות באופן ישיר (ראו סעיף 2.8)."
+    },
+    {
+      "id": "sec-2-3-ex-p",
+      "type": "paragraph",
+      "en": "Examples:",
+      "he": "דוגמאות:"
+    },
+    {
+      "id": "sec-2-3-ex-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "A non-invasive device intended for the detection of blood glucose by energy emission (e.g. near infra-red energy) on the human body should not be qualified as an IVD but is a medical device.", "he": "מכשיר לא-פולשני המיועד לגילוי גלוקוז בדם באמצעות פליטת אנרגיה (למשל אנרגיה בקרבת תחום האינפרא-אדום) על גוף האדם אין לסווגו כ-IVD אלא כמכשיר רפואי." },
+        { "en": "A pulse oximeter intended to measure the oxy/deoxyhaemoglobin ratio by passing light through the fingertip and absorbing infrared light should not be qualified as an IVD but as a medical device.", "he": "מד-דופק-חמצן (pulse oximeter) המיועד למדידת היחס בין אוקסי-/דאוקסי-המוגלובין באמצעות העברת אור דרך קצה האצבע וספיגת אור אינפרא-אדום אין לסווגו כ-IVD אלא כמכשיר רפואי." },
+        { "en": "An MRI scanner should not be qualified as an IVD but as a medical device.", "he": "סורק MRI אין לסווגו כ-IVD אלא כמכשיר רפואי." }
+      ]
+    },
+    {
+      "id": "sec-2-4",
+      "type": "heading",
+      "level": 2,
+      "number": "2.4",
+      "en": "Products for general laboratory use",
+      "he": "מוצרים לשימוש מעבדתי כללי"
+    },
+    {
+      "id": "sec-2-4-p1",
+      "type": "paragraph",
+      "en": "Article 1(3)(a) of the IVDR states that the IVDR does not apply to: “products for general laboratory use or research-use only products, unless such products, in view of their characteristics, are specifically intended by their manufacturer to be used for in vitro diagnostic examination.”",
+      "he": "סעיף 1(3)(a) ל-IVDR קובע כי ה-IVDR אינו חל על: \"מוצרים לשימוש מעבדתי כללי או מוצרים למחקר בלבד (research-use only), אלא אם כן מוצרים כאלה, בשים לב למאפייניהם, מיועדים באופן ספציפי על ידי יצרנם לשימוש לבחינה אבחונית in vitro.\""
+    },
+    {
+      "id": "sec-2-4-p2",
+      "type": "paragraph",
+      "en": "Where, on the basis of its characteristics, the manufacturer specifically intends its product to be used for in vitro diagnostic examination, the product becomes an IVD or an accessory of an IVD and must comply with the applicable requirements of the IVDR.",
+      "he": "כאשר היצרן, על בסיס מאפייני המוצר, מייעד באופן ספציפי את מוצרו לשימוש לבחינה אבחונית in vitro, המוצר הופך ל-IVD או לאביזר של IVD ועליו לעמוד בדרישות הרלוונטיות של ה-IVDR."
+    },
+    {
+      "id": "sec-2-4-p3",
+      "type": "paragraph",
+      "en": "If, however, the product for general laboratory use does not possess specific characteristics that makes it suitable for one or more identified in vitro diagnostic examination procedures, then the manufacturer should not qualify the product as an IVD. Merely adding the statement “for in vitro diagnostic use” to a product is not sufficient to qualify a product as an IVD.",
+      "he": "אולם, אם המוצר לשימוש מעבדתי כללי אינו בעל מאפיינים ספציפיים ההופכים אותו למתאים לאחד או יותר מהליכי בחינה אבחונית in vitro מזוהים, אזי על היצרן שלא לסווג את המוצר כ-IVD. עצם הוספת ההצהרה \"לשימוש אבחוני in vitro\" למוצר אינה מספיקה כדי לסווג מוצר כ-IVD."
+    },
+    {
+      "id": "sec-2-4-p4",
+      "type": "paragraph",
+      "en": "Products for general laboratory use utilised in vitro in the preparation of specimens that have been obtained for examination (e.g. paraffin, stains) are considered neither as IVD nor as accessories and fall outside the scope of the IVDR unless such products, in view of their characteristics, are specifically intended by their manufacturer to be used for in vitro diagnostic examination or fulfil the definition of an accessory.",
+      "he": "מוצרים לשימוש מעבדתי כללי המשמשים in vitro בהכנת דגימות שהושגו לבחינה (למשל פרפין, צבענים) אינם נחשבים לא ל-IVD ולא לאביזרים ונמצאים מחוץ לתחולת ה-IVDR, אלא אם כן מוצרים כאלה, בשים לב למאפייניהם, מיועדים באופן ספציפי על ידי יצרנם לשימוש לבחינה אבחונית in vitro או עומדים בהגדרת אביזר."
+    },
+    {
+      "id": "sec-2-4-table-p",
+      "type": "paragraph",
+      "en": "Examples of products for general laboratory use and IVDs (non-exhaustive):",
+      "he": "דוגמאות למוצרים לשימוש מעבדתי כללי ול-IVDs (רשימה לא ממצה):"
+    },
+    {
+      "id": "sec-2-4-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          { "en": "", "he": "" },
+          { "en": "General laboratory use product", "he": "מוצר לשימוש מעבדתי כללי" },
+          { "en": "Covered by IVDR³", "he": "מכוסה על ידי ה-IVDR³" }
+        ],
+        [
+          { "en": "Centrifuges", "he": "צנטריפוגות" },
+          { "en": "General centrifuges, cytospin", "he": "צנטריפוגות כלליות, cytospin" },
+          { "en": "Hematocrite centrifuge", "he": "צנטריפוגת המטוקריט" }
+        ],
+        [
+          { "en": "Pipettes", "he": "פיפטות" },
+          { "en": "General purpose pipettes (e.g. single or multiple pipettes, plastic pipettes, Pasteur pipettes)", "he": "פיפטות לשימוש כללי (למשל פיפטות בודדות או מרובות, פיפטות פלסטיק, פיפטות פסטר)" },
+          { "en": "Blood coagulation pipettes with automatic timing (accessory for coagulometer)", "he": "פיפטות לקרישת דם עם תזמון אוטומטי (אביזר לקואגולומטר)" }
+        ],
+        [
+          { "en": "Tubes and flasks", "he": "מבחנות ובקבוקים" },
+          { "en": "Erlenmeyer flasks, general plastic tubes", "he": "ארלנמייר (Erlenmeyer), מבחנות פלסטיק כלליות" },
+          { "en": "Blood collection tubes, urine specimen containers", "he": "מבחנות לאיסוף דם, מכלי דגימת שתן" }
+        ],
+        [
+          { "en": "Plates", "he": "צלחות (Plates)" },
+          { "en": "General empty ELISA plates, general empty Petri dishes", "he": "צלחות ELISA ריקות כלליות, צלחות פטרי ריקות כלליות" },
+          { "en": "Coated microtiter plates for the diagnosis of Lyme disease", "he": "צלחות מיקרוטיטר מצופות לאבחון מחלת ליים" }
+        ],
+        [
+          { "en": "Nucleic acid extraction products", "he": "מוצרים לחילוץ חומצות גרעין" },
+          { "en": "DNA and RNA extraction/purification kits that only extract/purify nucleic acids", "he": "ערכות לחילוץ/טיהור של DNA ו-RNA המחלצות/מטהרות חומצות גרעין בלבד" },
+          { "en": "DNA and RNA extraction kits intended to prepare an extract to be used with a specific IVD device or if specifically intended to be used for in vitro diagnostic examination", "he": "ערכות לחילוץ DNA ו-RNA המיועדות להכין תמצית לשימוש עם מכשיר IVD ספציפי, או אם מיועדות באופן ספציפי לשימוש לבחינה אבחונית in vitro" }
+        ],
+        [
+          { "en": "General equipment", "he": "ציוד כללי" },
+          { "en": "Scales, balances, microtomes, incubators, sterilizers for laboratory equipment, paraffin embedding machine, water baths, ELISA plate washers", "he": "משקלים, מאזניים, מיקרוטומים, אינקובטורים, מעקרים לציוד מעבדה, מכונת הטמעה בפרפין, אמבטיות מים, שוטפי צלחות ELISA" },
+          { "en": "", "he": "" }
+        ],
+        [
+          { "en": "HPLC products", "he": "מוצרי HPLC" },
+          { "en": "Size-exclusion HPLC columns", "he": "עמודות HPLC לסינון לפי גודל (size-exclusion)" },
+          { "en": "HPLC columns for IVD purposes: e.g. HbA1c", "he": "עמודות HPLC למטרות IVD: למשל HbA1c" }
+        ],
+        [
+          { "en": "PCR machines", "he": "מכונות PCR" },
+          { "en": "General PCR machine", "he": "מכונת PCR כללית" },
+          { "en": "PCR machine intended for IVD purposes: e.g. detection and differentiation of influenza/SARS-CoV-2 RNA", "he": "מכונת PCR המיועדת למטרות IVD: למשל גילוי והבחנה של RNA של שפעת/SARS-CoV-2" }
+        ],
+        [
+          { "en": "Detection equipment", "he": "ציוד גילוי" },
+          { "en": "Mass spectrometers, spectrophotometers, ELISA readers providing raw data which is not readily readable and understandable by the user (e.g. peaks, OD).", "he": "ספקטרומטרים של מסה, ספקטרופוטומטרים, קוראי ELISA המספקים נתונים גולמיים שאינם ניתנים לקריאה ולהבנה בקלות על ידי המשתמש (למשל שיאים, OD)." },
+          { "en": "McFarland bacteria density reader specifically intended for IVD examination of human specimens", "he": "קורא צפיפות חיידקים McFarland המיועד באופן ספציפי לבחינת IVD של דגימות אנושיות" }
+        ],
+        [
+          { "en": "Others", "he": "אחרים" },
+          { "en": "Foetal calf serum, cell culture media, fixation solution, mounting media, buffers (e.g. PBS), chemicals (e.g. sulphuric acid, formol, water)", "he": "סרום עגל עוברי, מצעי גידול תאים, תמיסת קיבוע, מצעי הרכבה (mounting media), בופרים (למשל PBS), כימיקלים (למשל חומצה גופרתית, פורמול, מים)" },
+          { "en": "Wash solution intended to be used with a specific IVD analyser, culture media intended for amplification and detection of infectious agents in human specimens", "he": "תמיסת שטיפה המיועדת לשימוש עם מנתח IVD ספציפי, מצעי גידול המיועדים להגברה (amplification) ולגילוי של גורמים מדבקים בדגימות אנושיות" }
+        ]
+      ]
+    },
+    {
+      "id": "fn-3",
+      "type": "note",
+      "marker": "3",
+      "en": "If the manufacturer’s intended purpose is such that it fulfils the definition of an IVD.",
+      "he": "אם המטרה המיועדת של היצרן היא כזו שהיא עומדת בהגדרת IVD."
+    },
+    {
+      "id": "sec-2-5",
+      "type": "heading",
+      "level": 2,
+      "number": "2.5",
+      "en": "Products for research use only",
+      "he": "מוצרים למחקר בלבד"
+    },
+    {
+      "id": "sec-2-5-p1",
+      "type": "paragraph",
+      "en": "Recital (7) and Art.1(3)(a) of IVDR state that the IVDR does not apply to Research Use Only (RUO) products.",
+      "he": "סעיף ההמלצה (Recital) (7) וסעיף 1(3)(a) ל-IVDR קובעים כי ה-IVDR אינו חל על מוצרים למחקר בלבד (Research Use Only, RUO)."
+    },
+    {
+      "id": "sec-2-5-p2",
+      "type": "paragraph",
+      "en": "Products intended for research use only cannot be intended by their manufacturers for a medical purpose (as outlined in Article 2(2) IVDR).",
+      "he": "מוצרים המיועדים למחקר בלבד אינם יכולים להיות מיועדים על ידי יצרניהם למטרה רפואית (כמתואר בסעיף 2(2) ל-IVDR)."
+    },
+    {
+      "id": "sec-2-6",
+      "type": "heading",
+      "level": 2,
+      "number": "2.6",
+      "en": "Combinations of products placed on the market together",
+      "he": "שילובים של מוצרים המוצבים בשוק יחד"
+    },
+    {
+      "id": "sec-2-6-1",
+      "type": "heading",
+      "level": 3,
+      "number": "2.6.1",
+      "en": "IVD kits",
+      "he": "ערכות IVD"
+    },
+    {
+      "id": "sec-2-6-1-p1",
+      "type": "paragraph",
+      "en": "The definition of an IVD includes ‘kit’ as being an IVD in itself.",
+      "he": "הגדרת IVD כוללת 'ערכה' (kit) כ-IVD כשלעצמה."
+    },
+    {
+      "id": "sec-2-6-1-p2",
+      "type": "paragraph",
+      "en": "Article 2(11) of the IVDR states that: “‘kit’ means a set of components that are packaged together and intended to be used to perform a specific in vitro diagnostic examination, or a part thereof.”",
+      "he": "סעיף 2(11) ל-IVDR קובע כי: \"'ערכה' (kit) פירושה מערך של רכיבים הארוזים יחד ומיועדים לשמש לביצוע בחינה אבחונית in vitro ספציפית, או חלק ממנה.\""
+    },
+    {
+      "id": "sec-2-6-1-p3",
+      "type": "paragraph",
+      "en": "A set of components that are packaged together may be treated as a kit under the IVDR if the intended purpose of the set of components as a whole, as defined by the manufacturer of the kit, falls within the definition of an IVD. IVD kits should be CE marked in themselves on the outer packaging and fulfil the requirements regarding the ‘information supplied by the manufacturer’ (IVDR, Annex I, Chapter III.20).",
+      "he": "מערך של רכיבים הארוזים יחד עשוי להיחשב לערכה לפי ה-IVDR אם המטרה המיועדת של מערך הרכיבים בכללותו, כפי שהוגדרה על ידי יצרן הערכה, נכללת בהגדרת IVD. ערכות IVD צריכות לשאת סימון CE כשלעצמן על האריזה החיצונית ולעמוד בדרישות בנוגע ל'מידע המסופק על ידי היצרן' (IVDR, נספח I, פרק III.20)."
+    },
+    {
+      "id": "sec-2-6-1-p4",
+      "type": "paragraph",
+      "en": "A kit with an intended purpose falling within the definition of an IVD may contain:",
+      "he": "ערכה שמטרתה המיועדת נכללת בהגדרת IVD עשויה להכיל:"
+    },
+    {
+      "id": "sec-2-6-1-list-a",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "a) Only IVDs and accessories (e.g. antibody, antigen, coated ELISA plates, specimen receptacles), which may be either:", "he": "a) IVDs ואביזרים בלבד (למשל נוגדן, אנטיגן, צלחות ELISA מצופות, מכלי דגימה), אשר עשויים להיות:" },
+        { "en": "• CE marked, in case the IVDs are also made available as separate devices; or,", "he": "• בעלי סימון CE, במקרה שה-IVDs מועמדים לרשות גם כמכשירים נפרדים; או," },
+        { "en": "• not individually CE marked;", "he": "• ללא סימון CE פרטני;" },
+        { "en": "b) a combination of IVDs and:", "he": "b) שילוב של IVDs ושל:" },
+        { "en": "• medical devices (e.g. lancet, swab), which must be CE marked in accordance with the MDR⁴;", "he": "• מכשירים רפואיים (למשל אזמל, מטוש), אשר חייבים לשאת סימון CE בהתאם ל-MDR⁴;" },
+        { "en": "• other products, such as products for general laboratory use (e.g. pipette for transferring a patient specimen);", "he": "• מוצרים אחרים, כגון מוצרים לשימוש מעבדתי כללי (למשל פיפטה להעברת דגימת מטופל);" },
+        { "en": "• food products (e.g. chewing gum added for inducing a patient reaction in order to obtain a specific specimen).", "he": "• מוצרי מזון (למשל מסטיק שנוסף כדי לעורר תגובה במטופל לשם השגת דגימה ספציפית)." }
+      ]
+    },
+    {
+      "id": "sec-2-6-1-note1",
+      "type": "paragraph",
+      "en": "Note: IVD kits may not include medicinal products. Where an IVD is intended to be used with a medicinal product and the products are packaged together, this combination may not be qualified as an IVD kit. Each product must comply with its corresponding legislation. ⁵",
+      "he": "הערה: ערכות IVD אינן רשאיות לכלול מוצרים רפואיים (medicinal products). כאשר IVD מיועד לשימוש יחד עם מוצר רפואי והמוצרים ארוזים יחד, שילוב זה אינו רשאי להיות מסווג כערכת IVD. כל מוצר חייב לעמוד בחקיקה המתאימה לו. ⁵"
+    },
+    {
+      "id": "sec-2-6-1-ex",
+      "type": "paragraph",
+      "en": "Example: Product intended for collection of exhaled air for subsequent detection of Helicobacter pylori consisting of labelled urea (a medicinal product) to be ingested, a straw (a medical device) and a specimen container (an IVD). The entire co-packaged product cannot be qualified as an IVD kit.",
+      "he": "דוגמה: מוצר המיועד לאיסוף אוויר נשוף לצורך גילוי לאחר מכן של Helicobacter pylori, המורכב מאוריאה מסומנת (urea, מוצר רפואי) שיש לבלוע, קש (מכשיר רפואי) ומכל דגימה (IVD). המוצר הארוז-יחד בכללותו אינו יכול להיות מסווג כערכת IVD."
+    },
+    {
+      "id": "sec-2-6-1-note2",
+      "type": "paragraph",
+      "en": "Note: Article 2(10) MDR states that: “’procedure pack’ means a combination of products packaged together and placed on the market with the purpose of being used for a specific medical purpose.” The qualification either as a ‘procedure pack’, according to the MDR or as a ‘kit’ according to the IVDR should be based on the intended purpose of the whole product combination. A procedure pack should not have an intended purpose that corresponds to Article 2(2) IVDR. A procedure pack must contain at least one medical device. If the whole product combination is qualified as a procedure pack, it should comply with the requirements set in the MDR. IVD components that are included in a procedure pack should fulfil the requirements of the IVDR.",
+      "he": "הערה: סעיף 2(10) ל-MDR קובע כי: \"'מארז הליך' (procedure pack) פירושו שילוב של מוצרים הארוזים יחד ומוצבים בשוק במטרה לשמש למטרה רפואית ספציפית.\" הסיווג, בין כ'מארז הליך' לפי ה-MDR ובין כ'ערכה' לפי ה-IVDR, צריך להתבסס על המטרה המיועדת של שילוב המוצרים בכללותו. למארז הליך אין להיות מטרה מיועדת התואמת את סעיף 2(2) ל-IVDR. מארז הליך חייב להכיל לפחות מכשיר רפואי אחד. אם שילוב המוצרים בכללותו מסווג כמארז הליך, עליו לעמוד בדרישות הקבועות ב-MDR. רכיבי IVD הנכללים במארז הליך צריכים לעמוד בדרישות ה-IVDR."
+    },
+    {
+      "id": "sec-2-6-2",
+      "type": "heading",
+      "level": 3,
+      "number": "2.6.2",
+      "en": "Devices incorporating, as an integral part, a medical device",
+      "he": "מכשירים המשלבים, כחלק בלתי נפרד, מכשיר רפואי"
+    },
+    {
+      "id": "sec-2-6-2-p1",
+      "type": "paragraph",
+      "en": "IVDR Art 1(4) states: “Any device which, when placed on the market or put into service, incorporates, as an integral part, a medical device as defined in point 1 of Article 2 of Regulation (EU) 2017/745 shall be governed by that Regulation [i.e. the MDR]. The requirements of this Regulation [i.e. the IVDR] shall apply to the in vitro diagnostic medical device part.”",
+      "he": "סעיף 1(4) ל-IVDR קובע: \"כל מכשיר אשר, בעת הצבתו בשוק או הפעלתו, משלב כחלק בלתי נפרד מכשיר רפואי כהגדרתו בנקודה 1 של סעיף 2 לתקנה (האיחוד האירופי) 2017/745, יהיה כפוף לאותה תקנה [קרי, ה-MDR]. דרישות תקנה זו [קרי, ה-IVDR] יחולו על חלק המכשיר הרפואי לאבחון in vitro.\""
+    },
+    {
+      "id": "sec-2-6-2-p2",
+      "type": "paragraph",
+      "en": "The same concept is referred to in MDR Art 1(7).",
+      "he": "אותו עיקרון מאוזכר בסעיף 1(7) ל-MDR."
+    },
+    {
+      "id": "sec-2-6-2-p3",
+      "type": "paragraph",
+      "en": "An integral product consists of at least two constituent parts, one of which is an IVD, and the other is a medical device, which are physically combined in such a manner that they form a single object.",
+      "he": "מוצר משולב (integral product) מורכב מלפחות שני חלקים מרכיבים, שאחד מהם הוא IVD והאחר מכשיר רפואי, המשולבים פיזית באופן שהם יוצרים עצם יחיד."
+    },
+    {
+      "id": "sec-2-6-2-ex-p",
+      "type": "paragraph",
+      "en": "Examples:",
+      "he": "דוגמאות:"
+    },
+    {
+      "id": "sec-2-6-2-ex-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "A device involving the vacuum suction of saliva into the integrated handle of a device which contains reagent material (e.g. for the detection of HIV) should be qualified as a medical device and not as an IVD.", "he": "מכשיר הכרוך בשאיבת ואקום של רוק אל תוך הידית המשולבת של מכשיר המכיל חומר ריאגנט (למשל לגילוי HIV) צריך להיות מסווג כמכשיר רפואי ולא כ-IVD." },
+        { "en": "Swabs with integrated reagents should be qualified as medical devices and not as IVDs.", "he": "מטושים עם ריאגנטים משולבים צריכים להיות מסווגים כמכשירים רפואיים ולא כ-IVDs." },
+        { "en": "A continuous in vivo glucose monitoring device measuring glucose in interstitial fluid, with an integrated in vitro measurement function on capillary blood specimens, should be qualified as a medical device and not as an IVD.", "he": "מכשיר לניטור רציף של גלוקוז in vivo המודד גלוקוז בנוזל הבין-תאי, עם פונקציית מדידה in vitro משולבת על דגימות דם נימי, צריך להיות מסווג כמכשיר רפואי ולא כ-IVD." },
+        { "en": "A specimen transport tube with a swab integrated into the cap should be qualified as a medical device and not as an IVD.", "he": "מבחנת הובלת דגימה עם מטוש המשולב במכסה צריכה להיות מסווגת כמכשיר רפואי ולא כ-IVD." }
+      ]
+    },
+    {
+      "id": "sec-2-6-2-p4",
+      "type": "paragraph",
+      "en": "The following are not considered integral products, i.e. the medical device and IVD components are qualified separately and must respect the requirements of the MDR and IVDR respectively:",
+      "he": "המקרים הבאים אינם נחשבים למוצרים משולבים, קרי רכיבי המכשיר הרפואי וה-IVD מסווגים בנפרד ועליהם לעמוד בדרישות ה-MDR וה-IVDR, בהתאמה:"
+    },
+    {
+      "id": "sec-2-6-2-list2",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "medical devices packaged together with an IVD without forming a single object (see section 2.6.1), e.g. a specimen collection kit with a specimen receptacle and a separate swab;", "he": "מכשירים רפואיים הארוזים יחד עם IVD מבלי ליצור עצם יחיד (ראו סעיף 2.6.1), למשל ערכת איסוף דגימה עם מכל דגימה ומטוש נפרד;" },
+        { "en": "detachable medical devices packaged together with an IVD (see section 2.6.1), e.g. a urine receptacle to which a detachable funnel can be attached which is held against the body;", "he": "מכשירים רפואיים נתיקים הארוזים יחד עם IVD (ראו סעיף 2.6.1), למשל מכל שתן שאליו ניתן לחבר משפך נתיק המוצמד אל הגוף;" },
+        { "en": "medical devices only referenced in the instructions for use of an IVD.", "he": "מכשירים רפואיים המאוזכרים בלבד בהוראות השימוש של IVD." }
+      ]
+    },
+    {
+      "id": "sec-2-7",
+      "type": "heading",
+      "level": 2,
+      "number": "2.7",
+      "en": "Calibrators and control materials",
+      "he": "מכיילים וחומרי בקרה"
+    },
+    {
+      "id": "sec-2-7-p1",
+      "type": "paragraph",
+      "en": "According to Article 2(2), calibrators and control materials can be IVDs provided that they satisfy the definition of an IVD.",
+      "he": "על פי סעיף 2(2), מכיילים וחומרי בקרה יכולים להיות IVDs ובלבד שהם עומדים בהגדרת IVD."
+    },
+    {
+      "id": "sec-2-7-p2",
+      "type": "paragraph",
+      "en": "The IVDR provides the following definitions in Article 2(55) and (56):",
+      "he": "ה-IVDR מספק את ההגדרות הבאות בסעיף 2(55) ו-(56):"
+    },
+    {
+      "id": "sec-2-7-defs",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "“‘calibrator’ means a measurement reference material used in the calibration of a device;”", "he": "\"'מכייל' (calibrator) פירושו חומר ייחוס למדידה המשמש בכיול של מכשיר;\"" },
+        { "en": "“‘control material’ means a substance, material or article intended by its manufacturer to be used to verify the performance characteristics of a device;”", "he": "\"'חומר בקרה' (control material) פירושו חומר, חומר גלם או פריט המיועד על ידי יצרנו לשמש לאימות מאפייני הביצועים של מכשיר;\"" }
+      ]
+    },
+    {
+      "id": "sec-2-7-p3",
+      "type": "paragraph",
+      "en": "According to Article 1(3)(c) and (d), internationally certified reference materials and materials used for external quality assessment schemes are not considered IVDs.",
+      "he": "על פי סעיף 1(3)(c) ו-(d), חומרי ייחוס מאושרים בין-לאומית וחומרים המשמשים לתוכניות הערכת איכות חיצונית אינם נחשבים ל-IVDs."
+    },
+    {
+      "id": "sec-2-7-p4",
+      "type": "paragraph",
+      "en": "If External Quality Assessment (EQA) organisations make available these EQA materials for an intended use which falls in scope of the IVD definition in Article 2(2) of the IVDR, for example as control materials or calibrators, outside of the scope of EQA schemes, these materials are considered as IVDs. In that case, EQA organisations would be considered as manufacturers and the products must be CE marked under the IVDR.",
+      "he": "אם ארגוני הערכת איכות חיצונית (External Quality Assessment, EQA) מעמידים לרשות חומרי EQA אלה לשימוש מיועד הנכלל בתחולת הגדרת ה-IVD שבסעיף 2(2) ל-IVDR, למשל כחומרי בקרה או מכיילים, מחוץ לתחולת תוכניות ה-EQA, חומרים אלה נחשבים ל-IVDs. במקרה כזה, ארגוני ה-EQA ייחשבו ליצרנים ועל המוצרים לשאת סימון CE לפי ה-IVDR."
+    },
+    {
+      "id": "sec-2-8",
+      "type": "heading",
+      "level": 2,
+      "number": "2.8",
+      "en": "Software",
+      "he": "תוכנה"
+    },
+    {
+      "id": "sec-2-8-p1",
+      "type": "paragraph",
+      "en": "According to Article 2(2) of IVDR, software can fall within the scope of the IVDR. For further guidance on qualifying software as either an IVD software or a medical device software, please consult MDCG 2019-11⁶.",
+      "he": "על פי סעיף 2(2) ל-IVDR, תוכנה עשויה להיכלל בתחולת ה-IVDR. להנחיה נוספת בנוגע לסיווג תוכנה כתוכנת IVD או כתוכנת מכשיר רפואי, יש לעיין ב-MDCG 2019-11⁶."
+    },
+    {
+      "id": "sec-2-9",
+      "type": "heading",
+      "level": 2,
+      "number": "2.9",
+      "en": "Microbiological culture media",
+      "he": "מצעי גידול מיקרוביולוגיים"
+    },
+    {
+      "id": "sec-2-9-p1",
+      "type": "paragraph",
+      "en": "In order to be qualified as an IVD, the culture media or components of culture media (e.g. in powder form) must be specifically intended by the manufacturer to provide information concerning a physiological or pathological state, on specimens derived from the human body.",
+      "he": "כדי שמצעי גידול או רכיבים של מצעי גידול (למשל בצורת אבקה) יסווגו כ-IVD, עליהם להיות מיועדים באופן ספציפי על ידי היצרן לספק מידע בנוגע למצב פיזיולוגי או פתולוגי, על דגימות הנגזרות מגוף האדם."
+    },
+    {
+      "id": "sec-2-9-p2",
+      "type": "paragraph",
+      "en": "Such qualification for culture media includes elements that should be, according to IVDR requirements, available to the user, in particular:",
+      "he": "סיווג כזה למצעי גידול כולל מרכיבים שצריכים, על פי דרישות ה-IVDR, להיות זמינים למשתמש, ובפרט:"
+    },
+    {
+      "id": "sec-2-9-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "the type of information provided by the IVD (presence, characteristics and typing of micro-organisms) for medical purposes;", "he": "סוג המידע המסופק על ידי ה-IVD (נוכחות, מאפיינים וטיפוס של מיקרואורגניזמים) למטרות רפואיות;" },
+        { "en": "indication of the appropriate type of human specimens required (e.g. blood or urine).", "he": "ציון סוג הדגימות האנושיות המתאים הנדרש (למשל דם או שתן)." }
+      ]
+    },
+    {
+      "id": "sec-2-9-ex",
+      "type": "paragraph",
+      "en": "Example: general microbiological culture media containing a selection agent like MacConkey Agar and CLED Agar can be an IVD or not depending on the intended purpose specified by a manufacturer.",
+      "he": "דוגמה: מצעי גידול מיקרוביולוגיים כלליים המכילים גורם ברירה (selection agent) כמו MacConkey Agar ו-CLED Agar יכולים להיות IVD או לא, בהתאם למטרה המיועדת שמפרט היצרן."
+    },
+    {
+      "id": "sec-2-10",
+      "type": "heading",
+      "level": 2,
+      "number": "2.10",
+      "en": "Stains",
+      "he": "צבענים"
+    },
+    {
+      "id": "sec-2-10-p1",
+      "type": "paragraph",
+      "en": "In order to be qualified as IVD, stains used in histology, cytology and microbiology (e.g. for smears and tissue sections) must be intended to provide information concerning a physiological or pathological state on specimens derived from the human body.",
+      "he": "כדי שיסווגו כ-IVD, צבענים (stains) המשמשים בהיסטולוגיה, בציטולוגיה ובמיקרוביולוגיה (למשל למשטחים ולחתכי רקמה) חייבים להיות מיועדים לספק מידע בנוגע למצב פיזיולוגי או פתולוגי על דגימות הנגזרות מגוף האדם."
+    },
+    {
+      "id": "sec-2-10-p2",
+      "type": "paragraph",
+      "en": "Such qualification of stains includes elements that should be, according to IVDR requirements, made available to the user, in particular:",
+      "he": "סיווג כזה של צבענים כולל מרכיבים שצריכים, על פי דרישות ה-IVDR, להיות מועמדים לרשות המשתמש, ובפרט:"
+    },
+    {
+      "id": "sec-2-10-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "the type of information provided by the IVD for medical purposes (characteristics and performance of the stains, specific identification by the stains);", "he": "סוג המידע המסופק על ידי ה-IVD למטרות רפואיות (מאפייני וביצועי הצבענים, זיהוי ספציפי באמצעות הצבענים);" },
+        { "en": "indication of the appropriate type of human specimens required.", "he": "ציון סוג הדגימות האנושיות המתאים הנדרש." }
+      ]
+    },
+    {
+      "id": "sec-2-10-ex1",
+      "type": "paragraph",
+      "en": "Example: Ziehl-Neelsen Stain can be an IVD or not depending on the intended purpose specified by the manufacturer.",
+      "he": "דוגמה: צביעת Ziehl-Neelsen יכולה להיות IVD או לא, בהתאם למטרה המיועדת שמפרט היצרן."
+    },
+    {
+      "id": "sec-2-10-ex2",
+      "type": "paragraph",
+      "en": "A stain without any specific medical intended purpose should not be qualified as an IVD.",
+      "he": "צבען ללא כל מטרה רפואית מיועדת ספציפית אין לסווגו כ-IVD."
+    },
+    {
+      "id": "sec-2-11",
+      "type": "heading",
+      "level": 2,
+      "number": "2.11",
+      "en": "Tests intended to be used in manufacturing process control",
+      "he": "בדיקות המיועדות לשימוש בבקרת תהליך ייצור"
+    },
+    {
+      "id": "sec-2-11-p1",
+      "type": "paragraph",
+      "en": "Tests used to monitor the manufacturing of products, such as medicinal products should not be qualified as IVDs as they do not have a medical purpose as outlined in the IVDR.",
+      "he": "בדיקות המשמשות לניטור ייצורם של מוצרים, כגון מוצרים רפואיים, אין לסווגן כ-IVDs מאחר שאין להן מטרה רפואית כמתואר ב-IVDR."
+    },
+    {
+      "id": "sec-2-11-ex",
+      "type": "paragraph",
+      "en": "Example: A test used to detect an infectious agent in plasma intended for the manufacturing of an advanced therapy medicinal product should not be qualified as an IVD.",
+      "he": "דוגמה: בדיקה המשמשת לגילוי גורם מדבק בפלזמה המיועדת לייצור מוצר רפואי לטיפול מתקדם (advanced therapy medicinal product) אין לסווגה כ-IVD."
+    },
+    {
+      "id": "fn-4",
+      "type": "note",
+      "marker": "4",
+      "en": "During the transition period provided for in Art 120 MDR, medical devices CE marked in accordance with the MDD may also be part of an IVD kit.",
+      "he": "במהלך תקופת המעבר הקבועה בסעיף 120 ל-MDR, מכשירים רפואיים הנושאים סימון CE בהתאם ל-MDD עשויים אף הם להיות חלק מערכת IVD."
+    },
+    {
+      "id": "fn-5",
+      "type": "note",
+      "marker": "5",
+      "en": "See also Question 1.1 in Questions & Answers document for applicants, marketing authorisation holders of medicinal products and notified bodies with respect to the implementation of the Regulations on medical devices and in vitro diagnostic medical devices (Regulations (EU) 2017/745 and (EU) 2017/746): https://www.ema.europa.eu/en/documents/regulatory-procedural-guideline/questions-answers-implementation-medical-devices-vitro-diagnostic-medical-devices-regulations-eu-2017-745-eu-2017-746_en.pdf",
+      "he": "ראו גם שאלה 1.1 במסמך השאלות והתשובות (Questions & Answers) למבקשים, למחזיקי אישורי שיווק של מוצרים רפואיים ולגופים מאונתרים בנוגע ליישום התקנות בנושא מכשירים רפואיים ומכשירים רפואיים לאבחון in vitro (תקנות (האיחוד האירופי) 2017/745 ו-(האיחוד האירופי) 2017/746): https://www.ema.europa.eu/en/documents/regulatory-procedural-guideline/questions-answers-implementation-medical-devices-vitro-diagnostic-medical-devices-regulations-eu-2017-745-eu-2017-746_en.pdf"
+    },
+    {
+      "id": "fn-6",
+      "type": "note",
+      "marker": "6",
+      "en": "See: https://health.ec.europa.eu/system/files/2020-09/md_mdcg_2019_11_guidance_qualification_classification_software_en_0.pdf",
+      "he": "ראו: https://health.ec.europa.eu/system/files/2020-09/md_mdcg_2019_11_guidance_qualification_classification_software_en_0.pdf"
+    },
+    {
+      "id": "sec-2-12",
+      "type": "heading",
+      "level": 2,
+      "number": "2.12",
+      "en": "Tests intended to be used in the context of biological or chemical warfare",
+      "he": "בדיקות המיועדות לשימוש בהקשר של לוחמה ביולוגית או כימית"
+    },
+    {
+      "id": "sec-2-12-p1",
+      "type": "paragraph",
+      "en": "Tests for detection of agents of biological or chemical warfare in the environment should not be qualified as IVDs because they are not intended to be used on human specimens.",
+      "he": "בדיקות לגילוי גורמים של לוחמה ביולוגית או כימית בסביבה אין לסווגן כ-IVDs משום שהן אינן מיועדות לשימוש על דגימות אנושיות."
+    },
+    {
+      "id": "sec-2-12-p2",
+      "type": "paragraph",
+      "en": "If, however, one of the intended purposes of such a test is the in vitro examination of human specimens with a medical purpose, it should be qualified as an IVD.",
+      "he": "אולם, אם אחת ממטרותיה המיועדות של בדיקה כזו היא בחינה in vitro של דגימות אנושיות למטרה רפואית, יש לסווגה כ-IVD."
+    },
+    {
+      "id": "sec-2-13",
+      "type": "heading",
+      "level": 2,
+      "number": "2.13",
+      "en": "Tests to be used in law enforcement",
+      "he": "בדיקות לשימוש באכיפת חוק"
+    },
+    {
+      "id": "sec-2-13-p1",
+      "type": "paragraph",
+      "en": "Tests intended to be used only in the course of law enforcement or for other nonmedical purposes, for example paternity tests or tests for detecting abuse of alcohol or drugs, should not be qualified as IVDs.",
+      "he": "בדיקות המיועדות לשימוש רק במהלך אכיפת חוק או למטרות לא-רפואיות אחרות, למשל בדיקות אבהות או בדיקות לגילוי שימוש לרעה באלכוהול או בסמים, אין לסווגן כ-IVDs."
+    },
+    {
+      "id": "sec-2-13-p2",
+      "type": "paragraph",
+      "en": "If, however, the in vitro examination of human specimens with a medical purpose is one of the intended purposes of a specific product, the IVDR will apply.",
+      "he": "אולם, אם הבחינה in vitro של דגימות אנושיות למטרה רפואית היא אחת ממטרותיו המיועדות של מוצר ספציפי, ה-IVDR יחול."
+    },
+    {
+      "id": "sec-2-14",
+      "type": "heading",
+      "level": 2,
+      "number": "2.14",
+      "en": "Relation with Regulation (EU) No 528/2012 on biocidal products",
+      "he": "הקשר עם תקנה (האיחוד האירופי) מס' 528/2012 בנושא מוצרים ביוצידיים"
+    },
+    {
+      "id": "sec-2-14-p1",
+      "type": "paragraph",
+      "en": "Products falling within the scope of the IVDR are excluded from the scope of Regulation (EU) No 528/2012. However, when a biocidal product falls within the scope of the IVDR and is intended to be used for other purposes not covered by the IVDR, the biocides Regulation also applies to that biocidal product insofar as those purposes are not addressed by the IVDR (Article 2(2) of the biocides Regulation).",
+      "he": "מוצרים הנכללים בתחולת ה-IVDR מוחרגים מתחולת תקנה (האיחוד האירופי) מס' 528/2012. עם זאת, כאשר מוצר ביוצידי נכלל בתחולת ה-IVDR ומיועד לשימוש למטרות אחרות שאינן מכוסות על ידי ה-IVDR, תקנת הביוצידים (biocides Regulation) חלה אף היא על אותו מוצר ביוצידי, ככל שמטרות אלה אינן מטופלות על ידי ה-IVDR (סעיף 2(2) לתקנת הביוצידים)."
+    }
+  ]
+}

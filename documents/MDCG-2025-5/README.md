@@ -11,8 +11,8 @@
 
 | Item | Status |
 |------|--------|
-| Original (EN) | ⬜ Not yet added |
-| Hebrew translation | ⬜ Not yet started |
+| Original (EN) | ✅ `original/mdcg_2025-5_en.pdf` |
+| Hebrew translation | 🔍 Under review (full translation done) |
 
 ---
 
@@ -20,11 +20,18 @@
 
 | File | Description |
 |------|-------------|
-| `original/` | Original English document (PDF) |
-| `translation/` | Hebrew translation |
+| `original/mdcg_2025-5_en.pdf` | Original English document (PDF) |
+| `translation/MDCG-2025-5.he.json` | Canonical bilingual translation (source of truth) |
+| `translation/MDCG-2025-5.he.html` | Hebrew RTL rendering, generated from the JSON |
 
 ---
 
 ## Notes
 
-<!-- Add translation notes, terminology decisions, open questions here -->
+- Full bilingual translation of the entire 33-page document: cover/disclaimer, abbreviations
+  table, introduction, all 54 Q&A items (sections General, Requirements to apply for/notify,
+  Additional requirements, Application/Notification, Timeline considerations, Substantial
+  Modifications), all 51 footnotes, and both appendices.
+- Figures 1 and 2 and the Appendix I decision tree are graphical in the source; they are
+  rendered as `example` blocks with a descriptive Hebrew caption plus the source text preserved
+  verbatim.

@@ -1,0 +1,550 @@
+{
+  "id": "MDCG-2022-10",
+  "title": {
+    "en": "Q&A on the interface between Regulation (EU) 536/2014 on clinical trials for medicinal products for human use (CTR) and Regulation (EU) 2017/746 on in vitro diagnostic medical devices (IVDR)",
+    "he": "שאלות ותשובות בנושא הממשק שבין תקנה (האיחוד האירופי) 536/2014 בנושא ניסויים קליניים במוצרים רפואיים לשימוש בבני אדם (CTR) לבין תקנה (האיחוד האירופי) 2017/746 בנושא מכשירים רפואיים לאבחון ויטרו (IVDR)"
+  },
+  "category": "In Vitro Diagnostic Medical Devices (IVD)",
+  "publicationDate": "2022-05",
+  "source": {
+    "url": "https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en",
+    "file": "original/mdcg_2022-10_en.pdf"
+  },
+  "language": "he",
+  "direction": "rtl",
+  "translationStatus": "review",
+  "glossaryVersion": "2026-06",
+  "blocks": [
+    {
+      "id": "disclaimer-1",
+      "type": "paragraph",
+      "en": "This document has been endorsed by the Medical Device Coordination Group (MDCG) and the Clinical Trial Expert Group (CTEG). The MDCG and the CTEG are composed of representatives of all Member States and are chaired by a representative of the European Commission.",
+      "he": "מסמך זה אושר על ידי קבוצת תיאום המכשירים הרפואיים (MDCG) וקבוצת מומחי הניסויים הקליניים (CTEG). ה-MDCG וה-CTEG מורכבות מנציגים של כל המדינות החברות ובראשן עומד נציג של הנציבות האירופית."
+    },
+    {
+      "id": "disclaimer-2",
+      "type": "paragraph",
+      "en": "The document is not a European Commission document and it cannot be regarded as reflecting the official position of the European Commission. Any views expressed in this document are not legally binding and only the Court of Justice of the European Union can give binding interpretations of Union law.",
+      "he": "המסמך אינו מסמך של הנציבות האירופית ואין לראות בו כמשקף את העמדה הרשמית של הנציבות האירופית. כל דעה המובעת במסמך זה אינה מחייבת מבחינה משפטית, ורק בית הדין לצדק של האיחוד האירופי מוסמך לתת פרשנות מחייבת לדין האיחוד."
+    },
+    {
+      "id": "intro",
+      "type": "heading",
+      "level": 1,
+      "en": "Introduction",
+      "he": "מבוא"
+    },
+    {
+      "id": "intro-p1",
+      "type": "paragraph",
+      "en": "This Q&A intends to clarify certain interfaces between the Regulation (EU) No 536/2014 on clinical trials for medicinal products for human use (CTR) and Regulation (EU) 2017/746 on in vitro diagnostic medical devices (IVDR). It was developed by clinical trials experts from Clinical Trials Facilitation and Coordination Group (CTFG) and in vitro diagnostics experts from the IVD sub-group of the Medical Device Coordination Group (MDCG). It has been adopted by CTFG, the Clinical Trials Expert Group of the European Commission and endorsed by the MDCG.",
+      "he": "שאלות ותשובות אלה נועדו להבהיר ממשקים מסוימים שבין תקנה (האיחוד האירופי) מס' 536/2014 בנושא ניסויים קליניים במוצרים רפואיים לשימוש בבני אדם (CTR) לבין תקנה (האיחוד האירופי) 2017/746 בנושא מכשירים רפואיים לאבחון ויטרו (IVDR¹). הן פותחו על ידי מומחי ניסויים קליניים מקבוצת הקידום והתיאום של ניסויים קליניים (CTFG) ומומחי אבחון ויטרו מתת-קבוצת ה-IVD של קבוצת תיאום המכשירים הרפואיים (MDCG²). הן אומצו על ידי ה-CTFG, קבוצת מומחי הניסויים הקליניים של הנציבות האירופית, ואושרו על ידי ה-MDCG."
+    },
+    {
+      "id": "intro-p2",
+      "type": "paragraph",
+      "en": "The need for interoperability of databases for clinical trials with medicinal products and medical devices is laid down in the new Regulations, however, no further details on the interface of IVDR and CTR are in the legislation, e.g. the requirements for assays used in the context of clinical trials.",
+      "he": "הצורך ביכולת ההדדית (interoperability) של מסדי הנתונים לניסויים קליניים במוצרים רפואיים ובמכשירים רפואיים מעוגן בתקנות החדשות, ואולם בחקיקה אין פרטים נוספים על הממשק בין ה-IVDR ל-CTR, למשל הדרישות לבחנים (assays) המשמשים בהקשר של ניסויים קליניים."
+    },
+    {
+      "id": "intro-p3",
+      "type": "paragraph",
+      "en": "Assays used in clinical trials may range from CE marked in vitro diagnostic medical devices (IVDs) to trial- or medicinal product-specific assays that are not always meant to be developed as IVDs. The need to clarify requirements for these assays lead to the Q&A and the concept of the \"medical purpose of an assay in a clinical trial\" as a specific setting.",
+      "he": "בחנים המשמשים בניסויים קליניים עשויים לנוע ממכשירים רפואיים לאבחון ויטרו (IVD) הנושאים סימון CE ועד לבחנים ייעודיים לניסוי או למוצר רפואי שלא תמיד נועדו לפיתוח כ-IVD. הצורך להבהיר את הדרישות לבחנים אלה הוביל לשאלות ותשובות אלה ולמושג \"המטרה הרפואית של בוחן בניסוי קליני\" כסביבה ספציפית."
+    },
+    {
+      "id": "intro-p4",
+      "type": "paragraph",
+      "en": "The CTR created a new framework for the assessments of initial clinical trial applications and applications for substantial modifications. The assessment procedure under the CTR will be driven by strict timelines and will require close cooperation between Member States concerned in multi-country trials. The aim of this Q&A is to support these coordinated assessments by providing clarification on the regulatory status of assays performed on human samples used in the context of clinical trials as well as on the regulatory expectations toward the clinical trial sponsors. The overall aim is to support the conduct of clinical trials using diagnostic assays, including combined trials for the development of companion diagnostics (CDx).",
+      "he": "ה-CTR יצרה מסגרת חדשה להערכות של בקשות ראשוניות לניסוי קליני ובקשות לשינויים מהותיים. נוהל ההערכה על פי ה-CTR יונע על ידי לוחות זמנים מחמירים ויחייב שיתוף פעולה הדוק בין המדינות החברות הנוגעות בדבר בניסויים רב-מדינתיים. מטרת שאלות ותשובות אלה היא לתמוך בהערכות מתואמות אלה באמצעות מתן הבהרה על המעמד הרגולטורי של בחנים המבוצעים על דגימות אנושיות המשמשות בהקשר של ניסויים קליניים, וכן על הציפיות הרגולטוריות מנותני החסות של הניסוי הקליני. המטרה הכוללת היא לתמוך בביצוע ניסויים קליניים העושים שימוש בבחנים אבחוניים, לרבות ניסויים משולבים לפיתוח אבחון נלווה (companion diagnostics, CDx)."
+    },
+    {
+      "id": "intro-p5",
+      "type": "paragraph",
+      "en": "Non-interventional studies, defined as clinical studies other than a clinical trial in Article 2 (4) of the CTR are out of scope of both the CTR (as per Article 1) and this document. However, IVDs used in non-interventional clinical studies are subject to the IVDR.",
+      "he": "מחקרים שאינם התערבותיים, המוגדרים כמחקרים קליניים שאינם ניסוי קליני בסעיף 2(4) ל-CTR, אינם בתחולת ה-CTR (על פי סעיף 1) ולא בתחולת מסמך זה. עם זאת, מכשירי IVD המשמשים במחקרים קליניים שאינם התערבותיים כפופים ל-IVDR."
+    },
+    {
+      "id": "intro-p6",
+      "type": "paragraph",
+      "en": "The IVDR lays down rules concerning the \"placing on the market\", \"making available on the market\" or \"putting into service\" of IVDs and accessories for an IVD. It further outlines the requirements for performance studies concerning IVDs and accessories for an IVD conducted in the Union.",
+      "he": "ה-IVDR קובעת כללים בנוגע ל\"הצבה בשוק\", \"העמדה לרשות השוק\" או \"הפעלה\" (putting into service) של מכשירי IVD ואביזרים ל-IVD. כן היא מתארת את הדרישות למחקרי ביצועים בנוגע למכשירי IVD ואביזרים ל-IVD המתבצעים באיחוד."
+    },
+    {
+      "id": "fn-1",
+      "type": "note",
+      "marker": "1",
+      "en": "Regulation (EU) 2017/746 (OJ L 117, 5.5.2017, p. 176) replaces Directive 98/79/EC (OJ L 331, 7.12.1998, p. 1) on in vitro diagnostic medical devices as of 26 May 2022. Regulation (EU) 2017/746 maintains many of the legislative principles of Directive 98/79/EC e.g. regarding general definitions and CE-marking after conformity assessment before placing medical devices on the EU market. Regulation (EU) 2017/746 introduces several important changes including new definitions, Unique Device Identification (UDI) system for medical devices, and new principles of classification of IVDs. Please note that Regulation (EU) 2022/112 (OJ L 19, 28.1.2022, p. 3) amends Regulation (EU) 2017/746 with respect to transitional provisions for certain in vitro diagnostic medical devices and the deferred application of conditions for in-house devices.",
+      "he": "תקנה (האיחוד האירופי) 2017/746 (OJ L 117, 5.5.2017, עמ' 176) מחליפה את הנחיה 98/79/EC (OJ L 331, 7.12.1998, עמ' 1) בנושא מכשירים רפואיים לאבחון ויטרו, החל מ-26 במאי 2022. תקנה (האיחוד האירופי) 2017/746 שומרת על רבים מהעקרונות החקיקתיים של הנחיה 98/79/EC, למשל בנוגע להגדרות כלליות ולסימון CE לאחר הערכת התאמה בטרם הצבת מכשירים רפואיים בשוק האיחוד האירופי. תקנה (האיחוד האירופי) 2017/746 מציגה כמה שינויים חשובים, לרבות הגדרות חדשות, מערכת זיהוי מכשיר ייחודי (UDI) למכשירים רפואיים, ועקרונות חדשים לסיווג מכשירי IVD. יש לשים לב כי תקנה (האיחוד האירופי) 2022/112 (OJ L 19, 28.1.2022, עמ' 3) מתקנת את תקנה (האיחוד האירופי) 2017/746 ביחס להוראות מעבר עבור מכשירים רפואיים מסוימים לאבחון ויטרו ולדחיית החלת התנאים למכשירים מתוצרת עצמית (in-house)."
+    },
+    {
+      "id": "fn-2",
+      "type": "note",
+      "marker": "2",
+      "en": "Expert group responsible for overseeing the implementation of Regulation (EU) 2017/746, set up according to Art. 103 of Regulation (EU) 2017/745 and Art. 98 of Regulation (EU) 2017/746.",
+      "he": "קבוצת מומחים האחראית על פיקוח על יישום תקנה (האיחוד האירופי) 2017/746, שהוקמה על פי סעיף 103 לתקנה (האיחוד האירופי) 2017/745 וסעיף 98 לתקנה (האיחוד האירופי) 2017/746."
+    },
+    {
+      "id": "intro-p7",
+      "type": "paragraph",
+      "en": "When reference is made to IVDs in the following text, this also includes CDx, as the requirements do not differ from a clinical trials perspective. Information is included on the use of in-house IVDs in the context of clinical trials.",
+      "he": "כאשר מובאת התייחסות למכשירי IVD בטקסט שלהלן, זו כוללת גם אבחון נלווה (CDx), שכן הדרישות אינן שונות מנקודת מבטם של ניסויים קליניים. נכלל מידע על השימוש במכשירי IVD מתוצרת עצמית (in-house) בהקשר של ניסויים קליניים."
+    },
+    {
+      "id": "intro-p8",
+      "type": "paragraph",
+      "en": "The questions and answers below specifically addresses the use of assays in the framework of clinical trials conducted under the CTR, in line with requirements of the IVDR and should not be understood to apply beyond it. The same issue might be covered in multiple questions, the reader is therefore encouraged to read the entire document.",
+      "he": "השאלות והתשובות שלהלן עוסקות באופן ספציפי בשימוש בבחנים במסגרת ניסויים קליניים המתבצעים על פי ה-CTR, בהתאם לדרישות ה-IVDR, ואין להבינן כחלות מעבר לכך. ייתכן שאותו נושא ייכלל בכמה שאלות, ולפיכך הקורא מתבקש לקרוא את המסמך כולו."
+    },
+    {
+      "id": "intro-p9",
+      "type": "paragraph",
+      "en": "For guidance documents issued by the MDCG regarding IVDs refer to the European Commission website. For guidance on clinical trials please refer to EudraLex Vol. 10.",
+      "he": "למסמכי הנחיה שהוצאו על ידי ה-MDCG בנוגע למכשירי IVD, ראו את אתר הנציבות האירופית. להנחיה בנושא ניסויים קליניים, ראו EudraLex כרך 10."
+    },
+    {
+      "id": "glossary",
+      "type": "heading",
+      "level": 1,
+      "en": "Glossary",
+      "he": "מילון מונחים"
+    },
+    {
+      "id": "glossary-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "CE marking: According to Article 2 (35) IVDR, 'CE marking of conformity' or 'CE marking' means a marking by which a manufacturer indicates that a device is in conformity with the applicable requirements set out in this Regulation and other applicable Union harmonisation legislation providing for its affixing", "he": "סימון CE: על פי סעיף 2(35) ל-IVDR, \"סימון CE של התאמה\" או \"סימון CE\" משמעו סימון שבאמצעותו מציין יצרן כי מכשיר תואם את הדרישות החלות הקבועות בתקנה זו ובחקיקת ההרמוניזציה החלה האחרת של האיחוד המורה על הצמדתו." },
+        { "en": "Performance Study Plan: According to Article 2 (43) IVDR 'performance study plan' means a document that describes the rationale, objectives, design methodology, monitoring, statistical considerations, organisation and conduct of a performance study;", "he": "תוכנית מחקר ביצועים (Performance Study Plan): על פי סעיף 2(43) ל-IVDR, \"תוכנית מחקר ביצועים\" משמעה מסמך המתאר את ההיגיון, המטרות, מתודולוגיית התכנון, הניטור, השיקולים הסטטיסטיים, הארגון והביצוע של מחקר ביצועים;" },
+        { "en": "Clinical Trial Application (CTA): According to CTR Article 5 or Article 11 an application for authorisation submitted to the EU Clinical Trials Portal and Database", "he": "בקשה לניסוי קליני (CTA): על פי סעיף 5 או סעיף 11 ל-CTR, בקשה לאישור המוגשת לפורטל ולמסד הנתונים של הניסויים הקליניים של האיחוד האירופי." },
+        { "en": "Clinical Trial Regulation (CTR): Regulation (EU) No 536/2014 (CTR) of 16 April 2014 on clinical trials on medicinal products for human use, and repealing Directive 2001/20/EC, OJ L 158, 27.5.2014, p. 1. The expected application date of the CTR is 30 January 2022.", "he": "תקנת הניסויים הקליניים (CTR): תקנה (האיחוד האירופי) מס' 536/2014 (CTR) מ-16 באפריל 2014 בנושא ניסויים קליניים במוצרים רפואיים לשימוש בבני אדם, והמבטלת את הנחיה 2001/20/EC, OJ L 158, 27.5.2014, עמ' 1. מועד החלת ה-CTR הצפוי הוא 30 בינואר 2022." },
+        { "en": "Companion diagnostic (CDx): Article 2 (7) IVDR' means a device which is essential for the safe and effective use of a corresponding medicinal product to: (a) identify, before and/or during treatment, patients who are most likely to benefit from the corresponding medicinal product; or (b) identify, before and/or during treatment, patients likely to be at increased risk of serious adverse reactions as a result of treatment with the corresponding medicinal product;", "he": "אבחון נלווה (CDx): סעיף 2(7) ל-IVDR משמעו מכשיר החיוני לשימוש בטוח ויעיל במוצר רפואי מתאים, לשם: (א) זיהוי, לפני ו/או במהלך הטיפול, של מטופלים בעלי הסיכוי הגבוה ביותר להפיק תועלת מהמוצר הרפואי המתאים; או (ב) זיהוי, לפני ו/או במהלך הטיפול, של מטופלים העלולים להיות בסיכון מוגבר לתגובות שליליות חמורות כתוצאה מטיפול במוצר הרפואי המתאים;" },
+        { "en": "Combined Trial: For the purpose of this document a combined trial is a simultaneous investigation of a medicinal product (clinical trial authorised under the CTR) and an IVD (clinical performance study). The combined trial is subject to requirements of both the Clinical trial legislation (CTR when this applies) and the IVD legislation (IVDR when this applies).", "he": "ניסוי משולב (Combined Trial): לצורך מסמך זה, ניסוי משולב הוא חקירה בו-זמנית של מוצר רפואי (ניסוי קליני המאושר על פי ה-CTR) ושל מכשיר IVD (מחקר ביצועים קליני). הניסוי המשולב כפוף לדרישות הן של חקיקת הניסויים הקליניים (CTR כשהיא חלה) והן של חקיקת ה-IVD (IVDR כשהיא חלה)." },
+        { "en": "Device for performance study according to IVDR Article 2 (45) means a device intended by the manufacturer to be used in a performance study. A device intended to be used for research purposes, without any medical objective, shall not be deemed to be a device for performance study", "he": "מכשיר למחקר ביצועים (Device for performance study) על פי סעיף 2(45) ל-IVDR משמעו מכשיר שהיצרן ייעדו לשימוש במחקר ביצועים. מכשיר המיועד לשימוש למטרות מחקר, ללא כל מטרה רפואית, לא ייחשב כמכשיר למחקר ביצועים." },
+        { "en": "Stratification: Within clinical trials, a method used in the randomization to ensure equal distribution of chosen variables between treatment arms", "he": "ריבוד (Stratification): בתוך ניסויים קליניים, שיטה המשמשת ברנדומיזציה כדי להבטיח התפלגות שווה של משתנים נבחרים בין זרועות הטיפול." },
+        { "en": "In-house IVD: An IVD manufactured and used within the same health institution as outlined in IVDR Article 5 (5). Health institution is defined in IVDR Article 2 (29).", "he": "מכשיר IVD מתוצרת עצמית (In-house IVD): מכשיר IVD המיוצר ומשמש בתוך אותו מוסד בריאות כמתואר בסעיף 5(5) ל-IVDR. מוסד בריאות מוגדר בסעיף 2(29) ל-IVDR." },
+        { "en": "Instructions for use according to Article 2 (14) IVDR means the information provided by the manufacturer to inform the user of the device's intended purpose and proper use and of any precautions to be taken", "he": "הוראות שימוש על פי סעיף 2(14) ל-IVDR משמען המידע שמספק היצרן ליידע את המשתמש על המטרה המיועדת של המכשיר ועל השימוש הנכון בו ועל כל אמצעי זהירות שיש לנקוט." },
+        { "en": "Intended purpose according to Article 2 (12) IVDR means the use for which a device is intended according to the data supplied by the manufacturer on the label, in the instructions for use or in promotional or sales materials or statements or as specified by the manufacturer in the performance evaluation", "he": "מטרה מיועדת על פי סעיף 2(12) ל-IVDR משמעה השימוש שלשמו מיועד מכשיר על פי הנתונים שמספק היצרן בתיוג, בהוראות השימוש או בחומרי קידום או מכירה או בהצהרות, או כפי שהיצרן מציין בהערכת הביצועים." },
+        { "en": "Interventional clinical performance study according to Article 2 (46) IVDR means a clinical performance study where the test results may influence patient management decisions and/or may be used to guide treatment", "he": "מחקר ביצועים קליני התערבותי על פי סעיף 2(46) ל-IVDR משמעו מחקר ביצועים קליני שבו תוצאות הבדיקה עשויות להשפיע על החלטות ניהול המטופל ו/או עשויות לשמש להכוונת הטיפול." },
+        { "en": "Clinical Trial according to Article 2 (2) CTR, means a clinical study which fulfils any of the following conditions: (a) the assignment of the subject to a particular therapeutic strategy is decided in advance and does not fall within normal clinical practice of the Member State concerned; (b) the decision to prescribe the investigational medicinal products is taken together with the decision to include the subject in the clinical study; or (c) diagnostic or monitoring procedures in addition to normal clinical practice are applied to the subjects. By definition, all clinical trials are \"interventional\" For clarification on the differentiation between clinical trial and non-interventional study, reference is also made to Question 1.5 in the Q&A published on EudraLex vol. 10.", "he": "ניסוי קליני על פי סעיף 2(2) ל-CTR משמעו מחקר קליני העומד בכל אחד מהתנאים הבאים: (א) שיוך הנבדק לאסטרטגיה טיפולית מסוימת מוכרע מראש ואינו נמנה על הפרקטיקה הקלינית הרגילה של המדינה החברה הנוגעת בדבר; (ב) ההחלטה לרשום את המוצרים הרפואיים הנחקרים מתקבלת יחד עם ההחלטה לכלול את הנבדק במחקר הקליני; או (ג) מיושמים על הנבדקים נהלי אבחון או ניטור בנוסף לפרקטיקה הקלינית הרגילה. בהגדרתם, כל הניסויים הקליניים הם \"התערבותיים\". להבהרה בנוגע להבחנה בין ניסוי קליני למחקר שאינו התערבותי, מובאת התייחסות גם לשאלה 1.5 בשאלות ותשובות שפורסמו ב-EudraLex כרך 10." },
+        { "en": "In vitro diagnostic medical device (IVD) is a medical device as defined in point (1) of Article 2 of Regulation (EU) 2017/745 on medical devices and, more specifically, according to Article 2 (2) IVDR, any medical device which is a reagent, reagent product, calibrator, control material, kit, instrument, apparatus, piece of equipment, software or system, whether used alone or in combination, intended by the manufacturer to be used in vitro for the examination of specimens, including blood and tissue donations, derived from the human body, solely or principally for the purpose of providing information on one or more of the following: (a) concerning a physiological or pathological process or state; (b) concerning congenital physical or mental impairments; (c) concerning the predisposition to a medical condition or a disease; (d) to determine the safety and compatibility with potential recipients; (e) to predict treatment response or reactions; (f) to define or monitoring therapeutic measures. Specimen receptacles shall also be deemed to be in vitro diagnostic medical devices;", "he": "מכשיר רפואי לאבחון ויטרו (IVD) הוא מכשיר רפואי כהגדרתו בפסקה (1) של סעיף 2 לתקנה (האיחוד האירופי) 2017/745 בנושא מכשירים רפואיים, ובאופן ספציפי יותר, על פי סעיף 2(2) ל-IVDR, כל מכשיר רפואי שהוא ריאגנט, מוצר ריאגנט, מכייל, חומר בקרה, ערכה, מכשיר, התקן, פריט ציוד, תוכנה או מערכת, בין שמשמש לבדו ובין בשילוב, שהיצרן ייעדו לשימוש בוויטרו לבחינת דגימות, לרבות תרומות דם ורקמה, הנגזרות מגוף האדם, אך ורק או בעיקר לשם מתן מידע על אחד או יותר מהבאים: (א) בנוגע לתהליך או למצב פיזיולוגי או פתולוגי; (ב) בנוגע למומים גופניים או נפשיים מולדים; (ג) בנוגע לנטייה למצב רפואי או למחלה; (ד) לקביעת הבטיחות וההתאמה למקבלים פוטנציאליים; (ה) לחיזוי תגובה לטיפול או תגובות; (ו) להגדרה או לניטור של אמצעים טיפוליים. כלי קיבול לדגימות ייחשבו אף הם כמכשירים רפואיים לאבחון ויטרו;" },
+        { "en": "IVD manufacturer according to Article 2 (23) IVDR means a natural or legal person who manufactures or fully refurbishes a device or has a device designed, manufactured or fully refurbished, and markets that device under its name or trade mark", "he": "יצרן IVD על פי סעיף 2(23) ל-IVDR משמעו אדם טבעי או משפטי המייצר או משפץ במלואו מכשיר, או שמכשיר עוצב, יוצר או שופץ במלואו עבורו, ומשווק את המכשיר תחת שמו או סימנו המסחרי." },
+        { "en": "IVDR: Regulation (EU) 2017/746 of the European Parliament and of the Council of 5 April 2017 on in vitro diagnostic medical devices and repealing Directive 98/79/EC and Commission Decision 2010/227/EU, OJ L 117, 5.5.2017, p. 176.", "he": "IVDR: תקנה (האיחוד האירופי) 2017/746 של הפרלמנט האירופי ושל המועצה מ-5 באפריל 2017 בנושא מכשירים רפואיים לאבחון ויטרו והמבטלת את הנחיה 98/79/EC ואת החלטת הנציבות 2010/227/EU, OJ L 117, 5.5.2017, עמ' 176." },
+        { "en": "Making available on the market according to Article 2 (20) IVDR, means any supply of a device, other than a device for performance study, for distribution, consumption or use on the Union market in the course of a commercial activity, whether in return for payment or free of charge;", "he": "העמדה לרשות השוק על פי סעיף 2(20) ל-IVDR משמעה כל אספקה של מכשיר, למעט מכשיר למחקר ביצועים, להפצה, צריכה או שימוש בשוק האיחוד במהלך פעילות מסחרית, בין בתמורה לתשלום ובין ללא תשלום;" },
+        { "en": "Performance study according to Article 2 (42) IVDR, means a study undertaken to establish or confirm the analytical or clinical performance of a device", "he": "מחקר ביצועים על פי סעיף 2(42) ל-IVDR משמעו מחקר הנערך לביסוס או לאישור הביצועים האנליטיים או הקליניים של מכשיר." },
+        { "en": "Placing on market according to Article 2 (21) IVDR, means the first making available of a device, other than a device for performance study, on the Union market", "he": "הצבה בשוק על פי סעיף 2(21) ל-IVDR משמעה ההעמדה לרשות הראשונה של מכשיר, למעט מכשיר למחקר ביצועים, בשוק האיחוד." },
+        { "en": "Putting into service according to Article 2(22) IVDR, means the stage at which a device, other than a device for performance study, has been made available to the final user as being ready for use on the Union market for the first time for its intended purpose;", "he": "הפעלה (Putting into service) על פי סעיף 2(22) ל-IVDR משמעה השלב שבו מכשיר, למעט מכשיר למחקר ביצועים, הועמד לרשות המשתמש הסופי כשהוא מוכן לשימוש בשוק האיחוד בפעם הראשונה למטרתו המיועדת;" },
+        { "en": "Substantial modification according to Article 2.2.13 CTR means any change to any aspect of the clinical trial which is made to ongoing clinical trials and which is likely to have a substantial impact on the safety or rights of the subjects or on the reliability and robustness of the data generated in the clinical trial.", "he": "שינוי מהותי על פי סעיף 2.2.13 ל-CTR משמעו כל שינוי בכל היבט של הניסוי הקליני המבוצע בניסויים קליניים מתמשכים ואשר סביר שתהיה לו השפעה מהותית על הבטיחות או על זכויות הנבדקים, או על מהימנותם ועל איתנותם של הנתונים הנוצרים בניסוי הקליני." }
+      ]
+    },
+    {
+      "id": "qa",
+      "type": "heading",
+      "level": 1,
+      "en": "Questions and Answers",
+      "he": "שאלות ותשובות"
+    },
+    {
+      "id": "q1",
+      "type": "heading",
+      "level": 2,
+      "number": "1",
+      "en": "Regarding IVDs that are currently on the market on the basis of Directive 98/79/EC, do they need to undergo conformity assessment under the IVDR to remain on the market under that Regulation?",
+      "he": "בנוגע למכשירי IVD הנמצאים כיום בשוק על בסיס הנחיה 98/79/EC — האם עליהם לעבור הערכת התאמה על פי ה-IVDR כדי להישאר בשוק על פי אותה תקנה?"
+    },
+    {
+      "id": "q1-a",
+      "type": "paragraph",
+      "en": "Answer: The IVDR does not foresee a recognition of Directive marketed IVDs but lays down various transitional provisions for IVDs compliant with Directive 98/79/EC. For more details on transitional provisions see the EU Commission website.",
+      "he": "תשובה: ה-IVDR אינה צופה הכרה במכשירי IVD המשווקים על פי ההנחיה, אך קובעת הוראות מעבר שונות עבור מכשירי IVD התואמים את הנחיה 98/79/EC. לפרטים נוספים על הוראות המעבר, ראו את אתר הנציבות של האיחוד האירופי."
+    },
+    {
+      "id": "q2",
+      "type": "heading",
+      "level": 2,
+      "number": "2",
+      "en": "Do all IVDs used in a clinical trial require CE marking at the time of the clinical trial?",
+      "he": "האם כל מכשירי ה-IVD המשמשים בניסוי קליני מחייבים סימון CE בעת הניסוי הקליני?"
+    },
+    {
+      "id": "q2-a",
+      "type": "paragraph",
+      "en": "Answer: Not all. An IVD used in a clinical trial needs to be compliant with the in vitro diagnostic medical device legislation. This implies that the IVD either has the CE marking for the intended purpose, or is an in-house IVD (see Q3) or is a device for a performance study according to the IVDR ongoing in parallel (see Q6, Q7). In-house IVDs and devices for performance study are not required to bear CE-marking.",
+      "he": "תשובה: לא כולם. מכשיר IVD המשמש בניסוי קליני צריך להיות תואם את חקיקת המכשירים הרפואיים לאבחון ויטרו. מכאן משתמע כי מכשיר ה-IVD נושא סימון CE למטרה המיועדת, או שהוא מכשיר IVD מתוצרת עצמית (ראו שאלה 3), או שהוא מכשיר למחקר ביצועים על פי ה-IVDR המתבצע במקביל (ראו שאלות 6, 7). מכשירי IVD מתוצרת עצמית ומכשירים למחקר ביצועים אינם נדרשים לשאת סימון CE."
+    },
+    {
+      "id": "q3",
+      "type": "heading",
+      "level": 2,
+      "number": "3",
+      "en": "Can I use an in-house IVD in a clinical trial?",
+      "he": "האם ניתן להשתמש במכשיר IVD מתוצרת עצמית בניסוי קליני?"
+    },
+    {
+      "id": "q3-a1",
+      "type": "paragraph",
+      "en": "Answer: Yes. This remains possible. With the exception of the relevant general safety and performance requirements set out in Annex I, the requirements of the IVDR shall not apply to devices manufactured and used only within health institutions established in the Union, provided that all of the conditions of Article 5(5) are met.",
+      "he": "תשובה: כן. הדבר נותר אפשרי. למעט הדרישות הכלליות הרלוונטיות לבטיחות וביצועים הקבועות בנספח I, דרישות ה-IVDR לא יחולו על מכשירים המיוצרים ומשמשים אך ורק בתוך מוסדות בריאות המבוססים באיחוד, ובלבד שמתקיימים כל התנאים של סעיף 5(5)."
+    },
+    {
+      "id": "q3-a2",
+      "type": "paragraph",
+      "en": "In-house IVDs might also be regulated in national legislation and it is necessary to check with the national competent authorities responsible for performance studies, which requirements apply.",
+      "he": "מכשירי IVD מתוצרת עצמית עשויים להיות מוסדרים גם בחקיקה הלאומית, ויש לברר עם הרשויות המוסמכות הלאומיות האחראיות על מחקרי ביצועים אילו דרישות חלות."
+    },
+    {
+      "id": "q4",
+      "type": "heading",
+      "level": 2,
+      "number": "4",
+      "en": "Are all assays used in a clinical trial subject to the IVD legislation?",
+      "he": "האם כל הבחנים המשמשים בניסוי קליני כפופים לחקיקת ה-IVD?"
+    },
+    {
+      "id": "q4-a1",
+      "type": "paragraph",
+      "en": "Answer: No, not all assays, but those that fulfil the definition of an IVD are subject to the IVD legislation. Such assays may have a medical purpose within the clinical trial, e.g. when they guide medical management decisions or follow-up (see Q6).",
+      "he": "תשובה: לא, לא כל הבחנים, אך אלה העומדים בהגדרת מכשיר IVD כפופים לחקיקת ה-IVD. בחנים כאלה עשויים להיות בעלי מטרה רפואית בתוך הניסוי הקליני, למשל כאשר הם מכווינים החלטות ניהול רפואי או מעקב (ראו שאלה 6)."
+    },
+    {
+      "id": "q4-a2",
+      "type": "paragraph",
+      "en": "The IVD Directive 98/79/EC and the IVDR lay down rules concerning the placing on the market, making available on the market or putting into service of IVD for human use and accessories for such devices in the European Union. In addition, the IVDR lays down rules specific to devices for performance studies and in-house devices.",
+      "he": "הנחיית ה-IVD 98/79/EC וה-IVDR קובעות כללים בנוגע להצבה בשוק, להעמדה לרשות השוק או להפעלה של מכשירי IVD לשימוש בבני אדם ושל אביזרים למכשירים כאלה באיחוד האירופי. בנוסף, ה-IVDR קובעת כללים ספציפיים למכשירים למחקרי ביצועים ולמכשירים מתוצרת עצמית."
+    },
+    {
+      "id": "q5",
+      "type": "heading",
+      "level": 2,
+      "number": "5",
+      "en": "When does an assay used on human samples qualify as an IVD in a clinical trial?",
+      "he": "מתי בוחן המשמש על דגימות אנושיות נחשב כמכשיר IVD בניסוי קליני?"
+    },
+    {
+      "id": "q5-a",
+      "type": "paragraph",
+      "en": "Answer: An assay is considered an IVD if the manufacturer assigns an intended purpose that fulfils the definition of an IVD according to IVDR Article 2 (see Q6). Where a clinical trial sponsor assigns a medical purpose to an assay in the context of the clinical trial in a way that the assay fulfils the definition of an IVD according to IVD Regulation 2017/746 Article 2, the clinical trial sponsor may assume the role of a manufacturer under the IVDR. In this role, it is up to the clinical trial sponsor to determine the regulatory status of the assay based on the planned use in the clinical trial. In case of doubt, consultation of the respective NCAs for IVDs and for clinical trials (with medicinal products) is recommended.",
+      "he": "תשובה: בוחן נחשב כמכשיר IVD אם היצרן מייעד לו מטרה מיועדת העומדת בהגדרת מכשיר IVD על פי סעיף 2 ל-IVDR (ראו שאלה 6). כאשר נותן חסות לניסוי קליני מייעד לבוחן מטרה רפואית בהקשר של הניסוי הקליני באופן שהבוחן עומד בהגדרת מכשיר IVD על פי סעיף 2 לתקנת ה-IVD 2017/746, נותן החסות לניסוי הקליני עשוי לקבל על עצמו את תפקיד היצרן על פי ה-IVDR³. בתפקיד זה, על נותן החסות לניסוי הקליני לקבוע את המעמד הרגולטורי של הבוחן בהתבסס על השימוש המתוכנן בו בניסוי הקליני. במקרה של ספק, מומלצת התייעצות עם הרשויות המוסמכות הלאומיות הרלוונטיות (NCAs) למכשירי IVD ולניסויים קליניים (במוצרים רפואיים)."
+    },
+    {
+      "id": "fn-3",
+      "type": "note",
+      "marker": "3",
+      "en": "See Article 16(1) IVDR.",
+      "he": "ראו סעיף 16(1) ל-IVDR."
+    },
+    {
+      "id": "q6",
+      "type": "heading",
+      "level": 2,
+      "number": "6",
+      "en": "What are examples of assays used in clinical trials which are IVDs?",
+      "he": "מהן דוגמאות לבחנים המשמשים בניסויים קליניים שהם מכשירי IVD?"
+    },
+    {
+      "id": "q6-a1",
+      "type": "paragraph",
+      "en": "Answer: Some examples include assays providing information for clinical trial related medical management decisions (typically to select patients for enrolment in the trial, assign patients to a treatment arm, etc.) and/or may be used to guide follow up measures during and beyond the clinical trial. This would, for example, not be the case, in settings where all trial participants are tested irrespective of treatment arm or medical management and the analysis of impact is conducted retrospectively and where medical management is not impacted by assay results.",
+      "he": "תשובה: דוגמאות אחדות כוללות בחנים המספקים מידע להחלטות ניהול רפואי הקשורות לניסוי הקליני (בדרך כלל לבחירת מטופלים לרישום בניסוי, לשיוך מטופלים לזרוע טיפול וכד') ו/או העשויים לשמש להכוונת אמצעי מעקב במהלך הניסוי הקליני ומעבר לו. למשל, לא כך יהיה במצבים שבהם כל משתתפי הניסוי נבדקים ללא קשר לזרוע הטיפול או לניהול הרפואי, וניתוח ההשפעה מבוצע באופן רטרוספקטיבי, וכאשר הניהול הרפואי אינו מושפע מתוצאות הבוחן."
+    },
+    {
+      "id": "q6-a2",
+      "type": "paragraph",
+      "en": "Figure 1 visualises, as an example, the flow of a blinded clinical trial with two treatment arms, where the key processes for which assays might be utilised are highlighted. The processes in blue are considered to be used for medical management decisions of trial subjects. These include assays used for inclusion and exclusion of subjects, treatment allocation as well as monitoring the safety and efficacy of the treatment during the trial.",
+      "he": "איור 1 ממחיש, כדוגמה, את מהלכו של ניסוי קליני סמוי (blinded) בעל שתי זרועות טיפול, שבו מודגשים התהליכים המרכזיים שעבורם עשויים לשמש בחנים. התהליכים בכחול נחשבים כמשמשים להחלטות ניהול רפואי של נבדקי הניסוי. אלה כוללים בחנים המשמשים להכללת ולהוצאת נבדקים, להקצאת טיפול וכן לניטור הבטיחות והיעילות של הטיפול במהלך הניסוי."
+    },
+    {
+      "id": "q6-a3",
+      "type": "paragraph",
+      "en": "The processes in pink are likely not to impact the medical management of the trial subjects. These include stratification and endpoint analysis or other exploratory assays for which correlation with clinical parameters is investigated retrospectively without impact on patient treatment (medical purpose). In relation to endpoints, it is important to acknowledge that these assays may be considered IVDs in future clinical trials (e.g. used for allocation or monitoring). Where this development is predictable, the assay should be developed and validated in compliance with the applicable requirements of Annex I of the IVDR as an IVD from the beginning. Importantly, in most cases, the assay will also be utilised during the trial as part of the monitoring of the trial subjects, which implies need for compliance with IVDR requirements.",
+      "he": "התהליכים בוורוד צפויים שלא להשפיע על הניהול הרפואי של נבדקי הניסוי. אלה כוללים ריבוד (stratification) וניתוח נקודות קצה (endpoints), או בחנים חקרניים אחרים שעבורם נבדק באופן רטרוספקטיבי המתאם עם פרמטרים קליניים ללא השפעה על טיפול המטופל (מטרה רפואית). ביחס לנקודות קצה, חשוב להכיר בכך שבחנים אלה עשויים להיחשב כמכשירי IVD בניסויים קליניים עתידיים (למשל כשהם משמשים להקצאה או לניטור). כאשר התפתחות זו צפויה, יש לפתח ולאמת את הבוחן בהתאם לדרישות החלות של נספח I ל-IVDR כמכשיר IVD מלכתחילה. חשוב לציין כי ברוב המקרים, הבוחן ישמש גם במהלך הניסוי כחלק מניטור נבדקי הניסוי, ומכאן משתמע הצורך בעמידה בדרישות ה-IVDR."
+    },
+    {
+      "id": "q6-fig",
+      "type": "note",
+      "en": "Fig. 1 Simplified examples of use of assays on human samples in a clinical trial. Assays marked in blue (diamonds) are considered to be assays which will likely be considered IVDs as they are used for medical management decisions of trial subjects within the trial. The processes in yellow pink (ellipses) are considered to likely not to impact the medical management of the trial subjects and therefore would not have a medical purpose in the trial.",
+      "he": "איור 1: דוגמאות מפושטות לשימוש בבחנים על דגימות אנושיות בניסוי קליני. בחנים המסומנים בכחול (מעוינים) נחשבים כבחנים שסביר שייחשבו כמכשירי IVD, מאחר שהם משמשים להחלטות ניהול רפואי של נבדקי הניסוי בתוך הניסוי. התהליכים בוורוד (אליפסות) נחשבים כצפויים שלא להשפיע על הניהול הרפואי של נבדקי הניסוי, ולפיכך לא תהיה להם מטרה רפואית בניסוי."
+    },
+    {
+      "id": "q7",
+      "type": "heading",
+      "level": 2,
+      "number": "7",
+      "en": "In which situations may a non-CE marked IVD (or an IVD that is CE marked for another intended purpose) be used in a clinical trial for a medical purpose according to the IVDR?",
+      "he": "באילו מצבים ניתן להשתמש במכשיר IVD ללא סימון CE (או במכשיר IVD הנושא סימון CE למטרה מיועדת אחרת) בניסוי קליני למטרה רפואית על פי ה-IVDR?"
+    },
+    {
+      "id": "q7-a1",
+      "type": "paragraph",
+      "en": "Answer: Note that using a CE marked IVD outside its prescribed intended purpose is not covered by the CE marking provided to that device and renders it a non-CE marked IVD in the context of this clinical trial.",
+      "he": "תשובה: יש לשים לב כי שימוש במכשיר IVD הנושא סימון CE מחוץ למטרתו המיועדת הקבועה אינו מכוסה על ידי סימון ה-CE שניתן לאותו מכשיר, והופך אותו למכשיר IVD ללא סימון CE בהקשר של ניסוי קליני זה."
+    },
+    {
+      "id": "q7-a2",
+      "type": "paragraph",
+      "en": "Where a non-CE marked IVD is used for a medical purpose in a clinical trial the IVD must either be",
+      "he": "כאשר מכשיר IVD ללא סימון CE משמש למטרה רפואית בניסוי קליני, מכשיר ה-IVD חייב להיות אחד מהבאים:"
+    },
+    {
+      "id": "q7-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "a device for performance study (it is not acceptable to use an investigational IVD without evaluating its performance), or", "he": "מכשיר למחקר ביצועים (אין זה מקובל להשתמש במכשיר IVD נחקר ללא הערכת ביצועיו), או" },
+        { "en": "an in-house IVD (see also Q3).", "he": "מכשיר IVD מתוצרת עצמית (ראו גם שאלה 3)." }
+      ]
+    },
+    {
+      "id": "q7-a3",
+      "type": "paragraph",
+      "en": "If a non-CE marked assay is used for a medical purpose in a way that the assay fulfils the definition of an IVD according to Article 2 of the IVDR, outside of the abovementioned settings, this is not compliant with the IVDR. It is the responsibility of the clinical trial sponsor to ensure compliance with relevant provisions of Union and national law, including the IVDR.",
+      "he": "אם בוחן ללא סימון CE משמש למטרה רפואית באופן שהבוחן עומד בהגדרת מכשיר IVD על פי סעיף 2 ל-IVDR, מחוץ למצבים הנזכרים לעיל, אין הדבר תואם את ה-IVDR. באחריות נותן החסות לניסוי הקליני להבטיח עמידה בהוראות הרלוונטיות של דין האיחוד והדין הלאומי, לרבות ה-IVDR."
+    },
+    {
+      "id": "q7-a4",
+      "type": "paragraph",
+      "en": "If performance data is generated for an IVD outside of a performance study it might be insufficient for a future performance evaluation, and thus further studies might be required to generate sufficient clinical evidence.",
+      "he": "אם נוצרים נתוני ביצועים למכשיר IVD מחוץ למחקר ביצועים, ייתכן שהם לא יספיקו להערכת ביצועים עתידית, ולפיכך ייתכן שיידרשו מחקרים נוספים לשם יצירת ראיות קליניות מספקות."
+    },
+    {
+      "id": "q8",
+      "type": "heading",
+      "level": 2,
+      "number": "8",
+      "en": "Is a use in research sufficient justification for an assay to be defined as Research Use Only?",
+      "he": "האם שימוש במחקר מהווה הצדקה מספקת להגדרת בוחן כ\"לשימוש מחקרי בלבד\" (Research Use Only)?"
+    },
+    {
+      "id": "q8-a",
+      "type": "paragraph",
+      "en": "Answer: No. Where an assay, instrument, apparatus, appliance material or other article, including software is intended for research use only and is assigned a medical purpose by the clinical trial sponsor in the clinical trial protocol in a way that the assay fulfils the definition of an IVD according to IVDR Article 2, it becomes an IVD and can no longer be considered a research use only assay. It becomes regulated under the IVDR (see Q4-Q6).",
+      "he": "תשובה: לא. כאשר בוחן, מכשיר, התקן, חומר התקני או פריט אחר, לרבות תוכנה, מיועד לשימוש מחקרי בלבד, ונותן החסות לניסוי הקליני מייעד לו מטרה רפואית בפרוטוקול הניסוי הקליני באופן שהבוחן עומד בהגדרת מכשיר IVD על פי סעיף 2 ל-IVDR, הוא הופך למכשיר IVD ולא ניתן עוד לראותו כבוחן לשימוש מחקרי בלבד. הוא הופך למוסדר על פי ה-IVDR (ראו שאלות 4–6)."
+    },
+    {
+      "id": "q9",
+      "type": "heading",
+      "level": 2,
+      "number": "9",
+      "en": "Can an EU core lab facility that is part of a health institution established in the Union and has developed an in-house IVD receive samples from several clinical trial sites for analysis, or does the in-house IVD device have to be co-located with the clinical trial site?",
+      "he": "האם מתקן מעבדה מרכזית (core lab) באיחוד האירופי, שהוא חלק ממוסד בריאות המבוסס באיחוד ואשר פיתח מכשיר IVD מתוצרת עצמית, יכול לקבל דגימות מכמה אתרי ניסוי קליני לצורך ניתוח, או שעל מכשיר ה-IVD מתוצרת עצמית להיות ממוקם יחד עם אתר הניסוי הקליני?"
+    },
+    {
+      "id": "q9-a1",
+      "type": "paragraph",
+      "en": "Answer: In-house devices can be used as long as the provisions of the IVDR and relevant national legislations are satisfied, which include notably, that the device must be manufactured and used within a health institution established in the EU and the device is not transferred to another legal entity. In-house IVD must fulfil relevant general safety and performance requirements set out in Annex I.",
+      "he": "תשובה: ניתן להשתמש במכשירים מתוצרת עצמית כל עוד מתקיימות הוראות ה-IVDR והחקיקות הלאומיות הרלוונטיות, הכוללות בפרט כי המכשיר חייב להיות מיוצר ומשמש בתוך מוסד בריאות המבוסס באיחוד האירופי וכי המכשיר אינו מועבר לישות משפטית אחרת. מכשיר IVD מתוצרת עצמית חייב לעמוד בדרישות הכלליות הרלוונטיות לבטיחות וביצועים הקבועות בנספח I⁵."
+    },
+    {
+      "id": "q9-a2",
+      "type": "paragraph",
+      "en": "Samples can travel and be analysed by means of in-house devices based in a different location than the trial site facilitating a core lab facility approach. The in-house concept applies to the device itself, which must be manufactured and used within the responsible health institution.",
+      "he": "דגימות יכולות לעבור ולהיות מנותחות באמצעות מכשירים מתוצרת עצמית הממוקמים במיקום אחר מאתר הניסוי, באופן המאפשר גישת מעבדה מרכזית (core lab). מושג ה\"תוצרת עצמית\" חל על המכשיר עצמו, אשר חייב להיות מיוצר ומשמש בתוך מוסד הבריאות האחראי."
+    },
+    {
+      "id": "fn-4",
+      "type": "note",
+      "marker": "4",
+      "en": "A central laboratory to analyse samples from multiple sites within a clinical trial",
+      "he": "מעבדה מרכזית לניתוח דגימות מאתרים מרובים בתוך ניסוי קליני."
+    },
+    {
+      "id": "fn-5",
+      "type": "note",
+      "marker": "5",
+      "en": "The health institution must provide reasoned justification on which requirements are not fully met according to article 5(f) (iii) IVDR.",
+      "he": "מוסד הבריאות חייב לספק נימוק מנומק לגבי אילו דרישות אינן מתקיימות במלואן על פי סעיף 5(f)(iii) ל-IVDR."
+    },
+    {
+      "id": "q10",
+      "type": "heading",
+      "level": 2,
+      "number": "10",
+      "en": "Is there a common EU procedure for combined trials?",
+      "he": "האם קיים נוהל משותף של האיחוד האירופי לניסויים משולבים?"
+    },
+    {
+      "id": "q10-a",
+      "type": "paragraph",
+      "en": "Answer: No, there is no dedicated procedure foreseen in the Regulations and therefore, currently, no harmonized procedure is in place. However, where a single combined trial will serve as the clinical performance study for the device and the clinical trial of the medicinal product, the study documentation required for submissions (if applicable) may be partially overlapping. Not all clinical performance studies have to be submitted to the regulatory authorities (see Q14). Sponsors of these clinical trials are encouraged to consult national guidance documents and contact National Competent Authorities prior to clinical trial submission.",
+      "he": "תשובה: לא, אין נוהל ייעודי הצפוי בתקנות, ולפיכך, כיום, אין נוהל מתואם. עם זאת, כאשר ניסוי משולב יחיד ישמש כמחקר הביצועים הקליני של המכשיר וכניסוי הקליני של המוצר הרפואי, תיעוד המחקר הנדרש להגשות (אם רלוונטי) עשוי לחפוף חלקית. לא כל מחקרי הביצועים הקליניים חייבים להיות מוגשים לרשויות הרגולטוריות (ראו שאלה 14). נותני החסות לניסויים קליניים אלה מתבקשים לעיין במסמכי הנחיה לאומיים ולפנות לרשויות המוסמכות הלאומיות לפני הגשת הניסוי הקליני."
+    },
+    {
+      "id": "q11",
+      "type": "heading",
+      "level": 2,
+      "number": "11",
+      "en": "Which IVDs should be listed in the cover letter of the clinical trial application?",
+      "he": "אילו מכשירי IVD יש לרשום במכתב הנלווה (cover letter) של הבקשה לניסוי קליני?"
+    },
+    {
+      "id": "q11-a",
+      "type": "paragraph",
+      "en": "Answer: Only those IVDs should be mentioned in the cover letter that are specifically required by the protocol to be used to achieve the objectives of the clinical trial. The information provided should permit identification of the IVD being used and whether it is CE-marked for the planned use. Evidence of CE-marking generally does not have to be provided in the CTA, but it is the responsibility of the clinical trial sponsor to determine whether the device is used in the clinical trial in line with the manufacturer's intended purpose.",
+      "he": "תשובה: יש להזכיר במכתב הנלווה רק את מכשירי ה-IVD שהפרוטוקול דורש במפורש שישמשו להשגת מטרות הניסוי הקליני. המידע המסופק צריך לאפשר זיהוי של מכשיר ה-IVD שבשימוש ושל השאלה אם הוא נושא סימון CE לשימוש המתוכנן. ככלל, אין צורך לספק ראיה לסימון CE בבקשה לניסוי קליני (CTA), אך באחריות נותן החסות לניסוי הקליני לקבוע אם המכשיר משמש בניסוי הקליני בהתאם למטרה המיועדת של היצרן."
+    },
+    {
+      "id": "q12",
+      "type": "heading",
+      "level": 2,
+      "number": "12",
+      "en": "Which information needs to be provided in the clinical trial application, if an assay with medical purpose that qualifies as an IVD is used in a clinical trial where the assay does not have a CE marking for the intended purpose (including in-house assays)?",
+      "he": "איזה מידע יש לספק בבקשה לניסוי קליני, אם בבוחן בעל מטרה רפואית הנחשב כמכשיר IVD נעשה שימוש בניסוי קליני שבו לבוחן אין סימון CE למטרה המיועדת (לרבות בחנים מתוצרת עצמית)?"
+    },
+    {
+      "id": "q12-a1",
+      "type": "paragraph",
+      "en": "Answer: According to Annex I.B.7 (i) of the CTR, the clinical trial sponsor shall include in the Cover letter the list of medical devices which are to be investigated in the clinical trial but which are not part of the investigational medicinal product or products, together with a statement as to whether the medical devices are CE-marked for the intended purpose. This should be understood to refer to medical devices (including IVDs) which are specifically required by the protocol to be used to achieve the objectives of the trial.",
+      "he": "תשובה: על פי נספח I.B.7(i) ל-CTR, על נותן החסות לניסוי הקליני לכלול במכתב הנלווה את רשימת המכשירים הרפואיים שייחקרו בניסוי הקליני אך שאינם חלק מהמוצר או המוצרים הרפואיים הנחקרים, יחד עם הצהרה לעניין השאלה אם המכשירים הרפואיים נושאים סימון CE למטרה המיועדת. יש להבין זאת כמתייחס למכשירים רפואיים (לרבות מכשירי IVD) שהפרוטוקול דורש במפורש שישמשו להשגת מטרות הניסוי."
+    },
+    {
+      "id": "q12-a2",
+      "type": "paragraph",
+      "en": "Use of an IVD in a clinical trial may meet the definition of a device for performance study. (See glossary 'device for performance study' and 'performance study')",
+      "he": "שימוש במכשיר IVD בניסוי קליני עשוי לעמוד בהגדרת מכשיר למחקר ביצועים. (ראו במילון המונחים \"מכשיר למחקר ביצועים\" ו\"מחקר ביצועים\".)"
+    },
+    {
+      "id": "q12-a3",
+      "type": "paragraph",
+      "en": "For each device used in the clinical trial that meets the definition of a device for performance study, the sponsor of the clinical trial should comment on the need for notification or application for the clinical performance study conducted in parallel with the clinical trial, based on the applicable IVD legislation. Reference should be made to EUDAMED Single Identification Number (SIN) and/or National Competent Authority reference numbers (if available) for planned or submitted performance studies. To facilitate bridging between clinical trial and performance study, the IVD being used should be identified in the cover letter and protocol of the clinical trial.",
+      "he": "עבור כל מכשיר המשמש בניסוי הקליני העומד בהגדרת מכשיר למחקר ביצועים, על נותן החסות לניסוי הקליני להתייחס לצורך בהודעה או בבקשה למחקר הביצועים הקליני המתבצע במקביל לניסוי הקליני, בהתבסס על חקיקת ה-IVD החלה. יש להפנות למספר הזיהוי היחיד של EUDAMED (SIN) ו/או למספרי האסמכתה של הרשות המוסמכת הלאומית (אם זמינים) עבור מחקרי ביצועים מתוכננים או שהוגשו. כדי להקל על הגישור בין הניסוי הקליני למחקר הביצועים, יש לזהות את מכשיר ה-IVD שבשימוש במכתב הנלווה ובפרוטוקול של הניסוי הקליני."
+    },
+    {
+      "id": "q12-a4",
+      "type": "paragraph",
+      "en": "Where the IVD manufacturer is supporting the clinical trial, which is also a performance study, the clinical trial sponsor should obtain a statement from the IVD manufacturer that the device for performance study in question conforms to the general safety and performance requirements laid down in Annex I of the IVDR, apart from the aspects covered by the clinical performance study and that, with regards to those aspects, every precaution has been taken to protect the health and safety of the subject.",
+      "he": "כאשר יצרן ה-IVD תומך בניסוי הקליני, שהוא גם מחקר ביצועים, על נותן החסות לניסוי הקליני לקבל מיצרן ה-IVD הצהרה כי המכשיר למחקר הביצועים הנדון תואם את הדרישות הכלליות לבטיחות וביצועים הקבועות בנספח I ל-IVDR, למעט ההיבטים המכוסים במחקר הביצועים הקליני, וכי ביחס להיבטים אלה ננקטו כל אמצעי הזהירות להגנה על בריאות הנבדק ובטיחותו."
+    },
+    {
+      "id": "q12-a5",
+      "type": "paragraph",
+      "en": "Where the clinical trial sponsor is also the manufacturer of the IVD or assumes the role as manufacturer of the IVD according to Article 16 IVDR, the clinical trial sponsor must draw up their own statement as above. In case the study falls under IVDR Art 58 (1) or (2), it must be designed, authorised, conducted, recorded and reported in accordance with IVDR Art. 58-77 and Annex XIV.",
+      "he": "כאשר נותן החסות לניסוי הקליני הוא גם יצרן מכשיר ה-IVD או מקבל על עצמו את תפקיד יצרן ה-IVD על פי סעיף 16 ל-IVDR, על נותן החסות לניסוי הקליני לערוך הצהרה משלו כאמור לעיל. אם המחקר נכלל בסעיף 58(1) או (2) ל-IVDR, עליו להיות מתוכנן, מאושר, מבוצע, מתועד ומדווח בהתאם לסעיפים 58–77 ולנספח XIV ל-IVDR."
+    },
+    {
+      "id": "q12-a6",
+      "type": "paragraph",
+      "en": "In the CTA cover letter, the availability of this statement should be confirmed, and the aspects that are covered in performance study as part of the clinical trial should be listed. The statement is to be kept with the sponsor's trial master file (TMF) and investigators' site file (ISF) and made available for inspections or at the request of NCAs. In case of confidential information in the description of the performance studies, a redacted cover letter can be submitted, as necessary.",
+      "he": "במכתב הנלווה ל-CTA יש לאשר את זמינותה של הצהרה זו, ולרשום את ההיבטים המכוסים במחקר הביצועים כחלק מהניסוי הקליני. ההצהרה תישמר בתיק האב של הניסוי (TMF) של נותן החסות ובתיק האתר של החוקרים (ISF), ותועמד לרשות לצורך ביקורות או על פי בקשת הרשויות המוסמכות הלאומיות. במקרה של מידע חסוי בתיאור מחקרי הביצועים, ניתן להגיש מכתב נלווה מצונזר (redacted), לפי הצורך."
+    },
+    {
+      "id": "q12-a7",
+      "type": "paragraph",
+      "en": "In addition, further details on compliance with IVDR and Annex I of the IVDR can be provided in the protocol, according to CTR Annex I 17. a)-f).",
+      "he": "בנוסף, ניתן לספק בפרוטוקול פרטים נוספים על העמידה ב-IVDR ובנספח I ל-IVDR, על פי נספח I 17. א)-ו) ל-CTR."
+    },
+    {
+      "id": "q13",
+      "type": "heading",
+      "level": 2,
+      "number": "13",
+      "en": "Which information needs to be provided in the clinical trial application for an in-house IVD?",
+      "he": "איזה מידע יש לספק בבקשה לניסוי קליני עבור מכשיר IVD מתוצרת עצמית?"
+    },
+    {
+      "id": "q13-a1",
+      "type": "paragraph",
+      "en": "Answer: In principle, in the case of in-house IVDs, the sponsor should provide the name of the health institution where the IVD is manufactured and used and a link to their IVDR Art 5(f) declaration. It is recommended to document this aspect in the harmonised template document.",
+      "he": "תשובה: ככלל, במקרה של מכשירי IVD מתוצרת עצמית, על נותן החסות לספק את שם מוסד הבריאות שבו מכשיר ה-IVD מיוצר ומשמש, וקישור להצהרה שלהם על פי סעיף 5(f) ל-IVDR. מומלץ לתעד היבט זה במסמך התבנית המתואם⁷."
+    },
+    {
+      "id": "q13-a2",
+      "type": "paragraph",
+      "en": "The IVD analysis must be carried out in a laboratory complying with ISO15189, or, where applicable, with national provisions, in line with IVDR Article 5(5)(c). In addition, further details on compliance with IVDR Article 5(5) and Annex I of the IVDR can be provided in the protocol, according to CTR Annex I 17. a)-f). Please note that Regulation (EU) 2022/112 amends the IVDR to defer the application of certain conditions for in-house devices.",
+      "he": "ניתוח ה-IVD חייב להתבצע במעבדה התואמת את ISO15189, או, היכן שרלוונטי, את ההוראות הלאומיות, בהתאם לסעיף 5(5)(c) ל-IVDR. בנוסף, ניתן לספק בפרוטוקול פרטים נוספים על העמידה בסעיף 5(5) ל-IVDR ובנספח I ל-IVDR, על פי נספח I 17. א)-ו) ל-CTR. יש לשים לב כי תקנה (האיחוד האירופי) 2022/112 מתקנת את ה-IVDR לדחיית החלת תנאים מסוימים למכשירים מתוצרת עצמית."
+    },
+    {
+      "id": "q14",
+      "type": "heading",
+      "level": 2,
+      "number": "14",
+      "en": "What are the notification/application requirements for the performance study according to the IVDR?",
+      "he": "מהן דרישות ההודעה/הבקשה למחקר הביצועים על פי ה-IVDR?"
+    },
+    {
+      "id": "q14-a",
+      "type": "paragraph",
+      "en": "Answer: Where the performance study is either an interventional clinical performance study or involves risks for the subjects of the study an application is necessary. Additional reporting and documentation obligations apply according to Art. 58 (1) and (2) IVDR. Where the IVD is being used according to its intended purpose outlined in the instructions for use, Article 70 may apply. The submission requirements from the IVDR perspective will depend on the particulars of the device in question and the design of the performance study (Article 57, 58 and 70 IVDR).",
+      "he": "תשובה: כאשר מחקר הביצועים הוא מחקר ביצועים קליני התערבותי או כרוך בסיכונים לנבדקי המחקר, נדרשת בקשה. חובות דיווח ותיעוד נוספות חלות על פי סעיף 58(1) ו-(2) ל-IVDR. כאשר מכשיר ה-IVD משמש על פי מטרתו המיועדת המתוארת בהוראות השימוש, עשוי לחול סעיף 70. דרישות ההגשה מנקודת מבט ה-IVDR יהיו תלויות בפרטי המכשיר הנדון ובתכנון מחקר הביצועים (סעיפים 57, 58 ו-70 ל-IVDR)."
+    },
+    {
+      "id": "q15",
+      "type": "heading",
+      "level": 2,
+      "number": "15",
+      "en": "What are the respective responsibilities of the clinical trial sponsor and IVD manufacturer including in the case of co-development and use in a combined trial?",
+      "he": "מהן האחריות בהתאמה של נותן החסות לניסוי הקליני ושל יצרן ה-IVD, לרבות במקרה של פיתוח משותף ושימוש בניסוי משולב?"
+    },
+    {
+      "id": "q15-a1",
+      "type": "paragraph",
+      "en": "Answer: Clinical trial sponsor requirements are defined in Article 2.2.14 CTR: The sponsor is responsible for the initiation and management of the clinical trial, including the selection and use of IVDs. The sponsor is responsible for the overall compliance of products used in the clinical trial with the CTR and other relevant EU and National legislation. Clinical trial sponsors are reminded of their obligations according to ICH-GCP E6 (R2) to document the competence of a laboratory to perform a certain test to support the reliability of results. This information should be kept at the sponsor's Trial Master File (TMF) and, when applicable, at the investigator's site file. Site suitability in accordance with Art 50 and Annex I N67 of the CTR should be documented. As good practice recommendation, this should take place by using the harmonised template document.",
+      "he": "תשובה: דרישות נותן החסות לניסוי הקליני מוגדרות בסעיף 2.2.14 ל-CTR: נותן החסות אחראי על יזימת הניסוי הקליני וניהולו, לרבות בחירת מכשירי ה-IVD והשימוש בהם. נותן החסות אחראי על העמידה הכוללת של המוצרים המשמשים בניסוי הקליני ב-CTR ובחקיקה הרלוונטית האחרת של האיחוד והלאומית. נותני החסות לניסוי הקליני מתבקשים לזכור את חובותיהם על פי ICH-GCP E6 (R2) לתעד את כשירותה של מעבדה לבצע בדיקה מסוימת לתמיכה במהימנות התוצאות. מידע זה יישמר בתיק האב של הניסוי (TMF) של נותן החסות, ובמקום הרלוונטי בתיק האתר של החוקר. יש לתעד את התאמת האתר בהתאם לסעיף 50 ולנספח I N67 ל-CTR. כהמלצת פרקטיקה טובה, הדבר ייעשה תוך שימוש במסמך התבנית המתואם."
+    },
+    {
+      "id": "q15-a2",
+      "type": "paragraph",
+      "en": "In case of a clinical trial where the IVD is used outside its intended purpose the clinical trial sponsor assumes the obligations incumbent on manufacturers according to Article 16(1) of the IVDR.",
+      "he": "במקרה של ניסוי קליני שבו מכשיר ה-IVD משמש מחוץ למטרתו המיועדת, נותן החסות לניסוי הקליני מקבל על עצמו את החובות המוטלות על יצרנים על פי סעיף 16(1) ל-IVDR⁸."
+    },
+    {
+      "id": "q15-a3",
+      "type": "paragraph",
+      "en": "It is the intended purpose, which determines the applicability of the IVDR for an assay and not the intention (or not) of obtaining a CE-mark at a later stage. Where the assay qualifies as an IVD under the IVDR a natural or legal person needs to take responsibility for the safety and performance of the IVD device.",
+      "he": "המטרה המיועדת היא הקובעת את תחולת ה-IVDR על בוחן, ולא הכוונה (או היעדרה) להשיג סימון CE בשלב מאוחר יותר. כאשר הבוחן נחשב כמכשיר IVD על פי ה-IVDR, על אדם טבעי או משפטי⁹ לקחת אחריות על הבטיחות והביצועים של מכשיר ה-IVD."
+    },
+    {
+      "id": "q16",
+      "type": "heading",
+      "level": 2,
+      "number": "16",
+      "en": "In situations where it is procedurally feasible and where the same ethics committee is responsible for evaluating the clinical trial AND performance study aspects of a combined trial – Would there be a legal requirement for two separate ethics opinions, or could the outcome be a single document for both aspects?",
+      "he": "במצבים שבהם הדבר אפשרי מבחינה פרוצדורלית, וכאשר אותה ועדת אתיקה אחראית על הערכת היבטי הניסוי הקליני וגם היבטי מחקר הביצועים של ניסוי משולב — האם תהיה דרישה משפטית לשתי חוות דעת אתיקה נפרדות, או שהתוצר עשוי להיות מסמך יחיד לשני ההיבטים?"
+    },
+    {
+      "id": "q16-a1",
+      "type": "paragraph",
+      "en": "Answer: According to IVDR Art. 2 (59) and Art 58 (3), and CTR Art. 2.2.11, recital (18) and Art. 4, the ethics committees operate according to national law. It is up to the Member States to organize the work of the ethics committees and it is up to the Member States to ensure that the procedures for the review by the ethics committees are compatible with the clinical trial or conformity assessment procedures in the CTR and IVDR respectively.",
+      "he": "תשובה: על פי סעיף 2(59) וסעיף 58(3) ל-IVDR, וסעיף 2.2.11, פסקה מקדמית (18) וסעיף 4 ל-CTR, ועדות האתיקה פועלות על פי הדין הלאומי. על המדינות החברות לארגן את עבודת ועדות האתיקה, ועליהן להבטיח כי נוהלי הסקירה על ידי ועדות האתיקה תואמים את נוהלי הניסוי הקליני או הערכת ההתאמה שב-CTR וב-IVDR, בהתאמה."
+    },
+    {
+      "id": "q16-a2",
+      "type": "paragraph",
+      "en": "However, in situations where it is procedurally feasible and where the same ethics committee is responsible for evaluating the clinical trial and performance evaluation aspects of a combined trial, there is no legal requirement for two separate ethics opinions. The outcome could be a single document for both aspects, provided this is permissible under national law of the member state.",
+      "he": "עם זאת, במצבים שבהם הדבר אפשרי מבחינה פרוצדורלית, וכאשר אותה ועדת אתיקה אחראית על הערכת היבטי הניסוי הקליני והערכת הביצועים של ניסוי משולב, אין דרישה משפטית לשתי חוות דעת אתיקה נפרדות. התוצר עשוי להיות מסמך יחיד לשני ההיבטים, ובלבד שהדבר מותר על פי הדין הלאומי של המדינה החברה."
+    },
+    {
+      "id": "q16-a3",
+      "type": "paragraph",
+      "en": "At the same time, in accordance with Art 9 of the CTR, Member States shall ensure that the persons validating and assessing the application do not have conflicts of interest, are independent of the sponsor, of the clinical trial site and the investigators involved and of persons financing the clinical trial, as well as free of any other undue influence. Member States shall ensure that persons admitting and assessing the application have no financial or personal interests, which could affect their impartiality.",
+      "he": "במקביל, בהתאם לסעיף 9 ל-CTR, על המדינות החברות להבטיח כי לאנשים המאמתים ומעריכים את הבקשה אין ניגודי עניינים, כי הם בלתי תלויים בנותן החסות, באתר הניסוי הקליני ובחוקרים המעורבים ובאנשים המממנים את הניסוי הקליני, וכן נקיים מכל השפעה בלתי הוגנת אחרת. על המדינות החברות להבטיח כי לאנשים המקבלים ומעריכים את הבקשה אין אינטרסים כספיים או אישיים העלולים להשפיע על אי-משוא הפנים שלהם."
+    },
+    {
+      "id": "fn-6",
+      "type": "note",
+      "marker": "6",
+      "en": "In this document 'clinical trial application' covers both the initial trial application and applications for substantial modifications to add an assay with a medical purpose to an ongoing trial",
+      "he": "במסמך זה, \"בקשה לניסוי קליני\" מכסה הן את הבקשה הראשונית לניסוי והן בקשות לשינויים מהותיים להוספת בוחן בעל מטרה רפואית לניסוי מתמשך."
+    },
+    {
+      "id": "fn-7",
+      "type": "note",
+      "marker": "7",
+      "en": "Available on EudraLex vol. 10.",
+      "he": "זמין ב-EudraLex כרך 10."
+    },
+    {
+      "id": "fn-8",
+      "type": "note",
+      "marker": "8",
+      "en": "See also Q5.",
+      "he": "ראו גם שאלה 5."
+    },
+    {
+      "id": "fn-9",
+      "type": "note",
+      "marker": "9",
+      "en": "Which might be the manufacturer, sponsor of the clinical trial, the developer of the investigational medicinal product, a health institution, a research group etc.",
+      "he": "אשר עשוי להיות היצרן, נותן החסות לניסוי הקליני, מפתח המוצר הרפואי הנחקר, מוסד בריאות, קבוצת מחקר וכד'."
+    }
+  ]
+}

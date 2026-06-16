@@ -1,0 +1,414 @@
+{
+  "id": "MDCG-2025-4",
+  "title": {
+    "en": "Guidance on the safe making available of medical device software (MDSW) apps on online platforms",
+    "he": "הנחיה בנושא ההעמדה הבטוחה לרשות של יישומוני תוכנת מכשיר רפואי (MDSW) בפלטפורמות מקוונות"
+  },
+  "category": "New Technologies",
+  "publicationDate": "2025-06",
+  "source": {
+    "url": "https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en",
+    "file": "original/mdcg_2025-4_en.pdf"
+  },
+  "language": "he",
+  "direction": "rtl",
+  "translationStatus": "review",
+  "glossaryVersion": "2026-06",
+  "blocks": [
+    {
+      "id": "disclaimer-1",
+      "type": "paragraph",
+      "en": "This document has been endorsed by the Medical Device Coordination Group (MDCG) established by Article 103 of Regulation (EU) 2017/745. The MDCG is composed of representatives of all Member States and it is chaired by a representative of the European Commission.",
+      "he": "מסמך זה אושר על ידי קבוצת תיאום המכשירים הרפואיים (MDCG) שהוקמה מכוח סעיף 103 לתקנה (האיחוד האירופי) 2017/745. ה-MDCG מורכבת מנציגים של כל המדינות החברות ובראשה עומד נציג של הנציבות האירופית."
+    },
+    {
+      "id": "disclaimer-2",
+      "type": "paragraph",
+      "en": "The document is not a European Commission document and it cannot be regarded as reflecting the official position of the European Commission. Any views expressed in this document are not legally binding and only the Court of Justice of the European Union can give binding interpretations of Union law.",
+      "he": "המסמך אינו מסמך של הנציבות האירופית ואין לראות בו כמשקף את העמדה הרשמית של הנציבות האירופית. כל דעה המובעת במסמך זה אינה מחייבת מבחינה משפטית, ורק בית הדין לצדק של האיחוד האירופי מוסמך לתת פרשנות מחייבת לדין האיחוד."
+    },
+    {
+      "id": "toc-heading",
+      "type": "heading",
+      "level": 1,
+      "en": "Contents",
+      "he": "תוכן העניינים"
+    },
+    {
+      "id": "toc-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "1. Introduction", "he": "1. מבוא" },
+        { "en": "2. Regulatory considerations", "he": "2. שיקולים רגולטוריים" },
+        { "en": "3. Medical Devices Software (MDSW) apps on the Union market", "he": "3. יישומוני תוכנת מכשיר רפואי (MDSW) בשוק האיחוד" },
+        { "en": "3.1. App platform provider as an intermediary service provider under the DSA", "he": "3.1. ספק פלטפורמת יישומונים כספק שירות מתווך תחת ה-DSA" },
+        { "en": "3.2. App platform providers as distributors or importers", "he": "3.2. ספקי פלטפורמת יישומונים כמפיצים או כיבואנים" },
+        { "en": "4. Information obligations", "he": "4. חובות מידע" },
+        { "en": "4.1. Information to be requested from MDSW manufacturers and available to patients on app platform", "he": "4.1. מידע שיש לבקש מיצרני MDSW ואשר יהיה זמין למטופלים בפלטפורמת היישומונים" },
+        { "en": "4.2. Clear product categories on app platforms: Medical Device (versus Health, Lifestyle, Medical)", "he": "4.2. קטגוריות מוצר ברורות בפלטפורמות יישומונים: מכשיר רפואי (לעומת בריאות, אורח חיים, רפואה)" },
+        { "en": "4.2.1. Information concerning the labelling and marking in compliance with rules of the MDR and IVDR", "he": "4.2.1. מידע הנוגע לתיוג ולסימון בהתאם לכללי ה-MDR וה-IVDR" },
+        { "en": "4.3. Information obligations for app platform providers considered as intermediary services providers", "he": "4.3. חובות מידע לספקי פלטפורמת יישומונים הנחשבים לספקי שירותים מתווכים" }
+      ]
+    },
+    {
+      "id": "sec-1",
+      "type": "heading",
+      "level": 1,
+      "number": "1",
+      "en": "Introduction",
+      "he": "מבוא"
+    },
+    {
+      "id": "sec-1-p1",
+      "type": "paragraph",
+      "en": "Software Applications (Apps) are significantly changing our way of living, helping in various aspects of our daily lives, including healthcare. Medical device software (MDSW) Apps cover an extensive variety of uses such as those intended to drive insulin pumps, detect and diagnose skin cancers (e.g. melanoma) etc.",
+      "he": "יישומוני תוכנה (Apps) משנים באופן משמעותי את אורח חיינו ומסייעים בהיבטים שונים של חיי היומיום שלנו, לרבות שירותי בריאות. יישומוני תוכנת מכשיר רפואי (MDSW) מכסים מגוון רחב של שימושים, כגון אלה המיועדים להפעיל משאבות אינסולין, לזהות ולאבחן סרטני עור (למשל מלנומה) וכד'."
+    },
+    {
+      "id": "sec-1-p2",
+      "type": "paragraph",
+      "en": "These apps are directly available on app platforms for download and use by patients. Their safety and compliance with the safety and performance requirements of the Medical Devices Regulations is paramount. It is therefore of crucial importance that app platform providers enable manufacturers of MDSW to fulfil their requirements including but not limited to the transparency requirements set out in the MDR/IVDR.",
+      "he": "יישומונים אלה זמינים ישירות בפלטפורמות יישומונים להורדה ולשימוש על ידי מטופלים¹. הבטיחות שלהם ועמידתם בדרישות הבטיחות והביצועים של תקנות המכשירים הרפואיים הן בעלות חשיבות עליונה. לפיכך, חשוב ביותר שספקי פלטפורמות היישומונים יאפשרו ליצרני MDSW לעמוד בדרישותיהם, לרבות אך לא רק דרישות השקיפות הקבועות ב-MDR/IVDR."
+    },
+    {
+      "id": "sec-1-p3",
+      "type": "paragraph",
+      "en": "This guidance aims to describe the obligations of app platform providers and their respective responsibilities under the MDR/IVDR as well as the Digital Services Act (DSA), which introduces requirements for online intermediary service providers.",
+      "he": "הנחיה זו נועדה לתאר את חובותיהם של ספקי פלטפורמות היישומונים ואת אחריותם בהתאם ל-MDR/IVDR וכן לחוק השירותים הדיגיטליים (DSA)², המציב דרישות לספקי שירותים מתווכים מקוונים."
+    },
+    {
+      "id": "sec-1-p4",
+      "type": "paragraph",
+      "en": "In accordance with Article 103 (8) of Regulation (EU) 2017/745 on Medical Devices (MDR) and Article 98 of Regulation (EU) 2017/746 on in vitro diagnostic medical devices (IVDR), this MDCG guidance provides clarifications regarding the role and responsibilities of app platform providers when facilitating the making available of medical device software (MDSW) apps on the Union market. This guidance also provides information regarding information which should be provided by medical device manufacturers when making available their MDSW Apps.",
+      "he": "בהתאם לסעיף 103(8) לתקנה (האיחוד האירופי) 2017/745 בנושא מכשירים רפואיים (MDR) ולסעיף 98 לתקנה (האיחוד האירופי) 2017/746 בנושא מכשירים רפואיים לאבחון ויטרו (IVDR), הנחיית MDCG זו מספקת הבהרות בנוגע לתפקידם ולאחריותם של ספקי פלטפורמות היישומונים בעת סיוע להעמדה לרשות של יישומוני תוכנת מכשיר רפואי (MDSW)³ בשוק האיחוד. הנחיה זו גם מספקת מידע בנוגע למידע שעל יצרני מכשירים רפואיים לספק בעת העמדה לרשות של יישומוני ה-MDSW שלהם."
+    },
+    {
+      "id": "sec-2",
+      "type": "heading",
+      "level": 1,
+      "number": "2",
+      "en": "Regulatory considerations",
+      "he": "שיקולים רגולטוריים"
+    },
+    {
+      "id": "sec-2-p1",
+      "type": "paragraph",
+      "en": "For the purpose of this guidance, the following definitions set out in Article 2 of the MDR and IVDR are of relevance:",
+      "he": "לצורך הנחיה זו, ההגדרות הבאות הקבועות בסעיף 2 ל-MDR ול-IVDR הן רלוונטיות:"
+    },
+    {
+      "id": "sec-2-defs1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "\"Placing on the market\" means the first making available of a device, other than an investigational device / a device for performance study, on the Union market;", "he": "\"הוצאה לשוק\" (Placing on the market) משמעה ההעמדה הראשונה לרשות של מכשיר, שאינו מכשיר נחקר / מכשיר למחקר ביצועים, בשוק האיחוד;" },
+        { "en": "\"Making available on the market\" is defined as any supply of a device, other than an investigational device/ a device for performance study, for distribution, consumption or use on the Union market in the course of a commercial activity, whether in return for payment or free of charge.", "he": "\"העמדה לרשות בשוק\" (Making available on the market) מוגדרת ככל אספקה של מכשיר, שאינו מכשיר נחקר / מכשיר למחקר ביצועים, לצורך הפצה, צריכה או שימוש בשוק האיחוד במהלך פעילות מסחרית, בין בתמורה לתשלום ובין בחינם." },
+        { "en": "\"Putting into service\" is defined as the stage at which a device, other than an investigational device / a device for performance study, has been made available to the final user as being ready for use on the Union market for the first time for its intended purpose.", "he": "\"הפעלה\" (Putting into service) מוגדרת כשלב שבו מכשיר, שאינו מכשיר נחקר / מכשיר למחקר ביצועים, הועמד לרשות המשתמש הסופי כשהוא מוכן לשימוש בשוק האיחוד בפעם הראשונה למטרתו המיועדת." },
+        { "en": "A \"manufacturer\" means a natural or legal person who manufactures or fully refurbishes a device or has a device designed, manufactured or fully refurbished, and markets that device under its name or trademark;", "he": "\"יצרן\" משמעו אדם טבעי או משפטי המייצר או משפץ במלואו מכשיר, או שמכשיר עוצב, יוצר או שופץ במלואו עבורו, והוא משווק מכשיר זה תחת שמו או סימן המסחר שלו;" },
+        { "en": "An \"importer\" is defined as any natural or legal person established within the Union that places a device from a third country on the Union market.", "he": "\"יבואן\" מוגדר ככל אדם טבעי או משפטי שהתאגד בתוך האיחוד והמוציא לשוק האיחוד מכשיר ממדינה שלישית." },
+        { "en": "A \"distributor\" is defined as any natural or a legal person in the supply chain, other than the manufacturer or the importer, that makes a device available on the market, up until the point of putting the device into service.", "he": "\"מפיץ\" מוגדר ככל אדם טבעי או משפטי בשרשרת האספקה, שאינו היצרן או היבואן, המעמיד מכשיר לרשות בשוק, עד לנקודת הפעלת המכשיר." }
+      ]
+    },
+    {
+      "id": "sec-2-p2",
+      "type": "paragraph",
+      "en": "Additionally, the following definitions set out in Article 3 of the DSA are of relevance:",
+      "he": "בנוסף, ההגדרות הבאות הקבועות בסעיף 3 ל-DSA הן רלוונטיות:"
+    },
+    {
+      "id": "sec-2-defs2",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "An \"intermediary service\" means one of the following information society services: (i) a 'mere conduit' service, consisting of the transmission in a communication network of information provided by a recipient of the service, or the provision of access to a communication network; (ii) a 'caching' service, consisting of the transmission in a communication network of information provided by a recipient of the service, involving the automatic, intermediate and temporary storage of that information, performed for the sole purpose of making more efficient the information's onward transmission to other recipients upon their request; (iii) a 'hosting' service, consisting of the storage of information provided by, and at the request of, a recipient of the service;", "he": "\"שירות מתווך\" (intermediary service) משמעו אחד משירותי חברת המידע הבאים: (i) שירות \"צינור גרידא\" (mere conduit), המורכב מהעברה ברשת תקשורת של מידע שסיפק מקבל השירות, או מתן גישה לרשת תקשורת; (ii) שירות \"שמירה במטמון\" (caching), המורכב מהעברה ברשת תקשורת של מידע שסיפק מקבל השירות, הכרוך באחסון אוטומטי, ביניים וזמני של מידע זה, המבוצע אך ורק לשם ייעול ההעברה של המידע הלאה למקבלים אחרים לפי בקשתם; (iii) שירות \"אירוח\" (hosting), המורכב מאחסון של מידע שסופק על ידי מקבל השירות ולפי בקשתו;" },
+        { "en": "An \"online platform\" means a hosting service that, at the request of a recipient of the services, stores and disseminates information to the public, unless that activity is a minor and purely ancillary feature of another service or a minor functionality of the principal service and, for objective and technical reasons, cannot be used without that service, and the integration of the feature or functionality into the other service is not a means to circumvent the applicability of this Regulation.", "he": "\"פלטפורמה מקוונת\" (online platform) משמעה שירות אירוח אשר, לפי בקשת מקבל השירותים, מאחסן ומפיץ מידע לציבור, אלא אם פעילות זו היא תכונה משנית ונלווית בלבד של שירות אחר או פונקציונליות משנית של השירות העיקרי, ומטעמים אובייקטיביים וטכניים אינה ניתנת לשימוש ללא אותו שירות, ושילוב התכונה או הפונקציונליות בשירות האחר אינו אמצעי לעקיפת תחולתה של תקנה זו." }
+      ]
+    },
+    {
+      "id": "sec-3",
+      "type": "heading",
+      "level": 1,
+      "number": "3",
+      "en": "Medical Device Software (MDSW) apps on the Union market",
+      "he": "יישומוני תוכנת מכשיר רפואי (MDSW) בשוק האיחוד"
+    },
+    {
+      "id": "sec-3-p1",
+      "type": "paragraph",
+      "en": "On the basis of the New Legislative Framework, as clarified in the Commission notice 'The \"Blue Guide\" on the implementation of EU product rules 2022', the general rule is that more than one legal act of Union harmonisation legislation, such as the MDR and the IVDR and the DSA, may be applicable to one product, since the making available or putting into service can take place only when the product complies with all applicable Union harmonisation legislation.",
+      "he": "על בסיס המסגרת החקיקתית החדשה (New Legislative Framework), כפי שהובהר בהודעת הנציבות 'ה\"מדריך הכחול\" (Blue Guide) בנושא יישום כללי המוצרים של האיחוד האירופי 2022', הכלל הכללי הוא שלמעלה ממעשה משפטי אחד של חקיקת ההרמוניזציה של האיחוד, כגון ה-MDR, ה-IVDR וה-DSA, עשוי לחול על מוצר אחד, שכן ההעמדה לרשות או ההפעלה יכולות להתקיים רק כאשר המוצר עומד בכל חקיקת ההרמוניזציה החלה של האיחוד."
+    },
+    {
+      "id": "sec-3-p2",
+      "type": "paragraph",
+      "en": "Taking into consideration the definitions set out in the MDR and IVDR (some of which are outlined in section 2 of this document), the upload of a MDSW app by a manufacturer corresponds to the \"placing on the market\". The time during which the MDSW app is available via the app platform provider corresponds to the \"making available on the market\" accordingly. Where an app platform provider is making its own MDSW available to users/patients, the app platform provider fully qualifies as an economic operator in the distribution chain of that medical device.",
+      "he": "בהתחשב בהגדרות הקבועות ב-MDR וב-IVDR (שחלקן מובאות בסעיף 2 למסמך זה), העלאת יישומון MDSW על ידי יצרן מקבילה ל\"הוצאה לשוק\". פרק הזמן שבמהלכו יישומון ה-MDSW זמין באמצעות ספק פלטפורמת היישומונים מקביל בהתאם ל\"העמדה לרשות בשוק\". כאשר ספק פלטפורמת יישומונים מעמיד את ה-MDSW שלו עצמו לרשות משתמשים/מטופלים, ספק פלטפורמת היישומונים מסווג במלואו כגורם כלכלי בשרשרת ההפצה של אותו מכשיר רפואי."
+    },
+    {
+      "id": "sec-3-note",
+      "type": "note",
+      "en": "Note: the definition of \"making available on the market\" means any supply of a device in a commercial activity, whether in return for payment or free of charge.",
+      "he": "הערה: ההגדרה של \"העמדה לרשות בשוק\" משמעה כל אספקה של מכשיר בפעילות מסחרית, בין בתמורה לתשלום ובין בחינם."
+    },
+    {
+      "id": "sec-3-p3",
+      "type": "paragraph",
+      "en": "Where the app platform provider only offers third party MDSW, it is only acting as an intermediary service between the app manufacturer and the user/patient downloading the app.",
+      "he": "כאשר ספק פלטפורמת היישומונים מציע אך ורק MDSW של צד שלישי, הוא פועל אך ורק כשירות מתווך בין יצרן היישומון לבין המשתמש/המטופל המוריד את היישומון."
+    },
+    {
+      "id": "sec-3-p4",
+      "type": "paragraph",
+      "en": "Taking into account the above regulatory considerations, two setups can currently be envisaged in regard to how MDSW apps are made available on the Union market, which will apply differently as they cover different roles, on a pure or hybrid model (for instance in case of existence of own and third-party apps).",
+      "he": "בהתחשב בשיקולים הרגולטוריים שלעיל, ניתן כיום לדמיין שני מתווים בנוגע לאופן שבו יישומוני MDSW מועמדים לרשות בשוק האיחוד, אשר יחולו באופן שונה מאחר שהם מכסים תפקידים שונים, במודל טהור או היברידי (למשל במקרה של קיום יישומונים עצמיים ויישומונים של צד שלישי)."
+    },
+    {
+      "id": "sec-3-1",
+      "type": "heading",
+      "level": 2,
+      "number": "3.1",
+      "en": "App platform provider as an intermediary service provider under the DSA",
+      "he": "ספק פלטפורמת יישומונים כספק שירות מתווך תחת ה-DSA"
+    },
+    {
+      "id": "sec-3-1-p1",
+      "type": "paragraph",
+      "en": "In some cases, app platform providers may qualify as intermediary service providers and play a critical role in linking MDSW app manufacturers with patients.",
+      "he": "במקרים מסוימים, ספקי פלטפורמות יישומונים עשויים להיות מסווגים כספקי שירות מתווך ולמלא תפקיד מכריע בקישור בין יצרני יישומוני MDSW לבין מטופלים."
+    },
+    {
+      "id": "sec-3-1-p2",
+      "type": "paragraph",
+      "en": "In accordance with Article 3(i) of the DSA, an \"online platform\" means a hosting service that, at the request of a recipient of the service, stores and disseminates information to the public, unless that activity is a minor and purely ancillary feature of another service or a minor functionality of the principal service and, for objective and technical reasons, cannot be used without that other service, and the integration of the feature or functionality into the other service is not a means to circumvent the applicability of the DSA.",
+      "he": "בהתאם לסעיף 3(i) ל-DSA, \"פלטפורמה מקוונת\" משמעה שירות אירוח אשר, לפי בקשת מקבל השירות, מאחסן ומפיץ מידע לציבור, אלא אם פעילות זו היא תכונה משנית ונלווית בלבד של שירות אחר או פונקציונליות משנית של השירות העיקרי, ומטעמים אובייקטיביים וטכניים אינה ניתנת לשימוש ללא אותו שירות אחר, ושילוב התכונה או הפונקציונליות בשירות האחר אינו אמצעי לעקיפת תחולתו של ה-DSA."
+    },
+    {
+      "id": "sec-3-1-p3",
+      "type": "paragraph",
+      "en": "If the app platform provider acts as an intermediary service provider, including as an online marketplace, i.e. an online platform allowing consumers to conclude distance contracts with traders, where the product is made available to the user by the manufacturer, importer or distributor, then the app platform provider should in those circumstances not be considered either a distributor nor an importer and thus not an economic operator. In this case, overarching DSA principles as liability exemption (Article 6) and non-general monitoring obligations (Article 8) fully apply.",
+      "he": "אם ספק פלטפורמת היישומונים פועל כספק שירות מתווך, לרבות כשוק מקוון (online marketplace), קרי פלטפורמה מקוונת המאפשרת לצרכנים להתקשר בחוזים מרחוק עם סוחרים, כאשר המוצר מועמד לרשות המשתמש על ידי היצרן, היבואן או המפיץ, אזי בנסיבות אלה אין לראות בספק פלטפורמת היישומונים לא מפיץ ולא יבואן, ולפיכך לא גורם כלכלי. במקרה זה, עקרונות-העל של ה-DSA, כגון פטור מאחריות (סעיף 6) וחובות אי-ניטור כללי (סעיף 8), חלים במלואם."
+    },
+    {
+      "id": "sec-3-1-p4",
+      "type": "paragraph",
+      "en": "Online platforms allowing users and patients to conclude distance contracts with traders (e.g manufacturers under the MDR and IVDR) are subject to requirements under the DSA, which include and are not limited to:",
+      "he": "פלטפורמות מקוונות המאפשרות למשתמשים ולמטופלים להתקשר בחוזים מרחוק עם סוחרים (למשל יצרנים תחת ה-MDR וה-IVDR) כפופות לדרישות תחת ה-DSA, אשר כוללות, בין היתר:"
+    },
+    {
+      "id": "sec-3-1-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Notification of illegal content: Providers of hosting services, including online platforms, should put in place a notice and action mechanism for the content considered illegal that is present on their services. Such notices are deemed to give rise to actual knowledge or awareness and require the providers of hosting services to take timely and diligent decisions. In accordance with the MDR/IVDR and the DSA, national competent authorities for medical devices may issue orders (Article 9 and 10 DSA) to app platform providers, to remove illegal content related to medical devices, such as non-compliant or unsafe products.", "he": "הודעה על תוכן בלתי חוקי: על ספקי שירותי אירוח, לרבות פלטפורמות מקוונות, להקים מנגנון הודעה ופעולה (notice and action) עבור התוכן הנחשב לבלתי חוקי הקיים בשירותיהם. הודעות כאלה נחשבות כמקנות ידיעה או מודעות בפועל ומחייבות את ספקי שירותי האירוח לקבל החלטות במועד ובשקידה. בהתאם ל-MDR/IVDR ול-DSA, רשויות מוסמכות לאומיות למכשירים רפואיים רשאיות להוציא צווים (סעיפים 9 ו-10 ל-DSA) לספקי פלטפורמות יישומונים, להסרת תוכן בלתי חוקי הקשור למכשירים רפואיים, כגון מוצרים שאינם תואמים או שאינם בטוחים." },
+        { "en": "Transparency and compliance requirements: App platform providers, to the extent they qualify as online platforms allowing users and patients to conclude distance contract with traders (e.g. software device manufacturers/app developers), should ensure that their online interface is designed and organised in a way that enables traders (e.g. software device manufacturers/app developers) to comply with their obligations regarding, among others, compliance and product safety information under EU law, including for example requirements for the provision of information to users and patients under Annex I of the MDR and IVDR (Article 31 DSA), see also section 4 on \"information obligations\" below for more information. To ensure a safe, trustworthy and transparent environment, they should make best efforts to assess whether the required information about traders including their contact data (Article 30 DSA) is reliable, complete and available to their users.", "he": "דרישות שקיפות והתאמה: על ספקי פלטפורמות היישומונים, ככל שהם מסווגים כפלטפורמות מקוונות המאפשרות למשתמשים ולמטופלים להתקשר בחוזה מרחוק עם סוחרים (למשל יצרני מכשירי תוכנה / מפתחי יישומונים), להבטיח כי הממשק המקוון שלהם מעוצב ומאורגן באופן המאפשר לסוחרים (למשל יצרני מכשירי תוכנה / מפתחי יישומונים) לעמוד בחובותיהם בנוגע, בין היתר, למידע על התאמה ועל בטיחות המוצר תחת דיני האיחוד האירופי, לרבות, למשל, דרישות למתן מידע למשתמשים ולמטופלים תחת נספח I ל-MDR ול-IVDR (סעיף 31 ל-DSA); ראו גם סעיף 4 בנושא \"חובות מידע\" להלן לקבלת מידע נוסף. כדי להבטיח סביבה בטוחה, אמינה ושקופה, עליהם לעשות מאמצים מיטביים להעריך האם המידע הנדרש על אודות הסוחרים, לרבות פרטי הקשר שלהם (סעיף 30 ל-DSA), מהימן, שלם וזמין למשתמשיהם." },
+        { "en": "Accountability: Furthermore, Very Large Online Platforms, including app platform providers designated by the Commission, are subject to the risk assessment framework obligations. Among others, they must assess the risk of the dissemination of the illegal content, through their services and implement reasonable, proportionate and effective mitigating measures.", "he": "אחריותיות (Accountability): יתרה מזאת, פלטפורמות מקוונות גדולות מאוד (Very Large Online Platforms), לרבות ספקי פלטפורמות יישומונים שיועדו על ידי הנציבות, כפופות לחובות מסגרת הערכת הסיכונים. בין היתר, עליהן להעריך את הסיכון להפצת התוכן הבלתי חוקי באמצעות שירותיהן וליישם אמצעי הקלה סבירים, מידתיים ואפקטיביים." }
+      ]
+    },
+    {
+      "id": "sec-3-2",
+      "type": "heading",
+      "level": 2,
+      "number": "3.2",
+      "en": "App platform providers as distributors or importers",
+      "he": "ספקי פלטפורמת יישומונים כמפיצים או כיבואנים"
+    },
+    {
+      "id": "sec-3-2-p1",
+      "type": "paragraph",
+      "en": "Where the manufacturer makes a MDSW app available to an app platform provider in a commercial or non-commercial activity, and the app platform provider in turn makes that product directly available to the user as a distributor or importer by for example transferring the ownership or other right, then that app platform provider shall be subject to the relevant requirements laid down in Article 14 of the MDR and IVDR.",
+      "he": "כאשר היצרן מעמיד יישומון MDSW לרשות ספק פלטפורמת יישומונים בפעילות מסחרית או לא מסחרית, וספק פלטפורמת היישומונים בתורו מעמיד מוצר זה ישירות לרשות המשתמש כמפיץ או כיבואן, למשל באמצעות העברת הבעלות או זכות אחרת, אזי ספק פלטפורמת יישומונים זה יהיה כפוף לדרישות הרלוונטיות הקבועות בסעיף 14 ל-MDR ול-IVDR."
+    },
+    {
+      "id": "sec-3-2-p2",
+      "type": "paragraph",
+      "en": "It should be noted that, if the manufacturer resides in a third country and the app platform provider is EU-based, the app platform provider would assume the role of an importer and is subject to the relevant requirements laid down in Article 13 of the MDR and IVDR. This is without prejudice to the additional requirements for the concerned non-EU manufacturer to appoint an authorised representative in the EU, without which the device may not be placed in the Union market.",
+      "he": "יש לציין כי אם היצרן מושבו במדינה שלישית וספק פלטפורמת היישומונים מבוסס באיחוד האירופי, ספק פלטפורמת היישומונים ייטול את תפקיד היבואן ויהיה כפוף לדרישות הרלוונטיות הקבועות בסעיף 13 ל-MDR ול-IVDR. הדבר אינו גורע מהדרישות הנוספות מהיצרן הנוגע בדבר שאינו מהאיחוד למנות נציג מורשה באיחוד האירופי, אשר בלעדיו לא ניתן יהיה להוציא את המכשיר לשוק האיחוד."
+    },
+    {
+      "id": "sec-3-2-p3",
+      "type": "paragraph",
+      "en": "By making MDSW apps available on their platforms under such conditions and the providers or that app platform are therefore qualified as distributors or importers according to MDR/IVDR. The DSA would not apply in those circumstances; instead, as distributors or importers they have specific obligations (non-exhaustive):",
+      "he": "בהעמדת יישומוני MDSW לרשות בפלטפורמות שלהם בתנאים אלה, ספקי אותה פלטפורמת יישומונים מסווגים אפוא כמפיצים או כיבואנים בהתאם ל-MDR/IVDR. ה-DSA לא יחול בנסיבות אלה; במקום זאת, כמפיצים או כיבואנים, מוטלות עליהם חובות ספציפיות (רשימה לא ממצה):"
+    },
+    {
+      "id": "sec-3-2-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Ensuring compliance: App platform providers must ensure that such apps comply with the requirements of the MDR and IVDR. This includes ensuring the safety, performance, and data protection aspects of those apps.", "he": "הבטחת התאמה: על ספקי פלטפורמות היישומונים להבטיח כי יישומונים אלה עומדים בדרישות ה-MDR וה-IVDR. הדבר כולל הבטחת היבטי הבטיחות, הביצועים והגנת הנתונים של אותם יישומונים." },
+        { "en": "Cooperation with authorities: App platform providers must cooperate with competent authorities, including providing them with information and documentation related to such apps available on their platforms.", "he": "שיתוף פעולה עם רשויות: על ספקי פלטפורמות היישומונים לשתף פעולה עם רשויות מוסמכות, לרבות אספקת מידע ותיעוד הקשורים ליישומונים אלה הזמינים בפלטפורמות שלהם." }
+      ]
+    },
+    {
+      "id": "sec-4",
+      "type": "heading",
+      "level": 1,
+      "number": "4",
+      "en": "Information obligations",
+      "he": "חובות מידע"
+    },
+    {
+      "id": "sec-4-p1",
+      "type": "paragraph",
+      "en": "This section intends to provide an overview of the information obligations which should be provided and made available to patients on app platforms. The following list contains information which should be supplied with the MDSW according to the MDR and IVDR and made available on app platforms. It also aims to facilitate the fulfilment of the DSA requirements by app platform providers.",
+      "he": "סעיף זה נועד לספק סקירה של חובות המידע שיש לספק ולהעמיד לרשות מטופלים בפלטפורמות יישומונים. הרשימה הבאה כוללת מידע שיש לספק יחד עם ה-MDSW בהתאם ל-MDR ול-IVDR ולהעמיד לרשות בפלטפורמות יישומונים. היא גם נועדה להקל על קיום דרישות ה-DSA על ידי ספקי פלטפורמות היישומונים."
+    },
+    {
+      "id": "sec-4-1",
+      "type": "heading",
+      "level": 2,
+      "number": "4.1",
+      "en": "Information to be requested from MDSW manufacturers and available to patients on app platform",
+      "he": "מידע שיש לבקש מיצרני MDSW ואשר יהיה זמין למטופלים בפלטפורמת היישומונים"
+    },
+    {
+      "id": "sec-4-1-p1",
+      "type": "paragraph",
+      "en": "Furthermore, in accordance Article 31 (1) and Article 31 (2) of the DSA, such platforms shall ensure that their online interface is designed and organised in a way that it allows traders, including medical device manufacturers, to provide at least the following:",
+      "he": "יתרה מזאת, בהתאם לסעיף 31(1) ולסעיף 31(2) ל-DSA, פלטפורמות אלה יבטיחו כי הממשק המקוון שלהן מעוצב ומאורגן באופן המאפשר לסוחרים, לרבות יצרני מכשירים רפואיים, לספק לכל הפחות את הפרטים הבאים:"
+    },
+    {
+      "id": "sec-4-1-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "a) the name, address, telephone number and email address of the economic operator as defined in Article 3, point (13), of Regulation (EU) 2019/1020 and other Union law,", "he": "א) השם, הכתובת, מספר הטלפון וכתובת הדואר האלקטרוני של הגורם הכלכלי כהגדרתו בסעיף 3, נקודה (13), לתקנה (האיחוד האירופי) 2019/1020 ובדיני איחוד אחרים;" },
+        { "en": "b) the information necessary for the clear and unambiguous identification of the products or the services promoted or offered to consumers located in the Union through the services of the providers, including the MDSW.", "he": "ב) המידע הנחוץ לזיהוי ברור וחד-משמעי של המוצרים או השירותים המקודמים או המוצעים לצרכנים השוהים באיחוד באמצעות שירותי הספקים, לרבות ה-MDSW;" },
+        { "en": "c) any sign identifying the trader such as the trademark, symbol or logo;", "he": "ג) כל סימן המזהה את הסוחר, כגון סימן המסחר, הסמל או הלוגו;" },
+        { "en": "d) where applicable, the information concerning the labelling and marking in compliance with rules of applicable Union law on product safety and product compliance (see more details below on the applicability of this provision with regard to the MDR and IVDR (Annex I Chapter III).", "he": "ד) היכן שרלוונטי, המידע הנוגע לתיוג ולסימון בהתאם לכללי דיני האיחוד החלים על בטיחות המוצר והתאמת המוצר (ראו פרטים נוספים להלן בנוגע לתחולת הוראה זו ביחס ל-MDR ול-IVDR (נספח I פרק III))." }
+      ]
+    },
+    {
+      "id": "sec-4-2",
+      "type": "heading",
+      "level": 2,
+      "number": "4.2",
+      "en": "Clear product categories on app platforms: Medical Device (versus Health, Lifestyle, Medical)",
+      "he": "קטגוריות מוצר ברורות בפלטפורמות יישומונים: מכשיר רפואי (לעומת בריאות, אורח חיים, רפואה)"
+    },
+    {
+      "id": "sec-4-2-p1",
+      "type": "paragraph",
+      "en": "For patients to unambiguously identify MDSW apps, it is recommended that app platform providers create a clear delineation in their libraries between MDSW apps and health apps with no intended medical purpose. This category should be an option selected by MDSW app manufacturers when making available their products with the app platform provider and should only be obtainable where the above information has been provided.",
+      "he": "כדי שמטופלים יוכלו לזהות באופן חד-משמעי יישומוני MDSW, מומלץ שספקי פלטפורמות היישומונים ייצרו הבחנה ברורה בספריותיהם בין יישומוני MDSW לבין יישומוני בריאות שאין להם מטרה רפואית מיועדת. קטגוריה זו צריכה להיות אפשרות הנבחרת על ידי יצרני יישומוני MDSW בעת העמדת מוצריהם לרשות אצל ספק פלטפורמת היישומונים, וצריכה להיות ניתנת להשגה רק כאשר סופק המידע שלעיל."
+    },
+    {
+      "id": "sec-4-2-1",
+      "type": "heading",
+      "level": 3,
+      "number": "4.2.1",
+      "en": "Information concerning the labelling and marking in compliance with rules of the MDR and IVDR",
+      "he": "מידע הנוגע לתיוג ולסימון בהתאם לכללי ה-MDR וה-IVDR"
+    },
+    {
+      "id": "sec-4-2-1-note",
+      "type": "note",
+      "en": "(*mandatory fields)",
+      "he": "(*שדות חובה)"
+    },
+    {
+      "id": "sec-4-2-1-prod-heading",
+      "type": "heading",
+      "level": 4,
+      "en": "Product information",
+      "he": "מידע על המוצר"
+    },
+    {
+      "id": "sec-4-2-1-prod-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "The name or trade name of the device;*", "he": "השם או השם המסחרי של המכשיר;*" },
+        { "en": "The name, registered trade name or registered trademark of the manufacturer and the address of its registered place of business; and Single Registration Number (SRN) *", "he": "השם, השם המסחרי הרשום או סימן המסחר הרשום של היצרן וכתובת מקום העסק הרשום שלו; ומספר רישום יחיד (SRN) *" },
+        { "en": "MD or IVD symbol or indication *", "he": "סמל או ציון MD או IVD *" },
+        { "en": "Clear description of the device and its intended purpose, *", "he": "תיאור ברור של המכשיר ומטרתו המיועדת, *" },
+        { "en": "Warnings or precautions to be taken that need to be brought to the immediate attention of the user of the device, and to any other person. This information may be kept to a minimum in which case more detailed information shall appear in the instructions for use, taking into account the intended users; *", "he": "אזהרות או אמצעי זהירות שיש לנקוט אשר צריכים להובא לידיעתו המיידית של משתמש המכשיר, ושל כל אדם אחר. ניתן לצמצם מידע זה למינימום, ובמקרה זה מידע מפורט יותר יופיע בהוראות השימוש, בהתחשב במשתמשים המיועדים; *" },
+        { "en": "Link to eIFU,*", "he": "קישור להוראות שימוש אלקטרוניות (eIFU),*" },
+        { "en": "Unique Device Identification number (UDI-DI), *", "he": "מספר זיהוי מכשיר ייחודי (UDI-DI), *" }
+      ]
+    },
+    {
+      "id": "sec-4-2-1-legal-heading",
+      "type": "heading",
+      "level": 4,
+      "en": "Legal compliance information: (additional information (where applicable))",
+      "he": "מידע על התאמה משפטית: (מידע נוסף (היכן שרלוונטי))"
+    },
+    {
+      "id": "sec-4-2-1-legal-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Authorised Representative name and address,", "he": "שם וכתובת הנציג המורשה,⁴" },
+        { "en": "Notified body number,", "he": "מספר הגוף המאונתר," },
+        { "en": "Certificate number,", "he": "מספר התעודה," }
+      ]
+    },
+    {
+      "id": "sec-4-2-1-op-heading",
+      "type": "heading",
+      "level": 4,
+      "en": "Operating requirements: (additional information (where applicable))",
+      "he": "דרישות הפעלה: (מידע נוסף (היכן שרלוונטי))"
+    },
+    {
+      "id": "sec-4-2-1-op-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Any particular operating instructions,", "he": "כל הוראות הפעלה מיוחדות," },
+        { "en": "Information on whether a hardware medical device available from the manufacturer is also required for use as part of the device or accessories,", "he": "מידע בדבר האם נדרש גם מכשיר רפואי מסוג חומרה הזמין מהיצרן לשימוש כחלק מהמכשיר או מהאביזרים," },
+        { "en": "Minimum requirements for hardware, setup and connection and security.", "he": "דרישות מינימום לחומרה, להתקנה ולחיבור ולאבטחה." }
+      ]
+    },
+    {
+      "id": "sec-4-3",
+      "type": "heading",
+      "level": 2,
+      "number": "4.3",
+      "en": "Information obligations for app platform providers considered as intermediary services providers",
+      "he": "חובות מידע לספקי פלטפורמת יישומונים הנחשבים לספקי שירותים מתווכים"
+    },
+    {
+      "id": "sec-4-3-p1",
+      "type": "paragraph",
+      "en": "In accordance with Article 31(3) of the DSA, providers of online platforms allowing consumers to conclude distance contracts with traders, including the providers of app platform providers, should make best efforts to assess whether such traders have provided the required information prior to allowing them to offer their products or services on those platforms. After allowing the trader to offer products or services on the online platform that allows consumers to conclude distance contracts with traders, the provider shall make reasonable efforts to randomly check in any official, freely accessible and machine-readable online database or online interface whether the products or services offered have been identified as illegal.",
+      "he": "בהתאם לסעיף 31(3) ל-DSA, על ספקי פלטפורמות מקוונות המאפשרות לצרכנים להתקשר בחוזים מרחוק עם סוחרים, לרבות ספקי פלטפורמות היישומונים, לעשות מאמצים מיטביים להעריך האם סוחרים אלה סיפקו את המידע הנדרש בטרם יתאפשר להם להציע את מוצריהם או שירותיהם בפלטפורמות אלה. לאחר שהתאפשר לסוחר להציע מוצרים או שירותים בפלטפורמה המקוונת המאפשרת לצרכנים להתקשר בחוזים מרחוק עם סוחרים, על הספק לעשות מאמצים סבירים לבדוק באקראי, בכל מסד נתונים מקוון או ממשק מקוון רשמי, נגיש בחופשיות וקריא-מכונה, האם המוצרים או השירותים המוצעים זוהו כבלתי חוקיים."
+    },
+    {
+      "id": "sec-4-3-p2",
+      "type": "paragraph",
+      "en": "In addition, Very Large Online Platforms, including app platform providers designated by the Commission, must comply with Article 34 and 35 of the DSA which require them to conduct risk assessments and mitigate those identified risks. In terms of risk assessments, they must at least on an annual basis diligently identify, analyse and assess any systemic risks stemming from the design or functioning of their service and its related systems, including algorithmic systems, or from the use made of their services. This includes but is not limited to systematic risks arising from the dissemination of illegal content through their services.",
+      "he": "בנוסף, פלטפורמות מקוונות גדולות מאוד, לרבות ספקי פלטפורמות יישומונים שיועדו על ידי הנציבות, חייבות לעמוד בסעיפים 34 ו-35 ל-DSA, המחייבים אותן לבצע הערכות סיכונים ולהקל את הסיכונים שזוהו. מבחינת הערכות הסיכונים, עליהן, לכל הפחות על בסיס שנתי, לזהות, לנתח ולהעריך בשקידה כל סיכון מערכתי הנובע מהעיצוב או מהתפקוד של שירותן ושל המערכות הקשורות אליו, לרבות מערכות אלגוריתמיות, או מהשימוש הנעשה בשירותיהן. הדבר כולל, בין היתר, סיכונים מערכתיים הנובעים מהפצת תוכן בלתי חוקי באמצעות שירותיהן."
+    },
+    {
+      "id": "fn-1",
+      "type": "note",
+      "marker": "1",
+      "en": "Regulation (EU) 2017/745 on medical devices and Regulation (EU) 2017/746 on in vitro diagnostic medical devices",
+      "he": "תקנה (האיחוד האירופי) 2017/745 בנושא מכשירים רפואיים ותקנה (האיחוד האירופי) 2017/746 בנושא מכשירים רפואיים לאבחון ויטרו."
+    },
+    {
+      "id": "fn-2",
+      "type": "note",
+      "marker": "2",
+      "en": "Regulation (EU) 2022/2065 on a Single Market For Digital Services and amending Directive 2000/31/EC (Digital Services Act)",
+      "he": "תקנה (האיחוד האירופי) 2022/2065 בנושא שוק יחיד לשירותים דיגיטליים ותיקון הנחיה 2000/31/EC (חוק השירותים הדיגיטליים)."
+    },
+    {
+      "id": "fn-3",
+      "type": "note",
+      "marker": "3",
+      "en": "MDCG 2019-11 defines 'Medical device software' as software that is intended to be used, alone or in combination, for a purpose as specified in the definition of a \"medical device\" in the medical devices regulation or in vitro diagnostic medical devices regulation.",
+      "he": "MDCG 2019-11 מגדיר \"תוכנת מכשיר רפואי\" כתוכנה המיועדת לשימוש, בנפרד או בשילוב, למטרה כפי שמפורט בהגדרת \"מכשיר רפואי\" בתקנת המכשירים הרפואיים או בתקנת המכשירים הרפואיים לאבחון ויטרו."
+    },
+    {
+      "id": "fn-4",
+      "type": "note",
+      "marker": "4",
+      "en": "Article 11 MDR / IVDR",
+      "he": "סעיף 11 ל-MDR / IVDR."
+    }
+  ]
+}

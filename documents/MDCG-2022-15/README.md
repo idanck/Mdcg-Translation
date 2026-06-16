@@ -11,8 +11,8 @@
 
 | Item | Status |
 |------|--------|
-| Original (EN) | ⬜ Not yet added |
-| Hebrew translation | ⬜ Not yet started |
+| Original (EN) | ✅ `original/mdcg_2022-15_en.pdf` |
+| Hebrew translation | 🔍 Under review (full translation done) |
 
 ---
 
@@ -20,8 +20,8 @@
 
 | File | Description |
 |------|-------------|
-| `original/` | Original English document (PDF) |
-| `translation/` | Hebrew translation |
+| `translation/MDCG-2022-15.he.json` | Bilingual canonical translation (source of truth) |
+| `translation/MDCG-2022-15.he.html` | Rendered HTML (generated from JSON) |
 
 ---
 

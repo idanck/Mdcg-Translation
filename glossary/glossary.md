@@ -46,5 +46,19 @@
 | Implantable Device | מכשיר מושתל | |
 | Class I / IIa / IIb / III | סיווג I / IIa / IIb / III | |
 | Summary of Safety and Clinical Performance | סיכום בטיחות וביצועים קליניים | SSCP |
+| Implant Card | כרטיס שתל | IC |
+| Member State | מדינה חברה | |
+| Health Institution | מוסד בריאות | |
+| Healthcare Provider | ספק שירותי בריאות | |
+| Healthcare Professional | איש מקצוע הבריאות | |
+| Implantation | השתלה | |
+| Implantable Device | מכשיר מושתל | |
+| Device Type | סוג המכשיר | |
+| Device Name | שם המכשיר | |
+| Serial Number | מספר סידורי | SN |
+| Lot Number / Batch Code | מספר אצווה / קוד אצווה | |
+| UDI-DI | מזהה מכשיר ייחודי (UDI-DI) | UDI Device Identifier |
+| Automatic Identification and Data Capture | זיהוי וקליטת נתונים אוטומטיים | AIDC |
+| Human Readable Interpretation | פרשנות קריאה לאדם | HRI |
 
 </div>

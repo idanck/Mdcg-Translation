@@ -1,0 +1,527 @@
+{
+  "id": "MDCG-2022-8",
+  "title": {
+    "en": "Regulation (EU) 2017/746 - application of IVDR requirements to 'legacy devices' and to devices placed on the market prior to 26 May 2022 in accordance with Directive 98/79/EC",
+    "he": "תקנה (האיחוד האירופי) 2017/746 - יישום דרישות ה-IVDR על \"מכשירי מורשת\" ועל מכשירים שהושמו בשוק לפני 26 במאי 2022 בהתאם להנחיה 98/79/EC"
+  },
+  "category": "In Vitro Diagnostic Medical Devices (IVD)",
+  "publicationDate": "2022-05",
+  "source": {
+    "url": "https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en",
+    "file": "original/mdcg_2022-8_en.pdf"
+  },
+  "language": "he",
+  "direction": "rtl",
+  "translationStatus": "review",
+  "glossaryVersion": "2026-06",
+  "blocks": [
+    {
+      "id": "disclaimer-1",
+      "type": "paragraph",
+      "en": "This document has been endorsed by the Medical Device Coordination Group (MDCG) established by Article 103 of Regulation (EU) 2017/745. The MDCG is composed of representatives of all Member States and it is chaired by a representative of the European Commission.",
+      "he": "מסמך זה אושר על ידי קבוצת תיאום המכשירים הרפואיים (MDCG) שהוקמה מכוח סעיף 103 לתקנה (האיחוד האירופי) 2017/745. ה-MDCG מורכבת מנציגים של כל המדינות החברות ובראשה עומד נציג של הנציבות האירופית."
+    },
+    {
+      "id": "disclaimer-2",
+      "type": "paragraph",
+      "en": "The document is not a European Commission document and it cannot be regarded as reflecting the official position of the European Commission. Any views expressed in this document are not legally binding and only the Court of Justice of the European Union can give binding interpretations of Union law.",
+      "he": "המסמך אינו מסמך של הנציבות האירופית ואין לראות בו כמשקף את העמדה הרשמית של הנציבות האירופית. כל דעה המובעת במסמך זה אינה מחייבת מבחינה משפטית, ורק בית הדין לצדק של האיחוד האירופי מוסמך לתת פרשנות מחייבת לדין האיחוד."
+    },
+    {
+      "id": "sec-1",
+      "type": "heading",
+      "level": 1,
+      "number": "I",
+      "en": "Introduction",
+      "he": "מבוא"
+    },
+    {
+      "id": "sec-1-p1",
+      "type": "paragraph",
+      "en": "Regulation (EU) 2022/112 extended the transitional provisions of Regulation (EU) 2017/746 on in vitro diagnostic medical devices (IVDR), in particular its Article 110(3), in terms of scope and timing. Following the approach set out in the report of the MDCG ad hoc task-force on transitional provisions of Regulation (EU) 2017/745 on medical devices (MDR) published as MDCG 2021-25, the present document provides guidance as regards the applicability of IVDR requirements to 'legacy devices' and 'old' devices. The annex contains a non-exhaustive table illustrating IVDR requirements applicable or not applicable to 'legacy devices'.",
+      "he": "תקנה (האיחוד האירופי) 2022/112 הרחיבה את ההוראות המעבר של תקנה (האיחוד האירופי) 2017/746 בנושא מכשירים רפואיים לאבחון ויטרו (IVDR), ובפרט את סעיף 110(3) שבה, מבחינת היקף ולוחות זמנים. בהתאם לגישה שנקבעה בדוח של כוח המשימה האד-הוק של ה-MDCG בנושא הוראות המעבר של תקנה (האיחוד האירופי) 2017/745 בנושא מכשירים רפואיים (MDR), שפורסם כ-MDCG 2021-25, מסמך זה מספק הנחיה בנוגע לתחולת דרישות ה-IVDR על \"מכשירי מורשת\" ועל מכשירים \"ישנים\". הנספח כולל טבלה לא ממצה הממחישה אילו דרישות IVDR חלות או אינן חלות על \"מכשירי מורשת\"."
+    },
+    {
+      "id": "sec-2",
+      "type": "heading",
+      "level": 1,
+      "number": "II",
+      "en": "Legal provisions and terminology",
+      "he": "הוראות משפטיות ומינוח"
+    },
+    {
+      "id": "sec-2-p1",
+      "type": "paragraph",
+      "en": "Article 110(3) of Regulation 2017/746 (IVDR), as amended by Regulation (EU) 2022/112, states:",
+      "he": "סעיף 110(3) לתקנה 2017/746 (IVDR), כפי שתוקן בתקנה (האיחוד האירופי) 2022/112, קובע:"
+    },
+    {
+      "id": "sec-2-q1",
+      "type": "paragraph",
+      "en": "By way of derogation from Article 5 of this Regulation, the devices referred to in the second and third subparagraphs of this paragraph may be placed on the market or put into service until the dates set out in those subparagraphs, provided that, from the date of application of this Regulation, those devices continue to comply with Directive 98/79/EC, and provided that there are no significant changes in the design and intended purpose of those devices.",
+      "he": "בסטייה מסעיף 5 לתקנה זו, ניתן להשים בשוק או להעמיד לשירות את המכשירים הנזכרים בתת-פסקאות השנייה והשלישית של פסקה זו עד למועדים הקבועים באותן תת-פסקאות, ובלבד שמיום תחולתה של תקנה זו ימשיכו מכשירים אלה לעמוד בהנחיה 98/79/EC, ובלבד שלא חלו שינויים משמעותיים בעיצוב ובמטרה המיועדת של מכשירים אלה."
+    },
+    {
+      "id": "sec-2-q2",
+      "type": "paragraph",
+      "en": "Devices with a certificate that was issued in accordance with Directive 98/79/EC and which is valid by virtue of paragraph 2 of this Article may be placed on the market or put into service until 26 May 2025.",
+      "he": "מכשירים בעלי תעודה שהונפקה בהתאם להנחיה 98/79/EC ואשר תקפה מכוח פסקה 2 לסעיף זה, ניתן להשימם בשוק או להעמידם לשירות עד 26 במאי 2025."
+    },
+    {
+      "id": "sec-2-q3",
+      "type": "paragraph",
+      "en": "Devices for which the conformity assessment procedure pursuant to Directive 98/79/EC did not require the involvement of a notified body, for which a declaration of conformity was drawn up prior to 26 May 2022 in accordance with that Directive, and for which the conformity assessment procedure pursuant to this Regulation requires the involvement of a notified body, may be placed on the market or put into service until the following dates:",
+      "he": "מכשירים אשר עבורם הליך הערכת ההתאמה לפי הנחיה 98/79/EC לא חייב מעורבות של גוף מאונתר, אשר עבורם נערכה הצהרת התאמה לפני 26 במאי 2022 בהתאם לאותה הנחיה, ואשר עבורם הליך הערכת ההתאמה לפי תקנה זו מחייב מעורבות של גוף מאונתר, ניתן להשימם בשוק או להעמידם לשירות עד למועדים הבאים:"
+    },
+    {
+      "id": "sec-2-q-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "(a) 26 May 2025, for class D devices;", "he": "(א) 26 במאי 2025, למכשירי סיווג D;" },
+        { "en": "(b) 26 May 2026, for class C devices;", "he": "(ב) 26 במאי 2026, למכשירי סיווג C;" },
+        { "en": "(c) 26 May 2027, for class B devices;", "he": "(ג) 26 במאי 2027, למכשירי סיווג B;" },
+        { "en": "(d) 26 May 2027, for class A devices placed on the market in sterile condition.", "he": "(ד) 26 במאי 2027, למכשירי סיווג A המושמים בשוק במצב סטרילי." }
+      ]
+    },
+    {
+      "id": "sec-2-q4",
+      "type": "paragraph",
+      "en": "By way of derogation from the first subparagraph of this paragraph, the requirements of this Regulation relating to post-market surveillance, market surveillance, vigilance, registration of economic operators and of devices shall apply to devices referred to in the second and third subparagraphs of this paragraph, instead of the corresponding requirements in Directive 98/79/EC.",
+      "he": "בסטייה מתת-הפסקה הראשונה של פסקה זו, דרישות תקנה זו הנוגעות למעקב שלאחר שיווק, פיקוח שוק, ערנות, רישום גורמים כלכליים ורישום מכשירים יחולו על המכשירים הנזכרים בתת-פסקאות השנייה והשלישית של פסקה זו, במקום הדרישות המקבילות בהנחיה 98/79/EC."
+    },
+    {
+      "id": "sec-2-q5",
+      "type": "paragraph",
+      "en": "Without prejudice to Chapter IV and paragraph 1 of this Article, the notified body that issued the certificate referred to in the second subparagraph of this paragraph shall continue to be responsible for the appropriate surveillance in respect of all applicable requirements relating to the devices it has certified.",
+      "he": "מבלי לגרוע מפרק IV ומפסקה 1 לסעיף זה, הגוף המאונתר שהנפיק את התעודה הנזכרת בתת-הפסקה השנייה של פסקה זו ימשיך להיות אחראי לפיקוח המתאים בנוגע לכל הדרישות החלות הנוגעות למכשירים שאישר."
+    },
+    {
+      "id": "sec-2-term-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Terminology used in this guidance",
+      "he": "המינוח המשמש בהנחיה זו"
+    },
+    {
+      "id": "sec-2-term-p1",
+      "type": "paragraph",
+      "en": "Legacy devices under the IVDR (hereafter 'legacy devices') should be understood as devices referred to in the 2nd or 3rd subparagraph of Article 110(3) IVDR, which are placed on the market or put into service after 26 May 2022 (i.e. the IVDR's date of application) and until the end of the respective transition period set out in the 2nd or 3rd subparagraph of Article 110(3), if the conditions laid down in the 1st subparagraph of Article 110(3) are fulfilled. Those devices can be:",
+      "he": "\"מכשירי מורשת\" לפי ה-IVDR (להלן \"מכשירי מורשת\") יובנו כמכשירים הנזכרים בתת-הפסקה השנייה או השלישית של סעיף 110(3) ל-IVDR, אשר מושמים בשוק או מועמדים לשירות לאחר 26 במאי 2022 (קרי, מועד תחולת ה-IVDR) ועד לתום תקופת המעבר המתאימה הקבועה בתת-הפסקה השנייה או השלישית של סעיף 110(3), אם מתקיימים התנאים הקבועים בתת-הפסקה הראשונה של סעיף 110(3). מכשירים אלה יכולים להיות:"
+    },
+    {
+      "id": "sec-2-term-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "a) devices covered by a valid EC certificate issued by a notified body in accordance with Directive 98/79/EC on in vitro diagnostic medical devices (IVDD) prior to 26 May 2022; or", "he": "א) מכשירים המכוסים בתעודת EC תקפה שהונפקה על ידי גוף מאונתר בהתאם להנחיה 98/79/EC בנושא מכשירים רפואיים לאבחון ויטרו (IVDD) לפני 26 במאי 2022; או" },
+        { "en": "b) devices for which a declaration of conformity was drawn up prior to 26 May 2022 in accordance with the IVDD and for which the conformity assessment procedure pursuant to the IVDR (contrary to the IVDD) requires the involvement of a notified body.", "he": "ב) מכשירים אשר עבורם נערכה הצהרת התאמה לפני 26 במאי 2022 בהתאם ל-IVDD, ואשר עבורם הליך הערכת ההתאמה לפי ה-IVDR (בניגוד ל-IVDD) מחייב מעורבות של גוף מאונתר." }
+      ]
+    },
+    {
+      "id": "sec-2-term-p2",
+      "type": "paragraph",
+      "en": "'Old' devices are those devices that were placed on the market or put into service before 26 May 2022 in accordance with the IVDD or the applicable national rules before the IVDD had become applicable and which are still on the market or in use after 26 May 2022.",
+      "he": "מכשירים \"ישנים\" הם מכשירים שהושמו בשוק או הועמדו לשירות לפני 26 במאי 2022 בהתאם ל-IVDD או בהתאם לכללים הלאומיים החלים בטרם נכנס ה-IVDD לתוקף, ואשר עדיין נמצאים בשוק או בשימוש לאחר 26 במאי 2022."
+    },
+    {
+      "id": "sec-2-term-p3",
+      "type": "paragraph",
+      "en": "IVDR devices are those devices that are placed on the market as being in conformity with the IVDR other than 'legacy devices'. In order to be placed on the market or put into service from 26 May 2022 all class A non-sterile devices and all devices not benefitting from the transitional provisions laid down in Article 110(3) IVDR, i.e. all 'new' devices, must be IVDR-compliant.",
+      "he": "מכשירי IVDR הם מכשירים המושמים בשוק כעומדים בהתאמה ל-IVDR, למעט \"מכשירי מורשת\". כדי להיות מושמים בשוק או מועמדים לשירות החל מ-26 במאי 2022, כל מכשירי סיווג A שאינם סטריליים וכל המכשירים שאינם נהנים מהוראות המעבר הקבועות בסעיף 110(3) ל-IVDR, קרי כל המכשירים ה\"חדשים\", חייבים לעמוד ב-IVDR."
+    },
+    {
+      "id": "sec-2-transition-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Transition periods",
+      "he": "תקופות מעבר"
+    },
+    {
+      "id": "sec-2-trans-p1",
+      "type": "paragraph",
+      "en": "For devices covered by a valid EC certificate issued in accordance with the IVDD prior to 26 May 2022 (i.e. devices listed in Annex II IVDD and devices for self-testing), the transition period ends on 26 May 2025 (see 2nd subparagraph of Article 110(3) IVDR). If placed on the market before 26 May 2025, those devices may continue to be made available until 26 May 2026 ('sell-off date', see 2nd subparagraph, point (a) of Article 110(4) IVDR).",
+      "he": "עבור מכשירים המכוסים בתעודת EC תקפה שהונפקה בהתאם ל-IVDD לפני 26 במאי 2022 (קרי, מכשירים המנויים בנספח II ל-IVDD ומכשירים לבדיקה עצמית), תקופת המעבר מסתיימת ב-26 במאי 2025 (ראה תת-פסקה שנייה של סעיף 110(3) ל-IVDR). אם הושמו בשוק לפני 26 במאי 2025, ניתן להמשיך להעמיד מכשירים אלה לרשות עד 26 במאי 2026 (\"מועד מכירת מלאי\", ראה תת-פסקה שנייה, נקודה (א) של סעיף 110(4) ל-IVDR)."
+    },
+    {
+      "id": "sec-2-trans-p2",
+      "type": "paragraph",
+      "en": "For devices that fall in class D in accordance with the IVDR classification rules for which a declaration of conformity was drawn up prior to 26 May 2022 in accordance with the IVDD and for which the conformity assessment procedure pursuant to the IVDR (contrary to the IVDD) requires the involvement of a notified body, the transition period ends on 26 May 2025 (see 3rd subparagraph, point (a), of Article 110(3) IVDR). If placed on the market before 26 May 2025, those devices may continue to be made available until 26 May 2026 ('sell-off date', see 2nd subparagraph, point (a) of Article 110(4) IVDR).",
+      "he": "עבור מכשירים המסווגים בסיווג D בהתאם לכללי הסיווג של ה-IVDR, אשר עבורם נערכה הצהרת התאמה לפני 26 במאי 2022 בהתאם ל-IVDD, ואשר עבורם הליך הערכת ההתאמה לפי ה-IVDR (בניגוד ל-IVDD) מחייב מעורבות של גוף מאונתר, תקופת המעבר מסתיימת ב-26 במאי 2025 (ראה תת-פסקה שלישית, נקודה (א), של סעיף 110(3) ל-IVDR). אם הושמו בשוק לפני 26 במאי 2025, ניתן להמשיך להעמיד מכשירים אלה לרשות עד 26 במאי 2026 (\"מועד מכירת מלאי\", ראה תת-פסקה שנייה, נקודה (א) של סעיף 110(4) ל-IVDR)."
+    },
+    {
+      "id": "sec-2-trans-p3",
+      "type": "paragraph",
+      "en": "For devices that fall in class C in accordance with the IVDR classification rules for which a declaration of conformity was drawn up prior to 26 May 2022 in accordance with the IVDD and for which the conformity assessment procedure pursuant to the IVDR (contrary to the IVDD) requires the involvement of a notified body, the transition period ends on 26 May 2026 (see 3rd subparagraph, point (b), of Article 110(3) IVDR). If placed on the market before 26 May 2026, those devices may continue to be made available until 26 May 2027 ('sell-off date', see 2nd subparagraph, point (b) of Article 110(4) IVDR).",
+      "he": "עבור מכשירים המסווגים בסיווג C בהתאם לכללי הסיווג של ה-IVDR, אשר עבורם נערכה הצהרת התאמה לפני 26 במאי 2022 בהתאם ל-IVDD, ואשר עבורם הליך הערכת ההתאמה לפי ה-IVDR (בניגוד ל-IVDD) מחייב מעורבות של גוף מאונתר, תקופת המעבר מסתיימת ב-26 במאי 2026 (ראה תת-פסקה שלישית, נקודה (ב), של סעיף 110(3) ל-IVDR). אם הושמו בשוק לפני 26 במאי 2026, ניתן להמשיך להעמיד מכשירים אלה לרשות עד 26 במאי 2027 (\"מועד מכירת מלאי\", ראה תת-פסקה שנייה, נקודה (ב) של סעיף 110(4) ל-IVDR)."
+    },
+    {
+      "id": "sec-2-trans-p4",
+      "type": "paragraph",
+      "en": "For devices that fall in class B or class A sterile in accordance with the IVDR classification rules for which a declaration of conformity was drawn up prior to 26 May 2022 in accordance with the IVDD and for which the conformity assessment procedure pursuant to the IVDR (contrary to the IVDD) requires the involvement of a notified body, the transition period ends on 26 May 2027 (see 3rd subparagraph, points (c) and (d), of Article 110(3) IVDR). If placed on the market before 26 May 2027, those devices may continue to be made available until 26 May 2028 ('sell-off date', see 2nd subparagraph, point (c) of Article 110(4) IVDR).",
+      "he": "עבור מכשירים המסווגים בסיווג B או בסיווג A סטרילי בהתאם לכללי הסיווג של ה-IVDR, אשר עבורם נערכה הצהרת התאמה לפני 26 במאי 2022 בהתאם ל-IVDD, ואשר עבורם הליך הערכת ההתאמה לפי ה-IVDR (בניגוד ל-IVDD) מחייב מעורבות של גוף מאונתר, תקופת המעבר מסתיימת ב-26 במאי 2027 (ראה תת-פסקה שלישית, נקודות (ג) ו-(ד), של סעיף 110(3) ל-IVDR). אם הושמו בשוק לפני 26 במאי 2027, ניתן להמשיך להעמיד מכשירים אלה לרשות עד 26 במאי 2028 (\"מועד מכירת מלאי\", ראה תת-פסקה שנייה, נקודה (ג) של סעיף 110(4) ל-IVDR)."
+    },
+    {
+      "id": "sec-2-trans-p5",
+      "type": "paragraph",
+      "en": "It should be recalled that the concept of 'placing on the market' refers to each individual product, not to a type of product.",
+      "he": "יש לזכור כי המושג \"השמה בשוק\" מתייחס לכל מוצר בודד, ולא לסוג של מוצר."
+    },
+    {
+      "id": "sec-3",
+      "type": "heading",
+      "level": 1,
+      "number": "III",
+      "en": "Application of IVDR requirements to legacy devices",
+      "he": "יישום דרישות ה-IVDR על מכשירי מורשת"
+    },
+    {
+      "id": "sec-3-1-heading",
+      "type": "heading",
+      "level": 2,
+      "number": "1",
+      "en": "Application of requirements set out in Chapter VII of the IVDR on post-market surveillance, market surveillance and vigilance to 'legacy devices'",
+      "he": "יישום הדרישות הקבועות בפרק VII של ה-IVDR בנושא מעקב שלאחר שיווק, פיקוח שוק וערנות על \"מכשירי מורשת\""
+    },
+    {
+      "id": "sec-3-1-p1",
+      "type": "paragraph",
+      "en": "In accordance with the 4th subparagraph of Article 110(3) IVDR, the relevant requirements set out in Chapter VII of the IVDR on post-market surveillance, market surveillance and vigilance apply to 'legacy devices'.",
+      "he": "בהתאם לתת-הפסקה הרביעית של סעיף 110(3) ל-IVDR, הדרישות הרלוונטיות הקבועות בפרק VII של ה-IVDR בנושא מעקב שלאחר שיווק, פיקוח שוק וערנות חלות על \"מכשירי מורשת\"."
+    },
+    {
+      "id": "sec-3-1-p2",
+      "type": "paragraph",
+      "en": "That means that manufacturers of 'legacy devices' need to set up a post-market surveillance (PMS) system based on a PMS plan (Articles 78, 79 IVDR) with the exception of aspects related to pre-market requirements, which are not applicable to 'legacy devices', such as to update the summary of safety and performance (Article 78(3), point (d), IVDR).",
+      "he": "משמעות הדבר היא שיצרני \"מכשירי מורשת\" נדרשים להקים מערכת מעקב שלאחר שיווק (PMS) המבוססת על תוכנית PMS (סעיפים 78, 79 ל-IVDR), למעט היבטים הנוגעים לדרישות טרום-שיווק, אשר אינן חלות על \"מכשירי מורשת\", כגון עדכון סיכום הבטיחות והביצועים (סעיף 78(3), נקודה (ד), ל-IVDR)."
+    },
+    {
+      "id": "sec-3-1-p3",
+      "type": "paragraph",
+      "en": "As part of the manufacturer's post-market surveillance system, the post-market performance follow-up (PMPF) requirements (Annex XIII, Part B, IVDR) should apply to 'legacy devices'. PMPF further develops the requirement in Annex III, section 5, of the IVDD. That means that, under the IVDR, manufacturers need to \"proactively collect and evaluate performance and relevant scientific data from the use of a device\". However, this does not mean that the manufacturer would have to draw up, retrospectively, a performance evaluation report in line with the IVDR as performance evaluation and its documentation according to the IVDR is a pre-market requirement not applicable to 'legacy devices'.",
+      "he": "כחלק ממערכת המעקב שלאחר שיווק של היצרן, דרישות המעקב אחר ביצועים שלאחר שיווק (PMPF) (נספח XIII, חלק B, ל-IVDR) צריכות לחול על \"מכשירי מורשת\". ה-PMPF מפתח עוד יותר את הדרישה שבנספח III, סעיף 5, ל-IVDD. משמעות הדבר היא שלפי ה-IVDR, על היצרנים \"לאסוף ולהעריך באופן יזום ביצועים ונתונים מדעיים רלוונטיים מן השימוש במכשיר\". עם זאת, אין משמעות הדבר שעל היצרן לערוך, באופן רטרואקטיבי, דוח הערכת ביצועים בהתאם ל-IVDR, שכן הערכת הביצועים ותיעודה לפי ה-IVDR הם דרישה טרום-שיווקית שאינה חלה על \"מכשירי מורשת\"."
+    },
+    {
+      "id": "sec-3-1-p4",
+      "type": "paragraph",
+      "en": "The requirements and procedures related to serious incidents and field safety corrective actions and trend reporting (Articles 82, 83 and 84 IVDR) as well as market surveillance provisions apply to 'legacy devices'.",
+      "he": "הדרישות וההליכים הנוגעים לאירועים חמורים, לפעולות מתקנות בשטח ולדיווח מגמות (סעיפים 82, 83 ו-84 ל-IVDR), וכן הוראות פיקוח השוק, חלים על \"מכשירי מורשת\"."
+    },
+    {
+      "id": "sec-3-1-p5",
+      "type": "paragraph",
+      "en": "As Directive 98/79/EC, contrary to the IVDR, does not provide for rules for the classification of devices in risk classes as specified in the IVDR, an appropriate distinction cannot be made between 'legacy devices' to which Article 80 IVDR (PMS report) and 'legacy devices' to which Article 81 IVDR (periodic safety update report, PSUR) apply. Therefore, Article 80 IVDR (PMS report) should, as a minimum requirement, apply to all legacy devices, unless a manufacturer of 'legacy devices' that will fall under class C or D voluntarily prepares a PSUR pursuant to Article 81.",
+      "he": "מאחר שהנחיה 98/79/EC, בניגוד ל-IVDR, אינה קובעת כללים לסיווג מכשירים למחלקות סיכון כמפורט ב-IVDR, לא ניתן להבחין באופן מתאים בין \"מכשירי מורשת\" שעליהם חל סעיף 80 ל-IVDR (דוח PMS) לבין \"מכשירי מורשת\" שעליהם חל סעיף 81 ל-IVDR (דוח עדכון בטיחות תקופתי, PSUR). לפיכך, סעיף 80 ל-IVDR (דוח PMS) צריך לחול, כדרישת מינימום, על כל מכשירי המורשת, אלא אם יצרן של \"מכשירי מורשת\" שיסווגו בסיווג C או D מכין מרצונו PSUR בהתאם לסעיף 81."
+    },
+    {
+      "id": "sec-3-1-p6",
+      "type": "paragraph",
+      "en": "Regarding 'legacy devices' covered by certificates issued under the IVDD (i.e. for devices listed in Annex II IVDD and devices for self-testing), the notified bodies that issued the respective certificates conduct the 'appropriate surveillance' in accordance with the 5th subparagraph of Article 110(3) IVDR, which essentially is a continuation of the previous surveillance activities under the IVDD. In the framework of their surveillance activities, notified bodies should take into account the new requirements that apply to manufacturers resulting from the transitional provisions. However, there needs to be flexibility as regards notified bodies' involvement when reviewing applicable requirements as part of their 'appropriate surveillance', as the notified bodies responsible for the appropriate surveillance in accordance with the 5th subparagraph Article 110(3) IVDR are not notified bodies designated to conduct conformity assessments under the IVDR.",
+      "he": "בנוגע ל\"מכשירי מורשת\" המכוסים בתעודות שהונפקו לפי ה-IVDD (קרי, עבור מכשירים המנויים בנספח II ל-IVDD ומכשירים לבדיקה עצמית), הגופים המאונתרים שהנפיקו את התעודות המתאימות מבצעים את ה\"פיקוח המתאים\" בהתאם לתת-הפסקה החמישית של סעיף 110(3) ל-IVDR, שהוא למעשה המשך של פעילויות הפיקוח הקודמות לפי ה-IVDD. במסגרת פעילויות הפיקוח שלהם, על הגופים המאונתרים להתחשב בדרישות החדשות החלות על היצרנים הנובעות מהוראות המעבר. עם זאת, נדרשת גמישות באשר למעורבות הגופים המאונתרים בעת סקירת הדרישות החלות כחלק מ\"הפיקוח המתאים\" שלהם, שכן הגופים המאונתרים האחראים לפיקוח המתאים בהתאם לתת-הפסקה החמישית של סעיף 110(3) ל-IVDR אינם גופים מאונתרים שמונו לביצוע הערכות התאמה לפי ה-IVDR."
+    },
+    {
+      "id": "sec-3-2-heading",
+      "type": "heading",
+      "level": 2,
+      "number": "2",
+      "en": "Application of other IVDR requirements to 'legacy devices'",
+      "he": "יישום דרישות IVDR אחרות על \"מכשירי מורשת\""
+    },
+    {
+      "id": "sec-3-2-p1",
+      "type": "paragraph",
+      "en": "In addition to the requirements set out in Chapter VII IVDR, also other IVDR requirements should apply to 'legacy devices', provided that those requirements relate to post-market surveillance, market surveillance, vigilance or registration of economic operators and devices.",
+      "he": "בנוסף לדרישות הקבועות בפרק VII ל-IVDR, גם דרישות IVDR אחרות צריכות לחול על \"מכשירי מורשת\", ובלבד שדרישות אלה נוגעות למעקב שלאחר שיווק, פיקוח שוק, ערנות או רישום גורמים כלכליים ומכשירים."
+    },
+    {
+      "id": "sec-3-2-p2",
+      "type": "paragraph",
+      "en": "Such an approach respects the wording of Article 110(3) IVDR. At the same time it extends the application of the IVDR to those requirements that support a well-functioning vigilance and market surveillance system as well as proper registration of economic operators and devices.",
+      "he": "גישה כזו מכבדת את לשון סעיף 110(3) ל-IVDR. במקביל, היא מרחיבה את תחולת ה-IVDR לאותן דרישות התומכות במערכת ערנות ופיקוח שוק מתפקדת היטב, וכן ברישום נאות של גורמים כלכליים ומכשירים."
+    },
+    {
+      "id": "sec-3-2-p3",
+      "type": "paragraph",
+      "en": "Firstly, the general obligations of manufacturers and importers to place only devices on the market that are in conformity with the IVDR (Articles 10(1) and 13(1) IVDR) apply, whereas for 'legacy devices' conformity with the IVDR means conformity with the IVDD and the additional requirements in accordance with Article 110(3) IVDR. In addition, the obligations of economic operators set out in the following provisions should also apply to economic operators with respect to 'legacy devices':",
+      "he": "ראשית, חלות החובות הכלליות של יצרנים ושל יבואנים להשים בשוק רק מכשירים העומדים בהתאמה ל-IVDR (סעיפים 10(1) ו-13(1) ל-IVDR), בעוד שעבור \"מכשירי מורשת\" התאמה ל-IVDR משמעה התאמה ל-IVDD ולדרישות הנוספות בהתאם לסעיף 110(3) ל-IVDR. בנוסף, חובות הגורמים הכלכליים הקבועות בהוראות הבאות צריכות לחול גם על גורמים כלכליים בנוגע ל\"מכשירי מורשת\":"
+    },
+    {
+      "id": "sec-3-2-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "for manufacturers: Article 10(9), (11)-(14);", "he": "ליצרנים: סעיף 10(9), (11)-(14);" },
+        { "en": "for authorised representatives: Article 11(3)(c)-(g);", "he": "לנציגים מורשים: סעיף 11(3)(c)-(g);" },
+        { "en": "for importers: Article 13(2), 2nd subparagraph, (4), (6)-(8), (10);", "he": "ליבואנים: סעיף 13(2), תת-פסקה שנייה, (4), (6)-(8), (10);" },
+        { "en": "for distributors: Article 14(2), last subparagraph, (4)-(6).", "he": "למפיצים: סעיף 14(2), תת-פסקה אחרונה, (4)-(6)." }
+      ]
+    },
+    {
+      "id": "sec-3-2-p4",
+      "type": "paragraph",
+      "en": "Based on this approach, further requirements applicable to 'legacy devices' may be identified by the relevant working groups.",
+      "he": "בהתבסס על גישה זו, ייתכן שקבוצות העבודה הרלוונטיות יזהו דרישות נוספות החלות על \"מכשירי מורשת\"."
+    },
+    {
+      "id": "sec-3-2-p5",
+      "type": "paragraph",
+      "en": "IVDR requirements that are not related to post-market surveillance, market surveillance, vigilance, registration of economic operators and devices should in principle not apply to economic operators in respect to 'legacy devices'. Examples for provisions not applicable in respect to 'legacy devices' are Article 15, Article 16(3) and (4), Article 22, Article 24, Article 29 IVDR. This is without prejudice to the possibility for economic operators to follow any IVDR requirements also for 'legacy devices', especially if they deal with both 'legacy devices' and IVDR devices and want to apply the same procedures for all devices.",
+      "he": "דרישות IVDR שאינן נוגעות למעקב שלאחר שיווק, פיקוח שוק, ערנות, רישום גורמים כלכליים ומכשירים, אינן צריכות, ככלל, לחול על גורמים כלכליים בנוגע ל\"מכשירי מורשת\". דוגמאות להוראות שאינן חלות בנוגע ל\"מכשירי מורשת\" הן סעיף 15, סעיף 16(3) ו-(4), סעיף 22, סעיף 24, סעיף 29 ל-IVDR. אין בכך כדי לגרוע מהאפשרות של גורמים כלכליים לפעול לפי כל דרישות ה-IVDR גם עבור \"מכשירי מורשת\", במיוחד אם הם מטפלים הן ב\"מכשירי מורשת\" והן במכשירי IVDR ומבקשים ליישם את אותם הליכים על כל המכשירים."
+    },
+    {
+      "id": "sec-4",
+      "type": "heading",
+      "level": 1,
+      "number": "IV",
+      "en": "Application of IVDR requirements to devices placed on the market prior to 26 May 2022 ('old' devices)",
+      "he": "יישום דרישות ה-IVDR על מכשירים שהושמו בשוק לפני 26 במאי 2022 (מכשירים \"ישנים\")"
+    },
+    {
+      "id": "sec-4-p1",
+      "type": "paragraph",
+      "en": "IVDR requirements are in principle not applicable to 'old' devices. However, IVDR provisions should generally apply if they do not directly impact the device, its documentation or the conditions for the placing or making available of devices on the market. That means that Articles 88 to 95 IVDR, which lay down rights and obligations of competent authorities with regard to market surveillance activities, apply also to 'old' devices after 26 May 2022. This allows competent authorities to check that those devices are in conformity with the rules applicable at the moment when they were placed on the market and to take appropriate measures against non-compliant or unsafe devices.",
+      "he": "דרישות ה-IVDR אינן חלות, ככלל, על מכשירים \"ישנים\". עם זאת, הוראות ה-IVDR צריכות לחול בדרך כלל אם אינן משפיעות במישרין על המכשיר, על תיעודו או על תנאי ההשמה או ההעמדה לרשות של מכשירים בשוק. משמעות הדבר היא שסעיפים 88 עד 95 ל-IVDR, הקובעים את זכויותיהן וחובותיהן של הרשויות המוסמכות בנוגע לפעילויות פיקוח שוק, חלים גם על מכשירים \"ישנים\" לאחר 26 במאי 2022. הדבר מאפשר לרשויות המוסמכות לבדוק כי מכשירים אלה עומדים בכללים שחלו בעת השמתם בשוק, ולנקוט אמצעים מתאימים נגד מכשירים שאינם תואמים או שאינם בטוחים."
+    },
+    {
+      "id": "sec-4-p2",
+      "type": "paragraph",
+      "en": "Moreover, the reporting and analysis of serious incidents and field safety corrective actions occurring after 26 May 2022 in respect of 'old' devices should be done in accordance with Article 82 and 84 IVDR.",
+      "he": "יתרה מכך, דיווח וניתוח של אירועים חמורים ושל פעולות מתקנות בשטח המתרחשים לאחר 26 במאי 2022 בנוגע למכשירים \"ישנים\" צריכים להתבצע בהתאם לסעיפים 82 ו-84 ל-IVDR."
+    },
+    {
+      "id": "annex-heading",
+      "type": "heading",
+      "level": 1,
+      "number": "Annex",
+      "en": "Annex - table illustrating IVDR requirements applicable or not applicable to 'legacy devices' (non-exhaustive)",
+      "he": "נספח - טבלה הממחישה אילו דרישות IVDR חלות או אינן חלות על \"מכשירי מורשת\" (לא ממצה)"
+    },
+    {
+      "id": "annex-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          { "en": "IVDR requirement", "he": "דרישת IVDR" },
+          { "en": "Application to 'IVD legacy devices'", "he": "תחולה על \"מכשירי מורשת IVD\"" }
+        ],
+        [
+          { "en": "Art. 10(9), (11)-(14) – manufacturers' obligations", "he": "סעיף 10(9), (11)-(14) – חובות היצרנים" },
+          { "en": "YES (nota bene: 'conformity with the requirements of this Regulation' for 'IVD legacy devices' means conformity with the IVDD and the additional requirements in accordance with Article 110(3) IVDR)", "he": "כן (שים לב: \"התאמה לדרישות תקנה זו\" עבור \"מכשירי מורשת IVD\" משמעה התאמה ל-IVDD ולדרישות הנוספות בהתאם לסעיף 110(3) ל-IVDR)" }
+        ],
+        [
+          { "en": "Art. 11(3)(c)-(g), (7) – authorised representatives", "he": "סעיף 11(3)(c)-(g), (7) – נציגים מורשים" },
+          { "en": "YES (nota bene: 'conformity with the requirements of this Regulation' for 'legacy devices' means conformity with the IVDD and the additional requirements in accordance with Article 110(3) IVDR)", "he": "כן (שים לב: \"התאמה לדרישות תקנה זו\" עבור \"מכשירי מורשת\" משמעה התאמה ל-IVDD ולדרישות הנוספות בהתאם לסעיף 110(3) ל-IVDR)" }
+        ],
+        [
+          { "en": "Art. 13(2), 2nd subparagraph, (4), (6)-(8), (10) – importers obligations", "he": "סעיף 13(2), תת-פסקה שנייה, (4), (6)-(8), (10) – חובות היבואנים" },
+          { "en": "YES (nota bene: 'conformity with the requirements of this Regulation' for 'IVD legacy devices' means conformity with the IVDD and the additional requirements in accordance with Article 110(3) IVDR)", "he": "כן (שים לב: \"התאמה לדרישות תקנה זו\" עבור \"מכשירי מורשת IVD\" משמעה התאמה ל-IVDD ולדרישות הנוספות בהתאם לסעיף 110(3) ל-IVDR)" }
+        ],
+        [
+          { "en": "Art. 14(2), last subparagraph, (4)-(6) – distributors' obligations", "he": "סעיף 14(2), תת-פסקה אחרונה, (4)-(6) – חובות המפיצים" },
+          { "en": "YES (nota bene: 'conformity with the requirements of this Regulation' for 'IVD legacy devices' means conformity with the IVDD and the additional requirements in accordance with Article 110(3) IVDR)", "he": "כן (שים לב: \"התאמה לדרישות תקנה זו\" עבור \"מכשירי מורשת IVD\" משמעה התאמה ל-IVDD ולדרישות הנוספות בהתאם לסעיף 110(3) ל-IVDR)" }
+        ],
+        [
+          { "en": "Art. 15 – person responsible for regulatory compliance", "he": "סעיף 15 – האדם האחראי לעמידה ברגולציה" },
+          { "en": "NO", "he": "לא" }
+        ],
+        [
+          { "en": "Art. 16(3) and (4) – repackaging and relabelling", "he": "סעיף 16(3) ו-(4) – אריזה מחדש ותיוג מחדש" },
+          { "en": "NO", "he": "לא" }
+        ],
+        [
+          { "en": "Art. 22 – identification in the supply chain", "he": "סעיף 22 – זיהוי בשרשרת האספקה" },
+          { "en": "NO (without prejudice to traceability requirements in the supply chain applicable to 'IVD legacy devices' in accordance with other rules such as on market surveillance of goods or the General Product Safety Directive)", "he": "לא (מבלי לגרוע מדרישות העקיבות בשרשרת האספקה החלות על \"מכשירי מורשת IVD\" בהתאם לכללים אחרים, כגון פיקוח שוק על מוצרים או ההנחיה הכללית לבטיחות מוצרים)" }
+        ],
+        [
+          { "en": "Art. 24 – UDI", "he": "סעיף 24 – UDI" },
+          { "en": "NO (See in this respect also MDCG 2019-5 on registration of legacy devices in Eudamed)", "he": "לא (ראה בהקשר זה גם MDCG 2019-5 בנושא רישום מכשירי מורשת ב-Eudamed)" }
+        ],
+        [
+          { "en": "Art. 26 – registration of devices", "he": "סעיף 26 – רישום מכשירים" },
+          { "en": "In principle YES, but in the absence of EUDAMED's full functionality, specific transitional provisions apply in accordance with Art. 112, 113(3)(f) IVDR", "he": "עקרונית כן, אך בהיעדר תפקודיות מלאה של EUDAMED, חלות הוראות מעבר ספציפיות בהתאם לסעיף 112, 113(3)(f) ל-IVDR" }
+        ],
+        [
+          { "en": "Art. 28 – registration of economic operators", "he": "סעיף 28 – רישום גורמים כלכליים" },
+          { "en": "In principle YES, but in the absence of EUDAMED's full functionality, specific transitional provisions apply in accordance with Art. 112, 113(3)(f) IVDR", "he": "עקרונית כן, אך בהיעדר תפקודיות מלאה של EUDAMED, חלות הוראות מעבר ספציפיות בהתאם לסעיף 112, 113(3)(f) ל-IVDR" }
+        ],
+        [
+          { "en": "Art. 29 – summary of safety and performance", "he": "סעיף 29 – סיכום בטיחות וביצועים" },
+          { "en": "NO", "he": "לא" }
+        ],
+        [
+          { "en": "Art. 78, 79 – PMS system and PMS plan", "he": "סעיפים 78, 79 – מערכת PMS ותוכנית PMS" },
+          { "en": "YES (including PMPF according to Annex XIII Part B; however with exception of requirements that relate to non-applicable obligations, e.g. Art. 78(3)(d) – Summary of safety and performance; no requirement for a full revision of the technical documentation in accordance with Annexes II and III)", "he": "כן (כולל PMPF בהתאם לנספח XIII חלק B; אולם למעט דרישות הנוגעות לחובות שאינן חלות, למשל סעיף 78(3)(d) – סיכום בטיחות וביצועים; אין דרישה לרוויזיה מלאה של התיעוד הטכני בהתאם לנספחים II ו-III)" }
+        ],
+        [
+          { "en": "Art. 80 – PMS report", "he": "סעיף 80 – דוח PMS" },
+          { "en": "YES, applicable to all 'legacy devices', unless manufacturer voluntarily prepares a PSUR pursuant to Article 81", "he": "כן, חל על כל \"מכשירי המורשת\", אלא אם היצרן מכין מרצונו PSUR בהתאם לסעיף 81" }
+        ],
+        [
+          { "en": "Art. 81 – PSUR", "he": "סעיף 81 – PSUR" },
+          { "en": "NO", "he": "לא" }
+        ],
+        [
+          { "en": "Art. 82 – reporting of serious incidents", "he": "סעיף 82 – דיווח על אירועים חמורים" },
+          { "en": "YES", "he": "כן" }
+        ],
+        [
+          { "en": "Art. 83 – trend reporting", "he": "סעיף 83 – דיווח מגמות" },
+          { "en": "YES (trend reporting was already part of the vigilance system established under the IVDD)", "he": "כן (דיווח מגמות כבר היווה חלק ממערכת הערנות שהוקמה לפי ה-IVDD)" }
+        ],
+        [
+          { "en": "Art. 84 – analysis of serious incidents and FSCA", "he": "סעיף 84 – ניתוח אירועים חמורים ו-FSCA" },
+          { "en": "YES", "he": "כן" }
+        ],
+        [
+          { "en": "Art. 85 – analysis of vigilance data", "he": "סעיף 85 – ניתוח נתוני ערנות" },
+          { "en": "YES", "he": "כן" }
+        ],
+        [
+          { "en": "Art. 86 – implementing acts", "he": "סעיף 86 – מעשי יישום" },
+          { "en": "YES", "he": "כן" }
+        ],
+        [
+          { "en": "Art. 87 – EUDAMED vigilance module", "he": "סעיף 87 – מודול הערנות של EUDAMED" },
+          { "en": "In principle YES, but in the absence of EUDAMED's full functionality, specific transitional provisions apply in accordance with Art. 112, 113(3)(f) IVDR", "he": "עקרונית כן, אך בהיעדר תפקודיות מלאה של EUDAMED, חלות הוראות מעבר ספציפיות בהתאם לסעיף 112, 113(3)(f) ל-IVDR" }
+        ],
+        [
+          { "en": "Art. 88 – market surveillance activities", "he": "סעיף 88 – פעילויות פיקוח שוק" },
+          { "en": "YES", "he": "כן" }
+        ],
+        [
+          { "en": "Art. 89 – evaluation of non-compliances", "he": "סעיף 89 – הערכת אי-התאמות" },
+          { "en": "YES (nota bene: 'conformity with the requirements of this Regulation' for 'legacy devices' means conformity with the IVDD and the additional requirements in accordance with Article 110(3) IVDR)", "he": "כן (שים לב: \"התאמה לדרישות תקנה זו\" עבור \"מכשירי מורשת\" משמעה התאמה ל-IVDD ולדרישות הנוספות בהתאם לסעיף 110(3) ל-IVDR)" }
+        ],
+        [
+          { "en": "Art. 90, 91, 92 – devices presenting an unacceptable risk; evaluation of national measures; other non-compliance", "he": "סעיפים 90, 91, 92 – מכשירים המציבים סיכון בלתי קביל; הערכת אמצעים לאומיים; אי-התאמה אחרת" },
+          { "en": "YES (nota bene: 'conformity with the requirements of this Regulation' for 'legacy devices' means conformity with the IVDD and the additional requirements in accordance with Article 110(3) IVDR)", "he": "כן (שים לב: \"התאמה לדרישות תקנה זו\" עבור \"מכשירי מורשת\" משמעה התאמה ל-IVDD ולדרישות הנוספות בהתאם לסעיף 110(3) ל-IVDR)" }
+        ],
+        [
+          { "en": "Art. 93 – preventive health protection measures", "he": "סעיף 93 – אמצעי הגנה מונעת על הבריאות" },
+          { "en": "YES", "he": "כן" }
+        ],
+        [
+          { "en": "Art. 94 – good administrative practice", "he": "סעיף 94 – נוהג מינהלי תקין" },
+          { "en": "YES", "he": "כן" }
+        ],
+        [
+          { "en": "Art. 95 – EUDAMED market surveillance module", "he": "סעיף 95 – מודול פיקוח השוק של EUDAMED" },
+          { "en": "YES", "he": "כן" }
+        ]
+      ]
+    },
+    {
+      "id": "fn-1",
+      "type": "note",
+      "marker": "1",
+      "en": "Regulation (EU) 2022/112 of the European Parliament and of the Council of 25 January 2022 amending Regulation (EU) 2017/746 as regards transitional provisions for certain in vitro diagnostic medical devices and the deferred application of conditions for in-house devices.",
+      "he": "תקנה (האיחוד האירופי) 2022/112 של הפרלמנט האירופי ושל המועצה מ-25 בינואר 2022 המתקנת את תקנה (האיחוד האירופי) 2017/746 בנוגע להוראות מעבר עבור מכשירים רפואיים מסוימים לאבחון ויטרו ולדחיית תחולת התנאים למכשירים המיוצרים בבית (in-house)."
+    },
+    {
+      "id": "fn-2",
+      "type": "note",
+      "marker": "2",
+      "en": "MDCG 2021-25 Application of MDR requirements to 'legacy devices' and to devices placed on the market prior to 26 May 2021 in accordance with Directives 90/385/EEC or 93/42/EEC.",
+      "he": "MDCG 2021-25 יישום דרישות ה-MDR על \"מכשירי מורשת\" ועל מכשירים שהושמו בשוק לפני 26 במאי 2021 בהתאם להנחיות 90/385/EEC או 93/42/EEC."
+    },
+    {
+      "id": "fn-3",
+      "type": "note",
+      "marker": "3",
+      "en": "According to the 1st subparagraph of Article 110(3) IVDR, in order to benefit from the transition period, devices (1) must continue to comply with Directive 98/79/EC and (2) must not be subject to significant changes in the design and intended purpose. With regard to the meaning of 'significant changes' see MDCG 2022-6 Guidance on significant changes regarding the transitional provision under Article 110(3) of the IVDR.",
+      "he": "בהתאם לתת-הפסקה הראשונה של סעיף 110(3) ל-IVDR, כדי ליהנות מתקופת המעבר, מכשירים (1) חייבים להמשיך לעמוד בהנחיה 98/79/EC, וכן (2) אסור שייערכו בהם שינויים משמעותיים בעיצוב ובמטרה המיועדת. בנוגע למשמעות \"שינויים משמעותיים\" ראה MDCG 2022-6 הנחיה בנושא שינויים משמעותיים בנוגע להוראת המעבר לפי סעיף 110(3) ל-IVDR."
+    },
+    {
+      "id": "fn-4",
+      "type": "note",
+      "marker": "4",
+      "en": "See Article 2(21) IVDR and section 2.3. of the Commission Notice - The 'Blue Guide' on the implementation of EU products rules 2016, OJ C 272, 26.7.2016, p. 1.",
+      "he": "ראה סעיף 2(21) ל-IVDR וסעיף 2.3 בהודעת הנציבות - \"המדריך הכחול\" (Blue Guide) על יישום כללי המוצרים של האיחוד האירופי 2016, OJ C 272, 26.7.2016, עמ' 1."
+    },
+    {
+      "id": "fn-5",
+      "type": "note",
+      "marker": "5",
+      "en": "No full revision of the technical documentation in accordance with Annexes II and III IVDR required.",
+      "he": "אין דרישה לרוויזיה מלאה של התיעוד הטכני בהתאם לנספחים II ו-III ל-IVDR."
+    },
+    {
+      "id": "fn-6",
+      "type": "note",
+      "marker": "6",
+      "en": "According to Annex III, section 5, and Annex IV, last indent of section 3.1, of the IVDD, \"the manufacturer shall institute and keep up to date a systematic procedure to review experience gained from devices in the post-production phase and to implement appropriate means to apply any necessary corrective actions, taking account of the nature and risks in relation to the product.\"",
+      "he": "בהתאם לנספח III, סעיף 5, ולנספח IV, הקו האחרון של סעיף 3.1, ל-IVDD, \"על היצרן להנהיג ולשמור מעודכן הליך שיטתי לסקירת הניסיון שנצבר מן המכשירים בשלב שלאחר הייצור וליישם אמצעים מתאימים לנקיטת כל פעולה מתקנת נדרשת, תוך התחשבות באופי ובסיכונים הנוגעים למוצר.\""
+    },
+    {
+      "id": "fn-7",
+      "type": "note",
+      "marker": "7",
+      "en": "Article 80 IVDR applies to class A and B devices.",
+      "he": "סעיף 80 ל-IVDR חל על מכשירי סיווג A ו-B."
+    },
+    {
+      "id": "fn-8",
+      "type": "note",
+      "marker": "8",
+      "en": "Article 81 IVDR applies to class C and D devices.",
+      "he": "סעיף 81 ל-IVDR חל על מכשירי סיווג C ו-D."
+    },
+    {
+      "id": "fn-9",
+      "type": "note",
+      "marker": "9",
+      "en": "A MDCG guidance on appropriate surveillance referred to in Article 110(3) IVDR is under development.",
+      "he": "הנחיית MDCG בנושא הפיקוח המתאים הנזכר בסעיף 110(3) ל-IVDR נמצאת בפיתוח."
+    },
+    {
+      "id": "fn-10",
+      "type": "note",
+      "marker": "10",
+      "en": "In all cases, 'conformity with the requirements of this Regulation' shall mean for 'IVD legacy devices' conformity with the IVDD and the additional requirements in accordance with Article 110(3) IVDR.",
+      "he": "בכל המקרים, \"התאמה לדרישות תקנה זו\" משמעה עבור \"מכשירי מורשת IVD\" התאמה ל-IVDD ולדרישות הנוספות בהתאם לסעיף 110(3) ל-IVDR."
+    },
+    {
+      "id": "fn-11",
+      "type": "note",
+      "marker": "11",
+      "en": "The requirement that manufacturers not established in the EU shall designate an authorised representative (Article 11(1) IVDR) stems already from the IVDD and therefore also applies to 'legacy devices'. For the purpose of clearly identifying the relevant competent authority, Article 11(7) should be applied also in respect of 'legacy devices' clarifying that any reference to the competent authority of the Member State in which the manufacturer has its registered place of business shall be understood as a reference to the competent authority of the Member State in which the authorised representative has its registered place of business.",
+      "he": "הדרישה לפיה יצרנים שאינם מבוססים באיחוד האירופי ימנו נציג מורשה (סעיף 11(1) ל-IVDR) נובעת כבר מן ה-IVDD ולכן חלה גם על \"מכשירי מורשת\". לצורך זיהוי ברור של הרשות המוסמכת הרלוונטית, סעיף 11(7) צריך לחול גם בנוגע ל\"מכשירי מורשת\", ולהבהיר כי כל התייחסות לרשות המוסמכת של המדינה החברה שבה ליצרן מקום עסקיו הרשום תובן כהתייחסות לרשות המוסמכת של המדינה החברה שבה לנציג המורשה מקום עסקיו הרשום."
+    },
+    {
+      "id": "fn-12",
+      "type": "note",
+      "marker": "12",
+      "en": "However, provisions on performance studies apply to studies started after 26 May 2022 regardless of the device's status.",
+      "he": "עם זאת, ההוראות בנושא מחקרי ביצועים חלות על מחקרים שהחלו לאחר 26 במאי 2022, ללא קשר למעמד המכשיר."
+    },
+    {
+      "id": "fn-13",
+      "type": "note",
+      "marker": "13",
+      "en": "Without prejudice to traceability requirements in the supply chain applicable to 'legacy devices' in accordance with other rules such as on market surveillance of goods or the General Product Safety Directive.",
+      "he": "מבלי לגרוע מדרישות העקיבות בשרשרת האספקה החלות על \"מכשירי מורשת\" בהתאם לכללים אחרים, כגון פיקוח שוק על מוצרים או ההנחיה הכללית לבטיחות מוצרים."
+    },
+    {
+      "id": "fn-14",
+      "type": "note",
+      "marker": "14",
+      "en": "See in this respect also MDCG 2019-5 on registration of legacy devices in Eudamed.",
+      "he": "ראה בהקשר זה גם MDCG 2019-5 בנושא רישום מכשירי מורשת ב-Eudamed."
+    },
+    {
+      "id": "fn-15",
+      "type": "note",
+      "marker": "15",
+      "en": "The application of market surveillance and vigilance provisions to 'old' devices has in the past been interpreted differently at national level.",
+      "he": "יישום הוראות פיקוח השוק והערנות על מכשירים \"ישנים\" פורש בעבר באופן שונה ברמה הלאומית."
+    },
+    {
+      "id": "fn-16",
+      "type": "note",
+      "marker": "16",
+      "en": "A MDCG guidance on harmonised administrative practices and alternative technical solutions until EUDAMED is fully functional (for Regulation (EU) 2017/746 on in vitro diagnostic medical devices) is under development.",
+      "he": "הנחיית MDCG בנושא נהלים מינהליים מתואמים ופתרונות טכניים חלופיים עד שה-EUDAMED יהיה מתפקד במלואו (עבור תקנה (האיחוד האירופי) 2017/746 בנושא מכשירים רפואיים לאבחון ויטרו) נמצאת בפיתוח."
+    }
+  ]
+}

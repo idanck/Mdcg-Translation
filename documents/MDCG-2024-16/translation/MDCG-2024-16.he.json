@@ -1,0 +1,590 @@
+{
+  "id": "MDCG-2024-16",
+  "title": {
+    "en": "MDCG 2024-16 — Manufacturer Information Form on Interruption or Discontinuation of Supply of certain medical devices and certain in vitro diagnostic medical devices (as per Article 10a of Regulation (EU) 2024/1860 amending Regulation (EU) 2017/745 and Regulation (EU) 2017/746)",
+    "he": "MDCG 2024-16 — טופס מידע ליצרן בנוגע להפסקה זמנית או הפסקה קבועה של אספקה של מכשירים רפואיים מסוימים ומכשירים רפואיים לאבחון במבחנה (in vitro) מסוימים (בהתאם לסעיף 10a לתקנה (האיחוד האירופי) 2024/1860 המתקנת את תקנה (האיחוד האירופי) 2017/745 ותקנה (האיחוד האירופי) 2017/746)"
+  },
+  "category": "Article 10a – Interruption or Discontinuation of Supply",
+  "publicationDate": "2024-12",
+  "source": {
+    "url": "https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en",
+    "file": "original/mdcg_2024-16_en.pdf"
+  },
+  "language": "he",
+  "direction": "rtl",
+  "translationStatus": "review",
+  "glossaryVersion": "2026-06",
+  "blocks": [
+    {
+      "id": "disclaimer-1",
+      "type": "paragraph",
+      "en": "This document has been endorsed by the Medical Device Coordination Group (MDCG) established by Article 103 of Regulation (EU) 2017/745. The MDCG is composed of representatives of all Member States and it is chaired by a representative of the European Commission.",
+      "he": "מסמך זה אושר על ידי קבוצת תיאום המכשירים הרפואיים (MDCG) שהוקמה מכוח סעיף 103 לתקנה (האיחוד האירופי) 2017/745. ה-MDCG מורכבת מנציגים של כל המדינות החברות ובראשה עומד נציג של הנציבות האירופית."
+    },
+    {
+      "id": "disclaimer-2",
+      "type": "paragraph",
+      "en": "The document is not a European Commission document and it cannot be regarded as reflecting the official position of the European Commission. Any views expressed in this document are not legally binding and only the Court of Justice of the European Union can give binding interpretations of Union law.",
+      "he": "המסמך אינו מסמך של הנציבות האירופית ואין לראות בו כמשקף את העמדה הרשמית של הנציבות האירופית. כל דעה המובעת במסמך זה אינה מחייבת מבחינה משפטית, ורק בית הדין לצדק של האיחוד האירופי מוסמך לתת פרשנות מחייבת לדין האיחוד."
+    },
+    {
+      "id": "intro-note",
+      "type": "note",
+      "en": "Note: this form should be completed where reporting on individual or several devices of the same manufacturer. For reporting on several devices, only one form should be completed and see section 6 for further instruction. See also Q.11 and Q.12 of 'Q&A Obligation to inform in case of interruption or discontinuation of supply'. For the purposes of this form, no personal data should be submitted or collected, including contact details.",
+      "he": "הערה: יש למלא טופס זה בעת דיווח על מכשיר בודד או על מספר מכשירים של אותו יצרן. בעת דיווח על מספר מכשירים, יש למלא טופס אחד בלבד ולעיין בסעיף 6 להנחיות נוספות. ראה גם שאלות 11 ו-12 ב-'שאלות ותשובות — חובת היידוע במקרה של הפסקה זמנית או הפסקה קבועה של אספקה'. לצורכי טופס זה, אין להגיש או לאסוף נתונים אישיים כלשהם, לרבות פרטי קשר."
+    },
+    {
+      "id": "sec-1",
+      "type": "heading",
+      "level": 1,
+      "number": "1",
+      "en": "Administrative information",
+      "he": "מידע מנהלי"
+    },
+    {
+      "id": "sec-1-table",
+      "type": "table",
+      "header": false,
+      "rows": [
+        [
+          { "en": "Name of National Competent Authority (NCA) to which this report is sent", "he": "שם הרשות המוסמכת הלאומית (NCA) שאליה נשלח דיווח זה" },
+          { "en": "", "he": "" }
+        ],
+        [
+          { "en": "Type of information", "he": "סוג המידע" },
+          { "en": "Initial information / Additional information (voluntary)* / Follow-up information (voluntary)*", "he": "מידע ראשוני / מידע נוסף (מרצון)* / מידע מעקב (מרצון)*" }
+        ],
+        [
+          { "en": "*Please specify modified sections of the form (if additional or follow-up information):", "he": "*נא לפרט אילו חלקים של הטופס שונו (במקרה של מידע נוסף או מידע מעקב):" },
+          { "en": "", "he": "" }
+        ],
+        [
+          { "en": "Date of information", "he": "תאריך המידע" },
+          { "en": "", "he": "" }
+        ],
+        [
+          { "en": "Reference number assigned by the manufacturer (if any)", "he": "מספר ייחוס שהוקצה על ידי היצרן (אם קיים)" },
+          { "en": "", "he": "" }
+        ],
+        [
+          { "en": "Reference number assigned by NCA (as applicable)", "he": "מספר ייחוס שהוקצה על ידי ה-NCA (לפי העניין)" },
+          { "en": "", "he": "" }
+        ]
+      ]
+    },
+    {
+      "id": "sec-2",
+      "type": "heading",
+      "level": 1,
+      "number": "2",
+      "en": "Information on submitter of the report",
+      "he": "מידע על מגיש הדיווח"
+    },
+    {
+      "id": "sec-2-p1",
+      "type": "paragraph",
+      "en": "Status of submitter:",
+      "he": "מעמד המגיש:"
+    },
+    {
+      "id": "sec-2-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Manufacturer", "he": "יצרן" },
+        { "en": "Authorised Representative (if mandated to act on behalf of the manufacturer)", "he": "נציג מורשה (אם הוסמך לפעול בשם היצרן)" },
+        { "en": "Other entity (if acting on behalf of the manufacturer)", "he": "גורם אחר (אם פועל בשם היצרן)" }
+      ]
+    },
+    {
+      "id": "sec-3",
+      "type": "heading",
+      "level": 1,
+      "number": "3",
+      "en": "Manufacturer Information",
+      "he": "מידע על היצרן"
+    },
+    {
+      "id": "sec-3-table",
+      "type": "table",
+      "header": false,
+      "rows": [
+        [
+          { "en": "Manufacturer organisation name", "he": "שם ארגון היצרן" },
+          { "en": "", "he": "" }
+        ],
+        [
+          { "en": "Single registration number (if filled here and already EUDAMED registered, please leave following fields in this section 3 open)", "he": "מספר רישום יחיד (Single registration number; אם מולא כאן וכבר רשום ב-EUDAMED, נא להשאיר את השדות הבאים בסעיף 3 זה ריקים)" },
+          { "en": "", "he": "" }
+        ],
+        [
+          { "en": "Address", "he": "כתובת" },
+          { "en": "", "he": "" }
+        ],
+        [
+          { "en": "Postcode", "he": "מיקוד" },
+          { "en": "City", "he": "עיר" }
+        ],
+        [
+          { "en": "Phone", "he": "טלפון" },
+          { "en": "Fax", "he": "פקס" }
+        ],
+        [
+          { "en": "E-mail", "he": "דוא\"ל" },
+          { "en": "Country", "he": "מדינה" }
+        ]
+      ]
+    },
+    {
+      "id": "sec-4",
+      "type": "heading",
+      "level": 1,
+      "number": "4",
+      "en": "Authorized Representative Information (if applicable)",
+      "he": "מידע על הנציג המורשה (אם רלוונטי)"
+    },
+    {
+      "id": "sec-4-table",
+      "type": "table",
+      "header": false,
+      "rows": [
+        [
+          { "en": "Authorised representative organisation name (if mandated to make this report on behalf of the manufacturer)", "he": "שם ארגון הנציג המורשה (אם הוסמך להגיש דיווח זה בשם היצרן)" },
+          { "en": "", "he": "" }
+        ],
+        [
+          { "en": "Single registration number (if filled here and already EUDAMED registered, please leave following fields in this section 4 open)", "he": "מספר רישום יחיד (אם מולא כאן וכבר רשום ב-EUDAMED, נא להשאיר את השדות הבאים בסעיף 4 זה ריקים)" },
+          { "en": "", "he": "" }
+        ],
+        [
+          { "en": "Address", "he": "כתובת" },
+          { "en": "", "he": "" }
+        ],
+        [
+          { "en": "Postcode", "he": "מיקוד" },
+          { "en": "City", "he": "עיר" }
+        ],
+        [
+          { "en": "Phone", "he": "טלפון" },
+          { "en": "Fax", "he": "פקס" }
+        ],
+        [
+          { "en": "E-mail", "he": "דוא\"ל" },
+          { "en": "Country", "he": "מדינה" }
+        ]
+      ]
+    },
+    {
+      "id": "sec-5",
+      "type": "heading",
+      "level": 1,
+      "number": "5",
+      "en": "Other entity (if applicable)",
+      "he": "גורם אחר (אם רלוונטי)"
+    },
+    {
+      "id": "sec-5-table",
+      "type": "table",
+      "header": false,
+      "rows": [
+        [
+          { "en": "Organisation (if completing this report on behalf of the manufacturer)", "he": "ארגון (אם ממלא דיווח זה בשם היצרן)" },
+          { "en": "", "he": "" }
+        ],
+        [
+          { "en": "Address", "he": "כתובת" },
+          { "en": "", "he": "" }
+        ],
+        [
+          { "en": "Postcode", "he": "מיקוד" },
+          { "en": "City", "he": "עיר" }
+        ],
+        [
+          { "en": "Phone", "he": "טלפון" },
+          { "en": "Fax", "he": "פקס" }
+        ],
+        [
+          { "en": "E-mail", "he": "דוא\"ל" },
+          { "en": "Country", "he": "מדינה" }
+        ]
+      ]
+    },
+    {
+      "id": "sec-6",
+      "type": "heading",
+      "level": 1,
+      "number": "6",
+      "en": "Medical device information",
+      "he": "מידע על המכשיר הרפואי"
+    },
+    {
+      "id": "sec-6-p1",
+      "type": "paragraph",
+      "en": "Risk class of device",
+      "he": "סיווג הסיכון של המכשיר"
+    },
+    {
+      "id": "sec-6-table-dd",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          { "en": "MDD/AIMDD", "he": "MDD/AIMDD" },
+          { "en": "IVDD", "he": "IVDD" }
+        ],
+        [
+          { "en": "AIMD Active implant", "he": "AIMD — שתל פעיל" },
+          { "en": "IVD Annex II List A", "he": "IVD נספח II רשימה A" }
+        ],
+        [
+          { "en": "MDD Class III", "he": "MDD סיווג III" },
+          { "en": "IVD Annex II List B", "he": "IVD נספח II רשימה B" }
+        ],
+        [
+          { "en": "MDD Class IIb", "he": "MDD סיווג IIb" },
+          { "en": "IVD for self-testing", "he": "IVD לבדיקה עצמית" }
+        ],
+        [
+          { "en": "MDD Class IIa", "he": "MDD סיווג IIa" },
+          { "en": "IVD general", "he": "IVD כללי" }
+        ],
+        [
+          { "en": "MDD Class I", "he": "MDD סיווג I" },
+          { "en": "", "he": "" }
+        ],
+        [
+          { "en": "MDD Class I sterile", "he": "MDD סיווג I סטרילי" },
+          { "en": "", "he": "" }
+        ],
+        [
+          { "en": "MDD Class I measuring function", "he": "MDD סיווג I בעל פונקציית מדידה" },
+          { "en": "", "he": "" }
+        ]
+      ]
+    },
+    {
+      "id": "sec-6-table-r",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          { "en": "MDR", "he": "MDR" },
+          { "en": "IVDR", "he": "IVDR" }
+        ],
+        [
+          { "en": "Class III", "he": "סיווג III" },
+          { "en": "Class D", "he": "סיווג D" }
+        ],
+        [
+          { "en": "Class IIb", "he": "סיווג IIb" },
+          { "en": "Class C", "he": "סיווג C" }
+        ],
+        [
+          { "en": "Class IIa", "he": "סיווג IIa" },
+          { "en": "Class B", "he": "סיווג B" }
+        ],
+        [
+          { "en": "Class I", "he": "סיווג I" },
+          { "en": "Class A", "he": "סיווג A" }
+        ],
+        [
+          { "en": "Class I sterile", "he": "סיווג I סטרילי" },
+          { "en": "Class A sterile", "he": "סיווג A סטרילי" }
+        ],
+        [
+          { "en": "Class I measuring function", "he": "סיווג I בעל פונקציית מדידה" },
+          { "en": "", "he": "" }
+        ],
+        [
+          { "en": "Class I reusable surgical instruments", "he": "סיווג I — מכשירים כירורגיים רב-פעמיים" },
+          { "en": "", "he": "" }
+        ]
+      ]
+    },
+    {
+      "id": "sec-6-devid",
+      "type": "heading",
+      "level": 2,
+      "en": "Device Identification",
+      "he": "זיהוי המכשיר"
+    },
+    {
+      "id": "sec-6-devid-p1",
+      "type": "paragraph",
+      "en": "Please fill this section when reporting on an individual device. Where reporting on several devices, complete the 'MDCG 2024-16 Annex - Device Identification Table'. Reports on several devices should be for the same manufacturer, the same interruption or discontinuation and same associated reason (See 'reasons' in section 7).",
+      "he": "נא למלא חלק זה בעת דיווח על מכשיר בודד. בעת דיווח על מספר מכשירים, יש למלא את 'נספח MDCG 2024-16 — טבלת זיהוי מכשירים'. דיווחים על מספר מכשירים צריכים להתייחס לאותו יצרן, לאותה הפסקה זמנית או הפסקה קבועה ולאותה סיבה נלווית (ראה 'סיבות' בסעיף 7)."
+    },
+    {
+      "id": "sec-6-devid-table",
+      "type": "table",
+      "header": false,
+      "rows": [
+        [
+          { "en": "Unique Device Identification (UDI-DI)/EUDAMED ID (if applicable)", "he": "מזהה מכשיר ייחודי (UDI-DI)/מזהה EUDAMED (אם רלוונטי)" },
+          { "en": "", "he": "" }
+        ],
+        [
+          { "en": "Basic UDI-DI/Eudamed-DI (if applicable)", "he": "Basic UDI-DI/Eudamed-DI (אם רלוונטי)" },
+          { "en": "", "he": "" }
+        ]
+      ]
+    },
+    {
+      "id": "sec-6-devid-p2",
+      "type": "paragraph",
+      "en": "If the above UDI section is completed and the device is already registered in EUDAMED, please leave the following fields blank and go to 'Intended use' field. If filling out the following fields for devices without UDI-DI/EUDAMED DI, please complete all mandatory fields.",
+      "he": "אם חלק ה-UDI שלעיל מולא והמכשיר כבר רשום ב-EUDAMED, נא להשאיר את השדות הבאים ריקים ולעבור לשדה 'מטרה מיועדת'. אם ממלאים את השדות הבאים עבור מכשירים ללא UDI-DI/EUDAMED DI, נא למלא את כל שדות החובה."
+    },
+    {
+      "id": "sec-6-devid-table2",
+      "type": "table",
+      "header": false,
+      "rows": [
+        [
+          { "en": "Model", "he": "דגם (Model)" },
+          { "en": "Catalogue/reference number", "he": "מספר קטלוגי/מספר ייחוס" }
+        ],
+        [
+          { "en": "Nomenclature system (e.g. EMDN)", "he": "מערכת נומנקלטורה (למשל EMDN)" },
+          { "en": "Nomenclature code", "he": "קוד נומנקלטורה" }
+        ],
+        [
+          { "en": "Nomenclature text", "he": "טקסט נומנקלטורה" },
+          { "en": "", "he": "" }
+        ],
+        [
+          { "en": "Commercial name/ brand name / proprietary or common name", "he": "שם מסחרי / שם מותג / שם קנייני או שם נפוץ" },
+          { "en": "", "he": "" }
+        ],
+        [
+          { "en": "Intended use according to the IFU or add IFU in attachment (voluntary)", "he": "מטרה מיועדת בהתאם להוראות השימוש (IFU), או צירוף ה-IFU כקובץ מצורף (מרצון)" },
+          { "en": "", "he": "" }
+        ]
+      ]
+    },
+    {
+      "id": "sec-7",
+      "type": "heading",
+      "level": 1,
+      "number": "7",
+      "en": "Description of the Interruption or discontinuation of supply (information requested as per Art 10a)",
+      "he": "תיאור ההפסקה הזמנית או ההפסקה הקבועה של האספקה (המידע הנדרש בהתאם לסעיף 10a)"
+    },
+    {
+      "id": "sec-7-p1",
+      "type": "paragraph",
+      "en": "Specify if the report concerns an interruption or discontinuation:",
+      "he": "ציין אם הדיווח נוגע להפסקה זמנית או להפסקה קבועה:"
+    },
+    {
+      "id": "sec-7-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Interruption", "he": "הפסקה זמנית" },
+        { "en": "Discontinuation", "he": "הפסקה קבועה" }
+      ]
+    },
+    {
+      "id": "sec-7-p2",
+      "type": "paragraph",
+      "en": "Reason for the Interruption or Discontinuation of Supply — please select:",
+      "he": "הסיבה להפסקה הזמנית או להפסקה הקבועה של האספקה — נא לבחור:"
+    },
+    {
+      "id": "sec-7-list2",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Regulatory issue", "he": "בעיה רגולטורית" },
+        { "en": "Supply chain issue", "he": "בעיה בשרשרת האספקה" },
+        { "en": "Manufacturing issue", "he": "בעיה בייצור" },
+        { "en": "Other — Specify other:", "he": "אחר — נא לפרט:" }
+      ]
+    },
+    {
+      "id": "sec-7-p3",
+      "type": "paragraph",
+      "en": "Additional information on reason for the interruption or discontinuation of supply (voluntary)",
+      "he": "מידע נוסף על הסיבה להפסקה הזמנית או להפסקה הקבועה של האספקה (מרצון)"
+    },
+    {
+      "id": "sec-7-p4",
+      "type": "paragraph",
+      "en": "Information on the assessment of the situation (If available):",
+      "he": "מידע על הערכת המצב (אם זמין):"
+    },
+    {
+      "id": "sec-7-list3",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Device used in a serious, acute or chronic pathology, life-sustaining or life-saving device or accessory", "he": "מכשיר המשמש בפתולוגיה חמורה, חריפה או כרונית, מכשיר או אביזר מקיים-חיים או מציל-חיים" },
+        { "en": "Intended for a specific population (e.g., vulnerable populations such as paediatric or geriatric patients)", "he": "מיועד לאוכלוסייה מסוימת (למשל אוכלוסיות פגיעות כגון מטופלים ילדים או קשישים)" },
+        { "en": "Disruption or interruption limiting / preventing the patients from accessing treatment", "he": "שיבוש או הפסקה המגבילים / מונעים ממטופלים גישה לטיפול" },
+        { "en": "Device without or with limited available alternatives, or consumable device not replaceable by any other type/brand", "he": "מכשיר ללא חלופות זמינות או עם חלופות מוגבלות, או מכשיר מתכלה שאינו ניתן להחלפה בכל סוג/מותג אחר" },
+        { "en": "Major market share in one or several members states", "he": "נתח שוק משמעותי במדינה חברה אחת או במספר מדינות חברות" },
+        { "en": "Other", "he": "אחר" }
+      ]
+    },
+    {
+      "id": "sec-7-p5",
+      "type": "paragraph",
+      "en": "Additional information on the assessment of the situation (if available)",
+      "he": "מידע נוסף על הערכת המצב (אם זמין)"
+    },
+    {
+      "id": "sec-7-duration",
+      "type": "heading",
+      "level": 2,
+      "en": "Duration",
+      "he": "משך הזמן"
+    },
+    {
+      "id": "sec-7-duration-table",
+      "type": "table",
+      "header": false,
+      "rows": [
+        [
+          { "en": "When is the interruption/discontinuation of supply estimated to start?", "he": "מתי מוערך שתחל ההפסקה הזמנית/הקבועה של האספקה?" },
+          { "en": "", "he": "" }
+        ],
+        [
+          { "en": "When is the interruption estimated to end (if available)?", "he": "מתי מוערך שתסתיים ההפסקה הזמנית (אם זמין)?" },
+          { "en": "", "he": "" }
+        ]
+      ]
+    },
+    {
+      "id": "sec-7-duration-note",
+      "type": "note",
+      "en": "Note: Where the estimated start date differs in case of reporting on several devices, please complete the dedicated field in the 'MDCG 2024-16 Annex - Device Identification Table'. The same applies for interruptions where end date is provided.",
+      "he": "הערה: כאשר תאריך ההתחלה המוערך שונה במקרה של דיווח על מספר מכשירים, נא למלא את השדה הייעודי ב-'נספח MDCG 2024-16 — טבלת זיהוי מכשירים'. הדבר חל גם על הפסקות זמניות שעבורן נמסר תאריך סיום."
+    },
+    {
+      "id": "sec-7-duration-table2",
+      "type": "table",
+      "header": false,
+      "rows": [
+        [
+          { "en": "Additional information about the estimated duration, if the start date and the duration is disclosed (voluntary):", "he": "מידע נוסף על משך הזמן המוערך, אם תאריך ההתחלה ומשך הזמן נמסרים (מרצון):" },
+          { "en": "", "he": "" }
+        ],
+        [
+          { "en": "Estimated point in time for resumption of supply of the devices (where known and appropriate)", "he": "נקודת הזמן המוערכת לחידוש אספקת המכשירים (במידה שידועה ורלוונטית)" },
+          { "en": "", "he": "" }
+        ]
+      ]
+    },
+    {
+      "id": "sec-7-countries-table",
+      "type": "table",
+      "header": false,
+      "rows": [
+        [
+          { "en": "The medical device is usually marketed and supplied to the following countries: (voluntary)", "he": "המכשיר הרפואי משווק ומסופק בדרך כלל למדינות הבאות: (מרצון)" },
+          { "en": "", "he": "" }
+        ],
+        [
+          { "en": "The countries that are impacted by the interruption/discontinuation:", "he": "המדינות המושפעות מההפסקה הזמנית/הקבועה:" },
+          { "en": "", "he": "" }
+        ]
+      ]
+    },
+    {
+      "id": "sec-7-notif-p",
+      "type": "paragraph",
+      "en": "Information Notification(s) regarding the interruption or discontinuation of supply have been sent:",
+      "he": "הודעות יידוע בנוגע להפסקה הזמנית או הקבועה של האספקה נשלחו אל:"
+    },
+    {
+      "id": "sec-7-notif-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          { "en": "Recipient", "he": "נמען" },
+          { "en": "Yes", "he": "כן" },
+          { "en": "No", "he": "לא" },
+          { "en": "Not Applicable", "he": "לא רלוונטי" },
+          { "en": "Date Sent (DD/MM/YY)", "he": "תאריך שליחה (DD/MM/YY)" }
+        ],
+        [
+          { "en": "Notification to HI/HCPS", "he": "הודעה למוסדות בריאות / ספקי שירותי בריאות (HI/HCPS)" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" }
+        ],
+        [
+          { "en": "Notification to AR", "he": "הודעה לנציג המורשה (AR)" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" }
+        ],
+        [
+          { "en": "Notification to importers", "he": "הודעה ליבואנים" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" }
+        ],
+        [
+          { "en": "Notification to distributors", "he": "הודעה למפיצים" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" }
+        ]
+      ]
+    },
+    {
+      "id": "sec-7-attached",
+      "type": "paragraph",
+      "en": "Attached files (Voluntary)",
+      "he": "קבצים מצורפים (מרצון)"
+    },
+    {
+      "id": "sec-8",
+      "type": "heading",
+      "level": 1,
+      "number": "8",
+      "en": "Additional information on Interruption or Discontinuation of Supply (voluntary)",
+      "he": "מידע נוסף על ההפסקה הזמנית או הקבועה של האספקה (מרצון)"
+    },
+    {
+      "id": "sec-8-p1",
+      "type": "paragraph",
+      "en": "This section allows manufacturer, on voluntary basis or on the request of a competent authority, to share additional information.",
+      "he": "חלק זה מאפשר ליצרן, על בסיס וולונטרי או לבקשת רשות מוסמכת, לשתף מידע נוסף."
+    },
+    {
+      "id": "sec-8-table",
+      "type": "table",
+      "header": false,
+      "rows": [
+        [
+          { "en": "Possible mitigations measures: to reduce the impact of the interruption or discontinuation of supply.", "he": "אמצעי הקלה אפשריים: לצמצום ההשפעה של ההפסקה הזמנית או הקבועה של האספקה." },
+          { "en": "", "he": "" }
+        ],
+        [
+          { "en": "Is the redistribution of EU or Global stocks an option? Yes / No", "he": "האם חלוקה מחדש של מלאים באיחוד האירופי או ברחבי העולם היא אפשרות? כן / לא" },
+          { "en": "", "he": "" }
+        ],
+        [
+          { "en": "Do you manufacture a similar alternative product with a similar intended purpose? Yes / No", "he": "האם אתם מייצרים מוצר חלופי דומה בעל מטרה מיועדת דומה? כן / לא" },
+          { "en": "", "he": "" }
+        ],
+        [
+          { "en": "Details of the remaining inventory / existing stock level at EU level. If applicable, please provide information in attached file", "he": "פרטים על המלאי הנותר / רמת המלאי הקיימת ברמת האיחוד האירופי. אם רלוונטי, נא לספק את המידע בקובץ מצורף" },
+          { "en": "", "he": "" }
+        ],
+        [
+          { "en": "Progress update on the interruption or discontinuation of supply", "he": "עדכון התקדמות בנוגע להפסקה הזמנית או הקבועה של האספקה" },
+          { "en": "", "he": "" }
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "id": "MDCG-2021-2",
+  "title": {
+    "en": "MDCG 2021-2 — Guidance on state of the art of COVID-19 rapid antibody tests",
+    "he": "MDCG 2021-2 — הנחיה בנושא רמת הידע העדכנית (state of the art) של בדיקות נוגדנים מהירות ל-COVID-19"
+  },
+  "category": "COVID-19",
+  "publicationDate": "2021-03",
+  "source": {
+    "url": "https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en",
+    "file": "original/mdcg_2021-2_en.pdf"
+  },
+  "language": "he",
+  "direction": "rtl",
+  "translationStatus": "review",
+  "glossaryVersion": "2026-06",
+  "blocks": [
+    {
+      "id": "disclaimer-1",
+      "type": "paragraph",
+      "en": "This document has been endorsed by the Medical Device Coordination Group (MDCG) established by Article 103 of Regulation (EU) 2017/745. The MDCG is composed of representatives of all Member States and a representative of the European Commission chairs it.",
+      "he": "מסמך זה אושר על ידי קבוצת תיאום המכשירים הרפואיים (MDCG) שהוקמה מכוח סעיף 103 לתקנה (האיחוד האירופי) 2017/745. ה-MDCG מורכבת מנציגים של כל המדינות החברות ובראשה עומד נציג של הנציבות האירופית."
+    },
+    {
+      "id": "disclaimer-2",
+      "type": "paragraph",
+      "en": "The document is not a European Commission document and it cannot be regarded as reflecting the official position of the European Commission. Any views expressed in this document are not legally binding and only the Court of Justice of the European Union can give binding interpretations of Union law.",
+      "he": "המסמך אינו מסמך של הנציבות האירופית ואין לראות בו כמשקף את העמדה הרשמית של הנציבות האירופית. כל דעה המובעת במסמך זה אינה מחייבת מבחינה משפטית, ורק בית הדין לצדק של האיחוד האירופי מוסמך לתת פרשנות מחייבת לדין האיחוד."
+    },
+    {
+      "id": "sec-intro",
+      "type": "heading",
+      "level": 1,
+      "en": "Introduction",
+      "he": "מבוא"
+    },
+    {
+      "id": "intro-p1",
+      "type": "paragraph",
+      "en": "The COVID-19 pandemic is evolving rapidly, and so is the market of in vitro diagnostic medical devices for COVID-19. In particular, many rapid tests¹ for the detection of antibodies against SARS-CoV-2 virus are becoming available. Determining what would be adequate performance for those tests is challenging. Directive 98/79/EC on in vitro diagnostic medical devices² establishes that devices must be designed and manufactured³ in such a way that they are suitable for the intended purpose⁴ specified by the manufacturer, taking into account the generally acknowledged state of the art. The manufacturer should therefore justify why the device is suitable for the intended purpose claimed, in light of the state of the art. To facilitate the fulfilment of this legal requirement, the considerations presented in this guidance are intended to establish particular elements on the current state of the art for COVID-19 rapid antibody tests. It will also assist with understanding what the current state of the art is.",
+      "he": "מגפת COVID-19 מתפתחת במהירות, וכך גם שוק המכשירים הרפואיים לאבחון במבחנה עבור COVID-19. במיוחד, בדיקות מהירות רבות¹ לזיהוי נוגדנים נגד נגיף SARS-CoV-2 הופכות לזמינות. קביעת רמת הביצועים הנאותה עבור בדיקות אלה מהווה אתגר. הנחיה 98/79/EC בנושא מכשירים רפואיים לאבחון במבחנה² קובעת כי מכשירים יעוצבו וייוצרו³ באופן שיהיו מתאימים למטרה המיועדת⁴ שמציין היצרן, תוך התחשבות ברמת הידע העדכנית המוכרת באופן כללי (state of the art). לפיכך, על היצרן לנמק מדוע המכשיר מתאים למטרה המיועדת הנטענת, לאור רמת הידע העדכנית. כדי להקל על מילוי דרישה משפטית זו, השיקולים המוצגים בהנחיה זו נועדו לבסס רכיבים מסוימים בנוגע לרמת הידע העדכנית עבור בדיקות נוגדנים מהירות ל-COVID-19. כמו כן, הם יסייעו בהבנת רמת הידע העדכנית הנוכחית."
+    },
+    {
+      "id": "intro-p2",
+      "type": "paragraph",
+      "en": "For the purpose of this guidance, state of the art is the developed stage of current technical capability and/or accepted clinical practice with regard to products, processes and patient management, based on the relevant consolidated findings of science, technology and experience.",
+      "he": "לצורך הנחיה זו, רמת הידע העדכנית (state of the art) היא השלב המפותח של היכולת הטכנית הנוכחית ו/או הפרקטיקה הקלינית המקובלת בנוגע למוצרים, תהליכים וניהול מטופלים, בהתבסס על הממצאים המגובשים הרלוונטיים של המדע, הטכנולוגיה והניסיון."
+    },
+    {
+      "id": "intro-note1",
+      "type": "note",
+      "en": "Note: The state of the art embodies what is currently and generally accepted as good practice in technology and medicine. The state of the art does not necessarily imply the most technologically advanced solution. The state of the art described here is sometimes referred to as the \"generally acknowledged state of the art\".⁵",
+      "he": "הערה: רמת הידע העדכנית מגלמת את מה שמקובל כיום ובאופן כללי כפרקטיקה טובה בטכנולוגיה וברפואה. רמת הידע העדכנית אינה מרמזת בהכרח על הפתרון המתקדם ביותר מבחינה טכנולוגית. רמת הידע העדכנית המתוארת כאן מכונה לעיתים \"רמת הידע העדכנית המוכרת באופן כללי\".⁵"
+    },
+    {
+      "id": "intro-p3",
+      "type": "paragraph",
+      "en": "Therefore, state of the art does not refer to the best in class but rather to what is achievable by a majority of devices, and is therefore expected to be achieved by the devices on the market.⁶",
+      "he": "לפיכך, רמת הידע העדכנית אינה מתייחסת לטוב ביותר בסוגו, אלא למה שניתן להשיג על ידי רוב המכשירים, ועל כן צפוי כי יושג על ידי המכשירים שבשוק.⁶"
+    },
+    {
+      "id": "intro-p4",
+      "type": "paragraph",
+      "en": "Naturally, the state of the art will improve over time. Therefore, the guidance presented here may be seen as the minimum expected from devices being placed on the market at the time of publication of this document. It may be revised or replaced by other documents as scientific knowledge and technology evolves.",
+      "he": "מטבע הדברים, רמת הידע העדכנית תשתפר עם הזמן. לפיכך, ניתן לראות בהנחיה המוצגת כאן את המינימום הצפוי ממכשירים המשווקים לשוק במועד פרסום מסמך זה. ייתכן שהיא תתוקן או תוחלף במסמכים אחרים ככל שהידע המדעי והטכנולוגיה יתפתחו."
+    },
+    {
+      "id": "fn-1",
+      "type": "note",
+      "marker": "1",
+      "en": "Rapid tests are defined as qualitative or semi-quantitative IVDs, used singly or in a small series, which involve non-automated procedures and have been designed to give a fast result (Commission Decision 2002/364/EC on common specifications for in vitro diagnostic devices, OJ L 131, 16.5.2002, p. 17).",
+      "he": "בדיקות מהירות מוגדרות כ-IVDs איכותניים או חצי-כמותיים, המשמשים בודדים או בסדרה קטנה, הכרוכים בהליכים שאינם אוטומטיים ועוצבו לתת תוצאה מהירה (החלטת הנציבות 2002/364/EC בנושא מפרטים משותפים למכשירים לאבחון במבחנה, OJ L 131, 16.5.2002, עמ' 17)."
+    },
+    {
+      "id": "fn-2",
+      "type": "note",
+      "marker": "2",
+      "en": "OJ L 331, 7.12.1998, p.1.",
+      "he": "OJ L 331, 7.12.1998, עמ' 1."
+    },
+    {
+      "id": "fn-3",
+      "type": "note",
+      "marker": "3",
+      "en": "Note: this guidance is not exhaustive in its nature and should be read in conjunction with Directive 98/79/EC and other available documents and guidance. Aspects which are common to most IVDs and are not particularly specific to SARS-CoV-2 or COVID-19 rapid antibody tests have been left out of this document.",
+      "he": "הערה: הנחיה זו אינה ממצה מטבעה ויש לקרוא אותה יחד עם הנחיה 98/79/EC ומסמכים והנחיות זמינים אחרים. היבטים המשותפים לרוב ה-IVDs ואינם ספציפיים במיוחד ל-SARS-CoV-2 או לבדיקות נוגדנים מהירות ל-COVID-19 הושמטו ממסמך זה."
+    },
+    {
+      "id": "fn-4",
+      "type": "note",
+      "marker": "4",
+      "en": "It is important to note that additional requirements for self-testing exist and should be followed in addition to the indications provided here.",
+      "he": "חשוב לציין כי קיימות דרישות נוספות לבדיקה עצמית (self-testing), שיש לפעול לפיהן בנוסף להנחיות הניתנות כאן."
+    },
+    {
+      "id": "fn-5",
+      "type": "note",
+      "marker": "5",
+      "en": "Source: Modified from IMDRF/GRRP WG/N47 FINAL:2018 as adopted by the MDCG New Technologies and CIE working group.",
+      "he": "מקור: מותאם מתוך IMDRF/GRRP WG/N47 FINAL:2018 כפי שאומץ על ידי קבוצת העבודה של ה-MDCG לטכנולוגיות חדשות ול-CIE."
+    },
+    {
+      "id": "fn-6",
+      "type": "note",
+      "marker": "6",
+      "en": "For reference see Commission Decision 2008/932/EC of 2.12.2008, C(2008)7378, OJ L 333/5 of 11.12.2008 on a certain HIV test of the manufacturer M.B.S. In the case in question, the combined data of various national institutes showed a picture according to which all HIV tests could be grouped into three tiers, grossly corresponding to three generations of tests. In that case, the HIV test in question was deemed not to correspond to the \"state of the art\" because it fell in the lowest performing tier.",
+      "he": "לעיון ראה החלטת הנציבות 2008/932/EC מ-2.12.2008, C(2008)7378, OJ L 333/5 מ-11.12.2008, בנוגע לבדיקת HIV מסוימת של היצרן M.B.S. במקרה הנדון, הנתונים המשולבים של מכונים לאומיים שונים הציגו תמונה שלפיה ניתן לקבץ את כל בדיקות ה-HIV לשלוש שכבות, התואמות בקירוב לשלושה דורות של בדיקות. באותו מקרה, בדיקת ה-HIV הנדונה נחשבה כאינה תואמת ל\"רמת הידע העדכנית\" משום שהשתייכה לשכבת הביצועים הנמוכה ביותר."
+    },
+    {
+      "id": "intro-p5",
+      "type": "paragraph",
+      "en": "Therefore, it is crucial that the manufacturer clearly specifies the device's intended purpose, considering what levels of performance are needed and what aspects of the state of the art are relevant in light of that particular intended purpose. In addition, the manufacturer is expected to continuously take into account the state of the art as relevant new information becomes available and where necessary, update the device's performance data, adjust the intended purpose, or, if this cannot be done, carefully reassess whether the device actually can be considered in conformity with the requirements of the Directive.",
+      "he": "לפיכך, מכריע הוא שהיצרן יציין בבירור את המטרה המיועדת של המכשיר, תוך התחשבות ברמות הביצועים הנדרשות ובאילו היבטים של רמת הידע העדכנית רלוונטיים לאור אותה מטרה מיועדת מסוימת. בנוסף, מצופה מהיצרן להביא בחשבון באופן מתמשך את רמת הידע העדכנית ככל שמידע חדש רלוונטי נעשה זמין, ובמידת הצורך לעדכן את נתוני הביצועים של המכשיר, להתאים את המטרה המיועדת, או, אם לא ניתן לעשות זאת, להעריך מחדש בקפידה אם אכן ניתן לראות במכשיר עומד בדרישות ההנחיה."
+    },
+    {
+      "id": "sec-legal",
+      "type": "heading",
+      "level": 1,
+      "en": "Legal requirements of Directive 98/79/EC on device performance",
+      "he": "דרישות משפטיות של הנחיה 98/79/EC בנושא ביצועי המכשיר"
+    },
+    {
+      "id": "legal-p1",
+      "type": "paragraph",
+      "en": "Directive 98/79/EC establishes that devices must achieve the relevant performance, in particular in terms of analytical sensitivity, diagnostic sensitivity, analytical specificity, diagnostic specificity, accuracy, repeatability, reproducibility, including control of known relevant interference, and limits of detection, stated by the manufacturer.⁷",
+      "he": "הנחיה 98/79/EC קובעת כי מכשירים יגיעו לביצועים הרלוונטיים, ובמיוחד מבחינת רגישות אנליטית, רגישות אבחנתית, סגוליות אנליטית, סגוליות אבחנתית, דיוק, חזירות (repeatability), שחזוריות (reproducibility), לרבות בקרה של הפרעה רלוונטית ידועה, וגבולות הזיהוי, כפי שמציין היצרן.⁷"
+    },
+    {
+      "id": "legal-p2",
+      "type": "paragraph",
+      "en": "The intended purpose must be specified in the instructions for use and/or on the label, unless it is obvious to the user.⁸ For COVID-19 devices, it is always necessary to define the intended purpose. This should be complete and precise, including aspects such as:",
+      "he": "המטרה המיועדת תצוין בהוראות השימוש ו/או על התווית, אלא אם כן היא ברורה למשתמש.⁸ עבור מכשירי COVID-19, תמיד נדרש להגדיר את המטרה המיועדת. הגדרה זו תהיה מלאה ומדויקת, ותכלול היבטים כגון:"
+    },
+    {
+      "id": "legal-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "the intended user,", "he": "המשתמש המיועד," },
+        { "en": "the target population,", "he": "אוכלוסיית היעד," },
+        { "en": "window between infection and antibody detection,", "he": "החלון בין ההידבקות לבין זיהוי הנוגדנים," },
+        { "en": "result interpretation (including limitations of interpretation),", "he": "פרשנות התוצאה (לרבות מגבלות הפרשנות)," },
+        { "en": "assay design (target antigen(s), antibody types)⁹,", "he": "עיצוב המבחן (האנטיגן/ים המטרה, סוגי הנוגדנים)⁹," },
+        { "en": "limitations of the assay,", "he": "מגבלות המבחן," },
+        { "en": "whether the assay is intended, for example, to detect the antibody response in individual patients' recovery, to assess if the patient has been previously infected, to assess response to vaccination,", "he": "האם המבחן מיועד, למשל, לזהות את תגובת הנוגדנים בהחלמתם של מטופלים בודדים, להעריך אם המטופל נדבק בעבר, להעריך תגובה לחיסון," },
+        { "en": "the exclusion of antibody test use as first line test for diagnosis.", "he": "אי-הכללת השימוש בבדיקת נוגדנים כבדיקת קו ראשון לאבחון." }
+      ]
+    },
+    {
+      "id": "legal-p3",
+      "type": "paragraph",
+      "en": "The instructions for use must also describe the performance of the device with regard to the non-exhaustive parameters listed above.¹⁰ The technical documentation of the device must contain adequate performance evaluation data showing the performances claimed by the manufacturer. The data should originate from studies conducted in an environment targeted by the assay (e.g. clinical settings) or result from relevant references.¹¹ The information on the establishment of performance should be complete to allow an assessment of its quality.",
+      "he": "הוראות השימוש יתארו גם את ביצועי המכשיר בנוגע לפרמטרים שאינם ממצים המפורטים לעיל.¹⁰ התיעוד הטכני של המכשיר יכיל נתוני הערכת ביצועים נאותים המראים את הביצועים הנטענים על ידי היצרן. הנתונים יבואו ממחקרים שנערכו בסביבה שאליה מכוון המבחן (למשל מסגרות קליניות) או ינבעו מהפניות רלוונטיות.¹¹ המידע על ביסוס הביצועים יהיה מלא כדי לאפשר הערכה של איכותו."
+    },
+    {
+      "id": "legal-p4",
+      "type": "paragraph",
+      "en": "For biological analytes such as virus specific antibodies there is no reference procedure of higher order. Therefore, the performance evaluation should be done in direct comparison to diagnostic device(s) measuring the same analyte which are estimated as reflecting the \"state of the art\" at the time of the performance study (reference devices). Samples with discrepant test results obtained for the device under evaluation and reference (comparator) device should undergo further investigation (e.g. further assays, patient history) to clarify the probable \"true\" status, as far as possible.",
+      "he": "עבור אנליטים ביולוגיים כגון נוגדנים סגוליים לנגיף, אין הליך ייחוס ברמה גבוהה יותר. לפיכך, הערכת הביצועים תיעשה בהשוואה ישירה למכשיר/י אבחון המודדים את אותו אנליט, אשר מוערכים כמשקפים את \"רמת הידע העדכנית\" בעת מחקר הביצועים (מכשירי ייחוס). דגימות עם תוצאות בדיקה סותרות שהתקבלו עבור המכשיר הנבדק והמכשיר המשווה (reference/comparator) יעברו בדיקה נוספת (למשל מבחנים נוספים, היסטוריית המטופל) כדי להבהיר את המצב ה\"אמיתי\" הסביר, ככל הניתן."
+    },
+    {
+      "id": "fn-7",
+      "type": "note",
+      "marker": "7",
+      "en": "Directive 98/79/EC Annex I A(3).",
+      "he": "הנחיה 98/79/EC נספח I A(3)."
+    },
+    {
+      "id": "fn-8",
+      "type": "note",
+      "marker": "8",
+      "en": "Directive 98/79/EC Annex I B 8.5.",
+      "he": "הנחיה 98/79/EC נספח I B 8.5."
+    },
+    {
+      "id": "fn-9",
+      "type": "note",
+      "marker": "9",
+      "en": "Include information on target antigen to antibodies to be measured, including information on variant protein (wild type or other variants).",
+      "he": "יש לכלול מידע על האנטיגן המטרה ביחס לנוגדנים שיימדדו, לרבות מידע על חלבון הווריאנט (טיפוס בר (wild type) או וריאנטים אחרים)."
+    },
+    {
+      "id": "fn-10",
+      "type": "note",
+      "marker": "10",
+      "en": "Directive 98/79/EC Annex I B 8.7 (d).",
+      "he": "הנחיה 98/79/EC נספח I B 8.7 (d)."
+    },
+    {
+      "id": "fn-11",
+      "type": "note",
+      "marker": "11",
+      "en": "Directive 98/79/EC Annex III (3).",
+      "he": "הנחיה 98/79/EC נספח III (3)."
+    },
+    {
+      "id": "sec-sota",
+      "type": "heading",
+      "level": 1,
+      "en": "State of the art",
+      "he": "רמת הידע העדכנית (State of the art)"
+    },
+    {
+      "id": "sota-p1",
+      "type": "paragraph",
+      "en": "In the course of development of this guidance, 102 instructions for use of COVID-19 rapid antibody tests placed on the European market before September 2020 were examined in order to assess the state of the art from the perspective of real market performance. Performance criteria/considerations for devices used for the detection of antibodies against SARS-CoV-2 published by different sources, including the WHO, were also reviewed. The outcome of this analysis was used as a basis for the following findings:",
+      "he": "במהלך פיתוח הנחיה זו נבחנו 102 הוראות שימוש של בדיקות נוגדנים מהירות ל-COVID-19 ששווקו לשוק האירופי לפני ספטמבר 2020, כדי להעריך את רמת הידע העדכנית מנקודת מבט של ביצועים אמיתיים בשוק. כמו כן נסקרו קריטריוני/שיקולי ביצועים עבור מכשירים המשמשים לזיהוי נוגדנים נגד SARS-CoV-2 שפורסמו על ידי מקורות שונים, לרבות ה-WHO. תוצאת ניתוח זה שימשה בסיס לממצאים הבאים:"
+    },
+    {
+      "id": "sota-h1",
+      "type": "heading",
+      "level": 2,
+      "number": "1",
+      "en": "Performance evaluation modalities",
+      "he": "אופני הערכת הביצועים"
+    },
+    {
+      "id": "sota1-p1",
+      "type": "paragraph",
+      "en": "The performance should be ideally evaluated for each claimed clinical specimen type unless equivalence between the relevant biological matrices has been demonstrated.",
+      "he": "באופן אידיאלי, יש להעריך את הביצועים עבור כל סוג דגימה קלינית נטען, אלא אם כן הודגמה שקילות בין המטריצות הביולוגיות הרלוונטיות."
+    },
+    {
+      "id": "sota1-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Interference studies: Standard interference studies should be performed and should take into account the typical potential sources of interference in the sample matrix in question. Please refer to pages 25-26 of the following document 'Current performance of COVID-19 test methods and devices and proposed performance criteria - Working document of Commission services' for more information.¹²", "he": "מחקרי הפרעה: יש לבצע מחקרי הפרעה סטנדרטיים, אשר יביאו בחשבון את מקורות ההפרעה הפוטנציאליים האופייניים במטריצת הדגימה הנדונה. לפרטים נוספים ראה עמודים 25–26 של המסמך הבא 'Current performance of COVID-19 test methods and devices and proposed performance criteria - Working document of Commission services'.¹²" },
+        { "en": "Cross reactivity studies: samples from patients with infection history of related viruses, e.g. SARS-CoV-1, MERS-CoV, human common cold coronaviruses, or other respiratory infections (including influenza). Please refer to pages 25-26 of the following document 'Current performance of COVID-19 test methods and devices and proposed performance criteria - Working document of Commission services' for more information.¹²", "he": "מחקרי תגובתיות צולבת: דגימות ממטופלים עם היסטוריית הידבקות בנגיפים קרובים, למשל SARS-CoV-1, MERS-CoV, נגיפי קורונה אנושיים של הצטננות, או זיהומים נשימתיים אחרים (לרבות שפעת). לפרטים נוספים ראה עמודים 25–26 של המסמך הבא 'Current performance of COVID-19 test methods and devices and proposed performance criteria - Working document of Commission services'.¹²" }
+      ]
+    },
+    {
+      "id": "sota1-note",
+      "type": "note",
+      "en": "Note: Antibodies for other respiratory infection agents are considered as potentially pertinent cross reacting agents to be systematically tested in addition to other more usual cross reactants. As part of post market surveillance, it remains the responsibility of the manufacturer to continuously monitor the performance of their devices, including for new potentially cross-reacting agents and update their relevant documentation, where necessary.",
+      "he": "הערה: נוגדנים נגד גורמי זיהום נשימתיים אחרים נחשבים לגורמים מגיבים-צולבים שעשויים להיות רלוונטיים, ויש לבדוק אותם באופן שיטתי בנוסף לגורמים מגיבים-צולבים נפוצים יותר. כחלק מהמעקב שלאחר השיווק, נותרת באחריות היצרן הניטור המתמשך של ביצועי מכשיריו, לרבות עבור גורמים מגיבים-צולבים פוטנציאליים חדשים, ועדכון התיעוד הרלוונטי שלו, במידת הצורך."
+    },
+    {
+      "id": "sota1-sens-h",
+      "type": "heading",
+      "level": 3,
+      "en": "Diagnostic sensitivity evaluation",
+      "he": "הערכת רגישות אבחנתית"
+    },
+    {
+      "id": "sota1-sens-p1",
+      "type": "paragraph",
+      "en": "The positive sample panel should include at least 200 samples from individuals with a confirmed diagnosis of a SARS-CoV-2 infection with details on timing between sampling and potential onset of symptoms.",
+      "he": "פאנל הדגימות החיוביות יכלול לפחות 200 דגימות מאנשים עם אבחנה מאומתת של הידבקות ב-SARS-CoV-2, יחד עם פרטים על העיתוי בין הדגימה לבין הופעה אפשרית של תסמינים."
+    },
+    {
+      "id": "sota1-sens-p2",
+      "type": "paragraph",
+      "en": "Considering that diagnostic sensitivity depends highly on the time interval between the contact with the virus and sample taking, diagnostic sensitivity studies should use samples at various stage and severity of disease and from putative infections. Samples could be longitudinal, drawn at different times from the same individuals. The positive sample panel should include early and later samples homogenously distributed in terms of the time interval between contact with the virus and sample taking.",
+      "he": "בהתחשב בכך שהרגישות האבחנתית תלויה במידה רבה במרווח הזמן בין המגע עם הנגיף לבין נטילת הדגימה, מחקרי רגישות אבחנתית ישתמשו בדגימות משלבי מחלה וחומרת מחלה שונים ומהידבקויות משוערות. הדגימות יכולות להיות אורכיות (longitudinal), שנלקחו במועדים שונים מאותם אנשים. פאנל הדגימות החיוביות יכלול דגימות מוקדמות ומאוחרות המפוזרות באופן הומוגני מבחינת מרווח הזמן בין המגע עם הנגיף לבין נטילת הדגימה."
+    },
+    {
+      "id": "sota1-sens-p3",
+      "type": "paragraph",
+      "en": "Depending on the intended purpose of the device, it may be difficult to get access to well-defined panels reflecting the full diversity of potential antibody responses, representing e.g. different time points after infection, different follow-up courses of infection, asymptomatic / symptomatic infection, etc. Therefore, an option may be to use the device in parallel with an established device¹³ to investigate a representative set of samples, without preselection or exclusion of specimens, from a high incidence situation such as from a local or regional outbreak or from hospitals.",
+      "he": "בהתאם למטרה המיועדת של המכשיר, ייתכן שיהיה קשה לקבל גישה לפאנלים מוגדרים היטב המשקפים את מלוא המגוון של תגובות נוגדנים אפשריות, המייצגים למשל נקודות זמן שונות לאחר ההידבקות, מהלכי מעקב שונים של ההידבקות, הידבקות סימפטומטית / אסימפטומטית וכד'. לפיכך, אפשרות אחת עשויה להיות שימוש במכשיר במקביל למכשיר מבוסס¹³ כדי לבחון מערך דגימות מייצג, ללא בחירה מוקדמת או החרגה של דגימות, ממצב של היארעות גבוהה כגון התפרצות מקומית או אזורית או מבתי חולים."
+    },
+    {
+      "id": "sota1-spec-h",
+      "type": "heading",
+      "level": 3,
+      "en": "Diagnostic specificity evaluation",
+      "he": "הערכת סגוליות אבחנתית"
+    },
+    {
+      "id": "sota1-spec-p1",
+      "type": "paragraph",
+      "en": "The negative panel should include at least 200 samples. The negative panel should consist of samples derived either from patients tested for antibodies for SARS-CoV-2 and confirmed as negative, or samples collected prior to November 2019.",
+      "he": "הפאנל השלילי יכלול לפחות 200 דגימות. הפאנל השלילי יורכב מדגימות שמקורן בין במטופלים שנבדקו לנוגדנים נגד SARS-CoV-2 ואושרו כשליליים, ובין מדגימות שנאספו לפני נובמבר 2019."
+    },
+    {
+      "id": "sota1-spec-p2",
+      "type": "paragraph",
+      "en": "The negative samples should broadly represent the different factors present in the target population according to the intended purpose of the device. Age, gender, demographics and additional factors such as previous disease history (e.g. non-SARS-CoV-2 respiratory tract infections) or long-term medication of the patient should be considered.",
+      "he": "הדגימות השליליות ייצגו באופן רחב את הגורמים השונים הקיימים באוכלוסיית היעד בהתאם למטרה המיועדת של המכשיר. יש להביא בחשבון גיל, מין, נתונים דמוגרפיים וגורמים נוספים כגון היסטוריית מחלות קודמות (למשל זיהומים בדרכי הנשימה שאינם SARS-CoV-2) או טיפול תרופתי ארוך-טווח של המטופל."
+    },
+    {
+      "id": "sota-h2",
+      "type": "heading",
+      "level": 2,
+      "number": "2",
+      "en": "Diagnostic performance of the device",
+      "he": "ביצועים אבחנתיים של המכשיר"
+    },
+    {
+      "id": "sota2-p1",
+      "type": "paragraph",
+      "en": "Diagnostic sensitivities mentioned in the studied IFUs were heterogeneously determined, making it difficult to conclude on a minimum value reflecting the state of the art for this performance. It should nevertheless be noted that performance criteria/considerations published by different sources, including the WHO, for devices used for the detection of antibodies against SARS-CoV-2 generally require at least 90% diagnostic sensitivity for each antibody type (IgM, IgG or total Ig).",
+      "he": "הרגישויות האבחנתיות הנזכרות בהוראות השימוש (IFUs) שנבחנו נקבעו באופן הטרוגני, מה שמקשה להסיק ערך מינימלי המשקף את רמת הידע העדכנית עבור ביצוע זה. עם זאת, יש לציין כי קריטריוני/שיקולי ביצועים שפורסמו על ידי מקורות שונים, לרבות ה-WHO, עבור מכשירים המשמשים לזיהוי נוגדנים נגד SARS-CoV-2 דורשים בדרך כלל רגישות אבחנתית של 90% לפחות עבור כל סוג נוגדן (IgM, IgG או Ig כולל)."
+    },
+    {
+      "id": "sota2-p2",
+      "type": "paragraph",
+      "en": "In the case of diagnostic performance established by comparison with a device used as reference, the diagnostic sensitivity should be at least equivalent to reference device(s), see Section \"Legal requirements of Directive 98/79/EC on device performance\".",
+      "he": "במקרה של ביצועים אבחנתיים שנקבעו בהשוואה למכשיר המשמש כייחוס, הרגישות האבחנתית תהיה שקולה לפחות לזו של מכשיר/י הייחוס, ראה הסעיף \"דרישות משפטיות של הנחיה 98/79/EC בנושא ביצועי המכשיר\"."
+    },
+    {
+      "id": "sota2-p3",
+      "type": "paragraph",
+      "en": "Diagnostic specificity should be at least 98%. Confidence intervals should be provided for the estimates of both the diagnostic sensitivity and diagnostic specificity, 95 % confidence intervals are recommended.",
+      "he": "הסגוליות האבחנתית תהיה 98% לפחות. יש לספק רווחי סמך עבור האומדנים של הרגישות האבחנתית והסגוליות האבחנתית כאחד; מומלצים רווחי סמך של 95%."
+    },
+    {
+      "id": "fn-12",
+      "type": "note",
+      "marker": "12",
+      "en": "https://ec.europa.eu/docsroom/documents/40805",
+      "he": "https://ec.europa.eu/docsroom/documents/40805"
+    },
+    {
+      "id": "fn-13",
+      "type": "note",
+      "marker": "13",
+      "en": "Whereby an established device is understood as a device that meets the minimum performance requirements set in the present document.",
+      "he": "כאשר \"מכשיר מבוסס\" מובן כמכשיר העומד בדרישות הביצועים המינימליות שנקבעו במסמך זה."
+    }
+  ]
+}

@@ -1,0 +1,1195 @@
+{
+  "id": "MDCG-2020-5",
+  "title": {
+    "en": "Clinical Evaluation - Equivalence — A guide for manufacturers and notified bodies",
+    "he": "הערכה קלינית - שוויון-ערך — מדריך ליצרנים ולגופים מאונתרים"
+  },
+  "category": "Clinical Investigation and Evaluation",
+  "publicationDate": "2020-04",
+  "source": {
+    "url": "https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en",
+    "file": "original/mdcg_2020-5_en.pdf"
+  },
+  "language": "he",
+  "direction": "rtl",
+  "translationStatus": "review",
+  "glossaryVersion": "2026-06",
+  "blocks": [
+    {
+      "id": "disclaimer-1",
+      "type": "paragraph",
+      "en": "This document has been endorsed by the Medical Device Coordination Group (MDCG) established by Article 103 of Regulation (EU) 2017/745. The MDCG is composed of representatives of all Member States and it is chaired by a representative of the European Commission.",
+      "he": "מסמך זה אושר על ידי קבוצת תיאום המכשירים הרפואיים (MDCG) שהוקמה מכוח סעיף 103 לתקנה (האיחוד האירופי) 2017/745. ה-MDCG מורכבת מנציגים של כל המדינות החברות ובראשה עומד נציג של הנציבות האירופית."
+    },
+    {
+      "id": "disclaimer-2",
+      "type": "paragraph",
+      "en": "The document is not a European Commission document and it cannot be regarded as reflecting the official position of the European Commission. Any views expressed in this document are not legally binding and only the Court of Justice of the European Union can give binding interpretations of Union law.",
+      "he": "המסמך אינו מסמך של הנציבות האירופית ואין לראות בו כמשקף את העמדה הרשמית של הנציבות האירופית. כל דעה המובעת במסמך זה אינה מחייבת מבחינה משפטית, ורק בית הדין לצדק של האיחוד האירופי מוסמך לתת פרשנות מחייבת לדין האיחוד."
+    },
+
+    {
+      "id": "sec-1",
+      "type": "heading",
+      "level": 1,
+      "number": "1",
+      "en": "Introduction",
+      "he": "מבוא"
+    },
+    {
+      "id": "sec-1-p1",
+      "type": "paragraph",
+      "en": "This guidance document is not legally binding. It has been put together following contribution from national competent authorities, industry and relevant stakeholders and it should therefore be recognised as best practice.",
+      "he": "מסמך הנחיה זה אינו מחייב מבחינה משפטית. הוא חובר בעקבות תרומה של הרשויות המוסמכות הלאומיות, התעשייה ובעלי העניין הרלוונטיים, ולכן יש לראות בו כפרקטיקה מיטבית."
+    },
+    {
+      "id": "sec-1-p2",
+      "type": "paragraph",
+      "en": "The Regulation (EU) 2017/745 on medical devices, hereafter referred to as the MDR (medical device regulation), provides a possibility to use clinical data related to an equivalent device in the clinical evaluation required for a device under conformity assessment.",
+      "he": "תקנה (האיחוד האירופי) 2017/745 בנושא מכשירים רפואיים¹, הנזכרת להלן כ-MDR (תקנת המכשירים הרפואיים), מספקת אפשרות להשתמש בנתונים קליניים הנוגעים למכשיר שווה-ערך בהערכה הקלינית הנדרשת עבור מכשיר הנמצא בהערכת התאמה²."
+    },
+    {
+      "id": "fn-1",
+      "type": "note",
+      "marker": "1",
+      "en": "Regulation (EU) 2017/745 of the European Parliament and of the Council of 5 April 2017 on medical devices http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L:2017:117:TOC",
+      "he": "תקנה (האיחוד האירופי) 2017/745 של הפרלמנט האירופי ושל המועצה מ-5 באפריל 2017 בנושא מכשירים רפואיים http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L:2017:117:TOC"
+    },
+    {
+      "id": "fn-2",
+      "type": "note",
+      "marker": "2",
+      "en": "MDR, Article 61 and Annex XIV Part A.",
+      "he": "MDR, סעיף 61 ונספח XIV חלק A."
+    },
+    {
+      "id": "sec-1-p3",
+      "type": "paragraph",
+      "en": "Whilst carrying out a clinical investigation is the most direct way to generate clinical data concerning the safety and performance of medical devices for the purpose of CE marking, clinical data can also be sourced from",
+      "he": "בעוד שעריכת חקירה קלינית היא הדרך הישירה ביותר להפקת נתונים קליניים בנוגע לבטיחותם ולביצועיהם של מכשירים רפואיים לצורך סימון CE, ניתן להפיק נתונים קליניים גם מ³:"
+    },
+    {
+      "id": "sec-1-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "en": "clinical investigation(s) or other studies reported in scientific literature, of a device for which equivalence to the device in question can be demonstrated,",
+          "he": "חקירה/חקירות קליניות או מחקרים אחרים המדווחים בספרות המדעית, של מכשיר שביחס אליו ניתן להוכיח שוויון-ערך למכשיר הנדון,"
+        },
+        {
+          "en": "reports published in peer reviewed scientific literature on other clinical experience of either the device in question or a device for which equivalence to the device in question can be demonstrated",
+          "he": "דיווחים שפורסמו בספרות מדעית שעברה ביקורת עמיתים בנוגע לניסיון קליני אחר, בין של המכשיר הנדון ובין של מכשיר שביחס אליו ניתן להוכיח שוויון-ערך למכשיר הנדון"
+        }
+      ]
+    },
+    {
+      "id": "sec-1-p4",
+      "type": "paragraph",
+      "en": "Equivalence shall be demonstrated according to the MDR requirements.",
+      "he": "שוויון-ערך יוכח בהתאם לדרישות ה-MDR⁴."
+    },
+    {
+      "id": "sec-1-p5",
+      "type": "paragraph",
+      "en": "The European Commission has published a guide on clinical evaluation under the directives 93/42/EEC and 90/385/EEC; MEDDEV 2.7/1 rev. 4. This MEDDEV guide should be used also during the process of demonstrating equivalence under the MDR. However, it has been recognised that some of the requirements set out in MEDDEV 2.7/1 rev. 4 are not fully aligned with the MDR and that further guidance to address the differences would be of benefit to industry and other stakeholders. Only the text of the MDR is legally binding. In cases of divergence between the MEDDEV 2.7/1 rev. 4, this MDCG guidance and the MDR, the MDR shall take precedence.",
+      "he": "הנציבות האירופית פרסמה מדריך בנושא הערכה קלינית לפי ההוראות 93/42/EEC ו-90/385/EEC; MEDDEV 2.7/1 rev. 4⁵. יש להשתמש במדריך MEDDEV זה גם במהלך תהליך הוכחת שוויון-הערך לפי ה-MDR. עם זאת, הוכר כי חלק מהדרישות הקבועות ב-MEDDEV 2.7/1 rev. 4 אינן מתואמות במלואן עם ה-MDR, וכי הנחיה נוספת שתתייחס להבדלים תועיל לתעשייה ולבעלי עניין אחרים. רק נוסח ה-MDR מחייב מבחינה משפטית. במקרים של סטייה בין MEDDEV 2.7/1 rev. 4, הנחיית MDCG זו וה-MDR, ל-MDR תהיה עדיפות."
+    },
+    {
+      "id": "sec-1-p6",
+      "type": "paragraph",
+      "en": "This MDCG guidance does not introduce any new requirements.",
+      "he": "הנחיית MDCG זו אינה מציגה דרישות חדשות כלשהן."
+    },
+    {
+      "id": "sec-1-p7",
+      "type": "paragraph",
+      "en": "The demonstration of equivalence does not remove the requirement to always conduct a clinical evaluation in accordance with the MDR. It is the demonstration of equivalence that allows the manufacturer to let clinical data from an equivalent device enter the clinical evaluation process of the device in question for the purpose of confirmation of conformity with relevant general safety and performance requirements. There may also be other sources of clinical data than from an equivalent device to include in the process of clinical evaluation.",
+      "he": "הוכחת שוויון-ערך אינה מבטלת את הדרישה לערוך תמיד הערכה קלינית בהתאם ל-MDR. זוהי הוכחת שוויון-הערך⁶ המאפשרת ליצרן לאפשר לנתונים קליניים ממכשיר שווה-ערך להיכנס לתהליך ההערכה הקלינית של המכשיר הנדון, לצורך אישור התאמה לדרישות הכלליות הרלוונטיות לבטיחות וביצועים⁷. ייתכנו גם מקורות אחרים לנתונים קליניים מלבד מכשיר שווה-ערך⁸ אשר יש לכלול בתהליך ההערכה הקלינית."
+    },
+    {
+      "id": "fn-3",
+      "type": "note",
+      "marker": "3",
+      "en": "MDR, Article 2 (48) 2nd and 3rd indent.",
+      "he": "MDR, סעיף 2 (48) פסקה שנייה ושלישית."
+    },
+    {
+      "id": "fn-4",
+      "type": "note",
+      "marker": "4",
+      "en": "MDR, Annex XIV, Part A (3).",
+      "he": "MDR, נספח XIV, חלק A (3)."
+    },
+    {
+      "id": "fn-5",
+      "type": "note",
+      "marker": "5",
+      "en": "MEDDEV 2.7/1 revision 4, Guidelines on medical devices, clinical evaluation: A guide for manufacturers and notified bodies under directives 93/42/EEC and 90/385/EEC https://ec.europa.eu/growth/sectors/medical-devices/current-directives/guidance_en",
+      "he": "MEDDEV 2.7/1 revision 4, הנחיות בנושא מכשירים רפואיים, הערכה קלינית: מדריך ליצרנים ולגופים מאונתרים לפי ההוראות 93/42/EEC ו-90/385/EEC https://ec.europa.eu/growth/sectors/medical-devices/current-directives/guidance_en"
+    },
+    {
+      "id": "fn-6",
+      "type": "note",
+      "marker": "6",
+      "en": "MDR, Annex XIV, Part A (3).",
+      "he": "MDR, נספח XIV, חלק A (3)."
+    },
+    {
+      "id": "fn-7",
+      "type": "note",
+      "marker": "7",
+      "en": "MDR, Article 61 (1) and (3 (a)).",
+      "he": "MDR, סעיף 61 (1) ו-(3 (a))."
+    },
+    {
+      "id": "fn-8",
+      "type": "note",
+      "marker": "8",
+      "en": "MDR, Article 2 (48) 1st and 4th indent.",
+      "he": "MDR, סעיף 2 (48) פסקה ראשונה ורביעית."
+    },
+
+    {
+      "id": "sec-2",
+      "type": "heading",
+      "level": 1,
+      "number": "2",
+      "en": "Scope",
+      "he": "תחולה"
+    },
+    {
+      "id": "sec-2-p1",
+      "type": "paragraph",
+      "en": "This MDCG guidance covers the demonstration of equivalence, based on data pertaining to an already existing device on the market, for the purpose of CE-marking under the MDR.",
+      "he": "הנחיית MDCG זו עוסקת בהוכחת שוויון-ערך, בהתבסס על נתונים הנוגעים למכשיר הקיים כבר בשוק⁹, לצורך סימון CE לפי ה-MDR."
+    },
+    {
+      "id": "fn-9",
+      "type": "note",
+      "marker": "9",
+      "en": "Whether the 'market' is presumed to be the EU market or not is related to requirements in Article 61. See section 4 (d) and (e) in this document for further guidance.",
+      "he": "השאלה האם ה'שוק' מניחים שהוא שוק האיחוד האירופי או לא קשורה לדרישות שבסעיף 61. ראה סעיף 4 (d) ו-(e) במסמך זה להנחיה נוספת."
+    },
+    {
+      "id": "sec-2-p2",
+      "type": "paragraph",
+      "en": "One of the purposes of this document is to highlight the differences between the MDR and the MEDDEV 2.7/1 rev.4 specifically with regards to equivalence. It is also intended to provide additional guidance and support a harmonised approach to the demonstration of equivalence across the EU.",
+      "he": "אחת ממטרותיו של מסמך זה היא להדגיש את ההבדלים בין ה-MDR לבין MEDDEV 2.7/1 rev.4 באופן ספציפי בנוגע לשוויון-ערך. כמו כן הוא נועד לספק הנחיה נוספת ולתמוך בגישה מתואמת להוכחת שוויון-ערך ברחבי האיחוד האירופי."
+    },
+    {
+      "id": "sec-2-p3",
+      "type": "paragraph",
+      "en": "In addition, non-exhaustive guidance and references have been provided with respect to device considerations for medical devices incorporating an ancillary medicinal product.",
+      "he": "בנוסף, סופקו הנחיות והפניות לא-ממצות בנוגע לשיקולי מכשיר עבור מכשירים רפואיים המשלבים תרופה נלווית (ancillary medicinal product)."
+    },
+    {
+      "id": "sec-2-p4",
+      "type": "paragraph",
+      "en": "This MDCG guidance also covers products without an intended medical purpose listed in Annex XVI of the MDR.",
+      "he": "הנחיית MDCG זו עוסקת גם במוצרים ללא מטרה רפואית מיועדת המנויים בנספח XVI ל-MDR."
+    },
+
+    {
+      "id": "sec-3",
+      "type": "heading",
+      "level": 1,
+      "number": "3",
+      "en": "Equivalence",
+      "he": "שוויון-ערך"
+    },
+    {
+      "id": "sec-3-p1",
+      "type": "paragraph",
+      "en": "The MDR requires that technical, biological and clinical characteristics are considered when demonstrating equivalence to another device. Whilst these general characteristics are described in the MEDDEV 2.7/1 rev. 4 Appendix 1 and are aligned with the MDR requirement, there are differences in the criteria that are set out for each of the three characteristics. Differences in criteria between the MDR and the MEDDEV 2.7/1 rev. 4 are highlighted below and are accompanied by some explanatory text.",
+      "he": "ה-MDR מחייב¹⁰ כי מאפיינים טכניים, ביולוגיים וקליניים יישקלו בעת הוכחת שוויון-ערך למכשיר אחר. בעוד שמאפיינים כלליים אלה מתוארים ב-MEDDEV 2.7/1 rev. 4 נספח 1 ומתואמים עם דרישת ה-MDR, קיימים הבדלים בקריטריונים הנקבעים עבור כל אחד משלושת המאפיינים. ההבדלים בקריטריונים בין ה-MDR לבין MEDDEV 2.7/1 rev. 4 מודגשים להלן ומלווים בטקסט הסבר מסוים."
+    },
+    {
+      "id": "fn-10",
+      "type": "note",
+      "marker": "10",
+      "en": "MDR, Annex XIV Part A (3).",
+      "he": "MDR, נספח XIV חלק A (3)."
+    },
+
+    {
+      "id": "sec-3-1",
+      "type": "heading",
+      "level": 2,
+      "number": "3.1",
+      "en": "Technical characteristics",
+      "he": "מאפיינים טכניים"
+    },
+    {
+      "id": "sec-3-1-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          { "en": "MDR, Annex XIV Part A (3)", "he": "MDR, נספח XIV חלק A (3)" },
+          { "en": "MEDDEV 2.7/1 rev 4, Appendix A1", "he": "MEDDEV 2.7/1 rev 4, נספח A1" }
+        ],
+        [
+          {
+            "en": "The device is of similar design; is used under similar conditions of use; has similar specifications and properties including physicochemical properties such as intensity of energy, tensile strength, viscosity, surface characteristics, wavelength and software algorithms; uses similar deployment methods, where relevant; has similar principles of operation and critical performance requirements.",
+            "he": "המכשיר הוא בעל תכן דומה; משמש בתנאי שימוש דומים; בעל מפרטים ותכונות דומים, לרבות תכונות פיזיקוכימיות כגון עוצמת אנרגיה, חוזק מתיחה, צמיגות, מאפייני משטח, אורך גל ואלגוריתמי תוכנה; משתמש בשיטות פריסה דומות, היכן שרלוונטי; בעל עקרונות פעולה ודרישות ביצוע קריטיות דומים."
+          },
+          {
+            "en": "- be of similar design, and - used under the same conditions of use, and - have similar specifications and properties (e.g. physicochemical properties such as type and intensity of energy, tensile strength, viscosity, surface characteristics, wavelength, surface texture, porosity, particle size, nanotechnology, specific mass, atomic inclusions such as nitrocarburising, oxidability), and - use similar deployment methods (if relevant), and - have similar principles of operation and critical performance requirements",
+            "he": "- בעל תכן דומה, ו- משמש באותם תנאי שימוש (same conditions of use), ו- בעל מפרטים ותכונות דומים (למשל תכונות פיזיקוכימיות כגון סוג ועוצמת אנרגיה, חוזק מתיחה, צמיגות, מאפייני משטח, אורך גל, מרקם משטח, נקבוביות, גודל חלקיק, ננוטכנולוגיה, מסה סגולית, הכללות אטומיות כגון ניטרוקרבורציה (nitrocarburising), חמציניות), ו- משתמש בשיטות פריסה דומות (אם רלוונטי), ו- בעל עקרונות פעולה ודרישות ביצוע קריטיות דומים"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "sec-3-1-a",
+      "type": "paragraph",
+      "en": "(a) The MDR requires that technical characteristics shall be taken into consideration for the demonstration of equivalence including that the device in question and the device presumed to be equivalent are \"used under similar conditions of use\". MEDDEV 2.7/1 rev. 4, however, specifies use under the same conditions with regard to technical characteristics. The conditions of use shall be similar to the extent that there would be no clinically significant difference in the safety and clinical performance between the device in question and the device presumed to be equivalent. For further guidance on the assessment of 'similar', see also section 4 of this document.",
+      "he": "(a) ה-MDR מחייב כי מאפיינים טכניים יילקחו בחשבון לצורך הוכחת שוויון-ערך, לרבות כי המכשיר הנדון והמכשיר המשוער כשווה-ערך \"משמשים בתנאי שימוש דומים\". MEDDEV 2.7/1 rev. 4, לעומת זאת, מפרט שימוש באותם תנאים בנוגע למאפיינים טכניים¹¹. תנאי השימוש יהיו דומים במידה כזו שלא יהיה הבדל בעל משמעות קלינית בבטיחות ובביצועים הקליניים בין המכשיר הנדון לבין המכשיר המשוער כשווה-ערך. להנחיה נוספת בנוגע להערכת 'דומה', ראה גם סעיף 4 במסמך זה."
+    },
+    {
+      "id": "fn-11",
+      "type": "note",
+      "marker": "11",
+      "en": "\"Conditions of use\" with regard to technical characteristics may e.g. be environmental factors such as magnetic fields, temperature, moisture, conditions during transport of device in use etc. See section 3.3 in this document regarding use for the same clinical condition or purpose.",
+      "he": "\"תנאי שימוש\" בנוגע למאפיינים טכניים עשויים להיות, למשל, גורמים סביבתיים כגון שדות מגנטיים, טמפרטורה, לחות, תנאים בעת הובלת המכשיר בשימוש וכד'. ראה סעיף 3.3 במסמך זה בנוגע לשימוש לאותו מצב קליני או מטרה."
+    },
+    {
+      "id": "sec-3-1-b",
+      "type": "paragraph",
+      "en": "(b) Different examples are given for specifications and properties of the device when considering technical characteristics across the two definitions. These are examples only and are to be considered as such. They must not be interpreted as an exhaustive list of specifications and properties of technical characteristics when considering equivalence to another device. Note however that the MDR specifically points out that software algorithms shall be similar in the device presumed to be equivalent. This includes software algorithms in software driving or influencing the use of a device, and in software intended to be used alone. It is the functional principle of the software algorithm, as well as the clinical performance(s) and intended purpose(s) of the software algorithm, that shall be considered when demonstrating the equivalence of a software algorithm. It is not reasonable to demand that equivalence is demonstrated for the software code, provided it has been developed in line with international standards for safe design and validation of medical device software.",
+      "he": "(b) ניתנות דוגמאות שונות למפרטים ולתכונות של המכשיר בעת שקילת מאפיינים טכניים בשתי ההגדרות. אלה דוגמאות בלבד ויש להתייחס אליהן ככאלה. אין לפרשן כרשימה ממצה של מפרטים ותכונות של מאפיינים טכניים בעת שקילת שוויון-ערך למכשיר אחר. עם זאת יש לשים לב כי ה-MDR מציין במפורש כי אלגוריתמי התוכנה יהיו דומים במכשיר המשוער כשווה-ערך. הדבר כולל אלגוריתמי תוכנה בתוכנה המניעה או המשפיעה על השימוש במכשיר, ובתוכנה המיועדת לשימוש לבד¹². עקרון הפעולה הפונקציונלי של אלגוריתם התוכנה, וכן הביצועים הקליניים והמטרה/ות המיועדת/ות של אלגוריתם התוכנה, הם שיישקלו בעת הוכחת שוויון-הערך של אלגוריתם תוכנה. אין זה סביר לדרוש שיוכח שוויון-ערך עבור קוד התוכנה, ובלבד שהוא פותח בהתאם לתקנים בין-לאומיים לתכן בטוח ולאימות¹³ של תוכנת מכשיר רפואי."
+    },
+    {
+      "id": "fn-12",
+      "type": "note",
+      "marker": "12",
+      "en": "See MDCG 2019-11 Guidance on Qualification and Classification of Software in Regulation (EU) 2017/745 - MDR and Regulation (EU) 2017/746 – IVDR.",
+      "he": "ראה MDCG 2019-11 הנחיה בנושא הסמכה וסיווג של תוכנה בתקנה (האיחוד האירופי) 2017/745 - MDR ובתקנה (האיחוד האירופי) 2017/746 – IVDR."
+    },
+    {
+      "id": "fn-13",
+      "type": "note",
+      "marker": "13",
+      "en": "E.g. IEC 62304 Medical device software – Software life cycle processes, and IEC 82304-1 Health software – Part 1: General requirements for product safety.",
+      "he": "למשל IEC 62304 תוכנת מכשיר רפואי – תהליכי מחזור חיי תוכנה, ו-IEC 82304-1 תוכנת בריאות – חלק 1: דרישות כלליות לבטיחות מוצר."
+    },
+    {
+      "id": "sec-3-1-b2",
+      "type": "paragraph",
+      "en": "Software solely intended for the configuration of a device (e.g. presentation on a graphical user interface etc), and not related to any medical purpose (e.g. diagnosis, treatment etc), does not need to be similar when considering equivalence as long as it can be justified to not negatively affect the usability, safety or clinical performance.",
+      "he": "תוכנה המיועדת אך ורק לתצורת מכשיר (למשל הצגה בממשק משתמש גרפי וכד'), ושאינה קשורה לכל מטרה רפואית¹⁴ (למשל אבחון, טיפול וכד'), אינה צריכה להיות דומה בעת שקילת שוויון-ערך, כל עוד ניתן להצדיק כי אינה משפיעה לרעה על השמישות, הבטיחות או הביצועים הקליניים."
+    },
+    {
+      "id": "fn-14",
+      "type": "note",
+      "marker": "14",
+      "en": "MDR, Article 2(1).",
+      "he": "MDR, סעיף 2(1)."
+    },
+
+    {
+      "id": "sec-3-2",
+      "type": "heading",
+      "level": 2,
+      "number": "3.2",
+      "en": "Biological characteristics",
+      "he": "מאפיינים ביולוגיים"
+    },
+    {
+      "id": "sec-3-2-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          { "en": "MDR, Annex XIV Part A (3)", "he": "MDR, נספח XIV חלק A (3)" },
+          { "en": "MEDDEV 2.7/1 rev. 4, Appendix A1", "he": "MEDDEV 2.7/1 rev. 4, נספח A1" }
+        ],
+        [
+          {
+            "en": "The device uses the same materials or substances in contact with the same human tissues or body fluids for a similar kind and duration of contact and similar release characteristics of substances, including degradation products and leachables",
+            "he": "המכשיר משתמש באותם חומרים או חומרי גלם (substances) במגע עם אותם רקמות אנושיות או נוזלי גוף, למשך סוג ומשך מגע דומים, ועם מאפייני שחרור דומים של חומרים, לרבות מוצרי פירוק (degradation products) וחומרים נשטפים (leachables)"
+          },
+          {
+            "en": "Use the same materials or substances in contact with the same human tissues or body fluids. Exceptions can be foreseen for devices in contact with intact skin and minor components of devices; in these cases risk analysis results may allow the use of similar materials taking into account the role and nature of the similar material.",
+            "he": "שימוש באותם חומרים או חומרי גלם במגע עם אותם רקמות אנושיות או נוזלי גוף. ניתן לחזות חריגים עבור מכשירים במגע עם עור שלם ורכיבים משניים של מכשירים; במקרים אלה תוצאות ניתוח הסיכונים עשויות לאפשר שימוש בחומרים דומים, בהתחשב בתפקיד ובאופי של החומר הדומה."
+          }
+        ]
+      ]
+    },
+    {
+      "id": "sec-3-2-a",
+      "type": "paragraph",
+      "en": "(a) Manufacturers must consider the additional text in the MDR and adequately specify all applicable characteristics. The exceptions, outlined in the MEDDEV 2.7/1 rev 4, to not use the same materials are NOT acceptable under the MDR. The MDR requires that biological characteristics shall be taken into consideration for the demonstration of equivalence, i.e. the device uses the same materials or substances in contact with the same human tissues or body fluids for a similar kind and duration of contact, and with similar release characteristics of substances, including degradation products and leachables, as the presumed equivalent device. The distinction between \"same materials or substances\" and \"similar release characteristics of substances\" is made to account for the fact that processing, design and the use environment may introduce small changes even when the raw materials are the same. Processing can make materials more susceptible to degradation by changing properties of the material and/or by inducing different stresses. For example, small changes in pH or oxidative stress can increase or decrease release characteristics. For this reason, it is the final device that shall be assessed.",
+      "he": "(a) על היצרנים לשקול את הטקסט הנוסף שב-MDR ולפרט כראוי את כל המאפיינים החלים. החריגים, המתוארים ב-MEDDEV 2.7/1 rev 4, לאי-שימוש באותם חומרים אינם מקובלים לפי ה-MDR. ה-MDR מחייב כי מאפיינים ביולוגיים יילקחו בחשבון לצורך הוכחת שוויון-ערך, כלומר שהמכשיר משתמש באותם חומרים או חומרי גלם במגע עם אותם רקמות אנושיות או נוזלי גוף למשך סוג ומשך מגע דומים, ועם מאפייני שחרור דומים של חומרים, לרבות מוצרי פירוק וחומרים נשטפים, כמו המכשיר המשוער כשווה-ערך. ההבחנה בין \"אותם חומרים או חומרי גלם\" לבין \"מאפייני שחרור דומים של חומרים\" נעשית כדי להביא בחשבון את העובדה שהעיבוד, התכן וסביבת השימוש עשויים להכניס שינויים קטנים אף כאשר חומרי הגלם זהים. עיבוד יכול להפוך חומרים לרגישים יותר לפירוק על ידי שינוי תכונות החומר ו/או על ידי גרימת מאמצים שונים. לדוגמה, שינויים קטנים ב-pH או במאמץ חמצוני יכולים להגדיל או להקטין את מאפייני השחרור. מסיבה זו, המכשיר הסופי הוא שייבחן."
+    },
+    {
+      "id": "sec-3-2-b",
+      "type": "paragraph",
+      "en": "(b) The principles outlined in ISO 10993 series of standards for the biological evaluation of medical devices can be adopted, in particular the ISO 10993-1 for a risk-based approach to biological evaluation and also for material characterization.",
+      "he": "(b) ניתן לאמץ את העקרונות המתוארים בסדרת התקנים ISO 10993 להערכה הביולוגית של מכשירים רפואיים, ובפרט ISO 10993-1 לגישה מבוססת-סיכון להערכה ביולוגית¹⁵ וכן לאפיון חומרים."
+    },
+    {
+      "id": "fn-15",
+      "type": "note",
+      "marker": "15",
+      "en": "ISO 10993-1 Biological evaluation of medical devices – Part 1: Evaluation and testing within a risk management process, and collateral standards in the 10993 series.",
+      "he": "ISO 10993-1 הערכה ביולוגית של מכשירים רפואיים – חלק 1: הערכה ובדיקה במסגרת תהליך ניהול סיכונים, ותקנים נלווים בסדרת 10993."
+    },
+    {
+      "id": "sec-3-2-b2",
+      "type": "paragraph",
+      "en": "In addition, the ISO 10993-18 which covers chemical characterization of materials can be adopted to specify the identity of materials and to estimate the type and quantity of leachables from the final device. Annex C of this standard addresses biological equivalence. The ISO 10993-17 includes principles on the toxicological risk assessment of leachables. Leachables may include degradation products or other substances from the materials or substances that the device is made of, but also other constituents for example residuals from the manufacturing process or sterilisation, any contaminations etc. Therefore, for the consideration of equivalence, it is the properties and characteristics of the final device that shall be taken into account.",
+      "he": "בנוסף, ניתן לאמץ את ISO 10993-18, העוסק באפיון כימי של חומרים, כדי לפרט את זהות החומרים ולאמוד את סוג וכמות החומרים הנשטפים מהמכשיר הסופי. נספח C של תקן זה עוסק בשוויון-ערך ביולוגי. ISO 10993-17 כולל עקרונות בנוגע להערכת הסיכון הטוקסיקולוגי של חומרים נשטפים. חומרים נשטפים עשויים לכלול מוצרי פירוק או חומרים אחרים מהחומרים או חומרי הגלם שמהם עשוי המכשיר, אך גם רכיבים אחרים, למשל שאריות מתהליך הייצור או העיקור, זיהומים כלשהם וכד'. לפיכך, לצורך שקילת שוויון-ערך, התכונות והמאפיינים של המכשיר הסופי הם שיילקחו בחשבון."
+    },
+    {
+      "id": "sec-3-2-b3",
+      "type": "paragraph",
+      "en": "For degradable materials, ISO 10993, Parts 13, 14 and 15 address the identification and quantification of degradation products. Note, that there may be further parts in the ISO 10993 series of standards that are relevant for the device in question.",
+      "he": "עבור חומרים מתפרקים, ISO 10993, חלקים 13, 14 ו-15 עוסקים בזיהוי ובכימות של מוצרי פירוק. יש לשים לב כי ייתכנו חלקים נוספים בסדרת התקנים ISO 10993 הרלוונטיים למכשיר הנדון."
+    },
+    {
+      "id": "sec-3-2-c",
+      "type": "paragraph",
+      "en": "(c) The MDR has additional requirements for devices that are composed of substances or of combinations of substances that are intended to be introduced into the human body, and that are absorbed by or locally dispersed in the human body. For the consideration of equivalence, the substances shall be the same.",
+      "he": "(c) ל-MDR יש דרישות נוספות¹⁶ עבור מכשירים המורכבים מחומרי גלם או מצירופים של חומרי גלם המיועדים להיות מוחדרים לגוף האדם, ואשר נספגים בגוף האדם או מתפזרים בו באופן מקומי. לצורך שקילת שוויון-ערך, חומרי הגלם יהיו זהים."
+    },
+    {
+      "id": "fn-16",
+      "type": "note",
+      "marker": "16",
+      "en": "MDR, Annex I, (12.2).",
+      "he": "MDR, נספח I, (12.2)."
+    },
+    {
+      "id": "sec-3-2-c2",
+      "type": "paragraph",
+      "en": "Those devices are not medicinal products, but for the conformity assessment they shall comply with the relevant requirements laid down in Annex I to Directive 2001/83/EC for the evaluation of absorption, distribution, metabolism, excretion, local tolerance, toxicity, interaction with other devices, medicinal products or other substances and potential for adverse reactions. This means that for the demonstration of equivalence under the MDR, those aspects shall also be taken into consideration.",
+      "he": "מכשירים אלה אינם תכשירים רפואיים (medicinal products), אך לצורך הערכת ההתאמה עליהם לעמוד בדרישות הרלוונטיות הקבועות בנספח I להוראה 2001/83/EC¹⁷ להערכת ספיגה, התפלגות, חילוף חומרים, הפרשה, סבילות מקומית, רעילות, אינטראקציה עם מכשירים אחרים, תכשירים רפואיים או חומרים אחרים, והפוטנציאל לתגובות לוואי. משמעות הדבר היא שלצורך הוכחת שוויון-ערך לפי ה-MDR, היבטים אלה יילקחו אף הם בחשבון."
+    },
+    {
+      "id": "fn-17",
+      "type": "note",
+      "marker": "17",
+      "en": "Directive 2001/83/EC relating to medicinal products for human use.",
+      "he": "הוראה 2001/83/EC הנוגעת לתכשירים רפואיים לשימוש בבני אדם."
+    },
+    {
+      "id": "sec-3-2-c3",
+      "type": "paragraph",
+      "en": "Note that the requirement that the notified body shall seek a scientific opinion from a competent authority for medicinal products or the EMA, for the device or its products of metabolism, that are systemically absorbed by the human body in order to achieve their intended purpose, on the compliance with the relevant requirements laid down in Annex I to Directive 2001/83/EC, always applies for the device under evaluation even if equivalence has been demonstrated under the MDR.",
+      "he": "יש לשים לב כי הדרישה¹⁸ שלפיה על הגוף המאונתר לבקש חוות דעת מדעית מרשות מוסמכת לתכשירים רפואיים או מ-EMA, עבור המכשיר או מוצרי חילוף החומרים שלו הנספגים סיסטמית בגוף האדם כדי להשיג את מטרתם המיועדת, בנוגע לעמידה בדרישות הרלוונטיות הקבועות בנספח I להוראה 2001/83/EC, חלה תמיד על המכשיר הנמצא בהערכה, אף אם הוכח שוויון-ערך לפי ה-MDR."
+    },
+    {
+      "id": "fn-18",
+      "type": "note",
+      "marker": "18",
+      "en": "MDR, Annex IX, Chapter II, 5.4 (b).",
+      "he": "MDR, נספח IX, פרק II, 5.4 (b)."
+    },
+    {
+      "id": "sec-3-2-d",
+      "type": "paragraph",
+      "en": "(d) The demonstration of equivalence may also concern medical devices with an ancillary medicinal substance, for example drug-eluting stents or heparin-bonded central venous catheters. The MDR requires that biological characteristics shall be taken into consideration for the demonstration of equivalence, including that the device in question and the device presumed to be equivalent, use \"the same materials or substances in contact with the same human tissues or body fluids\". This applies also to the medicinal substance and any related excipients/coatings. Excipients/coatings may potentially have a significant effect for example on the release characteristics of the medicinal substance intended only for a local effect from a stent, and thereby a significant effect on the clinical performance.",
+      "he": "(d) הוכחת שוויון-ערך עשויה לנגוע גם למכשירים רפואיים בעלי חומר רפואי נלווה (ancillary medicinal substance), למשל תומכנים (stents) משחררי-תרופה או צנתרים ורידיים מרכזיים מצופי הפרין. ה-MDR מחייב¹⁹ כי מאפיינים ביולוגיים יילקחו בחשבון לצורך הוכחת שוויון-ערך, לרבות כי המכשיר הנדון והמכשיר המשוער כשווה-ערך משתמשים ב\"אותם חומרים או חומרי גלם במגע עם אותם רקמות אנושיות או נוזלי גוף\". הדבר חל גם על החומר הרפואי ועל כל נשאים/ציפויים (excipients/coatings) הקשורים אליו. נשאים/ציפויים עשויים להשפיע באופן משמעותי, למשל, על מאפייני השחרור של החומר הרפואי המיועד לאפקט מקומי בלבד מתומכן, ובכך להשפיע באופן משמעותי על הביצועים הקליניים."
+    },
+    {
+      "id": "fn-19",
+      "type": "note",
+      "marker": "19",
+      "en": "MDR, Annex XIV Part A (3) second indent.",
+      "he": "MDR, נספח XIV חלק A (3) פסקה שנייה."
+    },
+    {
+      "id": "sec-3-2-d2",
+      "type": "paragraph",
+      "en": "In all cases, concerning the device under evaluation, the notified body shall",
+      "he": "בכל המקרים, בנוגע למכשיר הנמצא בהערכה, על הגוף המאונתר²⁰:"
+    },
+    {
+      "id": "sec-3-2-d-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "en": "verify the usefulness of the substance as part of the device, taking account of the intended purpose of the device, and",
+          "he": "לאמת את התועלת של החומר כחלק מהמכשיר, בהתחשב במטרה המיועדת של המכשיר, ו-"
+        },
+        {
+          "en": "seek a scientific opinion from a competent authority for medicinal products or the EMA to ensure that the quality, safety and benefit/risk of using the ancillary medicinal product, including whether the manufacturing process have been adequately assessed.",
+          "he": "לבקש חוות דעת מדעית מרשות מוסמכת לתכשירים רפואיים או מ-EMA כדי להבטיח כי האיכות, הבטיחות ויחס התועלת/סיכון של השימוש בתרופה הנלווית, לרבות האם תהליך הייצור, הוערכו כראוי."
+        }
+      ]
+    },
+    {
+      "id": "fn-20",
+      "type": "note",
+      "marker": "20",
+      "en": "MDR, Annex IX, Chapter II, 5.2. (b) and (c).",
+      "he": "MDR, נספח IX, פרק II, 5.2. (b) ו-(c)."
+    },
+    {
+      "id": "sec-3-2-d3",
+      "type": "paragraph",
+      "en": "Note that medical devices with an ancillary medicinal substance are class III devices. In cases where a manufacturer intends to claim equivalence to a device not manufactured by him, the MDR requires that the two manufacturers have a contract in place that explicitly allows the manufacturer of the second device full access to the technical documentation on an ongoing basis. Manufacturers cannot claim equivalence of a device with an ancillary medicinal substance to a device without an ancillary medicinal substance and vice versa. For example, the manufacturer of a heparin coated catheter shall not claim equivalence to a drug-free catheter even if both catheters are otherwise identical. See also section 4 of this document.",
+      "he": "יש לשים לב כי מכשירים רפואיים בעלי חומר רפואי נלווה הם מכשירים מסיווג III²¹. במקרים שבהם יצרן מתכוון לטעון לשוויון-ערך למכשיר שאינו מיוצר על ידו, ה-MDR מחייב כי לשני היצרנים יהיה חוזה תקף המאפשר במפורש ליצרן המכשיר השני גישה מלאה לתיעוד הטכני על בסיס שוטף²². יצרנים אינם יכולים לטעון לשוויון-ערך של מכשיר בעל חומר רפואי נלווה למכשיר ללא חומר רפואי נלווה ולהפך. לדוגמה, יצרן של צנתר מצופה הפרין לא יטען לשוויון-ערך לצנתר נטול-תרופה אף אם שני הצנתרים זהים בכל היתר²³. ראה גם סעיף 4 במסמך זה."
+    },
+    {
+      "id": "fn-21",
+      "type": "note",
+      "marker": "21",
+      "en": "MDR, Annex VIII, Rule 14.",
+      "he": "MDR, נספח VIII, כלל 14."
+    },
+    {
+      "id": "fn-22",
+      "type": "note",
+      "marker": "22",
+      "en": "MDR, Article 61 (5).",
+      "he": "MDR, סעיף 61 (5)."
+    },
+    {
+      "id": "fn-23",
+      "type": "note",
+      "marker": "23",
+      "en": "MDR, Annex XIV Part A (3).",
+      "he": "MDR, נספח XIV חלק A (3)."
+    },
+    {
+      "id": "sec-3-2-d4",
+      "type": "paragraph",
+      "en": "Similarly, manufacturers shall not claim equivalence of the ancillary medicinal substance to a 'standalone' medicinal substance.",
+      "he": "באופן דומה, יצרנים לא יטענו לשוויון-ערך של החומר הרפואי הנלווה לחומר רפואי 'עצמאי' (standalone)."
+    },
+
+    {
+      "id": "sec-3-3",
+      "type": "heading",
+      "level": 2,
+      "number": "3.3",
+      "en": "Clinical characteristics",
+      "he": "מאפיינים קליניים"
+    },
+    {
+      "id": "sec-3-3-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          { "en": "MDR, Annex XIV Part A (3)", "he": "MDR, נספח XIV חלק A (3)" },
+          { "en": "MEDDEV 2.7/1 rev. 4, Appendix A1", "he": "MEDDEV 2.7/1 rev. 4, נספח A1" }
+        ],
+        [
+          {
+            "en": "The device is used for the same clinical condition or purpose, including similar severity and stage of disease, at the same site in the body, in a similar population, including as regards age, anatomy and physiology; has the same kind of user; has similar relevant critical performance in view of the expected clinical effect for a specific intended purpose.",
+            "he": "המכשיר משמש לאותו מצב קליני או מטרה, לרבות חומרה ושלב מחלה דומים, באותו אתר בגוף, באוכלוסייה דומה, לרבות בכל הנוגע לגיל, אנטומיה ופיזיולוגיה; בעל אותו סוג משתמש; בעל ביצועים קריטיים רלוונטיים דומים בהתחשב באפקט הקליני הצפוי עבור מטרה מיועדת ספציפית."
+          },
+          {
+            "en": "- used for the same clinical condition (including when applicable similar severity and stage of disease, same medical indication), and - used for the same intended purpose, and - used at the same site in the body, and - used in a similar population (this may relate to age, gender, anatomy, physiology, possibly other aspects), and - not foreseen to deliver significantly different performances (in the relevant critical performances such as the expected clinical effect, the specific intended purpose, the duration of use, etc.)",
+            "he": "- משמש לאותו מצב קליני (לרבות, היכן שרלוונטי, חומרה ושלב מחלה דומים, אותה התוויה רפואית), ו- משמש לאותה מטרה מיועדת, ו- משמש באותו אתר בגוף, ו- משמש באוכלוסייה דומה (הדבר עשוי להתייחס לגיל, מין, אנטומיה, פיזיולוגיה, ואולי היבטים אחרים), ו- אינו צפוי לספק ביצועים שונים באופן משמעותי (בביצועים הקריטיים הרלוונטיים כגון האפקט הקליני הצפוי, המטרה המיועדת הספציפית, משך השימוש וכד')"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "sec-3-3-a",
+      "type": "paragraph",
+      "en": "(a) The MDR additionally requires that, for manufacturers to compare clinical characteristics, the device shall have the same kind of user. The MDR clearly points out that a user means any healthcare professional or lay person who uses a device, and that a lay person means an individual who does not have formal education in a relevant field of healthcare or medical discipline. Manufacturers must therefore take into consideration whether the intended user's competence or knowledge can have any implication for the safety, clinical performance and outcome when considering equivalence between the device in question and the presumed equivalent device. For example, a device intended for professional use and a device intended for home use, but for the same clinical condition or purpose, may have a different safety and performance profile due to the environment in which they are intended to be used.",
+      "he": "(a) ה-MDR מחייב בנוסף כי, כדי שיצרנים ישוו מאפיינים קליניים, למכשיר יהיה אותו סוג משתמש. ה-MDR מציין בבירור כי משתמש משמעו כל איש מקצוע הבריאות או אדם הדיוט (lay person) המשתמש במכשיר²⁴, וכי אדם הדיוט משמעו יחיד שאין לו השכלה פורמלית בתחום רלוונטי של הבריאות או של דיסציפלינה רפואית²⁵. על היצרנים, אפוא, לקחת בחשבון האם הכשירות או הידע של המשתמש המיועד עשויים להשפיע על הבטיחות, הביצועים הקליניים והתוצאה בעת שקילת שוויון-ערך בין המכשיר הנדון לבין המכשיר המשוער כשווה-ערך. לדוגמה, מכשיר המיועד לשימוש מקצועי ומכשיר המיועד לשימוש ביתי, אך לאותו מצב קליני או מטרה, עשויים להיות בעלי פרופיל בטיחות וביצועים שונה בשל הסביבה שבה הם מיועדים לשימוש."
+    },
+    {
+      "id": "fn-24",
+      "type": "note",
+      "marker": "24",
+      "en": "MDR, Article 2 (37).",
+      "he": "MDR, סעיף 2 (37)."
+    },
+    {
+      "id": "fn-25",
+      "type": "note",
+      "marker": "25",
+      "en": "MDR, Article 2 (38).",
+      "he": "MDR, סעיף 2 (38)."
+    },
+    {
+      "id": "sec-3-3-b",
+      "type": "paragraph",
+      "en": "(b) The MDR does not explicitly state that the medical device needs to be used for the same medical indication, gender and duration of use as the equivalent device. However, it is understood that in general, this is covered by the MDR requirement that both devices should be used for the same clinical condition or purpose including similar severity and stage of disease and also have similar relevant critical performance which is also outlined in the MEDDEV 2.7/1 rev. 4. This is supported by the definitions in the MDR of the 'intended purpose', and the ability of the device to achieve its intended purpose by the 'clinical performance' including measurable 'clinical benefit'.",
+      "he": "(b) ה-MDR אינו קובע במפורש כי המכשיר הרפואי צריך לשמש לאותה התוויה רפואית, מין ומשך שימוש כמו המכשיר שווה-הערך. עם זאת, מובן כי באופן כללי הדבר מכוסה על ידי דרישת ה-MDR ששני המכשירים צריכים לשמש לאותו מצב קליני או מטרה, לרבות חומרה ושלב מחלה דומים, וכן בעלי ביצועים קריטיים רלוונטיים דומים, כפי שמתואר גם ב-MEDDEV 2.7/1 rev. 4. הדבר נתמך על ידי ההגדרות שב-MDR של ה'מטרה המיועדת'²⁶, ויכולתו של המכשיר להשיג את מטרתו המיועדת באמצעות ה'ביצועים הקליניים'²⁷, לרבות 'תועלת קלינית' ניתנת-למדידה²⁸."
+    },
+    {
+      "id": "fn-26",
+      "type": "note",
+      "marker": "26",
+      "en": "MDR, Article 2 (12).",
+      "he": "MDR, סעיף 2 (12)."
+    },
+    {
+      "id": "fn-27",
+      "type": "note",
+      "marker": "27",
+      "en": "MDR, Article 2 (52).",
+      "he": "MDR, סעיף 2 (52)."
+    },
+    {
+      "id": "fn-28",
+      "type": "note",
+      "marker": "28",
+      "en": "MDR, Article 2 (53).",
+      "he": "MDR, סעיף 2 (53)."
+    },
+
+    {
+      "id": "sec-4",
+      "type": "heading",
+      "level": 1,
+      "number": "4",
+      "en": "Demonstration of equivalence",
+      "he": "הוכחת שוויון-ערך"
+    },
+    {
+      "id": "sec-4-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          { "en": "MDR, Annex XIV Part A (3)", "he": "MDR, נספח XIV חלק A (3)" },
+          { "en": "MEDDEV 2.7/1 rev. 4, Appendix A1", "he": "MEDDEV 2.7/1 rev. 4, נספח A1" }
+        ],
+        [
+          {
+            "en": "The characteristics listed in the first paragraph shall be similar to the extent that there would be no clinically significant difference in the safety and clinical performance of the device. Considerations of equivalence shall be based on proper scientific justification.",
+            "he": "המאפיינים המנויים בפסקה הראשונה יהיו דומים במידה כזו שלא יהיה הבדל בעל משמעות קלינית בבטיחות ובביצועים הקליניים של המכשיר. שקילת שוויון-ערך תתבסס על הצדקה מדעית נאותה."
+          },
+          {
+            "en": "For assuming equivalence, - all three characteristics (clinical, technical, biological) need to be fulfilled; - similar means that no clinically significant difference in the performance and safety of the device would be triggered by the differences between the device under evaluation and the device presumed to be equivalent.",
+            "he": "לצורך הנחת שוויון-ערך, - כל שלושת המאפיינים (קליני, טכני, ביולוגי) צריכים להתקיים; - דומה משמעו כי הבדל בעל משמעות קלינית בביצועים ובבטיחות של המכשיר לא ייגרם על ידי ההבדלים בין המכשיר הנמצא בהערכה לבין המכשיר המשוער כשווה-ערך."
+          }
+        ]
+      ]
+    },
+    {
+      "id": "sec-4-p1",
+      "type": "paragraph",
+      "en": "There are a number of prerequisites that shall be fulfilled for the demonstration of equivalence:",
+      "he": "ישנם מספר תנאים מוקדמים שיש לקיים לצורך הוכחת שוויון-ערך:"
+    },
+    {
+      "id": "sec-4-a",
+      "type": "paragraph",
+      "en": "(a) The overall considerations of equivalence shall conclude whether the listed technical, biological and clinical characteristics in the MDR are similar to the extent that there would be no clinically significant difference in the safety and clinical performance of the device. Note that some of the listed characteristics in the MDR shall be the same, not only similar. The corresponding wording from MEDDEV 2.7/1 rev. 4 is presented for information above. Consideration must be given to the characteristics mentioned above and a gap analysis should be conducted by the manufacturer to evaluate any clinically significant difference(s).",
+      "he": "(a) השקילה הכוללת של שוויון-ערך תקבע האם המאפיינים הטכניים, הביולוגיים והקליניים המנויים ב-MDR²⁹ דומים במידה כזו שלא יהיה הבדל בעל משמעות קלינית בבטיחות ובביצועים הקליניים של המכשיר. יש לשים לב כי חלק מהמאפיינים המנויים ב-MDR יהיו זהים, לא רק דומים. הנוסח המקביל מתוך MEDDEV 2.7/1 rev. 4 מוצג למידע לעיל. יש לשקול את המאפיינים שצוינו לעיל, ועל היצרן לערוך ניתוח פערים (gap analysis) כדי להעריך כל הבדל בעל משמעות קלינית."
+    },
+    {
+      "id": "fn-29",
+      "type": "note",
+      "marker": "29",
+      "en": "MDR, Annex XIV Part A (3).",
+      "he": "MDR, נספח XIV חלק A (3)."
+    },
+    {
+      "id": "sec-4-a2",
+      "type": "paragraph",
+      "en": "Modifications of a device may be implemented for a variety of reasons. If the differences have been introduced to address specific safety and/or performance issues it shall be duly justified, that there would be no clinically significant difference in the safety and clinical performance other than the intended improvements related to the specific issue that triggered the modification / difference. For all modifications and concomitant claims of equivalence, there must be no additional risks or potential of negatively altered performance related to the introduced modifications.",
+      "he": "שינויים³⁰ במכשיר עשויים להתבצע ממגוון סיבות. אם ההבדלים הוכנסו כדי לטפל בבעיות בטיחות ו/או ביצועים ספציפיות, יש להצדיק כראוי כי לא יהיה הבדל בעל משמעות קלינית בבטיחות ובביצועים הקליניים, מלבד השיפורים המיועדים הקשורים לבעיה הספציפית שגרמה לשינוי / להבדל. עבור כל השינויים וטענות שוויון-הערך הנלוות, אסור שיהיו סיכונים נוספים או פוטנציאל לשינוי שלילי בביצועים הקשורים לשינויים שהוכנסו."
+    },
+    {
+      "id": "fn-30",
+      "type": "note",
+      "marker": "30",
+      "en": "MDR, Article 61 (4).",
+      "he": "MDR, סעיף 61 (4)."
+    },
+    {
+      "id": "sec-4-a3",
+      "type": "paragraph",
+      "en": "See a template example of an Equivalence table in the Annex I of this document. A manufacturer of a medical device shall not claim equivalence to a product without an intended medical purpose listed in the MDR Annex XVI.",
+      "he": "ראה דוגמת תבנית של טבלת שוויון-ערך בנספח I למסמך זה. יצרן של מכשיר רפואי לא יטען לשוויון-ערך למוצר ללא מטרה רפואית מיועדת המנוי בנספח XVI ל-MDR."
+    },
+    {
+      "id": "sec-4-b",
+      "type": "paragraph",
+      "en": "(b) Manufacturers may identify more than one equivalent device to the device under evaluation, but each device shall be equivalent to the device under evaluation in all the listed technical, biological and clinical characteristics. Equivalence to each device shall be fully investigated, described and demonstrated in the clinical evaluation report.",
+      "he": "(b) יצרנים רשאים לזהות יותר ממכשיר שווה-ערך אחד למכשיר הנמצא בהערכה, אך כל מכשיר יהיה שווה-ערך למכשיר הנמצא בהערכה בכל המאפיינים הטכניים, הביולוגיים והקליניים המנויים³¹. שוויון-הערך לכל מכשיר ייחקר, יתואר ויוכח במלואו בדוח ההערכה הקלינית."
+    },
+    {
+      "id": "fn-31",
+      "type": "note",
+      "marker": "31",
+      "en": "MDR, Annex XIV Part A (3), the requirement refers to only \"a device\" and \"the device\".",
+      "he": "MDR, נספח XIV חלק A (3), הדרישה מתייחסת אך ורק ל\"מכשיר\" ול\"המכשיר\"."
+    },
+    {
+      "id": "sec-4-b2",
+      "type": "paragraph",
+      "en": "This means that manufacturers shall not use different parts of different devices to claim equivalence to the device under evaluation. The MEDDEV 2.7/1 rev. 4 is in line with this approach.",
+      "he": "משמעות הדבר היא שיצרנים לא ישתמשו בחלקים שונים של מכשירים שונים כדי לטעון לשוויון-ערך למכשיר הנמצא בהערכה. MEDDEV 2.7/1 rev. 4 עולה בקנה אחד עם גישה זו."
+    },
+    {
+      "id": "sec-4-b3",
+      "type": "paragraph",
+      "en": "In exceptional cases, a deviation from this principle may be considered. There may be device systems comprised of several more or less \"stand alone\" devices, where it may be justified to consider equivalence of a device in the system to a presumed equivalent device in a device system already on the market (by the same manufacturer) provided that all technical, biological and clinical characteristics are same/similar, and that the devices in the system do not affect the safety and performance of each other. This should be duly investigated and documented both on the level of potential interference between the devices in the system, as well as on the overall safety and clinical performance of the device system.",
+      "he": "במקרים חריגים, ניתן לשקול סטייה מעיקרון זה. ייתכנו מערכות מכשירים המורכבות ממספר מכשירים \"עצמאיים\" פחות או יותר, שבהן עשוי להיות מוצדק לשקול שוויון-ערך של מכשיר במערכת למכשיר משוער כשווה-ערך במערכת מכשירים הקיימת כבר בשוק (של אותו יצרן), ובלבד שכל המאפיינים הטכניים, הביולוגיים והקליניים זהים/דומים³², ושהמכשירים במערכת אינם משפיעים על הבטיחות והביצועים זה של זה. יש לחקור ולתעד זאת כראוי, הן ברמת ההפרעה האפשרית בין המכשירים במערכת, והן ברמת הבטיחות והביצועים הקליניים הכוללים של מערכת המכשירים."
+    },
+    {
+      "id": "fn-32",
+      "type": "note",
+      "marker": "32",
+      "en": "MDR, Annex XIV Part A (3).",
+      "he": "MDR, נספח XIV חלק A (3)."
+    },
+    {
+      "id": "sec-4-c",
+      "type": "paragraph",
+      "en": "(c) Regarding the clinical evaluation, the MDR requires that the manufacturer shall specify and justify the level of clinical evidence necessary to demonstrate conformity with the relevant general safety and performance requirements. That level of clinical evidence shall be appropriate in view of the characteristics of the device and its intended purpose. In addition, considerations of equivalence shall be based on proper scientific justification.",
+      "he": "(c) בנוגע להערכה הקלינית, ה-MDR מחייב³³ כי היצרן יפרט ויצדיק את רמת הראיות הקליניות הדרושה להוכחת התאמה לדרישות הכלליות הרלוונטיות לבטיחות וביצועים. רמת ראיות קליניות זו תהיה מתאימה בהתחשב במאפייני המכשיר ובמטרתו המיועדת³⁴. בנוסף, שקילת שוויון-ערך תתבסס על הצדקה מדעית נאותה³⁵."
+    },
+    {
+      "id": "fn-33",
+      "type": "note",
+      "marker": "33",
+      "en": "MDR, Article 61 (1) second paragraph.",
+      "he": "MDR, סעיף 61 (1) פסקה שנייה."
+    },
+    {
+      "id": "fn-34",
+      "type": "note",
+      "marker": "34",
+      "en": "MDR, Article 61 (1) second paragraph. It may under certain circumstances be justified to demonstrate conformity without support of clinical data, see MDR, Article 61 (10), but note that this is not applicable for implantable devices or class III devices.",
+      "he": "MDR, סעיף 61 (1) פסקה שנייה. בנסיבות מסוימות עשוי להיות מוצדק להוכיח התאמה ללא תמיכה של נתונים קליניים, ראה MDR, סעיף 61 (10), אך יש לשים לב כי הדבר אינו חל על מכשירים מושתלים או מכשירים מסיווג III."
+    },
+    {
+      "id": "fn-35",
+      "type": "note",
+      "marker": "35",
+      "en": "MDR, Annex XIV Part A (3). For guidance see also MEDDEV 2.7/1 rev 4, Annex A6, Appraisal of clinical data - examples of studies that lack scientific validity for demonstration of adequate clinical performance and/or clinical safety.",
+      "he": "MDR, נספח XIV חלק A (3). להנחיה ראה גם MEDDEV 2.7/1 rev 4, נספח A6, הערכת נתונים קליניים - דוגמאות למחקרים נטולי תוקף מדעי להוכחת ביצועים קליניים ו/או בטיחות קלינית נאותים."
+    },
+    {
+      "id": "sec-4-c2",
+      "type": "paragraph",
+      "en": "This implies that technical, biological and clinical characteristics shall be duly investigated and documented. The manufacturer is expected to fully identify and disclose any differences between the two devices. Pre-clinical data for the consideration of equivalence should allow a scientifically sound evaluation of technical and biological characteristics. Examples of data sources:",
+      "he": "משמעות הדבר היא שמאפיינים טכניים, ביולוגיים וקליניים ייחקרו ויתועדו כראוי. מצופה מהיצרן לזהות ולחשוף במלואם כל הבדל בין שני המכשירים. נתונים פרה-קליניים לצורך שקילת שוויון-ערך צריכים לאפשר הערכה מדעית תקפה של מאפיינים טכניים וביולוגיים. דוגמאות למקורות נתונים:"
+    },
+    {
+      "id": "sec-4-c-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "en": "data from the technical documentation of a manufacturer's own presumed equivalent device (specifications, test-results, chemical/physical/biological analyses, data from pre-clinical investigations etc)",
+          "he": "נתונים מהתיעוד הטכני של מכשיר משוער כשווה-ערך של היצרן עצמו (מפרטים, תוצאות בדיקה, ניתוחים כימיים/פיזיקליים/ביולוגיים, נתונים מחקירות פרה-קליניות וכד')"
+        },
+        {
+          "en": "data published in the scientific literature, e.g. animal or other pre-clinical data",
+          "he": "נתונים שפורסמו בספרות המדעית, למשל נתונים מבעלי חיים או נתונים פרה-קליניים אחרים"
+        }
+      ]
+    },
+    {
+      "id": "sec-4-c3",
+      "type": "paragraph",
+      "en": "The assessment of whether any differences in characteristics would result in clinically significant difference in safety and clinical performance shall also be duly substantiated and based on proper scientific justification. This assessment may be supported by e.g. clinical data from the scientific literature, common specifications (CS), harmonised standards or other established technical specifications.",
+      "he": "ההערכה של האם הבדלים כלשהם במאפיינים יביאו להבדל בעל משמעות קלינית בבטיחות ובביצועים הקליניים תבוסס אף היא כראוי ותתבסס על הצדקה מדעית נאותה. הערכה זו עשויה להיתמך, למשל, בנתונים קליניים מהספרות המדעית, במפרטים משותפים (CS)³⁶, בתקנים מתואמים או במפרטים טכניים מבוססים אחרים."
+    },
+    {
+      "id": "fn-36",
+      "type": "note",
+      "marker": "36",
+      "en": "MDR, Article 2, (71) 'common specifications' (CS) means a set of technical and/or clinical requirements, other than a standard, that provides a means of complying with the legal obligations applicable to a device, process or system.",
+      "he": "MDR, סעיף 2, (71) 'מפרטים משותפים' (CS) משמעו מערך של דרישות טכניות ו/או קליניות, שאינן תקן, המספק אמצעי לעמידה בחובות החוקיות החלות על מכשיר, תהליך או מערכת."
+    },
+    {
+      "id": "sec-4-c4",
+      "type": "paragraph",
+      "en": "Furthermore, for the assessment of safety, a risk-based approach is expected, both for the identification of characteristics that may affect safety as well as for the final assessment of equivalence regarding safety.",
+      "he": "יתרה מזאת, להערכת הבטיחות מצופה גישה מבוססת-סיכון³⁷, הן לזיהוי מאפיינים העשויים להשפיע על הבטיחות והן להערכה הסופית של שוויון-ערך בנוגע לבטיחות."
+    },
+    {
+      "id": "fn-37",
+      "type": "note",
+      "marker": "37",
+      "en": "ISO 14971 Medical devices – Application of risk management to medical devices, and also other related standards as applicable e.g. ISO 10993-1 and ISO 10993-18.",
+      "he": "ISO 14971 מכשירים רפואיים – יישום ניהול סיכונים על מכשירים רפואיים, וכן תקנים קשורים אחרים ככל שרלוונטי, למשל ISO 10993-1 ו-ISO 10993-18."
+    },
+    {
+      "id": "sec-4-c5",
+      "type": "paragraph",
+      "en": "It is important for the consideration of equivalence that pre-clinical data and any clinical data relate to the actual device under evaluation, and to a defined generation/version of the actual device considered for equivalence, bearing in mind that there may be significant differences between different generations of the other device.",
+      "he": "חשוב לצורך שקילת שוויון-ערך שהנתונים הפרה-קליניים וכל נתון קליני יתייחסו למכשיר הממשי הנמצא בהערכה, ולדור/גרסה מוגדרים של המכשיר הממשי הנשקל לשוויון-ערך, תוך זכירה כי ייתכנו הבדלים משמעותיים בין דורות שונים של המכשיר האחר."
+    },
+    {
+      "id": "sec-4-c6",
+      "type": "paragraph",
+      "en": "If a manufacturer is not able to demonstrate sufficient levels of access to the data relating to the presumed equivalent device and needed for the consideration of equivalence, equivalence claims cannot be made for the purpose of conformity assessment.",
+      "he": "אם יצרן אינו מסוגל להוכיח רמות גישה מספקות לנתונים הנוגעים למכשיר המשוער כשווה-ערך והדרושים לשקילת שוויון-ערך³⁸, לא ניתן לטעון טענות שוויון-ערך לצורך הערכת התאמה."
+    },
+    {
+      "id": "fn-38",
+      "type": "note",
+      "marker": "38",
+      "en": "MDR, Annex XIV Part A (3) last paragraph.",
+      "he": "MDR, נספח XIV חלק A (3) פסקה אחרונה."
+    },
+    {
+      "id": "sec-4-d",
+      "type": "paragraph",
+      "en": "(d) The MDR notes specific requirements in addition to the demonstration of equivalence in order not to perform a clinical investigation which must be taken into account.",
+      "he": "(d) ה-MDR מציין דרישות ספציפיות בנוסף להוכחת שוויון-ערך, שיש לקחת בחשבון כדי שלא לערוך חקירה קלינית."
+    },
+    {
+      "id": "sec-4-d2",
+      "type": "paragraph",
+      "en": "A manufacturer of implantable devices and class III devices shall perform clinical investigations except if the device has been designed by modifications of a device already marketed by the same manufacturer and equivalence can be demonstrated according to the MDR. In this context, a marketed device is considered to be a device already placed on the market and CE marked with respect to either the MDR or the directives 93/42/EEC or 90/385/EEC. The CE marking should still be valid, should be based on an updated clinical evaluation, and the benefit/risk ratio for this device should be favourable.",
+      "he": "יצרן של מכשירים מושתלים ומכשירים מסיווג III יערוך חקירות קליניות, אלא אם המכשיר עוצב על ידי שינויים של מכשיר המשווק כבר על ידי אותו יצרן, וניתן להוכיח שוויון-ערך בהתאם ל-MDR³⁹. בהקשר זה, מכשיר משווק נחשב למכשיר שכבר הוצב בשוק וסומן ב-CE ביחס ל-MDR או להוראות 93/42/EEC או 90/385/EEC. סימון ה-CE עדיין צריך להיות תקף, צריך להתבסס על הערכה קלינית מעודכנת, ויחס התועלת/סיכון של מכשיר זה צריך להיות חיובי."
+    },
+    {
+      "id": "fn-39",
+      "type": "note",
+      "marker": "39",
+      "en": "MDR, Article 61 (4), and Annex XIV (3).",
+      "he": "MDR, סעיף 61 (4), ונספח XIV (3)."
+    },
+    {
+      "id": "sec-4-d3",
+      "type": "paragraph",
+      "en": "For a manufacturer of implantable devices and class III devices claiming equivalence to an already marketed device not manufactured by him, in addition to the requirements in MDR Article 61(4), the manufacturer must have a contract in place that allows full access to the technical documentation on an ongoing basis. Furthermore, the MDR also requires that the original clinical evaluation of the equivalent device has been performed in compliance with the requirements of the MDR. This implies that the presumed equivalent device is certified under the MDR. As such, it will not be possible to claim equivalence to a device certified with respect to the Directives 93/42/EEC or 90/385/EEC.",
+      "he": "עבור יצרן של מכשירים מושתלים ומכשירים מסיווג III הטוען לשוויון-ערך למכשיר משווק כבר שאינו מיוצר על ידו, בנוסף לדרישות שב-MDR סעיף 61(4), על היצרן להחזיק בחוזה תקף המאפשר גישה מלאה לתיעוד הטכני על בסיס שוטף⁴⁰. יתרה מזאת, ה-MDR מחייב גם כי ההערכה הקלינית המקורית של המכשיר שווה-הערך בוצעה בהתאם לדרישות ה-MDR. משמעות הדבר היא שהמכשיר המשוער כשווה-ערך מאושר לפי ה-MDR. ככזה, לא יהיה ניתן לטעון לשוויון-ערך למכשיר המאושר ביחס להוראות 93/42/EEC או 90/385/EEC."
+    },
+    {
+      "id": "fn-40",
+      "type": "note",
+      "marker": "40",
+      "en": "MDR, Article 61 (5).",
+      "he": "MDR, סעיף 61 (5)."
+    },
+    {
+      "id": "sec-4-e",
+      "type": "paragraph",
+      "en": "(e) For devices other than implantable devices and class III devices and where the manufacturer wants to claim equivalence, MDR Article 61 (3) is applicable. This requirement does not specify whether the device is presumed to be marketed within the EU. Therefore, it will be possible to claim equivalence to a device certified with respect to the Directives 93/42/EEC or 90/385/EEC or the MDR.",
+      "he": "(e) עבור מכשירים שאינם מכשירים מושתלים ומכשירים מסיווג III, ובמקרה שהיצרן מבקש לטעון לשוויון-ערך, חל MDR סעיף 61 (3). דרישה זו אינה מפרטת האם מניחים שהמכשיר משווק בתוך האיחוד האירופי. לפיכך, יהיה ניתן לטעון לשוויון-ערך למכשיר המאושר ביחס להוראות 93/42/EEC או 90/385/EEC או ל-MDR."
+    },
+    {
+      "id": "sec-4-e2",
+      "type": "paragraph",
+      "en": "However, exceptions can be considered, and equivalence claimed to a device that is not CE-marked, provided all relevant MDR requirements regarding equivalence and clinical evaluation can be met. This includes",
+      "he": "עם זאת, ניתן לשקול חריגים, ולטעון לשוויון-ערך למכשיר שאינו מסומן ב-CE, ובלבד שניתן לעמוד בכל דרישות ה-MDR הרלוונטיות בנוגע לשוויון-ערך ולהערכה הקלינית. הדבר כולל:"
+    },
+    {
+      "id": "sec-4-e-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "en": "that the manufacturer shall have sufficient levels of access to the data relating to devices with which they are claiming equivalence. In the circumstance that the presumed equivalent device is from another manufacturer, there is no MDR requirement of a contract between the manufacturers for regulating the access to the technical documentation.",
+          "he": "כי ליצרן יהיו רמות גישה מספקות לנתונים הנוגעים למכשירים שביחס אליהם הוא טוען לשוויון-ערך⁴¹. במצב שבו המכשיר המשוער כשווה-ערך הוא של יצרן אחר, אין דרישה ב-MDR לחוזה בין היצרנים להסדרת הגישה לתיעוד הטכני."
+        },
+        {
+          "en": "that clinical investigations were conducted in accordance with international guidelines",
+          "he": "כי חקירות קליניות נערכו בהתאם להנחיות בין-לאומיות⁴²"
+        },
+        {
+          "en": "that the clinical data meet the requirements of the MDR, and a justification is provided whether the clinical data are transferrable to the European population.",
+          "he": "כי הנתונים הקליניים עומדים בדרישות ה-MDR, וכי ניתנת הצדקה האם הנתונים הקליניים ניתנים להעברה לאוכלוסייה האירופית."
+        }
+      ]
+    },
+    {
+      "id": "fn-41",
+      "type": "note",
+      "marker": "41",
+      "en": "MDR, Annex XIV Part A (3) the last sentence.",
+      "he": "MDR, נספח XIV חלק A (3) המשפט האחרון."
+    },
+    {
+      "id": "fn-42",
+      "type": "note",
+      "marker": "42",
+      "en": "MDR, Recital (64) Clinical investigation of medical devices for human subjects – Good clinical practice (ISO 14155), and World Medical Association Declaration of Helsinki on Ethical Principles for Medical Research Involving Human Subjects.",
+      "he": "MDR, מבוא (64) חקירה קלינית של מכשירים רפואיים בנבדקים אנושיים – פרקטיקה קלינית טובה (ISO 14155), והצהרת הלסינקי של ההסתדרות הרפואית העולמית בנושא עקרונות אתיים למחקר רפואי המערב נבדקים אנושיים."
+    },
+    {
+      "id": "sec-4-e3",
+      "type": "paragraph",
+      "en": "The regulatory status of the presumed equivalent device should be disclosed. See MEDDEV 2.7/1 rev. 4 Appendix A1 for further guidance.",
+      "he": "יש לחשוף את המעמד הרגולטורי של המכשיר המשוער כשווה-ערך. ראה MEDDEV 2.7/1 rev. 4 נספח A1 להנחיה נוספת."
+    },
+    {
+      "id": "sec-4-f",
+      "type": "paragraph",
+      "en": "(f) In case of products without an intended medical purpose listed in MDR Annex XVI clinical investigations shall be performed for those products unless reliance on existing clinical data from an analogous medical device is duly justified. An analogous device, in this context, is understood as a medical device which is similar in terms of functioning and risks profile and has a medical purpose. To duly justify reliance on existing clinical data from an analogous medical device, the principles of demonstration of equivalence should be applied with the acceptance that the device under evaluation will only have an aesthetic or another non-medical purpose whereas the analogous device has a medical purpose. The general requirement to demonstrate a clinical benefit shall be understood as a requirement to demonstrate the performance of the device.",
+      "he": "(f) במקרה של מוצרים ללא מטרה רפואית מיועדת המנויים בנספח XVI ל-MDR, יבוצעו חקירות קליניות עבור מוצרים אלה, אלא אם ההסתמכות על נתונים קליניים קיימים ממכשיר רפואי אנלוגי מוצדקת כראוי⁴³. מכשיר אנלוגי, בהקשר זה, מובן כמכשיר רפואי הדומה מבחינת התפקוד ופרופיל הסיכונים ובעל מטרה רפואית⁴⁴. כדי להצדיק כראוי הסתמכות על נתונים קליניים קיימים ממכשיר רפואי אנלוגי, יש ליישם את עקרונות הוכחת שוויון-הערך⁴⁵ תוך קבלת ההנחה שלמכשיר הנמצא בהערכה תהיה מטרה אסתטית בלבד או מטרה לא-רפואית אחרת, בעוד שלמכשיר האנלוגי יש מטרה רפואית. הדרישה הכללית להוכיח תועלת קלינית⁴⁶ תובן כדרישה להוכיח את ביצועי המכשיר."
+    },
+    {
+      "id": "fn-43",
+      "type": "note",
+      "marker": "43",
+      "en": "MDR, Article 61 (9).",
+      "he": "MDR, סעיף 61 (9)."
+    },
+    {
+      "id": "fn-44",
+      "type": "note",
+      "marker": "44",
+      "en": "MDR, Recital (12).",
+      "he": "MDR, מבוא (12)."
+    },
+    {
+      "id": "fn-45",
+      "type": "note",
+      "marker": "45",
+      "en": "MDR, Annex XIV Part A (3).",
+      "he": "MDR, נספח XIV חלק A (3)."
+    },
+    {
+      "id": "fn-46",
+      "type": "note",
+      "marker": "46",
+      "en": "MDR, Article 61 and Annexes XIV and XV.",
+      "he": "MDR, סעיף 61 ונספחים XIV ו-XV."
+    },
+    {
+      "id": "sec-4-f2",
+      "type": "paragraph",
+      "en": "In addition, since the common specifications (CS) for the products without an intended medical purpose may have requirements related to the clinical evaluation regarding safety these requirements must be taken into consideration when demonstrating equivalence and concluding whether there would be no clinically significant difference in the safety.",
+      "he": "בנוסף, מאחר שהמפרטים המשותפים (CS) עבור מוצרים ללא מטרה רפואית מיועדת עשויים לכלול דרישות הקשורות להערכה הקלינית בנוגע לבטיחות⁴⁷, יש לקחת דרישות אלה בחשבון בעת הוכחת שוויון-ערך ובעת קביעה האם לא יהיה הבדל בעל משמעות קלינית בבטיחות⁴⁸."
+    },
+    {
+      "id": "fn-47",
+      "type": "note",
+      "marker": "47",
+      "en": "MDR, Article 1 (2).",
+      "he": "MDR, סעיף 1 (2)."
+    },
+    {
+      "id": "fn-48",
+      "type": "note",
+      "marker": "48",
+      "en": "MDR, Annex XIV Part A (3).",
+      "he": "MDR, נספח XIV חלק A (3)."
+    },
+    {
+      "id": "sec-4-f3",
+      "type": "paragraph",
+      "en": "There shall be no significant difference in the safety and performance between the product and the presumed analogous medical device.",
+      "he": "לא יהיה הבדל משמעותי בבטיחות ובביצועים בין המוצר לבין המכשיר הרפואי המשוער כאנלוגי."
+    },
+
+    {
+      "id": "sec-5",
+      "type": "heading",
+      "level": 1,
+      "number": "5",
+      "en": "Use of data from similar devices",
+      "he": "שימוש בנתונים ממכשירים דומים"
+    },
+    {
+      "id": "sec-5-p1",
+      "type": "paragraph",
+      "en": "The term 'similar devices' may be understood as devices belonging to the same generic device group. The MDR defines this as a set of devices having the same or similar intended purposes or a commonality of technology allowing them to be classified in a generic manner not reflecting specific characteristics.",
+      "he": "המונח 'מכשירים דומים' עשוי להיות מובן כמכשירים השייכים לאותה קבוצת מכשירים גנרית. ה-MDR מגדיר זאת⁴⁹ כמערך של מכשירים בעלי מטרות מיועדות זהות או דומות, או בעלי משותפות טכנולוגית המאפשרת לסווגם באופן גנרי שאינו משקף מאפיינים ספציפיים."
+    },
+    {
+      "id": "fn-49",
+      "type": "note",
+      "marker": "49",
+      "en": "MDR, Article 2 (7).",
+      "he": "MDR, סעיף 2 (7)."
+    },
+    {
+      "id": "sec-5-p2",
+      "type": "paragraph",
+      "en": "In cases where equivalence cannot be demonstrated under the MDR, the data from similar devices may be useful for a variety of other purposes, for example:",
+      "he": "במקרים שבהם לא ניתן להוכיח שוויון-ערך לפי ה-MDR, הנתונים ממכשירים דומים עשויים להיות שימושיים למגוון מטרות אחרות, למשל:"
+    },
+    {
+      "id": "sec-5-list",
+      "type": "list",
+      "ordered": true,
+      "items": [
+        {
+          "en": "Ensuring that the risk management system is comprehensive by identifying relevant hazards and clinical risks.",
+          "he": "הבטחה שמערכת ניהול הסיכונים מקיפה, באמצעות זיהוי סיכונים (hazards) רלוונטיים וסיכונים קליניים."
+        },
+        {
+          "en": "Understanding the state of the art, the natural course of disease and alternative available treatment options.",
+          "he": "הבנת מצב הידע העדכני (state of the art), המהלך הטבעי של המחלה ואפשרויות טיפול חלופיות זמינות."
+        },
+        {
+          "en": "Helping to define the scope of the clinical evaluation, by identifying any design features in similar devices that pose special performance or safety concerns.",
+          "he": "סיוע בהגדרת תחולת ההערכה הקלינית, באמצעות זיהוי כל מאפייני תכן במכשירים דומים המעלים חששות ביצועים או בטיחות מיוחדים."
+        },
+        {
+          "en": "Provide input for clinical investigation design or post-market clinical follow-up design, and the post-market surveillance system.",
+          "he": "מתן קלט לתכנון חקירה קלינית או לתכנון מעקב קליני שלאחר שיווק (post-market clinical follow-up), ולמערכת המעקב שלאחר שיווק."
+        },
+        {
+          "en": "Identification of relevant and specified clinical outcome parameters for the intended clinical benefits, based on the published clinical data pertaining to the similar device(s).",
+          "he": "זיהוי פרמטרים של תוצאה קלינית רלוונטיים ומפורטים עבור התועלות הקליניות המיועדות, בהתבסס על הנתונים הקליניים שפורסמו הנוגעים למכשיר/ים הדומה/ים."
+        },
+        {
+          "en": "To define minimum requirements for a quantified clinical benefit that is considered clinically relevant, and/or to identify acceptable occurrence rates of risks and adverse events.",
+          "he": "להגדרת דרישות מינימום עבור תועלת קלינית מכומתת הנחשבת רלוונטית קלינית, ו/או לזיהוי שיעורי התרחשות מקובלים של סיכונים ואירועי לוואי."
+        }
+      ]
+    },
+
+    {
+      "id": "sec-6",
+      "type": "heading",
+      "level": 1,
+      "number": "6",
+      "en": "Clinical data identification",
+      "he": "זיהוי נתונים קליניים"
+    },
+    {
+      "id": "sec-6-p1",
+      "type": "paragraph",
+      "en": "A clinical evaluation of the device under assessment shall be made according to the MDR. All the clinical data, both favourable and unfavourable shall be identified. This applies to clinical data from both the device in question and the device for which equivalence can be demonstrated. If the data meet the definition of clinical data as defined in the MDR, the data shall then progress to data appraisal and analysis in order to evaluate whether the clinical data are providing sufficient clinical evidence for the purpose of confirmation of conformity with the relevant general safety and performance requirements (GSPR).",
+      "he": "תיערך הערכה קלינית של המכשיר הנמצא בהערכה בהתאם ל-MDR⁵⁰. כל הנתונים הקליניים, הן החיוביים והן השליליים, יזוהו. הדבר חל על נתונים קליניים הן מהמכשיר הנדון והן מהמכשיר שביחס אליו ניתן להוכיח שוויון-ערך. אם הנתונים עומדים בהגדרת הנתונים הקליניים כמוגדר ב-MDR⁵¹, הנתונים יעברו אז להערכה (appraisal) ולניתוח של הנתונים, כדי להעריך האם הנתונים הקליניים מספקים ראיות קליניות מספיקות לצורך אישור התאמה לדרישות הכלליות הרלוונטיות לבטיחות וביצועים (GSPR)⁵²."
+    },
+    {
+      "id": "fn-50",
+      "type": "note",
+      "marker": "50",
+      "en": "MDR, Annex XIV Part A.",
+      "he": "MDR, נספח XIV חלק A."
+    },
+    {
+      "id": "fn-51",
+      "type": "note",
+      "marker": "51",
+      "en": "MDR, Article 2 (48).",
+      "he": "MDR, סעיף 2 (48)."
+    },
+    {
+      "id": "fn-52",
+      "type": "note",
+      "marker": "52",
+      "en": "MDR, Annex I.",
+      "he": "MDR, נספח I."
+    },
+    {
+      "id": "sec-6-p2",
+      "type": "paragraph",
+      "en": "For identifying, appraising and analysing available clinical data from the scientific literature to establish clinical evidence, manufacturers will find facilitative guidance in sections 8-10 of MEDDEV 2.7/1 rev. 4.",
+      "he": "לצורך זיהוי, הערכה וניתוח של נתונים קליניים זמינים מהספרות המדעית כדי לבסס ראיות קליניות⁵³, יצרנים ימצאו הנחיה מסייעת בסעיפים 8-10 של MEDDEV 2.7/1 rev. 4."
+    },
+    {
+      "id": "fn-53",
+      "type": "note",
+      "marker": "53",
+      "en": "MDR, Article 2 (51).",
+      "he": "MDR, סעיף 2 (51)."
+    },
+    {
+      "id": "sec-6-p3",
+      "type": "paragraph",
+      "en": "In the event that the data do not meet the MDR definition of clinical data these are not clinical data and cannot be subject to data appraisal, analysis and evaluation for the purpose of providing clinical evidence for the confirmation of conformity with the relevant GSPR.",
+      "he": "במקרה שהנתונים אינם עומדים בהגדרת ה-MDR לנתונים קליניים, אין אלה נתונים קליניים ולא ניתן להכפיפם להערכה, לניתוח ולהערכה של נתונים לצורך מתן ראיות קליניות לאישור התאמה ל-GSPR הרלוונטיות."
+    },
+
+    {
+      "id": "annex-1",
+      "type": "heading",
+      "level": 1,
+      "number": "Annex I",
+      "en": "Annex I – Equivalence table",
+      "he": "נספח I – טבלת שוויון-ערך"
+    },
+    {
+      "id": "annex-1-p1",
+      "type": "paragraph",
+      "en": "A table, such as the table below, may be used to clearly demonstrate equivalence and to identify the supporting data on a device by device basis. The items in the first column of the table are examples only and are to be considered as such. They must not be interpreted as an exhaustive list of specifications, properties, parameters and/or aspects for demonstrating equivalence to another device.",
+      "he": "ניתן להשתמש בטבלה, כגון הטבלה שלהלן, כדי להוכיח שוויון-ערך באופן ברור ולזהות את הנתונים התומכים על בסיס מכשיר-אחר-מכשיר. הפריטים בעמודה הראשונה של הטבלה הם דוגמאות בלבד ויש להתייחס אליהם ככאלה. אין לפרשם כרשימה ממצה של מפרטים, תכונות, פרמטרים ו/או היבטים להוכחת שוויון-ערך למכשיר אחר."
+    },
+    {
+      "id": "annex-1-p2",
+      "type": "paragraph",
+      "en": "The manufacturer should identify differences and place emphasis on the differences between the two devices rather than the similarities. Considerations shall include the potential additive effect of multiple small differences. For further considerations of equivalence, see sections 3 and 4 in this document.",
+      "he": "על היצרן לזהות הבדלים ולשים דגש על ההבדלים בין שני המכשירים יותר מאשר על הדמיון. השקילה תכלול את האפקט המצטבר האפשרי של הבדלים קטנים מרובים. לשקילה נוספת של שוויון-ערך, ראה סעיפים 3 ו-4 במסמך זה."
+    },
+    {
+      "id": "annex-1-p3",
+      "type": "paragraph",
+      "en": "Scientific justifications shall be provided for the different characteristics when claiming no clinically significant difference in the safety and clinical performance of the device. Where more than one device is assessed for equivalence, the table should be completed separately for each presumed equivalent device. The documentation of the demonstration of equivalence shall be included in the clinical evaluation report.",
+      "he": "תינתנה הצדקות מדעיות עבור המאפיינים השונים בעת טענה שאין הבדל בעל משמעות קלינית בבטיחות ובביצועים הקליניים של המכשיר. במקום שבו נבחן יותר ממכשיר אחד לשוויון-ערך, יש למלא את הטבלה בנפרד עבור כל מכשיר משוער כשווה-ערך. תיעוד הוכחת שוויון-הערך ייכלל בדוח ההערכה הקלינית."
+    },
+    {
+      "id": "annex-1-table-caption",
+      "type": "paragraph",
+      "en": "Equivalence table for the comparison of a device with a presumed equivalent marketed device for the purpose of demonstrating equivalence.",
+      "he": "טבלת שוויון-ערך להשוואת מכשיר עם מכשיר משווק משוער כשווה-ערך, לצורך הוכחת שוויון-ערך."
+    },
+    {
+      "id": "annex-1-table-technical",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          { "en": "1. Technical characteristics (add a separate row for each of the assessed characteristics)", "he": "1. מאפיינים טכניים (הוסף שורה נפרדת עבור כל אחד מהמאפיינים הנבחנים)" },
+          { "en": "Device 1 (under clinical evaluation) – Description of characteristics and reference to specifying documents", "he": "מכשיר 1 (הנמצא בהערכה קלינית) – תיאור המאפיינים והפניה למסמכים מפרטים" },
+          { "en": "Device 2 (marketed device) – Description of characteristics and reference to specifying documents", "he": "מכשיר 2 (מכשיר משווק) – תיאור המאפיינים והפניה למסמכים מפרטים" },
+          { "en": "Identified differences or conclusion that there are no differences in the characteristic", "he": "הבדלים שזוהו או מסקנה כי אין הבדלים במאפיין" }
+        ],
+        [
+          { "en": "1.1 Device is of similar design", "he": "1.1 המכשיר הוא בעל תכן דומה" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" }
+        ],
+        [
+          { "en": "1.2 Used under similar conditions of use", "he": "1.2 משמש בתנאי שימוש דומים" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" }
+        ],
+        [
+          { "en": "1.3 Similar specifications and properties including physiochemical properties such as intensity of energy, tensile strength, viscosity, surface characteristics, wavelength and software algorithms", "he": "1.3 מפרטים ותכונות דומים, לרבות תכונות פיזיקוכימיות כגון עוצמת אנרגיה, חוזק מתיחה, צמיגות, מאפייני משטח, אורך גל ואלגוריתמי תוכנה" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" }
+        ],
+        [
+          { "en": "1.4 Uses similar deployment methods where relevant", "he": "1.4 משתמש בשיטות פריסה דומות היכן שרלוונטי" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" }
+        ],
+        [
+          { "en": "1.5 Has similar principles of operation and critical performance requirements", "he": "1.5 בעל עקרונות פעולה ודרישות ביצוע קריטיות דומים" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" }
+        ]
+      ]
+    },
+    {
+      "id": "annex-1-table-technical-just",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          { "en": "Scientific justification why there would be no clinically significant difference in the safety and clinical performance of the device, OR a description of the impact on safety and or clinical performance (use one row for each of the identified differences in characteristics, and add references to documentation as applicable)", "he": "הצדקה מדעית מדוע לא יהיה הבדל בעל משמעות קלינית בבטיחות ובביצועים הקליניים של המכשיר, או תיאור ההשפעה על הבטיחות ו/או הביצועים הקליניים (השתמש בשורה אחת עבור כל אחד מההבדלים שזוהו במאפיינים, והוסף הפניות לתיעוד ככל שרלוונטי)" },
+          { "en": "Clinically significant difference Yes / No", "he": "הבדל בעל משמעות קלינית כן / לא" }
+        ],
+        [ { "en": "1.1", "he": "1.1" }, { "en": "", "he": "" } ],
+        [ { "en": "1.2", "he": "1.2" }, { "en": "", "he": "" } ],
+        [ { "en": "1.3", "he": "1.3" }, { "en": "", "he": "" } ],
+        [ { "en": "1.4", "he": "1.4" }, { "en": "", "he": "" } ],
+        [ { "en": "1.5", "he": "1.5" }, { "en": "", "he": "" } ]
+      ]
+    },
+    {
+      "id": "annex-1-table-biological",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          { "en": "2. Biological characteristics (add a separate row for each of the assessed characteristics)", "he": "2. מאפיינים ביולוגיים (הוסף שורה נפרדת עבור כל אחד מהמאפיינים הנבחנים)" },
+          { "en": "Device 1 – Description of characteristics and reference to specifying documents", "he": "מכשיר 1 – תיאור המאפיינים והפניה למסמכים מפרטים" },
+          { "en": "Device 2 (marketed device) – Description of characteristics and reference to specifying documents", "he": "מכשיר 2 (מכשיר משווק) – תיאור המאפיינים והפניה למסמכים מפרטים" },
+          { "en": "Identified differences or conclusion that there are no differences in the characteristic", "he": "הבדלים שזוהו או מסקנה כי אין הבדלים במאפיין" }
+        ],
+        [
+          { "en": "2.1 Uses the same materials or substances in contact with the same human tissues or body fluids (The characteristic must be the same for the demonstration of equivalence)", "he": "2.1 משתמש באותם חומרים או חומרי גלם במגע עם אותם רקמות אנושיות או נוזלי גוף (המאפיין חייב להיות זהה לצורך הוכחת שוויון-ערך)" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" }
+        ],
+        [
+          { "en": "2.2 Similar kind and duration of contact with the same human tissues or body fluids", "he": "2.2 סוג ומשך מגע דומים עם אותם רקמות אנושיות או נוזלי גוף" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" }
+        ],
+        [
+          { "en": "2.3 Similar release characteristics of substances including degradation products and leachables", "he": "2.3 מאפייני שחרור דומים של חומרים, לרבות מוצרי פירוק וחומרים נשטפים" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" }
+        ]
+      ]
+    },
+    {
+      "id": "annex-1-table-biological-just",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          { "en": "Scientific justification why there would be no clinically significant difference in the safety and clinical performance of the device, OR a description of the impact on safety and or clinical performance (use one row for each of the identified differences in characteristics, and add references to documentation as applicable)", "he": "הצדקה מדעית מדוע לא יהיה הבדל בעל משמעות קלינית בבטיחות ובביצועים הקליניים של המכשיר, או תיאור ההשפעה על הבטיחות ו/או הביצועים הקליניים (השתמש בשורה אחת עבור כל אחד מההבדלים שזוהו במאפיינים, והוסף הפניות לתיעוד ככל שרלוונטי)" },
+          { "en": "Clinically significant difference Yes / No", "he": "הבדל בעל משמעות קלינית כן / לא" }
+        ],
+        [ { "en": "2.1", "he": "2.1" }, { "en": "", "he": "" } ],
+        [ { "en": "2.2", "he": "2.2" }, { "en": "", "he": "" } ],
+        [ { "en": "2.3", "he": "2.3" }, { "en": "", "he": "" } ]
+      ]
+    },
+    {
+      "id": "annex-1-table-clinical",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          { "en": "3. Clinical characteristics (add a separate row for each of the assessed characteristics)", "he": "3. מאפיינים קליניים (הוסף שורה נפרדת עבור כל אחד מהמאפיינים הנבחנים)" },
+          { "en": "Device 1 – Description of characteristics and reference to specifying documents", "he": "מכשיר 1 – תיאור המאפיינים והפניה למסמכים מפרטים" },
+          { "en": "Device 2 (marketed device) – Description of characteristics and reference to specifying documents", "he": "מכשיר 2 (מכשיר משווק) – תיאור המאפיינים והפניה למסמכים מפרטים" },
+          { "en": "Identified differences or conclusion that there are no differences in the characteristic", "he": "הבדלים שזוהו או מסקנה כי אין הבדלים במאפיין" }
+        ],
+        [
+          { "en": "3.1 Same clinical condition or purpose, including similar severity and stage of disease", "he": "3.1 אותו מצב קליני או מטרה, לרבות חומרה ושלב מחלה דומים" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" }
+        ],
+        [
+          { "en": "3.2 Same site in the body (The characteristic must be the same for the demonstration of equivalence)", "he": "3.2 אותו אתר בגוף (המאפיין חייב להיות זהה לצורך הוכחת שוויון-ערך)" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" }
+        ],
+        [
+          { "en": "3.3 Similar population, including as regards age, anatomy and physiology", "he": "3.3 אוכלוסייה דומה, לרבות בכל הנוגע לגיל, אנטומיה ופיזיולוגיה" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" }
+        ],
+        [
+          { "en": "3.4 Same kind of user (The characteristic must be the same for the demonstration of equivalence)", "he": "3.4 אותו סוג משתמש (המאפיין חייב להיות זהה לצורך הוכחת שוויון-ערך)" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" }
+        ],
+        [
+          { "en": "3.5 Similar relevant critical performance in view of the expected clinical effect for a specific intended purpose", "he": "3.5 ביצועים קריטיים רלוונטיים דומים בהתחשב באפקט הקליני הצפוי עבור מטרה מיועדת ספציפית" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" }
+        ]
+      ]
+    },
+    {
+      "id": "annex-1-table-clinical-just",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          { "en": "Scientific justification why there would be no clinically significant difference in the safety and clinical performance of the device, OR a description of the impact on safety and or clinical performance (use one row for each of the identified differences in characteristics, and add references to documentation as applicable)", "he": "הצדקה מדעית מדוע לא יהיה הבדל בעל משמעות קלינית בבטיחות ובביצועים הקליניים של המכשיר, או תיאור ההשפעה על הבטיחות ו/או הביצועים הקליניים (השתמש בשורה אחת עבור כל אחד מההבדלים שזוהו במאפיינים, והוסף הפניות לתיעוד ככל שרלוונטי)" },
+          { "en": "Clinically significant difference Yes / No", "he": "הבדל בעל משמעות קלינית כן / לא" }
+        ],
+        [ { "en": "3.1", "he": "3.1" }, { "en": "", "he": "" } ],
+        [ { "en": "3.2", "he": "3.2" }, { "en": "", "he": "" } ],
+        [ { "en": "3.3", "he": "3.3" }, { "en": "", "he": "" } ],
+        [ { "en": "3.4", "he": "3.4" }, { "en": "", "he": "" } ],
+        [ { "en": "3.5", "he": "3.5" }, { "en": "", "he": "" } ]
+      ]
+    },
+    {
+      "id": "annex-1-summary",
+      "type": "note",
+      "marker": "Summary",
+      "en": "Summary: In the circumstance that more than one non-significant difference is identified, provide a justification whether the sum of differences may affect the safety and clinical performance of the device.",
+      "he": "סיכום: במצב שבו זוהה יותר מהבדל לא-משמעותי אחד, יש לספק הצדקה האם סך ההבדלים עשוי להשפיע על הבטיחות והביצועים הקליניים של המכשיר."
+    }
+  ]
+}

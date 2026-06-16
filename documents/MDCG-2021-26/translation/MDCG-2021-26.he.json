@@ -1,0 +1,668 @@
+{
+  "id": "MDCG-2021-26",
+  "title": {
+    "en": "Questions and Answers on repackaging & relabelling activities under Article 16 of Regulation (EU) 2017/745 and Regulation (EU) 2017/746",
+    "he": "שאלות ותשובות בנושא פעילויות אריזה מחדש ותיוג מחדש לפי סעיף 16 לתקנה (האיחוד האירופי) 2017/745 ולתקנה (האיחוד האירופי) 2017/746"
+  },
+  "category": "Authorised Representatives, Importers, Distributors",
+  "publicationDate": "2021-10",
+  "source": {
+    "url": "https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en",
+    "file": "original/mdcg_2021-26_en.pdf"
+  },
+  "language": "he",
+  "direction": "rtl",
+  "translationStatus": "review",
+  "glossaryVersion": "2026-06",
+  "blocks": [
+    {
+      "id": "disclaimer-1",
+      "type": "paragraph",
+      "en": "This document has been endorsed by the Medical Device Coordination Group (MDCG) established by Article 103 of Regulation (EU) 2017/745. The MDCG is composed of representatives of all Member States and it is chaired by a representative of the European Commission.",
+      "he": "מסמך זה אושר על ידי קבוצת תיאום המכשירים הרפואיים (MDCG) שהוקמה מכוח סעיף 103 לתקנה (האיחוד האירופי) 2017/745. ה-MDCG מורכבת מנציגים של כל המדינות החברות ובראשה עומד נציג של הנציבות האירופית."
+    },
+    {
+      "id": "disclaimer-2",
+      "type": "paragraph",
+      "en": "The document is not a European Commission document and it cannot be regarded as reflecting the official position of the European Commission. Any views expressed in this document are not legally binding and only the Court of Justice of the European Union can give binding interpretations of Union law.",
+      "he": "המסמך אינו מסמך של הנציבות האירופית ואין לראות בו כמשקף את העמדה הרשמית של הנציבות האירופית. כל דעה המובעת במסמך זה אינה מחייבת מבחינה משפטית, ורק בית הדין לצדק של האיחוד האירופי מוסמך לתת פרשנות מחייבת לדין האיחוד."
+    },
+
+    {
+      "id": "sec-1",
+      "type": "heading",
+      "level": 1,
+      "number": "1",
+      "en": "Introduction",
+      "he": "מבוא"
+    },
+    {
+      "id": "sec-1-p1",
+      "type": "paragraph",
+      "en": "This document presents questions and answers about obligations introduced by Article 16(2) to (4) under Regulation (EU) 2017/745 on medical devices (MDR) and Regulation (EU) 2017/746 on in vitro diagnostic medical devices (IVDR). Reference to 'the Regulations' should be understood to cover both the MDR & IVDR.",
+      "he": "מסמך זה מציג שאלות ותשובות בנוגע לחובות שהונהגו בסעיף 16(2) עד (4) לתקנה (האיחוד האירופי) 2017/745 בנושא מכשירים רפואיים (MDR) ולתקנה (האיחוד האירופי) 2017/746 בנושא מכשירים רפואיים לאבחון in vitro (IVDR). הפנייה ל\"תקנות\" תובן כמתייחסת הן ל-MDR והן ל-IVDR."
+    },
+    {
+      "id": "sec-1-p2",
+      "type": "paragraph",
+      "en": "Article 16(1) of the Regulations outlines cases where the obligations of manufacturers also apply to importers, distributors or other natural or legal persons, and is not in the scope of this questions and answers document.",
+      "he": "סעיף 16(1) לתקנות מתאר מקרים שבהם חובות היצרנים חלות גם על יבואנים, מפיצים או אנשים טבעיים או משפטיים אחרים, ואינו בתחולת מסמך שאלות ותשובות זה."
+    },
+    {
+      "id": "sec-1-p3",
+      "type": "paragraph",
+      "en": "Article 16(2) of the Regulations specifies the cases in which certain activities of importers and distributors are not considered modifications of a device, within the meaning of Article 16(1)(c), that could affect its compliance with the applicable requirements. In such cases, importers and distributors do not assume the obligations of the manufacturer.",
+      "he": "סעיף 16(2) לתקנות מציין את המקרים שבהם פעילויות מסוימות של יבואנים ומפיצים אינן נחשבות לשינויים במכשיר, במשמעות סעיף 16(1)(ג), העלולים להשפיע על עמידתו בדרישות החלות. במקרים כאלה, יבואנים ומפיצים אינם נוטלים על עצמם את חובות היצרן."
+    },
+    {
+      "id": "sec-1-p4",
+      "type": "paragraph",
+      "en": "These cases include:",
+      "he": "מקרים אלה כוללים:"
+    },
+    {
+      "id": "sec-1-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "en": "a) supplying of information, translation of information supplied by the manufacturer including the Instructions for Use (IFU), necessary to market the device in the Member State in question (relabelling)",
+          "he": "א) אספקת מידע, תרגום מידע שסיפק היצרן לרבות הוראות השימוש (IFU), הנחוצים לשיווק המכשיר במדינה החברה הנוגעת בדבר (תיוג מחדש)"
+        },
+        {
+          "en": "b) changes to the outer packaging of a device already placed on the market, necessary to market the device in the Member State in question (repackaging).",
+          "he": "ב) שינויים באריזה החיצונית של מכשיר שכבר הוצב בשוק, הנחוצים לשיווק המכשיר במדינה החברה הנוגעת בדבר (אריזה מחדש)."
+        }
+      ]
+    },
+    {
+      "id": "sec-1-p5",
+      "type": "paragraph",
+      "en": "For the importers and distributors identified in Article 16(2) (often referred to as 'parallel traders'1) there are certain obligations, other than those of the manufacturer, which are described in Articles 16(3) and (4) of the Regulations.",
+      "he": "ליבואנים ולמפיצים המזוהים בסעיף 16(2) (המכונים לעיתים קרובות \"סוחרים מקבילים\"¹) יש חובות מסוימות, השונות מאלו של היצרן, המתוארות בסעיפים 16(3) ו-(4) לתקנות."
+    },
+    {
+      "id": "sec-1-p6",
+      "type": "paragraph",
+      "en": "Further guidance on the quality management system referred to in Article 16(3) of the Regulations and related certification activities carried out by the notified bodies, is provided in MDCG 2021-23 'Guidance for notified bodies on certification activities according to Article 16(4) of Regulation (EU) 2017/745 and Regulation (EU) 2017/746'.",
+      "he": "הנחיות נוספות בנוגע למערכת ניהול האיכות הנזכרת בסעיף 16(3) לתקנות ולפעילויות ההסמכה הקשורות המבוצעות על ידי הגופים המאונתרים, ניתנות במסמך MDCG 2021-23 \"הנחיה לגופים מאונתרים בנוגע לפעילויות הסמכה לפי סעיף 16(4) לתקנה (האיחוד האירופי) 2017/745 ולתקנה (האיחוד האירופי) 2017/746\"."
+    },
+    {
+      "id": "fn-1",
+      "type": "note",
+      "marker": "1",
+      "en": "Please see Recital 37 of Regulation (EU) 2017/745/ Recital 36 of Regulation (EU) 2017/746",
+      "he": "ראה פסקה מקדמית 37 לתקנה (האיחוד האירופי) 2017/745 / פסקה מקדמית 36 לתקנה (האיחוד האירופי) 2017/746"
+    },
+
+    {
+      "id": "sec-2",
+      "type": "heading",
+      "level": 1,
+      "number": "2",
+      "en": "Scope",
+      "he": "תחולה"
+    },
+    {
+      "id": "sec-2-p1",
+      "type": "paragraph",
+      "en": "The questions covered by this document aim to guide economic operators carrying out any of the activities mentioned in points (a) and (b) of Article 16(2) of the Regulations concerning relabelling and repackaging of devices.",
+      "he": "השאלות הנכללות במסמך זה נועדו להנחות גורמים כלכליים המבצעים כל אחת מהפעילויות הנזכרות בפסקאות (א) ו-(ב) של סעיף 16(2) לתקנות, הנוגעות לתיוג מחדש ולאריזה מחדש של מכשירים."
+    },
+    {
+      "id": "sec-2-p2",
+      "type": "paragraph",
+      "en": "It is not intended to address the quality management system and related certification activities, which is provided in MDCG 2021-232, nor elaborate on Article 16(1) of the Regulations.",
+      "he": "אין בכוונתו לעסוק במערכת ניהול האיכות ובפעילויות ההסמכה הקשורות, אשר ניתנות במסמך MDCG 2021-23², ואף לא להרחיב בנוגע לסעיף 16(1) לתקנות."
+    },
+    {
+      "id": "sec-2-p3",
+      "type": "paragraph",
+      "en": "It is also noted that Article 16(2), (3) and (4) of the Regulations do not apply to operators subcontracted by the manufacturer (that may also qualify as importers or distributors), who also carry out relabelling and/or repackaging activities on behalf and under the control of the manufacturer.",
+      "he": "כן יצוין כי סעיף 16(2), (3) ו-(4) לתקנות אינו חל על גורמים בקבלנות משנה מטעם היצרן (אשר עשויים גם להיכלל בהגדרת יבואנים או מפיצים), המבצעים אף הם פעילויות תיוג מחדש ו/או אריזה מחדש בשם היצרן ותחת בקרתו."
+    },
+    {
+      "id": "fn-2",
+      "type": "note",
+      "marker": "2",
+      "en": "MDCG 2021-23 'Guidance for notified bodies on certification activities according to Article 16(4) of Regulation (EU) 2017/745 and Regulation (EU) 2017/746'",
+      "he": "MDCG 2021-23 \"הנחיה לגופים מאונתרים בנוגע לפעילויות הסמכה לפי סעיף 16(4) לתקנה (האיחוד האירופי) 2017/745 ולתקנה (האיחוד האירופי) 2017/746\""
+    },
+
+    {
+      "id": "sec-3",
+      "type": "heading",
+      "level": 1,
+      "number": "3",
+      "en": "Questions and Answers",
+      "he": "שאלות ותשובות"
+    },
+
+    {
+      "id": "q1",
+      "type": "heading",
+      "level": 2,
+      "number": "1",
+      "en": "Question 1 — Do Article 16(2), (3) and (4)3 apply only to importers and distributors or also \"other natural or legal person\" as mentioned in Article 16(1)?",
+      "he": "שאלה 1 — האם סעיף 16(2), (3) ו-(4)³ חל רק על יבואנים ומפיצים, או גם על \"אדם טבעי או משפטי אחר\" כנזכר בסעיף 16(1)?"
+    },
+    {
+      "id": "q1-p1",
+      "type": "paragraph",
+      "en": "Given that Article 16(3) sets out requirements for importers and distributors and in doing so, cross-references activities performed in points (a) and (b) of Article 16(2), it is considered that Article 16(2), (3) and (4) apply only to importers and distributors.",
+      "he": "בהינתן שסעיף 16(3) קובע דרישות עבור יבואנים ומפיצים, ובכך מפנה לפעילויות המבוצעות בפסקאות (א) ו-(ב) של סעיף 16(2), נחשב כי סעיף 16(2), (3) ו-(4) חל רק על יבואנים ומפיצים."
+    },
+    {
+      "id": "q1-p2",
+      "type": "paragraph",
+      "en": "It is noted that Article 16 (2), (3) and (4) do not apply in cases where a health institution or hospital splits up a large pack of devices, which they have received, into smaller pack sizes or individual units for use or circulation within the health institution/hospital. In this example, the activities are not performed in order to market the devices in the relevant Member state, and are therefore not within the scope of Article 16 (2), (3) and (4).",
+      "he": "יצוין כי סעיף 16(2), (3) ו-(4) אינו חל במקרים שבהם מוסד בריאות או בית חולים מפצל אריזה גדולה של מכשירים שקיבל לאריזות קטנות יותר או ליחידות בודדות לשימוש או לתפוצה בתוך מוסד הבריאות/בית החולים. בדוגמה זו, הפעילויות אינן מבוצעות לשם שיווק המכשירים במדינה החברה הרלוונטית, ולפיכך אינן בתחולת סעיף 16(2), (3) ו-(4)."
+    },
+
+    {
+      "id": "q2",
+      "type": "heading",
+      "level": 2,
+      "number": "2",
+      "en": "Question 2 — Do Article 16(3) and (4) of the MDR apply to 'legacy devices'?",
+      "he": "שאלה 2 — האם סעיף 16(3) ו-(4) ל-MDR חל על \"מכשירי מורשת\" (legacy devices)?"
+    },
+    {
+      "id": "q2-p1",
+      "type": "paragraph",
+      "en": "No, Article 16(3) and (4) of the MDR do not apply to 'legacy devices'. However, this is without prejudice to the possibility for economic operators to follow any MDR requirements also for 'legacy devices', especially if they deal with both 'legacy devices' and MDR devices and want to apply the same procedures for all devices.",
+      "he": "לא, סעיף 16(3) ו-(4) ל-MDR אינו חל על \"מכשירי מורשת\". עם זאת, אין בכך כדי לגרוע מהאפשרות שגורמים כלכליים יקיימו כל דרישה מדרישות ה-MDR גם לגבי \"מכשירי מורשת\", במיוחד אם הם מטפלים הן ב\"מכשירי מורשת\" והן במכשירי MDR ומבקשים להחיל את אותם הליכים על כל המכשירים."
+    },
+
+    {
+      "id": "q3",
+      "type": "heading",
+      "level": 2,
+      "number": "3",
+      "en": "Question 3 — For the activities mentioned in points (a) and (b) of Article 16(2), what is meant by 'necessary in order to market' the device in the relevant Member State'?",
+      "he": "שאלה 3 — לגבי הפעילויות הנזכרות בפסקאות (א) ו-(ב) של סעיף 16(2), מה משמעות \"נחוץ לשם שיווק\" המכשיר במדינה החברה הרלוונטית?"
+    },
+    {
+      "id": "q3-p1",
+      "type": "paragraph",
+      "en": "'Necessary in order to market' refers to conditions that should be met in order to market the device in that Member State. Whether a relabelling or repackaging activity is necessary, should be analysed on a case-by-case basis.",
+      "he": "\"נחוץ לשם שיווק\" מתייחס לתנאים שיש לקיים כדי לשווק את המכשיר באותה מדינה חברה. השאלה אם פעילות תיוג מחדש או אריזה מחדש נחוצה, צריכה להיבחן על בסיס כל מקרה לגופו."
+    },
+    {
+      "id": "q3-p2",
+      "type": "paragraph",
+      "en": "Examples of the abovementioned conditions may include (non-exhaustive list):",
+      "he": "דוגמאות לתנאים הנזכרים לעיל עשויות לכלול (רשימה לא ממצה):"
+    },
+    {
+      "id": "q3-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "en": "national language requirements for device information supplied by the manufacturer;",
+          "he": "דרישות שפה לאומיות לגבי מידע על המכשיר שסיפק היצרן;"
+        },
+        {
+          "en": "the need to supply in a new package, a specific number of devices different from the number of devices supplied in the original packaging by the manufacturer, for reasons of:",
+          "he": "הצורך לספק באריזה חדשה מספר מסוים של מכשירים השונה ממספר המכשירים שסופקו באריזה המקורית על ידי היצרן, מסיבות של:"
+        },
+        {
+          "en": "providing the healthcare system with pack sizes that are suitable for the needs of health institutions in that Member state;",
+          "he": "אספקת גדלי אריזה למערכת הבריאות המתאימים לצורכי מוסדות הבריאות באותה מדינה חברה;"
+        },
+        {
+          "en": "national practices authorising only a certain packaging size;",
+          "he": "פרקטיקות לאומיות המתירות רק גודל אריזה מסוים;"
+        },
+        {
+          "en": "health insurance rules making the reimbursement of medical expenses dependent on the size of the packaging;",
+          "he": "כללי ביטוח בריאות המתנים את החזר ההוצאות הרפואיות בגודל האריזה;"
+        },
+        {
+          "en": "well-established medical prescription practices.",
+          "he": "פרקטיקות מבוססות של מרשם רפואי."
+        }
+      ]
+    },
+    {
+      "id": "fn-3",
+      "type": "note",
+      "marker": "3",
+      "en": "Henceforth references to Article 16 and its subparagraphs in this document, should be understood as Article 16 of the Regulations (MDR/IVDR).",
+      "he": "מכאן ואילך, הפניות לסעיף 16 ולפסקאות המשנה שלו במסמך זה יובנו כסעיף 16 לתקנות (MDR/IVDR)."
+    },
+
+    {
+      "id": "q4",
+      "type": "heading",
+      "level": 2,
+      "number": "4",
+      "en": "Question 4 — Is the splitting-up of large quantities of devices in shipping containers4 into smaller quantities of devices in packages or individual units covered by Article 16(2)?",
+      "he": "שאלה 4 — האם פיצול כמויות גדולות של מכשירים במכולות משלוח⁴ לכמויות קטנות יותר של מכשירים באריזות או ביחידות בודדות נכלל בסעיף 16(2)?"
+    },
+    {
+      "id": "q4-p1",
+      "type": "paragraph",
+      "en": "It is not a \"relabelling\" or \"repackaging\" activity within the meaning of Article 16(2), if the importer or distributor is simply splitting-up larger quantities of devices (for example in a shipping container) into smaller quantities (for example packages, lots or individual units) for further supply in the distribution chain, including to the final user, provided that the outer packaging5 of the device in question is not affected (e.g. maintaining in particular, a device's sterile condition). Such splitting-up of packages is a common wholesale or retail practice and is not considered to fall within the scope of Article 16(2) of the Regulations.",
+      "he": "אין מדובר בפעילות \"תיוג מחדש\" או \"אריזה מחדש\" במשמעות סעיף 16(2), אם היבואן או המפיץ אך מפצל כמויות גדולות של מכשירים (למשל במכולת משלוח) לכמויות קטנות יותר (למשל אריזות, אצוות או יחידות בודדות) לשם המשך אספקה בשרשרת ההפצה, לרבות למשתמש הסופי, ובלבד שהאריזה החיצונית⁵ של המכשיר הנדון אינה מושפעת (למשל שמירה, בפרט, על מצב הסטריליות של המכשיר). פיצול אריזות מסוג זה הוא פרקטיקה מקובלת בסיטונאות או בקמעונאות ואינו נחשב כנכלל בתחולת סעיף 16(2) לתקנות."
+    },
+    {
+      "id": "q4-p2",
+      "type": "paragraph",
+      "en": "An example of this is a distributor that buys syringes in large quantities, which are received in large pack sizes in a shipping container. The distributor then splits up the large packs into smaller quantities (e.g. sales packages consisting of individual units) in order to provide them to vaccination centres and general practitioners.",
+      "he": "דוגמה לכך היא מפיץ הרוכש מזרקים בכמויות גדולות, המתקבלות באריזות גדולות במכולת משלוח. לאחר מכן המפיץ מפצל את האריזות הגדולות לכמויות קטנות יותר (למשל אריזות מכירה המורכבות מיחידות בודדות) כדי לספקן למרכזי חיסון ולרופאי משפחה."
+    },
+    {
+      "id": "q4-p3",
+      "type": "paragraph",
+      "en": "The general obligations of distributors laid down in Article 14 of the Regulations also apply, which include verification that the devices they make available are CE marked and are accompanied by the information to be supplied by the manufacturer (such as the label and IFU).",
+      "he": "החובות הכלליות של מפיצים הקבועות בסעיף 14 לתקנות חלות אף הן, וכוללות אימות שהמכשירים שהם מעמידים לרשות נושאים סימון CE ומלווים במידע שעל היצרן לספק (כגון התווית וה-IFU)."
+    },
+
+    {
+      "id": "q5",
+      "type": "heading",
+      "level": 2,
+      "number": "5",
+      "en": "Question 5 — What information should be notified to the manufacturer according to the Article 16(4)?",
+      "he": "שאלה 5 — איזה מידע יש להודיע ליצרן לפי סעיף 16(4)?"
+    },
+    {
+      "id": "q5-p1",
+      "type": "paragraph",
+      "en": "In accordance with Article 16(4), importers and distributors performing relabelling and/or repackaging activities should:",
+      "he": "בהתאם לסעיף 16(4), על יבואנים ומפיצים המבצעים פעילויות תיוג מחדש ו/או אריזה מחדש:"
+    },
+    {
+      "id": "q5-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "en": "inform the manufacturers of the intention to make the relabelled or repackaged device available on the market, at least 28 days prior to making the device available on the market and;",
+          "he": "להודיע ליצרנים על הכוונה להעמיד את המכשיר המתויג מחדש או הארוז מחדש לרשות בשוק, לפחות 28 ימים לפני העמדת המכשיר לרשות בשוק; וכן"
+        },
+        {
+          "en": "upon request, provide the manufacturer with a sample or mock-up of the relabelled or repackaged device, including any translated label and IFU;",
+          "he": "לבקשת היצרן, לספק לו דגימה או דגם מדומה (mock-up) של המכשיר המתויג מחדש או הארוז מחדש, לרבות כל תווית מתורגמת ו-IFU מתורגם;"
+        }
+      ]
+    },
+    {
+      "id": "q5-p2",
+      "type": "paragraph",
+      "en": "While this is not a requirement for importers and distributors under the Regulations, they may provide information in order to allow for effective field safety corrective actions (FSCA) and post-market surveillance (PMS) by the manufacturer. This may include (non-exhaustive list):",
+      "he": "אף שאין זו דרישה החלה על יבואנים ומפיצים לפי התקנות, הם רשאים לספק מידע כדי לאפשר פעולות מתקנות בשטח (FSCA) ומעקב שלאחר שיווק (PMS) אפקטיביים מצד היצרן. מידע זה עשוי לכלול (רשימה לא ממצה):"
+    },
+    {
+      "id": "q5-list2",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "en": "name of the concerned device and information allowing for the unambiguous identification of the device: model, product number, reference or UDI-DI etc.;",
+          "he": "שם המכשיר הנוגע בדבר ומידע המאפשר זיהוי חד-משמעי של המכשיר: דגם, מספר מוצר, מספר ייחוס (reference) או UDI-DI וכד';"
+        },
+        {
+          "en": "activities performed (repackaging, relabelling and/or translation);",
+          "he": "הפעילויות שבוצעו (אריזה מחדש, תיוג מחדש ו/או תרגום);"
+        },
+        {
+          "en": "the reason why the activity performed is needed;",
+          "he": "הסיבה לכך שהפעילות שבוצעה נחוצה;"
+        },
+        {
+          "en": "Member States where the repackaged/relabelled and/or translated IFU devices will be made available;",
+          "he": "המדינות החברות שבהן יועמדו לרשות המכשירים שנארזו מחדש/תויגו מחדש ו/או שה-IFU שלהם תורגם;"
+        },
+        {
+          "en": "in case of translation, languages in which the label and IFU6 are translated;",
+          "he": "במקרה של תרגום, השפות שאליהן מתורגמים התווית וה-IFU⁶;"
+        },
+        {
+          "en": "the changes to the package and number of devices included in the new packaging;",
+          "he": "השינויים באריזה ומספר המכשירים הכלולים באריזה החדשה;"
+        },
+        {
+          "en": "when the device is planned to be made available;",
+          "he": "מתי מתוכננת העמדת המכשיר לרשות;"
+        },
+        {
+          "en": "information on the notified body issuing the certificate in accordance with Article 16(4) and a copy of the certificate.",
+          "he": "מידע על הגוף המאונתר המנפיק את התעודה בהתאם לסעיף 16(4) ועותק של התעודה."
+        }
+      ]
+    },
+
+    {
+      "id": "q6",
+      "type": "heading",
+      "level": 2,
+      "number": "6",
+      "en": "Question 6 — What information should be notified to the competent authority according to the Article 16(4)?",
+      "he": "שאלה 6 — איזה מידע יש להודיע לרשות המוסמכת לפי סעיף 16(4)?"
+    },
+    {
+      "id": "q6-p1",
+      "type": "paragraph",
+      "en": "In accordance with Article 16(4) of the Regulations, importers and distributors performing relabelling and/or repackaging activities, at least 28 days prior making the device available on the market, should:",
+      "he": "בהתאם לסעיף 16(4) לתקנות, על יבואנים ומפיצים המבצעים פעילויות תיוג מחדש ו/או אריזה מחדש, לפחות 28 ימים לפני העמדת המכשיר לרשות בשוק:"
+    },
+    {
+      "id": "q6-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "en": "inform the competent authority (of the Member State where they plan to make the device available) of the intention to make the relabelled or repackaged device available on the market, and;",
+          "he": "להודיע לרשות המוסמכת (של המדינה החברה שבה הם מתכננים להעמיד את המכשיר לרשות) על הכוונה להעמיד את המכשיר המתויג מחדש או הארוז מחדש לרשות בשוק; וכן"
+        },
+        {
+          "en": "submit to the competent authority the necessary certificate as per Article 16(4) of the Regulations as described in MDCG 2021–237.",
+          "he": "להגיש לרשות המוסמכת את התעודה הנחוצה לפי סעיף 16(4) לתקנות כמתואר במסמך MDCG 2021-23⁷."
+        }
+      ]
+    },
+    {
+      "id": "q6-p2",
+      "type": "paragraph",
+      "en": "Moreover, upon request, importers and distributors performing relabelling and/or repackaging activities should provide the competent authority with a sample or mock-up of the relabelled or repackaged device, including any translated label and instructions for use.",
+      "he": "כמו כן, לבקשתה, על יבואנים ומפיצים המבצעים פעילויות תיוג מחדש ו/או אריזה מחדש לספק לרשות המוסמכת דגימה או דגם מדומה (mock-up) של המכשיר המתויג מחדש או הארוז מחדש, לרבות כל תווית מתורגמת והוראות שימוש מתורגמות."
+    },
+    {
+      "id": "q6-p3",
+      "type": "paragraph",
+      "en": "While it is not a requirement for importers and distributors under the Regulations, they may wish to further inform competent authorities about: (non-exhaustive list):",
+      "he": "אף שאין זו דרישה החלה על יבואנים ומפיצים לפי התקנות, הם עשויים לרצות ליידע בנוסף את הרשויות המוסמכות בנוגע ל: (רשימה לא ממצה):"
+    },
+    {
+      "id": "q6-list2",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "en": "manufacturer and authorised representative (if applicable) details;",
+          "he": "פרטי היצרן והנציג המורשה (אם רלוונטי);"
+        },
+        {
+          "en": "name of the concerned device and information allowing for the unambiguous identification of the device: model, product number, reference or UDI-DI etc.;",
+          "he": "שם המכשיר הנוגע בדבר ומידע המאפשר זיהוי חד-משמעי של המכשיר: דגם, מספר מוצר, מספר ייחוס (reference) או UDI-DI וכד';"
+        },
+        {
+          "en": "activities performed (repackaging relabelling and/or translation);",
+          "he": "הפעילויות שבוצעו (אריזה מחדש, תיוג מחדש ו/או תרגום);"
+        },
+        {
+          "en": "the reason why the activity carried out/performed is needed;",
+          "he": "הסיבה לכך שהפעילות שבוצעה נחוצה;"
+        },
+        {
+          "en": "in case of translation, languages in which the label and IFU8 are translated;",
+          "he": "במקרה של תרגום, השפות שאליהן מתורגמים התווית וה-IFU⁸;"
+        },
+        {
+          "en": "the changes to the package and number of devices included in the new packaging;",
+          "he": "השינויים באריזה ומספר המכשירים הכלולים באריזה החדשה;"
+        },
+        {
+          "en": "when the device is planned to be made available.",
+          "he": "מתי מתוכננת העמדת המכשיר לרשות."
+        }
+      ]
+    },
+    {
+      "id": "fn-6",
+      "type": "note",
+      "marker": "6",
+      "en": "Please see (where applicable), exemptions regarding provisions of the IFU outlined in Annex I, Chp III, 23.1(d) MDR and Annex, Chp III, 20.1.(d).",
+      "he": "ראה (היכן שרלוונטי) את הפטורים בנוגע להוראות ה-IFU המפורטים בנספח I, פרק III, 23.1(ד) ל-MDR ובנספח, פרק III, 20.1(ד)."
+    },
+    {
+      "id": "fn-7",
+      "type": "note",
+      "marker": "7",
+      "en": "MDCG 2021-23 'Guidance for notified bodies on certification activities according to Article 16(4) of Regulation (EU) 2017/745 and Regulation (EU) 2017/746'.",
+      "he": "MDCG 2021-23 \"הנחיה לגופים מאונתרים בנוגע לפעילויות הסמכה לפי סעיף 16(4) לתקנה (האיחוד האירופי) 2017/745 ולתקנה (האיחוד האירופי) 2017/746\"."
+    },
+    {
+      "id": "fn-8",
+      "type": "note",
+      "marker": "8",
+      "en": "Please see (where applicable), exemptions regarding provisions of the IFU outlined in Annex I, Chp III, 23.1(d) MDR and Annex, Chp II, 20.1.(d).",
+      "he": "ראה (היכן שרלוונטי) את הפטורים בנוגע להוראות ה-IFU המפורטים בנספח I, פרק III, 23.1(ד) ל-MDR ובנספח, פרק II, 20.1(ד)."
+    },
+
+    {
+      "id": "q7",
+      "type": "heading",
+      "level": 2,
+      "number": "7",
+      "en": "Question 7 — Do the manufacturer and competent authority have to be notified each time an individual device or batch of devices is being relabelled or repackaged?",
+      "he": "שאלה 7 — האם יש להודיע ליצרן ולרשות המוסמכת בכל פעם שמכשיר בודד או אצווה של מכשירים מתויגים מחדש או נארזים מחדש?"
+    },
+    {
+      "id": "q7-p1",
+      "type": "paragraph",
+      "en": "There are no specific requirements in the Regulations.",
+      "he": "אין דרישות ספציפיות בתקנות."
+    },
+    {
+      "id": "q7-p2",
+      "type": "paragraph",
+      "en": "However, it is considered that a notification to the manufacturer and relevant competent authority (of the Member state where the repackaged or relabelled device is intended to be made available), is only due when a device is going to be relabelled and/or repackaged for the first time. The notification does not have to be repeated on a unit-by-unit or batch-by-batch basis.",
+      "he": "עם זאת, נחשב כי הודעה ליצרן ולרשות המוסמכת הרלוונטית (של המדינה החברה שבה מיועד המכשיר הארוז מחדש או המתויג מחדש להיות מועמד לרשות) נדרשת רק כאשר מכשיר עומד להיות מתויג מחדש ו/או ארוז מחדש בפעם הראשונה. אין צורך לחזור על ההודעה על בסיס יחידה אחר יחידה או אצווה אחר אצווה."
+    },
+
+    {
+      "id": "q8",
+      "type": "heading",
+      "level": 2,
+      "number": "8",
+      "en": "Question 8 — Under which conditions should a notification to the manufacturer and the competent authority be performed?",
+      "he": "שאלה 8 — באילו תנאים יש לבצע הודעה ליצרן ולרשות המוסמכת?"
+    },
+    {
+      "id": "q8-p1",
+      "type": "paragraph",
+      "en": "In accordance with Article 16(4), importers and distributors performing relabelling and/or repackaging activities should inform the manufacturer and competent authority (of the Member State where they plan to make the device available), of the intention to make the relabelled or repackaged device available on the market, at least 28 days prior.",
+      "he": "בהתאם לסעיף 16(4), על יבואנים ומפיצים המבצעים פעילויות תיוג מחדש ו/או אריזה מחדש להודיע ליצרן ולרשות המוסמכת (של המדינה החברה שבה הם מתכננים להעמיד את המכשיר לרשות) על הכוונה להעמיד את המכשיר המתויג מחדש או הארוז מחדש לרשות בשוק, לפחות 28 ימים מראש."
+    },
+    {
+      "id": "q8-p2",
+      "type": "paragraph",
+      "en": "A notification to the manufacturer should be performed when one or more of the following conditions occur (non-exhaustive list):",
+      "he": "יש לבצע הודעה ליצרן כאשר מתקיים אחד או יותר מהתנאים הבאים (רשימה לא ממצה):"
+    },
+    {
+      "id": "q8-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "en": "when a device is planned to be made available in a Member State not previously notified;",
+          "he": "כאשר מתוכננת העמדת מכשיר לרשות במדינה חברה שלגביה לא נמסרה הודעה קודם לכן;"
+        },
+        {
+          "en": "when relabelling and/or repackaging will be applied to a device not previously notified;",
+          "he": "כאשר תיוג מחדש ו/או אריזה מחדש יוחלו על מכשיר שלגביו לא נמסרה הודעה קודם לכן;"
+        },
+        {
+          "en": "when the information supplied with the device will be translated into a language not previously notified.",
+          "he": "כאשר המידע המסופק עם המכשיר יתורגם לשפה שלגביה לא נמסרה הודעה קודם לכן."
+        }
+      ]
+    },
+    {
+      "id": "q8-p3",
+      "type": "paragraph",
+      "en": "A notification to the concerned competent authority should be performed when one or more of the following conditions occur (non-exhaustive list):",
+      "he": "יש לבצע הודעה לרשות המוסמכת הנוגעת בדבר כאשר מתקיים אחד או יותר מהתנאים הבאים (רשימה לא ממצה):"
+    },
+    {
+      "id": "q8-list2",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "en": "when relabelling and/or repackaging will be applied to a device not previously notified;",
+          "he": "כאשר תיוג מחדש ו/או אריזה מחדש יוחלו על מכשיר שלגביו לא נמסרה הודעה קודם לכן;"
+        },
+        {
+          "en": "when the information supplied with the device will be translated into a language not previously notified;",
+          "he": "כאשר המידע המסופק עם המכשיר יתורגם לשפה שלגביה לא נמסרה הודעה קודם לכן;"
+        },
+        {
+          "en": "when the information supplied with the device or the outer packaging will be modified;",
+          "he": "כאשר המידע המסופק עם המכשיר או האריזה החיצונית ישונו;"
+        },
+        {
+          "en": "when there are changes to the certificate issued by the notified body (including certificate renewal);",
+          "he": "כאשר חלים שינויים בתעודה שהנפיק הגוף המאונתר (לרבות חידוש התעודה);"
+        },
+        {
+          "en": "when changing notified body.",
+          "he": "כאשר מחליפים גוף מאונתר."
+        }
+      ]
+    },
+
+    {
+      "id": "q9",
+      "type": "heading",
+      "level": 2,
+      "number": "9",
+      "en": "Question 9 — Do the manufacturer and competent authority have to be notified when an importer or distributor ceases to perform relabelling and/or repackaging activities?",
+      "he": "שאלה 9 — האם יש להודיע ליצרן ולרשות המוסמכת כאשר יבואן או מפיץ מפסיק לבצע פעילויות תיוג מחדש ו/או אריזה מחדש?"
+    },
+    {
+      "id": "q9-p1",
+      "type": "paragraph",
+      "en": "Whilst this is not a requirement for importers and distributors under the Regulations, they may wish to inform the manufacturer and competent authority of the Member State concerned, of the cessation of their relabelling and/or repackaging activities. This information could be useful in relation to FSCA processes.",
+      "he": "אף שאין זו דרישה החלה על יבואנים ומפיצים לפי התקנות, הם עשויים לרצות ליידע את היצרן ואת הרשות המוסמכת של המדינה החברה הנוגעת בדבר על הפסקת פעילויות התיוג מחדש ו/או האריזה מחדש שלהם. מידע זה עשוי להיות שימושי בהקשר של תהליכי FSCA."
+    },
+
+    {
+      "id": "q10",
+      "type": "heading",
+      "level": 2,
+      "number": "10",
+      "en": "Question 10 — To which notified bodies may importers and distributors apply to obtain the certification referred to in Article 16(4)?",
+      "he": "שאלה 10 — לאילו גופים מאונתרים רשאים יבואנים ומפיצים לפנות כדי לקבל את ההסמכה הנזכרת בסעיף 16(4)?"
+    },
+    {
+      "id": "q10-p1",
+      "type": "paragraph",
+      "en": "Importers and distributors have to apply to a notified body designated for the type of devices that are subject to activities mentioned in points (a) and (b) of Article 16(2)9.",
+      "he": "על יבואנים ומפיצים לפנות לגוף מאונתר שמונה (designated) עבור סוג המכשירים הנתונים לפעילויות הנזכרות בפסקאות (א) ו-(ב) של סעיף 16(2)⁹."
+    },
+    {
+      "id": "q10-p2",
+      "type": "paragraph",
+      "en": "Importers and distributors can find the information regarding the type of devices for which notified body is designated by consulting the Nando (New Approach Notified and Designated Organisations) Information System.10",
+      "he": "יבואנים ומפיצים יכולים למצוא את המידע בנוגע לסוג המכשירים שעבורם מונה גוף מאונתר על ידי עיון במערכת המידע Nando (New Approach Notified and Designated Organisations).¹⁰"
+    },
+
+    {
+      "id": "q11",
+      "type": "heading",
+      "level": 2,
+      "number": "11",
+      "en": "Question 11 — Do relabelling and/or repackaging activities performed on Class I devices and class A in vitro diagnostic devices also involve a notified body review within the meaning of Article 16(4)?",
+      "he": "שאלה 11 — האם פעילויות תיוג מחדש ו/או אריזה מחדש המבוצעות על מכשירי סיווג I ומכשירי אבחון in vitro מסיווג A מצריכות גם הן סקירה של גוף מאונתר במשמעות סעיף 16(4)?"
+    },
+    {
+      "id": "q11-p1",
+      "type": "paragraph",
+      "en": "Since Class I devices and class A in-vitro diagnostic devices are not explicitly exempted, Article 16(2) to (4) apply also in case of repackaging and/or relabelling of those devices.",
+      "he": "מאחר שמכשירי סיווג I ומכשירי אבחון in vitro מסיווג A אינם פטורים במפורש, סעיף 16(2) עד (4) חל גם במקרה של אריזה מחדש ו/או תיוג מחדש של מכשירים אלה."
+    },
+
+    {
+      "id": "q12",
+      "type": "heading",
+      "level": 2,
+      "number": "12",
+      "en": "Question 12 — Can the importer or distributor provide additional information concerning the batch number whilst performing relabelling and/or repackaging activities?",
+      "he": "שאלה 12 — האם היבואן או המפיץ רשאי לספק מידע נוסף בנוגע למספר האצווה במהלך ביצוע פעילויות תיוג מחדש ו/או אריזה מחדש?"
+    },
+    {
+      "id": "q12-p1",
+      "type": "paragraph",
+      "en": "The manufacturer's batch number cannot be changed and should appear on the label. However additional information can be provided by the importer or distributor for clarity e.g. the sub-lot number of the relabelled or repackaged devices or other information which ensures traceability of those devices.",
+      "he": "מספר האצווה של היצרן אינו ניתן לשינוי וצריך להופיע על התווית. עם זאת, היבואן או המפיץ רשאי לספק מידע נוסף לשם הבהירות, למשל מספר תת-האצווה (sub-lot) של המכשירים המתויגים מחדש או הארוזים מחדש, או מידע אחר המבטיח עקיבוּת של מכשירים אלה."
+    },
+
+    {
+      "id": "q13",
+      "type": "heading",
+      "level": 2,
+      "number": "13",
+      "en": "Question 13 — In the case of translation of the IFU, is it necessary to keep the original version of these instructions in the packaging?",
+      "he": "שאלה 13 — במקרה של תרגום ה-IFU, האם יש צורך לשמור את הגרסה המקורית של הוראות אלה באריזה?"
+    },
+    {
+      "id": "q13-p1",
+      "type": "paragraph",
+      "en": "Whilst there is no a specific requirement in the Regulations, in case of translation of the IFU, the original version of these instructions may be included in the packaging. The translated IFU should always be an exact translation of the original version provided by the manufacturer of the device.",
+      "he": "אף שאין דרישה ספציפית בתקנות, במקרה של תרגום ה-IFU ניתן לכלול את הגרסה המקורית של הוראות אלה באריזה. ה-IFU המתורגם צריך להיות תמיד תרגום מדויק של הגרסה המקורית שסיפק יצרן המכשיר."
+    },
+
+    {
+      "id": "q14",
+      "type": "heading",
+      "level": 2,
+      "number": "14",
+      "en": "Question 14 — Do entities carrying out relabelling and/or repackaging activities in accordance with Article 16(2) of the Regulations have any obligations related to traceability and Unique Device Identification (UDI11)?",
+      "he": "שאלה 14 — האם לגופים המבצעים פעילויות תיוג מחדש ו/או אריזה מחדש בהתאם לסעיף 16(2) לתקנות יש חובות הקשורות לעקיבוּת ולזיהוי מכשיר ייחודי (UDI¹¹)?"
+    },
+    {
+      "id": "q14-p1",
+      "type": "paragraph",
+      "en": "Importers and distributors performing relabelling and/or repackaging activities should implement solutions to meet traceability obligations outlined in Article 25 MDR/Article 22 IVDR. They should also verify UDI assignment as set out in Article 13(2)(d) and Article 14(2)(d) of the Regulations respectively.",
+      "he": "על יבואנים ומפיצים המבצעים פעילויות תיוג מחדש ו/או אריזה מחדש ליישם פתרונות לעמידה בחובות העקיבוּת המפורטות בסעיף 25 ל-MDR/סעיף 22 ל-IVDR. עליהם גם לאמת את הקצאת ה-UDI כקבוע בסעיף 13(2)(ד) ובסעיף 14(2)(ד) לתקנות, בהתאמה."
+    },
+    {
+      "id": "q14-p2",
+      "type": "paragraph",
+      "en": "In addition, importers and distributors are subject to the Article 27(8) MDR/Article 24(8) IVDR obligations for economic operators to store UDIs for devices which they have supplied or which have been supplied to them. This requirement applies to the class III implantable devices, and devices, categories or groups of devices as determined by measures referenced in Article 27(8) MDR and in Article 24(8) IVDR.",
+      "he": "בנוסף, יבואנים ומפיצים כפופים לחובות שבסעיף 27(8) ל-MDR/סעיף 24(8) ל-IVDR החלות על גורמים כלכליים לאחסן מזהי UDI עבור מכשירים שסיפקו או שסופקו להם. דרישה זו חלה על מכשירים מושתלים מסיווג III, ועל מכשירים, קטגוריות או קבוצות של מכשירים כפי שייקבע באמצעי החקיקה הנזכרים בסעיף 27(8) ל-MDR ובסעיף 24(8) ל-IVDR."
+    },
+
+    {
+      "id": "fn-4",
+      "type": "note",
+      "marker": "4",
+      "en": "Annex VI Part C MDR/IVDR defines 'A shipping container' as 'a container in relation to which traceability is controlled by a process specific to logistics systems.' Please see further Article 27(4) MDR/Article 24(4) IVDR and sections 3.2, and 4.1 of Annex VI Part C MDR/IVDR, which clarify that shipping containers are 'logistics units', and are not considered higher levels of device packaging.",
+      "he": "נספח VI חלק C ל-MDR/IVDR מגדיר \"מכולת משלוח\" (shipping container) כ\"מכולה שלגביה העקיבוּת נשלטת באמצעות תהליך ייחודי למערכות לוגיסטיקה\". ראה עוד את סעיף 27(4) ל-MDR/סעיף 24(4) ל-IVDR ואת חלקים 3.2 ו-4.1 של נספח VI חלק C ל-MDR/IVDR, המבהירים כי מכולות משלוח הן \"יחידות לוגיסטיקה\", ואינן נחשבות לרמות גבוהות יותר של אריזת המכשיר."
+    },
+    {
+      "id": "fn-5",
+      "type": "note",
+      "marker": "5",
+      "en": "The 'outer packaging' is the packaging in which the device is made available to the end user as intended by the manufacturer.",
+      "he": "\"האריזה החיצונית\" היא האריזה שבה המכשיר מועמד לרשות המשתמש הסופי כפי שהתכוון היצרן."
+    },
+    {
+      "id": "fn-9",
+      "type": "note",
+      "marker": "9",
+      "en": "Notified bodies providing such certifications are required to be designated for the type of devices that are subject to activities mentioned in points (a) and (b) of Article 16(2) of the Regulations. Please see also COMMISSION IMPLEMENTING REGULATION (EU) 2017/ 2185 - of 23 November 2017 - on the list of codes and corresponding types of devices for the purpose of specifying the scope of the designation as notified bodies in the field of medical devices under Regulation (EU) 2017/ 745 of the European Parliament and of the Council and in vitro diagnostic medical devices under Regulation (EU) 2017/ 746 of the European Parliament and of the Council (europa.eu)",
+      "he": "גופים מאונתרים המספקים הסמכות מסוג זה נדרשים להיות ממונים עבור סוג המכשירים הנתונים לפעילויות הנזכרות בפסקאות (א) ו-(ב) של סעיף 16(2) לתקנות. ראה גם את תקנת היישום של הנציבות (האיחוד האירופי) 2017/2185 מ-23 בנובמבר 2017 בנושא רשימת הקודים וסוגי המכשירים המתאימים לצורך הגדרת היקף המינוי כגופים מאונתרים בתחום המכשירים הרפואיים לפי תקנה (האיחוד האירופי) 2017/745 של הפרלמנט האירופי ושל המועצה ובתחום המכשירים הרפואיים לאבחון in vitro לפי תקנה (האיחוד האירופי) 2017/746 של הפרלמנט האירופי ושל המועצה (europa.eu)."
+    },
+    {
+      "id": "fn-10",
+      "type": "note",
+      "marker": "10",
+      "en": "Please consult https://ec.europa.eu/growth/tools-databases/nando/",
+      "he": "ראה https://ec.europa.eu/growth/tools-databases/nando/"
+    },
+    {
+      "id": "fn-11",
+      "type": "note",
+      "marker": "11",
+      "en": "Article 27 MDR/Article 24 IVDR introduce a Unique Device Identification (UDI) system, which among other functions aims to improve the identification of devices, facilitate the traceability of devices and enhance the effectiveness of post-market safety-related activities for devices.",
+      "he": "סעיף 27 ל-MDR/סעיף 24 ל-IVDR מנהיגים מערכת זיהוי מכשיר ייחודי (UDI), אשר בין יתר תפקידיה נועדה לשפר את זיהוי המכשירים, להקל על עקיבוּת המכשירים ולהגביר את האפקטיביות של פעילויות הקשורות לבטיחות שלאחר השיווק עבור מכשירים."
+    }
+  ]
+}

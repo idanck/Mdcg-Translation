@@ -1,0 +1,337 @@
+{
+  "id": "MDCG-2023-4",
+  "title": {
+    "en": "Medical Device Software (MDSW) – Hardware combinations. Guidance on MDSW intended to work in combination with hardware or hardware components",
+    "he": "תוכנת מכשיר רפואי (MDSW) – שילובי חומרה. הנחיה לגבי MDSW המיועדת לפעול בשילוב עם חומרה או עם רכיבי חומרה"
+  },
+  "category": "New Technologies",
+  "publicationDate": "2023-10",
+  "source": {
+    "url": "https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en",
+    "file": "original/mdcg_2023-4_en.pdf"
+  },
+  "language": "he",
+  "direction": "rtl",
+  "translationStatus": "review",
+  "glossaryVersion": "2026-06",
+  "blocks": [
+    {
+      "id": "disclaimer-1",
+      "type": "paragraph",
+      "en": "This document has been endorsed by the Medical Device Coordination Group (MDCG) established by Article 103 of Regulation (EU) 2017/745. The MDCG is composed of representatives of all Member States and it is chaired by a representative of the European Commission.",
+      "he": "מסמך זה אושר על ידי קבוצת תיאום המכשירים הרפואיים (MDCG) שהוקמה מכוח סעיף 103 לתקנה (האיחוד האירופי) 2017/745. ה-MDCG מורכבת מנציגים של כל המדינות החברות ובראשה עומד נציג של הנציבות האירופית."
+    },
+    {
+      "id": "disclaimer-2",
+      "type": "paragraph",
+      "en": "The document is not a European Commission document and it cannot be regarded as reflecting the official position of the European Commission. Any views expressed in this document are not legally binding and only the Court of Justice of the European Union can give binding interpretations of Union law.",
+      "he": "המסמך אינו מסמך של הנציבות האירופית ואין לראות בו כמשקף את העמדה הרשמית של הנציבות האירופית. כל דעה המובעת במסמך זה אינה מחייבת מבחינה משפטית, ורק בית הדין לצדק של האיחוד האירופי מוסמך לתת פרשנות מחייבת לדין האיחוד."
+    },
+    {
+      "id": "toc-heading",
+      "type": "heading",
+      "level": 1,
+      "en": "Table of Contents",
+      "he": "תוכן העניינים"
+    },
+    {
+      "id": "toc-list",
+      "type": "list",
+      "ordered": true,
+      "items": [
+        { "en": "Introduction", "he": "מבוא" },
+        { "en": "Scope", "he": "תחולה" },
+        { "en": "Hardware or hardware component working in combination with MDSW", "he": "חומרה או רכיב חומרה הפועלים בשילוב עם MDSW" },
+        { "en": "Regulatory considerations", "he": "שיקולים רגולטוריים" },
+        { "en": "Placement on the market", "he": "הוצאה לשוק" }
+      ]
+    },
+    {
+      "id": "sec-1",
+      "type": "heading",
+      "level": 1,
+      "number": "1",
+      "en": "Introduction",
+      "he": "מבוא"
+    },
+    {
+      "id": "sec-1-p1",
+      "type": "paragraph",
+      "en": "Software has become an increasingly important part of the medical device landscape. It is estimated that one in four medical devices either incorporate medical device software (MDSW) or are MDSW in their own right. With the broad public use of smart phones and wearable digital products, certain MDSW make use of a broad range of technologies in order to fulfil their intended purpose. This use has enabled patients and clinicians to engage with health information in an unprecedented manner.",
+      "he": "התוכנה הפכה לחלק חשוב יותר ויותר בנוף המכשירים הרפואיים. ההערכה היא כי אחד מכל ארבעה מכשירים רפואיים כולל תוכנת מכשיר רפואי (MDSW)¹ או מהווה MDSW בפני עצמו. עם השימוש הציבורי הנרחב בטלפונים חכמים ובמוצרים דיגיטליים לבישים, MDSW מסוימות עושות שימוש במגוון רחב של טכנולוגיות כדי לממש את מטרתן המיועדת. שימוש זה אפשר למטופלים ולקלינאים לעסוק במידע בריאותי באופן חסר תקדים."
+    },
+    {
+      "id": "sec-1-p2",
+      "type": "paragraph",
+      "en": "In many cases, MDSW can only achieve its intended purpose when it is used in combination with a hardware or hardware component (e.g., sensor) generating or providing input data. For example, MDSW downloaded or available on wearables (e.g. bracelets, smartwatches, virtual/augmented reality goggles) to prevent, predict or manage a disease, achieve their intended purpose by receiving and analysing data provided by a hardware or hardware component. In these cases, relevant hardware often incorporate components such as sensors and cameras, the information from which may be used in a variety of MDSW, including so-called medical device applications (MDSW apps).",
+      "he": "במקרים רבים, MDSW יכולה להשיג את מטרתה המיועדת רק כאשר היא בשימוש בשילוב עם חומרה² או רכיב חומרה (למשל חיישן) המייצרים או מספקים נתוני קלט. לדוגמה, MDSW המורדת או הזמינה על גבי מכשירים לבישים (למשל צמידים, שעונים חכמים, משקפי מציאות מדומה/רבודה) למניעה, חיזוי או ניהול של מחלה, משיגה את מטרתה המיועדת על ידי קבלה וניתוח של נתונים המסופקים על ידי חומרה או רכיב חומרה. במקרים אלה, החומרה הרלוונטית כוללת לעיתים קרובות רכיבים כגון חיישנים ומצלמות, אשר המידע מהם עשוי לשמש במגוון של MDSW, לרבות מה שמכונה יישומוני מכשיר רפואי (MDSW apps)."
+    },
+    {
+      "id": "sec-1-p3",
+      "type": "paragraph",
+      "en": "Sensors or other hardware components are in certain cases integral parts of general-purpose consumer electronics or wearable digital products. The interaction between the MDSW, hardware or hardware component (in particular integrated sensors) raise the question regarding the qualification and the appropriate regulatory pathway or conformity assessment of these hardware or hardware components.",
+      "he": "חיישנים או רכיבי חומרה אחרים מהווים במקרים מסוימים חלקים בלתי נפרדים של מוצרי אלקטרוניקה צרכנית למטרות כלליות או של מוצרים דיגיטליים לבישים. האינטראקציה בין ה-MDSW, החומרה או רכיב החומרה (בפרט חיישנים משולבים) מעלה את השאלה בדבר הסיווג והמסלול הרגולטורי המתאים או הערכת ההתאמה של חומרה או רכיבי חומרה אלה."
+    },
+    {
+      "id": "sec-2",
+      "type": "heading",
+      "level": 1,
+      "number": "2",
+      "en": "Scope",
+      "he": "תחולה"
+    },
+    {
+      "id": "sec-2-p1",
+      "type": "paragraph",
+      "en": "Through the provision of information and/or signals, these hardware or hardware components play an essential role in contributing to the medical purpose of certain MDSW. It is important to consider how the manufacturer of the MDSW has to demonstrate conformity with the applicable regulatory requirements for the combination of the MDSW and the concerned hardware or hardware components.",
+      "he": "באמצעות אספקת מידע ו/או אותות, חומרה או רכיבי חומרה אלה ממלאים תפקיד חיוני בתרומה למטרה הרפואית של MDSW מסוימות. חשוב לשקול כיצד על יצרן ה-MDSW להוכיח התאמה לדרישות הרגולטוריות החלות עבור השילוב של ה-MDSW והחומרה או רכיבי החומרה הנוגעים בדבר."
+    },
+    {
+      "id": "sec-2-p2",
+      "type": "paragraph",
+      "en": "This guidance intends to examine and provide clarifications on which specific regulatory considerations apply when the hardware or hardware component incorporating the data collection element (camera, electrical/optical sensors etc.) are a medical device or an accessory to a medical device. This guidance also outlines scenarios where the hardware or hardware component incorporating a data collection element are not medical devices or accessories to a medical device. This guidance does not intend to elaborate on aspects related to the clinical evaluation or cybersecurity for these products, as those are tackled in other guidance.",
+      "he": "הנחיה זו נועדה לבחון ולספק הבהרות לגבי אילו שיקולים רגולטוריים ספציפיים חלים כאשר החומרה או רכיב החומרה הכוללים את רכיב איסוף הנתונים (מצלמה, חיישנים חשמליים/אופטיים וכד') הם מכשיר רפואי או אביזר למכשיר רפואי. הנחיה זו גם משרטטת תרחישים שבהם החומרה או רכיב החומרה הכוללים רכיב איסוף נתונים אינם מכשירים רפואיים או אביזרים למכשיר רפואי. הנחיה זו אינה נועדה להרחיב על היבטים הקשורים להערכה הקלינית או לאבטחת הסייבר של מוצרים אלה, שכן אלה נדונים בהנחיות אחרות³."
+    },
+    {
+      "id": "sec-3",
+      "type": "heading",
+      "level": 1,
+      "number": "3",
+      "en": "Hardware or hardware component working in combination with MDSW",
+      "he": "חומרה או רכיב חומרה הפועלים בשילוב עם MDSW"
+    },
+    {
+      "id": "sec-3-p1",
+      "type": "paragraph",
+      "en": "Many MDSW apps create diagnostic or therapeutic medical information by processing data or signals derived from hardware or hardware components. Those hardware or hardware components act as input and may also act as controls for the MDSW. Typically, both require a computing platform and/or an energy source to perform as intended which may be provided by for example, a smartphone. The intended medical purpose of such MDSW apps can only be achieved through the use of hardware or hardware components that demonstrate sufficient performance, accuracy and reliability, in light of the MDSW's intended purpose and the state of the art. This section intends to describe, for illustrative purposes, different examples of how MDSW and hardware or hardware components work in combination to achieve a medical purpose and how they may be placed on the market.",
+      "he": "יישומוני MDSW רבים יוצרים מידע רפואי אבחנתי או טיפולי באמצעות עיבוד נתונים או אותות הנגזרים מחומרה או מרכיבי חומרה. חומרה או רכיבי חומרה אלה משמשים כקלט ועשויים לשמש גם כבקרות עבור ה-MDSW. בדרך כלל, שניהם דורשים פלטפורמת מחשוב ו/או מקור אנרגיה כדי לפעול כמיועד, אשר עשויים להיות מסופקים, למשל, על ידי טלפון חכם. המטרה הרפואית המיועדת של יישומוני MDSW כאלה יכולה להיות מושגת רק באמצעות שימוש בחומרה או ברכיבי חומרה המפגינים ביצועים, דיוק ומהימנות מספקים, לאור המטרה המיועדת של ה-MDSW ולאור הטכנולוגיה העדכנית (state of the art). סעיף זה נועד לתאר, לצורכי המחשה, דוגמאות שונות לאופן שבו MDSW וחומרה או רכיבי חומרה פועלים בשילוב כדי להשיג מטרה רפואית וכיצד הם עשויים להיות מוצאים לשוק."
+    },
+    {
+      "id": "sec-3-A",
+      "type": "heading",
+      "level": 2,
+      "number": "A",
+      "en": "A. External hardware component (e.g. sensor embedded in a dermal patch) providing input data to a MDSW app",
+      "he": "A. רכיב חומרה חיצוני (למשל חיישן המוטמע במדבקה עורית⁴) המספק נתוני קלט ליישומון MDSW"
+    },
+    {
+      "id": "sec-3-A1-heading",
+      "type": "heading",
+      "level": 3,
+      "number": "1",
+      "en": "1) Manufacturer of hardware component and MDSW app are the same entity",
+      "he": "1) יצרן רכיב החומרה ויצרן יישומון ה-MDSW הם אותו גורם"
+    },
+    {
+      "id": "sec-3-A1-p1",
+      "type": "paragraph",
+      "en": "Example: Manufacturer X places on the market a dermal patch that incorporates a sensor intended to collect and relay data correlated to the user's physiological parameters such as body temperature, oxygen saturation (SpO2) and heart rate. Upon purchase of the dermal patch, users download the MDSW app also placed on the market by Manufacturer X on a smartphone and connect the two (patch and smartphone app). Based on the sensor's input data, the MDSW app calculates, further processes and analyses physiological parameters and other medical information about the user. The MDSW app may also provide the possibility to have the user's collected data directly transmitted to a healthcare professional. The app displays the monitored medical information and conducted analysis to the user and/or may transmit this information directly to the healthcare professional.",
+      "he": "דוגמה: יצרן X מוציא לשוק מדבקה עורית הכוללת חיישן המיועד לאסוף ולהעביר נתונים המתואמים לפרמטרים הפיזיולוגיים של המשתמש, כגון טמפרטורת גוף, רוויית חמצן (SpO2) וקצב לב. עם רכישת המדבקה העורית, המשתמשים מורידים לטלפון חכם את יישומון ה-MDSW אשר אף הוא הוצא לשוק על ידי יצרן X, ומחברים בין השניים (המדבקה ויישומון הטלפון החכם). בהתבסס על נתוני הקלט מהחיישן, יישומון ה-MDSW מחשב, מעבד עוד ומנתח פרמטרים פיזיולוגיים ומידע רפואי אחר על אודות המשתמש. יישומון ה-MDSW עשוי גם לספק אפשרות להעביר את הנתונים שנאספו מהמשתמש ישירות לאיש מקצוע הבריאות. היישומון מציג למשתמש את המידע הרפואי המנוטר ואת הניתוח שבוצע, ו/או עשוי להעביר מידע זה ישירות לאיש מקצוע הבריאות."
+    },
+    {
+      "id": "sec-3-A2-heading",
+      "type": "heading",
+      "level": 3,
+      "number": "2",
+      "en": "2) Manufacturer of hardware component and MDSW app are different entities",
+      "he": "2) יצרן רכיב החומרה ויצרן יישומון ה-MDSW הם גורמים שונים"
+    },
+    {
+      "id": "sec-3-A2-p1",
+      "type": "paragraph",
+      "en": "Example: Manufacturer X places on the market a dermal patch that incorporates a sensor intended to collect and relay data correlated to the user's physiological parameters such as body temperature, oxygen saturation (SpO2) and heart rate. Manufacturer Y places on the market a MDSW app claimed to be compatible with the dermal patch of manufacturer X (or claimed to use input data provided by patches or sensors similar to the patch of Manufacturer X). Collected data by the sensor are transmitted to the smartphone MDSW app for further analysis and calculations. The MDSW app may also provide the possibility to have the user's collected data directly transmitted to a healthcare professional. The MDSW app displays the calculated and monitored physiological parameters and conducted analysis to the user and/or transmits this information directly to the healthcare professional.",
+      "he": "דוגמה: יצרן X מוציא לשוק מדבקה עורית הכוללת חיישן המיועד לאסוף ולהעביר נתונים המתואמים לפרמטרים הפיזיולוגיים של המשתמש, כגון טמפרטורת גוף, רוויית חמצן (SpO2) וקצב לב. יצרן Y מוציא לשוק יישומון MDSW אשר נטען לגביו כי הוא תואם למדבקה העורית של יצרן X (או נטען כי הוא עושה שימוש בנתוני קלט המסופקים על ידי מדבקות או חיישנים הדומים למדבקה של יצרן X). הנתונים שנאספים על ידי החיישן מועברים ליישומון ה-MDSW בטלפון החכם לצורך ניתוח וחישובים נוספים. יישומון ה-MDSW עשוי גם לספק אפשרות להעביר את הנתונים שנאספו מהמשתמש ישירות לאיש מקצוע הבריאות. יישומון ה-MDSW מציג למשתמש את הפרמטרים הפיזיולוגיים המחושבים והמנוטרים ואת הניתוח שבוצע, ו/או מעביר מידע זה ישירות לאיש מקצוע הבריאות."
+    },
+    {
+      "id": "sec-3-B",
+      "type": "heading",
+      "level": 2,
+      "number": "B",
+      "en": "B. Hardware component incorporated within a smartphone or wearable connected to a MDSW app on smartphone or wearable",
+      "he": "B. רכיב חומרה המשולב בתוך טלפון חכם או מכשיר לביש המחובר ליישומון MDSW בטלפון חכם או במכשיר לביש"
+    },
+    {
+      "id": "sec-3-B1-heading",
+      "type": "heading",
+      "level": 3,
+      "number": "1",
+      "en": "1) Manufacturer of hardware component incorporated within a wearable and MDSW app are the same entity",
+      "he": "1) יצרן רכיב החומרה המשולב במכשיר לביש ויצרן יישומון ה-MDSW הם אותו גורם"
+    },
+    {
+      "id": "sec-3-B1-p1",
+      "type": "paragraph",
+      "en": "Example: Manufacturer Z places on the market a wearable (e.g., watch) that incorporates a sensor that is intended to collect and relay data correlated to the user's physiological parameters such as body temperature, oxygen saturation (SpO2) and heart rate. Upon purchase of the wearable, users are prompted to download (or activate) MDSW app also placed on the market by Manufacturer Z on their smartphone and/or wearable.",
+      "he": "דוגמה: יצרן Z מוציא לשוק מכשיר לביש (למשל שעון) הכולל חיישן המיועד לאסוף ולהעביר נתונים המתואמים לפרמטרים הפיזיולוגיים של המשתמש, כגון טמפרטורת גוף, רוויית חמצן (SpO2) וקצב לב. עם רכישת המכשיר הלביש, המשתמשים מתבקשים להוריד (או להפעיל) על הטלפון החכם ו/או על המכשיר הלביש שלהם את יישומון ה-MDSW אשר אף הוא הוצא לשוק על ידי יצרן Z."
+    },
+    {
+      "id": "sec-3-B1-p2",
+      "type": "paragraph",
+      "en": "Based on the sensor's input data, the MDSW app calculates, further processes and analyses physiological parameters and other medical information about the user. The MDSW app may also provide the possibility to have the user's collected data directly transmitted to a healthcare professional. The app displays the monitored medical information and conducted analysis to the user and/or may transmit this information directly to the healthcare professional.",
+      "he": "בהתבסס על נתוני הקלט מהחיישן, יישומון ה-MDSW מחשב, מעבד עוד ומנתח פרמטרים פיזיולוגיים ומידע רפואי אחר על אודות המשתמש. יישומון ה-MDSW עשוי גם לספק אפשרות להעביר את הנתונים שנאספו מהמשתמש ישירות לאיש מקצוע הבריאות. היישומון מציג למשתמש את המידע הרפואי המנוטר ואת הניתוח שבוצע, ו/או עשוי להעביר מידע זה ישירות לאיש מקצוע הבריאות."
+    },
+    {
+      "id": "sec-3-B2-heading",
+      "type": "heading",
+      "level": 3,
+      "number": "2",
+      "en": "2) Manufacturer of wearable and MDSW app are different entities",
+      "he": "2) יצרן המכשיר הלביש ויצרן יישומון ה-MDSW הם גורמים שונים"
+    },
+    {
+      "id": "sec-3-B2-p1",
+      "type": "paragraph",
+      "en": "Example: Manufacturer Z places on the market a wearable (e.g. watch) that incorporates a sensor intended or capable of collecting and relaying data correlated to the user's physiological parameters such as body temperature, oxygen saturation (SpO2) and heart rate. Users can download a variety of MDSW apps placed on the market by different MDSW app manufacturers. Manufacturer D claims that their MDSW app achieves its intended medical purpose through receiving data from the sensor integrated in the wearable placed on the market by Manufacturer Z.",
+      "he": "דוגמה: יצרן Z מוציא לשוק מכשיר לביש (למשל שעון) הכולל חיישן המיועד או המסוגל לאסוף ולהעביר נתונים המתואמים לפרמטרים הפיזיולוגיים של המשתמש, כגון טמפרטורת גוף, רוויית חמצן (SpO2) וקצב לב. המשתמשים יכולים להוריד מגוון של יישומוני MDSW אשר הוצאו לשוק על ידי יצרני יישומוני MDSW שונים. יצרן D טוען כי יישומון ה-MDSW שלו משיג את מטרתו הרפואית המיועדת באמצעות קבלת נתונים מהחיישן המשולב במכשיר הלביש שהוצא לשוק על ידי יצרן Z."
+    },
+    {
+      "id": "sec-3-B2-p2",
+      "type": "paragraph",
+      "en": "Based on the sensor's input data, the MDSW app calculates, further processes and analyses physiological parameters and other medical information about the user. The MDSW app may also provide the possibility to have the user's collected data directly transmitted to a healthcare professional. The MDSW app displays the monitored medical information and conducted analysis to the user and/or may transmit this information directly to the healthcare professional.",
+      "he": "בהתבסס על נתוני הקלט מהחיישן, יישומון ה-MDSW מחשב, מעבד עוד ומנתח פרמטרים פיזיולוגיים ומידע רפואי אחר על אודות המשתמש. יישומון ה-MDSW עשוי גם לספק אפשרות להעביר את הנתונים שנאספו מהמשתמש ישירות לאיש מקצוע הבריאות. יישומון ה-MDSW מציג למשתמש את המידע הרפואי המנוטר ואת הניתוח שבוצע, ו/או עשוי להעביר מידע זה ישירות לאיש מקצוע הבריאות."
+    },
+    {
+      "id": "sec-4",
+      "type": "heading",
+      "level": 1,
+      "number": "4",
+      "en": "Regulatory considerations",
+      "he": "שיקולים רגולטוריים"
+    },
+    {
+      "id": "sec-4-p1",
+      "type": "paragraph",
+      "en": "In accordance with Article 2 of the MDR, the intended purpose of a medical device can be achieved either alone or in combination with other medical devices or accessories for a medical device. From the examples provided under sections 3.A and 3.B, it is evident that the MDSW and the hardware or hardware component are not able to achieve a medical purpose on their own. In order for the software to be qualified as a medical device, the manufacturer must claim a medical purpose and consequently provide evidence that the device in question is in compliance with the MDR. This includes the need to verify, validate and prove that the interaction between the MDSW and the hardware or hardware component leads to an effective, safe and performant MDSW.",
+      "he": "בהתאם לסעיף 2 ל-MDR, המטרה המיועדת של מכשיר רפואי יכולה להיות מושגת בנפרד או בשילוב עם מכשירים רפואיים אחרים או עם אביזרים למכשיר רפואי. מן הדוגמאות המובאות בסעיפים 3.A ו-3.B, ברור כי ה-MDSW והחומרה או רכיב החומרה אינם מסוגלים להשיג מטרה רפואית בכוחות עצמם. כדי שהתוכנה תסווג כמכשיר רפואי, על היצרן לטעון למטרה רפואית, וכפועל יוצא לספק ראיות לכך שהמכשיר המדובר עומד בדרישות ה-MDR. הדבר כולל את הצורך לאמת, לתקף ולהוכיח כי האינטראקציה בין ה-MDSW לבין החומרה או רכיב החומרה מובילה ל-MDSW אפקטיבית, בטוחה ובעלת ביצועים טובים."
+    },
+    {
+      "id": "sec-4-p2",
+      "type": "paragraph",
+      "en": "There are several options for how devices or MDSW and other products requiring interaction to achieve the intended medical purpose can be placed on the market:",
+      "he": "קיימות מספר אפשרויות לאופן שבו ניתן להוציא לשוק מכשירים או MDSW ומוצרים אחרים הדורשים אינטראקציה כדי להשיג את המטרה הרפואית המיועדת:"
+    },
+    {
+      "id": "sec-4-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Option 1: the hardware or hardware component is placed on the market as an accessory to a MDSW.", "he": "אפשרות 1: החומרה או רכיב החומרה מוצאים לשוק כאביזר ל-MDSW.⁵" },
+        { "en": "Option 2: the hardware or hardware component is placed on the market as a medical device either a) as part of a system according to article 22 MDR or b) as a combination with another medical device according to article 2(1), or c) as an integral part of a medical device.", "he": "אפשרות 2: החומרה או רכיב החומרה מוצאים לשוק כמכשיר רפואי, בין אם א) כחלק ממערכת בהתאם לסעיף 22 ל-MDR, או ב) כשילוב עם מכשיר רפואי אחר בהתאם לסעיף 2(1), או ג) כחלק בלתי נפרד ממכשיר רפואי." },
+        { "en": "Option 3: the hardware or hardware component is an integral part of a general consumer product or wearable digital product and is not a medical device or an accessory to a medical device and has no intended medical purpose.", "he": "אפשרות 3: החומרה או רכיב החומרה הם חלק בלתי נפרד ממוצר צריכה כללי או ממוצר דיגיטלי לביש, ואינם מכשיר רפואי או אביזר למכשיר רפואי, ואין להם מטרה רפואית מיועדת." }
+      ]
+    },
+    {
+      "id": "sec-5",
+      "type": "heading",
+      "level": 1,
+      "number": "5",
+      "en": "Placement on the market",
+      "he": "הוצאה לשוק"
+    },
+    {
+      "id": "sec-5-p1",
+      "type": "paragraph",
+      "en": "The options listed below are applicable to the scenarios outlined in Sections 3.A and 3.B.",
+      "he": "האפשרויות המפורטות להלן חלות על התרחישים המשורטטים בסעיפים 3.A ו-3.B."
+    },
+    {
+      "id": "sec-5-opt12-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Options 1 and 2",
+      "he": "אפשרויות 1 ו-2"
+    },
+    {
+      "id": "sec-5-opt12-p1",
+      "type": "paragraph",
+      "en": "For options 1 and 2, the MDSW and the hardware or hardware component are qualified as either a medical device or an accessory to a medical device.",
+      "he": "באפשרויות 1 ו-2, ה-MDSW והחומרה או רכיב החומרה מסווגים בין כמכשיר רפואי ובין כאביזר למכשיר רפואי."
+    },
+    {
+      "id": "sec-5-opt12-p2",
+      "type": "paragraph",
+      "en": "As such, manufacturers of MDSW must demonstrate compliance with the MDR, including e.g. MDR Annex I on general safety and performance requirements (GSPRs). Of specific importance, the MDSW manufacturer must verify, validate and demonstrate the safety, reproducibility, compatibility and interoperability of the medical device or accessory to a medical device that the MDSW works in combination with, including all various configurations and variants. The clinical evaluation of the MDSW has to be considered in view of the intended medical purpose achieved in combination with medical device or accessory to a medical device. As the hardware or hardware component are medical devices or accessories to a medical device, the MDSW manufacturer may rely on the compliance of that hardware or hardware component with the MDR, in particular compliance with the GSPRs, when used in line with its intended purpose, under the intended normal conditions of use.",
+      "he": "ככאלה, על יצרני ה-MDSW להוכיח עמידה בדרישות ה-MDR, לרבות, למשל, נספח I ל-MDR בנושא דרישות כלליות לבטיחות וביצועים (GSPR). בעלת חשיבות מיוחדת היא העובדה שעל יצרן ה-MDSW לאמת, לתקף ולהוכיח את הבטיחות, יכולת השחזור, התאימות והיכולת ההדדית (interoperability) של המכשיר הרפואי או האביזר למכשיר רפואי אשר ה-MDSW פועלת בשילוב עמו, לרבות כל התצורות והגרסאות השונות. את ההערכה הקלינית⁶ של ה-MDSW יש לשקול לאור המטרה הרפואית המיועדת המושגת בשילוב עם מכשיר רפואי או אביזר למכשיר רפואי. מאחר שהחומרה או רכיב החומרה הם מכשירים רפואיים או אביזרים למכשיר רפואי, יצרן ה-MDSW רשאי להסתמך על עמידתם של אותה חומרה או רכיב חומרה בדרישות ה-MDR, ובפרט על עמידתם ב-GSPR, כאשר הם בשימוש בהתאם למטרתם המיועדת ובתנאי השימוש הרגילים המיועדים."
+    },
+    {
+      "id": "sec-5-opt12-p3",
+      "type": "paragraph",
+      "en": "In terms of risk management and post-market surveillance, the MDSW manufacturer must establish and implement appropriate communication channels to ensure efficient notification mechanisms regarding changes or incidents related to the medical device hardware, hardware component or accessory.",
+      "he": "מבחינת ניהול סיכונים ומעקב שלאחר שיווק, על יצרן ה-MDSW לקבוע וליישם ערוצי תקשורת מתאימים כדי להבטיח מנגנוני דיווח יעילים בנוגע לשינויים או אירועים הקשורים לחומרת המכשיר הרפואי, לרכיב החומרה או לאביזר."
+    },
+    {
+      "id": "sec-5-opt3-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Option 3",
+      "he": "אפשרות 3"
+    },
+    {
+      "id": "sec-5-opt3-p1",
+      "type": "paragraph",
+      "en": "In option 3, the MDSW manufacturer is not able to rely on the compliance and conformity of the hardware or hardware component with the MDR. In this case, it is not sufficient to verify the safety, performance, reproducibility, interoperability and compatibility. Moreover, the MDSW manufacturer becomes responsible for the safety, performance and reproducibility of the hardware or hardware component in its combined use with the MDSW in all intended configurations. The MDSW manufacturer must comply with the requirements under equivalent conditions to a situation where a manufacturer is combining a medical device with another product according to Article 22(4).",
+      "he": "באפשרות 3, יצרן ה-MDSW אינו יכול להסתמך על עמידתם והתאמתם של החומרה או רכיב החומרה לדרישות ה-MDR. במקרה זה, אין די באימות הבטיחות, הביצועים, יכולת השחזור, היכולת ההדדית והתאימות. יתרה מזאת, יצרן ה-MDSW הופך לאחראי לבטיחות, לביצועים וליכולת השחזור של החומרה או רכיב החומרה בשימושם המשולב עם ה-MDSW בכל התצורות המיועדות. על יצרן ה-MDSW לעמוד בדרישות בתנאים מקבילים לאלה שבמצב שבו יצרן משלב מכשיר רפואי עם מוצר אחר בהתאם לסעיף 22(4)⁷."
+    },
+    {
+      "id": "sec-5-opt3-p2",
+      "type": "paragraph",
+      "en": "The MDSW's technical documentation must clearly identify and describe all other products (e.g., hardware or hardware component which are not qualified as a medical device or accessory to a medical device) that are intended to be used in combination with it. As part of the risk management, the MDSW manufacturer must establish and document a risk management plan for both the MDSW and the hardware or hardware component that may have an impact on the MDSW's safety and performance. In addition, the MDSW manufacturer must demonstrate clinical evidence for all intended configurations (e.g., all platforms the MDSW is running on).",
+      "he": "התיעוד הטכני של ה-MDSW חייב לזהות ולתאר בבירור את כל המוצרים האחרים (למשל חומרה או רכיב חומרה שאינם מסווגים כמכשיר רפואי או כאביזר למכשיר רפואי) המיועדים לשימוש בשילוב עמה. כחלק מניהול הסיכונים, על יצרן ה-MDSW לקבוע ולתעד תוכנית ניהול סיכונים הן עבור ה-MDSW והן עבור החומרה או רכיב החומרה אשר עשויים להשפיע על בטיחות וביצועי ה-MDSW. בנוסף, על יצרן ה-MDSW להציג ראיות קליניות עבור כל התצורות המיועדות (למשל כל הפלטפורמות שעליהן ה-MDSW פועלת)."
+    },
+    {
+      "id": "sec-5-opt3-p3",
+      "type": "paragraph",
+      "en": "As part of the post-market surveillance system, the manufacturer of the MDSW has to actively and systematically monitor and assess all information from the market throughout the entire lifetime of the MDSW, as well as for the hardware or hardware component which may have an impact on the safety, performance, reproducibility, interoperability and or compatibility of the MDSW. The MDSW manufacturer has to put in place and implement adequate controls, by which the proper function of the hardware or hardware component can be monitored. Any identified risks pertaining to the hardware or hardware component must be appropriately mitigated. This is to ensure that the MDSW, in combination with the hardware or hardware component is safe and performant. For example, the MDSW manufacturer must assess and control the risk of hardware and hardware component malfunctions and use errors, monitor the proper functioning of the hardware, apply risk controls such as inherent safety by design.",
+      "he": "כחלק ממערכת המעקב שלאחר שיווק, על יצרן ה-MDSW לנטר ולהעריך באופן פעיל ושיטתי את כל המידע מהשוק לאורך כל מחזור החיים של ה-MDSW, וכן עבור החומרה או רכיב החומרה אשר עשויים להשפיע על הבטיחות, הביצועים, יכולת השחזור, היכולת ההדדית ו/או התאימות של ה-MDSW. על יצרן ה-MDSW להקים וליישם בקרות מתאימות, אשר באמצעותן ניתן לנטר את התפקוד התקין של החומרה או רכיב החומרה. כל סיכון שזוהה הנוגע לחומרה או לרכיב החומרה חייב להיות מצומצם כראוי. זאת כדי להבטיח שה-MDSW, בשילוב עם החומרה או רכיב החומרה, היא בטוחה ובעלת ביצועים טובים. לדוגמה, על יצרן ה-MDSW להעריך ולבקר את הסיכון לתקלות בחומרה וברכיב החומרה ולשגיאות שימוש, לנטר את התפקוד התקין של החומרה, וליישם בקרות סיכון כגון בטיחות מובנית בעיצוב (inherent safety by design)."
+    },
+    {
+      "id": "fn-1",
+      "type": "note",
+      "marker": "1",
+      "en": "For more detailed information regarding software qualification and classification, refer to MDCG 2019-11.",
+      "he": "למידע מפורט יותר בנוגע לסיווג וקטלוג של תוכנה, ראה MDCG 2019-11."
+    },
+    {
+      "id": "fn-2",
+      "type": "note",
+      "marker": "2",
+      "en": "For the purposes of this document, hardware should not be understood to include desktop PC or cloud computing platform (server).",
+      "he": "לצורכי מסמך זה, אין להבין שחומרה כוללת מחשב שולחני (desktop PC) או פלטפורמת מחשוב ענן (שרת)."
+    },
+    {
+      "id": "fn-3",
+      "type": "note",
+      "marker": "3",
+      "en": "MDCG 2020-1 on Clinical Evaluation (MDR) / Performance Evaluation (IVDR) of Medical Device Software; MDCG 2019-16 on Cybersecurity for medical devices.",
+      "he": "MDCG 2020-1 בנושא הערכה קלינית (MDR) / הערכת ביצועים (IVDR) של תוכנת מכשיר רפואי; MDCG 2019-16 בנושא אבטחת סייבר למכשירים רפואיים."
+    },
+    {
+      "id": "fn-4",
+      "type": "note",
+      "marker": "4",
+      "en": "Reference to patch in this document refers to medical patches, not software patches.",
+      "he": "ההפניה ל\"מדבקה\" (patch) במסמך זה מתייחסת למדבקות רפואיות, ולא לטלאי תוכנה (software patches)."
+    },
+    {
+      "id": "fn-5",
+      "type": "note",
+      "marker": "5",
+      "en": "Where the risk classification of the hardware or hardware component follows Annex VIII of the MDR.",
+      "he": "כאשר סיווג הסיכון של החומרה או רכיב החומרה נעשה לפי נספח VIII ל-MDR."
+    },
+    {
+      "id": "fn-6",
+      "type": "note",
+      "marker": "6",
+      "en": "MDCG 2020-1 on Clinical Evaluation (MDR) / Performance Evaluation (IVDR) of Medical Device Software.",
+      "he": "MDCG 2020-1 בנושא הערכה קלינית (MDR) / הערכת ביצועים (IVDR) של תוכנת מכשיר רפואי."
+    },
+    {
+      "id": "fn-7",
+      "type": "note",
+      "marker": "7",
+      "en": "Article 22(4): where the system or procedure pack incorporates devices which do not bear the CE marking or where the chosen combination of devices is not compatible in view of their original intended purpose, or where the sterilisation has not been carried out in accordance with the manufacturer's instructions, the system or procedure pack shall be treated as a device in its own right and shall be subject to the relevant conformity assessment procedure pursuant to Article 52. The natural or legal person shall assume the obligations incumbent on manufacturers.",
+      "he": "סעיף 22(4): כאשר המערכת או ערכת הפרוצדורה כוללת מכשירים שאינם נושאים את סימון ה-CE, או כאשר השילוב הנבחר של מכשירים אינו תואם לאור מטרתם המיועדת המקורית, או כאשר העיקור לא בוצע בהתאם להוראות היצרן, יש להתייחס למערכת או לערכת הפרוצדורה כאל מכשיר בפני עצמו, והיא תהיה כפופה להליך הערכת ההתאמה הרלוונטי בהתאם לסעיף 52. האדם הטבעי או המשפטי ייטול על עצמו את החובות המוטלות על יצרנים."
+    }
+  ]
+}

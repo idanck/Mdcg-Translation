@@ -1,0 +1,1787 @@
+{
+  "id": "MDCG-2019-9-rev1",
+  "title": {
+    "en": "Summary of safety and clinical performance — A guide for manufacturers and notified bodies",
+    "he": "סיכום בטיחות וביצועים קליניים — מדריך ליצרנים ולגופים מאונתרים"
+  },
+  "category": "Clinical Investigation and Evaluation",
+  "publicationDate": "2022-03",
+  "source": {
+    "url": "https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en",
+    "file": "original/mdcg_2019-9_en.pdf"
+  },
+  "language": "he",
+  "direction": "rtl",
+  "translationStatus": "review",
+  "glossaryVersion": "2026-06",
+  "blocks": [
+    {
+      "id": "disclaimer-1",
+      "type": "paragraph",
+      "en": "This document has been endorsed by the Medical Device Coordination Group (MDCG) established by Article 103 of Regulation (EU) 2017/745. The MDCG is composed of representatives of all Member States and it is chaired by a representative of the European Commission.",
+      "he": "מסמך זה אושר על ידי קבוצת תיאום המכשירים הרפואיים (MDCG) שהוקמה מכוח סעיף 103 לתקנה (האיחוד האירופי) 2017/745. ה-MDCG מורכבת מנציגים של כל המדינות החברות ובראשה עומד נציג של הנציבות האירופית."
+    },
+    {
+      "id": "disclaimer-2",
+      "type": "paragraph",
+      "en": "The document is not a European Commission document and it cannot be regarded as reflecting the official position of the European Commission. Any views expressed in this document are not legally binding and only the Court of Justice of the European Union can give binding interpretations of Union law.",
+      "he": "המסמך אינו מסמך של הנציבות האירופית ואין לראות בו כמשקף את העמדה הרשמית של הנציבות האירופית. כל דעה המובעת במסמך זה אינה מחייבת מבחינה משפטית, ורק בית הדין לצדק של האיחוד האירופי מוסמך לתת פרשנות מחייבת לדין האיחוד."
+    },
+    {
+      "id": "changes-heading",
+      "type": "heading",
+      "level": 1,
+      "en": "MDCG 2019-9 Rev.1 changes",
+      "he": "שינויים ב-MDCG 2019-9 Rev.1"
+    },
+    {
+      "id": "changes-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          { "en": "Section", "he": "סעיף" },
+          { "en": "Change", "he": "שינוי" }
+        ],
+        [
+          { "en": "section 3.1", "he": "סעיף 3.1" },
+          { "en": "clarification on the association of the SSCP with the Basic UDI-DI in EUDAMED", "he": "הבהרה בנוגע לשיוך ה-SSCP ל-Basic UDI-DI ב-EUDAMED" }
+        ],
+        [
+          { "en": "general requirements and template", "he": "דרישות כלליות ותבנית" },
+          { "en": "addition of a manufacturer reference number", "he": "הוספת מספר אסמכתא של היצרן" }
+        ]
+      ]
+    },
+    {
+      "id": "intro-heading",
+      "type": "heading",
+      "level": 1,
+      "en": "Introduction",
+      "he": "מבוא"
+    },
+    {
+      "id": "intro-p1",
+      "type": "paragraph",
+      "en": "The Regulation (EU) 2017/745 on medical devices requires that the manufacturer shall draw up a summary of safety and clinical performance (SSCP) for implantable devices and for class III devices, other than custom-made or investigational devices. The SSCP shall be validated by a notified body (NB) and made available to the public via the European database on medical devices (Eudamed).",
+      "he": "תקנה (האיחוד האירופי) 2017/745 בנושא מכשירים רפואיים מחייבת כי היצרן יערוך סיכום בטיחות וביצועים קליניים (SSCP) עבור מכשירים מושתלים ועבור מכשירים מסיווג III, למעט מכשירים מותאמים אישית או מכשירי מחקר. ה-SSCP יאומת על ידי גוף מאונתר (NB) ויועמד לרשות הציבור באמצעות מסד הנתונים האירופי למכשירים רפואיים (Eudamed)¹."
+    },
+    {
+      "id": "intro-p2",
+      "type": "paragraph",
+      "en": "The SSCP is intended to provide public access to an updated summary of clinical data and other information about the safety and clinical performance of the medical device. The SSCP will be an important source of information for intended users – both healthcare professionals and if relevant for patients. It is one of several means intended to fulfil the objectives of the Medical Device Regulation (MDR) to enhance transparency and provide adequate access to information.",
+      "he": "ה-SSCP נועד לספק לציבור גישה לסיכום מעודכן של נתונים קליניים² ומידע נוסף על הבטיחות והביצועים הקליניים של המכשיר הרפואי. ה-SSCP יהווה מקור מידע חשוב למשתמשים המיועדים – הן לאנשי מקצוע הבריאות והן, אם רלוונטי, למטופלים. הוא אחד מכמה אמצעים שנועדו להגשים את מטרות תקנת המכשירים הרפואיים (MDR) להגברת השקיפות ולמתן גישה הולמת למידע³."
+    },
+    {
+      "id": "intro-p3",
+      "type": "paragraph",
+      "en": "The SSCP is not intended to:",
+      "he": "ה-SSCP אינו נועד:"
+    },
+    {
+      "id": "intro-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "give general advice on the diagnosis or treatment of particular medical conditions, nor", "he": "לתת ייעוץ כללי בנוגע לאבחון או לטיפול במצבים רפואיים מסוימים, וגם לא" },
+        { "en": "replace the instructions for use (IFU) as the main document that will be provided to ensure the safe use of a particular device, nor", "he": "להחליף את הוראות השימוש (IFU) כמסמך העיקרי שיסופק להבטחת שימוש בטוח במכשיר מסוים, וגם לא" },
+        { "en": "replace the mandatory information on implant cards or in any other mandatory documents.", "he": "להחליף את המידע המנדטורי שעל כרטיסי שתל⁴ או בכל מסמך מנדטורי אחר." }
+      ]
+    },
+    {
+      "id": "intro-p4",
+      "type": "paragraph",
+      "en": "The main purpose of this document is to provide guidance on the presentation, content and validation of the SSCP. The word “shall” is used when there is a corresponding “shall” in the MDR, otherwise “should” or “recommended” etc. is used indicating the interpretation of the MDR.",
+      "he": "מטרתו העיקרית של מסמך זה היא לספק הנחיה בנוגע לאופן ההצגה, התוכן והאימות של ה-SSCP. המילה \"shall\" (חובה) משמשת כאשר קיימת \"shall\" מקבילה ב-MDR; אחרת נעשה שימוש ב-\"should\" (מומלץ) או \"recommended\" וכד', המציינים את הפרשנות של ה-MDR."
+    },
+    {
+      "id": "abbr-heading",
+      "type": "heading",
+      "level": 1,
+      "en": "Abbreviations",
+      "he": "ראשי תיבות"
+    },
+    {
+      "id": "abbr-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          { "en": "Abbreviation", "he": "ראשי תיבות" },
+          { "en": "Meaning", "he": "משמעות" }
+        ],
+        [
+          { "en": "CIV ID", "he": "CIV ID" },
+          { "en": "clinical investigation identification number, generated by Eudamed for clinical investigations under the Medical Device Directives", "he": "מספר זיהוי חקירה קלינית, המופק על ידי Eudamed עבור חקירות קליניות תחת הוראות המכשירים הרפואיים" }
+        ],
+        [
+          { "en": "CMR", "he": "CMR" },
+          { "en": "carcinogenic, mutagenic or toxic to reproduction", "he": "מסרטן, מוטגני או רעיל לרבייה" }
+        ],
+        [
+          { "en": "CS", "he": "CS" },
+          { "en": "‘common specifications’ as defined in the MDR", "he": "\"מפרטים משותפים\" כהגדרתם ב-MDR⁵" }
+        ],
+        [
+          { "en": "EU", "he": "EU" },
+          { "en": "European Union", "he": "האיחוד האירופי" }
+        ],
+        [
+          { "en": "Eudamed", "he": "Eudamed" },
+          { "en": "European database on medical devices", "he": "מסד הנתונים האירופי למכשירים רפואיים" }
+        ],
+        [
+          { "en": "FSCA", "he": "FSCA" },
+          { "en": "field safety corrective action", "he": "פעולה מתקנת בשטח⁶" }
+        ],
+        [
+          { "en": "FSN", "he": "FSN" },
+          { "en": "field safety notice", "he": "הודעת בטיחות בשטח⁷" }
+        ],
+        [
+          { "en": "IFU", "he": "IFU" },
+          { "en": "instructions for use", "he": "הוראות שימוש" }
+        ],
+        [
+          { "en": "MDR", "he": "MDR" },
+          { "en": "Medical Device Regulation", "he": "תקנת המכשירים הרפואיים" }
+        ],
+        [
+          { "en": "NB", "he": "NB" },
+          { "en": "notified body", "he": "גוף מאונתר⁸" }
+        ],
+        [
+          { "en": "PMCF", "he": "PMCF" },
+          { "en": "post-market clinical follow-up", "he": "מעקב קליני שלאחר שיווק⁹" }
+        ],
+        [
+          { "en": "PMS", "he": "PMS" },
+          { "en": "post-market surveillance", "he": "מעקב שלאחר שיווק¹⁰" }
+        ],
+        [
+          { "en": "PSUR", "he": "PSUR" },
+          { "en": "periodic safety update report", "he": "דוח עדכון בטיחות תקופתי¹¹" }
+        ],
+        [
+          { "en": "SRN", "he": "SRN" },
+          { "en": "single registration number for an economic operator", "he": "מספר רישום יחיד לגורם כלכלי¹²" }
+        ],
+        [
+          { "en": "SSCP", "he": "SSCP" },
+          { "en": "summary of safety and clinical performance", "he": "סיכום בטיחות וביצועים קליניים" }
+        ],
+        [
+          { "en": "TD", "he": "TD" },
+          { "en": "technical documentation", "he": "תיעוד טכני¹³" }
+        ],
+        [
+          { "en": "UDI-DI", "he": "UDI-DI" },
+          { "en": "Unique Device Identification - device identifier", "he": "זיהוי מכשיר ייחודי - מזהה מכשיר¹⁴" }
+        ],
+        [
+          { "en": "URL", "he": "URL" },
+          { "en": "Uniform Resource Locator (internet address)", "he": "מאתר משאב אחיד (כתובת אינטרנט)" }
+        ]
+      ]
+    },
+    {
+      "id": "fn-1",
+      "type": "note",
+      "marker": "1",
+      "en": "MDR, Article 32 (1)",
+      "he": "MDR, סעיף 32 (1)"
+    },
+    {
+      "id": "fn-2",
+      "type": "note",
+      "marker": "2",
+      "en": "MDR, Article 32 (2)(f), Article 61 (11) and Article 83 (3)(d)",
+      "he": "MDR, סעיף 32 (2)(f), סעיף 61 (11) וסעיף 83 (3)(d)"
+    },
+    {
+      "id": "fn-3",
+      "type": "note",
+      "marker": "3",
+      "en": "MDR, Recital (43)",
+      "he": "MDR, פסקת מבוא (43)"
+    },
+    {
+      "id": "fn-4",
+      "type": "note",
+      "marker": "4",
+      "en": "MDR, Article 18",
+      "he": "MDR, סעיף 18"
+    },
+    {
+      "id": "fn-5",
+      "type": "note",
+      "marker": "5",
+      "en": "MDR, Article 2 (71)",
+      "he": "MDR, סעיף 2 (71)"
+    },
+    {
+      "id": "fn-6",
+      "type": "note",
+      "marker": "6",
+      "en": "MDR, Article 2 (68)",
+      "he": "MDR, סעיף 2 (68)"
+    },
+    {
+      "id": "fn-7",
+      "type": "note",
+      "marker": "7",
+      "en": "MDR, Article 2(69)",
+      "he": "MDR, סעיף 2 (69)"
+    },
+    {
+      "id": "fn-8",
+      "type": "note",
+      "marker": "8",
+      "en": "MDR, Article 2 (42)",
+      "he": "MDR, סעיף 2 (42)"
+    },
+    {
+      "id": "fn-9",
+      "type": "note",
+      "marker": "9",
+      "en": "MDR, Annex XIV Part B",
+      "he": "MDR, נספח XIV חלק B"
+    },
+    {
+      "id": "fn-10",
+      "type": "note",
+      "marker": "10",
+      "en": "MDR, Article 2 (60)",
+      "he": "MDR, סעיף 2 (60)"
+    },
+    {
+      "id": "fn-11",
+      "type": "note",
+      "marker": "11",
+      "en": "MDR, Article 86 Periodic safety update report",
+      "he": "MDR, סעיף 86 דוח עדכון בטיחות תקופתי"
+    },
+    {
+      "id": "fn-12",
+      "type": "note",
+      "marker": "12",
+      "en": "MDR, Article 31(2)",
+      "he": "MDR, סעיף 31 (2)"
+    },
+    {
+      "id": "fn-13",
+      "type": "note",
+      "marker": "13",
+      "en": "MDR, as specified in Annexes II and III.",
+      "he": "MDR, כמפורט בנספחים II ו-III."
+    },
+    {
+      "id": "fn-14",
+      "type": "note",
+      "marker": "14",
+      "en": "MDR, Article 2 (15) and Article 27",
+      "he": "MDR, סעיף 2 (15) וסעיף 27"
+    },
+    {
+      "id": "gen-heading",
+      "type": "heading",
+      "level": 1,
+      "en": "General requirements and recommendations for the SSCP",
+      "he": "דרישות והמלצות כלליות ל-SSCP"
+    },
+    {
+      "id": "gen-p1",
+      "type": "paragraph",
+      "en": "The information in the SSCP should be sourced entirely from the technical documentation (TD) of the device. Examples of such documents are design verification/validation reports, the risk management report/file, the clinical evaluation report, and post-market surveillance (PMS) and post-market clinical follow-up (PMCF) plans and reports. The IFU includes information extracted from the same sources as the SSCP, but may itself be used as a source for the SSCP if appropriate.",
+      "he": "המידע ב-SSCP צריך להיות מקורו כולו בתיעוד הטכני (TD) של המכשיר¹⁵. דוגמאות למסמכים כאלה הן דוחות אימות/תיקוף תכן, דוח/תיק ניהול הסיכונים, דוח ההערכה הקלינית, ותוכניות ודוחות של מעקב שלאחר שיווק (PMS) ושל מעקב קליני שלאחר שיווק (PMCF). ה-IFU כולל מידע המופק מאותם מקורות כמו ה-SSCP, אך ניתן להשתמש בו עצמו כמקור ל-SSCP אם הדבר מתאים."
+    },
+    {
+      "id": "gen-p2",
+      "type": "paragraph",
+      "en": "The manufacturer will assign to the SSCP an identifier (reference number) that within the manufacturer’s management system is unique to that SSCP and will remain the same for the entire lifetime of the SSCP. In combination with the manufacturer’s SRN this will allow for the unique identification of the SSCP in EUDAMED and in EU.",
+      "he": "היצרן יקצה ל-SSCP מזהה (מספר אסמכתא) שבמסגרת מערכת הניהול של היצרן הוא ייחודי לאותו SSCP, ויישאר זהה לאורך כל מחזור החיים של ה-SSCP. בשילוב עם ה-SRN של היצרן, הדבר יאפשר את הזיהוי הייחודי של ה-SSCP ב-EUDAMED ובאיחוד האירופי."
+    },
+    {
+      "id": "gen-p3",
+      "type": "paragraph",
+      "en": "The SSCP shall be kept updated in Eudamed. When the PMCF evaluation report and the periodic safety update report (PSUR) are updated at least annually, the SSCP shall be reviewed and updated if needed to ensure that any clinical and/or safety information in the SSCP remains correct and complete. When updating the SSCP, all sections of the document shall be updated if needed so that they are in alignment with the most current version of the relevant parts of the TD of the device.",
+      "he": "ה-SSCP יישמר מעודכן ב-Eudamed¹⁶. כאשר דוח הערכת ה-PMCF¹⁷ ודוח עדכון הבטיחות התקופתי (PSUR)¹⁸ מתעדכנים לפחות אחת לשנה¹⁹, ה-SSCP ייסקר ויעודכן²⁰ במידת הצורך כדי להבטיח שכל מידע קליני ו/או בטיחותי ב-SSCP יישאר נכון ושלם. בעת עדכון ה-SSCP, כל סעיפי המסמך יעודכנו במידת הצורך כך שיהיו תואמים את הגרסה העדכנית ביותר של החלקים הרלוונטיים של ה-TD של המכשיר."
+    },
+    {
+      "id": "gen-p4",
+      "type": "paragraph",
+      "en": "This guide outlines the minimum content of the SSCP. The manufacturer may add further information from the TD of the device to enhance the comprehension of the mandatory information providing:",
+      "he": "מדריך זה מתווה את התוכן המינימלי של ה-SSCP. היצרן רשאי להוסיף מידע נוסף מה-TD של המכשיר כדי לשפר את הבנת המידע המנדטורי, ובלבד ש:"
+    },
+    {
+      "id": "gen-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "it does not affect the readability of the SSCP and", "he": "אין בכך כדי לפגוע בקריאוּת ה-SSCP, וכן" },
+        { "en": "it excludes any element of a promotional nature.", "he": "אין בו כל רכיב בעל אופי קידום מכירות." }
+      ]
+    },
+    {
+      "id": "gen-p5",
+      "type": "paragraph",
+      "en": "The SSCP shall be objective and adequately summarise both favourable and unfavourable data.",
+      "he": "ה-SSCP יהיה אובייקטיבי ויסכם באופן הולם הן נתונים מיטיבים והן נתונים שאינם מיטיבים²¹."
+    },
+    {
+      "id": "gen-p6",
+      "type": "paragraph",
+      "en": "For further guidance on the contents of the SSCP, please refer to sections 1-8 of this document and to the template in the Appendix. The format and structure of this template is recommended. It addresses all of the SSCP content requirements of the MDR, but the order has been revised to enhance its presentation.",
+      "he": "להנחיה נוספת בנוגע לתוכן ה-SSCP, ראו סעיפים 1–8 במסמך זה ואת התבנית בנספח. הפורמט והמבנה של תבנית זו מומלצים. היא מתייחסת לכל דרישות התוכן של ה-SSCP על פי ה-MDR²², אך הסדר עודכן כדי לשפר את אופן הצגתה."
+    },
+    {
+      "id": "gen-p7",
+      "type": "paragraph",
+      "en": "The IFU shall contain all that is needed to directly find the SSCP in Eudamed. The following applies to the IFU.",
+      "he": "ה-IFU יכלול את כל הנדרש כדי לאתר ישירות את ה-SSCP ב-Eudamed. הדברים הבאים חלים על ה-IFU²³."
+    },
+    {
+      "id": "gen-list2",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "It shall state that the SSCP is available in the European database on medical devices (Eudamed), where it is linked to the Basic UDI-DI.", "he": "עליו לציין כי ה-SSCP זמין במסד הנתונים האירופי למכשירים רפואיים (Eudamed), שבו הוא מקושר ל-Basic UDI-DI." },
+        { "en": "It should provide the URL to the Eudamed public website: https://ec.europa.eu/tools/eudamed", "he": "עליו לספק את כתובת ה-URL לאתר הציבורי של Eudamed: https://ec.europa.eu/tools/eudamed" },
+        { "en": "It should state the value of the Basic UDI-DI. Alternatively, another metadata can be stated provided it can be used to unambiguously search and find the intended SSCP in Eudamed.", "he": "עליו לציין את ערך ה-Basic UDI-DI. לחלופין ניתן לציין מטא-נתון אחר, ובלבד שניתן להשתמש בו כדי לחפש ולמצוא באופן חד-משמעי את ה-SSCP המבוקש ב-Eudamed." }
+      ]
+    },
+    {
+      "id": "gen-trans-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Translations to other EU languages",
+      "he": "תרגומים לשפות אחרות של האיחוד האירופי"
+    },
+    {
+      "id": "gen-trans-p1",
+      "type": "paragraph",
+      "en": "No single language will be understood by all intended users and patients in the EU – see the European Survey on Language Competences initiated by the European Commission. In order to meet the requirement in the MDR that the SSCP shall be written in a way that is clear to the intended user and, if relevant, to the patient, the SSCP should be translated into the languages accepted in the Member States where the device is envisaged to be sold. This is by analogy with the requirement for an IFU. Note that Member States may have different language requirements for an IFU depending on whether the information is intended for health care professionals or for patients. The SSCP part intended for patients should be provided in all the languages required for IFUs intended for patients in the Member States concerned.",
+      "he": "אף שפה אחת לא תהיה מובנת לכל המשתמשים והמטופלים המיועדים באיחוד האירופי – ראו את הסקר האירופי לכשירות בשפות (European Survey on Language Competences) ביוזמת הנציבות האירופית⁴. כדי לעמוד בדרישת ה-MDR שלפיה ה-SSCP ייכתב באופן ברור למשתמש המיועד וכן, אם רלוונטי, למטופל²⁴, יש לתרגם את ה-SSCP לשפות המקובלות במדינות החברות שבהן צפוי המכשיר להימכר. הדבר הוא בהיקש לדרישה לגבי ה-IFU²⁵. יש לשים לב שלמדינות החברות עשויות להיות דרישות שפה שונות ל-IFU בהתאם לשאלה אם המידע מיועד לאנשי מקצוע הבריאות או למטופלים. החלק של ה-SSCP המיועד למטופלים צריך להיות מסופק בכל השפות הנדרשות עבור IFU המיועדים למטופלים במדינות החברות הנוגעות בדבר."
+    },
+    {
+      "id": "gen-trans-p2",
+      "type": "paragraph",
+      "en": "If the selection of European languages for the SSCP does not include English, then an English translation of the document should also be provided. English is the most common language used in medical scientific publications and is understood by many healthcare professionals in the EU. Always providing an English-language version of the SSCP further enhances access to information about devices available on the EU market.",
+      "he": "אם מבחר השפות האירופיות עבור ה-SSCP אינו כולל אנגלית, יש לספק גם תרגום אנגלי של המסמך. אנגלית היא השפה הנפוצה ביותר בפרסומים מדעיים-רפואיים ומובנת לאנשי מקצוע בריאות רבים באיחוד האירופי. אספקה תמידית של גרסה אנגלית של ה-SSCP מגבירה עוד יותר את הגישה למידע²⁶ על מכשירים הזמינים בשוק האיחוד האירופי."
+    },
+    {
+      "id": "gen-trans-p3",
+      "type": "paragraph",
+      "en": "There should be one SSCP document for each language. Each SSCP document should state in which language the SSCP was validated by the NB. The manufacturer should ensure, through their quality management system, that the translations are correct.",
+      "he": "צריך להיות מסמך SSCP אחד לכל שפה. כל מסמך SSCP צריך לציין באיזו שפה אומת ה-SSCP על ידי ה-NB. על היצרן להבטיח, באמצעות מערכת ניהול האיכות שלו, שהתרגומים נכונים."
+    },
+    {
+      "id": "gen-patient-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Relevant SSCP information for patients",
+      "he": "מידע SSCP רלוונטי למטופלים"
+    },
+    {
+      "id": "gen-patient-p1",
+      "type": "paragraph",
+      "en": "The MDR indicates that patients are also intended recipients of the information in the SSCP, “if relevant”. Devices for which information will be especially relevant for patients include:",
+      "he": "ה-MDR מציין כי מטופלים הם גם נמענים מיועדים של המידע ב-SSCP, \"אם רלוונטי\"²⁷. מכשירים שעבורם המידע יהיה רלוונטי במיוחד למטופלים כוללים:"
+    },
+    {
+      "id": "gen-patient-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "implantable devices for which patients will be given implant cards, and", "he": "מכשירים מושתלים שעבורם יינתנו למטופלים כרטיסי שתל²⁸, וכן" },
+        { "en": "class III devices that are intended to be used directly by patients.", "he": "מכשירים מסיווג III המיועדים לשימוש ישיר על ידי מטופלים." }
+      ]
+    },
+    {
+      "id": "gen-patient-p2",
+      "type": "paragraph",
+      "en": "For these devices, a part of the SSCP specifically intended for patients should be provided.",
+      "he": "עבור מכשירים אלה, יש לספק חלק של ה-SSCP המיועד במיוחד למטופלים."
+    },
+    {
+      "id": "gen-patient-note",
+      "type": "note",
+      "en": "Note: Devices listed in MDR Annex XVI, and eligible for a SSCP, should always be considered as relevant for patient information.",
+      "he": "הערה: מכשירים המנויים בנספח XVI ל-MDR, והזכאים ל-SSCP, צריכים תמיד להיחשב כרלוונטיים למידע למטופל."
+    },
+    {
+      "id": "gen-patient-p3",
+      "type": "paragraph",
+      "en": "For devices other than the two groups listed above, including any devices listed in Annex XVI and eligible for a SSCP, the manufacturer may consider whether it is relevant to provide specific information intended for patients. This can be based on the manufacturer’s analysis of the device in question.",
+      "he": "עבור מכשירים אחרים מלבד שתי הקבוצות המנויות לעיל, לרבות מכשירים המנויים בנספח XVI והזכאים ל-SSCP, היצרן רשאי לשקול אם רלוונטי לספק מידע ספציפי המיועד למטופלים. הדבר יכול להתבסס על ניתוח היצרן של המכשיר הנדון."
+    },
+    {
+      "id": "gen-read-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Readability",
+      "he": "קריאוּת"
+    },
+    {
+      "id": "gen-read-p1",
+      "type": "paragraph",
+      "en": "The SSCP should always have one part for intended users/healthcare professionals, and when it is relevant (see above) a second part for patients. Both should be clear and provide information at an appropriate depth to reflect the healthcare professionals’ and the patients’ different levels of knowledge.",
+      "he": "ל-SSCP צריך להיות תמיד חלק אחד למשתמשים המיועדים/אנשי מקצוע הבריאות, וכאשר הדבר רלוונטי (ראו לעיל) חלק שני למטופלים. שני החלקים צריכים להיות ברורים ולספק מידע בעומק הולם המשקף את רמות הידע השונות של אנשי מקצוע הבריאות ושל המטופלים²⁹."
+    },
+    {
+      "id": "gen-read-p2",
+      "type": "paragraph",
+      "en": "For further guidance, see references (5) and (6) in this guide. It should not be assumed that the patient has any formal education in a medical discipline or any prior knowledge of medical terminology or clinical research. It is recommended that the readability of the part of the SSCP intended for patients is assessed for example by a test given to lay persons. The manufacturer may use a method it finds adequate for the readability test to confirm that the SSCP is written in a way that is clear to the patient.",
+      "he": "להנחיה נוספת, ראו אסמכתאות (5) ו-(6) במדריך זה. אין להניח כי למטופל יש השכלה פורמלית בתחום רפואי כלשהו או ידע מוקדם כלשהו במונחים רפואיים או במחקר קליני. מומלץ שקריאות החלק של ה-SSCP המיועד למטופלים תוערך, למשל באמצעות מבחן הניתן לאנשים מן השורה. היצרן רשאי להשתמש בשיטה שימצא הולמת למבחן הקריאות כדי לוודא שה-SSCP כתוב באופן ברור למטופל³⁰."
+    },
+    {
+      "id": "gen-read-p3",
+      "type": "paragraph",
+      "en": "Medical terminology, relevant for the medical device and the clinical context, should be used consistently throughout the part of the SSCP that is intended for healthcare professionals.",
+      "he": "מונחים רפואיים, הרלוונטיים למכשיר הרפואי ולהקשר הקליני, צריכים לשמש באופן עקבי לאורך החלק של ה-SSCP המיועד לאנשי מקצוע הבריאות."
+    },
+    {
+      "id": "gen-style-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Stylistic recommendations",
+      "he": "המלצות סגנוניות"
+    },
+    {
+      "id": "gen-style-p1",
+      "type": "paragraph",
+      "en": "The SSCP should be presented in an organised and unambiguous manner. Usually, abbreviations and acronyms should not be used; if they are, then in the text, the abbreviation or acronym should follow the full phrase it is intended to replace. It may then be used thereafter throughout the document.",
+      "he": "ה-SSCP צריך להיות מוצג באופן מאורגן וחד-משמעי. בדרך כלל אין להשתמש בקיצורים וראשי תיבות; אם משתמשים בהם, אזי בטקסט ראשי התיבות או הקיצור צריכים לבוא לאחר הביטוי המלא שאותו הם נועדו להחליף. לאחר מכן ניתן להשתמש בהם לאורך כל המסמך."
+    },
+    {
+      "id": "gen-style-p2",
+      "type": "paragraph",
+      "en": "Medical terms should be explained in simple language in the parts intended for patients. Consistency should be assured by giving the lay term with a description first, and then the medical term immediately afterwards (in brackets). On a case-by-case basis the lay or medical term (but preferably the lay term) may then be used throughout the part intended for patients.",
+      "he": "יש להסביר מונחים רפואיים בשפה פשוטה בחלקים המיועדים למטופלים. יש להבטיח עקביות באמצעות מתן המונח הפשוט בליווי תיאור תחילה, ולאחריו מיד המונח הרפואי (בסוגריים). בהתאם לכל מקרה לגופו ניתן להשתמש לאחר מכן במונח הפשוט או הרפואי (אך רצוי במונח הפשוט) לאורך החלק המיועד למטופלים."
+    },
+    {
+      "id": "gen-style-p3",
+      "type": "paragraph",
+      "en": "It is recommended to keep the information for patients/lay persons and for intended users/healthcare professionals in two separate parts of the SSCP, separated by a “page break”. This enhances their readability and facilitates printing of each part separately. See the template in the Appendix of this document.",
+      "he": "מומלץ לשמור את המידע למטופלים/אנשים מן השורה ואת המידע למשתמשים המיועדים/אנשי מקצוע הבריאות בשני חלקים נפרדים של ה-SSCP, המופרדים ב\"מעבר עמוד\". הדבר משפר את הקריאות שלהם ומקל על הדפסת כל חלק בנפרד. ראו את התבנית בנספח למסמך זה."
+    },
+    {
+      "id": "gen-style-p4",
+      "type": "paragraph",
+      "en": "The SSCP should be written in a font type and size which allow easy reading. Since the SSCP is intended for the public, it needs to be in a format that everyone can read (and that is not editable) without the need for a license. Therefore the SSCP file uploaded in Eudamed should be in PDF format. When downloaded, the PDF file should be printable and searchable with the search function in the program used to view the file, for example the Adobe Reader.",
+      "he": "ה-SSCP צריך להיכתב בסוג גופן ובגודל המאפשרים קריאה קלה. מאחר שה-SSCP מיועד לציבור, עליו להיות בפורמט שכל אחד יכול לקרוא (ושאינו ניתן לעריכה) ללא צורך ברישיון. לכן קובץ ה-SSCP המועלה ל-Eudamed צריך להיות בפורמט PDF. בעת ההורדה, קובץ ה-PDF צריך להיות ניתן להדפסה ולחיפוש באמצעות פונקציית החיפוש בתוכנה המשמשת לצפייה בקובץ, למשל Adobe Reader."
+    },
+    {
+      "id": "fn-15",
+      "type": "note",
+      "marker": "15",
+      "en": "MDR, Annex II and III",
+      "he": "MDR, נספח II ו-III"
+    },
+    {
+      "id": "fn-16",
+      "type": "note",
+      "marker": "16",
+      "en": "MDR, Article 29 (4) and Annex VI Part A 2.14",
+      "he": "MDR, סעיף 29 (4) ונספח VI חלק A 2.14"
+    },
+    {
+      "id": "fn-17",
+      "type": "note",
+      "marker": "17",
+      "en": "MDR, Article 61 (11)",
+      "he": "MDR, סעיף 61 (11)"
+    },
+    {
+      "id": "fn-18",
+      "type": "note",
+      "marker": "18",
+      "en": "MDR, Article 86 (1)",
+      "he": "MDR, סעיף 86 (1)"
+    },
+    {
+      "id": "fn-19",
+      "type": "note",
+      "marker": "19",
+      "en": "MDR Article 86 (1); PSUR for class IIa devices shall be updated when necessary and at least every two years",
+      "he": "MDR סעיף 86 (1); PSUR למכשירים מסיווג IIa יעודכן בעת הצורך ולפחות אחת לשנתיים"
+    },
+    {
+      "id": "fn-20",
+      "type": "note",
+      "marker": "20",
+      "en": "MDR, Article 61 (11) and Article 83 (3)(d)",
+      "he": "MDR, סעיף 61 (11) וסעיף 83 (3)(d)"
+    },
+    {
+      "id": "fn-21",
+      "type": "note",
+      "marker": "21",
+      "en": "MDR, Annex XIV, Part A Clinical evaluation, (2)",
+      "he": "MDR, נספח XIV, חלק A הערכה קלינית, (2)"
+    },
+    {
+      "id": "fn-22",
+      "type": "note",
+      "marker": "22",
+      "en": "MDR, Article 32 (2)",
+      "he": "MDR, סעיף 32 (2)"
+    },
+    {
+      "id": "fn-23",
+      "type": "note",
+      "marker": "23",
+      "en": "MDR, Article 32 (1) and Annex I, 23.4 (d)",
+      "he": "MDR, סעיף 32 (1) ונספח I, 23.4 (d)"
+    },
+    {
+      "id": "fn-24",
+      "type": "note",
+      "marker": "24",
+      "en": "MDR, Article 32 (1) and Recital (43)",
+      "he": "MDR, סעיף 32 (1) ופסקת מבוא (43)"
+    },
+    {
+      "id": "fn-25",
+      "type": "note",
+      "marker": "25",
+      "en": "MDR, Annex II (2), Article 10 (11)",
+      "he": "MDR, נספח II (2), סעיף 10 (11)"
+    },
+    {
+      "id": "fn-26",
+      "type": "note",
+      "marker": "26",
+      "en": "MDR, Recital (43)",
+      "he": "MDR, פסקת מבוא (43)"
+    },
+    {
+      "id": "fn-27",
+      "type": "note",
+      "marker": "27",
+      "en": "MDR, Article 32 (1)",
+      "he": "MDR, סעיף 32 (1)"
+    },
+    {
+      "id": "fn-28",
+      "type": "note",
+      "marker": "28",
+      "en": "MDR, Article 18",
+      "he": "MDR, סעיף 18"
+    },
+    {
+      "id": "fn-29",
+      "type": "note",
+      "marker": "29",
+      "en": "MDR, Article 32 (1) and Recital (43)",
+      "he": "MDR, סעיף 32 (1) ופסקת מבוא (43)"
+    },
+    {
+      "id": "fn-30",
+      "type": "note",
+      "marker": "30",
+      "en": "MDR, Article 32(1), Article 2 (38)",
+      "he": "MDR, סעיף 32 (1), סעיף 2 (38)"
+    },
+    {
+      "id": "val-heading",
+      "type": "heading",
+      "level": 1,
+      "en": "Validation and uploading of the SSCP",
+      "he": "אימות והעלאה של ה-SSCP"
+    },
+    {
+      "id": "val-1-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Validation of the initial SSCP by the NB",
+      "he": "אימות ה-SSCP הראשוני על ידי ה-NB"
+    },
+    {
+      "id": "val-1-p1",
+      "type": "paragraph",
+      "en": "When the NB has assessed that all the required elements are included in the draft SSCP, accurately presented and in alignment with the most current version of relevant documents in the TD, the SSCP has been validated by the NB.",
+      "he": "כאשר ה-NB העריך שכל הרכיבים הנדרשים³¹ כלולים בטיוטת ה-SSCP, מוצגים במדויק ותואמים את הגרסה העדכנית ביותר של המסמכים הרלוונטיים ב-TD, ה-SSCP אומת על ידי ה-NB."
+    },
+    {
+      "id": "val-1-p2",
+      "type": "paragraph",
+      "en": "In the circumstance that the conformity assessment is performed according to Annex X and XI in the MDR and there are two NBs involved, it is the NB which assesses the TD according to Annex X that shall validate the SSCP.",
+      "he": "במצב שבו הערכת ההתאמה מתבצעת לפי נספח X ו-XI ב-MDR ומעורבים שני NB-ים, ה-NB המעריך את ה-TD לפי נספח X הוא שיאמת את ה-SSCP."
+    },
+    {
+      "id": "val-1-p3",
+      "type": "paragraph",
+      "en": "The validation of the SSCP by the NB covers only one of the language(s) accepted by the NB and agreed with the manufacturer. The manufacturer should state in the revision history in each SSCP document in which language the SSCP was validated by the NB.",
+      "he": "אימות ה-SSCP על ידי ה-NB מכסה רק אחת מהשפות המקובלות על ה-NB ושסוכמו עם היצרן. על היצרן לציין בהיסטוריית הגרסאות בכל מסמך SSCP באיזו שפה אומת ה-SSCP על ידי ה-NB."
+    },
+    {
+      "id": "val-1-p4",
+      "type": "paragraph",
+      "en": "The timing of the SSCP validation may depend on the class of device and the conformity assessment routes:",
+      "he": "עיתוי אימות ה-SSCP עשוי להיות תלוי בסיווג המכשיר ובמסלולי הערכת ההתאמה:"
+    },
+    {
+      "id": "val-1-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "For class III devices and class IIb implantable devices, except sutures and staples etc., the validation is performed when a draft SSCP as a part of the application documents is submitted to the NB involved in the conformity assessment, prior to issuing the certificate.", "he": "עבור מכשירים מסיווג III ומכשירים מושתלים מסיווג IIb, למעט תפרים וסיכות וכד'³², האימות מתבצע כאשר טיוטת SSCP כחלק ממסמכי הבקשה מוגשת ל-NB המעורב בהערכת ההתאמה³³, לפני הנפקת התעודה." },
+        { "en": "For class IIa implantable and some IIb implantable devices such as sutures and staples etc, a draft SSCP as a part of the application documents shall be submitted to the NB involved in the conformity assessment. The draft SSCP shall be validated by the NB.", "he": "עבור מכשירים מושתלים מסיווג IIa וחלק מהמכשירים המושתלים מסיווג IIb כגון תפרים וסיכות וכד'³⁴, טיוטת SSCP כחלק ממסמכי הבקשה תוגש ל-NB המעורב בהערכת ההתאמה. טיוטת ה-SSCP תאומת על ידי ה-NB³⁵." }
+      ]
+    },
+    {
+      "id": "val-1-p5",
+      "type": "paragraph",
+      "en": "In the circumstance if more than one device is covered by the relevant certificate, at least one draft SSCP shall be validated against relevant documents in the TD during the initial conformity assessment, prior to issuing the certificate. Draft SSCPs that are not validated at the initial conformity assessment, shall be validated against relevant documents in the TD at least once during the period of validity of the certificate.",
+      "he": "במצב שבו יותר ממכשיר אחד מכוסה בתעודה הרלוונטית, לפחות טיוטת SSCP אחת תאומת מול המסמכים הרלוונטיים ב-TD במהלך הערכת ההתאמה הראשונית, לפני הנפקת התעודה. טיוטות SSCP שאינן מאומתות בהערכת ההתאמה הראשונית יאומתו מול המסמכים הרלוונטיים ב-TD לפחות פעם אחת במהלך תקופת תוקף התעודה."
+    },
+    {
+      "id": "val-2-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Validation of updates of the SSCP between certification activities",
+      "he": "אימות עדכונים של ה-SSCP בין פעילויות הסמכה"
+    },
+    {
+      "id": "val-2-p1",
+      "type": "paragraph",
+      "en": "The manufacturer has an obligation to keep the SSCP updated; for further details see the section “General requirements and recommendations for the SSCP” in this guide. Furthermore the manufacturer shall prepare a periodic safety update report (PSUR) that includes data gathered as a result of the post-market surveillance plan, description of any preventive and corrective actions taken, conclusions of the benefit-risk determination, and the main findings of the PMCF.",
+      "he": "על היצרן מוטלת חובה לשמור את ה-SSCP מעודכן; לפרטים נוספים ראו את הסעיף \"דרישות והמלצות כלליות ל-SSCP\" במדריך זה. בנוסף, היצרן יכין דוח עדכון בטיחות תקופתי (PSUR) הכולל נתונים שנאספו כתוצאה מתוכנית המעקב שלאחר שיווק, תיאור של כל פעולה מונעת ומתקנת שננקטה, מסקנות קביעת תועלת-סיכון, והממצאים העיקריים של ה-PMCF³⁶."
+    },
+    {
+      "id": "val-2-p2",
+      "type": "paragraph",
+      "en": "If the PSUR contains information rendering any information in the SSCP incorrect or incomplete, the SSCP shall be updated to be in line with the information in the most recent PSUR.",
+      "he": "אם ה-PSUR מכיל מידע ההופך מידע כלשהו ב-SSCP לבלתי נכון או בלתי שלם, ה-SSCP יעודכן³⁷ כדי להיות תואם את המידע ב-PSUR העדכני ביותר."
+    },
+    {
+      "id": "val-2-p3",
+      "type": "paragraph",
+      "en": "The manufacturer shall submit a PSUR to the NB at least annually, or for class IIa implantable devices at least every two years.",
+      "he": "היצרן יגיש PSUR ל-NB לפחות אחת לשנה, או עבור מכשירים מושתלים מסיווג IIa³⁸ לפחות אחת לשנתיים³⁹."
+    },
+    {
+      "id": "val-2-p4",
+      "type": "paragraph",
+      "en": "If the SSCP has been updated with new/changed information, except for strictly editorial modifications, the manufacturer should submit the updated SSCP to the NB when submitting the required PSUR.",
+      "he": "אם ה-SSCP עודכן במידע חדש/שונה, למעט שינויים עריכתיים בלבד, על היצרן להגיש את ה-SSCP המעודכן ל-NB בעת הגשת ה-PSUR הנדרש."
+    },
+    {
+      "id": "val-2-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "If the SSCP has been previously validated, the NB should validate the updated SSCP against the submitted and evaluated PSUR. Both the NB and the manufacturer should make an effort to keep the validation time short in order to meet the MDR requirement of an update of the SSCP at least annually if indicated.", "he": "אם ה-SSCP אומת בעבר, על ה-NB לאמת את ה-SSCP המעודכן מול ה-PSUR שהוגש והוערך. הן ה-NB והן היצרן צריכים לעשות מאמץ לשמור על זמן אימות קצר כדי לעמוד בדרישת ה-MDR לעדכון ה-SSCP לפחות אחת לשנה אם יש לכך הצדקה⁴⁰." },
+        { "en": "If the SSCP has not previously been validated, the NB may defer the validation until a validation against the relevant documents in the TD is planned during the period of validity of the certificate.", "he": "אם ה-SSCP לא אומת בעבר⁴¹, ה-NB רשאי לדחות את האימות עד למועד שבו מתוכנן אימות מול המסמכים הרלוונטיים ב-TD במהלך תקופת תוקף התעודה." }
+      ]
+    },
+    {
+      "id": "val-2-p5",
+      "type": "paragraph",
+      "en": "In addition, as part of its surveillance activities, the NB shall verify that the manufacturer has appropriately updated the SSCP. The NB should take into consideration its assessment of the PMS plan and PSUR, the PMCF plan and its evaluation report, and/or other relevant information.",
+      "he": "בנוסף, כחלק מפעילויות המעקב שלו, ה-NB יוודא שהיצרן עדכן את ה-SSCP כראוי. על ה-NB להביא בחשבון את הערכתו לתוכנית ה-PMS ול-PSUR, לתוכנית ה-PMCF ולדוח ההערכה שלה, ו/או מידע רלוונטי אחר."
+    },
+    {
+      "id": "val-3-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Validation of SSCP at certificate renewal",
+      "he": "אימות ה-SSCP בעת חידוש התעודה"
+    },
+    {
+      "id": "val-3-p1",
+      "type": "paragraph",
+      "en": "With each certificate renewal application, the manufacturer should:",
+      "he": "עם כל בקשת חידוש תעודה, על היצרן:"
+    },
+    {
+      "id": "val-3-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "For class III devices and class IIb implantable devices, other than sutures and staples etc., submit a draft SSCP which has been updated within the previous 12 months, regardless of whether there are new data or conclusions.", "he": "עבור מכשירים מסיווג III ומכשירים מושתלים מסיווג IIb, למעט תפרים וסיכות וכד'⁴², להגיש טיוטת SSCP שעודכנה במהלך 12 החודשים האחרונים, ללא קשר לשאלה אם קיימים נתונים או מסקנות חדשים." },
+        { "en": "For class IIa implantable and IIb implantable devices, such as sutures and staples etc., confirm that the SSCP in Eudamed is in alignment with the current version of the TD, or provide an updated SSCP where required.", "he": "עבור מכשירים מושתלים מסיווג IIa ומכשירים מושתלים מסיווג IIb, כגון תפרים וסיכות וכד'⁴³, לאשר שה-SSCP ב-Eudamed תואם את הגרסה הנוכחית של ה-TD, או לספק SSCP מעודכן היכן שנדרש." }
+      ]
+    },
+    {
+      "id": "val-3-p2",
+      "type": "paragraph",
+      "en": "At certificate renewal, the same principles should apply for the validation of the SSCP documents as at the initial certification.",
+      "he": "בעת חידוש התעודה, יחולו על אימות מסמכי ה-SSCP אותם עקרונות כמו בהסמכה הראשונית."
+    },
+    {
+      "id": "val-4-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Uploading of the SSCP in Eudamed",
+      "he": "העלאת ה-SSCP ל-Eudamed"
+    },
+    {
+      "id": "val-4-p1",
+      "type": "paragraph",
+      "en": "The SSCP shall be uploaded in Eudamed by the NB, which is the only actor that can manage the SSCPs in Eudamed. Timelines for uploading of the SSCP documents in Eudamed:",
+      "he": "ה-SSCP יועלה ל-Eudamed על ידי ה-NB⁴⁴, שהוא הגורם היחיד שיכול לנהל את מסמכי ה-SSCP ב-Eudamed. לוחות זמנים להעלאת מסמכי ה-SSCP ל-Eudamed:"
+    },
+    {
+      "id": "val-4-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "The NB shall upload the SSCP validated in conjunction with an initial conformity assessment at the same time that it uploads the issued certificate.", "he": "ה-NB יעלה את ה-SSCP שאומת בהקשר של הערכת התאמה ראשונית במועד שבו הוא מעלה את התעודה שהונפקה." },
+        { "en": "For class IIa implantable and IIb implantable devices, such as sutures and staples etc., the NB shall upload the SSCPs of all the devices covered by the issued certificate at the same time that it uploads the issued certificate, even if some of the SSCPs have not been validated yet, and are to be validated during the period of validity of the certificate. The manufacturer should state in a revision history in the SSCP document whether that revision was validated by the NB. It is important and should be transparent to the public whether the SSCP document has been validated yet by the NB. See the example of a revision history in section 9 and in the template in the Appendix of this guide.", "he": "עבור מכשירים מושתלים מסיווג IIa ומכשירים מושתלים מסיווג IIb, כגון תפרים וסיכות וכד'⁴⁵, ה-NB יעלה את מסמכי ה-SSCP של כל המכשירים המכוסים בתעודה שהונפקה במועד שבו הוא מעלה את התעודה שהונפקה, גם אם חלק ממסמכי ה-SSCP טרם אומתו ועתידים להיות מאומתים במהלך תקופת תוקף התעודה. על היצרן לציין בהיסטוריית הגרסאות שבמסמך ה-SSCP אם אותה גרסה אומתה על ידי ה-NB. חשוב, וצריך להיות שקוף לציבור⁴⁶, אם מסמך ה-SSCP כבר אומת על ידי ה-NB. ראו את הדוגמה להיסטוריית גרסאות בסעיף 9 ובתבנית בנספח למדריך זה." },
+        { "en": "The NB shall upload a SSCP whenever it has been validated against relevant documents in the TD, and thus replacing the SSCP uploaded at the initial certification with the currently validated revision.", "he": "ה-NB יעלה SSCP בכל פעם שהוא אומת מול המסמכים הרלוונטיים ב-TD, וכך יחליף את ה-SSCP שהועלה בהסמכה הראשונית בגרסה המאומתת הנוכחית." },
+        { "en": "The manufacturer is responsible for the translations of the SSCP into other languages, once the “master” SSCP has been uploaded by the NB. If the “master” SSCP is in a language other than English, then an English translation should be provided by the manufacturer within 90 days of the upload of the “master” SSCP. The NB should upload the English translation within 15 days of receiving this from the manufacturer.", "he": "היצרן אחראי לתרגומים של ה-SSCP לשפות אחרות⁴⁷, לאחר שה-NB העלה את ה-SSCP ה\"מאסטר\". אם ה-SSCP ה\"מאסטר\" הוא בשפה שאינה אנגלית, על היצרן לספק תרגום אנגלי בתוך 90 ימים מהעלאת ה-SSCP ה\"מאסטר\". על ה-NB להעלות את התרגום האנגלי בתוך 15 ימים מקבלתו מהיצרן." },
+        { "en": "The manufacturer decides when it translates the initial “master” SSCP into other languages in the Member States depending on when/if they plan to place the product on that market. The NB does not validate the translated SSCP documents. It should upload them in Eudamed within 15 days of receiving them.", "he": "היצרן מחליט מתי לתרגם את ה-SSCP ה\"מאסטר\" הראשוני לשפות אחרות במדינות החברות בהתאם למתי/אם בכוונתו להעמיד את המוצר באותו שוק. ה-NB אינו מאמת את מסמכי ה-SSCP המתורגמים. עליו להעלותם ל-Eudamed בתוך 15 ימים מקבלתם." }
+      ]
+    },
+    {
+      "id": "val-4-p2",
+      "type": "paragraph",
+      "en": "The manufacturer shall verify that the SSCP, and any translations needed for any single Member State, have been uploaded in Eudamed before placing a device on that market.",
+      "he": "היצרן יוודא שה-SSCP, וכל תרגום הנדרש לכל מדינה חברה בודדת, הועלו ל-Eudamed לפני העמדת מכשיר באותו שוק⁴⁸."
+    },
+    {
+      "id": "val-4-list2",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "When receiving an updated SSCP document in conjunction with the PSUR, the NB should upload the updated SSCP document within 15 days after it is validated, or within 15 days after deeming the validation to be deferred until a validation against the relevant documents in the TD is planned during the period of validity of the certificate.", "he": "בעת קבלת מסמך SSCP מעודכן בהקשר של ה-PSUR, על ה-NB להעלות את מסמך ה-SSCP המעודכן בתוך 15 ימים לאחר אימותו, או בתוך 15 ימים לאחר שהחליט לדחות את האימות⁴⁹ עד למועד שבו מתוכנן אימות מול המסמכים הרלוונטיים ב-TD במהלך תקופת תוקף התעודה." },
+        { "en": "At certificate renewal, the NB shall upload any updated SSCPs of all the devices covered by the reissued certificate at the same time that it uploads the reissued certificate. The NB should ensure the revision history indicates whether or not these have been validated by the NB.", "he": "בעת חידוש התעודה, ה-NB יעלה כל מסמכי SSCP מעודכנים של כל המכשירים המכוסים בתעודה שהונפקה מחדש במועד שבו הוא מעלה את התעודה שהונפקה מחדש. על ה-NB לוודא שהיסטוריית הגרסאות מציינת אם אלה אומתו על ידי ה-NB או לא." },
+        { "en": "The manufacturer should provide updated translations to the NB within 90 days of the upload of the updated “master” SSCP. The NB should upload these translations within 15 days of receiving them from the manufacturer.", "he": "על היצרן לספק תרגומים מעודכנים ל-NB בתוך 90 ימים מהעלאת ה-SSCP ה\"מאסטר\" המעודכן. על ה-NB להעלות תרגומים אלה בתוך 15 ימים מקבלתם מהיצרן." }
+      ]
+    },
+    {
+      "id": "fn-31",
+      "type": "note",
+      "marker": "31",
+      "en": "MDR, Article 32 (2), Article 61 (11), and Article 83 (3) (d)",
+      "he": "MDR, סעיף 32 (2), סעיף 61 (11), וסעיף 83 (3) (d)"
+    },
+    {
+      "id": "fn-32",
+      "type": "note",
+      "marker": "32",
+      "en": "MDR, Article 52 (4) 2nd paragraph",
+      "he": "MDR, סעיף 52 (4) פסקה שנייה"
+    },
+    {
+      "id": "fn-33",
+      "type": "note",
+      "marker": "33",
+      "en": "MDR, Article 32 (1)",
+      "he": "MDR, סעיף 32 (1)"
+    },
+    {
+      "id": "fn-34",
+      "type": "note",
+      "marker": "34",
+      "en": "MDR, Article 52 (4) 2nd paragraph",
+      "he": "MDR, סעיף 52 (4) פסקה שנייה"
+    },
+    {
+      "id": "fn-35",
+      "type": "note",
+      "marker": "35",
+      "en": "MDR, Article 32 (1)",
+      "he": "MDR, סעיף 32 (1)"
+    },
+    {
+      "id": "fn-36",
+      "type": "note",
+      "marker": "36",
+      "en": "MDR, Article 86 (1)",
+      "he": "MDR, סעיף 86 (1)"
+    },
+    {
+      "id": "fn-37",
+      "type": "note",
+      "marker": "37",
+      "en": "MDR, Article 29 (4) and Annex VI Part A 2.14, and Article 61 (11) and Article 83 (3)(d)",
+      "he": "MDR, סעיף 29 (4) ונספח VI חלק A 2.14, וסעיף 61 (11) וסעיף 83 (3)(d)"
+    },
+    {
+      "id": "fn-38",
+      "type": "note",
+      "marker": "38",
+      "en": "In this context applicable for implantable devices intended to be placed in the teeth, MDR Annex VIII, 5.4. Rule 8)",
+      "he": "בהקשר זה חל על מכשירים מושתלים המיועדים להיות מוצבים בשיניים, MDR נספח VIII, 5.4. כלל 8)"
+    },
+    {
+      "id": "fn-39",
+      "type": "note",
+      "marker": "39",
+      "en": "MDR, Article 86 (1)",
+      "he": "MDR, סעיף 86 (1)"
+    },
+    {
+      "id": "fn-40",
+      "type": "note",
+      "marker": "40",
+      "en": "MDR, Article 61 (11)",
+      "he": "MDR, סעיף 61 (11)"
+    },
+    {
+      "id": "fn-41",
+      "type": "note",
+      "marker": "41",
+      "en": "May only be applicable for class IIa implantable devices and some IIb implantable devices such as sutures, staples etc. as listed in MDR, Article 52 (4) 2nd paragraph",
+      "he": "עשוי לחול רק על מכשירים מושתלים מסיווג IIa וחלק מהמכשירים המושתלים מסיווג IIb כגון תפרים, סיכות וכד' כמנוי ב-MDR, סעיף 52 (4) פסקה שנייה"
+    },
+    {
+      "id": "fn-42",
+      "type": "note",
+      "marker": "42",
+      "en": "MDR, Article 52 (4) 2nd paragraph",
+      "he": "MDR, סעיף 52 (4) פסקה שנייה"
+    },
+    {
+      "id": "fn-43",
+      "type": "note",
+      "marker": "43",
+      "en": "MDR, Article 52 (4) 2nd paragraph",
+      "he": "MDR, סעיף 52 (4) פסקה שנייה"
+    },
+    {
+      "id": "fn-44",
+      "type": "note",
+      "marker": "44",
+      "en": "MDR, Article 32 (1)",
+      "he": "MDR, סעיף 32 (1)"
+    },
+    {
+      "id": "fn-45",
+      "type": "note",
+      "marker": "45",
+      "en": "MDR, Article 52 (4) 2nd paragraph",
+      "he": "MDR, סעיף 52 (4) פסקה שנייה"
+    },
+    {
+      "id": "fn-46",
+      "type": "note",
+      "marker": "46",
+      "en": "MDR, Recital (43)",
+      "he": "MDR, פסקת מבוא (43)"
+    },
+    {
+      "id": "fn-47",
+      "type": "note",
+      "marker": "47",
+      "en": "See page 4 in this guide, Translations to other EU languages; The manufacturer should ensure, through their quality management system, that the translations are correct.",
+      "he": "ראו עמוד 4 במדריך זה, תרגומים לשפות אחרות של האיחוד האירופי; על היצרן להבטיח, באמצעות מערכת ניהול האיכות שלו, שהתרגומים נכונים."
+    },
+    {
+      "id": "fn-48",
+      "type": "note",
+      "marker": "48",
+      "en": "MDR, Article 29 (4) and Section 2 of Part A of Annex VI (2.14)",
+      "he": "MDR, סעיף 29 (4) וסעיף 2 של חלק A בנספח VI (2.14)"
+    },
+    {
+      "id": "fn-49",
+      "type": "note",
+      "marker": "49",
+      "en": "May only be applicable for class IIa implantable devices and some IIb implantable devices as listed in MDR, Article 52 (4) 2nd paragraph",
+      "he": "עשוי לחול רק על מכשירים מושתלים מסיווג IIa וחלק מהמכשירים המושתלים מסיווג IIb כמנוי ב-MDR, סעיף 52 (4) פסקה שנייה"
+    },
+    {
+      "id": "guide-heading",
+      "type": "heading",
+      "level": 1,
+      "en": "Guidance for each of the required sections of the SSCP document",
+      "he": "הנחיה לכל אחד מהסעיפים הנדרשים של מסמך ה-SSCP"
+    },
+    {
+      "id": "sec-1-heading",
+      "type": "heading",
+      "level": 2,
+      "number": "1",
+      "en": "The identification of the device and the manufacturer, including the Basic UDI-DI and, if already issued, the SRN",
+      "he": "זיהוי המכשיר והיצרן, לרבות ה-Basic UDI-DI, ואם כבר הונפק, ה-SRN"
+    },
+    {
+      "id": "sec-1-p1",
+      "type": "paragraph",
+      "en": "The first section of the SSCP shall identify the device and the manufacturer, and should also contain some general information related to the device:",
+      "he": "הסעיף הראשון של ה-SSCP יזהה את המכשיר ואת היצרן, וצריך לכלול גם מידע כללי מסוים הקשור למכשיר:"
+    },
+    {
+      "id": "sec-1-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "1.1. Device trade name(s) (this include all trade names the device may have on the market in different Member States)", "he": "1.1. שם/שמות מסחריים של המכשיר (כולל את כל השמות המסחריים שעשויים להיות למכשיר בשוק במדינות חברות שונות)" },
+        { "en": "1.2. Manufacturer’s name and address", "he": "1.2. שם וכתובת היצרן" },
+        { "en": "1.3. Manufacturer’s SRN (single registration number)", "he": "1.3. ה-SRN (מספר רישום יחיד) של היצרן" },
+        { "en": "1.4. Basic UDI-DI", "he": "1.4. Basic UDI-DI" },
+        { "en": "1.5. Medical device nomenclature description / text", "he": "1.5. תיאור / טקסט נומנקלטורת המכשירים הרפואיים⁵⁰" },
+        { "en": "1.6. Class of device", "he": "1.6. סיווג המכשיר⁵¹" },
+        { "en": "1.7. Year when the first certificate (CE) was issued covering the device", "he": "1.7. השנה שבה הונפקה התעודה הראשונה (CE) המכסה את המכשיר" },
+        { "en": "1.8. Authorised representative if applicable; name and the SRN", "he": "1.8. נציג מורשה, אם רלוונטי; שם וה-SRN" },
+        { "en": "1.9. NB’s name (the NB that will validate the SSCP) and the NB’s single identification number", "he": "1.9. שם ה-NB (ה-NB שיאמת את ה-SSCP) ומספר הזיהוי היחיד של ה-NB⁵²" }
+      ]
+    },
+    {
+      "id": "fn-50",
+      "type": "note",
+      "marker": "50",
+      "en": "MDR, Article 26",
+      "he": "MDR, סעיף 26"
+    },
+    {
+      "id": "fn-51",
+      "type": "note",
+      "marker": "51",
+      "en": "MDR, Annex VIII",
+      "he": "MDR, נספח VIII"
+    },
+    {
+      "id": "fn-52",
+      "type": "note",
+      "marker": "52",
+      "en": "MDR, Article 43 (1)",
+      "he": "MDR, סעיף 43 (1)"
+    },
+    {
+      "id": "sec-2-heading",
+      "type": "heading",
+      "level": 2,
+      "number": "2",
+      "en": "The intended purpose of the device and any indications, contraindications and target populations",
+      "he": "המטרה המיועדת של המכשיר וכל התוויות, התוויות נגד ואוכלוסיות יעד"
+    },
+    {
+      "id": "sec-2-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "2.1. The device's intended purpose(s) shall be described.", "he": "2.1. המטרה/ות המיועדת/ות של המכשיר תתואר/נה." },
+        { "en": "2.2. The indications shall be described. This includes the stages and/or severities of the pathologies, the specific medical conditions, and the specific anatomical locations or confirmation that no anatomical locations are contraindicated, as applicable. The target population(s) shall be specified, for example if the device is intended for adults and/or children and/or infants/neonates.", "he": "2.2. ההתוויות תתוארנה. הדבר כולל את השלבים ו/או חומרות הפתולוגיות, המצבים הרפואיים הספציפיים, והמיקומים האנטומיים הספציפיים, או אישור שאין מיקומים אנטומיים שיש לגביהם התוויית נגד, ככל שרלוונטי. אוכלוסיית/אוכלוסיות היעד תצוין/תצוינה, למשל אם המכשיר מיועד למבוגרים ו/או לילדים ו/או לתינוקות/יילודים." },
+        { "en": "2.3. Any contraindications or restrictions for use or limitations of the device shall be included.", "he": "2.3. כל התוויות נגד או הגבלות שימוש או מגבלות של המכשיר ייכללו." }
+      ]
+    },
+    {
+      "id": "sec-2-p1",
+      "type": "paragraph",
+      "en": "The information can be sourced from the IFU, or from the clinical evaluation report.",
+      "he": "ניתן לשאוב את המידע מה-IFU, או מדוח ההערכה הקלינית."
+    },
+    {
+      "id": "sec-3-heading",
+      "type": "heading",
+      "level": 2,
+      "number": "3",
+      "en": "A description of the device, including a reference to previous generation(s) or variants if such exist, and a description of the differences, as well as, where relevant, a description of any accessories, other devices and products, which are intended to be used in combination with the device",
+      "he": "תיאור של המכשיר, לרבות הפניה לדור/ות קודם/ים או לגרסאות אם קיימים, ותיאור ההבדלים, וכן, היכן שרלוונטי, תיאור של אביזרים, מכשירים ומוצרים אחרים המיועדים לשימוש בשילוב עם המכשיר"
+    },
+    {
+      "id": "sec-3-1-p1",
+      "type": "paragraph",
+      "en": "3.1. A description of the device shall be presented, including its operating principles and mode(s) of action. Design characteristics should be included, for example key functional elements and any materials or substances in contact with the patient’s tissues. Include information on whether the device is for single use, and its method of sterilisation. For absorbable implants the stability retention profile, including time to loss of stability and the absorption time, should be provided.",
+      "he": "3.1. יוצג תיאור של המכשיר, לרבות עקרונות פעולתו ואופן/אופני פעולתו. יש לכלול מאפייני תכן, למשל רכיבים תפקודיים עיקריים וכל חומר או רכיב הבא במגע עם רקמות המטופל. יש לכלול מידע אם המכשיר הוא לשימוש חד-פעמי, ואת שיטת העיקור שלו. עבור שתלים נספגים יש לספק את פרופיל שמירת היציבות, לרבות הזמן עד לאובדן יציבות וזמן הספיגה."
+    },
+    {
+      "id": "sec-3-1-p2",
+      "type": "paragraph",
+      "en": "A picture or drawing can be added accompanied by text.",
+      "he": "ניתן להוסיף תמונה או שרטוט בליווי טקסט."
+    },
+    {
+      "id": "sec-3-1-p3",
+      "type": "paragraph",
+      "en": "Information about the constituents should be provided, as required for the IFU, if the device incorporates",
+      "he": "יש לספק מידע על המרכיבים, כנדרש עבור ה-IFU⁵³, אם המכשיר משלב"
+    },
+    {
+      "id": "sec-3-1-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "a medicinal substance (including a human blood or plasma derivative), or", "he": "חומר רפואי (לרבות נגזרת דם או פלזמה אנושיים), או" },
+        { "en": "tissue(s) or cells of human or animal origin, or their derivatives, or", "he": "רקמה/ות או תאים ממקור אנושי או מן החי, או נגזרותיהם, או" },
+        { "en": "substances or combinations of substances that are absorbed by or locally dispersed in the human body, or", "he": "חומרים או שילובי חומרים הנספגים בגוף האדם או מתפזרים בו מקומית, או" },
+        { "en": "materials incorporated into the device that contain or consist of CMR (carcinogenic, mutagenic or toxic to reproduction) substances or endocrine-disrupting substances, or", "he": "חומרים המשולבים במכשיר המכילים או מורכבים מחומרים מסוג CMR (מסרטנים, מוטגניים או רעילים לרבייה) או חומרים מפריעי בלוטות אנדוקריניות, או" },
+        { "en": "materials that could result in sensitisation or an allergic reaction by the patient or user.", "he": "חומרים העלולים לגרום לרגישות יתר או לתגובה אלרגית אצל המטופל או המשתמש." }
+      ]
+    },
+    {
+      "id": "sec-3-1-p4",
+      "type": "paragraph",
+      "en": "In Eudamed, the SSCP is associated to one or multiple Basic UDI-DI(s). All UDI-DIs/devices associated to this Basic UDI-DI will be seen as having the same SSCP (a UDI-DI/device must always be associated with one and only one Basic UDI-DI).",
+      "he": "ב-Eudamed, ה-SSCP משויך ל-Basic UDI-DI אחד או למספר Basic UDI-DI. כל ה-UDI-DI/המכשירים המשויכים ל-Basic UDI-DI זה ייחשבו כבעלי אותו SSCP (UDI-DI/מכשיר חייב תמיד להיות משויך ל-Basic UDI-DI אחד ויחיד)."
+    },
+    {
+      "id": "sec-3-1-p5",
+      "type": "paragraph",
+      "en": "If the device is a system of several components/devices, each device in the system should have a Basic UDI-DI but also one Basic UDI-DI for the system. It is the Basic UDI-DI for the system that is intended to be provided in section 1.4 in the template, and that will be associated with the SSCP in Eudamed. The device system, and any Basic UDI-DIs of included devices, should be described in section 3.1.",
+      "he": "אם המכשיר הוא מערכת של מספר רכיבים/מכשירים, לכל מכשיר במערכת צריך להיות Basic UDI-DI, אך גם Basic UDI-DI אחד עבור המערכת. ה-Basic UDI-DI של המערכת הוא זה שמיועד להינתן בסעיף 1.4 בתבנית, ושיהיה משויך ל-SSCP ב-Eudamed. מערכת המכשירים, וכל ה-Basic UDI-DI של המכשירים הכלולים, צריכים להיות מתוארים בסעיף 3.1."
+    },
+    {
+      "id": "sec-3-1-p6",
+      "type": "paragraph",
+      "en": "The device description in the SSCP shall therefore include all the device(s)/device system associated with the same Basic UDI-DI. The description of the device(s)/device system should be comprehensive and can be presented in different ways to include, if such exist, any configurations / combinations / different sizes / specification of any soft-ware versions that can be related to safety and/or performance and their release dates / etc. The description should also include any model number or similar designation used to identify the device(s)/device system.",
+      "he": "תיאור המכשיר ב-SSCP יכלול אפוא את כל המכשיר/ים/מערכת המכשירים המשויכים לאותו Basic UDI-DI. תיאור המכשיר/ים/מערכת המכשירים צריך להיות מקיף וניתן להציגו בדרכים שונות כדי לכלול, אם קיימים, כל תצורות / שילובים / גדלים שונים / מפרט של גרסאות תוכנה שעשויים להיות קשורים לבטיחות ו/או לביצועים ותאריכי השחרור שלהם / וכד'. התיאור צריך לכלול גם כל מספר דגם או ייעוד דומה המשמש לזיהוי המכשיר/ים/מערכת המכשירים."
+    },
+    {
+      "id": "sec-3-2-p1",
+      "type": "paragraph",
+      "en": "3.2. A reference to previous generation(s) or variants shall be provided, if such exist. This applies both to changes/variants of the device itself (same Basic UDI-DI) and to previous generation(s) or variants associated with other Basic UDI-DIs, if available. A description of the differences shall be provided, highlighting the reasons for the change; for example changes to the intended clinical benefits, changes to reduce identified clinical risks, or changes for manufacturing reasons etc.",
+      "he": "3.2. תסופק הפניה לדור/ות קודם/ים או לגרסאות, אם קיימים. הדבר חל הן על שינויים/גרסאות של המכשיר עצמו (אותו Basic UDI-DI) והן על דור/ות קודם/ים או גרסאות המשויכים ל-Basic UDI-DI אחרים, אם זמינים. יסופק תיאור ההבדלים, תוך הדגשת הסיבות לשינוי; למשל שינויים בתועלות הקליניות המיועדות, שינויים להפחתת סיכונים קליניים שזוהו, או שינויים מטעמי ייצור וכד'."
+    },
+    {
+      "id": "sec-3-3-p1",
+      "type": "paragraph",
+      "en": "3.3. If there are any accessories that are not themselves devices, but are intended by the manufacturer to be used in combination with the device, they shall be described or listed. The list of accessories should include all those that are essential for the safe and correct use of the device.",
+      "he": "3.3. אם קיימים אביזרים⁵⁴ שאינם בעצמם מכשירים, אך מיועדים על ידי היצרן לשימוש בשילוב עם המכשיר, הם יתוארו או יפורטו. רשימת האביזרים צריכה לכלול את כל אלה החיוניים לשימוש בטוח ונכון במכשיר."
+    },
+    {
+      "id": "sec-3-4-p1",
+      "type": "paragraph",
+      "en": "3.4. If there are any other devices and products intended to be used in combination with the device, they shall be described or listed. However, generic surgical equipment and/or other generic devices do not need to be listed.",
+      "he": "3.4. אם קיימים מכשירים ומוצרים אחרים המיועדים לשימוש בשילוב עם המכשיר, הם יתוארו או יפורטו. עם זאת, ציוד כירורגי גנרי ו/או מכשירים גנריים אחרים אינם צריכים להיות מפורטים."
+    },
+    {
+      "id": "sec-3-p7",
+      "type": "paragraph",
+      "en": "In the part of the SSCP that is intended for patients, section 3 may be limited to the device(s) in question (Basic UDI-DI) including relevant and necessary accessories from a patient’s perspective; see suggested headings for section 3 in the template in the Appendix.",
+      "he": "בחלק של ה-SSCP המיועד למטופלים, ניתן להגביל את סעיף 3 למכשיר/ים הנדון/ים (Basic UDI-DI) לרבות אביזרים רלוונטיים ונחוצים מנקודת מבטו של המטופל; ראו את הכותרות המוצעות לסעיף 3 בתבנית בנספח."
+    },
+    {
+      "id": "fn-53",
+      "type": "note",
+      "marker": "53",
+      "en": "MDR, Annex I (23.2) (e) and (r), and (23.4) (s)",
+      "he": "MDR, נספח I (23.2) (e) ו-(r), ו-(23.4) (s)"
+    },
+    {
+      "id": "fn-54",
+      "type": "note",
+      "marker": "54",
+      "en": "MDR, Article 2 (2)",
+      "he": "MDR, סעיף 2 (2)"
+    },
+    {
+      "id": "sec-4-heading",
+      "type": "heading",
+      "level": 2,
+      "number": "4",
+      "en": "Information on any residual risks and any undesirable effects, warnings and precautions",
+      "he": "מידע על סיכונים שיוריים וכל השפעות בלתי רצויות, אזהרות ואמצעי זהירות"
+    },
+    {
+      "id": "sec-4-1-heading",
+      "type": "heading",
+      "level": 3,
+      "number": "4.1",
+      "en": "Residual risks and undesirable effects",
+      "he": "סיכונים שיוריים והשפעות בלתי רצויות"
+    },
+    {
+      "id": "sec-4-1-p1",
+      "type": "paragraph",
+      "en": "This section of the SSCP guide and template includes residual risks, other than those contraindications, limitations, warnings and precautions that are included in sections 2.3 and 4.2.",
+      "he": "סעיף זה של מדריך ה-SSCP והתבנית כולל סיכונים שיוריים⁵⁵, מלבד אותן התוויות נגד, מגבלות, אזהרות ואמצעי זהירות הכלולים בסעיפים 2.3 ו-4.2."
+    },
+    {
+      "id": "sec-4-1-sub1",
+      "type": "heading",
+      "level": 4,
+      "en": "Description of residual risks and undesirable effects",
+      "he": "תיאור סיכונים שיוריים והשפעות בלתי רצויות"
+    },
+    {
+      "id": "sec-4-1-p2",
+      "type": "paragraph",
+      "en": "Risk is defined in the MDR as the combination of the probability of occurrence of harm and the severity of that harm. Harm is defined in the standard ISO 14971:2012 as physical injury or damage to the health of people, or damage to property or the environment. Thus the term ‘risk’ includes both clinical and non-clinical harms.",
+      "he": "סיכון מוגדר ב-MDR⁵⁶ כשילוב בין ההסתברות להתרחשות נזק לבין חומרת אותו נזק. נזק מוגדר בתקן ISO 14971:2012⁵⁷ כפגיעה גופנית או נזק לבריאות בני אדם, או נזק לרכוש או לסביבה. כך, המונח \"סיכון\" כולל הן נזקים קליניים והן נזקים לא-קליניים."
+    },
+    {
+      "id": "sec-4-1-p3",
+      "type": "paragraph",
+      "en": "The term ‘residual risk’ is defined in the standard ISO 14971:2012 as “risk remaining after risk control measures have been taken”.",
+      "he": "המונח \"סיכון שיורי\" מוגדר בתקן ISO 14971:2012⁵⁸ כ\"סיכון הנותר לאחר שננקטו אמצעי בקרת סיכונים\"."
+    },
+    {
+      "id": "sec-4-1-p4",
+      "type": "paragraph",
+      "en": "There is a requirement in the MDR that the IFU shall contain information on any residual risks and any undesirable side-effects, i.e. no sort of residual risk or undesirable side-effect related to the device is excluded from disclosure. The SSCP should contain information on at least the same residual risks and undesirable side-effects as included in the IFU.",
+      "he": "קיימת דרישה ב-MDR לפיה ה-IFU יכיל מידע על סיכונים שיוריים וכל תופעות לוואי בלתי רצויות⁵⁹, כלומר אין להחריג מגילוי כל סוג של סיכון שיורי או תופעת לוואי בלתי רצויה הקשורים למכשיר. ה-SSCP צריך לכלול מידע על לפחות אותם סיכונים שיוריים ותופעות לוואי בלתי רצויות הכלולים ב-IFU."
+    },
+    {
+      "id": "sec-4-1-p5",
+      "type": "paragraph",
+      "en": "For the purpose of the SSCP, an undesirable effect can be understood as any undesirable side-effect related to the device and that is experienced by the patient and/or can be diagnosed and/or measured in the patient.",
+      "he": "לצורך ה-SSCP, ניתן להבין השפעה בלתי רצויה⁶⁰ ככל תופעת לוואי בלתי רצויה הקשורה למכשיר ושחווה אותה המטופל ו/או ניתן לאבחנה ו/או למדידה אצל המטופל."
+    },
+    {
+      "id": "sec-4-1-p6",
+      "type": "paragraph",
+      "en": "For the clarity of the SSCP, undesirable side-effects can be annotated also in other terms as appropriate, to present any undesirable side-effects related to the device in question. There may be device-specific terminology for describing side-effects and risks in device-specific ISO standards or scientific literature that is important to use to allow comparison of clinical data.",
+      "he": "לשם בהירות ה-SSCP, ניתן לציין תופעות לוואי בלתי רצויות גם במונחים אחרים לפי העניין, כדי להציג כל תופעת לוואי בלתי רצויה הקשורה למכשיר הנדון. ייתכן שקיים מינוח ייחודי למכשיר לתיאור תופעות לוואי וסיכונים בתקני ISO ייחודיים למכשיר או בספרות מדעית, שחשוב להשתמש בו כדי לאפשר השוואה של נתונים קליניים."
+    },
+    {
+      "id": "sec-4-1-p7",
+      "type": "paragraph",
+      "en": "For example, some events indicated in the MDR by the terms ‘adverse events’, ‘undesirable side-effects’ or ‘incidents’, may all be annotated as ‘adverse events’ in the scientific literature. Any further discussion on risks can be included in the SSCP if needed for clarity or comprehension.",
+      "he": "לדוגמה, אירועים מסוימים המצוינים ב-MDR במונחים \"אירועים שליליים\"⁶¹, \"תופעות לוואי בלתי רצויות\" או \"מקרים\"⁶², עשויים כולם להיות מצוינים כ\"אירועים שליליים\" בספרות המדעית. כל דיון נוסף בסיכונים יכול להיכלל ב-SSCP אם נדרש לשם בהירות או הבנה."
+    },
+    {
+      "id": "sec-4-1-sub2",
+      "type": "heading",
+      "level": 4,
+      "en": "Quantitative data",
+      "he": "נתונים כמותיים"
+    },
+    {
+      "id": "sec-4-1-p8",
+      "type": "paragraph",
+      "en": "The definition of risk includes the probability of occurrence of harm. Therefore the information in the SSCP on risks shall also include quantifications. This information can be sourced from the clinical evaluation report where an updated examination of qualitative and quantitative aspects of clinical safety is available, with clear reference to the determination of residual risks and side-effects.",
+      "he": "הגדרת הסיכון⁶³ כוללת את ההסתברות להתרחשות נזק. לכן המידע ב-SSCP על סיכונים יכלול גם כימותים. ניתן לשאוב מידע זה מדוח ההערכה הקלינית, שבו זמינה בחינה מעודכנת של היבטים איכותיים וכמותיים של בטיחות קלינית, עם הפניה ברורה לקביעת סיכונים שיוריים ותופעות לוואי⁶⁴."
+    },
+    {
+      "id": "sec-4-1-p9",
+      "type": "paragraph",
+      "en": "It should also be clarified in the SSCP whether quantitative data on side-effects or residual risks relate to clinical data that were obtained proactively, for example from a structured prospective follow-up study of the device itself, or if the expected frequencies come from a systematic review of the scientific literature. It should be disclosed in the SSCP if data from spontaneously reported incidents or serious incidents are used as one of the sources for estimating quantitative data on side-effects or residual risks, in which case significant under-reporting needs to be considered.",
+      "he": "כמו כן יש להבהיר ב-SSCP אם נתונים כמותיים על תופעות לוואי או סיכונים שיוריים מתייחסים לנתונים קליניים שהושגו באופן יזום, למשל ממחקר מעקב פרוספקטיבי מובנה של המכשיר עצמו, או אם השכיחויות הצפויות⁶⁵ מקורן בסקירה שיטתית של הספרות המדעית. יש לגלות ב-SSCP אם נתונים ממקרים או מאירועים חמורים שדווחו באופן ספונטני⁶⁶ משמשים כאחד המקורות לאמדן נתונים כמותיים על תופעות לוואי או סיכונים שיוריים, ובמקרה כזה יש להביא בחשבון תת-דיווח משמעותי."
+    },
+    {
+      "id": "sec-4-1-p10",
+      "type": "paragraph",
+      "en": "A relation to time should also be included when presenting the quantitative data, for example during five or ten years of use from implantation, or adverse events per 100 patient-years for implantable devices with constant hazards, etc. The quantitative data and the relation to time should always be presented together.",
+      "he": "יש לכלול גם זיקה לזמן בעת הצגת הנתונים הכמותיים, למשל במהלך חמש או עשר שנות שימוש מההשתלה, או אירועים שליליים לכל 100 שנות-מטופל עבור מכשירים מושתלים בעלי סיכונים קבועים וכד'. הנתונים הכמותיים והזיקה לזמן צריכים תמיד להיות מוצגים יחד."
+    },
+    {
+      "id": "sec-4-1-p11",
+      "type": "paragraph",
+      "en": "To use tabulated lists for the presentation of side-effects and residual risks with quantitative data and a relation to time, may enhance the readability.",
+      "he": "שימוש ברשימות מטובלאות להצגת תופעות לוואי וסיכונים שיוריים עם נתונים כמותיים וזיקה לזמן עשוי לשפר את הקריאות."
+    },
+    {
+      "id": "sec-4-1-p12",
+      "type": "paragraph",
+      "en": "In the part of the SSCP that is intended for patients, residual risks and side-effects should be explained and quantified in a way that patients and lay persons can understand. A statement should be included about how potential risks have been controlled or managed, and also a statement on what to do if the patient believes that he/she is experiencing side-effects related to the device or its use. See the example in the template in the Appendix.",
+      "he": "בחלק של ה-SSCP המיועד למטופלים, סיכונים שיוריים ותופעות לוואי צריכים להיות מוסברים ומכומתים באופן שמטופלים ואנשים מן השורה יכולים להבין. יש לכלול הצהרה על האופן שבו נשלטו או נוהלו סיכונים פוטנציאליים, וכן הצהרה מה לעשות אם המטופל סבור שהוא חווה תופעות לוואי הקשורות למכשיר או לשימוש בו. ראו את הדוגמה בתבנית בנספח."
+    },
+    {
+      "id": "sec-4-2-p1",
+      "type": "paragraph",
+      "en": "4.2. All warnings and precautions pertaining to the device should be presented. However warnings and precautions solely related to for example installation/preparation of a device or relating to special procedural steps can be discussed on a general level in the SSCP if a link (URL) to the IFU on the manufacturer’s website is provided.",
+      "he": "4.2. כל האזהרות ואמצעי הזהירות הנוגעים למכשיר צריכים להיות מוצגים. עם זאת, אזהרות ואמצעי זהירות הקשורים אך ורק, למשל, להתקנה/הכנה של מכשיר או הנוגעים לשלבי הליך מיוחדים, ניתן לדון בהם ברמה כללית ב-SSCP אם מסופק קישור (URL) ל-IFU באתר האינטרנט של היצרן."
+    },
+    {
+      "id": "sec-4-2-p2",
+      "type": "paragraph",
+      "en": "Always include any warnings, precautions or measures to be taken by the patient or a healthcare professional with regard to reciprocal interference with reasonably foreseeable external influences, medical examinations or environmental conditions. If any particular clinical follow-up is necessary and mentioned in the IFU, that information should also be included in the SSCP.",
+      "he": "יש לכלול תמיד כל אזהרה, אמצעי זהירות או צעדים שעל המטופל או על איש מקצוע הבריאות לנקוט בנוגע להפרעה הדדית עם השפעות חיצוניות צפויות באופן סביר, בדיקות רפואיות או תנאים סביבתיים. אם נדרש מעקב קליני מסוים והוא מצוין ב-IFU, יש לכלול מידע זה גם ב-SSCP."
+    },
+    {
+      "id": "sec-4-3-p1",
+      "type": "paragraph",
+      "en": "4.3. Other relevant aspects of safety should be described. If the device has been subject to any field safety corrective action (FSCA including FSN), the date of the FSCA and a summary of the associated circumstances and any actions undertaken should also be included.",
+      "he": "4.3. יש לתאר היבטי בטיחות רלוונטיים אחרים. אם המכשיר היה נושא לפעולה מתקנת בשטח כלשהי (FSCA לרבות FSN), יש לכלול גם את תאריך ה-FSCA וסיכום של הנסיבות הקשורות וכל פעולה שננקטה."
+    },
+    {
+      "id": "fn-55",
+      "type": "note",
+      "marker": "55",
+      "en": "MDR, Annex I, (23.1) (g)",
+      "he": "MDR, נספח I, (23.1) (g)"
+    },
+    {
+      "id": "fn-56",
+      "type": "note",
+      "marker": "56",
+      "en": "MDR, Article 2 (23)",
+      "he": "MDR, סעיף 2 (23)"
+    },
+    {
+      "id": "fn-57",
+      "type": "note",
+      "marker": "57",
+      "en": "EN ISO 14971:2012 Medical devices – Application of risk management to medical devices, section 2.2",
+      "he": "EN ISO 14971:2012 מכשירים רפואיים – יישום ניהול סיכונים על מכשירים רפואיים, סעיף 2.2"
+    },
+    {
+      "id": "fn-58",
+      "type": "note",
+      "marker": "58",
+      "en": "EN ISO 14971:2012 Medical devices – Application of risk management to medical devices, section 2.15",
+      "he": "EN ISO 14971:2012 מכשירים רפואיים – יישום ניהול סיכונים על מכשירים רפואיים, סעיף 2.15"
+    },
+    {
+      "id": "fn-59",
+      "type": "note",
+      "marker": "59",
+      "en": "MDR, Annex I, 23.4 (g)",
+      "he": "MDR, נספח I, 23.4 (g)"
+    },
+    {
+      "id": "fn-60",
+      "type": "note",
+      "marker": "60",
+      "en": "MDR, Article 32 (2) (h)",
+      "he": "MDR, סעיף 32 (2) (h)"
+    },
+    {
+      "id": "fn-61",
+      "type": "note",
+      "marker": "61",
+      "en": "MDR, Article 2 (57)",
+      "he": "MDR, סעיף 2 (57)"
+    },
+    {
+      "id": "fn-62",
+      "type": "note",
+      "marker": "62",
+      "en": "MDR, Article 2 (64)",
+      "he": "MDR, סעיף 2 (64)"
+    },
+    {
+      "id": "fn-63",
+      "type": "note",
+      "marker": "63",
+      "en": "MDR, Article 2 (23)",
+      "he": "MDR, סעיף 2 (23)"
+    },
+    {
+      "id": "fn-64",
+      "type": "note",
+      "marker": "64",
+      "en": "MDR, Annex XIV, Part A Clinical evaluation, (1)",
+      "he": "MDR, נספח XIV, חלק A הערכה קלינית, (1)"
+    },
+    {
+      "id": "fn-65",
+      "type": "note",
+      "marker": "65",
+      "en": "MDR, Article 88 (1)",
+      "he": "MDR, סעיף 88 (1)"
+    },
+    {
+      "id": "fn-66",
+      "type": "note",
+      "marker": "66",
+      "en": "MDR, Article 2 (64) and (65)",
+      "he": "MDR, סעיף 2 (64) ו-(65)"
+    },
+    {
+      "id": "sec-5-heading",
+      "type": "heading",
+      "level": 2,
+      "number": "5",
+      "en": "The summary of clinical evaluation as referred to in Annex XIV, and relevant information on post-market clinical follow-up",
+      "he": "סיכום ההערכה הקלינית כאמור בנספח XIV, ומידע רלוונטי על מעקב קליני שלאחר שיווק"
+    },
+    {
+      "id": "sec-5-p1",
+      "type": "paragraph",
+      "en": "This part of section 5 relates to content intended for the user/healthcare professional.",
+      "he": "חלק זה של סעיף 5 נוגע לתוכן המיועד למשתמש/איש מקצוע הבריאות."
+    },
+    {
+      "id": "sec-5-p2",
+      "type": "paragraph",
+      "en": "This section is intended to summarise, in a comprehensive manner, the clinical evaluation results and the clinical data forming the clinical evidence for the confirmation of conformity with relevant general safety and performance requirements, the evaluation of undesirable side-effects and the acceptability of the benefit-risk ratio.",
+      "he": "סעיף זה נועד לסכם, באופן מקיף, את תוצאות ההערכה הקלינית ואת הנתונים הקליניים⁶⁷ המהווים את הראיות הקליניות⁶⁸ לאישור ההתאמה לדרישות כלליות לבטיחות וביצועים⁶⁹ רלוונטיות, להערכת תופעות הלוואי הבלתי רצויות ולקבילות יחס התועלת-סיכון⁷⁰."
+    },
+    {
+      "id": "sec-5-p3",
+      "type": "paragraph",
+      "en": "It shall be an objective and balanced summary of the clinical evaluation results of all the available clinical data related to the device in question, whether favourable, unfavourable, and/or inconclusive.",
+      "he": "הוא יהיה סיכום אובייקטיבי ומאוזן של תוצאות ההערכה הקלינית⁷¹ של כל הנתונים הקליניים הזמינים הקשורים למכשיר הנדון, בין אם מיטיבים, בין אם אינם מיטיבים, ו/או בלתי חד-משמעיים."
+    },
+    {
+      "id": "sec-5-p4",
+      "type": "paragraph",
+      "en": "See suggested headings for this section in the Appendix of this document.",
+      "he": "ראו את הכותרות המוצעות לסעיף זה בנספח למסמך זה."
+    },
+    {
+      "id": "sec-5-1-p1",
+      "type": "paragraph",
+      "en": "5.1. The SSCP should include a statement if conformity of the device was assessed and endorsed by the NB on the basis of equivalence. If equivalence was used, then the device(s) for which equivalence has been demonstrated should be identified by name and Basic UDI-DI if available, together with the name(s) of its/their manufacturer(s).",
+      "he": "5.1. ה-SSCP צריך לכלול הצהרה אם התאמת המכשיר הוערכה ואושרה על ידי ה-NB על בסיס שקילוּת. אם נעשה שימוש בשקילוּת, יש לזהות את המכשיר/ים שעבורם הודגמה שקילוּת לפי שם ו-Basic UDI-DI אם זמין, יחד עם שם/שמות היצרן/ים שלו/הם."
+    },
+    {
+      "id": "sec-5-1-p2",
+      "type": "paragraph",
+      "en": "The SSCP should also include a statement whether the equivalent device’s SSCP is available in Eudamed. If not available in Eudamed, the SSCP should include a summary of the clinical data pertaining to the equivalent device, written in accordance with the recommendations of this section 5, with a clear note that it relates to the equivalent device. It should be evident from the summary what the clinical evidence for the equivalent device was based on: whether it was clinical investigations of that device itself, or if any other data were used and then the sources of that data. Also include a summary of how long-term safety and performance of the equivalent device has been confirmed.",
+      "he": "ה-SSCP צריך לכלול גם הצהרה אם ה-SSCP של המכשיר השקול זמין ב-Eudamed. אם אינו זמין ב-Eudamed, ה-SSCP צריך לכלול סיכום של הנתונים הקליניים הנוגעים למכשיר השקול, כתוב בהתאם להמלצות סעיף 5 זה, עם הערה ברורה שהוא נוגע למכשיר השקול. צריך להיות ברור מהסיכום על מה התבססו הראיות הקליניות עבור המכשיר השקול: אם היו אלה חקירות קליניות של אותו מכשיר עצמו, או אם נעשה שימוש בנתונים אחרים ואז מהם מקורות נתונים אלה. יש לכלול גם סיכום של האופן שבו אושרו בטיחות וביצועים ארוכי-טווח של המכשיר השקול."
+    },
+    {
+      "id": "sec-5-2-p1",
+      "type": "paragraph",
+      "en": "5.2. All clinical investigations of the device in question, conducted before the CE-marking, should be summarised. It is recommended to keep the format clear by grouping the information for each study. The summary of each investigation should include the following non-exclusive list:",
+      "he": "5.2. יש לסכם את כל החקירות הקליניות של המכשיר הנדון, שבוצעו לפני סימון ה-CE. מומלץ לשמור על פורמט ברור על ידי קיבוץ המידע עבור כל מחקר. סיכום כל חקירה צריך לכלול את הרשימה הבאה (שאינה ממצה):"
+    },
+    {
+      "id": "sec-5-2-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Identity of the investigation/study: If performed under the Medical Device Directives or the MDR, then give the CIV ID or single identification number. Add reference details if the clinical investigation report is available in Eudamed. For other studies, the title of the study and a clear reference to a clinical trials database or publication where detailed data on the study can be found should be included. In the circumstance that the investigation/study was conducted outside EU, identify the country/-ies where it was performed.", "he": "זהות החקירה/המחקר: אם בוצעו תחת הוראות המכשירים הרפואיים או ה-MDR, יש לתת את ה-CIV ID או מספר הזיהוי היחיד. יש להוסיף פרטי אסמכתא אם דוח החקירה הקלינית זמין ב-Eudamed⁷². עבור מחקרים אחרים, יש לכלול את כותרת המחקר והפניה ברורה למסד נתונים של ניסויים קליניים או לפרסום שבו ניתן למצוא נתונים מפורטים על המחקר⁷³. במצב שבו החקירה/המחקר בוצעו מחוץ לאיחוד האירופי, יש לזהות את המדינה/ות שבהן בוצעו." },
+        { "en": "Identity of the device including any model number/version", "he": "זהות המכשיר לרבות כל מספר/גרסת דגם" },
+        { "en": "Intended use of the device in the investigation", "he": "השימוש המיועד של המכשיר בחקירה" },
+        { "en": "Objectives of the study", "he": "מטרות המחקר" },
+        { "en": "Study design: randomised controlled trial, other pivotal trial, short-term feasibility study, other; and the duration of the follow-up", "he": "תכן המחקר: ניסוי מבוקר אקראי, ניסוי מכריע אחר, מחקר היתכנות קצר-טווח, אחר; ומשך המעקב" },
+        { "en": "Primary and secondary endpoint(s)", "he": "נקודת/נקודות קצה ראשוניות ומשניות" },
+        { "en": "Inclusion/exclusion criteria for subject selection", "he": "קריטריוני הכללה/הוצאה לבחירת נבדקים" },
+        { "en": "Number of enrolled subjects, including if applicable in different treatment arms", "he": "מספר הנבדקים שגויסו, לרבות, ככל שרלוונטי, בזרועות טיפול שונות" },
+        { "en": "Study population: main baseline characteristics of each study group, including gender and age of enrolled subjects", "he": "אוכלוסיית המחקר: מאפייני הבסיס העיקריים של כל קבוצת מחקר, לרבות מין וגיל הנבדקים שגויסו" },
+        { "en": "Summary of study methods", "he": "סיכום שיטות המחקר" },
+        { "en": "Summary of results: any clinical benefits; any undesirable side-effects or adverse events, and their frequency in relation to time; any results on long-term benefits or risks, for example implant survival rates at 5 or 10 years and/or cumulative experience in patient-years. A statement of percentage completeness of follow-up should be provided. Add a note if the study is still ongoing for long-term follow up.", "he": "סיכום תוצאות: כל תועלת קלינית⁷⁴; כל תופעות לוואי בלתי רצויות או אירועים שליליים, ושכיחותם ביחס לזמן; כל תוצאות על תועלות או סיכונים ארוכי-טווח, למשל שיעורי הישרדות שתל ב-5 או 10 שנים ו/או ניסיון מצטבר בשנות-מטופל. יש לספק הצהרה על אחוז שלמות המעקב. יש להוסיף הערה אם המחקר עדיין מתקיים לצורך מעקב ארוך-טווח." },
+        { "en": "Any limitations of the study, such as high loss to follow-up, or potential confounding factors that may question the results.", "he": "כל מגבלות המחקר, כגון אובדן גבוה למעקב, או גורמים מבלבלים פוטנציאליים העלולים להטיל ספק בתוצאות." },
+        { "en": "Any device deficiency and any device replacements related to safety and/or performance during the study.", "he": "כל ליקוי במכשיר וכל החלפות מכשיר הקשורות לבטיחות ו/או לביצועים במהלך המחקר." }
+      ]
+    },
+    {
+      "id": "sec-5-3-p1",
+      "type": "paragraph",
+      "en": "5.3. Summary of other clinical data and the main findings pertaining to the device itself should be included if available. This can be sourced for example from:",
+      "he": "5.3. יש לכלול, אם זמין, סיכום של נתונים קליניים אחרים והממצאים העיקריים הנוגעים למכשיר עצמו⁷⁵. ניתן לשאוב זאת למשל מ:"
+    },
+    {
+      "id": "sec-5-3-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "A systematic literature review yielding articles in which the device in question was used. References to these articles should be provided. A bibliography can be added at the end of the SSCP document if there are many references.", "he": "סקירת ספרות שיטתית המניבה מאמרים שבהם נעשה שימוש במכשיר הנדון. יש לספק הפניות למאמרים אלה. ניתן להוסיף ביבליוגרפיה בסוף מסמך ה-SSCP אם יש הפניות רבות." },
+        { "en": "Clinically relevant information based on clinical data obtained from the implementation of the manufacturer’s PMCF and PMS plans, such as: Conducted PMCF investigation(s); include information on each study as outlined in section 5.2 in this guide.", "he": "מידע רלוונטי קלינית המבוסס על נתונים קליניים שהושגו מיישום תוכניות ה-PMCF וה-PMS של היצרן, כגון: חקירת/חקירות PMCF שבוצעו⁷⁶; יש לכלול מידע על כל מחקר כמתואר בסעיף 5.2 במדריך זה." },
+        { "en": "New or changed likelihood of an undesirable side-effect(s), or significant increase in the frequency or severity of incidents, or any identified trends, or any other main findings from the PMCF evaluation report or PSUR.", "he": "סבירות חדשה או משתנה לתופעת/תופעות לוואי בלתי רצויות, או עלייה משמעותית בשכיחות או בחומרת המקרים, או כל מגמות שזוהו⁷⁷, או כל ממצאים עיקריים אחרים מדוח הערכת ה-PMCF או מה-PSUR⁷⁸." },
+        { "en": "Analysis of clinical data from medical device registries. Any known limitations such as incomplete follow-up should be disclosed.", "he": "ניתוח נתונים קליניים ממרשמי מכשירים רפואיים. יש לגלות כל מגבלה ידועה כגון מעקב בלתי שלם." }
+      ]
+    },
+    {
+      "id": "sec-5-4-p1",
+      "type": "paragraph",
+      "en": "5.4. An overall summary of the clinical performance and safety should be provided, and that is supported by clinical evidence, based on clinical data and the clinical evaluation results pertaining to the device in question. It is recommended that the overall summary should include the following:",
+      "he": "5.4. יש לספק סיכום כולל של הביצועים הקליניים⁷⁹ והבטיחות, הנתמך בראיות קליניות⁸⁰, המבוסס על נתונים קליניים ועל תוצאות ההערכה הקלינית הנוגעים למכשיר הנדון. מומלץ שהסיכום הכולל יכלול את הדברים הבאים:"
+    },
+    {
+      "id": "sec-5-4-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "The clinical performance normally leads to clinical benefits for the patient. Give a description of the documented clinical benefits for patients with relevant and specified clinical outcome measures, and the success rate for achieving the outcome measures. This should be described for all clinical claims the manufacturer presents in the IFU, and in any information, marketing, or promotional material that it distributes. For a non-absorbable implant, there should also be information about the expected lifetime of the device including data on implant survival rates.", "he": "הביצועים הקליניים מובילים בדרך כלל לתועלות קליניות עבור המטופל. יש לתת תיאור של התועלות הקליניות המתועדות⁸¹ עבור מטופלים עם מדדי תוצאה קליניים רלוונטיים ומפורטים, ושיעור ההצלחה בהשגת מדדי התוצאה. יש לתאר זאת עבור כל הטענות הקליניות שהיצרן מציג ב-IFU, ובכל חומר מידע, שיווק או קידום מכירות שהוא מפיץ. עבור שתל בלתי-נספג, צריך להיות גם מידע על אורך החיים הצפוי של המכשיר לרבות נתונים על שיעורי הישרדות שתל." },
+        { "en": "Benefit-risk assessment for the various indications including the acceptability of the benefit-risk ratio. This includes a summary of the evaluation of undesirable side-effects.", "he": "הערכת תועלת-סיכון עבור ההתוויות השונות לרבות קבילות יחס התועלת-סיכון⁸². הדבר כולל סיכום של הערכת תופעות הלוואי הבלתי רצויות." }
+      ]
+    },
+    {
+      "id": "sec-5-4-p2",
+      "type": "paragraph",
+      "en": "In the case of a device without an intended medical purpose, the requirement to demonstrate clinical benefit shall be understood as a requirement to demonstrate the performance of the device. The summary of the clinical evaluation shall be based on relevant data concerning safety and performance.",
+      "he": "במקרה של מכשיר ללא מטרה רפואית מיועדת⁸³, הדרישה להדגים תועלת קלינית תובן כדרישה להדגים את ביצועי המכשיר. סיכום ההערכה הקלינית יתבסס על נתונים רלוונטיים בנוגע לבטיחות ולביצועים⁸⁴."
+    },
+    {
+      "id": "sec-5-5-p1",
+      "type": "paragraph",
+      "en": "5.5. The SSCP shall have a section on planned or ongoing PMCF that should include the following (non-exclusive list):",
+      "he": "5.5. ל-SSCP יהיה סעיף על PMCF מתוכנן או מתמשך⁸⁵ שצריך לכלול את הדברים הבאים (רשימה שאינה ממצה):"
+    },
+    {
+      "id": "sec-5-5-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Summary of the latest approved PMCF plan for the device. Include any planned or ongoing studies (brief description), and if there are any unanswered questions relating to the use of the device and how they will be investigated.", "he": "סיכום של תוכנית ה-PMCF המאושרת האחרונה למכשיר. יש לכלול כל מחקרים מתוכננים או מתמשכים (תיאור קצר), ואם קיימות שאלות פתוחות הנוגעות לשימוש במכשיר וכיצד הן ייחקרו." },
+        { "en": "If any emerging risks, complications or unexpected device failures have been detected, and how these will be followed up.", "he": "אם זוהו סיכונים מתעוררים, סיבוכים או כשלי מכשיר בלתי צפויים, וכיצד אלה ילוו במעקב." }
+      ]
+    },
+    {
+      "id": "sec-5-patient-heading",
+      "type": "heading",
+      "level": 3,
+      "en": "The information on clinical evaluation and PMCF intended for patients, in section 5",
+      "he": "המידע על הערכה קלינית ו-PMCF המיועד למטופלים, בסעיף 5"
+    },
+    {
+      "id": "sec-5-patient-p1",
+      "type": "paragraph",
+      "en": "The part of the SSCP intended for patients should be provided with a brief summary which enables the patient to understand the basis upon which clinical safety and performance has been demonstrated. The summary should include the following (non-exclusive list):",
+      "he": "החלק של ה-SSCP המיועד למטופלים צריך להיות מסופק עם סיכום קצר המאפשר למטופל להבין את הבסיס שעליו הודגמו בטיחות וביצועים קליניים. הסיכום צריך לכלול את הדברים הבאים (רשימה שאינה ממצה):"
+    },
+    {
+      "id": "sec-5-patient-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Clinical background of the device — A description of the relative novelty of the device: if the product has a proven clinical track record of safety and performance, or if there are one or more novel design features.", "he": "רקע קליני של המכשיר — תיאור החדשנות היחסית של המכשיר: אם למוצר יש רקורד קליני מוכח של בטיחות וביצועים, או אם קיימים מאפיין תכן חדשני אחד או יותר." },
+        { "en": "The clinical evidence for the CE marking — A description whether clinical evidence is based on data concerning an equivalent device, on data collected during a clinical investigation of the device itself, or on a combination of the two. A short lay-summary of the clinical investigations performed on the device itself should be given, if such exist. If there are clinical investigation reports on the device itself available in Eudamed, this should be stated and identification numbers should be given (CIV ID or single identification number). The summary should not make misleading claims regarding the strength of clinical evidence, either by direct reporting or omission.", "he": "הראיות הקליניות לסימון ה-CE — תיאור אם הראיות הקליניות מבוססות על נתונים הנוגעים למכשיר שקול, על נתונים שנאספו במהלך חקירה קלינית של המכשיר עצמו, או על שילוב של השניים. יש לתת סיכום קצר בשפה פשוטה של החקירות הקליניות שבוצעו על המכשיר עצמו, אם קיימות. אם קיימים דוחות חקירה קלינית על המכשיר עצמו הזמינים ב-Eudamed, יש לציין זאת ולתת מספרי זיהוי⁸⁶ (CIV ID או מספר זיהוי יחיד). הסיכום לא יעלה טענות מטעות בנוגע לחוזק הראיות הקליניות, בין בדיווח ישיר ובין בהשמטה." },
+        { "en": "Safety — A description of the benefit-risk assessments related to safety and performance for each indication claimed by the manufacturer, including information to address benefit-risk issues of interest to specific patient populations, if applicable. A description of how the manufacturer continuously collects information on safety and performance and in particular if any clinical studies (PMCF) are ongoing or planned. A description of the purpose of any such studies, for example to corroborate safety and performance claims based on equivalence data, or to demonstrate long-term safety.", "he": "בטיחות — תיאור של הערכות התועלת-סיכון הקשורות לבטיחות ולביצועים עבור כל התוויה הנטענת על ידי היצרן, לרבות מידע למתן מענה לסוגיות תועלת-סיכון הרלוונטיות לאוכלוסיות מטופלים ספציפיות, ככל שרלוונטי. תיאור של האופן שבו היצרן אוסף באופן רציף מידע על בטיחות וביצועים ובפרט אם מחקרים קליניים כלשהם (PMCF) מתמשכים או מתוכננים. תיאור מטרת כל מחקרים כאלה, למשל לאשש טענות בטיחות וביצועים המבוססות על נתוני שקילוּת, או להדגים בטיחות ארוכת-טווח." }
+      ]
+    },
+    {
+      "id": "fn-67",
+      "type": "note",
+      "marker": "67",
+      "en": "MDR, Article 61 (11) and Article 2 (48)",
+      "he": "MDR, סעיף 61 (11) וסעיף 2 (48)"
+    },
+    {
+      "id": "fn-68",
+      "type": "note",
+      "marker": "68",
+      "en": "MDR, Article 2 (51)",
+      "he": "MDR, סעיף 2 (51)"
+    },
+    {
+      "id": "fn-69",
+      "type": "note",
+      "marker": "69",
+      "en": "MDR, Annex I",
+      "he": "MDR, נספח I"
+    },
+    {
+      "id": "fn-70",
+      "type": "note",
+      "marker": "70",
+      "en": "MDR, Article 61 (1) and Annex XIV, Part A (1)",
+      "he": "MDR, סעיף 61 (1) ונספח XIV, חלק A (1)"
+    },
+    {
+      "id": "fn-71",
+      "type": "note",
+      "marker": "71",
+      "en": "MDR, Annex XIV, Part A (2)",
+      "he": "MDR, נספח XIV, חלק A (2)"
+    },
+    {
+      "id": "fn-72",
+      "type": "note",
+      "marker": "72",
+      "en": "MDR, Article 77 (7)",
+      "he": "MDR, סעיף 77 (7)"
+    },
+    {
+      "id": "fn-73",
+      "type": "note",
+      "marker": "73",
+      "en": "WMA Declaration of Helsinki, sections 35, 36, MDR Recital (64)",
+      "he": "הצהרת הלסינקי של ה-WMA, סעיפים 35, 36, MDR פסקת מבוא (64)"
+    },
+    {
+      "id": "fn-74",
+      "type": "note",
+      "marker": "74",
+      "en": "MDR, Article 2 (53)",
+      "he": "MDR, סעיף 2 (53)"
+    },
+    {
+      "id": "fn-75",
+      "type": "note",
+      "marker": "75",
+      "en": "MDR, Article 2 (48)",
+      "he": "MDR, סעיף 2 (48)"
+    },
+    {
+      "id": "fn-76",
+      "type": "note",
+      "marker": "76",
+      "en": "MDR, Article 74 (1)",
+      "he": "MDR, סעיף 74 (1)"
+    },
+    {
+      "id": "fn-77",
+      "type": "note",
+      "marker": "77",
+      "en": "MDR, Article 88 (1) and Annex XIV Part B (6.1) (b)",
+      "he": "MDR, סעיף 88 (1) ונספח XIV חלק B (6.1) (b)"
+    },
+    {
+      "id": "fn-78",
+      "type": "note",
+      "marker": "78",
+      "en": "MDR, Article 61 (11), Article 83 (3) (d)",
+      "he": "MDR, סעיף 61 (11), סעיף 83 (3) (d)"
+    },
+    {
+      "id": "fn-79",
+      "type": "note",
+      "marker": "79",
+      "en": "MDR, Article 2 (52)",
+      "he": "MDR, סעיף 2 (52)"
+    },
+    {
+      "id": "fn-80",
+      "type": "note",
+      "marker": "80",
+      "en": "MDR, Article 61 (1) and Article 2 (51)",
+      "he": "MDR, סעיף 61 (1) וסעיף 2 (51)"
+    },
+    {
+      "id": "fn-81",
+      "type": "note",
+      "marker": "81",
+      "en": "MDR, Article 2 (53)",
+      "he": "MDR, סעיף 2 (53)"
+    },
+    {
+      "id": "fn-82",
+      "type": "note",
+      "marker": "82",
+      "en": "MDR, Article 61 (1) and Annex I Sections 1 and 8",
+      "he": "MDR, סעיף 61 (1) ונספח I סעיפים 1 ו-8"
+    },
+    {
+      "id": "fn-83",
+      "type": "note",
+      "marker": "83",
+      "en": "MDR, Annex XVI",
+      "he": "MDR, נספח XVI"
+    },
+    {
+      "id": "fn-84",
+      "type": "note",
+      "marker": "84",
+      "en": "MDR, Article 61 (9)",
+      "he": "MDR, סעיף 61 (9)"
+    },
+    {
+      "id": "fn-85",
+      "type": "note",
+      "marker": "85",
+      "en": "MDR, Annex XIV Part B",
+      "he": "MDR, נספח XIV חלק B"
+    },
+    {
+      "id": "fn-86",
+      "type": "note",
+      "marker": "86",
+      "en": "MDR, Article 77 (7)",
+      "he": "MDR, סעיף 77 (7)"
+    },
+    {
+      "id": "sec-6-heading",
+      "type": "heading",
+      "level": 2,
+      "number": "6",
+      "en": "Possible diagnostic or therapeutic alternatives",
+      "he": "חלופות אבחנתיות או טיפוליות אפשריות"
+    },
+    {
+      "id": "sec-6-p1",
+      "type": "paragraph",
+      "en": "This part of the SSCP document should contain a review of how the device relates, in terms of benefit-risk, to diagnostic or therapeutic alternatives and the specific conditions under which the device and its alternatives can be considered.",
+      "he": "חלק זה של מסמך ה-SSCP צריך לכלול סקירה של האופן שבו המכשיר מתייחס, במונחי תועלת-סיכון, לחלופות אבחנתיות או טיפוליות ולתנאים הספציפיים שבהם ניתן לשקול את המכשיר ואת חלופותיו⁸⁷."
+    },
+    {
+      "id": "sec-6-p2",
+      "type": "paragraph",
+      "en": "If reference is made to the “state of the art”, that statement should be supported for example by referring to relevant recognised guidance documents generated by specialty medical societies or educational bodies.",
+      "he": "אם נעשית הפניה ל\"מיטב הידע\" (state of the art), הצהרה זו צריכה להיתמך, למשל, על ידי הפניה למסמכי הנחיה מוכרים ורלוונטיים שהופקו על ידי איגודים רפואיים מקצועיים או גופי הכשרה."
+    },
+    {
+      "id": "sec-6-p3",
+      "type": "paragraph",
+      "en": "In the part of the SSCP intended for patients the text should include a recommendation to discuss any possible diagnostic or therapeutic alternatives with a healthcare professional who can take into consideration the individual patient’s situation. See the proposed text in the template in the Appendix.",
+      "he": "בחלק של ה-SSCP המיועד למטופלים, הטקסט צריך לכלול המלצה לדון בכל חלופה אבחנתית או טיפולית אפשרית עם איש מקצוע הבריאות שיכול להביא בחשבון את מצבו האישי של המטופל. ראו את הטקסט המוצע בתבנית בנספח."
+    },
+    {
+      "id": "sec-7-heading",
+      "type": "heading",
+      "level": 2,
+      "number": "7",
+      "en": "Suggested profile and training for users",
+      "he": "פרופיל והכשרה מוצעים למשתמשים"
+    },
+    {
+      "id": "sec-7-p1",
+      "type": "paragraph",
+      "en": "The experience, education and/or training of the intended user(s) shall be described. This includes any specific mandatory training before using the device, and any update training for continued safe use of the device.",
+      "he": "הניסיון, ההשכלה ו/או ההכשרה של המשתמש/ים המיועד/ים יתוארו⁸⁸. הדבר כולל כל הכשרה מנדטורית ספציפית לפני השימוש במכשיר, וכל הכשרת רענון לשימוש בטוח מתמשך במכשיר."
+    },
+    {
+      "id": "sec-7-p2",
+      "type": "paragraph",
+      "en": "If the device is intended to be handled directly by the patient, section 7 should be included in the SSCP part intended for patients and any required training should be described.",
+      "he": "אם המכשיר מיועד להיות מנוהל ישירות על ידי המטופל, יש לכלול את סעיף 7 בחלק של ה-SSCP המיועד למטופלים, ויש לתאר כל הכשרה נדרשת."
+    },
+    {
+      "id": "sec-8-heading",
+      "type": "heading",
+      "level": 2,
+      "number": "8",
+      "en": "Reference to any harmonised standards and CS applied",
+      "he": "הפניה לכל התקנים המתואמים וה-CS שיושמו"
+    },
+    {
+      "id": "sec-8-p1",
+      "type": "paragraph",
+      "en": "A list with all applied common specifications (CS), international standards harmonised under the Medical Device Directives and/or the MDR, and relevant adopted monographs of the European Pharmacopoeia shall be provided.",
+      "he": "תסופק רשימה של כל המפרטים המשותפים (CS) שיושמו, התקנים הבין-לאומיים המתואמים תחת הוראות המכשירים הרפואיים ו/או ה-MDR, והמונוגרפיות הרלוונטיות שאומצו מתוך הפרמקופיאה האירופית⁸⁹."
+    },
+    {
+      "id": "sec-8-p2",
+      "type": "paragraph",
+      "en": "The year/revision of the applied CS, standard or monograph, should be listed together with information whether it was applied in full or in part.",
+      "he": "השנה/הגרסה של ה-CS, התקן או המונוגרפיה שיושמו צריכים להיות מפורטים יחד עם מידע אם יושמו במלואם או בחלקם."
+    },
+    {
+      "id": "sec-8-p3",
+      "type": "paragraph",
+      "en": "The year/revision of an applied harmonised standard or CS may change in the technical documentation for the device. However, an update of the SSCP concerning this change can wait until the next revision of the SSCP is issued.",
+      "he": "השנה/הגרסה של תקן מתואם או CS שיושמו עשויה להשתנות בתיעוד הטכני של המכשיר. עם זאת, עדכון ה-SSCP בנוגע לשינוי זה יכול להמתין עד להנפקת הגרסה הבאה של ה-SSCP."
+    },
+    {
+      "id": "sec-8-p4",
+      "type": "paragraph",
+      "en": "This list in section 8 does not need to be included in the part of the SSCP that is intended for patients.",
+      "he": "רשימה זו בסעיף 8 אינה צריכה להיכלל בחלק של ה-SSCP המיועד למטופלים."
+    },
+    {
+      "id": "sec-9-heading",
+      "type": "heading",
+      "level": 2,
+      "number": "9",
+      "en": "Revision history",
+      "he": "היסטוריית גרסאות"
+    },
+    {
+      "id": "sec-9-p1",
+      "type": "paragraph",
+      "en": "The SSCP document should include a revision history. The purpose is to include the following information:",
+      "he": "מסמך ה-SSCP צריך לכלול היסטוריית גרסאות. המטרה היא לכלול את המידע הבא:"
+    },
+    {
+      "id": "sec-9-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "The SSCP revision number", "he": "מספר גרסת ה-SSCP" },
+        { "en": "Date when the revision was issued", "he": "התאריך שבו הונפקה הגרסה" },
+        { "en": "Description of the main changes", "he": "תיאור השינויים העיקריים" },
+        { "en": "In which language the SSCP was validated by the NB", "he": "באיזו שפה אומת ה-SSCP על ידי ה-NB" },
+        { "en": "In case of a SSCP on class IIa implantable or some IIb implantable devices; whether the SSCP revision has been validated yet or not by the NB", "he": "במקרה של SSCP על מכשירים מושתלים מסיווג IIa או חלק מהמכשירים המושתלים מסיווג IIb⁹⁰; אם גרסת ה-SSCP כבר אומתה או טרם אומתה על ידי ה-NB" }
+      ]
+    },
+    {
+      "id": "sec-9-p2",
+      "type": "paragraph",
+      "en": "See an example of a table for a Revision history in the Appendix of this guide.",
+      "he": "ראו דוגמה לטבלה של היסטוריית גרסאות בנספח למדריך זה."
+    },
+    {
+      "id": "fn-87",
+      "type": "note",
+      "marker": "87",
+      "en": "MDR, Recital 49",
+      "he": "MDR, פסקת מבוא 49"
+    },
+    {
+      "id": "fn-88",
+      "type": "note",
+      "marker": "88",
+      "en": "By analogy with the IFU, see MDR, Annex I, 23.1 (a)",
+      "he": "בהיקש ל-IFU, ראו MDR, נספח I, 23.1 (a)"
+    },
+    {
+      "id": "fn-89",
+      "type": "note",
+      "marker": "89",
+      "en": "MDR, Article 8 (2)",
+      "he": "MDR, סעיף 8 (2)"
+    },
+    {
+      "id": "fn-90",
+      "type": "note",
+      "marker": "90",
+      "en": "MDR, Article 52 (4) 2nd paragraph",
+      "he": "MDR, סעיף 52 (4) פסקה שנייה"
+    },
+    {
+      "id": "refs-heading",
+      "type": "heading",
+      "level": 1,
+      "en": "References",
+      "he": "אסמכתאות"
+    },
+    {
+      "id": "refs-list",
+      "type": "list",
+      "ordered": true,
+      "items": [
+        { "en": "Regulation (EU) 2017/745 of the European Parliament and of the Council of 5 April 2017 on medical devices — http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L:2017:117:TOC", "he": "תקנה (האיחוד האירופי) 2017/745 של הפרלמנט האירופי ושל המועצה מ-5 באפריל 2017 בנושא מכשירים רפואיים — http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L:2017:117:TOC" },
+        { "en": "Council Directive 93/42/EEC of 14 June 1993 concerning medical devices — http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:01993L0042-20071011", "he": "הוראת המועצה 93/42/EEC מ-14 ביוני 1993 בנושא מכשירים רפואיים — http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:01993L0042-20071011" },
+        { "en": "Council Directive of 20 June 1990 on the approximation of the laws of the Member States relating to active implantable medical devices (90/385/EEC) — http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:01990L0385-20071011", "he": "הוראת המועצה מ-20 ביוני 1990 בנושא קירוב חוקי המדינות החברות הנוגעים למכשירים רפואיים מושתלים פעילים (90/385/EEC) — http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:01990L0385-20071011" },
+        { "en": "The European Survey on Language Competences: measuring foreign language student proficiency. Patrícia Costa and Patrícia Albergaria-Almeida / Procedia - Social and Behavioral Sciences 191 (2015) 2369–2373 — https://www.sciencedirect.com/science/article/pii/S187704281502515X", "he": "הסקר האירופי לכשירות בשפות: מדידת מיומנות תלמידים בשפה זרה. Patrícia Costa ו-Patrícia Albergaria-Almeida / Procedia - Social and Behavioral Sciences 191 (2015) 2369–2373 — https://www.sciencedirect.com/science/article/pii/S187704281502515X" },
+        { "en": "Summaries of Clinical Trials Results for Laypersons — https://ec.europa.eu/health/sites/health/files/files/eudralex/vol-10/2017_01_26_summaries_of_ct_results_for_laypersons.pdf", "he": "סיכומי תוצאות ניסויים קליניים לאנשים מן השורה — https://ec.europa.eu/health/sites/health/files/files/eudralex/vol-10/2017_01_26_summaries_of_ct_results_for_laypersons.pdf" },
+        { "en": "Common European Framework of Reference for Languages: Learning, teaching, assessment (CEFR) — https://www.coe.int/en/web/common-european-framework-reference-languages/home", "he": "מסגרת הייחוס האירופית המשותפת לשפות: למידה, הוראה, הערכה (CEFR) — https://www.coe.int/en/web/common-european-framework-reference-languages/home" },
+        { "en": "WMA Declaration of Helsinki - Ethical Principles for Medical Research Involving Human Subjects — https://www.wma.net/policies-post/wma-declaration-of-helsinki-ethical-principles-for-medical-research-involving-human-subjects/", "he": "הצהרת הלסינקי של ה-WMA – עקרונות אתיים למחקר רפואי המערב נבדקים אנושיים — https://www.wma.net/policies-post/wma-declaration-of-helsinki-ethical-principles-for-medical-research-involving-human-subjects/" }
+      ]
+    },
+    {
+      "id": "appendix-heading",
+      "type": "heading",
+      "level": 1,
+      "en": "Appendix: Template for the SSCP",
+      "he": "נספח: תבנית ל-SSCP"
+    },
+    {
+      "id": "appendix-p1",
+      "type": "paragraph",
+      "en": "Texts in italic in the template are general information texts proposed to be included in the SSCP document.",
+      "he": "טקסטים בכתב נטוי בתבנית הם טקסטי מידע כללי המוצעים להכללה במסמך ה-SSCP."
+    },
+    {
+      "id": "appendix-p2",
+      "type": "paragraph",
+      "en": "Note that there shall always be SSCP information dedicated to users/healthcare professionals for all implantable devices and for all class III devices, other than custom-made or investigational devices. When relevant, a second part dedicated to patients/lay persons should be added. See further recommendations on relevant SSCP information for patients in this guide.",
+      "he": "יש לשים לב כי תמיד יהיה מידע SSCP המוקדש למשתמשים/אנשי מקצוע הבריאות עבור כל המכשירים המושתלים ועבור כל המכשירים מסיווג III, למעט מכשירים מותאמים אישית או מכשירי מחקר. כאשר רלוונטי, יש להוסיף חלק שני המוקדש למטופלים/אנשים מן השורה. ראו המלצות נוספות על מידע SSCP רלוונטי למטופלים במדריך זה."
+    },
+    {
+      "id": "appendix-template-hcp",
+      "type": "example",
+      "caption": {
+        "en": "Template — Part for users/healthcare professionals (italic texts are proposed general information texts to include verbatim).",
+        "he": "תבנית — החלק למשתמשים/אנשי מקצוע הבריאות (הטקסטים הנטויים הם טקסטי מידע כלליים מוצעים להכללה כלשונם)."
+      },
+      "verbatim": "Summary of safety and clinical performance\n\nThis Summary of Safety and Clinical Performance (SSCP) is intended to provide public access to an updated summary of the main aspects of the safety and clinical performance of the device.\n\nThe SSCP is not intended to replace the Instructions For Use as the main document to ensure the safe use of the device, nor is it intended to provide diagnostic or therapeutic suggestions to intended users or patients.\n\nThe following information is intended for users/healthcare professionals.\n\nIf the SSCP includes a part intended for patients, the following can be added:\nFollowing this information there is a summary intended for patients.\n\nManufacturer's reference number for the SSCP\n\n1. Device identification and general information\n1.1. Device trade name(s)\n1.2. Manufacturer's name and address\n1.3. Manufacturer's single registration number (SRN)\n1.4. Basic UDI-DI\n1.5. Medical device nomenclature description / text\n1.6. Class of device\n1.7. Year when the first certificate (CE) was issued covering the device\n1.8. Authorised representative if applicable; name and the SRN\n1.9. NB's name (the NB that will validate the SSCP) and the NB's single identification number\n\n2. Intended use of the device\n2.1. Intended purpose\n2.2. Indication(s) and target population(s)\n2.3. Contraindications and/or limitations\n\n3. Device description\n3.1. Description of the device\n3.2. A reference to previous generation(s) or variants if such exist, and a description of the differences\n3.3. Description of any accessories which are intended to be used in combination with the device\n3.4. Description of any other devices and products which are intended to be used in combination with the device\n\n4. Risks and warnings\n4.1. Residual risks and undesirable effects\n4.2. Warnings and precautions\n4.3. Other relevant aspects of safety, including a summary of any field safety corrective action (FSCA including FSN) if applicable\n\n5. Summary of clinical evaluation and post-market clinical follow-up (PMCF)\n5.1. Summary of clinical data related to equivalent device, if applicable\n5.2. Summary of clinical data from conducted investigations of the device before the CE-marking, if applicable\n5.3. Summary of clinical data from other sources, if applicable\n5.4. An overall summary of the clinical performance and safety\n5.5. Ongoing or planned post-market clinical follow-up\n\n6. Possible diagnostic or therapeutic alternatives\n7. Suggested profile and training for users\n8. Reference to any harmonised standards and CS applied\n9. Revision history"
+    },
+    {
+      "id": "appendix-revtable-intro",
+      "type": "paragraph",
+      "en": "Section 9 — Revision history table:",
+      "he": "סעיף 9 — טבלת היסטוריית גרסאות:"
+    },
+    {
+      "id": "appendix-revtable",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          { "en": "SSCP revision number", "he": "מספר גרסת SSCP" },
+          { "en": "Date issued", "he": "תאריך הנפקה" },
+          { "en": "Change description", "he": "תיאור השינוי" },
+          { "en": "Revision validated by the Notified Body", "he": "הגרסה אומתה על ידי הגוף המאונתר" }
+        ],
+        [
+          { "en": "", "he": "" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" },
+          { "en": "Yes — Validation language: ___ / No (only applicable for class IIa or some IIb implantable devices (MDR, Article 52 (4) 2nd paragraph) for which the SSCP is not yet validated by the NB)", "he": "כן — שפת אימות: ___ / לא (חל רק על מכשירים מושתלים מסיווג IIa או חלק מסיווג IIb (MDR, סעיף 52 (4) פסקה שנייה) שעבורם ה-SSCP טרם אומת על ידי ה-NB)" }
+        ],
+        [
+          { "en": "", "he": "" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" },
+          { "en": "Yes — Validation language: ___ / No", "he": "כן — שפת אימות: ___ / לא" }
+        ]
+      ]
+    },
+    {
+      "id": "appendix-patient-intro",
+      "type": "paragraph",
+      "en": "If the SSCP concerns a device for which it is relevant to provide information to patients in lay man’s language, the following text can be included and then followed by a “page break”: A summary of the safety and clinical performance of the device, intended for patients, is given below.",
+      "he": "אם ה-SSCP נוגע למכשיר שעבורו רלוונטי לספק מידע למטופלים בשפה פשוטה, ניתן לכלול את הטקסט הבא ואחריו \"מעבר עמוד\": להלן סיכום הבטיחות והביצועים הקליניים של המכשיר, המיועד למטופלים."
+    },
+    {
+      "id": "appendix-template-patient",
+      "type": "example",
+      "caption": {
+        "en": "Template — Part for patients/lay persons (italic texts are proposed general information texts to include verbatim).",
+        "he": "תבנית — החלק למטופלים/אנשים מן השורה (הטקסטים הנטויים הם טקסטי מידע כלליים מוצעים להכללה כלשונם)."
+      },
+      "verbatim": "Summary of safety and clinical performance\n\nDocument revision:\nDate issued:\n\nThis Summary of Safety and Clinical Performance (SSCP) is intended to provide public access to an updated summary of the main aspects of the safety and clinical performance of the device. The information presented below is intended for patients or lay persons. A more extensive summary of its safety and clinical performance prepared for healthcare professionals is found in the first part of this document.\n\nThe SSCP is not intended to give general advice on the treatment of a medical condition. Please contact your healthcare professional in case you have questions about your medical condition or about the use of the device in your situation. This SSCP is not intended to replace an Implant card or the Instructions For Use to provide information on the safe use of the device.\n\n1. Device identification and general information\no Device trade name\no Manufacturer; name and address\no Basic UDI-DI\no Year when the device was first CE-marked\n\n2. Intended use of the device\no Intended purpose\no Indications and intended patient groups\no Contraindications\n\n3. Device description\no Device description and material/substances in contact with patient tissues\no Information about medicinal substances in the device, if any\no Description of how the device is achieving its intended mode of action\no Description of accessories, if any\n\n4. Risks and warnings\nContact your healthcare professional if you believe that you are experiencing side-effects related to the device or its use or if you are concerned about risks. This document is not intended to replace a consultation with your healthcare professional if needed.\no How potential risks have been controlled or managed\no Remaining risks and undesirable effects\no Warnings and precautions\no Summary of any field safety corrective action, (FSCA including FSN) if applicable\n\n5. Summary of clinical evaluation and post-market clinical follow-up\no Clinical background of the device\no The clinical evidence for the CE-marking\no Safety\n\n6. Possible diagnostic or therapeutic alternatives\nWhen considering alternative treatments, it is recommended to contact your healthcare professional who can take into account your individual situation.\no General description of therapeutic alternatives\n\n7. Suggested training for users"
+    }
+  ]
+}

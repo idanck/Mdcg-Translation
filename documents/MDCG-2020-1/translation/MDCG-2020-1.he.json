@@ -1,0 +1,1316 @@
+{
+  "id": "MDCG-2020-1",
+  "title": {
+    "en": "MDCG 2020-1 — Guidance on Clinical Evaluation (MDR) / Performance Evaluation (IVDR) of Medical Device Software",
+    "he": "MDCG 2020-1 — הנחיה בנושא הערכה קלינית (MDR) / הערכת ביצועים (IVDR) של תוכנה כמכשיר רפואי (MDSW)"
+  },
+  "category": "New Technologies",
+  "publicationDate": "2020-03",
+  "source": {
+    "url": "https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en",
+    "file": "original/mdcg_2020-1_en.pdf"
+  },
+  "language": "he",
+  "direction": "rtl",
+  "translationStatus": "review",
+  "glossaryVersion": "2026-06",
+  "blocks": [
+    {
+      "id": "disclaimer-1",
+      "type": "paragraph",
+      "en": "This document has been endorsed by the Medical Device Coordination Group (MDCG) established by Article 103 of Regulation (EU) 2017/745. The MDCG is composed of representatives of all Member States and it is chaired by a representative of the European Commission.",
+      "he": "מסמך זה אושר על ידי קבוצת תיאום המכשירים הרפואיים (MDCG) שהוקמה מכוח סעיף 103 לתקנה (האיחוד האירופי) 2017/745. ה-MDCG מורכבת מנציגים של כל המדינות החברות ובראשה עומד נציג של הנציבות האירופית."
+    },
+    {
+      "id": "disclaimer-2",
+      "type": "paragraph",
+      "en": "The document is not a European Commission document and it cannot be regarded as reflecting the official position of the European Commission. Any views expressed in this document are not legally binding and only the Court of Justice of the European Union can give binding interpretations of Union law.",
+      "he": "המסמך אינו מסמך של הנציבות האירופית ואין לראות בו כמשקף את העמדה הרשמית של הנציבות האירופית. כל דעה המובעת במסמך זה אינה מחייבת מבחינה משפטית, ורק בית הדין לצדק של האיחוד האירופי מוסמך לתת פרשנות מחייבת לדין האיחוד."
+    },
+
+    {
+      "id": "sec-1",
+      "type": "heading",
+      "level": 1,
+      "number": "1",
+      "en": "Purpose",
+      "he": "מטרה"
+    },
+    {
+      "id": "sec-1-p1",
+      "type": "paragraph",
+      "en": "The purpose of this guidance is to provide a framework for the determination of the appropriate level of CLINICAL EVIDENCE required for MEDICAL DEVICE SOFTWARE (MDSW) to fulfil the requirements set out in Regulation (EU) 2017/745 – Medical Devices Regulation (MDR) and Regulation (EU) 2017/746 – In Vitro Diagnostic Medical Devices Regulation (IVDR).¹",
+      "he": "מטרת הנחיה זו היא לספק מסגרת לקביעת הרמה המתאימה של ראיות קליניות (CLINICAL EVIDENCE) הנדרשות עבור תוכנה כמכשיר רפואי (MEDICAL DEVICE SOFTWARE – MDSW) כדי לעמוד בדרישות שנקבעו בתקנה (האיחוד האירופי) 2017/745 – תקנת המכשירים הרפואיים (MDR) ובתקנה (האיחוד האירופי) 2017/746 – תקנת המכשירים הרפואיים לאבחון חוץ-גופי (IVDR).¹"
+    },
+    {
+      "id": "sec-1-p2",
+      "type": "paragraph",
+      "en": "In order to promote global convergence, this document takes into account certain concepts outlined in International Medical Device Regulators Forum (IMDRF) guidance documents (such as N41).²",
+      "he": "כדי לקדם התכנסות גלובלית, מסמך זה מביא בחשבון מושגים מסוימים המתוארים במסמכי ההנחיה של פורום הרגולטורים הבין-לאומי למכשירים רפואיים (International Medical Device Regulators Forum – IMDRF) (כגון N41).²"
+    },
+    {
+      "id": "fn-1",
+      "type": "note",
+      "marker": "1",
+      "en": "Depending on the device in question, the level of Clinical Evidence may differ and shall be assessed on a case by case basis.",
+      "he": "בהתאם למכשיר המדובר, רמת הראיות הקליניות עשויה להשתנות ותיבחן על בסיס כל מקרה לגופו."
+    },
+    {
+      "id": "fn-2",
+      "type": "note",
+      "marker": "2",
+      "en": "International Medical Device Regulators Forum – IMDRF/SaMD WG/N41FINAL:2017 – Guidance on Software as a Medical Device (SaMD): Clinical Evaluation",
+      "he": "International Medical Device Regulators Forum – IMDRF/SaMD WG/N41FINAL:2017 – הנחיה בנושא תוכנה כמכשיר רפואי (SaMD): הערכה קלינית."
+    },
+
+    {
+      "id": "sec-2",
+      "type": "heading",
+      "level": 1,
+      "number": "2",
+      "en": "Scope",
+      "he": "תחולה"
+    },
+    {
+      "id": "sec-2-p1",
+      "type": "paragraph",
+      "en": "This guidance should be applied to MDSW. For the purpose of this guidance, MDSW is software that is intended to be used, alone or in combination, for a purpose as specified in the definition of a “medical device” in the medical devices regulation or in vitro diagnostic medical devices regulation.",
+      "he": "הנחיה זו תיושם על MDSW. לצורך הנחיה זו, MDSW היא תוכנה המיועדת לשימוש, לבדה או בשילוב, למטרה כמפורט בהגדרת \"מכשיר רפואי\" בתקנת המכשירים הרפואיים או בתקנת המכשירים הרפואיים לאבחון חוץ-גופי."
+    },
+    {
+      "id": "sec-2-p2",
+      "type": "paragraph",
+      "en": "It should be noted that software can be associated³ with another medical device, by driving or influencing its use. The guideline MDCG 2019-11 clarifies that software which is driving or influencing is covered by the medical devices regulations⁴ either as a part/component of a device or as an accessory for a medical device.",
+      "he": "יש לציין כי תוכנה עשויה להיות משויכת³ למכשיר רפואי אחר, באמצעות הפעלתו או השפעה על השימוש בו. ההנחיה MDCG 2019-11 מבהירה כי תוכנה המפעילה או המשפיעה מכוסה על ידי תקנות המכשירים הרפואיים⁴ בין כחלק/רכיב של מכשיר ובין כאביזר עבור מכשיר רפואי."
+    },
+    {
+      "id": "sec-2-p3",
+      "type": "paragraph",
+      "en": "Software developers should refer to MDCG 2019-11 for guidance on the appropriate qualification and classification of software prior to such software being introduced into the market. The same principles of CLINICAL EVALUATION (MDR) / PERFORMANCE EVALUATION (IVDR) apply to all MDSW. Conceptually, the following models of software can be understood (whereas combinations may be possible, refer to Table 1):",
+      "he": "על מפתחי תוכנה לעיין ב-MDCG 2019-11 לקבלת הנחיה בנוגע לסיווג הכשירותי והסיווג המתאימים של תוכנה בטרם הכנסתה לשוק. אותם עקרונות של הערכה קלינית (MDR) / הערכת ביצועים (IVDR) חלים על כל MDSW. מבחינה רעיונית, ניתן להבחין במודלים הבאים של תוכנה (בעוד שצירופים אפשריים, ראה טבלה 1):"
+    },
+    {
+      "id": "sec-2-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "en": "a) Software for which the manufacturer claims a specific medical intended purpose. Such software has a CLINICAL BENEFIT and requires CLINICAL EVIDENCE within its own conformity assessment.",
+          "he": "א) תוכנה אשר היצרן טוען לגביה למטרה רפואית מיועדת ספציפית. לתוכנה כזו יש תועלת קלינית (CLINICAL BENEFIT) והיא דורשת ראיות קליניות במסגרת הערכת ההתאמה שלה עצמה."
+        },
+        {
+          "en": "b) Software for which the manufacturer does not claim any medical intended purpose. Such software is intended to drive or influence a medical device. The CLINICAL EVIDENCE is provided within the context of the driven or influenced device and is therefore out of the scope of this document.",
+          "he": "ב) תוכנה אשר היצרן אינו טוען לגביה לכל מטרה רפואית מיועדת. תוכנה כזו מיועדת להפעיל או להשפיע על מכשיר רפואי. הראיות הקליניות מסופקות בהקשר של המכשיר המופעל או המושפע, ולכן הן מחוץ לתחולת מסמך זה."
+        }
+      ]
+    },
+    {
+      "id": "sec-2-p4",
+      "type": "paragraph",
+      "en": "It should be recognised that the concept of a CLINICAL BENEFIT for MDSW may deviate from that which applies in the case of pharmaceuticals or other medical devices, since the benefit of MDSW may lie in providing accurate medical information on patients, where appropriate, assessed against medical information obtained through the use of other diagnostic options and technologies, whereas the final clinical outcome for the patient is dependent on further diagnostic and/or therapeutic options which could be available.",
+      "he": "יש להכיר בכך שמושג התועלת הקלינית עבור MDSW עשוי לסטות מזה החל במקרה של תכשירים תרופתיים או מכשירים רפואיים אחרים, שכן התועלת של MDSW עשויה לטמון במתן מידע רפואי מדויק על מטופלים, היכן שמתאים, מוערך אל מול מידע רפואי המתקבל באמצעות שימוש באפשרויות אבחון וטכנולוגיות אחרות, בעוד שהתוצאה הקלינית הסופית עבור המטופל תלויה באפשרויות אבחון ו/או טיפול נוספות שעשויות להיות זמינות."
+    },
+    {
+      "id": "fn-3",
+      "type": "note",
+      "marker": "3",
+      "en": "Associated medical device may be software or hardware.",
+      "he": "מכשיר רפואי משויך עשוי להיות תוכנה או חומרה."
+    },
+    {
+      "id": "fn-4",
+      "type": "note",
+      "marker": "4",
+      "en": "The use of “The Medical Devices Regulations” from here on out refers to both Regulation (EU) 2017/745 – MDR and Regulation (EU) 2017/746 – IVDR.",
+      "he": "השימוש במונח \"תקנות המכשירים הרפואיים\" מכאן ואילך מתייחס הן לתקנה (האיחוד האירופי) 2017/745 – MDR והן לתקנה (האיחוד האירופי) 2017/746 – IVDR."
+    },
+    {
+      "id": "table-1",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          { "en": "Model of Software", "he": "מודל התוכנה" },
+          { "en": "CLINICAL EVALUATION (MDR) / PERFORMANCE EVALUATION (IVDR) - scope", "he": "הערכה קלינית (MDR) / הערכת ביצועים (IVDR) – תחולה" }
+        ],
+        [
+          { "en": "MDSW (with independent intended purpose and claimed CLINICAL BENEFIT)", "he": "MDSW (בעלת מטרה מיועדת עצמאית ותועלת קלינית נטענת)" },
+          { "en": "MDSW only", "he": "MDSW בלבד" }
+        ],
+        [
+          { "en": "MDSW (with intended purpose and claimed CLINICAL BENEFIT related to driving or influencing a medical device for a medical purpose)", "he": "MDSW (בעלת מטרה מיועדת ותועלת קלינית נטענת הקשורות להפעלה או השפעה על מכשיר רפואי למטרה רפואית)" },
+          { "en": "MDSW and the driven or influenced medical device (Notes 1, 2)", "he": "ה-MDSW והמכשיר הרפואי המופעל או המושפע (הערות 1, 2)" }
+        ],
+        [
+          { "en": "Software driving or influencing the use of a medical device (with no independent intended purpose or independent claimed CLINICAL BENEFIT)", "he": "תוכנה המפעילה או משפיעה על השימוש במכשיר רפואי (ללא מטרה מיועדת עצמאית או תועלת קלינית עצמאית נטענת)" },
+          { "en": "Driven or influenced medical device including the software (component or accessory)", "he": "המכשיר הרפואי המופעל או המושפע, כולל התוכנה (רכיב או אביזר)" }
+        ]
+      ]
+    },
+    {
+      "id": "table-1-caption",
+      "type": "note",
+      "en": "Table 1 — Different MDSW and CLINICAL EVALUATION (MDR) / PERFORMANCE EVALUATION (IVDR) requirements",
+      "he": "טבלה 1 — סוגי MDSW שונים ודרישות הערכה קלינית (MDR) / הערכת ביצועים (IVDR)"
+    },
+    {
+      "id": "table-1-note1",
+      "type": "note",
+      "en": "Note 1: If a software is driving/ influencing more than one medical device, an independent CLINICAL EVALUATION (MDR) / PERFORMANCE EVALUATION (IVDR) is required for each foreseen and clinically viable software – device combination.",
+      "he": "הערה 1: אם תוכנה מפעילה/משפיעה על יותר ממכשיר רפואי אחד, נדרשת הערכה קלינית (MDR) / הערכת ביצועים (IVDR) עצמאית עבור כל צירוף תוכנה–מכשיר צפוי ובר-קיימא קלינית."
+    },
+    {
+      "id": "table-1-note2",
+      "type": "note",
+      "en": "Note 2: Out of scope of this guidance (See MDCG 2019-11 for examples).",
+      "he": "הערה 2: מחוץ לתחולת הנחיה זו (ראה דוגמאות ב-MDCG 2019-11)."
+    },
+
+    {
+      "id": "sec-3",
+      "type": "heading",
+      "level": 1,
+      "number": "3",
+      "en": "Background",
+      "he": "רקע"
+    },
+    {
+      "id": "sec-3-p1",
+      "type": "paragraph",
+      "en": "Article 61 (1) of the MDR and Article 56 (1) of the IVDR state the following:",
+      "he": "סעיף 61(1) ל-MDR וסעיף 56(1) ל-IVDR קובעים את הדברים הבאים:"
+    },
+    {
+      "id": "sec-3-q1",
+      "type": "paragraph",
+      "en": "‘The manufacturer shall specify and justify the level of CLINICAL EVIDENCE necessary to demonstrate conformity with the relevant general safety and performance requirements. That level of CLINICAL EVIDENCE shall be appropriate in view of the characteristics of the device and its intended purpose.’",
+      "he": "\"היצרן יציין ויצדיק את רמת הראיות הקליניות הנדרשת להוכחת התאמה לדרישות הכלליות הרלוונטיות לבטיחות וביצועים. רמת ראיות קליניות זו תהיה מתאימה לאור מאפייני המכשיר ומטרתו המיועדת.\""
+    },
+    {
+      "id": "sec-3-p2",
+      "type": "paragraph",
+      "en": "Article 2 (51) of the MDR and Article 2 (36) of the IVDR define ‘CLINICAL EVIDENCE’ as:",
+      "he": "סעיף 2(51) ל-MDR וסעיף 2(36) ל-IVDR מגדירים \"ראיות קליניות\" כדלקמן:"
+    },
+    {
+      "id": "sec-3-q2",
+      "type": "paragraph",
+      "en": "‘clinical data and CLINICAL EVALUATION (MDR) / PERFORMANCE EVALUATION (IVDR) results pertaining to a device of a sufficient amount and quality to allow a qualified assessment of whether the device is safe and achieves the intended CLINICAL BENEFIT(S), when used as intended by the manufacturer.’",
+      "he": "\"נתונים קליניים ותוצאות הערכה קלינית (MDR) / הערכת ביצועים (IVDR) הנוגעים למכשיר, בכמות ובאיכות מספקות כדי לאפשר הערכה מוסמכת של השאלה האם המכשיר בטוח ומשיג את התועלת/ות הקלינית/ות המיועדת/ות, כאשר נעשה בו שימוש כמיועד על ידי היצרן.\""
+    },
+    {
+      "id": "sec-3-p3",
+      "type": "paragraph",
+      "en": "In order to provide guidance relating to the level of CLINICAL EVIDENCE required for MDSW and as set out in recital (5) of the MDR and IVDR, this guidance takes into account internationally converged principles adopted by an international group of regulators, IMDRF (http://www.imdrf.org). Adoption of these principles provides European regulators an initial framework when further developing MDR/ IVDR-specific regulatory approaches and expectations for regulatory oversight.",
+      "he": "כדי לספק הנחיה בנוגע לרמת הראיות הקליניות הנדרשת עבור MDSW, וכפי שנקבע בפסקת המבוא (5) של ה-MDR וה-IVDR, הנחיה זו מביאה בחשבון עקרונות מאוחדים בין-לאומית שאומצו על ידי קבוצה בין-לאומית של רגולטורים, IMDRF (http://www.imdrf.org). אימוץ עקרונות אלה מספק לרגולטורים האירופיים מסגרת ראשונית בעת פיתוח נוסף של גישות רגולטוריות ייעודיות ל-MDR/IVDR ושל ציפיות לפיקוח רגולטורי."
+    },
+    {
+      "id": "sec-3-p4",
+      "type": "paragraph",
+      "en": "While this document describes a converged approach to CLINICAL EVALUATION (MDR) / PERFORMANCE EVALUATION (IVDR) for MDSW, it should be read in conjunction with other documents that aim to provide horizontal guidance for the CLINICAL EVALUATION of medical devices or PERFORMANCE EVALUATION of in vitro diagnostic medical devices.⁵",
+      "he": "בעוד שמסמך זה מתאר גישה מאוחדת להערכה קלינית (MDR) / הערכת ביצועים (IVDR) עבור MDSW, יש לקרוא אותו יחד עם מסמכים אחרים שמטרתם לספק הנחיה אופקית להערכה קלינית של מכשירים רפואיים או להערכת ביצועים של מכשירים רפואיים לאבחון חוץ-גופי.⁵"
+    },
+    {
+      "id": "sec-3-note",
+      "type": "note",
+      "en": "Note: Please be advised that this document is subject to revision upon the publication of the aforementioned horizontal guidance.",
+      "he": "הערה: שימו לב כי מסמך זה כפוף לעדכון עם פרסום ההנחיה האופקית האמורה."
+    },
+    {
+      "id": "sec-3-p5",
+      "type": "paragraph",
+      "en": "Clinical expertise and judgments are required at every step of the CLINICAL EVALUATION (MDR) / PERFORMANCE EVALUATION (IVDR), including literature search and appraisal. Each indication and claimed CLINICAL BENEFIT that is part of the intended purpose should be assessed individually and have the supporting CLINICAL EVIDENCE. Systematic and explicit approach for the appraisal of supporting data allows achieving confident, scientifically substantiated conclusions and facilitates transparency of these judgments.",
+      "he": "מומחיות קלינית ושיקול דעת קליני נדרשים בכל שלב של ההערכה הקלינית (MDR) / הערכת הביצועים (IVDR), לרבות חיפוש ספרות והערכתה. כל התוויה וכל תועלת קלינית נטענת שהן חלק מהמטרה המיועדת ייבחנו בנפרד ויגובו בראיות קליניות תומכות. גישה שיטתית ומפורשת להערכת נתונים תומכים מאפשרת הגעה למסקנות בטוחות ומבוססות מדעית ומקדמת שקיפות של שיקולי דעת אלה."
+    },
+    {
+      "id": "fn-5",
+      "type": "note",
+      "marker": "5",
+      "en": "These guidance documents are under development and will be published on the Commission’s Medical Devices website.",
+      "he": "מסמכי הנחיה אלה נמצאים בפיתוח ויפורסמו באתר המכשירים הרפואיים של הנציבות."
+    },
+
+    {
+      "id": "sec-3-1",
+      "type": "heading",
+      "level": 2,
+      "number": "3.1",
+      "en": "Abbreviations",
+      "he": "קיצורים"
+    },
+    {
+      "id": "table-abbr",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          { "en": "Abbreviation", "he": "קיצור" },
+          { "en": "Meaning", "he": "משמעות" }
+        ],
+        [ { "en": "GSPR", "he": "GSPR" }, { "en": "General Safety and Performance Requirements", "he": "דרישות כלליות לבטיחות וביצועים" } ],
+        [ { "en": "IMDRF", "he": "IMDRF" }, { "en": "International Medical Device Regulators Forum", "he": "פורום הרגולטורים הבין-לאומי למכשירים רפואיים" } ],
+        [ { "en": "IVDR", "he": "IVDR" }, { "en": "In Vitro Diagnostic Medical Devices Regulation; EU 2017/746", "he": "תקנת המכשירים הרפואיים לאבחון חוץ-גופי; האיחוד האירופי 2017/746" } ],
+        [ { "en": "MDCG", "he": "MDCG" }, { "en": "Medical Device Coordination Group", "he": "קבוצת תיאום המכשירים הרפואיים" } ],
+        [ { "en": "MDR", "he": "MDR" }, { "en": "Medical Devices Regulation; EU 2017/745", "he": "תקנת המכשירים הרפואיים; האיחוד האירופי 2017/745" } ],
+        [ { "en": "MDSW", "he": "MDSW" }, { "en": "Medical Device Software", "he": "תוכנה כמכשיר רפואי" } ],
+        [ { "en": "PMCF", "he": "PMCF" }, { "en": "Post Market Clinical Follow-up", "he": "מעקב קליני שלאחר שיווק" } ],
+        [ { "en": "PMPF", "he": "PMPF" }, { "en": "Post Market Performance Follow-up", "he": "מעקב ביצועים שלאחר שיווק" } ],
+        [ { "en": "PMS", "he": "PMS" }, { "en": "Post Market Surveillance", "he": "מעקב שלאחר שיווק" } ],
+        [ { "en": "RWE", "he": "RWE" }, { "en": "Real-World Evidence", "he": "ראיות מהעולם האמיתי" } ],
+        [ { "en": "SaMD", "he": "SaMD" }, { "en": "Software as a Medical Device", "he": "תוכנה כמכשיר רפואי (Software as a Medical Device)" } ],
+        [ { "en": "SOTA", "he": "SOTA" }, { "en": "State-of-the-Art", "he": "מיטב הטכנולוגיה הקיימת" } ],
+        [ { "en": "SSCP", "he": "SSCP" }, { "en": "Summary of Safety and Clinical Performance", "he": "סיכום בטיחות וביצועים קליניים" } ],
+        [ { "en": "SSP", "he": "SSP" }, { "en": "Summary of Safety and Performance", "he": "סיכום בטיחות וביצועים" } ]
+      ]
+    },
+
+    {
+      "id": "sec-3-2",
+      "type": "heading",
+      "level": 2,
+      "number": "3.2",
+      "en": "Formats used within this document",
+      "he": "פורמטים שבשימוש במסמך זה"
+    },
+    {
+      "id": "table-formats",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          { "en": "Format", "he": "פורמט" },
+          { "en": "Meaning", "he": "משמעות" }
+        ],
+        [ { "en": "Cursive", "he": "נטוי (Cursive)" }, { "en": "A note to a text", "he": "הערה לטקסט" } ],
+        [ { "en": "CAPITALIZED", "he": "אותיות רישיות (CAPITALIZED)" }, { "en": "Terms defined in this document or the Regulations", "he": "מונחים המוגדרים במסמך זה או בתקנות" } ],
+        [ { "en": "subscript", "he": "כתב תחתי (subscript)" }, { "en": "References", "he": "הפניות" } ]
+      ]
+    },
+
+    {
+      "id": "sec-3-3",
+      "type": "heading",
+      "level": 2,
+      "number": "3.3",
+      "en": "Definitions",
+      "he": "הגדרות"
+    },
+    {
+      "id": "sec-3-3-p1",
+      "type": "paragraph",
+      "en": "The definitions elaborated within this section and utilised within this document are intended to apply solely to Medical Device Software (MDSW) according to the MDR and IVDR.",
+      "he": "ההגדרות המפורטות בסעיף זה והמשמשות במסמך זה מיועדות לחול אך ורק על תוכנה כמכשיר רפואי (MDSW) בהתאם ל-MDR ול-IVDR."
+    },
+    {
+      "id": "def-clinical-benefit",
+      "type": "paragraph",
+      "en": "CLINICAL BENEFIT — Article 2 (53) MDR defines CLINICAL BENEFIT as the positive impact of a device on the health of an individual, expressed in the terms of a meaningful, measurable, patient-relevant clinical outcome(s), including outcome(s) related to diagnosis, or a positive impact on patient management or public health; whereas Article 2 (37) IVDR defines CLINICAL BENEFIT as the positive impact of a device related to its function, such as that of screening, monitoring, diagnosis or aid to diagnosis of patients, or a positive impact on patient management or public health.⁶ Source: EU 2017/745 (MDR), Article 2 (53); EU 2017/746 (IVDR), Article 2 (37) and IVDR recital (64).",
+      "he": "תועלת קלינית (CLINICAL BENEFIT) — סעיף 2(53) ל-MDR מגדיר תועלת קלינית כהשפעה החיובית של מכשיר על בריאותו של יחיד, המבוטאת במונחים של תוצאה/ות קלינית/ות משמעותית/ות, ניתנת/ות למדידה ורלוונטית/ות למטופל, לרבות תוצאות הקשורות לאבחנה, או השפעה חיובית על ניהול המטופל או על בריאות הציבור; בעוד שסעיף 2(37) ל-IVDR מגדיר תועלת קלינית כהשפעה החיובית של מכשיר הקשורה לתפקודו, כגון סקירה, ניטור, אבחנה או סיוע לאבחנה של מטופלים, או השפעה חיובית על ניהול המטופל או על בריאות הציבור.⁶ מקור: האיחוד האירופי 2017/745 (MDR), סעיף 2(53); האיחוד האירופי 2017/746 (IVDR), סעיף 2(37) ופסקת מבוא (64) של ה-IVDR."
+    },
+    {
+      "id": "def-clinical-data",
+      "type": "paragraph",
+      "en": "CLINICAL DATA (MDR) — Information concerning safety or performance that is generated from the use of a device and is sourced from the following: clinical investigation(s) of the device concerned; clinical investigation(s) or other studies reported in scientific literature, of a device for which equivalence to the device in question can be demonstrated; reports published in peer reviewed scientific literature on other clinical experience of either the device in question or a device for which equivalence to the device in question can be demonstrated; clinically relevant information coming from post-market surveillance, in particular the post-market clinical follow-up. Source: EU 2017/745 (MDR).",
+      "he": "נתונים קליניים (CLINICAL DATA) (MDR) — מידע הנוגע לבטיחות או לביצועים, הנוצר מהשימוש במכשיר ומקורו באלה: חקירה/ות קלינית/ות של המכשיר הנוגע בדבר; חקירה/ות קלינית/ות או מחקרים אחרים המדווחים בספרות המדעית, של מכשיר שניתן להוכיח שקילותו למכשיר המדובר; דיווחים שפורסמו בספרות מדעית שנבדקה בעמיתים על ניסיון קליני אחר של המכשיר המדובר או של מכשיר שניתן להוכיח שקילותו למכשיר המדובר; מידע רלוונטי קלינית הנובע ממעקב שלאחר שיווק, בפרט המעקב הקליני שלאחר שיווק. מקור: האיחוד האירופי 2017/745 (MDR)."
+    },
+    {
+      "id": "def-clinical-data-ivdr",
+      "type": "paragraph",
+      "en": "CLINICAL DATA (IVDR) — Clinical Data, in particular: from relevant peer-reviewed scientific literature and available consensus expert opinions or positions from relevant professional associations relating to the safety, performance, clinical benefits to patients, design characteristics, scientific validity, clinical performance and intended purpose of the device and/or of equivalent or similar devices; or other relevant clinical data available relating to the safety, scientific validity, clinical performance, clinical benefits to patients, design characteristics and intended purpose of similar devices, including details of their similarities and differences with the device in question; clinically relevant information coming from post-market surveillance, in particular the post-market performance follow-up. Source: Adopted from EU 2017/746 (IVDR) Annex XIV (2.4) and Annex VII (4.10) and (4.11).",
+      "he": "נתונים קליניים (CLINICAL DATA) (IVDR) — נתונים קליניים, בפרט: מספרות מדעית רלוונטית שנבדקה בעמיתים ומחוות דעת או עמדות מומחים בקונצנזוס הזמינות מאיגודים מקצועיים רלוונטיים, הנוגעות לבטיחות, לביצועים, לתועלות הקליניות למטופלים, למאפייני העיצוב, לתוקף המדעי, לביצועים הקליניים ולמטרה המיועדת של המכשיר ו/או של מכשירים שקולים או דומים; או נתונים קליניים רלוונטיים אחרים הזמינים הנוגעים לבטיחות, לתוקף המדעי, לביצועים הקליניים, לתועלות הקליניות למטופלים, למאפייני העיצוב ולמטרה המיועדת של מכשירים דומים, לרבות פירוט קווי הדמיון וההבדלים שלהם מהמכשיר המדובר; מידע רלוונטי קלינית הנובע ממעקב שלאחר שיווק, בפרט מעקב הביצועים שלאחר שיווק. מקור: מאומץ מתוך האיחוד האירופי 2017/746 (IVDR) נספח XIV (2.4) ונספח VII (4.10) ו-(4.11)."
+    },
+    {
+      "id": "def-cdp",
+      "type": "paragraph",
+      "en": "CLINICAL DEVELOPMENT PLAN (MDR) — A plan indicating progression from exploratory investigations, such as first-in-man studies, feasibility and pilot studies, to confirmatory investigations, such as pivotal clinical investigations and a PMCF with an indication of milestones and a description of potential acceptance criteria. Source: EU 2017/745 (MDR), Annex XIV, part A.",
+      "he": "תכנית פיתוח קלינית (CLINICAL DEVELOPMENT PLAN) (MDR) — תכנית המציינת התקדמות מחקירות חקרניות, כגון מחקרים ראשונים בבני אדם, מחקרי היתכנות ומחקרי חלוץ, אל חקירות מאששות, כגון חקירות קליניות מכריעות ומעקב קליני שלאחר שיווק (PMCF), עם ציון אבני דרך ותיאור של קריטריוני קבלה אפשריים. מקור: האיחוד האירופי 2017/745 (MDR), נספח XIV, חלק A."
+    },
+    {
+      "id": "def-clinical-evaluation",
+      "type": "paragraph",
+      "en": "CLINICAL EVALUATION (MDR) — A systematic and planned process to continuously generate, collect, analyse and assess the clinical data pertaining to a device in order to verify the safety and performance, including CLINICAL BENEFITS, of the device when used as intended by the manufacturer. Source: EU 2017/745 (MDR), Article 2 (44).",
+      "he": "הערכה קלינית (CLINICAL EVALUATION) (MDR) — תהליך שיטתי ומתוכנן ליצירה, איסוף, ניתוח והערכה מתמשכים של הנתונים הקליניים הנוגעים למכשיר, במטרה לאמת את הבטיחות והביצועים, לרבות התועלות הקליניות, של המכשיר כאשר נעשה בו שימוש כמיועד על ידי היצרן. מקור: האיחוד האירופי 2017/745 (MDR), סעיף 2(44)."
+    },
+    {
+      "id": "def-clinical-evidence",
+      "type": "paragraph",
+      "en": "CLINICAL EVIDENCE — Clinical data and CLINICAL EVALUATION (MDR) / PERFORMANCE EVALUATION (IVDR) results pertaining to a device of a sufficient amount and quality to allow a qualified assessment of whether the device is safe and achieves the intended CLINICAL BENEFIT(S), when used as intended by the manufacturer. Source: EU 2017/745 (MDR), Article 2 (51); EU 2017/746 (IVDR), Article 2 (36).",
+      "he": "ראיות קליניות (CLINICAL EVIDENCE) — נתונים קליניים ותוצאות הערכה קלינית (MDR) / הערכת ביצועים (IVDR) הנוגעים למכשיר, בכמות ובאיכות מספקות כדי לאפשר הערכה מוסמכת של השאלה האם המכשיר בטוח ומשיג את התועלת/ות הקלינית/ות המיועדת/ות, כאשר נעשה בו שימוש כמיועד על ידי היצרן. מקור: האיחוד האירופי 2017/745 (MDR), סעיף 2(51); האיחוד האירופי 2017/746 (IVDR), סעיף 2(36)."
+    },
+    {
+      "id": "def-clinical-investigation",
+      "type": "paragraph",
+      "en": "CLINICAL INVESTIGATION (MDR) — Any systematic investigation involving one or more human subjects, undertaken to assess the safety or performance of a device. Source: EU 2017/745 (MDR), Article 2 (45).",
+      "he": "חקירה קלינית (CLINICAL INVESTIGATION) (MDR) — כל חקירה שיטתית הכוללת נושא אנושי אחד או יותר, הנערכת להערכת הבטיחות או הביצועים של מכשיר. מקור: האיחוד האירופי 2017/745 (MDR), סעיף 2(45)."
+    },
+    {
+      "id": "def-clinical-performance",
+      "type": "paragraph",
+      "en": "CLINICAL PERFORMANCE — Article 2 (52) MDR defines clinical performance as the ability of a device, resulting from any direct or indirect medical effects which stem from its technical or functional characteristics, including diagnostic characteristics, to achieve its intended purpose as claimed by the manufacturer, thereby leading to a CLINICAL BENEFIT for patients, when used as intended by the manufacturer; whereas Article 2 (41) IVDR defines clinical performance as the ability of a device to yield results that are correlated with a particular clinical condition or a physiological or pathological process or state in accordance with the target population and intended user. Source: EU 2017/745 (MDR), Article 2 (52); EU 2017/746 (IVDR), Article 2 (41).",
+      "he": "ביצועים קליניים (CLINICAL PERFORMANCE) — סעיף 2(52) ל-MDR מגדיר ביצועים קליניים כיכולתו של מכשיר, הנובעת מכל השפעה רפואית ישירה או עקיפה הנגזרת ממאפייניו הטכניים או התפקודיים, לרבות מאפיינים אבחנתיים, להשיג את מטרתו המיועדת כפי שטוען היצרן, ובכך להוביל לתועלת קלינית עבור מטופלים, כאשר נעשה בו שימוש כמיועד על ידי היצרן; בעוד שסעיף 2(41) ל-IVDR מגדיר ביצועים קליניים כיכולתו של מכשיר להניב תוצאות המתואמות עם מצב קליני מסוים או עם תהליך או מצב פיזיולוגי או פתולוגי, בהתאם לאוכלוסיית היעד ולמשתמש המיועד. מקור: האיחוד האירופי 2017/745 (MDR), סעיף 2(52); האיחוד האירופי 2017/746 (IVDR), סעיף 2(41)."
+    },
+    {
+      "id": "def-curated-db",
+      "type": "paragraph",
+      "en": "CURATED DATABASE/ CURATED REGISTRY — For the purpose of this document, a curated database/curated registry is any kind of structured repository such as a traditional database, an ontology or an XML file, that is created and updated with a great deal of human effort through the consultation, verification, and aggregation of existing sources, and the interpretation of new (often experimentally obtained) raw data.",
+      "he": "מסד נתונים מתוקף / מרשם מתוקף (CURATED DATABASE/ CURATED REGISTRY) — לצורך מסמך זה, מסד נתונים מתוקף/מרשם מתוקף הוא כל סוג של מאגר מובנה, כגון מסד נתונים מסורתי, אונטולוגיה או קובץ XML, הנוצר ומתעדכן בעזרת מאמץ אנושי רב באמצעות התייעצות, אימות וצבירה של מקורות קיימים, ופרשנות של נתונים גולמיים חדשים (שהושגו לעיתים קרובות בניסוי)."
+    },
+    {
+      "id": "def-generalisability",
+      "type": "paragraph",
+      "en": "GENERALISABILITY — Generalisability refers to the ability of a MDSW to extend the intended performance tested on a specified set of data to the broader intended population.",
+      "he": "יכולת הכללה (GENERALISABILITY) — יכולת ההכללה מתייחסת ליכולתה של MDSW להרחיב את הביצועים המיועדים שנבחנו על מערך נתונים מסוים אל אוכלוסיית היעד הרחבה יותר."
+    },
+    {
+      "id": "def-hfe",
+      "type": "paragraph",
+      "en": "HUMAN FACTORS ENGINEERING — Human factors engineering refers to the application of knowledge about human behaviour, abilities, limitations, and other characteristics to the design of and interactions with a MDSW to achieve adequate USABILITY.",
+      "he": "הנדסת גורם אנושי (HUMAN FACTORS ENGINEERING) — הנדסת גורם אנושי מתייחסת ליישום ידע על התנהגות אנושית, יכולות, מגבלות ומאפיינים אחרים בעיצוב של MDSW ובאינטראקציות עמה, כדי להשיג שמישות (USABILITY) הולמת."
+    },
+    {
+      "id": "def-performance-evaluation",
+      "type": "paragraph",
+      "en": "PERFORMANCE EVALUATION (IVDR) — An assessment and analysis of data to establish or verify the SCIENTIFIC VALIDITY, the ANALYTICAL and, where applicable, the CLINICAL PERFORMANCE of a device. Source: EU 2017/746 (IVDR), Article 2 (44).",
+      "he": "הערכת ביצועים (PERFORMANCE EVALUATION) (IVDR) — הערכה וניתוח של נתונים לביסוס או אימות של התוקף המדעי (SCIENTIFIC VALIDITY), הביצועים האנליטיים ו, היכן שרלוונטי, הביצועים הקליניים של מכשיר. מקור: האיחוד האירופי 2017/746 (IVDR), סעיף 2(44)."
+    },
+    {
+      "id": "def-performance-study",
+      "type": "paragraph",
+      "en": "PERFORMANCE STUDY (IVDR) — A study undertaken to establish or confirm the analytical or CLINICAL PERFORMANCE of a device. Source: EU 2017/746 (IVDR), Article 2 (42).",
+      "he": "מחקר ביצועים (PERFORMANCE STUDY) (IVDR) — מחקר הנערך לביסוס או לאישוש הביצועים האנליטיים או הביצועים הקליניים של מכשיר. מקור: האיחוד האירופי 2017/746 (IVDR), סעיף 2(42)."
+    },
+    {
+      "id": "def-rwp",
+      "type": "paragraph",
+      "en": "REAL-WORLD PERFORMANCE — Information on real-world device use and performance from a wider patient population than a controlled study. Source: Definition derived from IMDRF/SaMD WG/N41FINAL:2017.",
+      "he": "ביצועים מהעולם האמיתי (REAL-WORLD PERFORMANCE) — מידע על שימוש בפועל וביצועים בפועל של מכשיר, מאוכלוסיית מטופלים רחבה יותר מזו של מחקר מבוקר. מקור: הגדרה הנגזרת מ-IMDRF/SaMD WG/N41FINAL:2017."
+    },
+    {
+      "id": "def-sota",
+      "type": "paragraph",
+      "en": "STATE-OF-THE-ART — Developed stage of current technical capability and/or accepted clinical practice in regard to products, processes and patient management, based on the relevant consolidated findings of science, technology and experience. Note: The STATE-OF-THE-ART embodies what is currently and generally accepted as good practice in technology and medicine. The state-of-the-art does not necessarily imply the most technologically advanced solution. The STATE-OF-THE-ART described here is sometimes referred to as the “generally acknowledged STATE-OF-THE-ART”. Source: Modified from IMDRF/GRRP WG/N47 FINAL:2018.",
+      "he": "מיטב הטכנולוגיה הקיימת (STATE-OF-THE-ART) — שלב מפותח של היכולת הטכנית הנוכחית ו/או של הפרקטיקה הקלינית המקובלת בנוגע למוצרים, תהליכים וניהול מטופלים, המבוסס על הממצאים המאוחדים הרלוונטיים של המדע, הטכנולוגיה והניסיון. הערה: מיטב הטכנולוגיה הקיימת מגלם את מה שמקובל כיום ובאופן כללי כפרקטיקה טובה בטכנולוגיה וברפואה. מיטב הטכנולוגיה הקיימת אינו מרמז בהכרח על הפתרון המתקדם ביותר מבחינה טכנולוגית. מיטב הטכנולוגיה הקיימת המתואר כאן מכונה לעיתים \"מיטב הטכנולוגיה הקיימת המוכר באופן כללי\". מקור: בשינוי מ-IMDRF/GRRP WG/N47 FINAL:2018."
+    },
+    {
+      "id": "def-technical-performance",
+      "type": "paragraph",
+      "en": "TECHNICAL PERFORMANCE (MDR) / ANALYTICAL PERFORMANCE (IVDR) — Capability of a MDSW to accurately and reliably generate the intended technical/analytical output from the input data. Source: IMDRF/SaMD WG/N41FINAL:2017; Source: EU 2017/746 (IVDR) Article 2 (40).",
+      "he": "ביצועים טכניים (TECHNICAL PERFORMANCE) (MDR) / ביצועים אנליטיים (ANALYTICAL PERFORMANCE) (IVDR) — יכולתה של MDSW ליצור באופן מדויק ואמין את הפלט הטכני/אנליטי המיועד מנתוני הקלט. מקור: IMDRF/SaMD WG/N41FINAL:2017; מקור: האיחוד האירופי 2017/746 (IVDR), סעיף 2(40)."
+    },
+    {
+      "id": "def-usability",
+      "type": "paragraph",
+      "en": "USABILITY — For the purpose of this document, usability refers to the characteristic of the user interface that establishes effectiveness, efficiency and ease of user learning and user satisfaction.",
+      "he": "שמישות (USABILITY) — לצורך מסמך זה, שמישות מתייחסת למאפיין של ממשק המשתמש המבסס אפקטיביות, יעילות וקלות של למידת המשתמש ושביעות רצון המשתמש."
+    },
+    {
+      "id": "def-valid-clinical-association",
+      "type": "paragraph",
+      "en": "VALID CLINICAL ASSOCIATION (MDR) / SCIENTIFIC VALIDITY (IVDR) — Means the association of an MDSW output with a clinical condition or physiological state. Source: Derived from IMDRF/SaMD WG/N41FINAL:2017; Source: EU 2017/746 (IVDR), Article 2 (38).",
+      "he": "קישור קליני תקף (VALID CLINICAL ASSOCIATION) (MDR) / תוקף מדעי (SCIENTIFIC VALIDITY) (IVDR) — משמעו הקישור של פלט של MDSW עם מצב קליני או מצב פיזיולוגי. מקור: נגזר מ-IMDRF/SaMD WG/N41FINAL:2017; מקור: האיחוד האירופי 2017/746 (IVDR), סעיף 2(38)."
+    },
+    {
+      "id": "fn-6",
+      "type": "note",
+      "marker": "6",
+      "en": "IVDR recital (64) states: It should be recognised that the concept of clinical benefit for in vitro diagnostic medical devices is fundamentally different from that which applies in the case of pharmaceuticals or of therapeutic medical devices, since the benefit of in vitro diagnostic medical devices lies in providing accurate medical information on patients, where appropriate, assessed against medical information obtained through the use of other diagnostic options and technologies, whereas the final clinical outcome for the patient is dependent on further diagnostic and/or therapeutic options which could be available.",
+      "he": "פסקת מבוא (64) של ה-IVDR קובעת: יש להכיר בכך שמושג התועלת הקלינית עבור מכשירים רפואיים לאבחון חוץ-גופי שונה מהותית מזה החל במקרה של תכשירים תרופתיים או מכשירים רפואיים טיפוליים, שכן התועלת של מכשירים רפואיים לאבחון חוץ-גופי טמונה במתן מידע רפואי מדויק על מטופלים, היכן שמתאים, מוערך אל מול מידע רפואי המתקבל באמצעות שימוש באפשרויות אבחון וטכנולוגיות אחרות, בעוד שהתוצאה הקלינית הסופית עבור המטופל תלויה באפשרויות אבחון ו/או טיפול נוספות שעשויות להיות זמינות."
+    },
+
+    {
+      "id": "sec-4",
+      "type": "heading",
+      "level": 1,
+      "number": "4",
+      "en": "General principles of the MDSW CLINICAL EVALUATION (MDR) / PERFORMANCE EVALUATION (IVDR) process",
+      "he": "עקרונות כלליים של תהליך ההערכה הקלינית (MDR) / הערכת הביצועים (IVDR) של MDSW"
+    },
+    {
+      "id": "sec-4-1",
+      "type": "heading",
+      "level": 2,
+      "number": "4.1",
+      "en": "Introduction",
+      "he": "מבוא"
+    },
+    {
+      "id": "sec-4-1-p1",
+      "type": "paragraph",
+      "en": "CLINICAL EVALUATION (MDR) / PERFORMANCE EVALUATION (IVDR) is an ongoing process, conducted throughout the life cycle of a MDSW. It is a structured, transparent, iterative and continuous process which is part of the quality management system for a device. Software that qualifies as a MD or an IVD is subject to the same general CLINICAL EVALUATION (MDR) / PERFORMANCE EVALUATION (IVDR) principles, laid down in the applicable guidelines and regulatory documents, as other MDs/ IVDs, such as:",
+      "he": "הערכה קלינית (MDR) / הערכת ביצועים (IVDR) היא תהליך מתמשך, המתבצע לאורך כל מחזור החיים של MDSW. זהו תהליך מובנה, שקוף, איטרטיבי ורציף, המהווה חלק ממערכת ניהול האיכות של מכשיר. תוכנה הנכשרת כמכשיר רפואי או כמכשיר לאבחון חוץ-גופי כפופה לאותם עקרונות כלליים של הערכה קלינית (MDR) / הערכת ביצועים (IVDR), הקבועים בהנחיות ובמסמכים הרגולטוריים החלים, כמו מכשירים רפואיים/מכשירים לאבחון חוץ-גופי אחרים, כגון:"
+    },
+    {
+      "id": "sec-4-1-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Establishing and maintaining a CLINICAL EVALUATION (MDR) / PERFORMANCE EVALUATION (IVDR) plan and criteria applied to generate the necessary CLINICAL EVIDENCE based on the characteristics of the device;", "he": "ביסוס ותחזוקה של תכנית הערכה קלינית (MDR) / הערכת ביצועים (IVDR) ושל הקריטריונים המיושמים ליצירת הראיות הקליניות הנחוצות בהתבסס על מאפייני המכשיר;" },
+        { "en": "Identification of the relevant data pertaining to performance and/ or safety of the device and any remaining unaddressed issues or gaps in the data;", "he": "זיהוי הנתונים הרלוונטיים הנוגעים לביצועים ו/או לבטיחות של המכשיר וכל סוגיה שטרם טופלה או פער שנותר בנתונים;" },
+        { "en": "Appraisal of the relevant data in terms of quality and its contribution to the CLINICAL EVALUATION (MDR) / PERFORMANCE EVALUATION (IVDR);", "he": "הערכת הנתונים הרלוונטיים מבחינת איכותם ותרומתם להערכה הקלינית (MDR) / הערכת הביצועים (IVDR);" },
+        { "en": "Analysis of the available data and its relevance with regard to demonstrating conformity with the relevant General Safety and Performance Requirements (GSPRs);", "he": "ניתוח הנתונים הזמינים והרלוונטיות שלהם להוכחת התאמה לדרישות הכלליות הרלוונטיות לבטיחות וביצועים (GSPRs);" },
+        { "en": "Documenting the relevant data, their assessment and the CLINICAL EVIDENCE derived therefrom, in the CLINICAL EVALUATION (MDR) / PERFORMANCE EVALUATION (IVDR) report;", "he": "תיעוד הנתונים הרלוונטיים, הערכתם והראיות הקליניות הנגזרות מהם, בדוח ההערכה הקלינית (MDR) / הערכת הביצועים (IVDR);" },
+        { "en": "Updating the CLINICAL EVALUATION (MDR) / PERFORMANCE EVALUATION (IVDR) and its documentation throughout the life cycle of the MDSW concerned with data obtained from implementation of the manufacturer's Post Market Clinical Follow-up / Post Market Performance Follow-up (PMCF /PMPF) plan.", "he": "עדכון ההערכה הקלינית (MDR) / הערכת הביצועים (IVDR) ותיעודה לאורך כל מחזור החיים של ה-MDSW הנוגעת בדבר, באמצעות נתונים שהושגו מיישום תכנית המעקב הקליני שלאחר שיווק / מעקב הביצועים שלאחר שיווק (PMCF/PMPF) של היצרן." }
+      ]
+    },
+    {
+      "id": "sec-4-1-p2",
+      "type": "paragraph",
+      "en": "These methodological principles are depicted in Figure 1.",
+      "he": "עקרונות מתודולוגיים אלה מתוארים באיור 1."
+    },
+    {
+      "id": "fig-1",
+      "type": "note",
+      "en": "Figure 1 — Overview of the stages of the CLINICAL EVALUATION (MDR) / PERFORMANCE EVALUATION (IVDR)",
+      "he": "איור 1 — סקירה כללית של שלבי ההערכה הקלינית (MDR) / הערכת הביצועים (IVDR)"
+    },
+    {
+      "id": "sec-4-1-p3",
+      "type": "paragraph",
+      "en": "The requirements for CLINICAL EVALUATION and PERFORMANCE EVALUATION are outlined in Article 61 of the MDR (including Annex XIV) and Article 56 of the IVDR (including Annex XIII), respectively.",
+      "he": "הדרישות להערכה קלינית ולהערכת ביצועים מתוארות בסעיף 61 ל-MDR (לרבות נספח XIV) ובסעיף 56 ל-IVDR (לרבות נספח XIII), בהתאמה."
+    },
+    {
+      "id": "sec-4-1-p4",
+      "type": "paragraph",
+      "en": "While the definition of CLINICAL EVALUATION in the MDR and PERFORMANCE EVALUATION in the IVDR are not identical (see section 0), there is a shared expectation for providing sufficient CLINICAL EVIDENCE to demonstrate conformity with relevant GSPRs under the normal conditions of the device’s intended use. CLINICAL EVIDENCE should be sufficient and appropriate in view of the characteristics of the device, clinical risks and its intended purpose. The level of CLINICAL EVIDENCE necessary should be specified and justified by the manufacturer.",
+      "he": "בעוד שהגדרת ההערכה הקלינית ב-MDR והגדרת הערכת הביצועים ב-IVDR אינן זהות (ראה סעיף 0), קיימת ציפייה משותפת לספק ראיות קליניות מספקות להוכחת התאמה ל-GSPRs הרלוונטיות בתנאים הרגילים של השימוש המיועד במכשיר. הראיות הקליניות צריכות להיות מספקות ומתאימות לאור מאפייני המכשיר, הסיכונים הקליניים ומטרתו המיועדת. רמת הראיות הקליניות הנדרשת תצוין ותוצדק על ידי היצרן."
+    },
+    {
+      "id": "sec-4-1-p5",
+      "type": "paragraph",
+      "en": "Three key components should be taken into account when compiling CLINICAL EVIDENCE for every MDSW (Figure 1), and each is described below in further detail.",
+      "he": "שלושה רכיבים מרכזיים יילקחו בחשבון בעת איסוף ראיות קליניות עבור כל MDSW (איור 1), וכל אחד מהם מתואר להלן ביתר פירוט."
+    },
+    {
+      "id": "sec-4-1-p6",
+      "type": "paragraph",
+      "en": "VALID CLINICAL ASSOCIATION / SCIENTIFIC VALIDITY is understood as the extent to which, the MDSW’s output (e.g. concept, conclusion, calculations) based on the inputs and algorithms selected, is associated with the targeted physiological state or clinical condition. This association should be well founded or clinically accepted (e.g. existence of a scientific framework or sufficient level of evidence as further elaborated in section 4.2 of this document). The VALID CLINICAL ASSOCIATION / SCIENTIFIC VALIDITY of a MDSW should demonstrate that it corresponds to the clinical situation, condition, indication or parameter defined in the intended purpose of the MDSW.",
+      "he": "קישור קליני תקף / תוקף מדעי מובן כמידה שבה פלט ה-MDSW (למשל מושג, מסקנה, חישובים), המבוסס על נתוני הקלט והאלגוריתמים שנבחרו, מקושר למצב הפיזיולוגי או למצב הקליני המיועד. קישור זה צריך להיות מבוסס היטב או מקובל קלינית (למשל קיומה של מסגרת מדעית או רמת ראיות מספקת כמפורט בהמשך בסעיף 4.2 למסמך זה). הקישור הקליני התקף / התוקף המדעי של MDSW צריכים להוכיח כי הם תואמים את המצב הקליני, ההתוויה או הפרמטר המוגדרים במטרה המיועדת של ה-MDSW."
+    },
+    {
+      "id": "sec-4-1-note1",
+      "type": "note",
+      "en": "NOTE: The VALID CLINICAL ASSOCIATION / SCIENTIFIC VALIDITY seeks to establish that there are sound scientific principles underpinning the use of the MDSW in question. The information provided for the establishment of the VALID CLINICAL ASSOCIATION / SCIENTIFIC VALIDITY should put forward the case that the MDSW has an association with a clinical condition or physiological state. This association may not always be readily established. Thus, the CLINICAL PERFORMANCE can serve as an additional input to the VALID CLINICAL ASSOCIATION / SCIENTIFIC VALIDITY from a clinical perspective for the specific intended purpose (see Annex I).",
+      "he": "הערה: הקישור הקליני התקף / התוקף המדעי נועדו לבסס כי קיימים עקרונות מדעיים מוצקים העומדים בבסיס השימוש ב-MDSW המדוברת. המידע המסופק לביסוס הקישור הקליני התקף / התוקף המדעי צריך להציג את הטיעון כי ל-MDSW יש קישור עם מצב קליני או מצב פיזיולוגי. קישור זה לא תמיד ניתן לביסוס בנקל. לפיכך, הביצועים הקליניים יכולים לשמש כקלט נוסף לקישור הקליני התקף / התוקף המדעי מנקודת מבט קלינית עבור המטרה המיועדת הספציפית (ראה נספח I)."
+    },
+    {
+      "id": "sec-4-1-note2",
+      "type": "note",
+      "en": "Example: MDSW that detects heart arrhythmia by analysing auscultation sound obtained by a digital stethoscope requires demonstrating VALID CLINICAL ASSOCIATION of the association between abnormal cardiac sounds and heart arrhythmia.",
+      "he": "דוגמה: MDSW המגלה הפרעות קצב לב באמצעות ניתוח קולות האזנה המתקבלים על ידי סטטוסקופ דיגיטלי דורשת הוכחת קישור קליני תקף של הקישור בין קולות לב חריגים לבין הפרעות קצב לב."
+    },
+    {
+      "id": "sec-4-1-p7",
+      "type": "paragraph",
+      "en": "Evidence supporting VALID CLINICAL ASSOCIATION / SCIENTIFIC VALIDITY can be generated e.g. through literature research, professional guidelines, proof of concept studies, or manufacturer’s own clinical investigations/clinical performance studies.",
+      "he": "ראיות התומכות בקישור קליני תקף / תוקף מדעי ניתנות ליצירה, למשל, באמצעות מחקר ספרות, הנחיות מקצועיות, מחקרי הוכחת היתכנות (proof of concept), או חקירות קליניות/מחקרי ביצועים קליניים של היצרן עצמו."
+    },
+    {
+      "id": "sec-4-1-p8",
+      "type": "paragraph",
+      "en": "Validation of the TECHNICAL PERFORMANCE / ANALYTICAL PERFORMANCE is the demonstration of the MDSW’s ability to accurately, reliably and precisely generate the intended output, from the input data. Evidence supporting TECHNICAL PERFORMANCE / ANALYTICAL PERFORMANCE can be generated through verification and validation activities, e.g. unit-level, integration, and system testing or by generating new evidence through use of curated databases, curated registries, reference databases or use of previously collected patient data.",
+      "he": "אימות הביצועים הטכניים / הביצועים האנליטיים הוא ההוכחה של יכולת ה-MDSW ליצור באופן מדויק, אמין ומדויק את הפלט המיועד מנתוני הקלט. ראיות התומכות בביצועים הטכניים / הביצועים האנליטיים ניתנות ליצירה באמצעות פעולות אימות ותיקוף (verification and validation), למשל בדיקות ברמת היחידה, אינטגרציה ובדיקות מערכת, או באמצעות יצירת ראיות חדשות תוך שימוש במסדי נתונים מתוקפים, מרשמים מתוקפים, מסדי נתונים ייחוס, או שימוש בנתוני מטופלים שנאספו בעבר."
+    },
+    {
+      "id": "sec-4-1-p9",
+      "type": "paragraph",
+      "en": "Validation of the CLINICAL PERFORMANCE is the demonstration of a MDSW’s ability to yield clinically relevant output in accordance with the intended purpose. The clinical relevance of a MDSW’s output is a positive impact",
+      "he": "אימות הביצועים הקליניים הוא ההוכחה של יכולת ה-MDSW להניב פלט רלוונטי קלינית בהתאם למטרה המיועדת. הרלוונטיות הקלינית של פלט ה-MDSW היא השפעה חיובית"
+    },
+    {
+      "id": "sec-4-1-list2",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "on the health of an individual expressed in terms of measurable, patient-relevant clinical outcome(s), including outcome(s) related to diagnosis, prediction of risk, prediction of treatment response(s), or", "he": "על בריאותו של יחיד, המבוטאת במונחים של תוצאה/ות קלינית/ות ניתנת/ות למדידה ורלוונטית/ות למטופל, לרבות תוצאות הקשורות לאבחנה, חיזוי סיכון, חיזוי תגובה/ות לטיפול, או" },
+        { "en": "related to its function, such as that of screening, monitoring, diagnosis or aid to diagnosis of patients, or", "he": "הקשורה לתפקודו, כגון סקירה, ניטור, אבחנה או סיוע לאבחנה של מטופלים, או" },
+        { "en": "on patient management or public health.", "he": "על ניהול המטופל או על בריאות הציבור." }
+      ]
+    },
+    {
+      "id": "sec-4-1-p10",
+      "type": "paragraph",
+      "en": "Evidence supporting CLINICAL PERFORMANCE can be generated by testing the MDSW under evaluation, or an equivalent device, in the target population and for the intended use. The applied methodology should be appropriate in light of the device characteristics and intended purpose and may include pre-clinical testing, a clinical investigation or a clinical performance study.",
+      "he": "ראיות התומכות בביצועים הקליניים ניתנות ליצירה באמצעות בדיקת ה-MDSW הנמצאת בהערכה, או מכשיר שקול, באוכלוסיית היעד ולצורך השימוש המיועד. המתודולוגיה המיושמת צריכה להיות מתאימה לאור מאפייני המכשיר ומטרתו המיועדת, ועשויה לכלול בדיקות טרום-קליניות, חקירה קלינית או מחקר ביצועים קליני."
+    },
+    {
+      "id": "sec-4-1-p11",
+      "type": "paragraph",
+      "en": "Specifically, for MDSW not claiming CLINICAL BENEFITS that can be specified through measurable, patient-relevant clinical outcome(s), clinically relevant outputs are achieved through demonstrated predictable and reliable use and USABILITY (please refer to section 4.2 of this document).",
+      "he": "באופן ספציפי, עבור MDSW שאינה טוענת לתועלות קליניות הניתנות לציון באמצעות תוצאות קליניות ניתנות למדידה ורלוונטיות למטופל, פלטים רלוונטיים קלינית מושגים באמצעות שימוש צפוי ואמין ושמישות (USABILITY) מוכחים (ראה סעיף 4.2 למסמך זה)."
+    },
+    {
+      "id": "sec-4-1-p12",
+      "type": "paragraph",
+      "en": "In addition, CLINICAL EVALUATION or PERFORMANCE EVALUATION of MDSW must consider the benefit-risk ratio in light of the STATE-OF-THE-ART related to practice of medicine for diagnosis, treatment or patient management. It is further expected that the assessment of MDSW considers all components of the CLINICAL EVALUATION (MDR) / PERFORMANCE EVALUATION (IVDR) (see Figure 1 and Annex 0).",
+      "he": "בנוסף, הערכה קלינית או הערכת ביצועים של MDSW חייבות לשקול את יחס התועלת-סיכון לאור מיטב הטכנולוגיה הקיימת הקשור לעיסוק ברפואה לצורך אבחנה, טיפול או ניהול מטופלים. כן צפוי כי הערכת ה-MDSW תשקול את כל רכיבי ההערכה הקלינית (MDR) / הערכת הביצועים (IVDR) (ראה איור 1 ונספח 0)."
+    },
+    {
+      "id": "sec-4-1-p13",
+      "type": "paragraph",
+      "en": "The three components described above do not represent a distinct stepwise approach but rather portray a methodological principle for the generation of CLINICAL EVIDENCE.",
+      "he": "שלושת הרכיבים המתוארים לעיל אינם מייצגים גישה שלבית נפרדת, אלא מתארים עיקרון מתודולוגי ליצירת ראיות קליניות."
+    },
+    {
+      "id": "sec-4-1-p14",
+      "type": "paragraph",
+      "en": "To determine and justify the level of CLINICAL EVIDENCE, both amount and quality of supporting data should be evaluated. This assessment may be guided by the following non-exhaustive questions:",
+      "he": "כדי לקבוע ולהצדיק את רמת הראיות הקליניות, יש להעריך הן את כמות הנתונים התומכים והן את איכותם. הערכה זו עשויה להיות מונחית על ידי השאלות הבאות (שאינן ממצות):"
+    },
+    {
+      "id": "sec-4-1-amount-h",
+      "type": "paragraph",
+      "en": "Sufficient amount",
+      "he": "כמות מספקת"
+    },
+    {
+      "id": "sec-4-1-amount-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Does the data support the intended use, indications, target groups, clinical claims and contraindications?", "he": "האם הנתונים תומכים בשימוש המיועד, בהתוויות, בקבוצות היעד, בטענות הקליניות ובהתוויות הנגד?" },
+        { "en": "Have the clinical risks and analytical performance/ clinical performance been investigated?", "he": "האם הסיכונים הקליניים והביצועים האנליטיים/הביצועים הקליניים נחקרו?" },
+        { "en": "Have relevant MDSW’s characteristics, such as the data input and output, the applied algorithms or type of interconnection been considered when generating the data to support the performance of the device?", "he": "האם מאפיינים רלוונטיים של ה-MDSW, כגון קלט ופלט הנתונים, האלגוריתמים המיושמים או סוג הקישוריות, נשקלו בעת יצירת הנתונים לתמיכה בביצועי המכשיר?" },
+        { "en": "What is the grade of innovation/ history on the market (how big is the body of scientific evidence)?", "he": "מהי דרגת החדשנות / ההיסטוריה בשוק (עד כמה גדול מאגר הראיות המדעיות)?" },
+        { "en": "Other, as applicable.", "he": "אחר, ככל שרלוונטי." }
+      ]
+    },
+    {
+      "id": "sec-4-1-quality-h",
+      "type": "paragraph",
+      "en": "Sufficient quality",
+      "he": "איכות מספקת"
+    },
+    {
+      "id": "sec-4-1-quality-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Were the type and the design of the study/ test appropriate to meet the research objectives?", "he": "האם סוג המחקר/הבדיקה ועיצובם היו מתאימים להשגת מטרות המחקר?" },
+        { "en": "Was the data set appropriate and actual (state of the art)?", "he": "האם מערך הנתונים היה מתאים ועדכני (מיטב הטכנולוגיה הקיימת)?" },
+        { "en": "Was the statistical approach appropriate to reach a valid conclusion?", "he": "האם הגישה הסטטיסטית הייתה מתאימה להגעה למסקנה תקפה?" },
+        { "en": "Were all ethical, legal and regulatory considerations/ requirements taken into account?", "he": "האם נלקחו בחשבון כל השיקולים/הדרישות האתיים, המשפטיים והרגולטוריים?" },
+        { "en": "Is there any conflict of interest?", "he": "האם קיים ניגוד עניינים כלשהו?" },
+        { "en": "Other, as applicable.", "he": "אחר, ככל שרלוונטי." }
+      ]
+    },
+
+    {
+      "id": "sec-4-2",
+      "type": "heading",
+      "level": 2,
+      "number": "4.2",
+      "en": "Determination of the valid clinical association / scientific validity",
+      "he": "קביעת הקישור הקליני התקף / התוקף המדעי"
+    },
+    {
+      "id": "sec-4-2-p1",
+      "type": "paragraph",
+      "en": "In the first step, the manufacturer should verify the association between the output of the MDSW (based on the inputs and algorithms selected) and the targeted physiological/ clinical condition, clinical situation or clinical parameter, as defined in the intended purpose of the MDSW. MDSW may include a multitude of clinical features governed by its intended purpose which require individual assessment.",
+      "he": "בשלב הראשון, על היצרן לאמת את הקישור בין פלט ה-MDSW (בהתבסס על נתוני הקלט והאלגוריתמים שנבחרו) לבין המצב הפיזיולוגי/הקליני המיועד, המצב הקליני או הפרמטר הקליני, כמוגדר במטרה המיועדת של ה-MDSW. MDSW עשויה לכלול מגוון תכונות קליניות הנשלטות על ידי מטרתה המיועדת, הדורשות הערכה פרטנית."
+    },
+    {
+      "id": "sec-4-2-p2",
+      "type": "paragraph",
+      "en": "This association should be clinically accepted or well founded, which means accepted by the broad medical community and/or described in scientific (peer-reviewed) literature.",
+      "he": "קישור זה צריך להיות מקובל קלינית או מבוסס היטב, כלומר מקובל על הקהילה הרפואית הרחבה ו/או מתואר בספרות מדעית (שנבדקה בעמיתים)."
+    },
+    {
+      "id": "sec-4-2-p3",
+      "type": "paragraph",
+      "en": "VALID CLINICAL ASSOCIATION / SCIENTIFIC VALIDITY can be demonstrated through the use of existing CLINICAL PERFORMANCE DATA while taking into account the generally acknowledged STATE-OF-THE-ART. VALID CLINICAL ASSOCIATION / SCIENTIFIC VALIDITY may further be demonstrated by the creation of new CLINICAL PERFORMANCE DATA in the cases where existing data is not sufficient. For example, as a result of a gap analysis, the manufacturer could conclude that additional data may be required.",
+      "he": "קישור קליני תקף / תוקף מדעי ניתנים להוכחה באמצעות שימוש בנתוני ביצועים קליניים קיימים, תוך התחשבות במיטב הטכנולוגיה הקיימת המוכר באופן כללי. קישור קליני תקף / תוקף מדעי ניתנים להוכחה נוספת באמצעות יצירת נתוני ביצועים קליניים חדשים במקרים שבהם הנתונים הקיימים אינם מספקים. למשל, כתוצאה מניתוח פערים, היצרן עשוי להסיק כי ייתכן שיידרשו נתונים נוספים."
+    },
+    {
+      "id": "sec-4-2-existing-h",
+      "type": "paragraph",
+      "en": "Examples of existing data (in no particular order)",
+      "he": "דוגמאות לנתונים קיימים (ללא סדר מסוים)"
+    },
+    {
+      "id": "sec-4-2-existing-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Technical standards", "he": "תקנים טכניים" },
+        { "en": "Professional medical society guidelines", "he": "הנחיות של אגודות רפואיות מקצועיות" },
+        { "en": "Systematic scientific literature review", "he": "סקירת ספרות מדעית שיטתית" },
+        { "en": "CLINICAL INVESTIGATIONs / CLINICAL PERFORMANCE STUDIES", "he": "חקירות קליניות / מחקרי ביצועים קליניים" },
+        { "en": "Published CLINICAL DATA (e.g. Summary of Safety and Clinical Performance (SSCP) / Summary of Safety and Performance (SSP), Registries and databases from authorities)", "he": "נתונים קליניים שפורסמו (למשל סיכום בטיחות וביצועים קליניים (SSCP) / סיכום בטיחות וביצועים (SSP), מרשמים ומסדי נתונים מרשויות)" }
+      ]
+    },
+    {
+      "id": "sec-4-2-new-h",
+      "type": "paragraph",
+      "en": "Examples of generating new evidence (in no particular order)",
+      "he": "דוגמאות ליצירת ראיות חדשות (ללא סדר מסוים)"
+    },
+    {
+      "id": "sec-4-2-new-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Secondary data analysis (Analysis of real-world data)", "he": "ניתוח נתונים משני (ניתוח נתונים מהעולם האמיתי)" },
+        { "en": "Perform CLINICAL INVESTIGATION / CLINICAL PERFORMANCE STUDY", "he": "ביצוע חקירה קלינית / מחקר ביצועים קליני" }
+      ]
+    },
+
+    {
+      "id": "sec-4-3",
+      "type": "heading",
+      "level": 2,
+      "number": "4.3",
+      "en": "Technical Performance / Analytical Performance",
+      "he": "ביצועים טכניים / ביצועים אנליטיים"
+    },
+    {
+      "id": "sec-4-3-p1",
+      "type": "paragraph",
+      "en": "The manufacturer should verify that the MDSW reliably, accurately and consistently meets the intended purpose in real-world usage.",
+      "he": "על היצרן לאמת כי ה-MDSW עומדת באופן אמין, מדויק ועקבי במטרה המיועדת בשימוש בעולם האמיתי."
+    },
+    {
+      "id": "sec-4-3-p2",
+      "type": "paragraph",
+      "en": "The relevant performance characteristics, as part of the GSPRs and linked to the analytical and / or clinical features, should be supported by evidence generated during verification and validation activities as part of good manufacturing practices for software, or by generating new evidence through the use of curated databases, curated registries, reference databases or use of previously collected patient data.",
+      "he": "מאפייני הביצועים הרלוונטיים, כחלק מ-GSPRs ובקשר לתכונות האנליטיות ו/או הקליניות, יגובו בראיות שנוצרו במהלך פעולות אימות ותיקוף כחלק מנהלי ייצור טובים לתוכנה, או באמצעות יצירת ראיות חדשות תוך שימוש במסדי נתונים מתוקפים, מרשמים מתוקפים, מסדי נתונים ייחוס, או שימוש בנתוני מטופלים שנאספו בעבר."
+    },
+    {
+      "id": "sec-4-3-p3",
+      "type": "paragraph",
+      "en": "TECHNICAL PERFORMANCE / ANALYTICAL PERFORMANCE is confirmed by the examination and provision of objective evidence that the MDSW specifications conform to user needs and intended uses, and that the requirements implemented can be consistently fulfilled.⁷",
+      "he": "ביצועים טכניים / ביצועים אנליטיים מאוששים באמצעות בחינה ומתן ראיות אובייקטיביות לכך שמפרטי ה-MDSW תואמים את צורכי המשתמש ואת השימושים המיועדים, ושהדרישות שיושמו ניתנות למילוי באופן עקבי.⁷"
+    },
+    {
+      "id": "sec-4-3-p4",
+      "type": "paragraph",
+      "en": "For example, performance verification and validation in the intended computing⁸ and use environments⁹,¹⁰ can be characterised by the demonstration of",
+      "he": "למשל, אימות ותיקוף ביצועים בסביבות המחשוב המיועדות⁸ ובסביבות השימוש המיועדות⁹,¹⁰ ניתנים לאפיון באמצעות הוכחת"
+    },
+    {
+      "id": "sec-4-3-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "availability,", "he": "זמינות," },
+        { "en": "confidentiality,", "he": "סודיות," },
+        { "en": "integrity,", "he": "שלמות (integrity)," },
+        { "en": "reliability,", "he": "אמינות," },
+        { "en": "accuracy (resulting from trueness and precision),", "he": "דיוק (הנובע מנכונות ומדיוק חזרתי - trueness ו-precision)," },
+        { "en": "analytical sensitivity,", "he": "רגישות אנליטית," },
+        { "en": "limit of detection,", "he": "גבול גילוי," },
+        { "en": "limit of quantitation,", "he": "גבול כימות," },
+        { "en": "analytical specificity,", "he": "סגוליות אנליטית," },
+        { "en": "linearity,", "he": "ליניאריות," },
+        { "en": "cut-off value(s),", "he": "ערך/י סף (cut-off)," },
+        { "en": "measuring interval (range),", "he": "טווח מדידה," },
+        { "en": "GENERALISABILITY,", "he": "יכולת הכללה," },
+        { "en": "expected data rate or quality,", "he": "קצב או איכות נתונים צפויים," },
+        { "en": "absence of inacceptable cybersecurity vulnerabilities,", "he": "היעדר פגיעוּיוֹת סייבר בלתי-מקובלות," },
+        { "en": "HUMAN FACTORS ENGINEERING.", "he": "הנדסת גורם אנושי." }
+      ]
+    },
+    {
+      "id": "sec-4-3-p5",
+      "type": "paragraph",
+      "en": "Identification of gaps during the validation of the TECHNICAL PERFORMANCE / ANALYTICAL PERFORMANCE could require generation of new evidence, for example, to demonstrate generalisability with real-life datasets or to extend the usability evaluation to omitted user groups.",
+      "he": "זיהוי פערים במהלך אימות הביצועים הטכניים / הביצועים האנליטיים עשוי לחייב יצירת ראיות חדשות, למשל, להוכחת יכולת הכללה עם מערכי נתונים מהחיים האמיתיים או להרחבת הערכת השמישות לקבוצות משתמשים שהושמטו."
+    },
+    {
+      "id": "fn-7",
+      "type": "note",
+      "marker": "7",
+      "en": "Derived from Source: GHTF/SG3/N18:2010.",
+      "he": "נגזר ממקור: GHTF/SG3/N18:2010."
+    },
+    {
+      "id": "fn-8",
+      "type": "note",
+      "marker": "8",
+      "en": "Computing environment: e.g., hardware, memory size, processing unit, time zone, network infrastructure) under which the software is to perform.",
+      "he": "סביבת מחשוב: למשל חומרה, גודל זיכרון, יחידת עיבוד, אזור זמן, תשתית רשת, שתחתיה התוכנה אמורה לפעול."
+    },
+    {
+      "id": "fn-9",
+      "type": "note",
+      "marker": "9",
+      "en": "Use environment: actual conditions and setting in which users interact with the medical device.",
+      "he": "סביבת שימוש: התנאים וההסביבה בפועל שבהם משתמשים מתקשרים עם המכשיר הרפואי."
+    },
+    {
+      "id": "fn-10",
+      "type": "note",
+      "marker": "10",
+      "en": "Example on operating environments with distinct requirements are cloud or remote networks.",
+      "he": "דוגמה לסביבות הפעלה בעלות דרישות ייחודיות הן רשתות ענן או רשתות מרוחקות."
+    },
+
+    {
+      "id": "sec-4-4",
+      "type": "heading",
+      "level": 2,
+      "number": "4.4",
+      "en": "Clinical Performance",
+      "he": "ביצועים קליניים"
+    },
+    {
+      "id": "sec-4-4-p1",
+      "type": "paragraph",
+      "en": "For the validation of a MDSW’s CLINICAL PERFORMANCE, the manufacturer should demonstrate that the MDSW has been tested for the intended use(s), target population(s), use condition(s), operating- and use environment(s) and with all intended user group(s). Section 4.1 of this document further provides context that validation of CLINICAL PERFORMANCE includes the assessment of clinical safety, effectiveness, performance and can support the demonstration of CLINICAL BENEFIT. Validation of the CLINICAL PERFORMANCE should be considered at each change of the software to a new release. If no validation is performed, a justification should be stated in the technical documentation.",
+      "he": "לצורך אימות הביצועים הקליניים של MDSW, על היצרן להוכיח כי ה-MDSW נבחנה עבור השימוש/ים המיועד/ים, אוכלוסיית/ות היעד, תנאי/ם השימוש, סביבות ההפעלה והשימוש, וכן עם כל קבוצת/ות המשתמשים המיועדת/ות. סעיף 4.1 למסמך זה מספק הקשר נוסף שלפיו אימות הביצועים הקליניים כולל את הערכת הבטיחות הקלינית, האפקטיביות והביצועים, ויכול לתמוך בהוכחת התועלת הקלינית. אימות הביצועים הקליניים יישקל בכל שינוי של התוכנה לגרסה חדשה. אם לא בוצע אימות, יש לציין הצדקה בתיעוד הטכני."
+    },
+    {
+      "id": "sec-4-4-p2",
+      "type": "paragraph",
+      "en": "With a validation of CLINICAL PERFORMANCE, it is demonstrated that users can achieve clinically relevant outputs through predictable and reliable use of the MDSW.",
+      "he": "באמצעות אימות הביצועים הקליניים מוכח כי המשתמשים יכולים להשיג פלטים רלוונטיים קלינית באמצעות שימוש צפוי ואמין ב-MDSW."
+    },
+    {
+      "id": "sec-4-4-p3",
+      "type": "paragraph",
+      "en": "The manufacturer should consider the intended use(s), indication(s), desired clinical output(s) expressed as claims, leading to expected CLINICAL BENEFITs as part of the CLINICAL PERFORMANCE validation.",
+      "he": "על היצרן לשקול את השימוש/ים המיועד/ים, ההתוויה/ות, הפלט/ים הקליני/ים הרצוי/ים המבוטא/ים כטענות, המובילים לתועלות קליניות צפויות, כחלק מאימות הביצועים הקליניים."
+    },
+    {
+      "id": "sec-4-4-p4",
+      "type": "paragraph",
+      "en": "A MDSW may have multiple features with only some features claiming a specific CLINICAL BENEFIT. CLINICAL PERFORMANCE is only applicable to those features. Since MDSW can be modular in nature, validation of the CLINICAL PERFORMANCE is also permissible on module level when the functionality of the modules is independent of the other modules. This would allow the confirmation of a continuous benefit / risk acceptability only for the MDSW modules that have changed. In cases where the final combination of modules changes product indications and intended purposes, the performance of that final product configuration should also be evaluated. Validation of the CLINICAL PERFORMANCE can be characterised by the demonstration of applicable CLINICAL DATA to the MDSW in question, such as (non-exhaustive):",
+      "he": "ל-MDSW עשויות להיות תכונות מרובות, כאשר רק חלק מהתכונות טוענות לתועלת קלינית ספציפית. הביצועים הקליניים חלים אך ורק על אותן תכונות. מאחר ש-MDSW עשויה להיות מודולרית במהותה, אימות הביצועים הקליניים מותר גם ברמת המודול כאשר תפקודיות המודולים בלתי-תלויה במודולים האחרים. הדבר יאפשר אישוש של קבילות תועלת/סיכון מתמשכת רק עבור מודולי ה-MDSW ששונו. במקרים שבהם הצירוף הסופי של המודולים משנה את התוויות המוצר ואת מטרותיו המיועדות, יש להעריך גם את ביצועי תצורת המוצר הסופית. אימות הביצועים הקליניים ניתן לאפיון באמצעות הוכחת נתונים קליניים רלוונטיים ל-MDSW המדוברת, כגון (רשימה שאינה ממצה):"
+    },
+    {
+      "id": "sec-4-4-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "clinical/ diagnostic sensitivity,", "he": "רגישות קלינית/אבחנתית," },
+        { "en": "clinical/ diagnostic specificity,", "he": "סגוליות קלינית/אבחנתית," },
+        { "en": "positive predictive value,", "he": "ערך מנבא חיובי," },
+        { "en": "negative predictive value,", "he": "ערך מנבא שלילי," },
+        { "en": "number needed to treat (average number of patients that need to be diagnosed/ treated in order to have an impact on one person),", "he": "מספר נדרש לטיפול (NNT) (מספר ממוצע של מטופלים שיש לאבחן/לטפל בהם כדי להשפיע על אדם אחד)," },
+        { "en": "number needed to harm (number of patients that need to be diagnosed/ treated in order have an adverse effect on one patient),", "he": "מספר נדרש לפגיעה (NNH) (מספר מטופלים שיש לאבחן/לטפל בהם כדי לגרום השפעה שלילית על מטופל אחד)," },
+        { "en": "positive likelihood ratio,", "he": "יחס סבירות חיובי," },
+        { "en": "negative likelihood ratio,", "he": "יחס סבירות שלילי," },
+        { "en": "odds ratio,", "he": "יחס סיכויים (odds ratio)," },
+        { "en": "USABILITY/ user interface,", "he": "שמישות / ממשק משתמש," },
+        { "en": "confidence interval(s).", "he": "רווח/י סמך." }
+      ]
+    },
+    {
+      "id": "sec-4-4-p5",
+      "type": "paragraph",
+      "en": "CLINICAL DATA can be obtained by one or multiple methods such as those referred to in GHTF/SG5/N7:2012 and IMDRF/SaMD WG/N41FINAL:2017.",
+      "he": "נתונים קליניים ניתן להשיג באמצעות שיטה אחת או מספר שיטות, כגון אלה הנזכרות ב-GHTF/SG5/N7:2012 וב-IMDRF/SaMD WG/N41FINAL:2017."
+    },
+    {
+      "id": "sec-4-4-p6",
+      "type": "paragraph",
+      "en": "In addition to the considerations above, CLINICAL EVALUATION of class III and implantable devices (MDR), shall include data from a CLINICAL INVESTIGATION unless the conditions of Article 61(4), (5) or (6) of the MDR have been fulfilled.",
+      "he": "בנוסף לשיקולים שלעיל, הערכה קלינית של מכשירים מסיווג III ומכשירים מושתלים (MDR) תכלול נתונים מחקירה קלינית, אלא אם כן התקיימו התנאים של סעיף 61(4), (5) או (6) ל-MDR."
+    },
+    {
+      "id": "sec-4-4-p7",
+      "type": "paragraph",
+      "en": "For MDSW falling under the IVDR, the evaluation of clinical performance requires the carrying out of clinical performance studies regardless of the classification of the device, unless due justification is provided for relying on other sources of clinical performance data. Relevant common specifications should be taken into account.",
+      "he": "עבור MDSW הנכללת תחת ה-IVDR, הערכת הביצועים הקליניים מחייבת ביצוע מחקרי ביצועים קליניים ללא קשר לסיווג המכשיר, אלא אם כן ניתנת הצדקה ראויה להסתמכות על מקורות אחרים של נתוני ביצועים קליניים. יש להביא בחשבון מפרטים משותפים (common specifications) רלוונטיים."
+    },
+
+    {
+      "id": "sec-4-4-1",
+      "type": "heading",
+      "level": 3,
+      "number": "4.4.1",
+      "en": "Clinical investigations and clinical performance studies",
+      "he": "חקירות קליניות ומחקרי ביצועים קליניים"
+    },
+    {
+      "id": "sec-4-4-1-p1",
+      "type": "paragraph",
+      "en": "The practical and achievable benefits of a CLINICAL INVESTIGATION / CLINICAL PERFORMANCE STUDY should be considered as part of determining what data are needed for demonstrating the safety and performance of a new or modified MDSW. The investigation or study should account for potential risks, should follow appropriate ethical requirements, and should be compliant with all relevant legal and regulatory requirements.",
+      "he": "התועלות המעשיות וברות-ההשגה של חקירה קלינית / מחקר ביצועים קליני יישקלו כחלק מקביעת הנתונים הנדרשים להוכחת הבטיחות והביצועים של MDSW חדשה או שעברה שינוי. החקירה או המחקר צריכים להתחשב בסיכונים פוטנציאליים, לפעול בהתאם לדרישות אתיות מתאימות, ולעמוד בכל הדרישות המשפטיות והרגולטוריות הרלוונטיות."
+    },
+    {
+      "id": "sec-4-4-1-p2",
+      "type": "paragraph",
+      "en": "MDSW has specific characteristics that should be considered when setting up a clinical investigation or clinical performance study. If the MDSW is used for the determination of a patient’s future state (e.g. predisposition, prognosis, prediction) or if the output of the MDSW impacts clinical outcomes (e.g. treatment efficacy) or patient management decisions, then a prospective study may be required as part of the device’s CLINICAL EVALUATION (MDR) / PERFORMANCE EVALUATION (IVDR). In other situations, retrospective analysis may be more appropriate to generate the necessary data to support compliance with the GSPRs, as there is no impact on patient management and the research does not introduce any risks to the patients. Such an approach is only possible under condition that there is an adequate access to data sets of sufficient amount and quality and obtained from the target population.",
+      "he": "ל-MDSW יש מאפיינים ספציפיים שיש לשקול בעת הקמת חקירה קלינית או מחקר ביצועים קליני. אם ה-MDSW משמשת לקביעת מצבו העתידי של מטופל (למשל נטייה מוקדמת, פרוגנוזה, חיזוי) או אם פלט ה-MDSW משפיע על תוצאות קליניות (למשל יעילות טיפול) או על החלטות ניהול מטופל, אזי ייתכן שיידרש מחקר פרוספקטיבי כחלק מההערכה הקלינית (MDR) / הערכת הביצועים (IVDR) של המכשיר. במצבים אחרים, ניתוח רטרוספקטיבי עשוי להיות מתאים יותר ליצירת הנתונים הנחוצים לתמיכה בעמידה ב-GSPRs, מאחר שאין השפעה על ניהול המטופל והמחקר אינו מציב סיכונים כלשהם למטופלים. גישה כזו אפשרית רק בתנאי שקיימת גישה הולמת למערכי נתונים בכמות ובאיכות מספקות, שהושגו מאוכלוסיית היעד."
+    },
+    {
+      "id": "sec-4-4-1-p3",
+      "type": "paragraph",
+      "en": "Formal requirements of MDR Articles 62 (1), 74 and 82 need to be met as far as appropriate for pre-market retrospective studies of MDSW falling under the MDR.",
+      "he": "יש לעמוד בדרישות הפורמליות של סעיפים 62(1), 74 ו-82 ל-MDR, ככל שמתאים, עבור מחקרים רטרוספקטיביים טרום-שיווקיים של MDSW הנכללת תחת ה-MDR."
+    },
+
+    {
+      "id": "sec-4-4-2",
+      "type": "heading",
+      "level": 3,
+      "number": "4.4.2",
+      "en": "Where demonstration of conformity based on clinical data is not deemed appropriate",
+      "he": "כאשר הוכחת התאמה המבוססת על נתונים קליניים אינה נחשבת מתאימה"
+    },
+    {
+      "id": "sec-4-4-2-p1",
+      "type": "paragraph",
+      "en": "In line with the provisions of MDR Article 61 (1) and IVDR Article 56(1), the level of CLINICAL EVIDENCE required should be appropriate in view of the device claims and characteristics. For medical devices, where the demonstration of conformity with GSPRs based on clinical data is not deemed appropriate (MDR Article 61 (10)), the manufacturer shall duly substantiate in the technical documentation why it is adequate to demonstrate conformity based on the results of non-clinical testing methods alone, including PERFORMANCE EVALUATION, bench testing and preclinical evaluation, and USABILITY assessment.",
+      "he": "בהתאם להוראות סעיף 61(1) ל-MDR וסעיף 56(1) ל-IVDR, רמת הראיות הקליניות הנדרשת צריכה להיות מתאימה לאור טענות המכשיר ומאפייניו. עבור מכשירים רפואיים, כאשר הוכחת התאמה ל-GSPRs המבוססת על נתונים קליניים אינה נחשבת מתאימה (סעיף 61(10) ל-MDR), על היצרן לבסס כראוי בתיעוד הטכני מדוע מספיק להוכיח התאמה בהתבסס על תוצאות שיטות בדיקה לא-קליניות בלבד, לרבות הערכת ביצועים, בדיקות מעבדה (bench testing) והערכה טרום-קלינית, והערכת שמישות."
+    },
+    {
+      "id": "sec-4-4-2-p2",
+      "type": "paragraph",
+      "en": "The justification must be based on the output of the risk management process. This should include an evaluation of clinical STATE-OF-THE-ART, including alternative diagnostic and treatment options, including those identified from literature, and an appraisal of their relevance to the device under evaluation. The device / body interaction, the CLINICAL PERFORMANCEs intended, and the claims of the manufacturer should be specifically considered.",
+      "he": "ההצדקה חייבת להתבסס על תפוקת תהליך ניהול הסיכונים. זו צריכה לכלול הערכה של מיטב הטכנולוגיה הקיימת הקלינית, לרבות אפשרויות אבחון וטיפול חלופיות, לרבות אלה שזוהו מהספרות, והערכה של הרלוונטיות שלהן למכשיר הנמצא בהערכה. יש לשקול באופן ספציפי את האינטראקציה מכשיר/גוף, את הביצועים הקליניים המיועדים ואת טענות היצרן."
+    },
+    {
+      "id": "sec-4-4-2-p3",
+      "type": "paragraph",
+      "en": "A CLINICAL EVALUATION (MDR) is still required, and the above information and evidence-based justification should be presented in the clinical evaluation report.",
+      "he": "עדיין נדרשת הערכה קלינית (MDR), ואת המידע שלעיל ואת ההצדקה המבוססת על ראיות יש להציג בדוח ההערכה הקלינית."
+    },
+    {
+      "id": "sec-4-4-2-p4",
+      "type": "paragraph",
+      "en": "Similarly for IVDs, where due to specific device characteristics, demonstration of conformity with GSPRs based on clinical data is not deemed appropriate, a PERFORMANCE EVALUATION (IVDR) is still required and a justification shall be provided and documented in the Performance Evaluation Plan and the corresponding Performance Evaluation Report.",
+      "he": "באופן דומה עבור מכשירים לאבחון חוץ-גופי, כאשר עקב מאפיינים ספציפיים של המכשיר, הוכחת התאמה ל-GSPRs המבוססת על נתונים קליניים אינה נחשבת מתאימה, עדיין נדרשת הערכת ביצועים (IVDR), ויש לספק הצדקה ולתעדה בתכנית הערכת הביצועים ובדוח הערכת הביצועים המתאים."
+    },
+
+    {
+      "id": "sec-4-5",
+      "type": "heading",
+      "level": 2,
+      "number": "4.5",
+      "en": "Final analysis and conclusion of the clinical evaluation (MDR) / performance evaluation (IVDR)",
+      "he": "ניתוח ומסקנה סופיים של ההערכה הקלינית (MDR) / הערכת הביצועים (IVDR)"
+    },
+    {
+      "id": "sec-4-5-p1",
+      "type": "paragraph",
+      "en": "The manufacturer should compile evidence, perform the benefit-risk analysis and document the CLINICAL or PERFORMANCE EVALUATION and its output in the CLINICAL EVALUATION (MDR) / PERFORMANCE EVALUATION (IVDR) report.",
+      "he": "על היצרן לאסוף ראיות, לבצע את ניתוח התועלת-סיכון ולתעד את ההערכה הקלינית או הערכת הביצועים ואת תפוקתה בדוח ההערכה הקלינית (MDR) / הערכת הביצועים (IVDR)."
+    },
+
+    {
+      "id": "sec-4-6",
+      "type": "heading",
+      "level": 2,
+      "number": "4.6",
+      "en": "Continuous update of the clinical evaluation (MDR) / performance evaluation (IVDR)",
+      "he": "עדכון מתמשך של ההערכה הקלינית (MDR) / הערכת הביצועים (IVDR)"
+    },
+    {
+      "id": "sec-4-6-p1",
+      "type": "paragraph",
+      "en": "The safety, effectiveness and performance of the MDSW should be actively and continuously monitored by the manufacturer.",
+      "he": "הבטיחות, האפקטיביות והביצועים של ה-MDSW ינוטרו באופן פעיל ומתמשך על ידי היצרן."
+    },
+    {
+      "id": "sec-4-6-p2",
+      "type": "paragraph",
+      "en": "Such data may include, but is not limited to post-market information such as complaints, PMCF/ PMPF data, REAL-WORLD PERFORMANCE data, direct end-user feedback or newly published research / guidelines and should be subject to the CLINICAL EVALUATION (MDR) / PERFORMANCE EVALUATION (IVDR) principles depicted in Figure 1.",
+      "he": "נתונים כאלה עשויים לכלול, בין היתר, מידע שלאחר שיווק כגון תלונות, נתוני PMCF/PMPF, נתוני ביצועים מהעולם האמיתי, משוב ישיר ממשתמשי הקצה או מחקר/הנחיות שפורסמו לאחרונה, והם יהיו כפופים לעקרונות ההערכה הקלינית (MDR) / הערכת הביצועים (IVDR) המתוארים באיור 1."
+    },
+    {
+      "id": "sec-4-6-p3",
+      "type": "paragraph",
+      "en": "The unique level of connectivity of MDSW facilitates access to REAL-WORLD PERFORMANCE data, which can be used for multiple purposes, including, but not limited to",
+      "he": "רמת הקישוריות הייחודית של MDSW מקלה על גישה לנתוני ביצועים מהעולם האמיתי, אשר ניתן להשתמש בהם למטרות מרובות, לרבות, בין היתר"
+    },
+    {
+      "id": "sec-4-6-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "timely detection and correction of malfunctions;", "he": "גילוי ותיקון תקלות בזמן;" },
+        { "en": "detection of systematic misuse;", "he": "גילוי שימוש לרעה שיטתי;" },
+        { "en": "understanding user interactions;", "he": "הבנת אינטראקציות משתמש;" },
+        { "en": "to conduct ongoing monitoring of CLINICAL PERFORMANCE;", "he": "ביצוע ניטור מתמשך של הביצועים הקליניים;" },
+        { "en": "to improve effectiveness;", "he": "שיפור האפקטיביות;" },
+        { "en": "develop the claims in the CLINICAL DEVELOPMENT PLAN (MDR) or future releases.", "he": "פיתוח הטענות בתכנית הפיתוח הקלינית (MDR) או בגרסאות עתידיות." }
+      ]
+    },
+    {
+      "id": "sec-4-6-p4",
+      "type": "paragraph",
+      "en": "MDSW can be released for CE marking with initially claimed and validated CLINICAL BENEFITS. Monitoring of REAL-WORLD PERFORMANCE data can help formulate hypotheses about future MDSW functionalities and intended use(s).",
+      "he": "ניתן לשחרר MDSW לסימון CE עם תועלות קליניות שנטענו ואומתו בתחילה. ניטור נתוני ביצועים מהעולם האמיתי יכול לסייע בגיבוש השערות לגבי תפקודיות MDSW עתידיות ושימושים מיועדים עתידיים."
+    },
+
+    {
+      "id": "annex-1",
+      "type": "heading",
+      "level": 1,
+      "number": "Annex I",
+      "en": "Annex I – Methodological principle for generation of CLINICAL EVIDENCE",
+      "he": "נספח I – עיקרון מתודולוגי ליצירת ראיות קליניות"
+    },
+    {
+      "id": "annex-1-p1",
+      "type": "paragraph",
+      "en": "This annex depicts (as a figure in the source document) the methodological principle for the generation of CLINICAL EVIDENCE, comprising the three key components — VALID CLINICAL ASSOCIATION / SCIENTIFIC VALIDITY, TECHNICAL PERFORMANCE / ANALYTICAL PERFORMANCE, and CLINICAL PERFORMANCE — that together support the demonstration of conformity for MDSW as described in section 4 of this document.",
+      "he": "נספח זה מציג (כאיור במסמך המקור) את העיקרון המתודולוגי ליצירת ראיות קליניות, הכולל את שלושת הרכיבים המרכזיים — קישור קליני תקף / תוקף מדעי, ביצועים טכניים / ביצועים אנליטיים, וביצועים קליניים — אשר יחד תומכים בהוכחת ההתאמה עבור MDSW כמתואר בסעיף 4 למסמך זה."
+    },
+
+    {
+      "id": "annex-2",
+      "type": "heading",
+      "level": 1,
+      "number": "Annex II",
+      "en": "Annex II – Examples of CLINICAL EVALUATION (MDR) / PERFORMANCE EVALUATION (IVDR) strategies",
+      "he": "נספח II – דוגמאות לאסטרטגיות הערכה קלינית (MDR) / הערכת ביצועים (IVDR)"
+    },
+    {
+      "id": "annex-2-p1",
+      "type": "paragraph",
+      "en": "The high-level examples provided here are for guidance purposes only and aim to provide general indications on how to develop a CLINICAL EVALUATION / PERFORMANCE EVALUATION strategy. The strategy presented in each example is not a confirmation of the pathway for a CLINICAL EVALUATION / PERFORMANCE EVALUATION of the device, as other factors need to be considered.",
+      "he": "הדוגמאות ברמה הכללית המובאות כאן נועדו למטרות הנחיה בלבד, ומטרתן לספק אינדיקציות כלליות בנוגע לאופן פיתוח אסטרטגיית הערכה קלינית / הערכת ביצועים. האסטרטגיה המוצגת בכל דוגמה אינה אישוש של המסלול להערכה קלינית / הערכת ביצועים של המכשיר, שכן יש לשקול גורמים נוספים."
+    },
+    {
+      "id": "annex-2-p2",
+      "type": "paragraph",
+      "en": "Moreover, the proposed pathway reflects the specific intended purpose, or the healthcare context or situation, in which the device is used as described in the example itself. Any change to the intended purpose or the healthcare context / situation in which that same device is used might result in a different approach.",
+      "he": "יתרה מזו, המסלול המוצע משקף את המטרה המיועדת הספציפית, או את ההקשר או המצב הבריאותי, שבו נעשה שימוש במכשיר כמתואר בדוגמה עצמה. כל שינוי במטרה המיועדת או בהקשר/מצב הבריאותי שבו נעשה שימוש באותו מכשיר עשוי להוביל לגישה שונה."
+    },
+    {
+      "id": "annex-2-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          { "en": "Data source", "he": "מקור הנתונים" },
+          { "en": "Examples", "he": "דוגמאות" }
+        ],
+        [
+          { "en": "Peer-reviewed, relevant scientific literature", "he": "ספרות מדעית רלוונטית שנבדקה בעמיתים" },
+          { "en": "Existing data from studies conducted with the subject device or equivalent device", "he": "נתונים קיימים ממחקרים שנערכו עם המכשיר הנדון או עם מכשיר שקול" }
+        ],
+        [
+          { "en": "CLINICAL INVESTIGATION / CLINICAL PERFORMANCE STUDIES", "he": "חקירות קליניות / מחקרי ביצועים קליניים" },
+          { "en": "Prospective or retrospective studies; Existing manufacturer data; Data from equivalent devices; Data from curated databases/registries/reference databases; Data from outside the EU with justification on applicability", "he": "מחקרים פרוספקטיביים או רטרוספקטיביים; נתוני יצרן קיימים; נתונים ממכשירים שקולים; נתונים ממסדי נתונים/מרשמים/מסדי נתונים ייחוס מתוקפים; נתונים מחוץ לאיחוד האירופי בצירוף הצדקה לתחולתם" }
+        ],
+        [
+          { "en": "Published experience gained by routine diagnostic testing", "he": "ניסיון שפורסם שהושג מבדיקות אבחון שגרתיות" },
+          { "en": "REAL-WORLD PERFORMANCE DATA; Data obtained from PMPF / PMCF", "he": "נתוני ביצועים מהעולם האמיתי; נתונים שהושגו מ-PMPF / PMCF" }
+        ]
+      ]
+    },
+
+    {
+      "id": "annex-2-a",
+      "type": "heading",
+      "level": 2,
+      "number": "a)",
+      "en": "a) MDSW intended to analyse sleep quality data",
+      "he": "א) MDSW המיועדת לנתח נתוני איכות שינה"
+    },
+    {
+      "id": "annex-2-a-p1",
+      "type": "paragraph",
+      "en": "An independent MDSW intended to take into account accelerometer and microphone data to determine quality of sleep and to estimate the expected success rate of CPAP (continuous positive airway pressure) treatment for sleep apnoea.",
+      "he": "MDSW עצמאית המיועדת להביא בחשבון נתוני מד-תאוצה ומיקרופון לקביעת איכות השינה ולהערכת שיעור ההצלחה הצפוי של טיפול CPAP (לחץ אוויר חיובי מתמשך – continuous positive airway pressure) עבור דום נשימה בשינה."
+    },
+    {
+      "id": "annex-2-a-p2",
+      "type": "paragraph",
+      "en": "The Manufacturer claims that the MDSW",
+      "he": "היצרן טוען כי ה-MDSW"
+    },
+    {
+      "id": "annex-2-a-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "determines the quality of sleep that impacts the general well-being.", "he": "קובעת את איכות השינה המשפיעה על הרווחה הכללית." },
+        { "en": "monitors quality of sleep in patients with sleep disorders such as sleep apnoea (using phone sensors/wearable devices)", "he": "מנטרת את איכות השינה במטופלים עם הפרעות שינה כגון דום נשימה בשינה (באמצעות חיישני טלפון/מכשירים לבישים)" },
+        { "en": "estimates the expected success rate of CPAP therapy.", "he": "מעריכה את שיעור ההצלחה הצפוי של טיפול CPAP." }
+      ]
+    },
+    {
+      "id": "annex-2-a-vca-h",
+      "type": "paragraph",
+      "en": "Valid Clinical Association",
+      "he": "קישור קליני תקף"
+    },
+    {
+      "id": "annex-2-a-vca-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "To establish VALID CLINICAL ASSOCIATION, review literature.", "he": "לביסוס קישור קליני תקף, יש לסקור ספרות." },
+        { "en": "Objective quality of sleep is measured by sleep duration, efficiency and fragmentation. It is further well-established that quality of sleep impacts general well-being such as concentration, risk-factors for cardiovascular disease, mood, cognitive abilities, etc.", "he": "איכות שינה אובייקטיבית נמדדת על פי משך השינה, היעילות והפיצול. כן מבוסס היטב כי איכות השינה משפיעה על הרווחה הכללית כגון ריכוז, גורמי סיכון למחלות לב וכלי דם, מצב רוח, יכולות קוגניטיביות וכד'." },
+        { "en": "It is not well-established that the success of CPAP therapy can be predicted by monitoring the quality of sleep.", "he": "לא מבוסס היטב כי ניתן לחזות את הצלחת טיפול ה-CPAP באמצעות ניטור איכות השינה." },
+        { "en": "Address the association of accelerometer and microphone data to established quality of sleep parameters (e.g. sleep duration, efficiency and fragmentation).", "he": "יש להתייחס לקישור בין נתוני מד-התאוצה והמיקרופון לבין פרמטרים מבוססים של איכות שינה (למשל משך השינה, היעילות והפיצול)." }
+      ]
+    },
+    {
+      "id": "annex-2-a-vca-p",
+      "type": "paragraph",
+      "en": "The VALID CLINICAL ASSOCIATION has been not established without gaps for prediction of success of CPAP therapy, which requires generation of missing clinical data.",
+      "he": "הקישור הקליני התקף לא בוסס ללא פערים עבור חיזוי הצלחת טיפול ה-CPAP, דבר המחייב יצירת נתונים קליניים חסרים."
+    },
+    {
+      "id": "annex-2-a-tp-h",
+      "type": "paragraph",
+      "en": "Technical Performance",
+      "he": "ביצועים טכניים"
+    },
+    {
+      "id": "annex-2-a-tp-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Confirm with verification and validation tests that the app can reliably and reproducibly calculate sleep quality scoring.", "he": "יש לאשש באמצעות בדיקות אימות ותיקוף כי האפליקציה יכולה לחשב באופן אמין ובר-שחזור את ניקוד איכות השינה." },
+        { "en": "Confirm compatibility between the MDSW and the device equipped with the sensors to ensure data can be utilised in the intended way.", "he": "יש לאשש תאימות בין ה-MDSW לבין המכשיר המצויד בחיישנים כדי להבטיח שניתן להשתמש בנתונים באופן המיועד." }
+      ]
+    },
+    {
+      "id": "annex-2-a-cp-h",
+      "type": "paragraph",
+      "en": "Clinical Performance",
+      "he": "ביצועים קליניים"
+    },
+    {
+      "id": "annex-2-a-cp-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "In addition to the USABILITY assessment, the manufacturer would perform a retrospective study on previously obtained data to confirm that success of CPAP therapy can be predicted based on the quality of sleep.", "he": "בנוסף להערכת השמישות, היצרן יבצע מחקר רטרוספקטיבי על נתונים שהושגו בעבר כדי לאשש שניתן לחזות את הצלחת טיפול ה-CPAP בהתבסס על איכות השינה." }
+      ]
+    },
+
+    {
+      "id": "annex-2-b",
+      "type": "heading",
+      "level": 2,
+      "number": "b)",
+      "en": "b) MDSW intended for image segmentation",
+      "he": "ב) MDSW המיועדת לסגמנטציה של תמונות"
+    },
+    {
+      "id": "annex-2-b-p1",
+      "type": "paragraph",
+      "en": "An independent MDSW intended to allow automatic detection of organs and anatomical structures (such as the aorta) in CT scans with the accuracy of a radiologist.",
+      "he": "MDSW עצמאית המיועדת לאפשר גילוי אוטומטי של איברים ומבנים אנטומיים (כגון אבי העורקים) בסריקות CT בדיוק של רדיולוג."
+    },
+    {
+      "id": "annex-2-b-p2",
+      "type": "paragraph",
+      "en": "The Manufacturer claims that the MDSW:",
+      "he": "היצרן טוען כי ה-MDSW:"
+    },
+    {
+      "id": "annex-2-b-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "detects abdominal aortic aneurisms on abdominal CT scans,", "he": "מגלה מפרצות של אבי העורקים הבטני בסריקות CT בטניות," },
+        { "en": "detects compression fractures on vertebrae,", "he": "מגלה שברי דחיסה בחוליות," },
+        { "en": "detects liver cysts.", "he": "מגלה ציסטות בכבד." }
+      ]
+    },
+    {
+      "id": "annex-2-b-vca-h",
+      "type": "paragraph",
+      "en": "Valid Clinical Association",
+      "he": "קישור קליני תקף"
+    },
+    {
+      "id": "annex-2-b-vca-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "To establish VALID CLINICAL ASSOCIATION, review literature.", "he": "לביסוס קישור קליני תקף, יש לסקור ספרות." },
+        { "en": "The normal shape and size of anatomy is well established.", "he": "הצורה והגודל התקינים של האנטומיה מבוססים היטב." },
+        { "en": "Segmentation techniques on cross-sectional images correlates well with the actual size and shape.", "he": "טכניקות סגמנטציה על תמונות חתך מתואמות היטב עם הגודל והצורה בפועל." }
+      ]
+    },
+    {
+      "id": "annex-2-b-vca-p",
+      "type": "paragraph",
+      "en": "The VALID CLINICAL ASSOCIATION has been established without gaps identified.",
+      "he": "הקישור הקליני התקף בוסס ללא פערים שזוהו."
+    },
+    {
+      "id": "annex-2-b-tp-h",
+      "type": "paragraph",
+      "en": "Technical Performance",
+      "he": "ביצועים טכניים"
+    },
+    {
+      "id": "annex-2-b-tp-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Confirm with verification and validation tests the basic technical performance such as display, modification, window levelling of images, measurements including confirmation of accuracy, sensitivity and reliability of the MDSW as per the expected performance.", "he": "יש לאשש באמצעות בדיקות אימות ותיקוף את הביצועים הטכניים הבסיסיים כגון תצוגה, שינוי, כיוונון חלון (window levelling) של תמונות, מדידות, לרבות אישוש הדיוק, הרגישות והאמינות של ה-MDSW בהתאם לביצועים הצפויים." }
+      ]
+    },
+    {
+      "id": "annex-2-b-cp-h",
+      "type": "paragraph",
+      "en": "Clinical Performance",
+      "he": "ביצועים קליניים"
+    },
+    {
+      "id": "annex-2-b-cp-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "USABILITY assessment including the intended user groups in conjunction with the VALID CLINICAL ASSOCIATION and validation of TECHNICAL PERFORMANCE results has been determined as sufficient to demonstrate conformity with relevant GSPRs.", "he": "הערכת שמישות הכוללת את קבוצות המשתמשים המיועדות, יחד עם הקישור הקליני התקף ועם אימות תוצאות הביצועים הטכניים, נקבעה כמספקת להוכחת התאמה ל-GSPRs הרלוונטיות." },
+        { "en": "In cases where data is available, a retrospective analysis can be performed. In cases where data does not represent the variability of input parameters, for the CLINICAL PERFORMANCE of the segmentation algorithm, the missing data could be generated in a prospective CLINICAL INVESTIGATION.", "he": "במקרים שבהם נתונים זמינים, ניתן לבצע ניתוח רטרוספקטיבי. במקרים שבהם הנתונים אינם מייצגים את השונוּת של פרמטרי הקלט, עבור הביצועים הקליניים של אלגוריתם הסגמנטציה, ניתן ליצור את הנתונים החסרים בחקירה קלינית פרוספקטיבית." }
+      ]
+    },
+
+    {
+      "id": "annex-2-c",
+      "type": "heading",
+      "level": 2,
+      "number": "c)",
+      "en": "c) MDSW intended to detect inflammatory bowel diseases (IBD)",
+      "he": "ג) MDSW המיועדת לגלות מחלות מעי דלקתיות (IBD)"
+    },
+    {
+      "id": "annex-2-c-p1",
+      "type": "paragraph",
+      "en": "Self-testing independent MDSW intended for the semi-quantitative detection of calprotectin from a faecal sample. Reagents are added to the sample resulting in a colour change. The sample is then photographed on a smartphone, and the image is evaluated by an MDSW application (app) running on the phone. The MDSW app detects the colour change in the sample and interprets the concentration of calprotectin. The test is intended as an aid in monitoring and staging of patients with inflammatory bowel disease (IBD).",
+      "he": "MDSW עצמאית לבדיקה עצמית המיועדת לגילוי חצי-כמותי של קלפרוטקטין מדגימת צואה. ריאגנטים מוספים לדגימה וגורמים לשינוי צבע. לאחר מכן הדגימה מצולמת בסמארטפון, והתמונה מוערכת על ידי יישום MDSW (אפליקציה) הפועל בטלפון. אפליקציית ה-MDSW מגלה את שינוי הצבע בדגימה ומפרשת את ריכוז הקלפרוטקטין. הבדיקה מיועדת כסיוע בניטור ובדירוג (staging) של מטופלים עם מחלת מעי דלקתית (IBD)."
+    },
+    {
+      "id": "annex-2-c-p2",
+      "type": "paragraph",
+      "en": "Manufacturer’s claims that the MDSW app",
+      "he": "היצרן טוען כי אפליקציית ה-MDSW"
+    },
+    {
+      "id": "annex-2-c-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "aids in monitoring and staging the disease level of patients with inflammatory bowel diseases (IBD).", "he": "מסייעת בניטור ובדירוג רמת המחלה של מטופלים עם מחלות מעי דלקתיות (IBD)." },
+        { "en": "aids in differentiation between IBD and functional bowel disorders.", "he": "מסייעת באבחנה מבדלת בין IBD לבין הפרעות מעי תפקודיות." },
+        { "en": "helps patients avoid unnecessary clinical visits.", "he": "מסייעת למטופלים להימנע מביקורים קליניים מיותרים." }
+      ]
+    },
+    {
+      "id": "annex-2-c-sv-h",
+      "type": "paragraph",
+      "en": "Scientific Validity",
+      "he": "תוקף מדעי"
+    },
+    {
+      "id": "annex-2-c-sv-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "To establish SCIENTIFIC VALIDITY, review literature.", "he": "לביסוס תוקף מדעי, יש לסקור ספרות." },
+        { "en": "The SCIENTIFIC VALIDITY could address how the calprotectin level corresponds to the IBD level and stages. Furthermore, it should address, whether calprotectin levels are suitable to differentiate between IBD and functional bowel disorders.", "he": "התוקף המדעי יכול להתייחס לאופן שבו רמת הקלפרוטקטין מתאימה לרמת ה-IBD ולשלביה. בנוסף, עליו להתייחס לשאלה האם רמות הקלפרוטקטין מתאימות לאבחנה מבדלת בין IBD לבין הפרעות מעי תפקודיות." },
+        { "en": "It is well-established that calprotectin concentration in faecal matter can be reliably measured in test strips by change of colour.", "he": "מבוסס היטב כי ניתן למדוד באופן אמין את ריכוז הקלפרוטקטין בצואה בעזרת מקלוני בדיקה באמצעות שינוי צבע." },
+        { "en": "The colour intensity is directly representative of the concentration of calprotectin.", "he": "עוצמת הצבע מייצגת ישירות את ריכוז הקלפרוטקטין." }
+      ]
+    },
+    {
+      "id": "annex-2-c-ap-h",
+      "type": "paragraph",
+      "en": "Analytical Performance",
+      "he": "ביצועים אנליטיים"
+    },
+    {
+      "id": "annex-2-c-ap-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Confirm the MDSW app can detect reliably and accurately the colour of the test strip compared to human observation, taking into account environmental factors.", "he": "יש לאשש כי אפליקציית ה-MDSW יכולה לגלות באופן אמין ומדויק את צבע מקלון הבדיקה בהשוואה לתצפית אנושית, תוך התחשבות בגורמים סביבתיים." }
+      ]
+    },
+    {
+      "id": "annex-2-c-cp-h",
+      "type": "paragraph",
+      "en": "Clinical Performance",
+      "he": "ביצועים קליניים"
+    },
+    {
+      "id": "annex-2-c-cp-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "The manufacturer should assess the initial performance and feasibility by creating CLINICAL PERFORMANCE metrics, taking into account sensitivity, specificity and confidence intervals.", "he": "על היצרן להעריך את הביצועים הראשוניים ואת ההיתכנות באמצעות יצירת מדדי ביצועים קליניים, תוך התחשבות ברגישות, בסגוליות וברווחי סמך." },
+        { "en": "Any claims regarding CLINICAL BENEFIT should be supported by sufficient clinical performance data.", "he": "כל טענה בנוגע לתועלת קלינית תגובה בנתוני ביצועים קליניים מספקים." },
+        { "en": "USABILITY should be confirmed by the manufacturer.", "he": "השמישות תאושש על ידי היצרן." }
+      ]
+    },
+
+    {
+      "id": "annex-2-d",
+      "type": "heading",
+      "level": 2,
+      "number": "d)",
+      "en": "d) Active devices containing MDSW to enable their intended purpose",
+      "he": "ד) מכשירים פעילים המכילים MDSW לאפשור מטרתם המיועדת"
+    },
+    {
+      "id": "annex-2-d-p1",
+      "type": "paragraph",
+      "en": "Active devices, such as diagnostic or therapeutic devices, that include MDSW which drives the device in a way that, without the software it would not be able to fulfil its intended purpose. This software does not perform a medical purpose on its own.",
+      "he": "מכשירים פעילים, כגון מכשירי אבחון או טיפול, הכוללים MDSW המפעילה את המכשיר באופן שבלעדי התוכנה לא יוכל לממש את מטרתו המיועדת. תוכנה זו אינה ממלאת מטרה רפואית בפני עצמה."
+    },
+    {
+      "id": "annex-2-d-p2",
+      "type": "paragraph",
+      "en": "The CLINICAL EVALUATION of the MDSW should not be performed independently but should be performed together with the driven device.",
+      "he": "ההערכה הקלינית של ה-MDSW לא תבוצע באופן עצמאי, אלא תבוצע יחד עם המכשיר המופעל."
+    },
+
+    {
+      "id": "annex-2-e",
+      "type": "heading",
+      "level": 2,
+      "number": "e)",
+      "en": "e) MDSW which provides an additional user-interface to control an insulin pump",
+      "he": "ה) MDSW המספקת ממשק משתמש נוסף לשליטה במשאבת אינסולין"
+    },
+    {
+      "id": "annex-2-e-p1",
+      "type": "paragraph",
+      "en": "A MDSW intended to virtualise controls of an insulin pump additionally on a smartphone app by connecting to it.",
+      "he": "MDSW המיועדת לווירטואליזציה של פקדי משאבת אינסולין באופן נוסף באפליקציית סמארטפון, באמצעות התחברות אליה."
+    },
+    {
+      "id": "annex-2-e-p2",
+      "type": "paragraph",
+      "en": "As the software is driving the insulin pump, it is not performing a medical purpose on its own, nor is it creating information on its own for medical purposes.",
+      "he": "מאחר שהתוכנה מפעילה את משאבת האינסולין, אין היא ממלאת מטרה רפואית בפני עצמה, ואף אינה יוצרת מידע בפני עצמה למטרות רפואיות."
+    },
+    {
+      "id": "annex-2-e-p3",
+      "type": "paragraph",
+      "en": "The CLINICAL EVALUATION of the MDSW app should not be performed independently but should be performed together with the driven insulin pump.",
+      "he": "ההערכה הקלינית של אפליקציית ה-MDSW לא תבוצע באופן עצמאי, אלא תבוצע יחד עם משאבת האינסולין המופעלת."
+    },
+
+    {
+      "id": "annex-2-f",
+      "type": "heading",
+      "level": 2,
+      "number": "f)",
+      "en": "f) MDSW intended to analyse exhaled CO2 in a life-sustaining device in order to control ventilator settings",
+      "he": "ו) MDSW המיועדת לנתח CO2 נשוף במכשיר מקיים-חיים כדי לשלוט בהגדרות מנשם"
+    },
+    {
+      "id": "annex-2-f-p1",
+      "type": "paragraph",
+      "en": "The MDSW uses physiological data of the patient (e.g. exhaled CO2, blood oxygen saturation) to control a ventilation device (e.g. frequency, volume and pressure).",
+      "he": "ה-MDSW משתמשת בנתונים פיזיולוגיים של המטופל (למשל CO2 נשוף, רוויית חמצן בדם) כדי לשלוט במכשיר הנשמה (למשל תדירות, נפח ולחץ)."
+    },
+    {
+      "id": "annex-2-f-p2",
+      "type": "paragraph",
+      "en": "The MDSW allows the device to maintain the pre-set value at a desired target (defined by the clinician) without periodic user adjustments needed. This MDSW is part of a closed-loop system.",
+      "he": "ה-MDSW מאפשרת למכשיר לשמור על הערך שהוגדר מראש ביעד הרצוי (כפי שהוגדר על ידי הרופא) ללא צורך בהתאמות תקופתיות של המשתמש. MDSW זו היא חלק ממערכת לולאה סגורה (closed-loop)."
+    },
+    {
+      "id": "annex-2-f-p3",
+      "type": "paragraph",
+      "en": "The CLINICAL EVALUATION should not be limited to the MDSW and should include pre-clinical and clinical investigations, encompassing the entire closed-loop system.",
+      "he": "ההערכה הקלינית לא תוגבל ל-MDSW ותכלול חקירות טרום-קליניות וקליניות, המקיפות את כל מערכת הלולאה הסגורה."
+    }
+  ]
+}

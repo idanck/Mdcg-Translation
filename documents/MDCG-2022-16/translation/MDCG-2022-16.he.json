@@ -1,0 +1,650 @@
+{
+  "id": "MDCG-2022-16",
+  "title": {
+    "en": "Guidance on Authorised Representatives Regulation (EU) 2017/745 on medical devices (MDR) and Regulation (EU) 2017/746 on in vitro diagnostic medical devices (IVDR)",
+    "he": "הנחיה בנושא נציגים מורשים — תקנה (האיחוד האירופי) 2017/745 בנושא מכשירים רפואיים (MDR) ותקנה (האיחוד האירופי) 2017/746 בנושא מכשירים רפואיים לאבחון ויטרו (IVDR)"
+  },
+  "category": "Authorised Representatives, Importers, Distributors",
+  "publicationDate": "2022-10",
+  "source": {
+    "url": "https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en",
+    "file": "original/mdcg_2022-16_en.pdf"
+  },
+  "language": "he",
+  "direction": "rtl",
+  "translationStatus": "review",
+  "glossaryVersion": "2026-06",
+  "blocks": [
+    {
+      "id": "disclaimer-1",
+      "type": "paragraph",
+      "en": "This document has been endorsed by the Medical Device Coordination Group (MDCG) established by Article 103 of Regulation (EU) 2017/745. The MDCG is composed of representatives of all Member States and it is chaired by a representative of the European Commission.",
+      "he": "מסמך זה אושר על ידי קבוצת תיאום המכשירים הרפואיים (MDCG) שהוקמה מכוח סעיף 103 לתקנה (האיחוד האירופי) 2017/745. ה-MDCG מורכבת מנציגים של כל המדינות החברות ובראשה עומד נציג של הנציבות האירופית."
+    },
+    {
+      "id": "disclaimer-2",
+      "type": "paragraph",
+      "en": "The document is not a European Commission document and it cannot be regarded as reflecting the official position of the European Commission. Any views expressed in this document are not legally binding and only the Court of Justice of the European Union can give binding interpretations of Union law.",
+      "he": "המסמך אינו מסמך של הנציבות האירופית ואין לראות בו כמשקף את העמדה הרשמית של הנציבות האירופית. כל דעה המובעת במסמך זה אינה מחייבת מבחינה משפטית, ורק בית הדין לצדק של האיחוד האירופי מוסמך לתת פרשנות מחייבת לדין האיחוד."
+    },
+    {
+      "id": "sec-1",
+      "type": "heading",
+      "level": 1,
+      "number": "1",
+      "en": "Introduction",
+      "he": "מבוא"
+    },
+    {
+      "id": "sec-1-p1",
+      "type": "paragraph",
+      "en": "Where the manufacturer of a device is not established in a Member State, the device may only be placed on the Union market if the manufacturer designates a sole authorised representative. The term 'device' will be understood to include medical devices, accessories for medical devices, products listed in Annex XVI of the MDR, in vitro diagnostic medical devices, accessories for in vitro diagnostic medical devices and also, custom-made devices.",
+      "he": "כאשר היצרן של מכשיר אינו מבוסס במדינה חברה, ניתן להציב את המכשיר בשוק האיחוד¹ רק אם היצרן ממנה נציג מורשה יחיד. המונח \"מכשיר\" יובן ככולל מכשירים רפואיים, אביזרים למכשירים רפואיים, מוצרים המנויים בנספח XVI ל-MDR, מכשירים רפואיים לאבחון ויטרו, אביזרים למכשירים רפואיים לאבחון ויטרו וכן מכשירים מותאמים אישית²."
+    },
+    {
+      "id": "sec-1-p2",
+      "type": "paragraph",
+      "en": "For manufacturers who are not established in the Union the authorised representative plays a pivotal role in ensuring the compliance of the devices produced by those manufacturers and in serving as their contact person established in the Union. Article 11 of the Regulation (EU) 2017/745 on medical devices (MDR) and Regulation (EU) 2017/746 on in vitro diagnostic medical devices (IVDR) outlines the obligations of and introduces enhanced responsibility for the authorised representative. References to 'the Regulations' should be understood to cover both the MDR and IVDR.",
+      "he": "עבור יצרנים שאינם מבוססים באיחוד, הנציג המורשה ממלא תפקיד מרכזי בהבטחת התאמתם של המכשירים המיוצרים על ידי אותם יצרנים ובהיותו איש הקשר שלהם המבוסס באיחוד. סעיף 11 לתקנה (האיחוד האירופי) 2017/745 בנושא מכשירים רפואיים (MDR) ולתקנה (האיחוד האירופי) 2017/746 בנושא מכשירים רפואיים לאבחון ויטרו (IVDR) מתאר את חובותיו ומחיל אחריות מוגברת על הנציג המורשה. הפניות אל \"התקנות\" יובנו ככוללות הן את ה-MDR והן את ה-IVDR."
+    },
+    {
+      "id": "fn-1",
+      "type": "note",
+      "marker": "1",
+      "en": "The 'Union market' refers to the territories of the European Union Member States, and due to the European Economic Area (EEA) is extended to Norway, Lichtenstein and Iceland, and via the Customs Union Agreement to Turkey. For Turkey, please see also the 'Notice to stakeholders EU-Turkey Customs Union Agreement in the field of medical devices' on the Commission website.",
+      "he": "\"שוק האיחוד\" מתייחס לשטחי המדינות החברות באיחוד האירופי, ומכוח האזור הכלכלי האירופי (EEA) הוא מורחב לנורווגיה, ליכטנשטיין ואיסלנד, ומכוח הסכם איחוד המכס גם לטורקיה. לגבי טורקיה, ראו גם \"הודעה לבעלי עניין — הסכם איחוד המכס בין האיחוד האירופי לטורקיה בתחום המכשירים הרפואיים\" באתר הנציבות."
+    },
+    {
+      "id": "fn-2",
+      "type": "note",
+      "marker": "2",
+      "en": "Please note there are specific requirements applying to custom-made devices outlined in Annex XIII MDR 'Procedure for Custom-Made Devices' and as such, some of the authorised representative obligations elaborated in this guidance may not be applicable for custom-made devices. MDCG 2021-3 'Questions and Answers on Custom-Made Devices & considerations on Adaptable medical devices and Patient-matched medical devices' may also be consulted for information on obligations relating to custom-made devices.",
+      "he": "יש לשים לב כי קיימות דרישות מסוימות החלות על מכשירים מותאמים אישית, המפורטות בנספח XIII ל-MDR \"נוהל למכשירים מותאמים אישית\", ולפיכך חלק מחובות הנציג המורשה המפורטות בהנחיה זו עשויות שלא לחול על מכשירים מותאמים אישית. ניתן לעיין גם ב-MDCG 2021-3 \"שאלות ותשובות בנושא מכשירים מותאמים אישית ושיקולים בנושא מכשירים רפואיים הניתנים להתאמה ומכשירים רפואיים מותאמים למטופל\" לקבלת מידע על חובות הנוגעות למכשירים מותאמים אישית."
+    },
+    {
+      "id": "sec-2",
+      "type": "heading",
+      "level": 1,
+      "number": "2",
+      "en": "Scope",
+      "he": "תחולה"
+    },
+    {
+      "id": "sec-2-p1",
+      "type": "paragraph",
+      "en": "This guidance document is written for authorised representatives, manufacturers and other economic operators, and intends to provide guidance on relevant requirements under the Regulations. Where clarification is already covered by other MDCG guidances, this guidance on authorised representatives includes a reference.",
+      "he": "מסמך הנחיה זה נכתב עבור נציגים מורשים, יצרנים וגורמים כלכליים אחרים, ומטרתו לספק הנחיה בנוגע לדרישות הרלוונטיות על פי התקנות. כאשר הבהרה כבר מכוסה בהנחיות MDCG אחרות, הנחיה זו בנושא נציגים מורשים כוללת הפניה."
+    },
+    {
+      "id": "sec-2-p2",
+      "type": "paragraph",
+      "en": "The requirement to have an authorised representative is not applicable to devices intended for clinical investigation (MDR) or performance study (IVDR). To this end, Article 62(2) MDR and Article 58(4) IVDR state that 'where the sponsor of a clinical investigation or performance study is not established in the Union, that sponsor shall ensure that a natural or legal person is established in the Union as its legal representative'. As the legal representative is not defined as the authorised representative, these requirements are not further included in this guidance.",
+      "he": "הדרישה למינוי נציג מורשה אינה חלה על מכשירים המיועדים לחקירה קלינית (MDR) או למחקר ביצועים (IVDR). לשם כך, סעיף 62(2) ל-MDR וסעיף 58(4) ל-IVDR קובעים כי \"כאשר נותן החסות (sponsor) של חקירה קלינית או מחקר ביצועים אינו מבוסס באיחוד, על נותן החסות להבטיח כי אדם טבעי או משפטי יהיה מבוסס באיחוד כנציגו המשפטי\". מאחר שהנציג המשפטי אינו מוגדר כנציג המורשה, דרישות אלה אינן נכללות עוד בהנחיה זו."
+    },
+    {
+      "id": "sec-3",
+      "type": "heading",
+      "level": 1,
+      "number": "3",
+      "en": "Definitions",
+      "he": "הגדרות"
+    },
+    {
+      "id": "sec-3-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "en": "Economic operator: a manufacturer, an authorised representative, an importer, a distributor or the person referred to in Article 22(1) and 22(3) MDR (Article 2(35) MDR) and a manufacturer, an authorised representative, an importer or a distributor (Article 2(28) IVDR).",
+          "he": "גורם כלכלי: יצרן, נציג מורשה, יבואן, מפיץ או האדם הנזכר בסעיף 22(1) ו-22(3) ל-MDR (סעיף 2(35) ל-MDR), וכן יצרן, נציג מורשה, יבואן או מפיץ (סעיף 2(28) ל-IVDR)."
+        },
+        {
+          "en": "Manufacturer: a natural or legal person who manufactures or fully refurbishes a device or has a device designed, manufactured or fully refurbished, and markets that device under its name or trademark (Article 2(30) MDR and Article 2(23) IVDR).",
+          "he": "יצרן: אדם טבעי או משפטי המייצר או משפץ במלואו מכשיר, או שמכשיר עוצב, יוצר או שופץ במלואו עבורו, ומשווק את המכשיר תחת שמו או סימנו המסחרי (סעיף 2(30) ל-MDR וסעיף 2(23) ל-IVDR)."
+        },
+        {
+          "en": "Authorised representative: any natural or legal person established within the Union who has received and accepted a written mandate from a manufacturer, located outside the Union, to act on the manufacturer's behalf in relation to specified tasks with regard to the latter's obligations under this regulation (Article 2(32) MDR and Article 2(25) IVDR).",
+          "he": "נציג מורשה: כל אדם טבעי או משפטי המבוסס בתוך האיחוד אשר קיבל וקיבל על עצמו ייפוי כוח בכתב (mandate) מיצרן הממוקם מחוץ לאיחוד, לפעול בשם היצרן בנוגע למשימות מסוימות הקשורות לחובות היצרן על פי תקנה זו (סעיף 2(32) ל-MDR וסעיף 2(25) ל-IVDR)."
+        },
+        {
+          "en": "Importer: any natural or legal person established within the Union that places a device from a third country on the Union market (Article 2(33) MDR and Article 2(26) IVDR).",
+          "he": "יבואן: כל אדם טבעי או משפטי המבוסס בתוך האיחוד המציב מכשיר ממדינה שלישית בשוק האיחוד (סעיף 2(33) ל-MDR וסעיף 2(26) ל-IVDR)."
+        },
+        {
+          "en": "Distributor: any natural or legal person in the supply chain, other than the manufacturer or the importer, that makes a device available on the market, up until the point of putting into service (Article 2(34) MDR and Article 2(27) IVDR).",
+          "he": "מפיץ: כל אדם טבעי או משפטי בשרשרת האספקה, למעט היצרן או היבואן, המעמיד מכשיר לרשות השוק, עד לנקודת ההפעלה (putting into service) (סעיף 2(34) ל-MDR וסעיף 2(27) ל-IVDR)."
+        },
+        {
+          "en": "Generic device group: a set of devices having the same or similar intended purposes or a commonality of technology allowing them to be classified in a generic manner not reflecting specific characteristics (Article 2(7) MDR and Article 2(8) IVDR).",
+          "he": "קבוצת מכשירים גנרית (generic device group): מערך מכשירים בעלי מטרות מיועדות זהות או דומות, או בעלי מכנה טכנולוגי משותף המאפשר לסווגם באופן גנרי שאינו משקף מאפיינים ספציפיים (סעיף 2(7) ל-MDR וסעיף 2(8) ל-IVDR)."
+        }
+      ]
+    },
+    {
+      "id": "sec-4",
+      "type": "heading",
+      "level": 1,
+      "number": "4",
+      "en": "Designation and mandate",
+      "he": "מינוי וייפוי כוח (mandate)"
+    },
+    {
+      "id": "sec-4-p1",
+      "type": "paragraph",
+      "en": "Where a manufacturer of a device is not established in a Member State, the device may only be placed on the Union market if the manufacturer designates a sole authorised representative (Article 11(1) MDR and IVDR).",
+      "he": "כאשר היצרן של מכשיר אינו מבוסס במדינה חברה, ניתן להציב את המכשיר בשוק האיחוד רק אם היצרן ממנה נציג מורשה יחיד (סעיף 11(1) ל-MDR ול-IVDR)."
+    },
+    {
+      "id": "sec-4-p2",
+      "type": "paragraph",
+      "en": "As regards its portfolio of devices therefore, a manufacturer can have more than one authorised representative if the devices fall under different generic device groups (as defined in Article 2(7) MDR and Article 2(8) IVDR). However, for one specific generic device group, the manufacturer should designate only one authorised representative (i.e. a 'sole' authorised representative').",
+      "he": "לפיכך, ביחס לתיק המכשירים שלו, יצרן יכול שיהיו לו יותר מנציג מורשה אחד אם המכשירים נמנים על קבוצות מכשירים גנריות שונות (כהגדרתן בסעיף 2(7) ל-MDR ובסעיף 2(8) ל-IVDR³). עם זאת, עבור קבוצת מכשירים גנרית ספציפית אחת, על היצרן למנות נציג מורשה אחד בלבד (קרי, נציג מורשה \"יחיד\")."
+    },
+    {
+      "id": "sec-4-p3",
+      "type": "paragraph",
+      "en": "Article 11(2) of the Regulations provide that 'the designation shall constitute the authorised representative's mandate, it shall be valid only when accepted in writing by the authorised representative and shall be effective at least for all devices of the same generic device group'. The manufacturer and the authorised representative are free to configure the structure of their contractual relationship as they see appropriate, as long as there is a written mandate that meets the minimum requirements of Article 11(3) of the Regulations and the content of which is agreed between the parties. A mandate should be drawn up irrespective of whether the authorised representative is independent/outside of, or is part of the same larger organization as the manufacturer.",
+      "he": "סעיף 11(2) לתקנות קובע כי \"המינוי יהווה את ייפוי הכוח של הנציג המורשה, הוא יהיה תקף רק לאחר שהתקבל בכתב על ידי הנציג המורשה, ויהיה בתוקף לפחות לכל המכשירים של אותה קבוצת מכשירים גנרית\". היצרן והנציג המורשה חופשיים לעצב את מבנה היחסים החוזיים ביניהם כפי שיראו לנכון, כל עוד קיים ייפוי כוח בכתב העומד בדרישות המינימום של סעיף 11(3) לתקנות, ואשר תוכנו מוסכם בין הצדדים. יש לערוך ייפוי כוח ללא קשר לשאלה אם הנציג המורשה עצמאי/חיצוני, או שהוא חלק מאותו ארגון רחב יותר שאליו משתייך היצרן."
+    },
+    {
+      "id": "sec-4-p4",
+      "type": "paragraph",
+      "en": "Article 11(3) of the Regulations requires the authorised representative to perform the tasks specified in the mandate agreed between the authorised representative and the manufacturer. Upon request, the authorised representative has to provide a copy of the mandate to the competent authority. Article 11(3) of the Regulations describes the minimum tasks that the mandate (in relation to the devices that it covers) should comprise and which the manufacturer should enable the authorised representative to perform. The mandate may however also contain additional agreed tasks between the parties. The manufacturer could for instance mandate the authorised representative to lodge, on its behalf, an application for conformity assessment according to annex IX, X, XI MDR/IVDR with a notified body at the pre-market stage.",
+      "he": "סעיף 11(3) לתקנות מחייב את הנציג המורשה לבצע את המשימות המפורטות בייפוי הכוח המוסכם בין הנציג המורשה ליצרן. על פי בקשה, על הנציג המורשה לספק עותק של ייפוי הכוח לרשות המוסמכת. סעיף 11(3) לתקנות מתאר את המשימות המינימליות שעל ייפוי הכוח (ביחס למכשירים שהוא מכסה) לכלול ושעל היצרן לאפשר לנציג המורשה לבצע. עם זאת, ייפוי הכוח עשוי לכלול גם משימות נוספות המוסכמות בין הצדדים. כך למשל, היצרן יכול לייפות את כוחו של הנציג המורשה להגיש בשמו בקשה להערכת התאמה בהתאם לנספחים IX, X, XI ל-MDR/IVDR בפני גוף מאונתר בשלב הקדם-שיווקי."
+    },
+    {
+      "id": "sec-4-p5",
+      "type": "paragraph",
+      "en": "Article 11(4) of the Regulations specifies however that 'The mandate shall not delegate the manufacturer's obligations laid down in Article 10(1), (2), (3), (4), (6), (7), (9), (10), (11), (12)' for the MDR' and Article 10(1), (2), (3), (4), (5), (6), (8), (9), (10) and (11) for the IVDR respectively. Whilst the manufacturer therefore can not delegate its responsibility for these tasks, the authorised representative is not prevented from assisting in the performance of those tasks.",
+      "he": "עם זאת, סעיף 11(4) לתקנות מציין כי \"ייפוי הכוח לא יאציל את חובות היצרן הקבועות בסעיף 10(1), (2), (3), (4), (6), (7), (9), (10), (11), (12)\" עבור ה-MDR, ובסעיף 10(1), (2), (3), (4), (5), (6), (8), (9), (10) ו-(11) עבור ה-IVDR, בהתאמה. לפיכך, בעוד שהיצרן אינו יכול להאציל את אחריותו למשימות אלה, אין מניעה מהנציג המורשה לסייע בביצוען של משימות אלה."
+    },
+    {
+      "id": "sec-4-p6",
+      "type": "paragraph",
+      "en": "Importers should verify that the authorised representative in accordance with Article 11 has been designated by the manufacturer (Article 13(2)(b) MDR and IVDR).",
+      "he": "על יבואנים לוודא כי הנציג המורשה מונה על ידי היצרן בהתאם לסעיף 11 (סעיף 13(2)(ב) ל-MDR ול-IVDR)."
+    },
+    {
+      "id": "sec-4-p7",
+      "type": "paragraph",
+      "en": "To verify this, a check that the authorised representative's name appears on relevant documentation such as the EU declaration of conformity, any relevant certificate and device labelling could be performed. Moreover, the designation could be verified using the EUDAMED database, or by contacting the manufacturer or the authorised representative directly to confirm that a designation has taken place. In the latter case, a letter of designation issued by a manufacturer or a copy of it made available by the authorised representative could also be used in order to confirm to third parties that a designation has taken place.",
+      "he": "כדי לוודא זאת, ניתן לבדוק שם הנציג המורשה מופיע על תיעוד רלוונטי כגון הצהרת ההתאמה של האיחוד האירופי, כל תעודה רלוונטית ותיוג המכשיר. בנוסף, ניתן לאמת את המינוי באמצעות מסד הנתונים EUDAMED, או על ידי פנייה ישירה ליצרן או לנציג המורשה כדי לאשר כי בוצע מינוי. במקרה האחרון, ניתן להשתמש גם במכתב מינוי שהוצא על ידי יצרן או בעותק שלו שהועמד לרשות על ידי הנציג המורשה, כדי לאשר לצדדים שלישיים כי בוצע מינוי⁴."
+    },
+    {
+      "id": "fn-3",
+      "type": "note",
+      "marker": "3",
+      "en": "If applicable, the manufacturer may take into account 'MDCG 2019-13 Guidance on sampling of MDR Class IIa / Class IIb and IVDR Class B / Class C devices for the assessment of the technical documentation', which elaborates on the term 'generic device group' in that context.",
+      "he": "אם רלוונטי, היצרן רשאי לקחת בחשבון את \"MDCG 2019-13 הנחיה בנושא דגימה של מכשירים מסיווג IIa / IIb לפי MDR ומסיווג B / C לפי IVDR לצורך הערכת התיעוד הטכני\", המרחיב על המונח \"קבוצת מכשירים גנרית\" בהקשר זה."
+    },
+    {
+      "id": "fn-4",
+      "type": "note",
+      "marker": "4",
+      "en": "See also MDGC 2021-27 'Questions and Answers on Articles 13 & 14 of Regulation (EU) 2017/745 and Regulation (EU) 2017/746' for further information on the obligations of importers.",
+      "he": "ראו גם MDCG 2021-27 \"שאלות ותשובות בנושא סעיפים 13 ו-14 לתקנה (האיחוד האירופי) 2017/745 ולתקנה (האיחוד האירופי) 2017/746\" לקבלת מידע נוסף על חובות היבואנים."
+    },
+    {
+      "id": "sec-5",
+      "type": "heading",
+      "level": 1,
+      "number": "5",
+      "en": "Registration & verification obligations",
+      "he": "חובות רישום ואימות"
+    },
+    {
+      "id": "sec-5a",
+      "type": "heading",
+      "level": 2,
+      "en": "a) The authorised representatives' own obligations",
+      "he": "א) חובותיו העצמיות של הנציג המורשה"
+    },
+    {
+      "id": "sec-5a-p1",
+      "type": "paragraph",
+      "en": "Article 11(3)(c) of the Regulations states that the authorised representative should comply with the registration obligations laid down in Article 31 MDR and Article 28 IVDR. This means the authorised representative must register its details in EUDAMED providing in particular the information referred to in Section 1 of Part A of Annex VI of the Regulations.",
+      "he": "סעיף 11(3)(ג) לתקנות קובע כי על הנציג המורשה לעמוד בחובות הרישום הקבועות בסעיף 31 ל-MDR ובסעיף 28 ל-IVDR. משמעות הדבר היא שעל הנציג המורשה לרשום את פרטיו ב-EUDAMED⁵, ולספק בפרט את המידע הנזכר בחלק 1 של חלק A לנספח VI לתקנות."
+    },
+    {
+      "id": "sec-5a-p2",
+      "type": "paragraph",
+      "en": "In addition to registration, the authorised representative must verify that:",
+      "he": "בנוסף לרישום, על הנציג המורשה לוודא כי:"
+    },
+    {
+      "id": "sec-5a-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "en": "its own registered information is updated within one week of any change occurring (MDR Article 31(4)/IVDR Article 28(4))",
+          "he": "המידע הרשום שלו עצמו מעודכן בתוך שבוע ממועד התרחשותו של כל שינוי (סעיף 31(4) ל-MDR / סעיף 28(4) ל-IVDR)"
+        },
+        {
+          "en": "the accuracy of the data it has submitted at intervals defined in Article 31(5) MDR/Article 28(5) IVDR, namely not later than one year after initial submission of the information, and every second year thereafter.",
+          "he": "דיוק הנתונים שהגיש, במרווחי הזמן המוגדרים בסעיף 31(5) ל-MDR / סעיף 28(5) ל-IVDR, קרי לא יאוחר משנה לאחר ההגשה הראשונית של המידע, ולאחר מכן אחת לשנתיים."
+        }
+      ]
+    },
+    {
+      "id": "fn-5",
+      "type": "note",
+      "marker": "5",
+      "en": "Prior to the full functionality of EUDAMED, reference should be made to 'MDCG 2021-1 Guidance on harmonised administrative practices and alternative technical solutions until EUDAMED is fully functional' for the MDR, and MDCG 2022-12 'Guidance on harmonised administrative practices and alternative technical solutions until Eudamed is fully functional (for Regulation (EU) 2017/746 on in vitro diagnostic medical devices)'.",
+      "he": "עד לתפקוד המלא של EUDAMED, יש להפנות אל \"MDCG 2021-1 הנחיה בנושא נוהלי מנהל מתואמים ופתרונות טכניים חלופיים עד אשר EUDAMED יתפקד במלואו\" עבור ה-MDR, ואל MDCG 2022-12 \"הנחיה בנושא נוהלי מנהל מתואמים ופתרונות טכניים חלופיים עד אשר EUDAMED יתפקד במלואו (לתקנה (האיחוד האירופי) 2017/746 בנושא מכשירים רפואיים לאבחון ויטרו)\"."
+    },
+    {
+      "id": "sec-5a-p3",
+      "type": "paragraph",
+      "en": "Further information on registration procedures for economic operators and management of mandates for authorised representatives in EUDAMED, including termination of a mandate, is provided in the 'EUDAMED: Economic Operator user guide'.",
+      "he": "מידע נוסף על נוהלי הרישום עבור גורמים כלכליים ועל ניהול ייפויי כוח עבור נציגים מורשים ב-EUDAMED, לרבות סיום ייפוי כוח, מובא ב\"EUDAMED: מדריך למשתמש לגורם כלכלי\"⁶."
+    },
+    {
+      "id": "sec-5b",
+      "type": "heading",
+      "level": 2,
+      "en": "b) The authorised representative's verification obligations toward the manufacturer",
+      "he": "ב) חובות האימות של הנציג המורשה כלפי היצרן"
+    },
+    {
+      "id": "sec-5b-p1",
+      "type": "paragraph",
+      "en": "Article 11(3)(c) of the Regulations also outlines the authorised representative's obligation to verify that the manufacturer has complied with its UDI and devices registration obligations in EUDAMED, as set out in Articles 27, 29 MDR and Articles 24, 26 IVDR",
+      "he": "סעיף 11(3)(ג) לתקנות מתאר גם את חובת הנציג המורשה לוודא כי היצרן עמד בחובות הרישום שלו של ה-UDI ושל המכשירים ב-EUDAMED, כקבוע בסעיפים 27, 29 ל-MDR ובסעיפים 24, 26 ל-IVDR."
+    },
+    {
+      "id": "sec-5b-p2",
+      "type": "paragraph",
+      "en": "It is noted that in line with Article 11(4) of the Regulations, the manufacturer's obligation to register its information and devices in EUDAMED cannot be delegated to the authorised representative.",
+      "he": "יצוין כי בהתאם לסעיף 11(4) לתקנות, חובת היצרן לרשום את המידע ואת המכשירים שלו ב-EUDAMED אינה ניתנת להאצלה לנציג המורשה."
+    },
+    {
+      "id": "fn-6",
+      "type": "note",
+      "marker": "6",
+      "en": "Please see 'EUDAMED: Economic Operator user guide How economic operators can use the actor registration module', noting in particular section 2.3 'Managing mandates' and sub-section 2.3.4 of 'Terminating a mandate'.",
+      "he": "ראו \"EUDAMED: מדריך למשתמש לגורם כלכלי — כיצד גורמים כלכליים יכולים להשתמש במודול רישום השחקנים (actor registration module)\", ובפרט סעיף 2.3 \"ניהול ייפויי כוח\" ותת-סעיף 2.3.4 \"סיום ייפוי כוח\"."
+    },
+    {
+      "id": "sec-6",
+      "type": "heading",
+      "level": 1,
+      "number": "6",
+      "en": "Minimum tasks & responsibilities of the authorised representative",
+      "he": "משימות ואחריות מינימליות של הנציג המורשה"
+    },
+    {
+      "id": "sec-6-p1",
+      "type": "paragraph",
+      "en": "The minimum tasks & responsibilities of the authorised representative are described in Article 11(3) (a) - (h) of the Regulations. The manufacturer should enable the authorised representative to perform the tasks mandated.",
+      "he": "המשימות והאחריות המינימליות של הנציג המורשה מתוארות בסעיף 11(3) (א)–(ח) לתקנות. על היצרן לאפשר לנציג המורשה לבצע את המשימות שיופה כוחו לבצען."
+    },
+    {
+      "id": "sec-6-p2",
+      "type": "paragraph",
+      "en": "Pursuant to Article 11(3)(a) of the Regulations the authorised representative verifies that the EU declaration of conformity and technical documentation have been drawn up (i.e. checks the existence of such documents) and, where applicable, that an appropriate conformity assessment procedure has been carried out by the manufacturer. If the authorised representative considers or has reason to believe that the conformity assessment procedure is not appropriate for the device in question, they may inform the manufacturer.",
+      "he": "בהתאם לסעיף 11(3)(א) לתקנות, הנציג המורשה מוודא כי הצהרת ההתאמה של האיחוד האירופי והתיעוד הטכני נערכו (קרי, בודק את קיומם של מסמכים אלה), וכן, היכן שרלוונטי, כי נוהל הערכת התאמה מתאים בוצע על ידי היצרן. אם הנציג המורשה סבור או שיש לו יסוד להאמין כי נוהל הערכת ההתאמה אינו מתאים למכשיר הנדון, הוא רשאי ליידע את היצרן."
+    },
+    {
+      "id": "sec-6-p3",
+      "type": "paragraph",
+      "en": "Article 11(3)(b) of the Regulations describes the task of the authorised representative to keep a copy of the technical documentation, the EU declaration of conformity and, if applicable, a copy of the relevant certificate (including any amendments and supplements of such a certificate), issued in accordance with Article 56 MDR or Article 51 IVDR at the disposal of competent authorities for the period referred to in Article 10(8) MDR and Article 10(7) IVDR, of the devices for which it is designated. This includes a period of at least 10 years after the last device covered by the EU declaration of conformity has been placed on the market, and in the case of implantable devices, a period of at least 15 years after the last device has been placed on the market.",
+      "he": "סעיף 11(3)(ב) לתקנות מתאר את משימת הנציג המורשה לשמור עותק של התיעוד הטכני, של הצהרת ההתאמה של האיחוד האירופי וכן, אם רלוונטי, עותק של התעודה הרלוונטית (לרבות כל תיקון ותוספת לתעודה כאמור), שהוצאה בהתאם לסעיף 56 ל-MDR או לסעיף 51 ל-IVDR, וזאת לרשות הרשויות המוסמכות למשך התקופה הנזכרת בסעיף 10(8) ל-MDR ובסעיף 10(7) ל-IVDR, עבור המכשירים שלגביהם הוא מונה. תקופה זו כוללת תקופה של 10 שנים לפחות לאחר שהמכשיר האחרון המכוסה בהצהרת ההתאמה של האיחוד האירופי הוצב בשוק, ובמקרה של מכשירים מושתלים, תקופה של 15 שנים לפחות לאחר שהמכשיר האחרון הוצב בשוק."
+    },
+    {
+      "id": "sec-6-p4",
+      "type": "paragraph",
+      "en": "The manufacturer's obligation to ensure the authorised representative has the necessary documentation 'permanently available' in order to fulfil the tasks specified in Article 11(3) of the Regulations, is outlined in the third sub-paragraph of Article 10(8) MDR and Article 10(7) IVDR. 'Permanently available' in this context means it will be mandatory for the manufacturer to provide the authorised representatives with the requisite documentation, in their most recent versions and for certificates this includes amendments or supplements, either in hard or electronic copy. In practical terms having 'permanent access' to such documents, should imply constant availability via electronic or physical storage, either shared or otherwise.",
+      "he": "חובת היצרן להבטיח כי לרשות הנציג המורשה עומד התיעוד הנחוץ \"באופן קבוע\" כדי למלא את המשימות המפורטות בסעיף 11(3) לתקנות, מתוארת בתת-הפסקה השלישית של סעיף 10(8) ל-MDR וסעיף 10(7) ל-IVDR. \"זמין באופן קבוע\" בהקשר זה משמעו כי תחול על היצרן חובה לספק לנציגים המורשים את התיעוד הנדרש, בגרסאותיו העדכניות ביותר — ולגבי תעודות לרבות תיקונים או תוספות — בעותק קשיח או אלקטרוני. במונחים מעשיים, \"גישה קבועה\" למסמכים כאמור צריכה לכלול זמינות מתמדת באמצעות אחסון אלקטרוני או פיזי, משותף או אחר."
+    },
+    {
+      "id": "sec-6-list-d",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "en": "Article 11(3)(d) outlines that in response to a request from a competent authority, the authorised representative must provide the competent authority with all the information and documentation necessary to demonstrate the conformity of a device, in an official Union language determined by the Member State concerned.",
+          "he": "סעיף 11(3)(ד) מתאר כי בתגובה לבקשה מרשות מוסמכת, על הנציג המורשה לספק לרשות המוסמכת את כל המידע והתיעוד הנחוצים להוכחת התאמתו של מכשיר, בשפה רשמית של האיחוד שנקבעה על ידי המדינה החברה הנוגעת בדבר."
+        }
+      ]
+    },
+    {
+      "id": "sec-6-p5",
+      "type": "paragraph",
+      "en": "In addition to documentation referred to in Article 11(3)(b) of the Regulations, there is information/documentation detailed in the Annexes of the Regulations, which, if applicable, is to be taken into account/ kept available by the authorised representative. This includes:",
+      "he": "בנוסף לתיעוד הנזכר בסעיף 11(3)(ב) לתקנות, קיים מידע/תיעוד המפורט בנספחי התקנות, אשר, אם רלוונטי⁷, על הנציג המורשה לקחתו בחשבון/לשמרו זמין. זה כולל:"
+    },
+    {
+      "id": "sec-6-list-annexes",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Annex IX, Chapter III, section 7, 8 MDR", "he": "נספח IX, פרק III, סעיף 7, 8⁸ ל-MDR" },
+        { "en": "Annex X, section 7 MDR", "he": "נספח X, סעיף 7 ל-MDR" },
+        { "en": "Annex XI, section 9, 10.5, 17 or 18.4 MDR", "he": "נספח XI, סעיף 9, 10.5, 17 או 18.4 ל-MDR" },
+        { "en": "Annex IX, section 6 IVDR", "he": "נספח IX, סעיף 6 ל-IVDR" },
+        { "en": "Annex X, section 6 IVDR", "he": "נספח X, סעיף 6 ל-IVDR" },
+        { "en": "Annex XI, section 6 IVDR", "he": "נספח XI, סעיף 6 ל-IVDR" }
+      ]
+    },
+    {
+      "id": "sec-6-p6",
+      "type": "paragraph",
+      "en": "Please note that for custom-made devices, the statement referred to in section 1 of Annex XIII may be drawn up by either the manufacturer or its authorised representative. This statement must also be kept for a period of at least 10 years after the device has been placed on the market, and a period of at least 15 years in the case of implantable devices. Section 8 of Annex IX MDR also applies.",
+      "he": "יש לשים לב כי לגבי מכשירים מותאמים אישית, ההצהרה הנזכרת בסעיף 1 לנספח XIII עשויה להיערך על ידי היצרן או על ידי הנציג המורשה שלו. הצהרה זו חייבת להישמר אף היא למשך תקופה של 10 שנים לפחות לאחר שהמכשיר הוצב בשוק, ולמשך תקופה של 15 שנים לפחות במקרה של מכשירים מושתלים. סעיף 8 לנספח IX ל-MDR חל גם הוא."
+    },
+    {
+      "id": "sec-6-p7",
+      "type": "paragraph",
+      "en": "To ensure the authorised representative can comply with the above mentioned requirement and cooperate effectively with the authorities, the authorised representative is advised to maintain open communication lines with the manufacturer and should verify that:",
+      "he": "כדי להבטיח כי הנציג המורשה יוכל לעמוד בדרישה הנזכרת לעיל ולשתף פעולה ביעילות עם הרשויות, מומלץ לנציג המורשה לקיים קווי תקשורת פתוחים עם היצרן, ועליו לוודא כי:"
+    },
+    {
+      "id": "sec-6-list-verify",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "the necessary documentation has been drawn up by the manufacturer;", "he": "התיעוד הנחוץ נערך על ידי היצרן;" },
+        { "en": "the necessary documentation is accessible to the authorised representative in their up-to-date versions", "he": "התיעוד הנחוץ נגיש לנציג המורשה בגרסאותיו העדכניות" }
+      ]
+    },
+    {
+      "id": "sec-6-p8",
+      "type": "paragraph",
+      "en": "The authorised representative should be able to demonstrate to the competent authority (e.g. during an inspection) that the above verifications have been performed, through their internal records.",
+      "he": "על הנציג המורשה להיות מסוגל להוכיח לרשות המוסמכת (למשל במהלך ביקורת) כי האימותים הנזכרים בוצעו, באמצעות רשומותיו הפנימיות."
+    },
+    {
+      "id": "sec-6-list-efg",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "en": "Article 11(3)(e): forward to the manufacturer any request by a competent authority of the Member State in which the authorised representative has its registered place of business for samples, or access to a device and verify that the competent authority receives the samples or is given access to the device;",
+          "he": "סעיף 11(3)(ה): להעביר ליצרן כל בקשה של רשות מוסמכת של המדינה החברה שבה ממוקם מקום העסקים הרשום של הנציג המורשה, לקבלת דגימות או גישה למכשיר, ולוודא כי הרשות המוסמכת מקבלת את הדגימות או ניתנת לה גישה למכשיר;"
+        },
+        {
+          "en": "Article 11(3)(f): cooperate with the competent authorities on any preventive or corrective action taken to eliminate or, if that is not possible, mitigate the risks posed by devices;",
+          "he": "סעיף 11(3)(ו): לשתף פעולה עם הרשויות המוסמכות בכל פעולה מונעת או מתקנת הננקטת לסילוק, או, אם אין הדבר אפשרי, להפחתת הסיכונים הנשקפים מהמכשירים;"
+        }
+      ]
+    },
+    {
+      "id": "sec-6-p9",
+      "type": "paragraph",
+      "en": "In addition to cooperation with the competent authorities upon request in vigilance or market surveillance cases, meeting this requirement may involve the authorised representative coordinating and communicating with importers and distributors and other entities in the supply chain as relevant:",
+      "he": "בנוסף לשיתוף פעולה עם הרשויות המוסמכות לפי בקשה במקרי ערנות או פיקוח שוק, עמידה בדרישה זו עשויה לכלול תיאום ותקשורת של הנציג המורשה עם יבואנים ומפיצים וגורמים אחרים בשרשרת האספקה, ככל הרלוונטי:"
+    },
+    {
+      "id": "sec-6-list-g",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "en": "Article 11(3)(g): immediately inform the manufacturer about complaints and reports from healthcare professionals, patients and users about suspected incidents related to a device for which they have been designated.",
+          "he": "סעיף 11(3)(ז): ליידע מיד את היצרן על תלונות ודיווחים מאנשי מקצוע הבריאות, מטופלים ומשתמשים על אירועים חשודים הקשורים למכשיר שלגביו הוא מונה."
+        }
+      ]
+    },
+    {
+      "id": "fn-7",
+      "type": "note",
+      "marker": "7",
+      "en": "Given Annexes IX, X, XI MDR/IVDR pertain to conformity assessment activities performed by a notified body, 'if applicable' in this context refers to devices for which notified body involvement is required.",
+      "he": "מאחר שנספחים IX, X, XI ל-MDR/IVDR נוגעים לפעילויות הערכת התאמה המבוצעות על ידי גוף מאונתר, \"אם רלוונטי\" בהקשר זה מתייחס למכשירים שלגביהם נדרשת מעורבות של גוף מאונתר."
+    },
+    {
+      "id": "fn-8",
+      "type": "note",
+      "marker": "8",
+      "en": "Annex IX, section 8 MDR states 'Each Member State shall require that the documentation referred to in Section 7 is kept at the disposal of competent authorities for the period indicated in that Section in case a manufacturer, or its authorised representative, established within its territory goes bankrupt or ceases its business activity prior to the end of that period'.",
+      "he": "נספח IX, סעיף 8 ל-MDR קובע כי \"כל מדינה חברה תדרוש שהתיעוד הנזכר בסעיף 7 יישמר לרשות הרשויות המוסמכות למשך התקופה הנקובה באותו סעיף, למקרה שיצרן, או הנציג המורשה שלו, המבוסס בשטחה, ייקלע לפשיטת רגל או יחדל מפעילותו העסקית לפני תום אותה תקופה\"."
+    },
+    {
+      "id": "sec-7",
+      "type": "heading",
+      "level": 1,
+      "number": "7",
+      "en": "Liability",
+      "he": "אחריות (Liability)"
+    },
+    {
+      "id": "sec-7-p1",
+      "type": "paragraph",
+      "en": "According to the Article 11(5) of the Regulations the authorised representative is legally liable for defective devices under the following terms: \"Without prejudice to paragraph 4 of this Article, where the manufacturer is not established in a Member State and has not complied with the obligations laid down in Article 10, the authorised representative shall be legally liable for defective devices on the same basis as, and jointly and severally with, the manufacturer\".",
+      "he": "על פי סעיף 11(5) לתקנות, הנציג המורשה אחראי משפטית למכשירים פגומים בתנאים הבאים: \"מבלי לגרוע מפסקה 4 של סעיף זה, כאשר היצרן אינו מבוסס במדינה חברה ולא עמד בחובות הקבועות בסעיף 10, יהיה הנציג המורשה אחראי משפטית למכשירים פגומים על אותו בסיס, וביחד ולחוד עם, היצרן\"⁹."
+    },
+    {
+      "id": "sec-7-p2",
+      "type": "paragraph",
+      "en": "The phrase 'Without prejudice to paragraph 4 of Article' should be understood as meaning that whilst the manufacturer cannot delegate its obligations referred to in Article 11(4), the authorised representative may nonetheless remain legally liable for defective devices if the manufacturer has not complied with its obligations laid down in Article 10 of the Regulations.",
+      "he": "את הביטוי \"מבלי לגרוע מפסקה 4 של הסעיף\" יש להבין כמשמעותו שבעוד שהיצרן אינו יכול להאציל את חובותיו הנזכרות בסעיף 11(4), הנציג המורשה עשוי בכל זאת להישאר אחראי משפטית למכשירים פגומים אם היצרן לא עמד בחובותיו הקבועות בסעיף 10 לתקנות."
+    },
+    {
+      "id": "sec-7-p3",
+      "type": "paragraph",
+      "en": "The authorised representative's potential joint liability under Article 11(5) of the Regulations is conditional upon the manufacturer's failure to comply with its obligations, and the authorised representative can therefore only be liable in cases where:",
+      "he": "האחריות המשותפת הפוטנציאלית של הנציג המורשה על פי סעיף 11(5) לתקנות מותנית באי-עמידה של היצרן בחובותיו, ולפיכך הנציג המורשה יכול להיות אחראי רק במקרים שבהם:"
+    },
+    {
+      "id": "sec-7-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "en": "First, the manufacturer's liability for a defective device is established under applicable Union or national law, e.g. under the product liability Directive 85/374/EEC as transposed into national law which establishes \"strict liability\" for defective products; and",
+          "he": "ראשית, אחריות היצרן למכשיר פגום נקבעת על פי דין האיחוד או הדין הלאומי החל, למשל מכוח הנחיית אחריות המוצר 85/374/EEC כפי שיושמה בדין הלאומי, הקובעת \"אחריות חמורה\" (strict liability)¹⁰ למוצרים פגומים; וכן"
+        },
+        {
+          "en": "Second, it is established that the manufacturer has not complied with its obligations under Article 10 MDR/IVDR.",
+          "he": "שנית, נקבע כי היצרן לא עמד בחובותיו על פי סעיף 10 ל-MDR/IVDR."
+        }
+      ]
+    },
+    {
+      "id": "sec-7-p4",
+      "type": "paragraph",
+      "en": "In light of the above, the authorised representative may have a particular interest to verify that the manufacturer has fulfilled its obligations, including the manufacturer's obligation to have measures in place to provide sufficient financial coverage (e.g. liability insurance) under Article 10(16) of the Regulations. Matters of liability would ultimately however be for the competent courts to decide upon. This includes whether a causal relationship needs to be established between the manufacturers' non-compliance with its obligations under Article 10 of the Regulations and the damage caused by a defective device, in order to trigger the authorised representative's joint and several liability.",
+      "he": "לאור האמור לעיל, לנציג המורשה עשוי להיות עניין מיוחד לוודא כי היצרן מילא את חובותיו, לרבות חובת היצרן להעמיד אמצעים המספקים כיסוי פיננסי מספק (למשל ביטוח אחריות) על פי סעיף 10(16) לתקנות. עם זאת, ענייני האחריות יוכרעו בסופו של דבר על ידי הערכאות המוסמכות. זה כולל את השאלה אם יש לבסס קשר סיבתי בין אי-עמידת היצרן בחובותיו על פי סעיף 10 לתקנות לבין הנזק שנגרם על ידי מכשיר פגום, כדי להפעיל את האחריות ביחד ולחוד של הנציג המורשה."
+    },
+    {
+      "id": "sec-7-p5",
+      "type": "paragraph",
+      "en": "Finally, with reference to the phrase \"on the same basis as… the manufacturer\" in Article 11(5) of the Regulations, 'same' means that when the liability of the authorised representative is alleged within the framework of a specific legal regime on liability for defective products, the authorised representative is afforded the same rights to defend itself as the manufacturer under that regime.",
+      "he": "לבסוף, ביחס לביטוי \"על אותו בסיס... כמו היצרן\" בסעיף 11(5) לתקנות, \"אותו\" משמעו שכאשר נטענת אחריותו של הנציג המורשה במסגרת משטר משפטי ספציפי של אחריות למוצרים פגומים, מוקנות לנציג המורשה אותן זכויות להגן על עצמו כמו ליצרן באותו משטר."
+    },
+    {
+      "id": "fn-9",
+      "type": "note",
+      "marker": "9",
+      "en": "Please also see MDR Recital 35 / IVDR Recital 34 which state: \"The liability of the authorised representative provided for in this Regulation is without prejudice to the provisions of Directive 85/374/EEC, and accordingly the authorised representative should be jointly and severally liable with the importer and the manufacturer\".",
+      "he": "ראו גם פסקה מקדמית 35 ל-MDR / פסקה מקדמית 34 ל-IVDR הקובעות: \"אחריות הנציג המורשה הקבועה בתקנה זו אינה גורעת מהוראות הנחיה 85/374/EEC, ובהתאם לכך על הנציג המורשה להיות אחראי ביחד ולחוד עם היבואן והיצרן\"."
+    },
+    {
+      "id": "fn-10",
+      "type": "note",
+      "marker": "10",
+      "en": "Directive 85/374/EEC establishes a regime of \"strict liability\", i.e. the plaintiff does not have to prove negligence, only that the device caused damage. See further section 1.4 of the 'Commission Notice - The 'Blue Guide' on the implementation of EU products rules 2022'.",
+      "he": "הנחיה 85/374/EEC קובעת משטר של \"אחריות חמורה\" (strict liability), קרי אין על התובע להוכיח רשלנות, אלא רק שהמכשיר גרם לנזק. ראו עוד סעיף 1.4 של \"הודעת הנציבות — 'המדריך הכחול' בנושא יישום כללי המוצרים של האיחוד האירופי 2022\"."
+    },
+    {
+      "id": "sec-8",
+      "type": "heading",
+      "level": 1,
+      "number": "8",
+      "en": "Termination of the mandate",
+      "he": "סיום ייפוי הכוח"
+    },
+    {
+      "id": "sec-8-p1",
+      "type": "paragraph",
+      "en": "According to the Article 11(3)(h) of the Regulations, the mandate should enable the authorised representative to terminate the mandate if the manufacturer acts contrary to its obligations under the Regulations. The termination of the mandate is therefore the right of the authorised representative.",
+      "he": "על פי סעיף 11(3)(ח) לתקנות, ייפוי הכוח צריך לאפשר לנציג המורשה לסיים את ייפוי הכוח אם היצרן פועל בניגוד לחובותיו על פי התקנות. לפיכך, סיום ייפוי הכוח הוא זכותו של הנציג המורשה."
+    },
+    {
+      "id": "sec-8-p2",
+      "type": "paragraph",
+      "en": "Given that under Article 11(2) of the Regulations the mandate is 'effective at least for all devices of the same generic device group' of a manufacturer, the termination of the mandate is only possible with respect to the whole generic device group and not a specific device within that group, unless the specific device is removed/withdrawn from the market and so is outside the scope of the effective mandate.",
+      "he": "מאחר שעל פי סעיף 11(2) לתקנות ייפוי הכוח \"בתוקף לפחות לכל המכשירים של אותה קבוצת מכשירים גנרית\" של יצרן, סיום ייפוי הכוח אפשרי רק ביחס לקבוצת המכשירים הגנרית כולה ולא ביחס למכשיר ספציפי בתוך אותה קבוצה, אלא אם המכשיר הספציפי הוסר/נמשך מהשוק ובכך הוא מחוץ לתחולת ייפוי הכוח התקף."
+    },
+    {
+      "id": "sec-8-p3",
+      "type": "paragraph",
+      "en": "Article 11(6) of the Regulations states that 'an authorised representative who terminates its mandate on the ground referred to in point (h) of paragraph 3 shall immediately inform the competent authority of the Member State in which it is established and, where applicable, the notified body that was involved in the conformity assessment for the device of the termination of the mandate and the reasons therefore'. In the event of a problematic termination (e.g. where the manufacturer fails or refuses to address a non-compliance identified, or is either not responsive to or traceable by the authorised representative), the out-going authorised representative is also advised to inform the competent authorities and where applicable, the notified body, of the extent of the manufacturer's non-compliance.",
+      "he": "סעיף 11(6) לתקנות קובע כי \"נציג מורשה המסיים את ייפוי הכוח שלו על הבסיס הנזכר בפסקה (ח) של פסקה 3, ייידע מיד את הרשות המוסמכת של המדינה החברה שבה הוא מבוסס, וכן, היכן שרלוונטי, את הגוף המאונתר שהיה מעורב בהערכת ההתאמה של המכשיר, על סיום ייפוי הכוח ועל הסיבות לכך\". במקרה של סיום בעייתי (למשל כאשר היצרן אינו פועל או מסרב לטפל באי-התאמה שזוהתה, או שאינו מגיב לנציג המורשה או אינו ניתן לאיתור על ידו), מומלץ לנציג המורשה הפורש ליידע גם את הרשויות המוסמכות, ובמקום הרלוונטי את הגוף המאונתר, על היקף אי-ההתאמה של היצרן."
+    },
+    {
+      "id": "sec-8-p4",
+      "type": "paragraph",
+      "en": "It may be relevant for the authorised representative who terminates the mandate to thereafter still cooperate with the competent authorities for devices placed on the market during the period in which it was designated. This would in particular be relevant where no new authorised representative has yet been designated for those devices.",
+      "he": "עשוי להיות רלוונטי לנציג המורשה המסיים את ייפוי הכוח להמשיך לאחר מכן לשתף פעולה עם הרשויות המוסמכות לגבי מכשירים שהוצבו בשוק במהלך התקופה שבה הוא היה מונה. הדבר רלוונטי במיוחד כאשר טרם מונה נציג מורשה חדש לאותם מכשירים."
+    },
+    {
+      "id": "sec-9",
+      "type": "heading",
+      "level": 1,
+      "number": "9",
+      "en": "Change of authorised representative",
+      "he": "החלפת נציג מורשה"
+    },
+    {
+      "id": "sec-9-p1",
+      "type": "paragraph",
+      "en": "Article 12 of the Regulations requires that 'the detailed arrangements for a change of authorised representative shall be clearly defined in an agreement between the manufacturer, where practicable the outgoing authorised representative, and the incoming authorised representative'. It also further specifies the minimum aspects to be addressed in the agreement (Article 12 (a) – (d) MDR/IVDR) including relevant dates, transfer of documentation and communication.",
+      "he": "סעיף 12 לתקנות מחייב כי \"ההסדרים המפורטים להחלפת נציג מורשה יוגדרו בבירור בהסכם בין היצרן, וככל שהדבר מעשי הנציג המורשה הפורש, לבין הנציג המורשה הנכנס\". הוא גם מפרט עוד את ההיבטים המינימליים שיש לתת עליהם את הדעת בהסכם (סעיף 12 (א)–(ד) ל-MDR/IVDR), לרבות מועדים רלוונטיים, העברת תיעוד ותקשורת."
+    },
+    {
+      "id": "sec-9-p2",
+      "type": "paragraph",
+      "en": "In the case of a termination based on Article 11(3)(h) of the Regulations, the agreement may also address the reason of the mandate termination by the previous authorised representative.",
+      "he": "במקרה של סיום המבוסס על סעיף 11(3)(ח) לתקנות, ההסכם עשוי להתייחס גם לסיבת סיום ייפוי הכוח על ידי הנציג המורשה הקודם."
+    },
+    {
+      "id": "sec-9-p3",
+      "type": "paragraph",
+      "en": "In general, a tripartite agreement should exist under Article 12 of the Regulations, except in cases where this is 'not practicable' i.e. in particular where the outgoing authorised representative ceases to exist (for example, due to bankruptcy), they are no longer traceable or, where justified, for other substantial reasons making the conclusion of an arrangement between the parties not possible. Where it is not possible to involve the outgoing authorised representative in a tripartite agreement, the obligation under Article 12(d) (to forward complaints to the manufacturer or incoming authorised representative) should apply.",
+      "he": "ככלל, צריך להתקיים הסכם משולש (תלת-צדדי) על פי סעיף 12 לתקנות, למעט במקרים שבהם הדבר \"אינו מעשי\", קרי בפרט כאשר הנציג המורשה הפורש חדל מלהתקיים (למשל עקב פשיטת רגל), אינו ניתן עוד לאיתור, או, במקום מוצדק, מסיבות מהותיות אחרות ההופכות את כריתת ההסדר בין הצדדים לבלתי אפשרית. כאשר לא ניתן לערב את הנציג המורשה הפורש בהסכם המשולש, תחול החובה על פי סעיף 12(ד) (להעביר תלונות ליצרן או לנציג המורשה הנכנס)¹¹."
+    },
+    {
+      "id": "fn-11",
+      "type": "note",
+      "marker": "11",
+      "en": "See obligation in the mandate pursuant to Article 11(3)(g) MDR/IVDR continuing after termination.",
+      "he": "ראו את החובה בייפוי הכוח על פי סעיף 11(3)(ז) ל-MDR/IVDR הממשיכה לחול לאחר הסיום."
+    },
+    {
+      "id": "sec-10",
+      "type": "heading",
+      "level": 1,
+      "number": "10",
+      "en": "Person Responsible for Regulatory Compliance (PRRC)",
+      "he": "האדם האחראי על עמידה ברגולציה (PRRC)"
+    },
+    {
+      "id": "sec-10-p1",
+      "type": "paragraph",
+      "en": "Article 15(6) of the Regulations state that authorised representatives shall have permanently and continuously at their disposal at least one Person Responsible for Regulatory Compliance (PRRC) who possesses the requisite expertise regarding the regulatory requirements for devices or in vitro diagnostic medical devices in the Union. Such persons should possess the requisite expertise in accordance with Article 15(6) MDR or IVDR.",
+      "he": "סעיף 15(6) לתקנות קובע כי לרשות נציגים מורשים יעמוד באופן קבוע ומתמשך לפחות אדם אחד האחראי על עמידה ברגולציה (PRRC) בעל המומחיות הנדרשת בנוגע לדרישות הרגולטוריות למכשירים או למכשירים רפואיים לאבחון ויטרו באיחוד. אנשים כאמור צריכים להיות בעלי המומחיות הנדרשת בהתאם לסעיף 15(6) ל-MDR או ל-IVDR."
+    },
+    {
+      "id": "sec-10-p2",
+      "type": "paragraph",
+      "en": "Further guidance on the PRRC is included in the MDCG 2019-7 Guidance on PRRC, which highlights that the PRRC for an authorised representative and for an 'outside EU' manufacturer cannot be the same person. In addition, there should be a clear contractual relationship in place between the authorised representative and the PRRC.",
+      "he": "הנחיה נוספת בנושא ה-PRRC כלולה ב-MDCG 2019-7 הנחיה בנושא PRRC¹², המדגישה כי ה-PRRC של נציג מורשה ושל יצרן \"מחוץ לאיחוד האירופי\" אינו יכול להיות אותו אדם. בנוסף, צריכה להתקיים מערכת יחסים חוזית ברורה בין הנציג המורשה לבין ה-PRRC."
+    },
+    {
+      "id": "sec-10-p3",
+      "type": "paragraph",
+      "en": "Finally, it is noted that authorised representatives whose mandate with the manufacturer also covers 'legacy devices', are not required to appoint a PRRC for those devices. Please see section 2 of MDCG 2021-25 Report of the ad hoc task-force on transitional provisions for MDR and MDCG 2022-8 for IVDR, for further information.",
+      "he": "לבסוף, יצוין כי נציגים מורשים שייפוי הכוח שלהם עם היצרן מכסה גם \"מכשירים מורשת\" (legacy devices), אינם נדרשים למנות PRRC עבור אותם מכשירים. למידע נוסף, ראו סעיף 2 של MDCG 2021-25¹³ — דוח כוח המשימה האד-הוק בנושא הוראות מעבר ל-MDR, ו-MDCG 2022-8¹⁴ עבור ה-IVDR."
+    },
+    {
+      "id": "fn-12",
+      "type": "note",
+      "marker": "12",
+      "en": "MDCG 2019-7 Guidance on article 15 of the medical device regulation (MDR) and in vitro diagnostic device regulation (IVDR) on a 'person responsible for regulatory compliance' (PRRC).",
+      "he": "MDCG 2019-7 הנחיה בנושא סעיף 15 לתקנת המכשירים הרפואיים (MDR) ולתקנת המכשירים לאבחון ויטרו (IVDR) בנושא \"אדם אחראי על עמידה ברגולציה\" (PRRC)."
+    },
+    {
+      "id": "fn-13",
+      "type": "note",
+      "marker": "13",
+      "en": "MDCG 2021-25 Regulation (EU) 2017/745 – application of MDR requirements to 'legacy devices' and to devices placed on the market prior to 26 May 2021 in accordance with Directives 90/385/EEC or 93/42/EEC.",
+      "he": "MDCG 2021-25 תקנה (האיחוד האירופי) 2017/745 — יישום דרישות ה-MDR על \"מכשירים מורשת\" ועל מכשירים שהוצבו בשוק לפני 26 במאי 2021 בהתאם להנחיות 90/385/EEC או 93/42/EEC."
+    },
+    {
+      "id": "fn-14",
+      "type": "note",
+      "marker": "14",
+      "en": "MDCG 2022-8 Regulation (EU) 2017/746 - application of IVDR requirements to 'legacy devices' and to devices placed on the market prior to 26 May 2022 in accordance with Directive 98/79/EC.",
+      "he": "MDCG 2022-8 תקנה (האיחוד האירופי) 2017/746 — יישום דרישות ה-IVDR על \"מכשירים מורשת\" ועל מכשירים שהוצבו בשוק לפני 26 במאי 2022 בהתאם להנחיה 98/79/EC."
+    },
+    {
+      "id": "sec-11",
+      "type": "heading",
+      "level": 1,
+      "number": "11",
+      "en": "Market Surveillance",
+      "he": "פיקוח שוק"
+    },
+    {
+      "id": "sec-11-p1",
+      "type": "paragraph",
+      "en": "In addition to its minimum responsibilities under Article 11(3) of the Regulations and other obligations covered in the mandate, it is noted that authorised representatives:",
+      "he": "בנוסף לאחריותו המינימלית על פי סעיף 11(3) לתקנות ולחובות אחרות המכוסות בייפוי הכוח, יצוין כי נציגים מורשים:"
+    },
+    {
+      "id": "sec-11-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "en": "may be consulted in the context of market surveillance measures taken by competent authorities under Articles 95 & 97 MDR/Articles 90 & 92 IVDR, regarding devices presenting serious risk to health and safety of patients or presenting other non-compliances respectively.",
+          "he": "עשויים להיוועצות בהם בהקשר של אמצעי פיקוח שוק הננקטים על ידי הרשויות המוסמכות על פי סעיפים 95 ו-97 ל-MDR / סעיפים 90 ו-92 ל-IVDR, בנוגע למכשירים המציבים סיכון חמור לבריאות ולבטיחות המטופלים או המציגים אי-התאמות אחרות, בהתאמה."
+        },
+        {
+          "en": "may be required to make documentation and information available to competent authorities as part of their market surveillance activities under Article 93(3)(a) MDR/Article 88(3)(a) IVDR.",
+          "he": "עשויים להידרש להעמיד תיעוד ומידע לרשות הרשויות המוסמכות כחלק מפעילויות פיקוח השוק שלהן על פי סעיף 93(3)(א) ל-MDR / סעיף 88(3)(א) ל-IVDR."
+        },
+        {
+          "en": "may be subject to announced and unannounced inspections by the competent authorities as part of their market surveillance activities under Article 93(3)(b) MDR/Article 88(3)(b) IVDR.",
+          "he": "עשויים להיות נתונים לביקורות מתואמות ובלתי מתואמות על ידי הרשויות המוסמכות כחלק מפעילויות פיקוח השוק שלהן על פי סעיף 93(3)(ב) ל-MDR / סעיף 88(3)(ב) ל-IVDR."
+        }
+      ]
+    },
+    {
+      "id": "sec-12",
+      "type": "heading",
+      "level": 1,
+      "number": "12",
+      "en": "Transitional provisions",
+      "he": "הוראות מעבר"
+    },
+    {
+      "id": "sec-12-p1",
+      "type": "paragraph",
+      "en": "Further guidance on the MDR/IVDR transitional provisions is included in the MDCG 2021-25 Report of the ad hoc task-force on transitional provisions for MDR and MDCG 2022-8 for IVDR. These indicate that the requirements for authorised representatives under the Directives continue to apply for 'legacy devices'. In addition, the MDR/IVDR requirements concerning market surveillance, post-market surveillance, vigilance and registration of economic operators and devices apply for 'legacy devices'. For authorised representatives, this includes Article 11(3)(c)-(g) MDR/IVDR and the mandate between the manufacturer and the authorised representative should be updated accordingly.",
+      "he": "הנחיה נוספת בנושא הוראות המעבר של ה-MDR/IVDR כלולה ב-MDCG 2021-25¹⁵ — דוח כוח המשימה האד-הוק בנושא הוראות מעבר ל-MDR, וב-MDCG 2022-8¹⁶ עבור ה-IVDR. אלה מציינים כי הדרישות לנציגים מורשים על פי ההנחיות (Directives) ממשיכות לחול על \"מכשירים מורשת\". בנוסף, דרישות ה-MDR/IVDR הנוגעות לפיקוח שוק, מעקב שלאחר שיווק, ערנות ורישום של גורמים כלכליים ומכשירים חלות על \"מכשירים מורשת\". עבור נציגים מורשים, זה כולל את סעיף 11(3)(ג)-(ז) ל-MDR/IVDR, ויש לעדכן בהתאם את ייפוי הכוח בין היצרן לבין הנציג המורשה."
+    },
+    {
+      "id": "sec-12-p2",
+      "type": "paragraph",
+      "en": "The market surveillance cooperation provisions outlined in section 11 of this document also apply to authorised representatives whose mandate with the manufacturer covers 'legacy devices'.",
+      "he": "הוראות שיתוף הפעולה בנושא פיקוח שוק המתוארות בסעיף 11 למסמך זה חלות גם על נציגים מורשים שייפוי הכוח שלהם עם היצרן מכסה \"מכשירים מורשת\"."
+    },
+    {
+      "id": "fn-15",
+      "type": "note",
+      "marker": "15",
+      "en": "MDCG 2021-25 'Regulation (EU) 2017/745 – application of MDR requirements to 'legacy devices' and to devices placed on the market prior to 26 May 2021 in accordance with Directives 90/385/EEC or 93/42/EEC.",
+      "he": "MDCG 2021-25 \"תקנה (האיחוד האירופי) 2017/745 — יישום דרישות ה-MDR על \"מכשירים מורשת\" ועל מכשירים שהוצבו בשוק לפני 26 במאי 2021 בהתאם להנחיות 90/385/EEC או 93/42/EEC\"."
+    },
+    {
+      "id": "fn-16",
+      "type": "note",
+      "marker": "16",
+      "en": "MDCG 2022-8 Regulation (EU) 2017/746 - application of IVDR requirements to 'legacy devices' and to devices placed on the market prior to 26 May 2022 in accordance with Directive 98/79/EC.",
+      "he": "MDCG 2022-8 תקנה (האיחוד האירופי) 2017/746 — יישום דרישות ה-IVDR על \"מכשירים מורשת\" ועל מכשירים שהוצבו בשוק לפני 26 במאי 2022 בהתאם להנחיה 98/79/EC."
+    }
+  ]
+}

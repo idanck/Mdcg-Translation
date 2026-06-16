@@ -1,0 +1,1013 @@
+{
+  "id": "MDCG-2021-27-rev1",
+  "title": {
+    "en": "Questions and Answers on Articles 13 & 14 of Regulation (EU) 2017/745 and Regulation (EU) 2017/746",
+    "he": "שאלות ותשובות בנושא סעיפים 13 ו-14 לתקנה (האיחוד האירופי) 2017/745 ולתקנה (האיחוד האירופי) 2017/746"
+  },
+  "category": "Authorised Representatives, Importers, Distributors",
+  "publicationDate": "2023-12",
+  "source": {
+    "url": "https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en",
+    "file": "original/mdcg_2021-27_en.pdf"
+  },
+  "language": "he",
+  "direction": "rtl",
+  "translationStatus": "review",
+  "glossaryVersion": "2026-06",
+  "blocks": [
+    {
+      "id": "disclaimer-1",
+      "type": "paragraph",
+      "en": "This document has been endorsed by the Medical Device Coordination Group (MDCG) established by Article 103 of Regulation (EU) 2017/745. The MDCG is composed of representatives of all Member States and it is chaired by a representative of the European Commission.",
+      "he": "מסמך זה אושר על ידי קבוצת תיאום המכשירים הרפואיים (MDCG) שהוקמה מכוח סעיף 103 לתקנה (האיחוד האירופי) 2017/745. ה-MDCG מורכבת מנציגים של כל המדינות החברות ובראשה עומד נציג של הנציבות האירופית."
+    },
+    {
+      "id": "disclaimer-2",
+      "type": "paragraph",
+      "en": "The document is not a European Commission document and it cannot be regarded as reflecting the official position of the European Commission. Any views expressed in this document are not legally binding and only the Court of Justice of the European Union can give binding interpretations of Union law.",
+      "he": "המסמך אינו מסמך של הנציבות האירופית ואין לראות בו כמשקף את העמדה הרשמית של הנציבות האירופית. כל דעה המובעת במסמך זה אינה מחייבת מבחינה משפטית, ורק בית הדין לצדק של האיחוד האירופי מוסמך לתת פרשנות מחייבת לדין האיחוד."
+    },
+
+    {
+      "id": "changes-heading",
+      "type": "heading",
+      "level": 1,
+      "en": "MDCG 2021-27 Rev 1 changes (Dec 2023)",
+      "he": "שינויים ב-MDCG 2021-27 Rev 1 (דצמבר 2023)"
+    },
+    {
+      "id": "changes-intro",
+      "type": "paragraph",
+      "en": "The following table summarises the changes introduced in revision 1 (Dec 2023) relative to the original MDCG 2021-27 (Dec 2021).",
+      "he": "הטבלה הבאה מסכמת את השינויים שהוכנסו ברוויזיה 1 (דצמבר 2023) ביחס למסמך המקורי MDCG 2021-27 (דצמבר 2021)."
+    },
+    {
+      "id": "changes-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          { "en": "MDCG 2021-27 (Dec 2021)", "he": "MDCG 2021-27 (דצמבר 2021)" },
+          { "en": "MDCG 2021-27 Rev 1 changes (Dec 2023)", "he": "שינויים ב-MDCG 2021-27 Rev 1 (דצמבר 2023)" }
+        ],
+        [
+          { "en": "General", "he": "כללי" },
+          { "en": "Questions are renumbered from Q.11 onwards, due to addition of new questions. The term 'legal entity' is replaced by 'natural or legal person' throughout the document.", "he": "השאלות ממוספרות מחדש החל מ-Q.11 ואילך, עקב הוספת שאלות חדשות. המונח 'ישות משפטית' מוחלף ב'אדם טבעי או משפטי' לאורך כל המסמך." }
+        ],
+        [
+          { "en": "Introduction", "he": "מבוא" },
+          { "en": "Footnote 5 amended to reflect updated version of the 'Blue Guide' on the implementation of EU product rules 2022.", "he": "הערת שוליים 5 תוקנה כדי לשקף את הגרסה המעודכנת של 'המדריך הכחול' (Blue Guide) ליישום כללי המוצרים של האיחוד האירופי 2022." }
+        ],
+        [
+          { "en": "Question 8", "he": "שאלה 8" },
+          { "en": "Second paragraph newly added, starting with 'To ensure the importer's details reach the end user,..'. Footnote 18 added.", "he": "פסקה שנייה נוספה, המתחילה במילים 'כדי להבטיח שפרטי היבואן יגיעו למשתמש הקצה,..'. הערת שוליים 18 נוספה." }
+        ],
+        [
+          { "en": "Question 11", "he": "שאלה 11" },
+          { "en": "New question added on 'fulfilment service providers'.", "he": "שאלה חדשה נוספה בנושא 'ספקי שירותי מילוי' (fulfilment service providers)." }
+        ],
+        [
+          { "en": "Question 16", "he": "שאלה 16" },
+          { "en": "New question added on role of authorised representative and importer. Footnote 26 added.", "he": "שאלה חדשה נוספה בנושא תפקיד הנציג המורשה והיבואן. הערת שוליים 26 נוספה." }
+        ],
+        [
+          { "en": "Question 17", "he": "שאלה 17" },
+          { "en": "New question added on the role of importer and distributor.", "he": "שאלה חדשה נוספה בנושא תפקיד היבואן והמפיץ." }
+        ],
+        [
+          { "en": "Question 18", "he": "שאלה 18" },
+          { "en": "Fourth, fifth and sixth paragraphs newly added, starting with 'It is noted that physical checks..'.", "he": "פסקאות רביעית, חמישית ושישית נוספו, המתחילות במילים 'יצוין כי בדיקות פיזיות..'." }
+        ],
+        [
+          { "en": "Question 23", "he": "שאלה 23" },
+          { "en": "Second and third paragraphs newly added to complement existing text.", "he": "פסקאות שנייה ושלישית נוספו כדי להשלים את הטקסט הקיים." }
+        ],
+        [
+          { "en": "Question 24", "he": "שאלה 24" },
+          { "en": "New question added on system and procedure packs and the importer role. Footnote 29 added.", "he": "שאלה חדשה נוספה בנושא מארזי מערכות והליכים (system and procedure packs) ותפקיד היבואן. הערת שוליים 29 נוספה." }
+        ],
+        [
+          { "en": "Question 25", "he": "שאלה 25" },
+          { "en": "New section added on system and procedure packs and the distributor role. Footnote 30 added.", "he": "מקטע חדש נוסף בנושא מארזי מערכות והליכים ותפקיד המפיץ. הערת שוליים 30 נוספה." }
+        ],
+        [
+          { "en": "Question 26", "he": "שאלה 26" },
+          { "en": "New question added on leasing companies.", "he": "שאלה חדשה נוספה בנושא חברות החכרה (leasing)." }
+        ],
+        [
+          { "en": "Example 2", "he": "דוגמה 2" },
+          { "en": "Minor addition to title 'from its manufacturing facility'.", "he": "תוספת מינורית לכותרת 'ממתקן הייצור שלו'." }
+        ]
+      ]
+    },
+
+    {
+      "id": "intro-heading",
+      "type": "heading",
+      "level": 1,
+      "en": "Introduction",
+      "he": "מבוא"
+    },
+    {
+      "id": "intro-p1",
+      "type": "paragraph",
+      "en": "This document presents questions and answers on requirements related to importers and distributors under Regulation (EU) 2017/745 on medical devices (MDR) and Regulation (EU) 2017/746 on in vitro diagnostic medical devices (IVDR). The term 'devices' will be understood to include medical devices, accessories for medical devices, products listed in Annex XVI of the MDR, in vitro diagnostic medical devices and accessories for in vitro medical devices. References to 'the Regulations' should be understood to cover both the MDR and IVDR.",
+      "he": "מסמך זה מציג שאלות ותשובות בנוגע לדרישות הקשורות ליבואנים ולמפיצים על פי תקנה (האיחוד האירופי) 2017/745 בנושא מכשירים רפואיים (MDR) ותקנה (האיחוד האירופי) 2017/746 בנושא מכשירים רפואיים לאבחון ויטרו (IVDR). המונח 'מכשירים' יובן ככולל מכשירים רפואיים, אביזרים למכשירים רפואיים, מוצרים המנויים בנספח XVI ל-MDR, מכשירים רפואיים לאבחון ויטרו ואביזרים למכשירים לאבחון ויטרו. הפניות ל'תקנות' יובנו ככוללות הן את ה-MDR והן את ה-IVDR."
+    },
+    {
+      "id": "intro-p2",
+      "type": "paragraph",
+      "en": "The questions covered by the document aim to provide further detail on the operational and practical implementation of Articles 13 and 14 and other related obligations for importers and distributors under the Regulations. Activities described in Article 16 of the Regulations are covered in other guidance documents, including MDCG 2018-6, MDCG 2021-23 and MDCG 2021-26.",
+      "he": "השאלות הנכללות במסמך נועדו לספק פירוט נוסף בנוגע ליישום התפעולי והמעשי של סעיפים 13 ו-14 ושל חובות נוספות הקשורות ליבואנים ולמפיצים על פי התקנות. פעילויות המתוארות בסעיף 16 לתקנות מכוסות במסמכי הנחיה אחרים, ובכללם MDCG 2018-6, MDCG 2021-23 ו-MDCG 2021-26."
+    },
+    {
+      "id": "intro-p3",
+      "type": "paragraph",
+      "en": "Note: This document is non-exhaustive and should be read in conjunction with the MDR/IVDR. Of additional relevance are the Regulation (EU) 2019/1020 on market surveillance where applicable to the MDR and IVDR, the horizontal guidelines of the European Commission's 'Blue Guide' based on the principles of the New Legislative Framework, and further complementary medical devices sectorial guidance documents.",
+      "he": "הערה: מסמך זה אינו ממצה ויש לקרוא אותו בשילוב עם ה-MDR/IVDR. רלוונטיים נוספים הם תקנה (האיחוד האירופי) 2019/1020 בנושא פיקוח שוק במידה שהיא חלה על ה-MDR ועל ה-IVDR, הקווים המנחים האופקיים של 'המדריך הכחול' (Blue Guide) של הנציבות האירופית המבוססים על עקרונות המסגרת החקיקתית החדשה (New Legislative Framework), ומסמכי הנחיה מגזריים משלימים נוספים בתחום המכשירים הרפואיים."
+    },
+
+    {
+      "id": "sec-distinguishing",
+      "type": "heading",
+      "level": 1,
+      "en": "Distinguishing importers and distributors",
+      "he": "הבחנה בין יבואנים למפיצים"
+    },
+
+    {
+      "id": "q1",
+      "type": "heading",
+      "level": 2,
+      "number": "Q1",
+      "en": "Which economic operators meet the definition of importer or distributor?",
+      "he": "אילו גורמים כלכליים עונים על ההגדרה של יבואן או מפיץ?"
+    },
+    {
+      "id": "q1-p1",
+      "type": "paragraph",
+      "en": "The definitions of a 'distributor' and 'importer' are set out in Article 2 of the MDR (and the corresponding IVDR articles):",
+      "he": "ההגדרות של 'מפיץ' ושל 'יבואן' מובאות בסעיף 2 ל-MDR (ובסעיפים המקבילים ב-IVDR):"
+    },
+    {
+      "id": "q1-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Article 2 (33) 'importer' means any natural or legal person established within the Union that places a device from a third country on the Union market;", "he": "סעיף 2(33) 'יבואן' פירושו כל אדם טבעי או משפטי המבוסס בתוך האיחוד אשר מציב בשוק האיחוד מכשיר ממדינה שלישית;" },
+        { "en": "Article 2 (34) 'distributor' means any natural or legal person in the supply chain, other than the manufacturer or the importer, that makes a device available on the market, up until the point of putting into service.", "he": "סעיף 2(34) 'מפיץ' פירושו כל אדם טבעי או משפטי בשרשרת האספקה, למעט היצרן או היבואן, אשר מעמיד מכשיר לרשות השוק, עד לנקודת ההכנסה לשירות." }
+      ]
+    },
+    {
+      "id": "q1-p2",
+      "type": "paragraph",
+      "en": "The definitions of importer and distributor are to be read in conjunction with the following definitions:",
+      "he": "את ההגדרות של יבואן ושל מפיץ יש לקרוא בשילוב עם ההגדרות הבאות:"
+    },
+    {
+      "id": "q1-list2",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Article 2(27) 'making available on the market' means any supply of a device, other than an investigational device, for distribution, consumption or use on the Union market in the course of a commercial activity, whether in return for payment or free of charge;", "he": "סעיף 2(27) 'העמדה לרשות השוק' פירושה כל אספקה של מכשיר, למעט מכשיר ניסיוני, לצורך הפצה, צריכה או שימוש בשוק האיחוד במהלך פעילות מסחרית, בין בתמורה לתשלום ובין ללא תמורה;" },
+        { "en": "Article 2 (28) 'placing on the market' means the first making available of a device, other than an investigational device, on the Union market;", "he": "סעיף 2(28) 'הצבה בשוק' פירושה ההעמדה לרשות לראשונה של מכשיר, למעט מכשיר ניסיוני, בשוק האיחוד;" },
+        { "en": "Article 2(29) 'putting into service' means the stage at which a device, other than an investigational device, has been made available to the final user as being ready for use on the Union market for the first time for its intended purpose.", "he": "סעיף 2(29) 'הכנסה לשירות' פירושה השלב שבו מכשיר, למעט מכשיר ניסיוני, הועמד לרשות המשתמש הסופי כשהוא מוכן לשימוש בשוק האיחוד לראשונה למטרתו המיועדת." }
+      ]
+    },
+    {
+      "id": "q1-p3",
+      "type": "paragraph",
+      "en": "For further horizontal elaborations on the above concepts, please consult the Blue Guide based on the principles of the New Legislative Framework.",
+      "he": "להרחבות אופקיות נוספות בנוגע למושגים שלעיל, ניתן לעיין במדריך הכחול (Blue Guide) המבוסס על עקרונות המסגרת החקיקתית החדשה."
+    },
+
+    {
+      "id": "q2",
+      "type": "heading",
+      "level": 2,
+      "number": "Q2",
+      "en": "What determines whether a natural or legal person acts as a distributor or an importer?",
+      "he": "מה קובע אם אדם טבעי או משפטי פועל כמפיץ או כיבואן?"
+    },
+    {
+      "id": "q2-p1",
+      "type": "paragraph",
+      "en": "The differentiation between these two economic operators is under-pinned by the definition of 'placing on the market'. If a natural or legal person established in the Union obtains (via a transfer of ownership, possession or any other property right, which does not necessarily require the physical handover of the product) a device from an economic operator established in a third country and places an individual device on the Union market (i.e. the first making available), that entity is acting as an importer of the individual device. Where a natural or legal person sources (via a legal transfer of ownership, possession or any other right, which does not necessarily require the physical handover of the product) devices from importers, distributors or manufacturers established in the Union and further distributes those devices to other entities (i.e. the operation of \"making available\" after \"the first making available\"), they are considered distributors.",
+      "he": "ההבחנה בין שני הגורמים הכלכליים הללו מבוססת על ההגדרה של 'הצבה בשוק'. אם אדם טבעי או משפטי המבוסס באיחוד משיג (באמצעות העברת בעלות, חזקה או כל זכות קניינית אחרת, שאינה מחייבת בהכרח את המסירה הפיזית של המוצר) מכשיר מגורם כלכלי המבוסס במדינה שלישית, ומציב מכשיר בודד בשוק האיחוד (כלומר ההעמדה לרשות לראשונה), אזי אותה ישות פועלת כיבואן של המכשיר הבודד. כאשר אדם טבעי או משפטי רוכש (באמצעות העברה חוקית של בעלות, חזקה או כל זכות אחרת, שאינה מחייבת בהכרח את המסירה הפיזית של המוצר) מכשירים מיבואנים, ממפיצים או מיצרנים המבוססים באיחוד ומפיץ מכשירים אלה הלאה לישויות אחרות (כלומר פעולת 'ההעמדה לרשות' לאחר 'ההעמדה לרשות לראשונה'), הוא נחשב למפיץ."
+    },
+    {
+      "id": "q2-p2",
+      "type": "paragraph",
+      "en": "It is noted that a device bought by a consumer in a third country while physically present in that country and brought by the consumer into the Union for their personal use (outside of commercial activities), is not considered as being placed on the market. In this case, the consumer does not have to fulfil the obligations of Article 13 or Article 14 of the Regulations.",
+      "he": "יצוין כי מכשיר הנקנה על ידי צרכן במדינה שלישית בעת שהותו הפיזית באותה מדינה והמובא על ידי הצרכן אל תוך האיחוד לשימושו האישי (מחוץ לפעילויות מסחריות), אינו נחשב כמוצב בשוק. במקרה זה, הצרכן אינו חייב לקיים את חובות סעיף 13 או סעיף 14 לתקנות."
+    },
+
+    {
+      "id": "q3",
+      "type": "heading",
+      "level": 2,
+      "number": "Q3",
+      "en": "Does an EU based distributor become an importer if it obtains its products directly from a non-EU based manufacturer or distributor?",
+      "he": "האם מפיץ המבוסס באיחוד האירופי הופך ליבואן אם הוא משיג את מוצריו ישירות מיצרן או ממפיץ שאינו מבוסס באיחוד האירופי?"
+    },
+    {
+      "id": "q3-p1",
+      "type": "paragraph",
+      "en": "Yes. Any operator including an EU based distributor who obtains (via a legal transfer of ownership, possession or any other property right) an individual device from a non-EU based manufacturer or distributor and places that individual device on the Union market (i.e., the first making available), will assume the role and responsibilities of an importer. The concept of placing on the market refers to each individual product, not to the type of product. Placing on the market can therefore occur, regardless of whether another importer already exists within the EU for the same device model.",
+      "he": "כן. כל גורם, ובכלל זה מפיץ המבוסס באיחוד האירופי, המשיג (באמצעות העברה חוקית של בעלות, חזקה או כל זכות קניינית אחרת) מכשיר בודד מיצרן או ממפיץ שאינו מבוסס באיחוד האירופי, ומציב את אותו מכשיר בודד בשוק האיחוד (כלומר ההעמדה לרשות לראשונה), ייטול על עצמו את תפקידו ואת אחריותו של יבואן. מושג ההצבה בשוק מתייחס לכל מוצר בודד, ולא לסוג המוצר. לפיכך, הצבה בשוק יכולה להתרחש בלא קשר לשאלה אם כבר קיים יבואן אחר בתוך האיחוד האירופי עבור אותו דגם מכשיר."
+    },
+
+    {
+      "id": "q4",
+      "type": "heading",
+      "level": 2,
+      "number": "Q4",
+      "en": "Can there be multiple importers of a device model from one manufacturer?",
+      "he": "האם יכולים להיות מספר יבואנים של דגם מכשיר מאותו יצרן?"
+    },
+    {
+      "id": "q4-p1",
+      "type": "paragraph",
+      "en": "Yes. The obligations of device importers will apply to any entity meeting the definition of Article 2(33) MDR/Article 2(26) IVDR (as described in Q.1). As the concept of placing on the market refers to each individual product and not to the type of product, individual devices (of the same type) may be placed on the market by various natural or legal persons, each considered an importer and subject to the respective provisions of the Regulations on importers. This can occur, regardless of whether another importer already exists within the EU for the same device model. It is not possible however, to have multiple importers of the same individual device.",
+      "he": "כן. חובותיהם של יבואני מכשירים יחולו על כל ישות העונה על ההגדרה שבסעיף 2(33) ל-MDR/סעיף 2(26) ל-IVDR (כמתואר ב-Q.1). מאחר שמושג ההצבה בשוק מתייחס לכל מוצר בודד ולא לסוג המוצר, מכשירים בודדים (מאותו סוג) עשויים להיות מוצבים בשוק על ידי אנשים טבעיים או משפטיים שונים, שכל אחד מהם נחשב ליבואן וכפוף להוראות התקנות הנוגעות ליבואנים. הדבר יכול להתרחש בלא קשר לשאלה אם כבר קיים יבואן אחר בתוך האיחוד האירופי עבור אותו דגם מכשיר. עם זאת, לא ניתן שיהיו מספר יבואנים של אותו מכשיר בודד."
+    },
+
+    {
+      "id": "q5",
+      "type": "heading",
+      "level": 2,
+      "number": "Q5",
+      "en": "Can individual shops, community pharmacies, retailers, or other persons be considered distributors?",
+      "he": "האם חנויות בודדות, בתי מרקחת קהילתיים, קמעונאים או אנשים אחרים יכולים להיחשב למפיצים?"
+    },
+    {
+      "id": "q5-p1",
+      "type": "paragraph",
+      "en": "Yes. A distributor is any natural or legal person in the supply chain, other than the manufacturer or the importer, that makes a device available on the market, up until the point of putting into service (see Article 2(34) MDR/Article 2(27) IVDR). As such, individual shops, pharmacies or retailers or other natural or legal persons meeting this definition, are considered distributors.",
+      "he": "כן. מפיץ הוא כל אדם טבעי או משפטי בשרשרת האספקה, למעט היצרן או היבואן, המעמיד מכשיר לרשות השוק, עד לנקודת ההכנסה לשירות (ראו סעיף 2(34) ל-MDR/סעיף 2(27) ל-IVDR). לפיכך, חנויות בודדות, בתי מרקחת או קמעונאים, או אנשים טבעיים או משפטיים אחרים העונים על הגדרה זו, נחשבים למפיצים."
+    },
+    {
+      "id": "q5-p2",
+      "type": "paragraph",
+      "en": "For example, a community pharmacy, an individual shop, retailer or other person, which buys and then sells type II medical face masks to customers (whether online or physically), such as other shops or companies or private individuals, are considered to supply medical devices and thereby fall within the definition of a distributor. These entities will be expected to comply with Article 14 of the Regulations and any applicable national registration requirements. Furthermore, these operators will assume the role and responsibilities of an importer if they obtain the device directly from a non-EU based manufacturer or distributor and are expected to comply with Article 13 of the Regulations.",
+      "he": "לדוגמה, בית מרקחת קהילתי, חנות בודדת, קמעונאי או אדם אחר, הקונה ולאחר מכן מוכר מסכות פנים רפואיות מסוג II ללקוחות (בין באופן מקוון ובין באופן פיזי), כגון חנויות אחרות, חברות או יחידים פרטיים, נחשבים כמספקים מכשירים רפואיים ובכך נכנסים להגדרת מפיץ. ישויות אלה יידרשו לקיים את סעיף 14 לתקנות וכל דרישת רישום לאומית רלוונטית. יתרה מזו, גורמים אלה ייטלו על עצמם את תפקידו ואת אחריותו של יבואן אם ישיגו את המכשיר ישירות מיצרן או ממפיץ שאינו מבוסס באיחוד האירופי, ויידרשו לקיים את סעיף 13 לתקנות."
+    },
+
+    {
+      "id": "sec-general-obligations",
+      "type": "heading",
+      "level": 1,
+      "en": "General Obligations",
+      "he": "חובות כלליות"
+    },
+
+    {
+      "id": "q6",
+      "type": "heading",
+      "level": 2,
+      "number": "Q6",
+      "en": "Who is responsible for indicating the importer on the device, its packaging or accompanying documentation?",
+      "he": "מי אחראי לציין את היבואן על המכשיר, על אריזתו או על התיעוד הנלווה?"
+    },
+    {
+      "id": "q6-p1",
+      "type": "paragraph",
+      "en": "Importers are responsible for including their information on the device, its packaging or in accompanying documentation in accordance with Article 13(3) of the Regulations. The importer may add this information themselves or sub-contract this task, however the importer remains responsible for the correct execution of the obligation, regardless of the means chosen. Distributors are responsible for verifying this obligation has been fulfilled before making the device further available (Article 14(2) (c) of the Regulations).",
+      "he": "יבואנים אחראים לכלול את המידע שלהם על המכשיר, על אריזתו או בתיעוד הנלווה בהתאם לסעיף 13(3) לתקנות. היבואן רשאי להוסיף מידע זה בעצמו או להעביר משימה זו לקבלן משנה, אולם היבואן נותר אחראי לביצוע הנכון של החובה, בלא קשר לאמצעי שנבחר. מפיצים אחראים לוודא שחובה זו קוימה בטרם יעמידו את המכשיר לרשות הלאה (סעיף 14(2)(c) לתקנות)."
+    },
+    {
+      "id": "q6-p2",
+      "type": "paragraph",
+      "en": "Whilst the inclusion of the importer's details before the device has physically entered the Union is not mandatory, the importer's details must be included on the device (or on its packaging, or in a document accompanying the device) when the device is placed on the Union market (i.e. the first making available). The absence of the importer's details at customs control should therefore not be considered as a non-compliance with the Regulations.",
+      "he": "אף שהכללת פרטי היבואן בטרם נכנס המכשיר פיזית לאיחוד אינה חובה, פרטי היבואן חייבים להיכלל על המכשיר (או על אריזתו, או במסמך הנלווה למכשיר) בעת שהמכשיר מוצב בשוק האיחוד (כלומר ההעמדה לרשות לראשונה). לפיכך, היעדר פרטי היבואן בבקרת המכס לא ייחשב לאי-עמידה בתקנות."
+    },
+
+    {
+      "id": "q7",
+      "type": "heading",
+      "level": 2,
+      "number": "Q7",
+      "en": "What should an importer do in the case where an individual device already mentions another importer's details on its packaging?",
+      "he": "מה על יבואן לעשות במקרה שעל אריזת מכשיר בודד כבר מצוינים פרטיו של יבואן אחר?"
+    },
+    {
+      "id": "q7-p1",
+      "type": "paragraph",
+      "en": "The requirements outlined in Article 13(3) of the Regulations should be linked to the importer who first placed the individual device on the Union market. An importer should therefore consider each individual device it imports as new to the Union market.",
+      "he": "את הדרישות המפורטות בסעיף 13(3) לתקנות יש לקשור ליבואן שהציב לראשונה את המכשיר הבודד בשוק האיחוד. לפיכך, על יבואן להתייחס לכל מכשיר בודד שהוא מייבא כחדש לשוק האיחוד."
+    },
+    {
+      "id": "q7-p2",
+      "type": "paragraph",
+      "en": "In the unusual case where details of another importer already appear on the packaging of an individual device (for example, the individual device has been exported and then re-introduced to the Union market), the importer should verify if the individual device has previously been placed on the Union market. This may be done by contacting the manufacturer. The importer should replace any previous importer details with their own, if having investigated the issue, they determine themselves to be the correct importer. The label with the previous details will be void.",
+      "he": "במקרה החריג שבו פרטיו של יבואן אחר כבר מופיעים על אריזת מכשיר בודד (לדוגמה, המכשיר הבודד יוצא ולאחר מכן הוכנס מחדש לשוק האיחוד), על היבואן לוודא אם המכשיר הבודד הוצב בעבר בשוק האיחוד. ניתן לעשות זאת באמצעות פנייה ליצרן. על היבואן להחליף כל פרט של יבואן קודם בפרטיו שלו, אם לאחר חקירת העניין הוא קובע שהוא היבואן הנכון. התווית הנושאת את הפרטים הקודמים תהיה בטלה."
+    },
+    {
+      "id": "q7-p3",
+      "type": "paragraph",
+      "en": "If having investigated the issue, they determine the other importer already mentioned on the packaging as the entity that placed the devices on the market, they will assume the role of distributor for this device and thus should comply with Article 14 of the Regulations.",
+      "he": "אם לאחר חקירת העניין הוא קובע כי היבואן האחר המצוין כבר על האריזה הוא הישות שהציבה את המכשירים בשוק, אזי הוא ייטול על עצמו את תפקיד המפיץ עבור מכשיר זה ולפיכך יידרש לקיים את סעיף 14 לתקנות."
+    },
+
+    {
+      "id": "q8",
+      "type": "heading",
+      "level": 2,
+      "number": "Q8",
+      "en": "What is meant by 'accompanying documentation' under Article 13(3) of the Regulations?",
+      "he": "מהי המשמעות של 'תיעוד נלווה' על פי סעיף 13(3) לתקנות?"
+    },
+    {
+      "id": "q8-p1",
+      "type": "paragraph",
+      "en": "'Accompanying documentation' containing the importer's details, may be separate from or affixed to the individual device, as long as it accompanies the individual device throughout the supply chain and reaches the end user. The accompanying documentation should allow the importer to be located and contacted (Article 13(3) of the Regulations) and allow healthcare professionals, patients or users to report suspected incidents (Article 13(8) of the Regulations) to the importer. The importer may choose the appropriate accompanying documentation, as long as it reaches the end user. Examples may include a sticker affixed to the label or a leaflet.",
+      "he": "'תיעוד נלווה' הכולל את פרטי היבואן עשוי להיות נפרד מהמכשיר הבודד או מוצמד אליו, כל עוד הוא מלווה את המכשיר הבודד לאורך שרשרת האספקה ומגיע למשתמש הקצה. התיעוד הנלווה צריך לאפשר לאתר את היבואן וליצור עמו קשר (סעיף 13(3) לתקנות) ולאפשר לאנשי מקצוע הבריאות, למטופלים או למשתמשים לדווח על אירועים חשודים (סעיף 13(8) לתקנות) ליבואן. היבואן רשאי לבחור את התיעוד הנלווה המתאים, כל עוד הוא מגיע למשתמש הקצה. דוגמאות לכך עשויות לכלול מדבקה המוצמדת לתווית או עלון."
+    },
+    {
+      "id": "q8-p2",
+      "type": "paragraph",
+      "en": "To ensure the importer's details reach the end user, the importer should consider providing the accompanying documentation with the smallest saleable package of the device (i.e., the smallest package that can be purchased by the end user as determined by the manufacturer). In cases where there is a risk of jeopardising the device's compliance with the general safety and performance requirements, the importer may carry out this activity in cooperation with the manufacturer. For a device delivered in multiple boxes due to its size or its configuration, the accompanying document may be provided once rather than on each individual box provided it is supplied to a single user or location.",
+      "he": "כדי להבטיח שפרטי היבואן יגיעו למשתמש הקצה, על היבואן לשקול לספק את התיעוד הנלווה עם האריזה הקטנה ביותר הניתנת למכירה של המכשיר (כלומר האריזה הקטנה ביותר שניתן לרכוש על ידי משתמש הקצה כפי שנקבע על ידי היצרן). במקרים שבהם קיים סיכון לפגוע בעמידת המכשיר בדרישות הכלליות לבטיחות וביצועים, היבואן רשאי לבצע פעילות זו בשיתוף פעולה עם היצרן. עבור מכשיר המסופק במספר קופסאות בשל גודלו או תצורתו, ניתן לספק את המסמך הנלווה פעם אחת ולא על כל קופסה בודדת, ובלבד שהוא מסופק למשתמש או למיקום יחיד."
+    },
+    {
+      "id": "q8-p3",
+      "type": "paragraph",
+      "en": "Where any additional label is used to provide the importer's information, it should not obscure the information on the label provided by the manufacturer in accordance with Annex I 23.2 MDR/Annex I 20.2 IVDR.",
+      "he": "כאשר נעשה שימוש בתווית נוספת כלשהי לצורך מתן מידע היבואן, אין בה כדי להסתיר את המידע שעל התווית שסיפק היצרן בהתאם לנספח I 23.2 ל-MDR/נספח I 20.2 ל-IVDR."
+    },
+    {
+      "id": "q8-p4",
+      "type": "paragraph",
+      "en": "It is also noted that the distributor may not sell products where documentation or the importer's information is missing (see Article 14(2)(c) of the Regulations).",
+      "he": "כן יצוין כי המפיץ אינו רשאי למכור מוצרים שבהם חסר התיעוד או מידע היבואן (ראו סעיף 14(2)(c) לתקנות)."
+    },
+
+    {
+      "id": "q9",
+      "type": "heading",
+      "level": 2,
+      "number": "Q9",
+      "en": "Are companies providing third party logistics (3PLs) (such as transportation or storage) considered importers under the Regulations?",
+      "he": "האם חברות המספקות לוגיסטיקה של צד שלישי (3PL) (כגון הובלה או אחסון) נחשבות ליבואנים על פי התקנות?"
+    },
+    {
+      "id": "q9-p1",
+      "type": "paragraph",
+      "en": "Not normally. Some 3PL companies which provide transportation services or hold devices on a consignment basis only (i.e. where devices are held at a site by the 3PL, but the 3PL does not have legal ownership of those devices), may not be considered an importer provided there is a clearly defined agreement between both parties setting out the responsibilities of each party. The importer is the natural or legal person meeting the definition of Article 2(33) MDR/Article 2(26) IVDR, with ownership, possession or any other property right over the device. That party is required to affix their details to the device, label or accompanying documentation in accordance with Article 13(3) of the Regulations. Although transportation or storage activities may be subcontracted outside of the importer's organisation, the importer retains responsibility over storage and transport conditions and as such, must ensure the sub-contractor's conditions do not jeopardise compliance with the general safety and performance requirement of Annex I of the Regulations (see Article 13(5) of the Regulations).",
+      "he": "בדרך כלל לא. חברות 3PL מסוימות המספקות שירותי הובלה או מחזיקות מכשירים על בסיס קונסיגנציה בלבד (כלומר כאשר המכשירים מוחזקים באתר על ידי חברת ה-3PL, אך לחברת ה-3PL אין בעלות חוקית על מכשירים אלה), עשויות שלא להיחשב ליבואן, ובלבד שקיים הסכם מוגדר היטב בין שני הצדדים המפרט את אחריות כל צד. היבואן הוא האדם הטבעי או המשפטי העונה על ההגדרה שבסעיף 2(33) ל-MDR/סעיף 2(26) ל-IVDR, אשר לו בעלות, חזקה או כל זכות קניינית אחרת על המכשיר. אותו צד נדרש להצמיד את פרטיו למכשיר, לתווית או לתיעוד הנלווה בהתאם לסעיף 13(3) לתקנות. אף שניתן להעביר פעילויות הובלה או אחסון לקבלן משנה מחוץ לארגון היבואן, היבואן נותר אחראי לתנאי האחסון וההובלה, וככזה עליו להבטיח כי תנאי קבלן המשנה אינם פוגעים בעמידה בדרישה הכללית לבטיחות וביצועים שבנספח I לתקנות (ראו סעיף 13(5) לתקנות)."
+    },
+
+    {
+      "id": "q10",
+      "type": "heading",
+      "level": 2,
+      "number": "Q10",
+      "en": "Are companies providing third party logistics (3PLs) (such as transportation or storage) considered distributors under the Regulations?",
+      "he": "האם חברות המספקות לוגיסטיקה של צד שלישי (3PL) (כגון הובלה או אחסון) נחשבות למפיצים על פי התקנות?"
+    },
+    {
+      "id": "q10-p1",
+      "type": "paragraph",
+      "en": "Not normally. As explained in Q.9, transportation is not a distribution activity and therefore a 3PL conducting transportation only, even if this includes short term in transit storage to facilitate transportation, would not be considered a distributor. The distributor is the person with ownership, possession or any other right over the device, who meets the definition provided for in Article 2(34) MDR/Article 2(27) IVDR (i.e. making available on the market up until the point of putting into service). Although transportation or storage activities may be subcontracted outside of the distributor's organisation, the distributor in accordance with Article 14(3) of the Regulations shall ensure that while the device is under their responsibility, storage or transport conditions comply with the conditions set by the manufacturer.",
+      "he": "בדרך כלל לא. כפי שהוסבר ב-Q.9, הובלה אינה פעילות הפצה, ולפיכך חברת 3PL המבצעת הובלה בלבד, גם אם הדבר כולל אחסון קצר-טווח במעבר לצורך הקלת ההובלה, לא תיחשב למפיץ. המפיץ הוא האדם בעל הבעלות, החזקה או כל זכות אחרת על המכשיר, העונה על ההגדרה שבסעיף 2(34) ל-MDR/סעיף 2(27) ל-IVDR (כלומר העמדה לרשות השוק עד לנקודת ההכנסה לשירות). אף שניתן להעביר פעילויות הובלה או אחסון לקבלן משנה מחוץ לארגון המפיץ, המפיץ, בהתאם לסעיף 14(3) לתקנות, יבטיח כי כל עוד המכשיר באחריותו, תנאי האחסון או ההובלה עומדים בתנאים שקבע היצרן."
+    },
+
+    {
+      "id": "q11",
+      "type": "heading",
+      "level": 2,
+      "number": "Q11",
+      "en": "Are Fulfilment service providers (FSP) as defined in Article 3(11) of Regulation 2019/1020 on market surveillance (MSR), considered economic operators under MDR/IVDR?",
+      "he": "האם ספקי שירותי מילוי (FSP) כהגדרתם בסעיף 3(11) לתקנה 2019/1020 בנושא פיקוח שוק (MSR), נחשבים לגורמים כלכליים על פי ה-MDR/IVDR?"
+    },
+    {
+      "id": "q11-p1",
+      "type": "paragraph",
+      "en": "Fulfilment service providers (FSP) as defined in Article 3(11) of Regulation 2019/1020 on market surveillance (MSR) are not defined as economic operators under Article 2(35) MDR/Article 2(28) IVDR, and as such do not need to fulfil the economic operators' obligations under those Regulations.",
+      "he": "ספקי שירותי מילוי (FSP) כהגדרתם בסעיף 3(11) לתקנה 2019/1020 בנושא פיקוח שוק (MSR) אינם מוגדרים כגורמים כלכליים על פי סעיף 2(35) ל-MDR/סעיף 2(28) ל-IVDR, וככאלה אינם נדרשים לקיים את חובות הגורמים הכלכליים על פי תקנות אלה."
+    },
+    {
+      "id": "q11-p2",
+      "type": "paragraph",
+      "en": "However, where an FSP, carries out activities which also meets the definitions of an importer or distributor under the MDR/IVDR, the related roles and obligations outlined in Article 13 and 14 of the Regulations apply.",
+      "he": "עם זאת, כאשר ספק שירותי מילוי (FSP) מבצע פעילויות העונות גם על ההגדרות של יבואן או מפיץ על פי ה-MDR/IVDR, חלים התפקידים והחובות הנלווים המפורטים בסעיפים 13 ו-14 לתקנות."
+    },
+
+    {
+      "id": "q12",
+      "type": "heading",
+      "level": 2,
+      "number": "Q12",
+      "en": "What are the obligations of importers and distributors with respect to suspected non-compliant products?",
+      "he": "מהן חובותיהם של יבואנים ומפיצים בנוגע למוצרים החשודים כבלתי תואמים?"
+    },
+    {
+      "id": "q12-p1",
+      "type": "paragraph",
+      "en": "Importers and distributors have the obligation to verify whether the requirements mentioned in Article 13(2) and 14(2) of the Regulations respectively, are met before making the device available on the market. Moreover, if an importer or distributor considers or has reason to believe that devices are not in conformity with the Regulations, they have the obligation to inform relevant parties (manufacturers and where applicable authorised representatives or importers) and to not make these devices available.",
+      "he": "על יבואנים ומפיצים מוטלת החובה לוודא אם הדרישות הנזכרות בסעיפים 13(2) ו-14(2) לתקנות, בהתאמה, מתקיימות בטרם יעמידו את המכשיר לרשות השוק. יתרה מזו, אם יבואן או מפיץ סבור או שיש לו יסוד להאמין כי מכשירים אינם תואמים את התקנות, מוטלת עליו החובה ליידע את הצדדים הרלוונטיים (יצרנים, ובמידת הצורך נציגים מורשים או יבואנים) ולא להעמיד מכשירים אלה לרשות."
+    },
+    {
+      "id": "q12-p2",
+      "type": "paragraph",
+      "en": "For distributors, the verification checks mentioned in Article 14(2) subparagraphs (a), (b) and (d) of the Regulations might be done based on a sampling method representative of the device supplied. Checks outlined in Article 14(2)(c) should be performed on the imported devices (Article 14(2) of the Regulations).",
+      "he": "עבור מפיצים, בדיקות האימות הנזכרות בסעיף 14(2) פסקאות משנה (a), (b) ו-(d) לתקנות עשויות להתבצע על בסיס שיטת דגימה המייצגת את המכשיר המסופק. הבדיקות המפורטות בסעיף 14(2)(c) צריכות להתבצע על המכשירים המיובאים (סעיף 14(2) לתקנות)."
+    },
+    {
+      "id": "q12-p3",
+      "type": "paragraph",
+      "en": "For information on reporting obligations to the competent authorities, see Question 13.",
+      "he": "למידע על חובות הדיווח לרשויות המוסמכות, ראו שאלה 13."
+    },
+
+    {
+      "id": "q13",
+      "type": "heading",
+      "level": 2,
+      "number": "Q13",
+      "en": "Do importers and distributors have a duty to report complaints and cooperate with the member state competent authorities for medical devices?",
+      "he": "האם על יבואנים ומפיצים מוטלת חובה לדווח על תלונות ולשתף פעולה עם הרשויות המוסמכות של המדינה החברה לעניין מכשירים רפואיים?"
+    },
+    {
+      "id": "q13-p1",
+      "type": "paragraph",
+      "en": "Yes. In accordance with Article 14(2) of the Regulations the distributor is required to inform the competent authority (of the Member State in which it is established) if they believe the device presents a serious risk or is falsified. General complaints not meeting the definition of a serious risk or a falsified device however, are not reportable. Article 14(6) of the Regulations outlines that distributors shall cooperate with competent authorities, at their request, on any action taken to eliminate the risks posed by devices which they have made available on the market. In addition, under Article 14(6) of the Regulations distributors, upon request by a competent authority, shall provide free samples of the device or, where that is impracticable, grant access to the device.",
+      "he": "כן. בהתאם לסעיף 14(2) לתקנות, המפיץ נדרש ליידע את הרשות המוסמכת (של המדינה החברה שבה הוא מבוסס) אם הוא סבור כי המכשיר מציב סיכון חמור או כי הוא מזויף. אולם, תלונות כלליות שאינן עונות על הגדרת סיכון חמור או מכשיר מזויף אינן בגדר חובת דיווח. סעיף 14(6) לתקנות קובע כי מפיצים ישתפו פעולה עם הרשויות המוסמכות, לבקשתן, בכל פעולה שננקטה לסילוק הסיכונים הנשקפים ממכשירים שהעמידו לרשות השוק. בנוסף, על פי סעיף 14(6) לתקנות, מפיצים, לבקשת רשות מוסמכת, יספקו דגימות חינם של המכשיר, או, כאשר הדבר אינו מעשי, יעניקו גישה למכשיר."
+    },
+    {
+      "id": "q13-p2",
+      "type": "paragraph",
+      "en": "For importers, the above also applies (Article 13(7) of the Regulations). Where the device presents a serious risk, importers have the additional obligation to inform the notified body that issued the device certificate, if applicable. The importer should in such cases give details, in particular, of the non-compliance and of any corrective action taken.",
+      "he": "עבור יבואנים, האמור לעיל חל אף הוא (סעיף 13(7) לתקנות). כאשר המכשיר מציב סיכון חמור, מוטלת על היבואנים החובה הנוספת ליידע את הגוף המאונתר שהנפיק את תעודת המכשיר, אם רלוונטי. במקרים כאלה, על היבואן למסור פרטים, בפרט, בנוגע לאי-ההתאמה ולכל פעולה מתקנת שננקטה."
+    },
+
+    {
+      "id": "q14",
+      "type": "heading",
+      "level": 2,
+      "number": "Q14",
+      "en": "Do importers and distributors have a duty to report complaints to manufacturers?",
+      "he": "האם על יבואנים ומפיצים מוטלת חובה לדווח על תלונות ליצרנים?"
+    },
+    {
+      "id": "q14-p1",
+      "type": "paragraph",
+      "en": "Yes. Distributors that have received complaints or reports from healthcare professionals, patients or users about suspected incidents related to a device they have made available, shall immediately forward this information to the manufacturer and, where applicable, the manufacturer's authorised representative, and the importer (Article 14(5) of the Regulations).",
+      "he": "כן. מפיצים שקיבלו תלונות או דיווחים מאנשי מקצוע הבריאות, ממטופלים או ממשתמשים בנוגע לאירועים חשודים הקשורים למכשיר שהעמידו לרשות, יעבירו מידע זה לאלתר ליצרן, ובמידת הצורך לנציג המורשה של היצרן, וכן ליבואן (סעיף 14(5) לתקנות)."
+    },
+    {
+      "id": "q14-p2",
+      "type": "paragraph",
+      "en": "Distributors should keep a register of complaints of non-conforming devices, recalls and withdrawals and keep the manufacturer, and where available the authorised representative and importer, informed of such monitoring. They should also provide manufacturers with any information upon their request (Article 14(5) of the Regulations).",
+      "he": "על מפיצים לנהל רישום של תלונות בדבר מכשירים בלתי תואמים, ריקולים והסרות מהשוק, ולעדכן את היצרן, ובמידת הזמינות את הנציג המורשה ואת היבואן, בנוגע לניטור כאמור. כן עליהם לספק ליצרנים כל מידע לבקשתם (סעיף 14(5) לתקנות)."
+    },
+    {
+      "id": "q14-p3",
+      "type": "paragraph",
+      "en": "Importers also have related obligations regarding reports and registry of complaints and non-conforming devices in accordance with Article 13(6) and 13(8) of the Regulations.",
+      "he": "גם על יבואנים מוטלות חובות נלוות בנוגע לדיווחים ולרישום של תלונות ושל מכשירים בלתי תואמים בהתאם לסעיפים 13(6) ו-13(8) לתקנות."
+    },
+
+    {
+      "id": "q15",
+      "type": "heading",
+      "level": 2,
+      "number": "Q15",
+      "en": "Do the requirements of Article 13 and 14 of the Regulations also apply to devices certified under the Directives or 'legacy devices'?",
+      "he": "האם דרישות סעיפים 13 ו-14 לתקנות חלות גם על מכשירים שהוסמכו על פי הדירקטיבות או על 'מכשירי מורשת' (legacy devices)?"
+    },
+    {
+      "id": "q15-p1",
+      "type": "paragraph",
+      "en": "For 'legacy devices', the obligations outlined in Articles 13 and 14 of the Regulations should be read in conjunction with the transitional provisions in Article 120(3) MDR/Article 110 IVDR for such devices. Some of these obligations, serving to support a well-functioning vigilance and market surveillance system as well as proper registration of economic operators and devices, therefore apply. These include in particular, for importers Article 13(2), last paragraph, (4), (6)-(8), (10) of the Regulations related to reporting and cooperation and for distributors, Article 14(2), last paragraph, (4)-(6). However, verification obligations related to labelling and UDI Requirements established under the Regulation do not apply.",
+      "he": "עבור 'מכשירי מורשת', יש לקרוא את החובות המפורטות בסעיפים 13 ו-14 לתקנות בשילוב עם הוראות המעבר שבסעיף 120(3) ל-MDR/סעיף 110 ל-IVDR עבור מכשירים כאלה. חלק מחובות אלה, המשמשות לתמיכה במערכת ערנות ופיקוח שוק מתפקדת כראוי וכן ברישום נאות של גורמים כלכליים ומכשירים, חלות אפוא. אלה כוללות בפרט, עבור יבואנים, את סעיף 13(2), פסקה אחרונה, (4), (6)-(8), (10) לתקנות הנוגעים לדיווח ולשיתוף פעולה, ועבור מפיצים, את סעיף 14(2), פסקה אחרונה, (4)-(6). עם זאת, חובות אימות הקשורות לתיוג ולדרישות זיהוי המכשיר הייחודי (UDI) שנקבעו על פי התקנה אינן חלות."
+    },
+
+    {
+      "id": "q16",
+      "type": "heading",
+      "level": 2,
+      "number": "Q16",
+      "en": "Can the same natural or legal person assume the role of authorised representative as well as importer for one individual device under the MDR/IVDR?",
+      "he": "האם אותו אדם טבעי או משפטי יכול ליטול הן את תפקיד הנציג המורשה והן את תפקיד היבואן עבור מכשיר בודד אחד על פי ה-MDR/IVDR?"
+    },
+    {
+      "id": "q16-p1",
+      "type": "paragraph",
+      "en": "It is possible for the same natural or legal person to act as both authorised representative and importer for a specific device (i.e., an individual device). The natural or legal person acting as both roles would need to fulfil the obligations of each economic operator outlined in Article 11 and Article 13 of the Regulations respectively and be able to demonstrate compliance to the applicable requirements.",
+      "he": "ניתן שאותו אדם טבעי או משפטי יפעל הן כנציג מורשה והן כיבואן עבור מכשיר מסוים (כלומר מכשיר בודד). האדם הטבעי או המשפטי הפועל בשני התפקידים יידרש לקיים את חובותיו של כל גורם כלכלי כמפורט בסעיף 11 ובסעיף 13 לתקנות, בהתאמה, ולהיות מסוגל להוכיח עמידה בדרישות הרלוונטיות."
+    },
+
+    {
+      "id": "q17",
+      "type": "heading",
+      "level": 2,
+      "number": "Q17",
+      "en": "Can the same natural or legal person assume the role of importer as well as distributor for one individual device under the MDR/IVDR?",
+      "he": "האם אותו אדם טבעי או משפטי יכול ליטול הן את תפקיד היבואן והן את תפקיד המפיץ עבור מכשיר בודד אחד על פי ה-MDR/IVDR?"
+    },
+    {
+      "id": "q17-p1",
+      "type": "paragraph",
+      "en": "In line with the definition of a distributor under the Regulations, the same natural or legal person cannot fulfil the role of importer and distributor for an individual device, given that the distributor is 'any natural or legal person in the supply chain, other than the manufacturer or the importer, that makes a device available on the market, up until the point of putting into service'.",
+      "he": "בהתאם להגדרת מפיץ על פי התקנות, אותו אדם טבעי או משפטי אינו יכול למלא הן את תפקיד היבואן והן את תפקיד המפיץ עבור מכשיר בודד, נוכח העובדה שמפיץ הוא 'כל אדם טבעי או משפטי בשרשרת האספקה, למעט היצרן או היבואן, אשר מעמיד מכשיר לרשות השוק, עד לנקודת ההכנסה לשירות'."
+    },
+
+    {
+      "id": "sec-verification",
+      "type": "heading",
+      "level": 1,
+      "en": "Verification Obligations",
+      "he": "חובות אימות"
+    },
+
+    {
+      "id": "q18",
+      "type": "heading",
+      "level": 2,
+      "number": "Q18",
+      "en": "Article 13(2) and 14(2) of the Regulations set out various verification obligations for importers and distributors. How can these checks be performed?",
+      "he": "סעיפים 13(2) ו-14(2) לתקנות קובעים חובות אימות שונות עבור יבואנים ומפיצים. כיצד ניתן לבצע בדיקות אלה?"
+    },
+    {
+      "id": "q18-p1",
+      "type": "paragraph",
+      "en": "Importers and distributors are responsible for making sure that the devices they place or make available on the market respectively, bear the CE marking, are accompanied by the required information and labelled in accordance with the Regulations, and have been assigned a UDI where applicable.",
+      "he": "יבואנים ומפיצים אחראים לוודא כי המכשירים שהם מציבים או מעמידים לרשות השוק, בהתאמה, נושאים את סימון CE, מלווים במידע הנדרש ומתויגים בהתאם לתקנות, וכי הוקצה להם זיהוי מכשיר ייחודי (UDI) במידת הרלוונטיות."
+    },
+    {
+      "id": "q18-p2",
+      "type": "paragraph",
+      "en": "For importers, ensuring devices are CE-marked and labelled in accordance with the Regulations can involve physical checks (for example visual inspection of the device and/or its outer packaging) in order to be able to confirm whether any non-conformity exist. Verifying that the EU declaration of conformity of the device has been drawn up, should involve the importer requesting and keeping available a copy of this document as specified in Article 13(9) of the Regulations. Verifying that a manufacturer has been identified and that an authorised representative has been designated (in accordance with Article 11 of the Regulations) can be performed via the EUDAMED database. In addition, this can be verified using the up to date version of the EU declaration of conformity (Annex IV of the Regulations), the device labelling, or where verifying that an authorised representative has been designated, by contacting them directly. These methods where available, may also be used to confirm UDI assignment, (noting however the EU declaration of conformity is only required to contain the Basic UDI-DI), and otherwise, the manufacturer should be contacted.",
+      "he": "עבור יבואנים, ההבטחה כי המכשירים נושאים את סימון CE ומתויגים בהתאם לתקנות עשויה לכלול בדיקות פיזיות (לדוגמה בדיקה חזותית של המכשיר ו/או אריזתו החיצונית) כדי שניתן יהיה לאשר אם קיימת אי-התאמה כלשהי. אימות העובדה שהצהרת ההתאמה (DoC) של האיחוד למכשיר נערכה צריך לכלול את היבואן המבקש ושומר על זמינות עותק של מסמך זה כמפורט בסעיף 13(9) לתקנות. אימות העובדה שיצרן זוהה ושמונה נציג מורשה (בהתאם לסעיף 11 לתקנות) ניתן לביצוע באמצעות מסד הנתונים האירופי (EUDAMED). בנוסף, ניתן לאמת זאת באמצעות הגרסה המעודכנת של הצהרת ההתאמה של האיחוד (נספח IV לתקנות), תיוג המכשיר, או, כאשר מאמתים שמונה נציג מורשה, באמצעות פנייה ישירה אליו. שיטות אלה, במידת זמינותן, עשויות לשמש גם לאישור הקצאת ה-UDI (אולם יצוין כי הצהרת ההתאמה של האיחוד נדרשת לכלול רק את ה-Basic UDI-DI), ואחרת, יש לפנות ליצרן."
+    },
+    {
+      "id": "q18-p3",
+      "type": "paragraph",
+      "en": "For distributors, a sampling method representative of the devices supplied can be used to verify information in Article 14(2) (a), (b) and (d) of the Regulations. However, verification activities (e.g. physical checks) should be performed on the devices supplied, e.g. to verify that the importer's information appears on the label or accompanying documentation (Article 14(2) (c) of the Regulations).",
+      "he": "עבור מפיצים, ניתן להשתמש בשיטת דגימה המייצגת את המכשירים המסופקים כדי לאמת מידע בסעיף 14(2)(a), (b) ו-(d) לתקנות. עם זאת, פעילויות אימות (למשל בדיקות פיזיות) צריכות להתבצע על המכשירים המסופקים, למשל כדי לאמת שמידע היבואן מופיע על התווית או על התיעוד הנלווה (סעיף 14(2)(c) לתקנות)."
+    },
+    {
+      "id": "q18-p4",
+      "type": "paragraph",
+      "en": "It is noted that physical checks are an essential tool for ensuring device compliance, detecting non-compliances and preventing such non-compliant devices from being made available on the market. When physical checks for Art 14(2)(c) cannot reasonably be achieved for every device (e.g. without compromising the integrity of the packaging and compliance of the device), in exceptional and justified cases, the verification should be based on documentation checks (e.g. checks of records provided by the manufacturer). To allow for the verification checks outlined in Article 14(2)(b) of the Regulations, manufacturers and/or importers should allow the distributor access to the EU declaration of conformity upon its request.",
+      "he": "יצוין כי בדיקות פיזיות הן כלי חיוני להבטחת התאמת המכשיר, לאיתור אי-התאמות ולמניעת העמדתם של מכשירים בלתי תואמים כאלה לרשות השוק. כאשר לא ניתן באופן סביר לבצע בדיקות פיזיות לפי סעיף 14(2)(c) עבור כל מכשיר (למשל, מבלי לפגוע בשלמות האריזה ובהתאמת המכשיר), במקרים חריגים ומוצדקים, האימות צריך להתבסס על בדיקות תיעוד (למשל בדיקות של רשומות שסיפק היצרן). כדי לאפשר את בדיקות האימות המפורטות בסעיף 14(2)(b) לתקנות, על היצרנים ו/או היבואנים לאפשר למפיץ גישה להצהרת ההתאמה של האיחוד לבקשתו."
+    },
+    {
+      "id": "q18-p5",
+      "type": "paragraph",
+      "en": "Importers and distributors should be able to demonstrate to the competent authority (e.g., during an inspection) that the above verifications have been performed, through their internal records or procedures. Whilst importers and distributors may use subcontractors to carry out some of these operational activities, this does not absolve them from their legal obligations.",
+      "he": "יבואנים ומפיצים צריכים להיות מסוגלים להוכיח לרשות המוסמכת (למשל, במהלך ביקורת) כי האימותים שלעיל בוצעו, באמצעות הרשומות או הנהלים הפנימיים שלהם. אף שיבואנים ומפיצים רשאים להיעזר בקבלני משנה לביצוע חלק מהפעילויות התפעוליות הללו, אין בכך כדי לפטור אותם מחובותיהם המשפטיות."
+    },
+    {
+      "id": "q18-p6",
+      "type": "paragraph",
+      "en": "Lastly, it should also be noted that importers and distributors may also be subject to national provisions (e.g., language requirements for information supplied with the device) which member states have established for devices that are made available on their territory.",
+      "he": "לבסוף, יצוין כי יבואנים ומפיצים עשויים להיות כפופים גם להוראות לאומיות (למשל, דרישות שפה למידע המסופק יחד עם המכשיר) שהמדינות החברות קבעו עבור מכשירים המועמדים לרשות בשטחן."
+    },
+
+    {
+      "id": "q19",
+      "type": "heading",
+      "level": 2,
+      "number": "Q19",
+      "en": "Can an authorised representative or manufacturer perform verification checks on behalf of importers or distributors?",
+      "he": "האם נציג מורשה או יצרן יכול לבצע בדיקות אימות בשם יבואנים או מפיצים?"
+    },
+    {
+      "id": "q19-p1",
+      "type": "paragraph",
+      "en": "No. All economic operators must fulfil their obligations in accordance with Regulations. It is not possible to delegate these legal responsibilities to upstream economic operators. It is understood that some operational activities may be sub-contracted out to other organisations, however this does not absolve an importer or distributor from their legal obligations or potential liability. Furthermore, it is not possible for one importer to delegate their legal responsibilities to another importer, as no such provision is stipulated in the definition of an importer or in Article 13 of the Regulations. The rationale behind this is to facilitate oversight of the supply chain and to help ensure traceability.",
+      "he": "לא. כל הגורמים הכלכליים חייבים לקיים את חובותיהם בהתאם לתקנות. לא ניתן להאציל אחריות משפטית זו לגורמים כלכליים במעלה השרשרת. מובן כי חלק מהפעילויות התפעוליות עשויות להיות מועברות לקבלני משנה בארגונים אחרים, אולם אין בכך כדי לפטור יבואן או מפיץ מחובותיו המשפטיות או מאחריותו האפשרית. יתרה מזו, אין באפשרותו של יבואן אחד להאציל את אחריותו המשפטית ליבואן אחר, מאחר שאין הוראה כזו הקבועה בהגדרת יבואן או בסעיף 13 לתקנות. ההיגיון העומד מאחורי כך הוא להקל על הפיקוח על שרשרת האספקה ולסייע בהבטחת יכולת המעקב."
+    },
+
+    {
+      "id": "sec-registration",
+      "type": "heading",
+      "level": 1,
+      "en": "Registration Obligations",
+      "he": "חובות רישום"
+    },
+
+    {
+      "id": "q20",
+      "type": "heading",
+      "level": 2,
+      "number": "Q20",
+      "en": "Do importers and distributors have registration obligations in EUDAMED?",
+      "he": "האם על יבואנים ומפיצים מוטלות חובות רישום ב-EUDAMED?"
+    },
+    {
+      "id": "q20-p1",
+      "type": "paragraph",
+      "en": "Importers of a device shall register in EUDAMED in accordance with Article 31 MDR/Article 28 IVDR, providing in particular the information referred to in Section 1 of Part A of Annex VI of the Regulations.",
+      "he": "יבואני מכשיר יירשמו ב-EUDAMED בהתאם לסעיף 31 ל-MDR/סעיף 28 ל-IVDR, ויספקו בפרט את המידע הנזכר במקטע 1 של חלק A בנספח VI לתקנות."
+    },
+    {
+      "id": "q20-p2",
+      "type": "paragraph",
+      "en": "Distributors do not have to register in EUDAMED, however, per Article 30(2) MDR/Article 27(2) IVDR they may be subject to national registration requirements of member states in which they have made the device available.",
+      "he": "מפיצים אינם חייבים להירשם ב-EUDAMED, אולם, על פי סעיף 30(2) ל-MDR/סעיף 27(2) ל-IVDR, הם עשויים להיות כפופים לדרישות רישום לאומיות של המדינות החברות שבהן העמידו את המכשיר לרשות."
+    },
+    {
+      "id": "q20-p3",
+      "type": "paragraph",
+      "en": "In cases where importers, distributors or other natural or legal persons according to Article 16 (1) of the Regulations assume the obligations incumbent on manufacturers, they should register as manufacturers in EUDAMED. For further information see MDCG 2021-13.",
+      "he": "במקרים שבהם יבואנים, מפיצים או אנשים טבעיים או משפטיים אחרים בהתאם לסעיף 16(1) לתקנות נוטלים על עצמם את החובות החלות על יצרנים, עליהם להירשם כיצרנים ב-EUDAMED. למידע נוסף ראו MDCG 2021-13."
+    },
+
+    {
+      "id": "q21",
+      "type": "heading",
+      "level": 2,
+      "number": "Q21",
+      "en": "Do importers have additional verification obligations in EUDAMED?",
+      "he": "האם על יבואנים מוטלות חובות אימות נוספות ב-EUDAMED?"
+    },
+    {
+      "id": "q21-p1",
+      "type": "paragraph",
+      "en": "In addition to registration (Article 31 MDR/Article 28 IVDR), importers have various verification obligations in EUDAMED. These include:",
+      "he": "בנוסף לרישום (סעיף 31 ל-MDR/סעיף 28 ל-IVDR), על יבואנים מוטלות חובות אימות שונות ב-EUDAMED. אלה כוללות:"
+    },
+    {
+      "id": "q21-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "verifying the device is registered (Article 13(4) of the Regulations);", "he": "אימות שהמכשיר רשום (סעיף 13(4) לתקנות);" },
+        { "en": "verifying that the manufacturer or authorised representative have reported the necessary information to EUDAMED, within two weeks of a device (other than a custom-made device) being placed on the market and reporting back to those actors where such information is incomplete or incorrect (Article 30(3) MDR/Article 27(3) IVDR);", "he": "אימות שהיצרן או הנציג המורשה דיווחו את המידע הנחוץ ל-EUDAMED, בתוך שבועיים מהצבת מכשיר (למעט מכשיר המיוצר לפי הזמנה) בשוק, ומסירת דיווח חוזר לאותם גורמים כאשר מידע כזה חלקי או שגוי (סעיף 30(3) ל-MDR/סעיף 27(3) ל-IVDR);" },
+        { "en": "the importer must verify its own registration information is complete, accurate and up to date at the intervals defined in Article 31(5) MDR/Article 28(5) IVDR.", "he": "על היבואן לאמת כי מידע הרישום שלו עצמו שלם, מדויק ומעודכן במרווחי הזמן המוגדרים בסעיף 31(5) ל-MDR/סעיף 28(5) ל-IVDR." }
+      ]
+    },
+
+    {
+      "id": "sec-other",
+      "type": "heading",
+      "level": 1,
+      "en": "Other",
+      "he": "שונות"
+    },
+
+    {
+      "id": "q22",
+      "type": "heading",
+      "level": 2,
+      "number": "Q22",
+      "en": "Does the prohibition regarding 'misleading claims' outlined in Article 7 of the Regulations apply to importers and distributors?",
+      "he": "האם האיסור בדבר 'טענות מטעות' המפורט בסעיף 7 לתקנות חל על יבואנים ומפיצים?"
+    },
+    {
+      "id": "q22-p1",
+      "type": "paragraph",
+      "en": "The prohibitions outlined in Article 7 of the Regulations apply to anyone, including importers and distributors. The Article indicates that it is prohibited for such actors on the labelling, instructions for use, or with regards to the making available, putting into service and advertising of devices, to use text, names, trademarks, pictures and figurative or other signs that may mislead the user or the patient with regard to the device's intended purpose, safety and performance. Article 7 (a) – (d) of the Regulations elaborates and specifies the type of misleading information/claims which include assigning incorrect functions and properties to the device, or creating an incorrect impression of the treatment or diagnosis which the device can provide to the end user.",
+      "he": "האיסורים המפורטים בסעיף 7 לתקנות חלים על כל אדם, ובכלל זה יבואנים ומפיצים. הסעיף מורה כי נאסר על גורמים כאלה, בתיוג, בהוראות השימוש, או בנוגע להעמדה לרשות, להכנסה לשירות ולפרסום של מכשירים, להשתמש בטקסט, בשמות, בסימני מסחר, בתמונות ובסימנים ציוריים או אחרים העלולים להטעות את המשתמש או את המטופל בנוגע למטרתו המיועדת של המכשיר, לבטיחותו ולביצועיו. סעיף 7(a)–(d) לתקנות מרחיב ומפרט את סוג המידע/הטענות המטעים, הכוללים ייחוס תפקודים ותכונות שגויים למכשיר, או יצירת רושם שגוי בדבר הטיפול או האבחון שהמכשיר יכול לספק למשתמש הקצה."
+    },
+
+    {
+      "id": "q23",
+      "type": "heading",
+      "level": 2,
+      "number": "Q23",
+      "en": "Do importers and distributors have any obligations with regards to device traceability?",
+      "he": "האם על יבואנים ומפיצים מוטלות חובות כלשהן בנוגע ליכולת המעקב אחר מכשירים?"
+    },
+    {
+      "id": "q23-p1",
+      "type": "paragraph",
+      "en": "Importers and distributors should implement solutions to meet traceability obligations outlined in Article 25 MDR/Article 22 IVDR.",
+      "he": "על יבואנים ומפיצים ליישם פתרונות לעמידה בחובות יכולת המעקב המפורטות בסעיף 25 ל-MDR/סעיף 22 ל-IVDR."
+    },
+    {
+      "id": "q23-p2",
+      "type": "paragraph",
+      "en": "Medical device traceability by importers and distributors may be achieved through maintaining adequately detailed records in relation to the sourcing and supply of medical devices. For example, in the event of a Field Safety Corrective Action (FSCA) it may be necessary to determine the customers that received the medical device that was affected by the FSCA.",
+      "he": "יכולת מעקב אחר מכשירים רפואיים על ידי יבואנים ומפיצים עשויה להיות מושגת באמצעות ניהול רשומות מפורטות דיין בנוגע למקור ולאספקה של מכשירים רפואיים. לדוגמה, במקרה של פעולה מתקנת בשטח (FSCA) ייתכן שיהיה צורך לקבוע מי הם הלקוחות שקיבלו את המכשיר הרפואי שהושפע מן ה-FSCA."
+    },
+    {
+      "id": "q23-p3",
+      "type": "paragraph",
+      "en": "In addition, under Article 27(8) MDR/24(8) IVDR, importers and distributors have the specific obligation to store UDIs for class III implantable devices and the devices, categories or groups of devices determined by a measure referred to in Article 27(11) (a) MDR and devices, categories or groups of devices that may be determined by a measure referred to in Article 24(11)(a) IVDR which they have supplied or with which they have been supplied. They do not need to store UDIs for other devices.",
+      "he": "בנוסף, על פי סעיף 27(8) ל-MDR/24(8) ל-IVDR, על יבואנים ומפיצים מוטלת החובה הספציפית לאחסן UDI עבור מכשירים מושתלים מסיווג III ועבור המכשירים, הקטגוריות או קבוצות המכשירים שנקבעו באמצעות צעד הנזכר בסעיף 27(11)(a) ל-MDR ומכשירים, קטגוריות או קבוצות מכשירים שעשויים להיקבע באמצעות צעד הנזכר בסעיף 24(11)(a) ל-IVDR, אשר סיפקו או שסופקו להם. אין עליהם לאחסן UDI עבור מכשירים אחרים."
+    },
+
+    {
+      "id": "q24",
+      "type": "heading",
+      "level": 2,
+      "number": "Q24",
+      "en": "Is an operator who assembles a system and procedure pack (SPP) in accordance with Article 22(1) or (3) MDR using devices from a third country manufacturer (not yet placed on the Union market), considered an importer?",
+      "he": "האם גורם המרכיב מארז מערכת והליך (SPP) בהתאם לסעיף 22(1) או (3) ל-MDR תוך שימוש במכשירים מיצרן ממדינה שלישית (שטרם הוצבו בשוק האיחוד), נחשב ליבואן?"
+    },
+    {
+      "id": "q24-p1",
+      "type": "paragraph",
+      "en": "Where a system or procedure pack (SPP) consists of one and more individual CE-marked devices from a third country manufacturer, the system or procedure pack producer (SPPP) established in the Union will be considered as the importer of the individual devices in the SPP, if they are the entity that places such devices on the Union market (i.e., the first making available). As an importer of the individual devices, they will assume all applicable obligations under the MDR, including Article 13 MDR and will, in their role as SPPP, also be subject to the obligations under Article 22 MDR, including drawing up the statement referred to in Article 22(2) MDR.",
+      "he": "כאשר מארז מערכת או הליך (SPP) מורכב ממכשיר בודד אחד או יותר הנושאים סימון CE מיצרן ממדינה שלישית, מפיק מארז המערכת או ההליך (SPPP) המבוסס באיחוד ייחשב ליבואן של המכשירים הבודדים שבמארז, אם הוא הישות המציבה מכשירים כאלה בשוק האיחוד (כלומר ההעמדה לרשות לראשונה). בתפקידו כיבואן של המכשירים הבודדים, הוא ייטול על עצמו את כל החובות הרלוונטיות על פי ה-MDR, ובכללן סעיף 13 ל-MDR, ובתפקידו כ-SPPP, יהיה כפוף גם לחובות שעל פי סעיף 22 ל-MDR, ובכלל זה עריכת ההצהרה הנזכרת בסעיף 22(2) ל-MDR."
+    },
+
+    {
+      "id": "q25",
+      "type": "heading",
+      "level": 2,
+      "number": "Q25",
+      "en": "Is an operator who assembles a system or a procedure pack (SPP) in accordance with Article 22(1) or (3) MDR using devices already placed on the Union market, considered a distributor?",
+      "he": "האם גורם המרכיב מארז מערכת או הליך (SPP) בהתאם לסעיף 22(1) או (3) ל-MDR תוך שימוש במכשירים שכבר הוצבו בשוק האיחוד, נחשב למפיץ?"
+    },
+    {
+      "id": "q25-p1",
+      "type": "paragraph",
+      "en": "Yes, where a system or procedure pack (SPP) consists of one or more individual CE-marked device(s) already placed on the Union market, the system or procedure pack producer will be considered as a distributor of the individual devices in the SPP. As a distributor of the individual device(s), they will assume the obligations under Article 14 MDR and will also be subject to the obligations under Article 22 MDR, including drawing up the statement referred to in Article 22(2) MDR.",
+      "he": "כן, כאשר מארז מערכת או הליך (SPP) מורכב ממכשיר בודד אחד או יותר הנושאים סימון CE שכבר הוצבו בשוק האיחוד, מפיק מארז המערכת או ההליך ייחשב למפיץ של המכשירים הבודדים שבמארז. בתפקידו כמפיץ של המכשירים הבודדים, הוא ייטול על עצמו את החובות שעל פי סעיף 14 ל-MDR ויהיה כפוף גם לחובות שעל פי סעיף 22 ל-MDR, ובכלל זה עריכת ההצהרה הנזכרת בסעיף 22(2) ל-MDR."
+    },
+
+    {
+      "id": "q26",
+      "type": "heading",
+      "level": 2,
+      "number": "Q26",
+      "en": "Can leasing companies be considered importers or distributors under the Regulations?",
+      "he": "האם חברות החכרה (leasing) יכולות להיחשב ליבואנים או למפיצים על פי התקנות?"
+    },
+    {
+      "id": "q26-p1",
+      "type": "paragraph",
+      "en": "Taking into consideration the definitions of \"importer\" and \"distributor\" as laid down in Article 2 (33) and (34) MDR/Article 2 (26) and 2 (27) of the IVDR respectively, leasing companies may be regarded as importers or distributors according to the specific activities they may carry out with respect to placing on the market or making available of a device.",
+      "he": "בהתחשב בהגדרות של \"יבואן\" ושל \"מפיץ\" כפי שנקבעו בסעיף 2(33) ו-(34) ל-MDR/סעיף 2(26) ו-2(27) ל-IVDR, בהתאמה, חברות החכרה עשויות להיחשב ליבואנים או למפיצים בהתאם לפעילויות הספציפיות שהן עשויות לבצע בנוגע להצבה בשוק או להעמדה לרשות של מכשיר."
+    },
+    {
+      "id": "q26-p2",
+      "type": "paragraph",
+      "en": "In such a case where the leasing company's activities fall under the scope of those of an importer or distributor, the related obligations (e.g. Article 13 and 14 MDR/IVDR) would apply to it.",
+      "he": "במקרה כזה שבו פעילויות חברת ההחכרה נכנסות לתחולת אלה של יבואן או מפיץ, יחולו עליה החובות הנלוות (למשל סעיפים 13 ו-14 ל-MDR/IVDR)."
+    },
+    {
+      "id": "q26-p3",
+      "type": "paragraph",
+      "en": "Where leasing companies are not a part of the supply chain at all (i.e. do not carry out any of the activities with respect to the first placing on the market or making available of a device) they should not be considered to act as an importer or distributor. This would include the case where they offer purely credit/finance services in support of the activities of manufacturers or other economic operators.",
+      "he": "כאשר חברות החכרה אינן חלק כלל משרשרת האספקה (כלומר אינן מבצעות אף אחת מהפעילויות הנוגעות להצבה בשוק לראשונה או להעמדה לרשות של מכשיר), אין לראותן כפועלות כיבואן או כמפיץ. הדבר יכלול את המקרה שבו הן מציעות שירותי אשראי/מימון בלבד לתמיכה בפעילויות של יצרנים או של גורמים כלכליים אחרים."
+    },
+
+    {
+      "id": "sec-examples",
+      "type": "heading",
+      "level": 1,
+      "en": "Practical Examples",
+      "he": "דוגמאות מעשיות"
+    },
+    {
+      "id": "ex1-caption",
+      "type": "paragraph",
+      "en": "Example 1: Determining the importer when the physical operation (e.g. transportation or storage) of 'placing the device on the market' is sub-contracted.",
+      "he": "דוגמה 1: קביעת היבואן כאשר הפעולה הפיזית (למשל הובלה או אחסון) של 'הצבת המכשיר בשוק' מועברת לקבלן משנה."
+    },
+    {
+      "id": "ex1-p1",
+      "type": "paragraph",
+      "en": "Entity (X) stipulates a contract of sale with a third-country manufacturer to import products into the Union. Thereafter, it stipulates a logistics contract with entity (Y) to physically transport the products to the Union market or provide short-term storage activities. In this case, entity (Y) acts like a \"subcontractor\" of entity (X) performing the logistics to enable the placing on the market of products. Entity (X) is considered the importer, responsible for compliance with the Article 13 of the Regulations.",
+      "he": "ישות (X) מתקשרת בחוזה מכר עם יצרן ממדינה שלישית לצורך ייבוא מוצרים אל תוך האיחוד. לאחר מכן, היא מתקשרת בחוזה לוגיסטיקה עם ישות (Y) לצורך הובלה פיזית של המוצרים אל שוק האיחוד או לצורך מתן פעילויות אחסון קצרות-טווח. במקרה זה, ישות (Y) פועלת כ\"קבלן משנה\" של ישות (X) המבצע את הלוגיסטיקה כדי לאפשר את הצבת המוצרים בשוק. ישות (X) נחשבת ליבואן, האחראי לעמידה בסעיף 13 לתקנות."
+    },
+    {
+      "id": "ex2-caption",
+      "type": "paragraph",
+      "en": "Example 2: A manufacturer (M) established in the Union has a manufacturing facility in a third country. Can (M) send devices directly from its manufacturing facility to an EU based distributor (Z) without (Z) becoming an importer?",
+      "he": "דוגמה 2: יצרן (M) המבוסס באיחוד מחזיק במתקן ייצור במדינה שלישית. האם (M) יכול לשלוח מכשירים ישירות ממתקן הייצור שלו למפיץ (Z) המבוסס באיחוד האירופי, מבלי ש-(Z) יהפוך ליבואן?"
+    },
+    {
+      "id": "ex2-p1",
+      "type": "paragraph",
+      "en": "If the manufacturer (M) is established in the Union, but its devices are produced at its manufacturing site located outside the Union, (M) is considered the entity placing the product on the Union market, even if the actual importation of the products is done by another company. In this case, because (M) is established in the Union, there is no importer within the importer definition under the Regulations and (Z) is acting as distributor.",
+      "he": "אם היצרן (M) מבוסס באיחוד, אך מכשיריו מיוצרים באתר הייצור שלו הממוקם מחוץ לאיחוד, (M) נחשב לישות המציבה את המוצר בשוק האיחוד, גם אם הייבוא בפועל של המוצרים מתבצע על ידי חברה אחרת. במקרה זה, מאחר ש-(M) מבוסס באיחוד, אין יבואן בגדר הגדרת היבואן על פי התקנות, ו-(Z) פועל כמפיץ."
+    },
+    {
+      "id": "ex3-caption",
+      "type": "paragraph",
+      "en": "Example 3: Entity (X) physically brings medical devices manufactured in a third country into the Union. However, the devices are not placed on the Union market (e.g. only in transit) and are supplied directly on to a third country distributor (entity Y). A legal transfer of ownership has taken place between entity (X) and entity (Y). Entity (Y) supplies the devices on to a distributor in the EU (entity Z) and the devices are placed on the Union market for the first time. Is entity (X) considered an importer even though they are not placing devices on the Union market? Or is entity (Z) considered the importer?",
+      "he": "דוגמה 3: ישות (X) מביאה פיזית אל תוך האיחוד מכשירים רפואיים המיוצרים במדינה שלישית. אולם, המכשירים אינם מוצבים בשוק האיחוד (למשל רק במעבר) ומסופקים ישירות הלאה למפיץ ממדינה שלישית (ישות Y). העברה חוקית של בעלות התרחשה בין ישות (X) לישות (Y). ישות (Y) מספקת את המכשירים הלאה למפיץ באיחוד האירופי (ישות Z), והמכשירים מוצבים בשוק האיחוד לראשונה. האם ישות (X) נחשבת ליבואן אף שאינה מציבה מכשירים בשוק האיחוד? או שמא ישות (Z) נחשבת ליבואן?"
+    },
+    {
+      "id": "ex3-p1",
+      "type": "paragraph",
+      "en": "As entity (X), despite bringing the devices into the Union, never placed the devices or made them available on the Union market, they are not acting as an importer for those devices. Instead, entity (Z) will undertake the roles and responsibilities of an importer if they place the devices on the Union market (i.e. perform the first making available). Adapting the lines of transfer of legal property of the goods could be a means of limiting the number of EU importers. The physical goods could go from the third country manufacturer to distributor (Z) and may physically transit a third country.",
+      "he": "מאחר שישות (X), על אף שהביאה את המכשירים אל תוך האיחוד, מעולם לא הציבה את המכשירים ולא העמידה אותם לרשות בשוק האיחוד, היא אינה פועלת כיבואן עבור מכשירים אלה. במקום זאת, ישות (Z) תיטול על עצמה את תפקידיו ואת אחריותו של יבואן אם תציב את המכשירים בשוק האיחוד (כלומר תבצע את ההעמדה לרשות לראשונה). התאמת קווי העברת הבעלות החוקית בטובין עשויה לשמש אמצעי לצמצום מספר יבואני האיחוד האירופי. הטובין הפיזיים יכולים לעבור מהיצרן במדינה השלישית אל המפיץ (Z) ועשויים לעבור פיזית דרך מדינה שלישית."
+    },
+
+    {
+      "id": "fn-1",
+      "type": "note",
+      "marker": "1",
+      "en": "MDCG 2018-6 'Clarifications of UDI related responsibilities in relation to Article 16 of the Medical Device Regulation (EU) 2017/745 and the In-Vitro Diagnostic Medical Device Regulation (EU) 2017/746'.",
+      "he": "MDCG 2018-6 'הבהרות בנוגע לאחריות הקשורה ל-UDI ביחס לסעיף 16 לתקנת המכשירים הרפואיים (האיחוד האירופי) 2017/745 ולתקנת המכשירים הרפואיים לאבחון ויטרו (האיחוד האירופי) 2017/746'."
+    },
+    {
+      "id": "fn-2",
+      "type": "note",
+      "marker": "2",
+      "en": "MDCG 2021-23 'Guidance for notified bodies, distributors and importers on certification activities in accordance with Article 16(4) of Regulation (EU) 2017/745 and Regulation (EU) 2017/746'.",
+      "he": "MDCG 2021-23 'הנחיה לגופים מאונתרים, מפיצים ויבואנים בנוגע לפעילויות הסמכה בהתאם לסעיף 16(4) לתקנה (האיחוד האירופי) 2017/745 ולתקנה (האיחוד האירופי) 2017/746'."
+    },
+    {
+      "id": "fn-3",
+      "type": "note",
+      "marker": "3",
+      "en": "MDCG 2021-26 'Questions and Answers on repackaging & relabelling activities under Article 16 of Regulation (EU) 2017/745 and Regulation (EU) 2017/746'.",
+      "he": "MDCG 2021-26 'שאלות ותשובות בנושא פעילויות אריזה מחדש ותיוג מחדש על פי סעיף 16 לתקנה (האיחוד האירופי) 2017/745 ולתקנה (האיחוד האירופי) 2017/746'."
+    },
+    {
+      "id": "fn-4",
+      "type": "note",
+      "marker": "4",
+      "en": "Note, Regulation (EU) 2019/1020 is applicable to the MDR and IVDR as listed in its Annex I, in so far as there are no specific provisions with the same objective in the MDR or IVDR, which regulate in a more specific manner particular aspects of market surveillance and enforcement.",
+      "he": "יצוין, תקנה (האיחוד האירופי) 2019/1020 חלה על ה-MDR ועל ה-IVDR כמפורט בנספח I שלה, ככל שאין הוראות ספציפיות בעלות אותה מטרה ב-MDR או ב-IVDR, המסדירות באופן ספציפי יותר היבטים מסוימים של פיקוח שוק ואכיפה."
+    },
+    {
+      "id": "fn-5",
+      "type": "note",
+      "marker": "5",
+      "en": "Please see 'Commission Notice, The 'Blue Guide' on the implementation of EU products rules 2022'.",
+      "he": "ראו 'הודעת הנציבות, 'המדריך הכחול' (Blue Guide) ליישום כללי המוצרים של האיחוד האירופי 2022'."
+    },
+    {
+      "id": "fn-6",
+      "type": "note",
+      "marker": "6",
+      "en": "Please see the Commission Website.",
+      "he": "ראו את אתר האינטרנט של הנציבות."
+    },
+    {
+      "id": "fn-7",
+      "type": "note",
+      "marker": "7",
+      "en": "Please see the Commission website, the webpage on \"Authorised Representatives, Importers and Distributors\" and \"Factsheet for authorised representatives/importers/distributors\".",
+      "he": "ראו את אתר האינטרנט של הנציבות, את עמוד האינטרנט בנושא \"נציגים מורשים, יבואנים ומפיצים\" ואת \"דף המידע לנציגים מורשים/יבואנים/מפיצים\"."
+    },
+    {
+      "id": "fn-8",
+      "type": "note",
+      "marker": "8",
+      "en": "Note in particular sections of the 'Blue Guide' on 'making available on the market', \"placing on the market\" 2.2, and 2.3, and 3.3 (Importer), 3.4 (distributor).",
+      "he": "יצוין בפרט מקטעים של 'המדריך הכחול' (Blue Guide) בנושא 'העמדה לרשות השוק', \"הצבה בשוק\" 2.2, ו-2.3, ו-3.3 (יבואן), 3.4 (מפיץ)."
+    },
+    {
+      "id": "fn-9",
+      "type": "note",
+      "marker": "9",
+      "en": "Please see the Commission Website.",
+      "he": "ראו את אתר האינטרנט של הנציבות."
+    },
+    {
+      "id": "fn-10",
+      "type": "note",
+      "marker": "10",
+      "en": "Please note that the concept of placing on the market refers to each individual product, not the type of product. For further information, see Section 2.3 of the 'Blue Guide'.",
+      "he": "יש לשים לב כי מושג ההצבה בשוק מתייחס לכל מוצר בודד, ולא לסוג המוצר. למידע נוסף, ראו מקטע 2.3 של 'המדריך הכחול' (Blue Guide)."
+    },
+    {
+      "id": "fn-11",
+      "type": "note",
+      "marker": "11",
+      "en": "Note that regardless of whether the consumer purchases the device physically or online from a third country for personal use, the consumer does not become an importer or distributor if he or she does not place the product on the Union market or make it available. However for 'distance sales' within the meaning of Article 6 MDR, the provisions of that article apply.",
+      "he": "יש לשים לב כי בלא קשר לשאלה אם הצרכן רוכש את המכשיר באופן פיזי או באופן מקוון ממדינה שלישית לשימוש אישי, הצרכן אינו הופך ליבואן או למפיץ אם אינו מציב את המוצר בשוק האיחוד או מעמיד אותו לרשות. עם זאת, לעניין 'מכירות מרחוק' כמשמעותן בסעיף 6 ל-MDR, חלות הוראות אותו סעיף."
+    },
+    {
+      "id": "fn-12",
+      "type": "note",
+      "marker": "12",
+      "en": "For further information, see Section 2.3 of the 'Blue Guide'.",
+      "he": "למידע נוסף, ראו מקטע 2.3 של 'המדריך הכחול' (Blue Guide)."
+    },
+    {
+      "id": "fn-13",
+      "type": "note",
+      "marker": "13",
+      "en": "For further information, see Section 2.3 of the 'Blue Guide'.",
+      "he": "למידע נוסף, ראו מקטע 2.3 של 'המדריך הכחול' (Blue Guide)."
+    },
+    {
+      "id": "fn-14",
+      "type": "note",
+      "marker": "14",
+      "en": "For further information, see Section 2.3 of the 'Blue Guide'.",
+      "he": "למידע נוסף, ראו מקטע 2.3 של 'המדריך הכחול' (Blue Guide)."
+    },
+    {
+      "id": "fn-15",
+      "type": "note",
+      "marker": "15",
+      "en": "Please note that hospital pharmacies, circulating devices for internal use within hospital departments, will not be considered distributors as described above.",
+      "he": "יש לשים לב כי בתי מרקחת של בתי חולים, המעבירים מכשירים לשימוש פנימי בתוך מחלקות בית החולים, לא ייחשבו למפיצים כמתואר לעיל."
+    },
+    {
+      "id": "fn-16",
+      "type": "note",
+      "marker": "16",
+      "en": "Please also note, that Recital 28 MDR/Recital 26 IVDR provides 'For the purpose of this Regulation, the activities of distributors should be deemed to include acquisition, holding and supplying of devices'.",
+      "he": "כן יש לשים לב כי פסקת הקדמה 28 ל-MDR/פסקת הקדמה 26 ל-IVDR קובעת 'לצורך תקנה זו, פעילויות המפיצים ייחשבו ככוללות רכישה, החזקה ואספקה של מכשירים'."
+    },
+    {
+      "id": "fn-17",
+      "type": "note",
+      "marker": "17",
+      "en": "However, checks by customs or competent authorities on the importer's plans to update the device labelling/packaging/accompanying documentation before the device is placed on the market, could be performed.",
+      "he": "עם זאת, ניתן לבצע בדיקות על ידי רשויות המכס או הרשויות המוסמכות בנוגע לתוכניות היבואן לעדכן את תיוג המכשיר/אריזתו/התיעוד הנלווה בטרם יוצב המכשיר בשוק."
+    },
+    {
+      "id": "fn-18",
+      "type": "note",
+      "marker": "18",
+      "en": "Note this applies exclusively to devices delivered to a single user or healthcare facility, to ensure the importer's details reach the end user.",
+      "he": "יצוין כי הדבר חל אך ורק על מכשירים המסופקים למשתמש יחיד או למתקן בריאות יחיד, כדי להבטיח שפרטי היבואן יגיעו למשתמש הקצה."
+    },
+    {
+      "id": "fn-19",
+      "type": "note",
+      "marker": "19",
+      "en": "Please also note that 'Fulfilment service providers' as defined in Article 3(11) of Regulation (EU) 2019/1020 on market surveillance are now considered economic operators under that Regulation 2019/1020 and should meet any associated obligations. A 'fulfilment service provider' means any natural or legal person offering, in the course of commercial activity, at least two of the following services: warehousing, packaging, addressing and dispatching, without having ownership of the products involved, excluding postal services as defined in point 1 of Article 2 of Directive 97/67/EC of the European Parliament and of the Council (31), parcel delivery services as defined in point 2 of Article 2 of Regulation (EU) 2018/644 of the European Parliament and of the Council (32), and any other postal services or freight transport services. See also, Commission Notice on the market surveillance of products sold online Text with EEA relevance. (europa.eu)).",
+      "he": "כן יש לשים לב כי 'ספקי שירותי מילוי' (fulfilment service providers) כהגדרתם בסעיף 3(11) לתקנה (האיחוד האירופי) 2019/1020 בנושא פיקוח שוק נחשבים כעת לגורמים כלכליים על פי אותה תקנה 2019/1020 ועליהם לעמוד בכל החובות הנלוות. 'ספק שירותי מילוי' פירושו כל אדם טבעי או משפטי המציע, במהלך פעילות מסחרית, לפחות שניים מהשירותים הבאים: אחסנה, אריזה, מתן כתובת ומשלוח, מבלי שתהיה לו בעלות על המוצרים הנדונים, למעט שירותי דואר כהגדרתם בנקודה 1 של סעיף 2 לדירקטיבה 97/67/EC של הפרלמנט האירופי ושל המועצה (31), שירותי מסירת חבילות כהגדרתם בנקודה 2 של סעיף 2 לתקנה (האיחוד האירופי) 2018/644 של הפרלמנט האירופי ושל המועצה (32), וכל שירותי דואר או שירותי הובלת מטענים אחרים. ראו גם, הודעת הנציבות בנושא פיקוח שוק על מוצרים הנמכרים באופן מקוון, טקסט בעל רלוונטיות ל-EEA. (europa.eu)."
+    },
+    {
+      "id": "fn-20",
+      "type": "note",
+      "marker": "20",
+      "en": "See above footnote.",
+      "he": "ראו הערת שוליים לעיל."
+    },
+    {
+      "id": "fn-21",
+      "type": "note",
+      "marker": "21",
+      "en": "See also footnote 18.",
+      "he": "ראו גם הערת שוליים 18."
+    },
+    {
+      "id": "fn-22",
+      "type": "note",
+      "marker": "22",
+      "en": "Please see the Commission website for the list of member state competent authorities for medical devices.",
+      "he": "ראו את אתר האינטרנט של הנציבות לרשימת הרשויות המוסמכות של המדינות החברות לעניין מכשירים רפואיים."
+    },
+    {
+      "id": "fn-23",
+      "type": "note",
+      "marker": "23",
+      "en": "Please see the MDCG 2023-3 'Questions and Answers on vigilance terms and concepts as outlined in the Regulation (EU) 2017/745 on medical devices' for further information on the term 'serious risk'.",
+      "he": "ראו את MDCG 2023-3 'שאלות ותשובות בנושא מונחי ומושגי ערנות כמפורט בתקנה (האיחוד האירופי) 2017/745 בנושא מכשירים רפואיים' למידע נוסף בנוגע למונח 'סיכון חמור'."
+    },
+    {
+      "id": "fn-24",
+      "type": "note",
+      "marker": "24",
+      "en": "Council Directives 90/385/EEC and 93/42/EEC (OJ L 117, 5.5.2017, p. 1) and Directive 98/79/EC (OJ L 331, 7.12.1998, p. 1).",
+      "he": "דירקטיבות המועצה 90/385/EEC ו-93/42/EEC (OJ L 117, 5.5.2017, עמ' 1) ודירקטיבה 98/79/EC (OJ L 331, 7.12.1998, עמ' 1)."
+    },
+    {
+      "id": "fn-25",
+      "type": "note",
+      "marker": "25",
+      "en": "For further information on 'legacy devices' please see MDCG 2021-25 'Regulation (EU) 2017/745 - application of MDR requirements to 'legacy devices' and to devices placed on the market prior to 26 May 2021 in accordance with Directives 90/385/EEC or 93/42/EEC' and MDCG 2022-8 'Regulation (EU) 2017/746 - application of IVDR requirements to 'legacy devices' and to devices placed on the market prior to 26 May 2022 in accordance with Directive 98/79/EC'.",
+      "he": "למידע נוסף בנוגע ל'מכשירי מורשת' ראו MDCG 2021-25 'תקנה (האיחוד האירופי) 2017/745 - החלת דרישות ה-MDR על 'מכשירי מורשת' ועל מכשירים שהוצבו בשוק לפני 26 במאי 2021 בהתאם לדירקטיבות 90/385/EEC או 93/42/EEC' ו-MDCG 2022-8 'תקנה (האיחוד האירופי) 2017/746 - החלת דרישות ה-IVDR על 'מכשירי מורשת' ועל מכשירים שהוצבו בשוק לפני 26 במאי 2022 בהתאם לדירקטיבה 98/79/EC'."
+    },
+    {
+      "id": "fn-26",
+      "type": "note",
+      "marker": "26",
+      "en": "Please see 'MDCG 2022-16 Guidance on Authorised Representatives Regulation (EU) 2017/745 on medical devices (MDR) and Regulation (EU) 2017/746 on in vitro diagnostic medical devices (IVDR)' for further information on the roles and obligations of the authorised representative, including concerning their mandate covering one specific generic device group of the manufacturer.",
+      "he": "ראו 'MDCG 2022-16 הנחיה בנושא נציגים מורשים, תקנה (האיחוד האירופי) 2017/745 בנושא מכשירים רפואיים (MDR) ותקנה (האיחוד האירופי) 2017/746 בנושא מכשירים רפואיים לאבחון ויטרו (IVDR)' למידע נוסף בנוגע לתפקידיו ולחובותיו של הנציג המורשה, ובכלל זה בנוגע לייפוי הכוח (mandate) שלו החל על קבוצת מכשירים גנרית ספציפית אחת של היצרן."
+    },
+    {
+      "id": "fn-27",
+      "type": "note",
+      "marker": "27",
+      "en": "Prior to the full functionality of EUDAMED, reference should be made to 'MDCG 2021-1 Guidance on harmonised administrative practices and alternative technical solutions until EUDAMED is fully functional'.",
+      "he": "בטרם יושג תפקוד מלא של EUDAMED, יש להפנות ל'MDCG 2021-1 הנחיה בנושא נהלים מנהליים מתואמים ופתרונות טכניים חלופיים עד שה-EUDAMED יהיה מתפקד באופן מלא'."
+    },
+    {
+      "id": "fn-28",
+      "type": "note",
+      "marker": "28",
+      "en": "MDCG 2021-13, 'Q&A on obligations and related rules for the registration in EUDAMED of actors other than manufacturers, authorised representatives and Importers subject to the obligations of Article 31 MDR and Article 28 IVDR'.",
+      "he": "MDCG 2021-13, 'שאלות ותשובות בנושא חובות וכללים נלווים לרישום ב-EUDAMED של גורמים שאינם יצרנים, נציגים מורשים ויבואנים הכפופים לחובות סעיף 31 ל-MDR וסעיף 28 ל-IVDR'."
+    },
+    {
+      "id": "fn-29",
+      "type": "note",
+      "marker": "29",
+      "en": "Please note in cases where the individual CE marked device(s) in the SPP is an IVD, the importer will assume the obligations under Article 13 IVDR.",
+      "he": "יש לשים לב כי במקרים שבהם המכשיר/ים הבודד/ים הנושא/ים סימון CE שבמארז המערכת/ההליך הוא IVD, היבואן ייטול על עצמו את החובות שעל פי סעיף 13 ל-IVDR."
+    },
+    {
+      "id": "fn-30",
+      "type": "note",
+      "marker": "30",
+      "en": "Please note in cases where the individual CE marked device(s) in the SPP is an IVD, the distributors will assume the obligations under Article 14 IVDR.",
+      "he": "יש לשים לב כי במקרים שבהם המכשיר/ים הבודד/ים הנושא/ים סימון CE שבמארז המערכת/ההליך הוא IVD, המפיצים ייטלו על עצמם את החובות שעל פי סעיף 14 ל-IVDR."
+    },
+    {
+      "id": "fn-31",
+      "type": "note",
+      "marker": "31",
+      "en": "Please see the 'General Obligations' section of this document for more information on third party logistics.",
+      "he": "ראו את מקטע 'חובות כלליות' של מסמך זה למידע נוסף בנושא לוגיסטיקה של צד שלישי."
+    }
+  ]
+}

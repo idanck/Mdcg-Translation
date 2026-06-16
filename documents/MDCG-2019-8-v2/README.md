@@ -11,8 +11,8 @@
 
 | Item | Status |
 |------|--------|
-| Original (EN) | ⬜ Not yet added |
-| Hebrew translation | ⬜ Not yet started |
+| Original (EN) | ✅ `original/mdcg_2019-8_en.pdf` |
+| Hebrew translation | 🔍 Under review (full translation done) |
 
 ---
 
@@ -20,11 +20,20 @@
 
 | File | Description |
 |------|-------------|
-| `original/` | Original English document (PDF) |
-| `translation/` | Hebrew translation |
+| `original/mdcg_2019-8_en.pdf` | Original English document (PDF) |
+| `translation/MDCG-2019-8-v2.he.json` | Canonical bilingual translation (source of truth) |
+| `translation/MDCG-2019-8-v2.he.html` | Hebrew RTL rendering, generated from the JSON |
 
 ---
 
 ## Notes
 
-<!-- Add translation notes, terminology decisions, open questions here -->
+- Pilot document for the translation format (canonical JSON + generated RTL HTML).
+- Sections 1–8 fully translated. Annex I examples are *illustrative*: sample card data
+  (names, addresses, UDI/serial numbers) is preserved verbatim and not translated, in line
+  with the source's General Note and footnote 9. The multilingual symbol table on the back of
+  the card (EU-language equivalents, machine-translated per footnote 9) is summarised rather
+  than reproduced per-language.
+- To regenerate the HTML after editing the JSON:
+  `python3 tools/render_html.py MDCG-2019-8-v2`
+- To validate the JSON against the schema: `python3 tools/validate.py MDCG-2019-8-v2`

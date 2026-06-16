@@ -24,12 +24,47 @@
 ```
 documents/
 └── MDCG-YYYY-N/
-    ├── README.md          ← שם, קישור מקור, סטטוס תרגום
-    ├── original/          ← קובץ המקור האנגלי (PDF) ✅ הורד
-    └── translation/       ← התרגום לעברית (יבוצע בהמשך)
+    ├── README.md                 ← שם, קישור מקור, סטטוס תרגום
+    ├── original/                 ← קובץ המקור האנגלי (PDF) ✅ הורד
+    └── translation/
+        ├── <ID>.he.json          ← תרגום קנוני דו-לשוני (מקור-האמת)
+        └── <ID>.he.html          ← עמוד עברית RTL, נוצר אוטומטית מה-JSON
 glossary/
-└── glossary.md            ← מילון מונחים עקבי
+└── glossary.md                   ← מילון מונחים עקבי
+schema/
+└── mdcg-translation.schema.json  ← סכימת ה-JSON של התרגום
+tools/
+├── requirements.txt              ← תלויות (pdfplumber, jsonschema)
+├── extract_pdf.py                ← חילוץ טקסט המקור מה-PDF (עזר לתרגום)
+├── validate.py                   ← ולידציה של ה-JSON מול הסכימה
+└── render_html.py                ← רינדור ה-HTML מתוך ה-JSON
 ```
+
+## פורמט הפלט ושילוב באתר
+
+לכל מסמך מתורגם נוצרים שני קבצים תחת `translation/`:
+
+- **`<ID>.he.json`** — *מקור-האמת*. מבנה דו-לשוני: לכל בלוק (כותרת, פסקה, רשימה, טבלה, הערת שוליים,
+  דוגמה) נשמרים גם המקור `en` וגם התרגום `he`, עם מזהה `id` יציב לעוגנים/קישורים. נוח להזרקה
+  לכל מערכת אתר (CMS, React, Hugo וכו').
+- **`<ID>.he.html`** — עמוד עברית RTL סמנטי, **נוצר תמיד מחדש מה-JSON** (אין לערוך ידנית). כולל
+  מתג CSS להצגת טקסט המקור באנגלית לצד התרגום.
+
+זרימת עבודה לכל מסמך:
+
+```bash
+python3 -m pip install -r tools/requirements.txt
+python3 tools/extract_pdf.py  <ID>     # חילוץ טקסט המקור (עזר)
+# בונים/ממלאים את documents/<ID>/translation/<ID>.he.json
+python3 tools/validate.py     <ID>     # ולידציה מול הסכימה
+python3 tools/render_html.py  <ID>     # יצירת ה-HTML
+```
+
+## מסמכים שתורגמו
+
+| מסמך | סטטוס |
+|------|--------|
+| [MDCG-2019-8-v2](documents/MDCG-2019-8-v2) — Implant Card (פיילוט) | 🔍 בסקירה |
 
 ---
 

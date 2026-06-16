@@ -1,0 +1,1811 @@
+{
+  "id": "MDCG-2021-1-rev1",
+  "title": {
+    "en": "Guidance on harmonised administrative practices and alternative technical solutions until EUDAMED is fully functional",
+    "he": "הנחיה בנושא פרקטיקות מינהליות מתואמות ופתרונות טכניים חלופיים עד אשר EUDAMED יהיה פעיל באופן מלא"
+  },
+  "category": "EUDAMED",
+  "publicationDate": "2021-05",
+  "source": {
+    "url": "https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en",
+    "file": "original/mdcg_2021-1_en.pdf"
+  },
+  "language": "he",
+  "direction": "rtl",
+  "translationStatus": "review",
+  "glossaryVersion": "2026-06",
+  "blocks": [
+    {
+      "id": "disclaimer-1",
+      "type": "paragraph",
+      "en": "This document has been endorsed by the Medical Device Coordination Group (MDCG) established by Article 103 of Regulation (EU) 2017/745. The MDCG is composed of representatives of all Member States and it is chaired by a representative of the European Commission.",
+      "he": "מסמך זה אושר על ידי קבוצת תיאום המכשירים הרפואיים (MDCG) שהוקמה מכוח סעיף 103 לתקנה (האיחוד האירופי) 2017/745. ה-MDCG מורכבת מנציגים של כל המדינות החברות ובראשה עומד נציג של הנציבות האירופית."
+    },
+    {
+      "id": "disclaimer-2",
+      "type": "paragraph",
+      "en": "The document is not a European Commission document and it cannot be regarded as reflecting the official position of the European Commission. Any views expressed in this document are not legally binding and only the Court of Justice of the European Union can give binding interpretations of Union law.",
+      "he": "המסמך אינו מסמך של הנציבות האירופית ואין לראות בו כמשקף את העמדה הרשמית של הנציבות האירופית. כל דעה המובעת במסמך זה אינה מחייבת מבחינה משפטית, ורק בית הדין לצדק של האיחוד האירופי מוסמך לתת פרשנות מחייבת לדין האיחוד."
+    },
+    {
+      "id": "changes-heading",
+      "type": "heading",
+      "level": 1,
+      "en": "MDCG 2021-1 Rev.1 changes",
+      "he": "שינויים ב-MDCG 2021-1 Rev.1"
+    },
+    {
+      "id": "changes-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          {
+            "en": "MDCG 2021-1 Rev.1 changes",
+            "he": "שינויים ב-MDCG 2021-1 Rev.1"
+          },
+          {
+            "en": "",
+            "he": ""
+          }
+        ],
+        [
+          {
+            "en": "Third paragraph",
+            "he": "פסקה שלישית"
+          },
+          {
+            "en": "Sentence deleted: “Parties should also note that, in principle and unless otherwise concluded by the MDCG, the reporting obligations with regard to EUDAMED apply to all information generated and collected under the MDR from its date of application (e.g. UDI, certificates) and therefore must be carried out as soon as EUDAMED becomes fully functional”",
+            "he": "משפט שנמחק: “על הצדדים לשים לב גם כי, באופן עקרוני ואלא אם נקבע אחרת על ידי ה-MDCG, חובות הדיווח הנוגעות ל-EUDAMED חלות על כל המידע שנוצר ונאסף על פי ה-MDR החל ממועד החלתו (למשל UDI, תעודות) ולפיכך עליהן להתבצע מיד עם הפיכת EUDAMED לפעיל באופן מלא”"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "intro-heading",
+      "type": "heading",
+      "level": 1,
+      "en": "INTRODUCTION",
+      "he": "מבוא"
+    },
+    {
+      "id": "intro-p1",
+      "type": "paragraph",
+      "en": "Article 33 of Regulation (EU) 2017/745 on medical devices (MDR) requires the Commission to set up a European database on medical devices (‘EUDAMED’). According to Article 33(2) of the MDR, Eudamed will be composed of six different electronic systems (so called ‘modules’), which facilitate the collation and processing of information under the MDR regarding the registration of relevant economic operators (actor registration), devices and systems and procedure packs (UDI), notified bodies & certificates, certain aspects of conformity assessment, clinical investigations, vigilance and market surveillance as well as post-market surveillance.",
+      "he": "סעיף 33 לתקנה (האיחוד האירופי) 2017/745 בנושא מכשירים רפואיים¹ (ה-MDR) מחייב את הנציבות להקים מסד נתונים אירופי בנושא מכשירים רפואיים (‘EUDAMED’). על פי סעיף 33(2) ל-MDR, EUDAMED יורכב משישה מערכות אלקטרוניות שונות (המכונות ‘מודולים’), המסייעות לאיסוף ולעיבוד של מידע על פי ה-MDR בנוגע לרישום גורמים כלכליים רלוונטיים (רישום גורמים), מכשירים ומערכות וערכות פרוצדורה (UDI), גופים מאונתרים ותעודות, היבטים מסוימים של הערכת התאמה, חקירות קליניות, ערנות ופיקוח שוק וכן מעקב שלאחר שיווק (PMS)."
+    },
+    {
+      "id": "intro-p2",
+      "type": "paragraph",
+      "en": "On 30 October 2019, the Commission published a notice by which it concluded that the full functionality of EUDAMED requires the availability and full operation of all six modules, both individually and jointly. The notice foresees the launch of EUDAMED for May 2022, which correlates with the date of application of Regulation (EU) 2017/746 on in vitro diagnostic medical devices (IVDR). In this regard, it is important to note that the official launch of EUDAMED in May 2022 does not affect the date of application of the MDR on 26 May 2021.",
+      "he": "ב-30 באוקטובר 2019 פרסמה הנציבות הודעה² שבה הסיקה כי פעילותו המלאה של EUDAMED מחייבת את הזמינות וההפעלה המלאה של כל ששת המודולים, הן בנפרד והן במשולב. ההודעה צופה את השקת EUDAMED למאי 2022, המתואמת עם מועד החלת תקנה (האיחוד האירופי) 2017/746 בנושא מכשירים רפואיים לאבחון במבחנה³ (ה-IVDR). בהקשר זה חשוב לציין כי ההשקה הרשמית של EUDAMED במאי 2022 אינה משפיעה על מועד החלת ה-MDR ב-26 במאי 2021."
+    },
+    {
+      "id": "intro-p3",
+      "type": "paragraph",
+      "en": "Article 123(3)(d) MDR addresses the possibility that EUDAMED is not fully functional on the date of application of the MDR (26 May 2021). Accordingly, the obligations and requirements in the MDR that relate to EUDAMED shall apply from the date corresponding to six months after the date of publication of the notice referred to in Article 34(3) – notice of full functionality of Eudamed. Until EUDAMED is fully functional, the MDR stipulates that the corresponding provisions of Directives 90/385/EEC and 93/42/EEC shall continue to apply for the purpose of meeting the obligations laid down in the provisions of Article 123(3)(d) regarding the exchange of information.",
+      "he": "סעיף 123(3)(d) ל-MDR מתייחס לאפשרות ש-EUDAMED אינו פעיל באופן מלא במועד החלת ה-MDR (26 במאי 2021). בהתאם לכך, החובות והדרישות ב-MDR הנוגעות ל-EUDAMED יחולו ממועד המתאים לשישה חודשים לאחר מועד פרסום ההודעה הנזכרת בסעיף 34(3) – הודעה על פעילותו המלאה של EUDAMED. עד אשר EUDAMED יהיה פעיל באופן מלא, ה-MDR קובע כי ההוראות המקבילות של הנחיות 90/385/EEC⁴ ו-93/42/EEC⁵ ימשיכו לחול לשם עמידה בחובות הקבועות בהוראות סעיף 123(3)(d) בנוגע להחלפת מידע."
+    },
+    {
+      "id": "intro-p4",
+      "type": "paragraph",
+      "en": "In addition, Article 123(3)(e) MDR clarifies that Article 29(4) MDR on the registration of devices, and Article 56(5) MDR on the registration of certificates, start to apply 24 months after the date of publication of the notice referred to in Article 34(3) MDR. Article 122 is outside scope of this guidance.",
+      "he": "בנוסף, סעיף 123(3)(e) ל-MDR מבהיר כי סעיף 29(4) ל-MDR בנושא רישום מכשירים, וסעיף 56(5) ל-MDR בנושא רישום תעודות, מתחילים לחול 24 חודשים לאחר מועד פרסום ההודעה הנזכרת בסעיף 34(3) ל-MDR. סעיף 122 נמצא מחוץ לתחולת הנחיה זו."
+    },
+    {
+      "id": "scope-heading",
+      "type": "heading",
+      "level": 1,
+      "en": "SCOPE",
+      "he": "תחולה"
+    },
+    {
+      "id": "scope-p1",
+      "type": "paragraph",
+      "en": "This document provides guidance to Member States and other relevant parties on the application of certain MDR provisions during the absence of EUDAMED. To that end, this guidance intends to describe harmonised administrative practices and alternative technical solutions for the exchange of information until EUDAMED becomes fully functional.",
+      "he": "מסמך זה מספק הנחיה למדינות החברות ולצדדים רלוונטיים אחרים בנוגע ליישום הוראות מסוימות של ה-MDR בעת היעדרו של EUDAMED. לשם כך, הנחיה זו מבקשת לתאר פרקטיקות מינהליות מתואמות ופתרונות טכניים חלופיים להחלפת מידע עד אשר EUDAMED יהיה פעיל באופן מלא."
+    },
+    {
+      "id": "scope-p2",
+      "type": "paragraph",
+      "en": "The proposed practices and solutions aim to enable Member States and other relevant parties to meet their obligations under the MDR effectively while minimising any potential additional burden on the parties concerned. This guidance addresses in particular cases where the exchange of information would be difficult, or even not possible, to achieve based on the corresponding provisions of Directives 90/385/EEC and 93/42/EEC. In doing so, this guidance takes into account the decision of the Medical Device Coordination Group in its meeting of 12 March 2020 where the group agreed that the Commission makes available to Member States each EUDAMED module as soon as it is operational. This approach also has an impact on the means by which relevant information collected under the MDR will be made available to the public, which shall take place on a gradual basis.",
+      "he": "הפרקטיקות והפתרונות המוצעים נועדו לאפשר למדינות החברות ולצדדים רלוונטיים אחרים לעמוד ביעילות בחובותיהם על פי ה-MDR, תוך מזעור כל נטל נוסף אפשרי על הצדדים הנוגעים בדבר. הנחיה זו מתייחסת במיוחד למקרים שבהם החלפת מידע תהיה קשה, או אף בלתי אפשרית, על בסיס ההוראות המקבילות של הנחיות 90/385/EEC ו-93/42/EEC. בעשותה כן, הנחיה זו מביאה בחשבון את החלטת קבוצת תיאום המכשירים הרפואיים בישיבתה מ-12 במרץ 2020, שבה הסכימה הקבוצה כי הנציבות תעמיד לרשות המדינות החברות כל מודול של EUDAMED מיד עם היותו תפעולי. גישה זו משפיעה גם על האמצעים שבהם מידע רלוונטי שנאסף על פי ה-MDR יועמד לרשות הציבור, אשר יתבצע באופן הדרגתי."
+    },
+    {
+      "id": "scope-p3",
+      "type": "paragraph",
+      "en": "The proposed practices and solutions set out in this document do not affect the general obligations of the parties to comply with the requirements under the MDR, including those contained in the provisions referred to in Article 123(3) letters (d) and (e) MDR. Whenever this guidance makes reference to CircaBC as alternative solution, the Commission and other relevant parties should endeavour to make use of already existing CircaBC directories to the extent that this is possible and appropriate.",
+      "he": "הפרקטיקות והפתרונות המוצעים המפורטים במסמך זה אינם משפיעים על החובות הכלליות של הצדדים לציית לדרישות על פי ה-MDR, לרבות אלה הכלולות בהוראות הנזכרות בסעיף 123(3) אותיות (d) ו-(e) ל-MDR. בכל מקום שבו הנחיה זו מפנה ל-CircaBC⁶ כפתרון חלופי, על הנציבות ועל צדדים רלוונטיים אחרים לשאוף לעשות שימוש בספריות CircaBC הקיימות כבר, במידה שהדבר אפשרי וראוי."
+    },
+    {
+      "id": "scope-p4",
+      "type": "paragraph",
+      "en": "Parties should also take note of the MDCG Position Paper on the use of the EUDAMED actor registration module and of the Single Registration Number (SRN) in the Member States.",
+      "he": "על הצדדים לשים לב גם לנייר העמדה של ה-MDCG בנוגע לשימוש במודול רישום הגורמים של EUDAMED ובמספר הרישום היחיד (SRN) במדינות החברות.⁷"
+    },
+    {
+      "id": "table-heading",
+      "type": "heading",
+      "level": 1,
+      "en": "Article-by-Article harmonised practices and alternative solutions",
+      "he": "פרקטיקות מתואמות ופתרונות חלופיים, סעיף אחר סעיף"
+    },
+    {
+      "id": "art-29-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Article 29: Registration of devices",
+      "he": "סעיף 29: רישום מכשירים"
+    },
+    {
+      "id": "art-29-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          {
+            "en": "Article",
+            "he": "סעיף"
+          },
+          {
+            "en": "Provisions related to the use of EUDAMED (as referred to in Art. 123(3)(d) MDR)",
+            "he": "הוראות הנוגעות לשימוש ב-EUDAMED (כפי שנזכר בסעיף 123(3)(d) ל-MDR)"
+          },
+          {
+            "en": "Alternative solutions to submit and/or exchange information (as required under the MDR)",
+            "he": "פתרונות חלופיים להגשת ו/או החלפת מידע (כנדרש על פי ה-MDR)"
+          },
+          {
+            "en": "Responsible actor(s)",
+            "he": "גורם/ים אחראי/ם"
+          }
+        ],
+        [
+          {
+            "en": "Article 29: Registration of devices",
+            "he": "סעיף 29: רישום מכשירים"
+          },
+          {
+            "en": "1. Before placing a device, other than a custom-made device, on the market, the manufacturer shall, in accordance with the rules of the issuing entity referred to in Article 27(2), assign a Basic UDI-DI as defined in Part C of Annex VI to the device and shall provide it to the UDI database together with the other core data elements referred to in Part B of Annex VI related to that device. 2. Before placing on the market a system or procedure pack pursuant to Article 22(1) and (3), that is not a custom-made device, the natural or legal person responsible shall assign to the system or procedure pack, in compliance with the rules of the issuing entity, a Basic UDI-DI and shall provide it to the UDI database together with the other core data elements referred to in Part B of Annex VI related to that system or procedure pack. 3. For devices that are the subject of a conformity assessment as referred to in Article 52(3) and in the second and third subparagraphs of Article 52(4), the assignment of a Basic UDI-DI referred to in paragraph 1 of this Article shall be done before the manufacturer applies to a notified body for that assessment. For the devices referred to in the first subparagraph, the notified body shall include a reference to the Basic UDI-DI on the certificate issued in accordance with point (a) of Section 4 of Chapter I of Annex XII and confirm in Eudamed that the information referred to in Section 2.2 of Part A of Annex VI is correct. After the issuing of the relevant certificate and before placing the device on the market, the manufacturer shall provide the Basic UDI-DI to the UDI database together with the other core data elements referred to in Part B of Annex VI related to that device. 4. Before placing a device on the market, other than a custom-made device, the manufacturer shall enter or if, already provided, verify in Eudamed the information referred to in Section 2 of Part A of Annex VI, with the exception of Section 2.2 thereof, and shall thereafter keep the information updated.",
+            "he": "1. בטרם השמת מכשיר על השוק, למעט מכשיר בהזמנה אישית, על היצרן, בהתאם לכללי הגורם המנפיק הנזכר בסעיף 27(2), להקצות למכשיר UDI-DI בסיסי כהגדרתו בחלק C של נספח VI ולספקו למסד הנתונים של ה-UDI יחד עם יתר רכיבי הנתונים המרכזיים הנזכרים בחלק B של נספח VI הנוגעים לאותו מכשיר. 2. בטרם השמת מערכת או ערכת פרוצדורה על השוק לפי סעיף 22(1) ו-(3), שאינה מכשיר בהזמנה אישית, על האדם הטבעי או המשפטי האחראי להקצות למערכת או לערכת הפרוצדורה, בהתאם לכללי הגורם המנפיק, UDI-DI בסיסי ולספקו למסד הנתונים של ה-UDI יחד עם יתר רכיבי הנתונים המרכזיים הנזכרים בחלק B של נספח VI הנוגעים לאותה מערכת או ערכת פרוצדורה. 3. לגבי מכשירים הנתונים להערכת התאמה כנזכר בסעיף 52(3) ובפסקאות המשנה השנייה והשלישית של סעיף 52(4), הקצאת ה-UDI-DI הבסיסי הנזכרת בפסקה 1 של סעיף זה תבוצע בטרם פונה היצרן לגוף מאונתר לאותה הערכה. לגבי המכשירים הנזכרים בפסקת המשנה הראשונה, הגוף המאונתר יכלול הפניה ל-UDI-DI הבסיסי בתעודה שהונפקה בהתאם לפסקה (a) של סעיף 4 בפרק I של נספח XII ויאשר ב-EUDAMED כי המידע הנזכר בסעיף 2.2 של חלק A בנספח VI נכון. לאחר הנפקת התעודה הרלוונטית ובטרם השמת המכשיר על השוק, על היצרן לספק את ה-UDI-DI הבסיסי למסד הנתונים של ה-UDI יחד עם יתר רכיבי הנתונים המרכזיים הנזכרים בחלק B של נספח VI הנוגעים לאותו מכשיר. 4. בטרם השמת מכשיר על השוק, למעט מכשיר בהזמנה אישית, על היצרן להזין ב-EUDAMED, או אם כבר סופק – לאמת בו, את המידע הנזכר בסעיף 2 של חלק A בנספח VI, למעט סעיף 2.2 שבו, ולאחר מכן לשמור על עדכניות המידע."
+          },
+          {
+            "en": "Paragraphs 1-4: As soon as the functionality is available in Eudamed, the system may be used for registration of devices even before the notice of full functionality of Eudamed has been published. Nevertheless, manufacturers should refer to the national provisions in Member States establishing product registration schemes. Manufacturers should note that the obligation of UDI assignment (Basic UDI and UDI-DI) to a device applies from 26 May 2021 (Art. 27(3) MDR). Labelling requirements apply gradually, starting from 26 May 2021 (Art. 123(3)(f) MDR).",
+            "he": "פסקאות 1–4: מיד עם זמינות הפונקציונליות ב-EUDAMED, ניתן יהיה להשתמש במערכת לרישום מכשירים אף בטרם פורסמה ההודעה על פעילותו המלאה של EUDAMED. עם זאת, על היצרנים להתייחס להוראות הלאומיות במדינות החברות הקובעות סכימות לרישום מוצרים. על היצרנים לשים לב כי חובת הקצאת ה-UDI (UDI בסיסי ו-UDI-DI) למכשיר חלה מ-26 במאי 2021 (סעיף 27(3) ל-MDR). דרישות התיוג חלות באופן הדרגתי, החל מ-26 במאי 2021 (סעיף 123(3)(f) ל-MDR)."
+          },
+          {
+            "en": "Manufacturers (device registration, assignment and labelling)",
+            "he": "יצרנים (רישום מכשירים, הקצאה ותיוג)"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "art-31-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Article 31: Registration of manufacturers, authorised representatives and importers",
+      "he": "סעיף 31: רישום יצרנים, נציגים מורשים ויבואנים"
+    },
+    {
+      "id": "art-31-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          {
+            "en": "Article",
+            "he": "סעיף"
+          },
+          {
+            "en": "Provisions related to the use of EUDAMED (as referred to in Art. 123(3)(d) MDR)",
+            "he": "הוראות הנוגעות לשימוש ב-EUDAMED (כפי שנזכר בסעיף 123(3)(d) ל-MDR)"
+          },
+          {
+            "en": "Alternative solutions to submit and/or exchange information (as required under the MDR)",
+            "he": "פתרונות חלופיים להגשת ו/או החלפת מידע (כנדרש על פי ה-MDR)"
+          },
+          {
+            "en": "Responsible actor(s)",
+            "he": "גורם/ים אחראי/ם"
+          }
+        ],
+        [
+          {
+            "en": "Article 31: Registration of manufacturers, authorised representatives and importers",
+            "he": "סעיף 31: רישום יצרנים, נציגים מורשים ויבואנים"
+          },
+          {
+            "en": "1. Before placing a device, other than a custom-made device, on the market, manufacturers, authorised representatives and importers shall, in order to register, submit to the electronic system referred to in Article 30 the information referred to in Section 1 of Part A of Annex VI […] In cases where the conformity assessment procedure requires the involvement of a notified body pursuant to Article 52, the information referred to in Section 1 of Part A of Annex VI shall be provided to that electronic system before applying to the notified body. 2. […] the competent authority shall obtain a single registration number (‘SRN’) from the electronic system referred to in Article 30 and issue it to the manufacturer, the authorised representative or the importer. 3. The manufacturer shall use the SRN when applying to a notified body for conformity assessment and for accessing Eudamed in order to fulfil its obligations under Article 29. […]",
+            "he": "1. בטרם השמת מכשיר על השוק, למעט מכשיר בהזמנה אישית, על יצרנים, נציגים מורשים ויבואנים, לשם רישום, להגיש למערכת האלקטרונית הנזכרת בסעיף 30 את המידע הנזכר בסעיף 1 של חלק A בנספח VI […] במקרים שבהם הליך הערכת ההתאמה מחייב מעורבות של גוף מאונתר לפי סעיף 52, המידע הנזכר בסעיף 1 של חלק A בנספח VI יסופק לאותה מערכת אלקטרונית בטרם הפנייה לגוף המאונתר. 2. […] הרשות המוסמכת תקבל מספר רישום יחיד (‘SRN’) מהמערכת האלקטרונית הנזכרת בסעיף 30 ותנפיק אותו ליצרן, לנציג המורשה או ליבואן. 3. על היצרן להשתמש ב-SRN בעת פנייה לגוף מאונתר לצורך הערכת התאמה ולצורך גישה ל-EUDAMED על מנת לקיים את חובותיו על פי סעיף 29. […]"
+          },
+          {
+            "en": "Paragraphs 1-3: As soon as the functionality is available in Eudamed, the system may be used for the registration of manufacturers, authorised representatives and importers even before the notice of full functionality of Eudamed has been published. Nevertheless, manufacturers, authorised representatives and importers should refer to the national provisions in Member States. Please refer to MDCG Position Paper on the use of the EUDAMED actor registration module and of the Single Registration Number (SRN) in the Member States.",
+            "he": "פסקאות 1–3: מיד עם זמינות הפונקציונליות ב-EUDAMED, ניתן יהיה להשתמש במערכת לרישום יצרנים, נציגים מורשים ויבואנים אף בטרם פורסמה ההודעה על פעילותו המלאה של EUDAMED. עם זאת, על יצרנים, נציגים מורשים ויבואנים להתייחס להוראות הלאומיות במדינות החברות. נא לעיין בנייר העמדה של ה-MDCG בנוגע לשימוש במודול רישום הגורמים של EUDAMED ובמספר הרישום היחיד (SRN) במדינות החברות."
+          },
+          {
+            "en": "Economic operators (registration) Member States (issuing)",
+            "he": "גורמים כלכליים (רישום) מדינות חברות (הנפקה)"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "art-32-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Article 32: Summary of safety and clinical performance",
+      "he": "סעיף 32: סיכום בטיחות וביצועים קליניים"
+    },
+    {
+      "id": "art-32-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          {
+            "en": "Article",
+            "he": "סעיף"
+          },
+          {
+            "en": "Provisions related to the use of EUDAMED (as referred to in Art. 123(3)(d) MDR)",
+            "he": "הוראות הנוגעות לשימוש ב-EUDAMED (כפי שנזכר בסעיף 123(3)(d) ל-MDR)"
+          },
+          {
+            "en": "Alternative solutions to submit and/or exchange information (as required under the MDR)",
+            "he": "פתרונות חלופיים להגשת ו/או החלפת מידע (כנדרש על פי ה-MDR)"
+          },
+          {
+            "en": "Responsible actor(s)",
+            "he": "גורם/ים אחראי/ם"
+          }
+        ],
+        [
+          {
+            "en": "Article 32: Summary of safety and clinical performance",
+            "he": "סעיף 32: סיכום בטיחות וביצועים קליניים"
+          },
+          {
+            "en": "1. For implantable devices and for class III devices, other than custom-made or investigational devices, the manufacturer shall draw up a summary of safety and clinical performance. The summary of safety and clinical performance shall be written in a way that is clear to the intended user and, if relevant, to the patient and shall be made available to the public via Eudamed. The draft of the summary of safety and clinical performance shall be part of the documentation to be submitted to the notified body involved in the conformity assessment pursuant to Article 52 and shall be validated by that body. After its validation, the notified body shall upload the summary to Eudamed. The manufacturer shall mention on the label or instructions for use where the summary is available. 2. The summary of safety and clinical performance shall include at least the following aspects: (a) the identification of the device and the manufacturer, including the Basic UDI-DI and, if already issued, the SRN; […]",
+            "he": "1. לגבי מכשירים מושתלים ולגבי מכשירי סיווג III, למעט מכשירים בהזמנה אישית או מכשירי חקירה, על היצרן לערוך סיכום בטיחות וביצועים קליניים. סיכום הבטיחות והביצועים הקליניים ייכתב באופן ברור למשתמש המיועד, ואם רלוונטי – למטופל, ויועמד לרשות הציבור באמצעות EUDAMED. טיוטת סיכום הבטיחות והביצועים הקליניים תהיה חלק מהתיעוד שיוגש לגוף המאונתר המעורב בהערכת ההתאמה לפי סעיף 52 ותאומת על ידי אותו גוף. לאחר אימותו, הגוף המאונתר יעלה את הסיכום ל-EUDAMED. על היצרן לציין על גבי התווית או הוראות השימוש היכן זמין הסיכום. 2. סיכום הבטיחות והביצועים הקליניים יכלול לכל הפחות את ההיבטים הבאים: (a) זיהוי המכשיר והיצרן, לרבות ה-UDI-DI הבסיסי, ואם כבר הונפק – ה-SRN; […]"
+          },
+          {
+            "en": "Paragraphs 1: The SSCP shall be made available to the public upon request without undue delay or the manufacturer shall specify where it is made available to the public. As soon as the functionality is available in Eudamed, the system may be used for the upload of the SSCP even before the notice of full functionality of Eudamed has been published. Paragraph 2: Please refer to alternative solution for Art. 31.",
+            "he": "פסקה 1: ה-SSCP יועמד לרשות הציבור לפי בקשה וללא עיכוב בלתי סביר, או שהיצרן יפרט היכן הוא מועמד לרשות הציבור. מיד עם זמינות הפונקציונליות ב-EUDAMED, ניתן יהיה להשתמש במערכת להעלאת ה-SSCP אף בטרם פורסמה ההודעה על פעילותו המלאה של EUDAMED. פסקה 2: נא לעיין בפתרון החלופי לסעיף 31."
+          },
+          {
+            "en": "Manufacturers Notified Bodies",
+            "he": "יצרנים גופים מאונתרים"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "art-33-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Article 33: European database on medical devices",
+      "he": "סעיף 33: מסד הנתונים האירופי בנושא מכשירים רפואיים"
+    },
+    {
+      "id": "art-33-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          {
+            "en": "Article",
+            "he": "סעיף"
+          },
+          {
+            "en": "Provisions related to the use of EUDAMED (as referred to in Art. 123(3)(d) MDR)",
+            "he": "הוראות הנוגעות לשימוש ב-EUDAMED (כפי שנזכר בסעיף 123(3)(d) ל-MDR)"
+          },
+          {
+            "en": "Alternative solutions to submit and/or exchange information (as required under the MDR)",
+            "he": "פתרונות חלופיים להגשת ו/או החלפת מידע (כנדרש על פי ה-MDR)"
+          },
+          {
+            "en": "Responsible actor(s)",
+            "he": "גורם/ים אחראי/ם"
+          }
+        ],
+        [
+          {
+            "en": "Article 33: European database on medical devices",
+            "he": "סעיף 33: מסד הנתונים האירופי בנושא מכשירים רפואיים"
+          },
+          {
+            "en": "[…] 2. Eudamed shall include the following electronic systems: (a) the electronic system for registration of devices referred to in Article 29(4); (b) the UDI-database referred to in Article 28; (c) the electronic system on registration of economic operators referred to in Article 30; (d) the electronic system on notified bodies and on certificates referred to in Article 57; (e) the electronic system on clinical investigations referred to in Article 73; (f) the electronic system on vigilance and post-market surveillance referred to in Article 92; (g) the electronic system on market surveillance referred to in Article 100. […] 4. The data shall be entered into Eudamed by the Member States, notified bodies, economic operators and sponsors as specified in the provisions on the electronic systems referred to in paragraph 2. The Commission shall provide for technical and administrative support to users of Eudamed. […]",
+            "he": "[…] 2. EUDAMED יכלול את המערכות האלקטרוניות הבאות: (a) המערכת האלקטרונית לרישום מכשירים הנזכרת בסעיף 29(4); (b) מסד הנתונים של ה-UDI הנזכר בסעיף 28; (c) המערכת האלקטרונית לרישום גורמים כלכליים הנזכרת בסעיף 30; (d) המערכת האלקטרונית בנושא גופים מאונתרים ותעודות הנזכרת בסעיף 57; (e) המערכת האלקטרונית בנושא חקירות קליניות הנזכרת בסעיף 73; (f) המערכת האלקטרונית בנושא ערנות ומעקב שלאחר שיווק הנזכרת בסעיף 92; (g) המערכת האלקטרונית בנושא פיקוח שוק הנזכרת בסעיף 100. […] 4. הנתונים יוזנו ל-EUDAMED על ידי המדינות החברות, הגופים המאונתרים, הגורמים הכלכליים ונותני החסות כמפורט בהוראות בנוגע למערכות האלקטרוניות הנזכרות בפסקה 2. הנציבות תספק תמיכה טכנית ומינהלית למשתמשי EUDAMED. […]"
+          },
+          {
+            "en": "Paragraphs 2 and 4: The submission of the different sets of required information will become possible on a voluntary basis from the date when the Commission makes available the respective EUDAMED module (see introductory text).",
+            "he": "פסקאות 2 ו-4: הגשת מערכי המידע הנדרשים השונים תתאפשר על בסיס וולונטרי החל מהמועד שבו הנציבות תעמיד לרשות את מודול EUDAMED הרלוונטי (ראה הטקסט המקדים)."
+          },
+          {
+            "en": "-",
+            "he": "-"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "art-40-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Article 40: Nomination of experts for joint assessment of applications for notification",
+      "he": "סעיף 40: מינוי מומחים להערכה משותפת של בקשות לאנתור"
+    },
+    {
+      "id": "art-40-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          {
+            "en": "Article",
+            "he": "סעיף"
+          },
+          {
+            "en": "Provisions related to the use of EUDAMED (as referred to in Art. 123(3)(d) MDR)",
+            "he": "הוראות הנוגעות לשימוש ב-EUDAMED (כפי שנזכר בסעיף 123(3)(d) ל-MDR)"
+          },
+          {
+            "en": "Alternative solutions to submit and/or exchange information (as required under the MDR)",
+            "he": "פתרונות חלופיים להגשת ו/או החלפת מידע (כנדרש על פי ה-MDR)"
+          },
+          {
+            "en": "Responsible actor(s)",
+            "he": "גורם/ים אחראי/ם"
+          }
+        ],
+        [
+          {
+            "en": "Article 40: Nomination of experts for joint assessment of applications for notification",
+            "he": "סעיף 40: מינוי מומחים להערכה משותפת של בקשות לאנתור"
+          },
+          {
+            "en": "[…] 2. The Commission shall maintain a list of the experts nominated pursuant to paragraph 1 of this Article, together with information on their specific field of competence and expertise. That list shall be made available to Member States competent authorities through the electronic system referred to in Article 57.",
+            "he": "[…] 2. הנציבות תנהל רשימה של המומחים שמונו לפי פסקה 1 של סעיף זה, יחד עם מידע על תחום הכשירות והמומחיות הספציפי שלהם. רשימה זו תועמד לרשות הרשויות המוסמכות של המדינות החברות באמצעות המערכת האלקטרונית הנזכרת בסעיף 57."
+          },
+          {
+            "en": "Paragraph 2: The Commission has made available the list to Member States by means of a dedicated secure directory in the Communication and Information Resources Centre for Administrations, Businesses and Citizens (CircaBC).",
+            "he": "פסקה 2: הנציבות העמידה את הרשימה לרשות המדינות החברות באמצעות ספרייה מאובטחת ייעודית במרכז משאבי התקשורת והמידע למינהלים, עסקים ואזרחים (CircaBC)."
+          },
+          {
+            "en": "Commission (CircaBC)",
+            "he": "הנציבות (CircaBC)"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "art-42-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Article 42: Designation and notification procedure",
+      "he": "סעיף 42: הליך מינוי ואנתור"
+    },
+    {
+      "id": "art-42-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          {
+            "en": "Article",
+            "he": "סעיף"
+          },
+          {
+            "en": "Provisions related to the use of EUDAMED (as referred to in Art. 123(3)(d) MDR)",
+            "he": "הוראות הנוגעות לשימוש ב-EUDAMED (כפי שנזכר בסעיף 123(3)(d) ל-MDR)"
+          },
+          {
+            "en": "Alternative solutions to submit and/or exchange information (as required under the MDR)",
+            "he": "פתרונות חלופיים להגשת ו/או החלפת מידע (כנדרש על פי ה-MDR)"
+          },
+          {
+            "en": "Responsible actor(s)",
+            "he": "גורם/ים אחראי/ם"
+          }
+        ],
+        [
+          {
+            "en": "Article 42: Designation and notification procedure",
+            "he": "סעיף 42: הליך מינוי ואנתור"
+          },
+          {
+            "en": "[…] 10. When publishing the notification in NANDO, the Commission shall also add to the electronic system referred to in Article 57 the information relating to the notification of the notified body along with the documents mentioned in paragraph 4 of this Article and the opinion and responses referred to in paragraphs 7 and 8 of this Article. […]",
+            "he": "[…] 10. בעת פרסום האנתור ב-NANDO, הנציבות תוסיף גם למערכת האלקטרונית הנזכרת בסעיף 57 את המידע הנוגע לאנתור הגוף המאונתר יחד עם המסמכים הנזכרים בפסקה 4 של סעיף זה והחוות דעת והתשובות הנזכרות בפסקאות 7 ו-8 של סעיף זה. […]"
+          },
+          {
+            "en": "Paragraphs 4, 7 and 8: The relevant documents mentioned in paragraph 4, and the opinion and responses referred to in paragraphs 7 and 8, are made available by means of a dedicated secure directory in CircaBC (organised by the Commission). Paragraph 10: The publication of notifications continues to take place via NANDO.",
+            "he": "פסקאות 4, 7 ו-8: המסמכים הרלוונטיים הנזכרים בפסקה 4, והחוות דעת והתשובות הנזכרות בפסקאות 7 ו-8, מועמדים לרשות באמצעות ספרייה מאובטחת ייעודית ב-CircaBC (מאורגנת על ידי הנציבות). פסקה 10: פרסום האנתורים ממשיך להתבצע באמצעות NANDO."
+          },
+          {
+            "en": "Commission (CircaBC, NANDO publication)",
+            "he": "הנציבות (CircaBC, פרסום ב-NANDO)"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "art-43-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Article 43: Identification number and list of notified bodies",
+      "he": "סעיף 43: מספר זיהוי ורשימת גופים מאונתרים"
+    },
+    {
+      "id": "art-43-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          {
+            "en": "Article",
+            "he": "סעיף"
+          },
+          {
+            "en": "Provisions related to the use of EUDAMED (as referred to in Art. 123(3)(d) MDR)",
+            "he": "הוראות הנוגעות לשימוש ב-EUDAMED (כפי שנזכר בסעיף 123(3)(d) ל-MDR)"
+          },
+          {
+            "en": "Alternative solutions to submit and/or exchange information (as required under the MDR)",
+            "he": "פתרונות חלופיים להגשת ו/או החלפת מידע (כנדרש על פי ה-MDR)"
+          },
+          {
+            "en": "Responsible actor(s)",
+            "he": "גורם/ים אחראי/ם"
+          }
+        ],
+        [
+          {
+            "en": "Article 43: Identification number and list of notified bodies",
+            "he": "סעיף 43: מספר זיהוי ורשימת גופים מאונתרים"
+          },
+          {
+            "en": "[…] 2. The Commission shall make the list of the bodies notified under this Regulation, including the identification numbers that have been assigned to them and the conformity assessment activities as defined in this Regulation and the types of devices for which they have been notified, accessible to the public in NANDO. It shall also make this list available on the electronic system referred to in Article 57. The Commission shall ensure that the list is kept up to date.",
+            "he": "[…] 2. הנציבות תעמיד לרשות הציבור ב-NANDO את רשימת הגופים המאונתרים על פי תקנה זו, לרבות מספרי הזיהוי שהוקצו להם, פעילויות הערכת ההתאמה כמוגדר בתקנה זו וסוגי המכשירים שלגביהם אונתרו. כמו כן היא תעמיד רשימה זו לרשות במערכת האלקטרונית הנזכרת בסעיף 57. הנציבות תבטיח כי הרשימה תישמר מעודכנת."
+          },
+          {
+            "en": "Paragraph 2: The information continues to be a made available via NANDO.",
+            "he": "פסקה 2: המידע ממשיך להיות מועמד לרשות באמצעות NANDO."
+          },
+          {
+            "en": "Commission (NANDO publication)",
+            "he": "הנציבות (פרסום ב-NANDO)"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "art-44-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Article 44: Monitoring and re-assessment of notified bodies",
+      "he": "סעיף 44: ניטור והערכה מחדש של גופים מאונתרים"
+    },
+    {
+      "id": "art-44-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          {
+            "en": "Article",
+            "he": "סעיף"
+          },
+          {
+            "en": "Provisions related to the use of EUDAMED (as referred to in Art. 123(3)(d) MDR)",
+            "he": "הוראות הנוגעות לשימוש ב-EUDAMED (כפי שנזכר בסעיף 123(3)(d) ל-MDR)"
+          },
+          {
+            "en": "Alternative solutions to submit and/or exchange information (as required under the MDR)",
+            "he": "פתרונות חלופיים להגשת ו/או החלפת מידע (כנדרש על פי ה-MDR)"
+          },
+          {
+            "en": "Responsible actor(s)",
+            "he": "גורם/ים אחראי/ם"
+          }
+        ],
+        [
+          {
+            "en": "Article 44: Monitoring and re-assessment of notified bodies",
+            "he": "סעיף 44: ניטור והערכה מחדש של גופים מאונתרים"
+          },
+          {
+            "en": "[…] 12. […] The summary of the report shall be uploaded to the electronic system referred to in Article 57.",
+            "he": "[…] 12. […] סיכום הדוח יועלה למערכת האלקטרונית הנזכרת בסעיף 57."
+          },
+          {
+            "en": "Paragraph 12: Member States should upload the reports to the secure directory in CircaBC referred to under the alternative solution for Article 42. The Commission should make available to the public the summaries of the reports.",
+            "he": "פסקה 12: על המדינות החברות להעלות את הדוחות לספרייה המאובטחת ב-CircaBC הנזכרת בפתרון החלופי לסעיף 42. על הנציבות להעמיד לרשות הציבור את סיכומי הדוחות."
+          },
+          {
+            "en": "Member States (CircaBC) Commission (data upload, medical devices Europa website publication)",
+            "he": "מדינות חברות (CircaBC) הנציבות (העלאת נתונים, פרסום באתר Europa למכשירים רפואיים)"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "art-46-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Article 46: Changes to designations and notifications",
+      "he": "סעיף 46: שינויים במינויים ובאנתורים"
+    },
+    {
+      "id": "art-46-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          {
+            "en": "Article",
+            "he": "סעיף"
+          },
+          {
+            "en": "Provisions related to the use of EUDAMED (as referred to in Art. 123(3)(d) MDR)",
+            "he": "הוראות הנוגעות לשימוש ב-EUDAMED (כפי שנזכר בסעיף 123(3)(d) ל-MDR)"
+          },
+          {
+            "en": "Alternative solutions to submit and/or exchange information (as required under the MDR)",
+            "he": "פתרונות חלופיים להגשת ו/או החלפת מידע (כנדרש על פי ה-MDR)"
+          },
+          {
+            "en": "Responsible actor(s)",
+            "he": "גורם/ים אחראי/ם"
+          }
+        ],
+        [
+          {
+            "en": "Article 46: Changes to designations and notifications",
+            "he": "סעיף 46: שינויים במינויים ובאנתורים"
+          },
+          {
+            "en": "[…] 7. In the event of restriction, suspension or withdrawal of a designation, the authority responsible for notified bodies shall: […] (d) enter into the electronic system referred to in Article 57 information in relation to certificates of which it has required their suspension or withdrawal; (e) inform the competent authority for medical devices of the Member State in which the manufacturer has its registered place of business through the electronic system referred to in Article 57 of the certificates for which it has required suspension or withdrawal. That competent authority shall take the appropriate measures, where necessary to avoid a potential risk to the health or safety of patients, users or others. […]",
+            "he": "[…] 7. במקרה של הגבלה, השעיה או ביטול של מינוי, הרשות האחראית על גופים מאונתרים: […] (d) תזין למערכת האלקטרונית הנזכרת בסעיף 57 מידע בנוגע לתעודות שדרשה את השעייתן או ביטולן; (e) תיידע את הרשות המוסמכת למכשירים רפואיים של המדינה החברה שבה ליצרן מקום עסקיו הרשום, באמצעות המערכת האלקטרונית הנזכרת בסעיף 57, בדבר התעודות שלגביהן דרשה השעיה או ביטול. אותה רשות מוסמכת תנקוט את האמצעים המתאימים, היכן שנדרש, כדי למנוע סיכון פוטנציאלי לבריאות או לבטיחות של מטופלים, משתמשים או אחרים. […]"
+          },
+          {
+            "en": "Paragraph 7: The information in relation to requests for suspension or withdrawal of certificates is managed at national level. The obligation to inform the competent authority for medical devices of the Member State in which the manufacturer has its registered place of business should take place by suitable communication channels (e.g. secure directory in CircaBC or e-mail). Information shared by electronic means should be encrypted whenever possible.",
+            "he": "פסקה 7: המידע בנוגע לבקשות להשעיה או ביטול של תעודות מנוהל ברמה הלאומית. החובה ליידע את הרשות המוסמכת למכשירים רפואיים של המדינה החברה שבה ליצרן מקום עסקיו הרשום צריכה להתבצע בערוצי תקשורת מתאימים (למשל ספרייה מאובטחת ב-CircaBC או דוא\"ל). מידע המשותף באמצעים אלקטרוניים צריך להיות מוצפן בכל מקום שניתן."
+          },
+          {
+            "en": "Member States (communication)",
+            "he": "מדינות חברות (תקשורת)"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "art-53-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Article 53: Involvement of notified bodies in conformity assessment procedures (in conj. with: Section 4.3 of Annex VII)",
+      "he": "סעיף 53: מעורבות של גופים מאונתרים בהליכי הערכת התאמה (בשילוב עם: סעיף 4.3 לנספח VII)"
+    },
+    {
+      "id": "art-53-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          {
+            "en": "Article",
+            "he": "סעיף"
+          },
+          {
+            "en": "Provisions related to the use of EUDAMED (as referred to in Art. 123(3)(d) MDR)",
+            "he": "הוראות הנוגעות לשימוש ב-EUDAMED (כפי שנזכר בסעיף 123(3)(d) ל-MDR)"
+          },
+          {
+            "en": "Alternative solutions to submit and/or exchange information (as required under the MDR)",
+            "he": "פתרונות חלופיים להגשת ו/או החלפת מידע (כנדרש על פי ה-MDR)"
+          },
+          {
+            "en": "Responsible actor(s)",
+            "he": "גורם/ים אחראי/ם"
+          }
+        ],
+        [
+          {
+            "en": "Article 53: Involvement of notified bodies in conformity assessment procedures (in conj. with: Section 4.3 of Annex VII)",
+            "he": "סעיף 53: מעורבות של גופים מאונתרים בהליכי הערכת התאמה (בשילוב עם: סעיף 4.3 לנספח VII)"
+          },
+          {
+            "en": "[…] 2. The notified body concerned shall, by means of the electronic system referred to in Article 57, inform the other notified bodies of any manufacturer that withdraws its application prior to the notified body's decision regarding the conformity assessment. […]",
+            "he": "[…] 2. הגוף המאונתר הנוגע בדבר, באמצעות המערכת האלקטרונית הנזכרת בסעיף 57, ייידע את הגופים המאונתרים האחרים על כל יצרן המושך את בקשתו טרם החלטת הגוף המאונתר בנוגע להערכת ההתאמה. […]"
+          },
+          {
+            "en": "Paragraph 2: Notified bodies should upload the required information to a dedicated secure directory in CircaBC, using a pre-defined template as soon as it becomes available (organised by the Commission). The required information may also be made available via a national system, provided that compliance with requirements on notification of all other notified bodies is ensured.",
+            "he": "פסקה 2: על הגופים המאונתרים להעלות את המידע הנדרש לספרייה מאובטחת ייעודית ב-CircaBC, תוך שימוש בתבנית מוגדרת מראש מיד עם זמינותה (מאורגנת על ידי הנציבות). ניתן להעמיד את המידע הנדרש גם באמצעות מערכת לאומית, ובלבד שמובטחת עמידה בדרישות בדבר אנתור כל הגופים המאונתרים האחרים."
+          },
+          {
+            "en": "Commission (CircaBC, template) Notified Bodies (data upload)",
+            "he": "הנציבות (CircaBC, תבנית) גופים מאונתרים (העלאת נתונים)"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "art-54-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Article 54: Clinical evaluation consultation procedure for certain class III and class IIb devices",
+      "he": "סעיף 54: הליך התייעצות להערכה קלינית עבור מכשירי סיווג III ו-IIb מסוימים"
+    },
+    {
+      "id": "art-54-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          {
+            "en": "Article",
+            "he": "סעיף"
+          },
+          {
+            "en": "Provisions related to the use of EUDAMED (as referred to in Art. 123(3)(d) MDR)",
+            "he": "הוראות הנוגעות לשימוש ב-EUDAMED (כפי שנזכר בסעיף 123(3)(d) ל-MDR)"
+          },
+          {
+            "en": "Alternative solutions to submit and/or exchange information (as required under the MDR)",
+            "he": "פתרונות חלופיים להגשת ו/או החלפת מידע (כנדרש על פי ה-MDR)"
+          },
+          {
+            "en": "Responsible actor(s)",
+            "he": "גורם/ים אחראי/ם"
+          }
+        ],
+        [
+          {
+            "en": "Article 54: Clinical evaluation consultation procedure for certain class III and class IIb devices",
+            "he": "סעיף 54: הליך התייעצות להערכה קלינית עבור מכשירי סיווג III ו-IIb מסוימים"
+          },
+          {
+            "en": "[…] 3. The notified body shall notify the competent authorities, the authority responsible for notified bodies and the Commission through the electronic system referred to in Article 57 of whether or not the procedure referred to in paragraph 1 of this Article is to be applied. That notification shall be accompanied by the clinical evaluation assessment report. […]",
+            "he": "[…] 3. הגוף המאונתר יודיע לרשויות המוסמכות, לרשות האחראית על גופים מאונתרים ולנציבות, באמצעות המערכת האלקטרונית הנזכרת בסעיף 57, אם ההליך הנזכר בפסקה 1 של סעיף זה יוחל אם לאו. הודעה זו תלווה בדוח הערכת ההערכה הקלינית. […]"
+          },
+          {
+            "en": "Paragraph 3: Notified bodies should notify the relevant parties by uploading the required information to a dedicated secure directory in CircaBC, using a pre-defined template as soon as it becomes available (organised by the Commission). Note on expert panels: The Commission will provide and manage a technical platform related to the functioning of expert panels. Guidance on this technical solution will be provided separately to relevant parties.",
+            "he": "פסקה 3: על הגופים המאונתרים ליידע את הצדדים הרלוונטיים על ידי העלאת המידע הנדרש לספרייה מאובטחת ייעודית ב-CircaBC, תוך שימוש בתבנית מוגדרת מראש מיד עם זמינותה (מאורגנת על ידי הנציבות). הערה בנוגע לפאנלי מומחים: הנציבות תספק ותנהל פלטפורמה טכנית הקשורה לתפקוד פאנלי המומחים. הנחיה בנוגע לפתרון טכני זה תסופק בנפרד לצדדים הרלוונטיים."
+          },
+          {
+            "en": "Commission (CircaBC, template, expert panel platform) Notified Bodies (data upload)",
+            "he": "הנציבות (CircaBC, תבנית, פלטפורמת פאנל מומחים) גופים מאונתרים (העלאת נתונים)"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "art-55-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Article 55: Mechanism for scrutiny of conformity assessments of certain class III and class IIb devices",
+      "he": "סעיף 55: מנגנון לבחינת הערכות התאמה של מכשירי סיווג III ו-IIb מסוימים"
+    },
+    {
+      "id": "art-55-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          {
+            "en": "Article",
+            "he": "סעיף"
+          },
+          {
+            "en": "Provisions related to the use of EUDAMED (as referred to in Art. 123(3)(d) MDR)",
+            "he": "הוראות הנוגעות לשימוש ב-EUDAMED (כפי שנזכר בסעיף 123(3)(d) ל-MDR)"
+          },
+          {
+            "en": "Alternative solutions to submit and/or exchange information (as required under the MDR)",
+            "he": "פתרונות חלופיים להגשת ו/או החלפת מידע (כנדרש על פי ה-MDR)"
+          },
+          {
+            "en": "Responsible actor(s)",
+            "he": "גורם/ים אחראי/ם"
+          }
+        ],
+        [
+          {
+            "en": "Article 55: Mechanism for scrutiny of conformity assessments of certain class III and class IIb devices",
+            "he": "סעיף 55: מנגנון לבחינת הערכות התאמה של מכשירי סיווג III ו-IIb מסוימים"
+          },
+          {
+            "en": "1. A notified body shall notify the competent authorities of certificates it has granted to devices for which the conformity assessment has been performed pursuant to Article 54(1). Such notification shall take place through the electronic system referred to in Article 57 and shall include the summary of safety and clinical performance pursuant to Article 32, the assessment report by the notified body, the instructions for use referred to in Section 23.4 of Annex I, and, where applicable, the scientific opinion of the expert panels referred to in Section 5.1 of Annex IX or Section 6 of Annex X, as applicable. In the case of divergent views between the notified body and the expert panels, a full justification shall also be included. […]",
+            "he": "1. גוף מאונתר יודיע לרשויות המוסמכות על תעודות שהעניק למכשירים שלגביהם בוצעה הערכת ההתאמה לפי סעיף 54(1). הודעה כאמור תתבצע באמצעות המערכת האלקטרונית הנזכרת בסעיף 57 ותכלול את סיכום הבטיחות והביצועים הקליניים לפי סעיף 32, את דוח ההערכה של הגוף המאונתר, את הוראות השימוש הנזכרות בסעיף 23.4 של נספח I, ובמקרים הרלוונטיים את החוות דעת המדעית של פאנלי המומחים הנזכרת בסעיף 5.1 של נספח IX או בסעיף 6 של נספח X, לפי העניין. במקרה של דעות חלוקות בין הגוף המאונתר לפאנלי המומחים, יש לכלול גם נימוק מלא. […]"
+          },
+          {
+            "en": "Paragraph 1: Notified bodies should upload the required certificates and other mandatory information referenced in that paragraph to the CircaBC directory referred to under the alternative solution for Article 54.",
+            "he": "פסקה 1: על הגופים המאונתרים להעלות את התעודות הנדרשות ויתר המידע המחייב הנזכר באותה פסקה לספריית CircaBC הנזכרת בפתרון החלופי לסעיף 54."
+          },
+          {
+            "en": "Commission (CircaBC) Notified Bodies (data upload)",
+            "he": "הנציבות (CircaBC) גופים מאונתרים (העלאת נתונים)"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "art-56-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Article 56: Certificates of conformity",
+      "he": "סעיף 56: תעודות התאמה"
+    },
+    {
+      "id": "art-56-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          {
+            "en": "Article",
+            "he": "סעיף"
+          },
+          {
+            "en": "Provisions related to the use of EUDAMED (as referred to in Art. 123(3)(d) MDR)",
+            "he": "הוראות הנוגעות לשימוש ב-EUDAMED (כפי שנזכר בסעיף 123(3)(d) ל-MDR)"
+          },
+          {
+            "en": "Alternative solutions to submit and/or exchange information (as required under the MDR)",
+            "he": "פתרונות חלופיים להגשת ו/או החלפת מידע (כנדרש על פי ה-MDR)"
+          },
+          {
+            "en": "Responsible actor(s)",
+            "he": "גורם/ים אחראי/ם"
+          }
+        ],
+        [
+          {
+            "en": "Article 56: Certificates of conformity",
+            "he": "סעיף 56: תעודות התאמה"
+          },
+          {
+            "en": "[…] 5. The notified body shall enter in the electronic system referred to in Article 57 any information regarding certificates issued, including amendments and supplements thereto, and regarding suspended, reinstated, withdrawn or refused certificates and restrictions imposed on certificates. Such information shall be accessible to the public. […]",
+            "he": "[…] 5. הגוף המאונתר יזין למערכת האלקטרונית הנזכרת בסעיף 57 כל מידע בנוגע לתעודות שהונפקו, לרבות תיקונים ותוספות להן, ובנוגע לתעודות שהושעו, הוחזרו לתוקף, בוטלו או נדחו, ולהגבלות שהוטלו על תעודות. מידע כאמור יהיה נגיש לציבור. […]"
+          },
+          {
+            "en": "Paragraph 5: Certificates will be made available upon request or will be uploaded in the national system where required. Note: As soon as the functionality is available in Eudamed, the system may be used for the upload of the certificates even before the notice of full functionality of Eudamed has been published.",
+            "he": "פסקה 5: התעודות יועמדו לרשות לפי בקשה, או יועלו למערכת הלאומית היכן שנדרש. הערה: מיד עם זמינות הפונקציונליות ב-EUDAMED, ניתן יהיה להשתמש במערכת להעלאת התעודות אף בטרם פורסמה ההודעה על פעילותו המלאה של EUDAMED."
+          },
+          {
+            "en": "Notified Bodies",
+            "he": "גופים מאונתרים"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "art-70-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Article 70: Application for clinical investigations",
+      "he": "סעיף 70: בקשה לחקירות קליניות"
+    },
+    {
+      "id": "art-70-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          {
+            "en": "Article",
+            "he": "סעיף"
+          },
+          {
+            "en": "Provisions related to the use of EUDAMED (as referred to in Art. 123(3)(d) MDR)",
+            "he": "הוראות הנוגעות לשימוש ב-EUDAMED (כפי שנזכר בסעיף 123(3)(d) ל-MDR)"
+          },
+          {
+            "en": "Alternative solutions to submit and/or exchange information (as required under the MDR)",
+            "he": "פתרונות חלופיים להגשת ו/או החלפת מידע (כנדרש על פי ה-MDR)"
+          },
+          {
+            "en": "Responsible actor(s)",
+            "he": "גורם/ים אחראי/ם"
+          }
+        ],
+        [
+          {
+            "en": "Article 70: Application for clinical investigations",
+            "he": "סעיף 70: בקשה לחקירות קליניות"
+          },
+          {
+            "en": "1. The sponsor of a clinical investigation shall submit an application to the Member State(s) in which the clinical investigation is to be conducted (referred to for the purposes of this Article as ‘Member State concerned’) accompanied by the documentation referred to in Chapter II of Annex XV. The application shall be submitted by means of the electronic system referred to in Article 73, which shall generate a Union-wide unique single identification number for the clinical investigation, which shall be used for all relevant communication in relation to that clinical investigation. Within 10 days of it receiving the application, the Member State concerned shall notify the sponsor as to whether the clinical investigation falls within the scope of this Regulation and as to whether the application dossier is complete in accordance with Chapter II of Annex XV. 2. Within one week of any change occurring in relation to the documentation referred to in Chapter II of Annex XV, the sponsor shall update the relevant data in the electronic system referred to in Article 73 and make that change to the documentation clearly identifiable. The Member State concerned shall be notified of the update by means of that electronic system. 3. Where the Member State concerned finds that the clinical investigation applied for does not fall within the scope of this Regulation or that the application dossier is not complete, it shall inform the sponsor thereof and shall set a time limit of maximum 10 days for the sponsor to comment or to complete the application by means of the electronic system referred to in Article 73. […]",
+            "he": "1. נותן החסות של חקירה קלינית יגיש בקשה למדינה/ות החברה/ות שבה/ן תיערך החקירה הקלינית (המכונה לצורכי סעיף זה ‘המדינה החברה הנוגעת בדבר’), בלוויית התיעוד הנזכר בפרק II של נספח XV. הבקשה תוגש באמצעות המערכת האלקטרונית הנזכרת בסעיף 73, אשר תפיק מספר זיהוי יחיד ייחודי בכלל האיחוד עבור החקירה הקלינית, שישמש לכל התקשורת הרלוונטית בנוגע לאותה חקירה קלינית. בתוך 10 ימים מקבלת הבקשה, המדינה החברה הנוגעת בדבר תיידע את נותן החסות אם החקירה הקלינית נכללת בתחולת תקנה זו ואם תיק הבקשה שלם בהתאם לפרק II של נספח XV. 2. בתוך שבוע מכל שינוי המתרחש בנוגע לתיעוד הנזכר בפרק II של נספח XV, על נותן החסות לעדכן את הנתונים הרלוונטיים במערכת האלקטרונית הנזכרת בסעיף 73 ולהפוך את אותו שינוי בתיעוד לבר-זיהוי בבירור. המדינה החברה הנוגעת בדבר תיודע על העדכון באמצעות אותה מערכת אלקטרונית. 3. היכן שהמדינה החברה הנוגעת בדבר מוצאת כי החקירה הקלינית שהוגשה בקשה לגביה אינה נכללת בתחולת תקנה זו או כי תיק הבקשה אינו שלם, היא תיידע את נותן החסות בכך ותקבע מגבלת זמן של 10 ימים לכל היותר לנותן החסות להעיר או להשלים את הבקשה באמצעות המערכת האלקטרונית הנזכרת בסעיף 73. […]"
+          },
+          {
+            "en": "Paragraph 1: The application for clinical investigations should take place via the respective national procedures applicable to clinical investigations. Paragraph 2: Non-substantial modifications will be notified to the Member State before its implementation, via respective national procedures, unless otherwise defined by the Member State. Paragraphs 2 and 3: The notification of the relevant information should take place via the respective national procedures applicable to clinical investigations. A list of national contact points for submission should be published on the Commission website. The new clinical investigation application form developed under the MDR framework may be considered at national level to the extent possible.",
+            "he": "פסקה 1: הבקשה לחקירות קליניות צריכה להתבצע באמצעות ההליכים הלאומיים הרלוונטיים החלים על חקירות קליניות. פסקה 2: שינויים שאינם מהותיים יודעו למדינה החברה בטרם יישומם, באמצעות ההליכים הלאומיים הרלוונטיים, אלא אם נקבע אחרת על ידי המדינה החברה. פסקאות 2 ו-3: הודעת המידע הרלוונטי צריכה להתבצע באמצעות ההליכים הלאומיים הרלוונטיים החלים על חקירות קליניות. רשימת נקודות קשר לאומיות להגשה צריכה להתפרסם באתר הנציבות. ניתן לשקול ברמה הלאומית, במידת האפשר, את טופס הבקשה החדש לחקירה קלינית שפותח במסגרת ה-MDR."
+          },
+          {
+            "en": "Sponsors (application) Commission (publication)",
+            "he": "נותני חסות (בקשה) הנציבות (פרסום)"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "art-73-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Article 73: Electronic system on clinical investigations",
+      "he": "סעיף 73: המערכת האלקטרונית בנושא חקירות קליניות"
+    },
+    {
+      "id": "art-73-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          {
+            "en": "Article",
+            "he": "סעיף"
+          },
+          {
+            "en": "Provisions related to the use of EUDAMED (as referred to in Art. 123(3)(d) MDR)",
+            "he": "הוראות הנוגעות לשימוש ב-EUDAMED (כפי שנזכר בסעיף 123(3)(d) ל-MDR)"
+          },
+          {
+            "en": "Alternative solutions to submit and/or exchange information (as required under the MDR)",
+            "he": "פתרונות חלופיים להגשת ו/או החלפת מידע (כנדרש על פי ה-MDR)"
+          },
+          {
+            "en": "Responsible actor(s)",
+            "he": "גורם/ים אחראי/ם"
+          }
+        ],
+        [
+          {
+            "en": "Article 73: Electronic system on clinical investigations",
+            "he": "סעיף 73: המערכת האלקטרונית בנושא חקירות קליניות"
+          },
+          {
+            "en": "1. The Commission shall, in collaboration with the Member States, set up, manage and maintain an electronic system: (a) to create the single identification numbers for clinical investigations referred to in Article 70(1); (b) to be used as an entry point for the submission of all applications or notifications for clinical investigations referred to in Articles 70, 74, 75 and 78 and for all other submission of data, or processing of data in this context; (c) for the exchange of information relating to clinical investigations in accordance with this Regulation between the Member States and between them and the Commission including the exchange of information referred to in Articles 70 and 76; (d) for information to be provided by the sponsor in accordance with Article 77, including the clinical investigation report and its summary as required in paragraph 5 of that Article; (e) for reporting on serious adverse events and device deficiencies and related updates referred to in Article 80. […] 3. The information referred to in point (c) of paragraph 1 shall only be accessible to the Member States and the Commission. The information referred to in the other points of that paragraph shall be accessible to the public, unless, for all or parts of that information, confidentiality of the information is justified on any of the following grounds: (a) protection of personal data in accordance with Regulation (EC) No 45/2001; (b) protection of commercially confidential information, especially in the investigators brochure, in particular through taking into account the status of the conformity assessment for the device, unless there is an overriding public interest in disclosure; (c) effective supervision of the conduct of the clinical investigation by the Member State(s) concerned. […]",
+            "he": "1. הנציבות, בשיתוף עם המדינות החברות, תקים, תנהל ותתחזק מערכת אלקטרונית: (a) ליצירת מספרי הזיהוי היחידים לחקירות קליניות הנזכרים בסעיף 70(1); (b) שתשמש כנקודת כניסה להגשת כל הבקשות או ההודעות לחקירות קליניות הנזכרות בסעיפים 70, 74, 75 ו-78 ולכל הגשת נתונים אחרת, או עיבוד נתונים בהקשר זה; (c) להחלפת מידע בנוגע לחקירות קליניות בהתאם לתקנה זו בין המדינות החברות ובינן לבין הנציבות, לרבות החלפת המידע הנזכרת בסעיפים 70 ו-76; (d) למידע שיסופק על ידי נותן החסות בהתאם לסעיף 77, לרבות דוח החקירה הקלינית וסיכומו כנדרש בפסקה 5 של אותו סעיף; (e) לדיווח על אירועים שליליים חמורים וליקויים במכשיר ועדכונים הקשורים בכך הנזכרים בסעיף 80. […] 3. המידע הנזכר בפסקה (c) של פסקה 1 יהיה נגיש למדינות החברות ולנציבות בלבד. המידע הנזכר ביתר הפסקאות של אותה פסקה יהיה נגיש לציבור, אלא אם, לגבי כל המידע או חלקים ממנו, חיסיון המידע מוצדק על אחד מהבסיסים הבאים: (a) הגנה על נתונים אישיים בהתאם לתקנה (EC) מס' 45/2001; (b) הגנה על מידע סודי מסחרית, במיוחד בחוברת החוקרים, בפרט באמצעות התחשבות במצב הערכת ההתאמה של המכשיר, אלא אם קיים אינטרס ציבורי גובר בגילוי; (c) פיקוח אפקטיבי על ניהול החקירה הקלינית על ידי המדינה/ות החברה/ות הנוגעת/ות בדבר. […]"
+          },
+          {
+            "en": "Paragraph 1: a. Eudamed2 issues a Union-wide unique single identification number (the ‘CIV-ID’) for clinical investigations upon submission of the required information to the system (continuation of current MDD practice). b. This should take place via the respective national procedures applicable to clinical investigations. c. This should be facilitated by means of ad hoc exchange, e.g. through regular teleconferences, or collaborative platforms (for example CircaBC or other online platforms). d. This should take place via the respective national procedures applicable to clinical investigations. CI reports and the respective summary reports should be published via the use of a dedicated publicly accessible CircaBC directory. The publication process should be coordinated by the MDCG to avoid duplications. e. This should take place via the respective national procedures applicable to clinical investigations and as described in the MDCG Guidance on safety reporting in clinical investigations. Paragraph 3: The accessibility of all sets of required information for the Commission, the Member States and the public, except in case a national system provides so, will be possible from the date when the Commission makes available the respective EUDAMED module or, alternatively, when EUDAMED becomes fully functional.",
+            "he": "פסקה 1: a. Eudamed2⁸ מנפיק מספר זיהוי יחיד ייחודי בכלל האיחוד (ה-‘CIV-ID’) לחקירות קליניות עם הגשת המידע הנדרש למערכת (המשך הפרקטיקה הנוכחית של ה-MDD)⁹. b. הדבר צריך להתבצע באמצעות ההליכים הלאומיים הרלוונטיים החלים על חקירות קליניות. c. הדבר צריך להתאפשר באמצעות החלפה אד-הוק, למשל באמצעות שיחות ועידה סדירות, או פלטפורמות שיתופיות (לדוגמה CircaBC או פלטפורמות מקוונות אחרות). d. הדבר צריך להתבצע באמצעות ההליכים הלאומיים הרלוונטיים החלים על חקירות קליניות. דוחות CI ודוחות הסיכום הרלוונטיים צריכים להתפרסם באמצעות שימוש בספריית CircaBC ייעודית נגישה לציבור. תהליך הפרסום צריך להיות מתואם על ידי ה-MDCG כדי למנוע כפילויות. e. הדבר צריך להתבצע באמצעות ההליכים הלאומיים הרלוונטיים החלים על חקירות קליניות וכמתואר בהנחיית ה-MDCG בנושא דיווח בטיחות בחקירות קליניות¹⁰. פסקה 3: הנגישות של כל מערכי המידע הנדרשים עבור הנציבות, המדינות החברות והציבור, למעט במקרה שמערכת לאומית קובעת כך, תתאפשר מהמועד שבו הנציבות תעמיד לרשות את מודול EUDAMED הרלוונטי, או לחלופין כאשר EUDAMED יהיה פעיל באופן מלא."
+          },
+          {
+            "en": "Member States (Eudamed2, communication) Commission, Member States (communication)",
+            "he": "מדינות חברות (Eudamed2, תקשורת) הנציבות, מדינות חברות (תקשורת)"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "art-74-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Article 74: Clinical investigations regarding devices bearing the CE marking",
+      "he": "סעיף 74: חקירות קליניות בנוגע למכשירים הנושאים את סימון ה-CE"
+    },
+    {
+      "id": "art-74-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          {
+            "en": "Article",
+            "he": "סעיף"
+          },
+          {
+            "en": "Provisions related to the use of EUDAMED (as referred to in Art. 123(3)(d) MDR)",
+            "he": "הוראות הנוגעות לשימוש ב-EUDAMED (כפי שנזכר בסעיף 123(3)(d) ל-MDR)"
+          },
+          {
+            "en": "Alternative solutions to submit and/or exchange information (as required under the MDR)",
+            "he": "פתרונות חלופיים להגשת ו/או החלפת מידע (כנדרש על פי ה-MDR)"
+          },
+          {
+            "en": "Responsible actor(s)",
+            "he": "גורם/ים אחראי/ם"
+          }
+        ],
+        [
+          {
+            "en": "Article 74: Clinical investigations regarding devices bearing the CE marking",
+            "he": "סעיף 74: חקירות קליניות בנוגע למכשירים הנושאים את סימון ה-CE"
+          },
+          {
+            "en": "1. Where a clinical investigation is to be conducted to further assess, within the scope of its intended purpose, a device which already bears the CE marking in accordance with Article 20(1), (‘PMCF investigation’), and where the investigation would involve submitting subjects to procedures additional to those performed under the normal conditions of use of the device and those additional procedures are invasive or burdensome, the sponsor shall notify the Member States concerned at least 30 days prior to its commencement by means of the electronic system referred to in Article 73. The sponsor shall include the documentation referred to in Chapter II of Annex XV as part of the notification. Points (b) to (k) and (m) of Article 62(4), Article 75, Article 76, Article 77, Article 80(5) and the relevant provisions of Annex XV shall apply to PMCF investigations. […]",
+            "he": "1. היכן שעתידה להיערך חקירה קלינית כדי להעריך עוד, במסגרת ייעודה המיועד, מכשיר הנושא כבר את סימון ה-CE בהתאם לסעיף 20(1) (‘חקירת PMCF’), והיכן שהחקירה תכרוך בהעמדת נבדקים להליכים נוספים על אלה המבוצעים בתנאי השימוש הרגילים של המכשיר ואותם הליכים נוספים הם פולשניים או מכבידים, על נותן החסות להודיע למדינות החברות הנוגעות בדבר לפחות 30 ימים בטרם תחילתה באמצעות המערכת האלקטרונית הנזכרת בסעיף 73. נותן החסות יכלול את התיעוד הנזכר בפרק II של נספח XV כחלק מההודעה. פסקאות (b) עד (k) ו-(m) של סעיף 62(4), סעיף 75, סעיף 76, סעיף 77, סעיף 80(5) וההוראות הרלוונטיות של נספח XV יחולו על חקירות PMCF. […]"
+          },
+          {
+            "en": "Paragraph 1: The notification of the relevant information should take place via the respective national procedures applicable to clinical investigations.",
+            "he": "פסקה 1: הודעת המידע הרלוונטי צריכה להתבצע באמצעות ההליכים הלאומיים הרלוונטיים החלים על חקירות קליניות."
+          },
+          {
+            "en": "Sponsors (notification)",
+            "he": "נותני חסות (הודעה)"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "art-75-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Article 75: Substantial modifications to clinical investigations",
+      "he": "סעיף 75: שינויים מהותיים בחקירות קליניות"
+    },
+    {
+      "id": "art-75-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          {
+            "en": "Article",
+            "he": "סעיף"
+          },
+          {
+            "en": "Provisions related to the use of EUDAMED (as referred to in Art. 123(3)(d) MDR)",
+            "he": "הוראות הנוגעות לשימוש ב-EUDAMED (כפי שנזכר בסעיף 123(3)(d) ל-MDR)"
+          },
+          {
+            "en": "Alternative solutions to submit and/or exchange information (as required under the MDR)",
+            "he": "פתרונות חלופיים להגשת ו/או החלפת מידע (כנדרש על פי ה-MDR)"
+          },
+          {
+            "en": "Responsible actor(s)",
+            "he": "גורם/ים אחראי/ם"
+          }
+        ],
+        [
+          {
+            "en": "Article 75: Substantial modifications to clinical investigations",
+            "he": "סעיף 75: שינויים מהותיים בחקירות קליניות"
+          },
+          {
+            "en": "1. If a sponsor intends to introduce modifications to a clinical investigation that are likely to have a substantial impact on the safety, health or rights of the subjects or on the robustness or reliability of the clinical data generated by the investigation, it shall notify, within one week, by means of the electronic system referred to in Article 73 the Member State(s) in which the clinical investigation is being or is to be conducted of the reasons for and the nature of those modifications. The sponsor shall include an updated version of the relevant documentation referred to in Chapter II of Annex XV as part of the notification. Changes to the relevant documentation shall be clearly identifiable. […]",
+            "he": "1. אם נותן חסות מתכוון להכניס בחקירה קלינית שינויים אשר עשויים להשפיע השפעה מהותית על הבטיחות, הבריאות או הזכויות של הנבדקים או על איתנות או מהימנות הנתונים הקליניים שהופקו בחקירה, עליו להודיע, בתוך שבוע, באמצעות המערכת האלקטרונית הנזכרת בסעיף 73, למדינה/ות החברה/ות שבה/ן נערכת או עתידה להיערך החקירה הקלינית, על הסיבות לאותם שינויים ועל טיבם. נותן החסות יכלול גרסה מעודכנת של התיעוד הרלוונטי הנזכר בפרק II של נספח XV כחלק מההודעה. שינויים בתיעוד הרלוונטי יהיו בני-זיהוי בבירור. […]"
+          },
+          {
+            "en": "Paragraph 1: The notification of the relevant information should take place via the respective national procedures applicable to clinical investigations.",
+            "he": "פסקה 1: הודעת המידע הרלוונטי צריכה להתבצע באמצעות ההליכים הלאומיים הרלוונטיים החלים על חקירות קליניות."
+          },
+          {
+            "en": "Sponsors (notification)",
+            "he": "נותני חסות (הודעה)"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "art-76-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Article 76: Corrective measures to be taken by Member States and information exchange between Member States",
+      "he": "סעיף 76: אמצעים מתקנים שעל המדינות החברות לנקוט והחלפת מידע בין המדינות החברות"
+    },
+    {
+      "id": "art-76-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          {
+            "en": "Article",
+            "he": "סעיף"
+          },
+          {
+            "en": "Provisions related to the use of EUDAMED (as referred to in Art. 123(3)(d) MDR)",
+            "he": "הוראות הנוגעות לשימוש ב-EUDAMED (כפי שנזכר בסעיף 123(3)(d) ל-MDR)"
+          },
+          {
+            "en": "Alternative solutions to submit and/or exchange information (as required under the MDR)",
+            "he": "פתרונות חלופיים להגשת ו/או החלפת מידע (כנדרש על פי ה-MDR)"
+          },
+          {
+            "en": "Responsible actor(s)",
+            "he": "גורם/ים אחראי/ם"
+          }
+        ],
+        [
+          {
+            "en": "Article 76: Corrective measures to be taken by Member States and information exchange between Member States",
+            "he": "סעיף 76: אמצעים מתקנים שעל המדינות החברות לנקוט והחלפת מידע בין המדינות החברות"
+          },
+          {
+            "en": "[…] 3. Where a Member State has taken a measure referred to in paragraph 1 of this Article or has refused a clinical investigation, or has been notified by the sponsor of the early termination of a clinical investigation on safety grounds, that Member State shall communicate the corresponding decision and the grounds therefor to all Member States and the Commission by means of the electronic system referred to in Article 73. 4. Where an application is withdrawn by the sponsor prior to a decision by a Member State, that information shall be made available through the electronic system referred to in Article 73 to all Member States and the Commission.",
+            "he": "[…] 3. היכן שמדינה חברה נקטה אמצעי הנזכר בפסקה 1 של סעיף זה או סירבה לחקירה קלינית, או קיבלה הודעה מנותן החסות על סיום מוקדם של חקירה קלינית מטעמי בטיחות, אותה מדינה חברה תמסור את ההחלטה המתאימה ואת הנימוקים לה לכל המדינות החברות ולנציבות באמצעות המערכת האלקטרונית הנזכרת בסעיף 73. 4. היכן שבקשה נמשכת על ידי נותן החסות טרם החלטה של מדינה חברה, מידע זה יועמד לרשות באמצעות המערכת האלקטרונית הנזכרת בסעיף 73 לכל המדינות החברות ולנציבות."
+          },
+          {
+            "en": "Paragraph 3-4: The communication of the relevant information to other Member States and to the Commission should take place by uploading the required information to a dedicated secure directory in CircaBC, using a pre-defined template once available.",
+            "he": "פסקאות 3–4: מסירת המידע הרלוונטי למדינות חברות אחרות ולנציבות צריכה להתבצע על ידי העלאת המידע הנדרש לספרייה מאובטחת ייעודית ב-CircaBC, תוך שימוש בתבנית מוגדרת מראש מיד עם זמינותה."
+          },
+          {
+            "en": "Member States (CircaBC)",
+            "he": "מדינות חברות (CircaBC)"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "art-77-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Article 77: Information from the sponsor at the end of a clinical investigation or in the event of a temporary halt or early termination",
+      "he": "סעיף 77: מידע מנותן החסות בתום חקירה קלינית או במקרה של עצירה זמנית או סיום מוקדם"
+    },
+    {
+      "id": "art-77-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          {
+            "en": "Article",
+            "he": "סעיף"
+          },
+          {
+            "en": "Provisions related to the use of EUDAMED (as referred to in Art. 123(3)(d) MDR)",
+            "he": "הוראות הנוגעות לשימוש ב-EUDAMED (כפי שנזכר בסעיף 123(3)(d) ל-MDR)"
+          },
+          {
+            "en": "Alternative solutions to submit and/or exchange information (as required under the MDR)",
+            "he": "פתרונות חלופיים להגשת ו/או החלפת מידע (כנדרש על פי ה-MDR)"
+          },
+          {
+            "en": "Responsible actor(s)",
+            "he": "גורם/ים אחראי/ם"
+          }
+        ],
+        [
+          {
+            "en": "Article 77: Information from the sponsor at the end of a clinical investigation or in the event of a temporary halt or early termination",
+            "he": "סעיף 77: מידע מנותן החסות בתום חקירה קלינית או במקרה של עצירה זמנית או סיום מוקדם"
+          },
+          {
+            "en": "1. If the sponsor has temporarily halted a clinical investigation or has terminated a clinical investigation early, it shall inform within 15 days the Member State in which that clinical investigation has been temporarily halted or terminated early, through the electronic system referred to in Article 73, of the temporary halt or early termination, providing a justification. In the event that the sponsor has temporarily halted or terminated early the clinical investigation on safety grounds, it shall inform all Member States in which that clinical investigation is being conducted thereof within 24 hours. […] 5. Irrespective of the outcome of the clinical investigation, within one year of the end of the clinical investigation or within three months of the early termination or temporary halt, the sponsor shall submit to the Member States in which a clinical investigation was conducted a clinical investigation report as referred to in Section 2.8 of Chapter I and Section 7 of Chapter III of Annex XV. The clinical investigation report shall be accompanied by a summary presented in terms that are easily understandable to the intended user. Both the report and summary shall be submitted by the sponsor by means of the electronic system referred to in Article 73. […] 7. The summary and the clinical investigation report referred to in paragraph 5 of this Article shall become publicly accessible through the electronic system referred to in Article 73, at the latest when the device is registered in accordance with Article 29 and before it is placed on the market. In cases of early termination or temporary halt, the summary and the report shall become publicly accessible immediately after submission. If the device is not registered in accordance with Article 29 within one year of the summary and the report having been entered into the electronic system pursuant to paragraph 5 of this Article, they shall become publicly accessible at that point in time.",
+            "he": "1. אם נותן החסות עצר זמנית חקירה קלינית או סיים חקירה קלינית מוקדם, עליו ליידע בתוך 15 ימים את המדינה החברה שבה החקירה הקלינית נעצרה זמנית או הסתיימה מוקדם, באמצעות המערכת האלקטרונית הנזכרת בסעיף 73, על העצירה הזמנית או הסיום המוקדם, תוך מתן נימוק. במקרה שנותן החסות עצר זמנית או סיים מוקדם את החקירה הקלינית מטעמי בטיחות, עליו ליידע את כל המדינות החברות שבהן נערכת אותה חקירה קלינית על כך בתוך 24 שעות. […] 5. ללא קשר לתוצאות החקירה הקלינית, בתוך שנה מתום החקירה הקלינית או בתוך שלושה חודשים מהסיום המוקדם או העצירה הזמנית, על נותן החסות להגיש למדינות החברות שבהן נערכה חקירה קלינית דוח חקירה קלינית כנזכר בסעיף 2.8 של פרק I ובסעיף 7 של פרק III בנספח XV. דוח החקירה הקלינית ילווה בסיכום המוצג במונחים מובנים בקלות למשתמש המיועד. הן הדוח והן הסיכום יוגשו על ידי נותן החסות באמצעות המערכת האלקטרונית הנזכרת בסעיף 73. […] 7. הסיכום ודוח החקירה הקלינית הנזכרים בפסקה 5 של סעיף זה ייעשו נגישים לציבור באמצעות המערכת האלקטרונית הנזכרת בסעיף 73, לכל המאוחר עם רישום המכשיר בהתאם לסעיף 29 ובטרם השמתו על השוק. במקרים של סיום מוקדם או עצירה זמנית, הסיכום והדוח ייעשו נגישים לציבור מיד לאחר ההגשה. אם המכשיר אינו נרשם בהתאם לסעיף 29 בתוך שנה מהזנת הסיכום והדוח למערכת האלקטרונית לפי פסקה 5 של סעיף זה, הם ייעשו נגישים לציבור באותו מועד."
+          },
+          {
+            "en": "Paragraph 1: The communication of the relevant information should take place via the respective national procedures applicable to clinical investigations. Paragraph 5: The upload of the relevant information should take place via the respective national procedures applicable to clinical investigations. Paragraph 7: CI reports and the respective summary reports should be shared and published via the use of a dedicated publicly available CircaBC directory. See also guidance on Article 73(1)(d) above.",
+            "he": "פסקה 1: מסירת המידע הרלוונטי צריכה להתבצע באמצעות ההליכים הלאומיים הרלוונטיים החלים על חקירות קליניות. פסקה 5: העלאת המידע הרלוונטי צריכה להתבצע באמצעות ההליכים הלאומיים הרלוונטיים החלים על חקירות קליניות. פסקה 7: דוחות CI ודוחות הסיכום הרלוונטיים צריכים להיות משותפים ומפורסמים באמצעות שימוש בספריית CircaBC ייעודית הזמינה לציבור. ראה גם את ההנחיה לסעיף 73(1)(d) לעיל."
+          },
+          {
+            "en": "Sponsors (notification) Commission (CircaBC)",
+            "he": "נותני חסות (הודעה) הנציבות (CircaBC)"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "art-78-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Article 78: Coordinated assessment procedure for clinical investigations",
+      "he": "סעיף 78: הליך הערכה מתואמת לחקירות קליניות"
+    },
+    {
+      "id": "art-78-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          {
+            "en": "Article",
+            "he": "סעיף"
+          },
+          {
+            "en": "Provisions related to the use of EUDAMED (as referred to in Art. 123(3)(d) MDR)",
+            "he": "הוראות הנוגעות לשימוש ב-EUDAMED (כפי שנזכר בסעיף 123(3)(d) ל-MDR)"
+          },
+          {
+            "en": "Alternative solutions to submit and/or exchange information (as required under the MDR)",
+            "he": "פתרונות חלופיים להגשת ו/או החלפת מידע (כנדרש על פי ה-MDR)"
+          },
+          {
+            "en": "Responsible actor(s)",
+            "he": "גורם/ים אחראי/ם"
+          }
+        ],
+        [
+          {
+            "en": "Article 78: Coordinated assessment procedure for clinical investigations",
+            "he": "סעיף 78: הליך הערכה מתואמת לחקירות קליניות"
+          },
+          {
+            "en": "1. By means of the electronic system referred to in Article 73, the sponsor of a clinical investigation to be conducted in more than one Member State may submit, for the purpose of Article 70, a single application that, upon receipt, is transmitted electronically to all Member States in which the clinical investigation is to be conducted. […] 8. Where the conclusion of the coordinating Member State concerning the area of coordinated assessment is that the conduct of the clinical investigation is acceptable or acceptable subject to compliance with specific conditions, that conclusion shall be deemed to be the conclusion of all Member States concerned. […] 11. Each Member State concerned shall notify the sponsor through the electronic system referred to in Article 73 as to whether the clinical investigation is authorised, whether it is authorised subject to conditions, or whether authorisation has been refused. Notification shall be done by way of one single decision within five days of the transmission, pursuant to point (d) of paragraph 4, by the coordinating Member State of the final assessment report. […] 12. Any substantial modifications as referred to in Article 75 shall be notified to the Member States concerned by means of the electronic system referred to in Article 73. Any assessment as to whether there are grounds for disagreement as referred to in the second subparagraph of paragraph 8 of this Article shall be carried out under the direction of the coordinating Member State, except for substantial modifications concerning Sections 1.13, 3.1.3, 4.2, 4.3 and 4.4 of Chapter II of Annex XV, which shall be assessed separately by each Member State concerned.",
+            "he": "1. באמצעות המערכת האלקטרונית הנזכרת בסעיף 73, נותן החסות של חקירה קלינית שעתידה להיערך ביותר ממדינה חברה אחת רשאי להגיש, לצורך סעיף 70, בקשה יחידה אשר, עם קבלתה, מועברת אלקטרונית לכל המדינות החברות שבהן עתידה להיערך החקירה הקלינית. […] 8. היכן שמסקנת המדינה החברה המתאמת בנוגע לתחום ההערכה המתואמת היא כי ניהול החקירה הקלינית מקובל או מקובל בכפוף לעמידה בתנאים מסוימים, מסקנה זו תיחשב למסקנת כל המדינות החברות הנוגעות בדבר. […] 11. כל מדינה חברה נוגעת בדבר תיידע את נותן החסות באמצעות המערכת האלקטרונית הנזכרת בסעיף 73 אם החקירה הקלינית מאושרת, אם היא מאושרת בכפוף לתנאים, או אם האישור סורב. ההודעה תיעשה בדרך של החלטה יחידה בתוך חמישה ימים מהעברת דוח ההערכה הסופי על ידי המדינה החברה המתאמת לפי פסקה (d) של פסקה 4. […] 12. כל שינוי מהותי כנזכר בסעיף 75 יודע למדינות החברות הנוגעות בדבר באמצעות המערכת האלקטרונית הנזכרת בסעיף 73. כל הערכה אם קיימים טעמים לאי-הסכמה כנזכר בפסקת המשנה השנייה של פסקה 8 של סעיף זה תבוצע בהכוונת המדינה החברה המתאמת, למעט שינויים מהותיים הנוגעים לסעיפים 1.13, 3.1.3, 4.2, 4.3 ו-4.4 של פרק II בנספח XV, אשר יוערכו בנפרד על ידי כל מדינה חברה נוגעת בדבר."
+          },
+          {
+            "en": "Paragraphs 1, 8, 11 and 12: The procedure is mandatory as of 27 May 2027. Prior to that, the application of the procedure is voluntary as decided by the Member States willing to participate. The MDCG may provide further guidance on the voluntary procedure, if deemed necessary.",
+            "he": "פסקאות 1, 8, 11 ו-12: ההליך מחייב החל מ-27 במאי 2027. לפני כן, החלת ההליך היא וולונטרית כפי שהוחלט על ידי המדינות החברות המעוניינות להשתתף. ה-MDCG רשאי לספק הנחיה נוספת בנוגע להליך הוולונטרי, אם ייחשב הדבר לנחוץ."
+          },
+          {
+            "en": "Sponsors (notification)",
+            "he": "נותני חסות (הודעה)"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "art-80-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Article 80: Recording and reporting of adverse events that occur during clinical investigations",
+      "he": "סעיף 80: רישום ודיווח של אירועים שליליים המתרחשים במהלך חקירות קליניות"
+    },
+    {
+      "id": "art-80-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          {
+            "en": "Article",
+            "he": "סעיף"
+          },
+          {
+            "en": "Provisions related to the use of EUDAMED (as referred to in Art. 123(3)(d) MDR)",
+            "he": "הוראות הנוגעות לשימוש ב-EUDAMED (כפי שנזכר בסעיף 123(3)(d) ל-MDR)"
+          },
+          {
+            "en": "Alternative solutions to submit and/or exchange information (as required under the MDR)",
+            "he": "פתרונות חלופיים להגשת ו/או החלפת מידע (כנדרש על פי ה-MDR)"
+          },
+          {
+            "en": "Responsible actor(s)",
+            "he": "גורם/ים אחראי/ם"
+          }
+        ],
+        [
+          {
+            "en": "Article 80: Recording and reporting of adverse events that occur during clinical investigations",
+            "he": "סעיף 80: רישום ודיווח של אירועים שליליים המתרחשים במהלך חקירות קליניות"
+          },
+          {
+            "en": "[…] 2. The sponsor shall report, without delay to all Member States in which the clinical investigation is being conducted, all of the following by means of the electronic system referred to in Article 73: (a) any serious adverse event that has a causal relationship with the investigational device, the comparator or the investigation procedure or where such causal relationship is reasonably possible; (b) any device deficiency that might have led to a serious adverse event if appropriate action had not been taken, intervention had not occurred, or circumstances had been less fortunate; (c) any new findings in relation to any event referred to in points (a) and (b). The period for reporting shall take account of the severity of the event. Where necessary to ensure timely reporting, the sponsor may submit an initial report that is incomplete followed up by a complete report. Upon request by any Member State in which the clinical investigation is being conducted, the sponsor shall provide all information referred to in paragraph 1. 3. The sponsor shall also report to the Member States in which the clinical investigation is being conducted any event referred to in paragraph 2 of this Article that occurred in third countries in which a clinical investigation is performed under the same clinical investigation plan as the one applying to a clinical investigation covered by this Regulation by means of the electronic system referred to in Article 73. 4. In the case of a clinical investigation for which the sponsor has used the single application referred to in Article 78, the sponsor shall report any event as referred to in paragraph 2 of this Article by means of the electronic system referred to in Article 73. Upon receipt, this report shall be transmitted electronically to all Member States in which the clinical investigation is being conducted. […]",
+            "he": "[…] 2. נותן החסות ידווח, ללא דיחוי, לכל המדינות החברות שבהן נערכת החקירה הקלינית, על כל אלה באמצעות המערכת האלקטרונית הנזכרת בסעיף 73: (a) כל אירוע שלילי חמור שיש לו קשר סיבתי עם מכשיר החקירה, מכשיר ההשוואה או הליך החקירה, או היכן שקשר סיבתי כזה אפשרי באופן סביר; (b) כל ליקוי במכשיר שעלול היה להוביל לאירוע שלילי חמור אילו לא ננקטה פעולה מתאימה, לא התרחשה התערבות או הנסיבות היו פחות מוצלחות; (c) כל ממצא חדש בנוגע לכל אירוע הנזכר בפסקאות (a) ו-(b). תקופת הדיווח תביא בחשבון את חומרת האירוע. היכן שנדרש כדי להבטיח דיווח במועד, נותן החסות רשאי להגיש דוח ראשוני שאינו שלם ולאחריו דוח שלם. לפי בקשת כל מדינה חברה שבה נערכת החקירה הקלינית, נותן החסות יספק את כל המידע הנזכר בפסקה 1. 3. נותן החסות ידווח גם למדינות החברות שבהן נערכת החקירה הקלינית על כל אירוע הנזכר בפסקה 2 של סעיף זה שהתרחש במדינות שלישיות שבהן מבוצעת חקירה קלינית על פי אותה תכנית חקירה קלינית כזו החלה על חקירה קלינית הנכללת בתקנה זו, באמצעות המערכת האלקטרונית הנזכרת בסעיף 73. 4. במקרה של חקירה קלינית שלגביה השתמש נותן החסות בבקשה היחידה הנזכרת בסעיף 78, נותן החסות ידווח על כל אירוע כנזכר בפסקה 2 של סעיף זה באמצעות המערכת האלקטרונית הנזכרת בסעיף 73. עם קבלתו, דוח זה יועבר אלקטרונית לכל המדינות החברות שבהן נערכת החקירה הקלינית. […]"
+          },
+          {
+            "en": "Paragraphs 2, 3 and 4: The reporting should take place via the respective national procedures applicable to clinical investigations and in accordance with the MDCG Guidance on safety reporting in clinical investigations of medical devices under the Regulation (EU) 2017/745.",
+            "he": "פסקאות 2, 3 ו-4: הדיווח צריך להתבצע באמצעות ההליכים הלאומיים הרלוונטיים החלים על חקירות קליניות ובהתאם להנחיית ה-MDCG בנושא דיווח בטיחות בחקירות קליניות של מכשירים רפואיים על פי תקנה (האיחוד האירופי) 2017/745.¹¹"
+          },
+          {
+            "en": "Sponsors (notification)",
+            "he": "נותני חסות (הודעה)"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "art-86-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Article 86: Periodic safety update report (PSUR)",
+      "he": "סעיף 86: דוח עדכון בטיחות תקופתי (PSUR)"
+    },
+    {
+      "id": "art-86-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          {
+            "en": "Article",
+            "he": "סעיף"
+          },
+          {
+            "en": "Provisions related to the use of EUDAMED (as referred to in Art. 123(3)(d) MDR)",
+            "he": "הוראות הנוגעות לשימוש ב-EUDAMED (כפי שנזכר בסעיף 123(3)(d) ל-MDR)"
+          },
+          {
+            "en": "Alternative solutions to submit and/or exchange information (as required under the MDR)",
+            "he": "פתרונות חלופיים להגשת ו/או החלפת מידע (כנדרש על פי ה-MDR)"
+          },
+          {
+            "en": "Responsible actor(s)",
+            "he": "גורם/ים אחראי/ם"
+          }
+        ],
+        [
+          {
+            "en": "Article 86: Periodic safety update report (PSUR)",
+            "he": "סעיף 86: דוח עדכון בטיחות תקופתי (PSUR)"
+          },
+          {
+            "en": "[…] 2. For class III devices or implantable devices, manufacturers shall submit PSURs by means of the electronic system referred to in Article 92 to the notified body involved in the conformity assessment in accordance with Article 52. The notified body shall review the report and add its evaluation to that electronic system with details of any action taken. Such PSURs and the evaluation by the notified body shall be made available to competent authorities through that electronic system. 3. For devices other than those referred to in paragraph 2, manufacturers shall make PSURs available to the notified body involved in the conformity assessment and, upon request, to competent authorities.",
+            "he": "[…] 2. לגבי מכשירי סיווג III או מכשירים מושתלים, על היצרנים להגיש דוחות PSUR באמצעות המערכת האלקטרונית הנזכרת בסעיף 92 לגוף המאונתר המעורב בהערכת ההתאמה בהתאם לסעיף 52. הגוף המאונתר יבחן את הדוח ויוסיף את הערכתו לאותה מערכת אלקטרונית עם פרטים על כל פעולה שננקטה. דוחות PSUR כאמור והערכת הגוף המאונתר יועמדו לרשות הרשויות המוסמכות באמצעות אותה מערכת אלקטרונית. 3. לגבי מכשירים שאינם הנזכרים בפסקה 2, על היצרנים להעמיד דוחות PSUR לרשות הגוף המאונתר המעורב בהערכת ההתאמה, ולפי בקשה – לרשות הרשויות המוסמכות."
+          },
+          {
+            "en": "Paragraph 2: For class III devices and for classes IIa, and IIb implantable devices, manufacturers should deliver the PSURs to the relevant notified bodies by appropriate means. Notified bodies should provide the PSURs and corresponding evaluations to the manufacturers and make them available upon request to the competent authority.",
+            "he": "פסקה 2: לגבי מכשירי סיווג III ולגבי מכשירי סיווג IIa ו-IIb מושתלים, על היצרנים למסור את דוחות ה-PSUR לגופים המאונתרים הרלוונטיים באמצעים מתאימים. על הגופים המאונתרים לספק את דוחות ה-PSUR ואת ההערכות המתאימות ליצרנים ולהעמידם לרשות הרשות המוסמכת לפי בקשה."
+          },
+          {
+            "en": "Manufacturers (notification) Notified Bodies (data upload notification)",
+            "he": "יצרנים (הודעה) גופים מאונתרים (העלאת נתונים, הודעה)"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "art-87-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Article 87: Reporting of serious incidents and field safety corrective actions",
+      "he": "סעיף 87: דיווח על אירועים חמורים ופעולות מתקנות בשטח"
+    },
+    {
+      "id": "art-87-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          {
+            "en": "Article",
+            "he": "סעיף"
+          },
+          {
+            "en": "Provisions related to the use of EUDAMED (as referred to in Art. 123(3)(d) MDR)",
+            "he": "הוראות הנוגעות לשימוש ב-EUDAMED (כפי שנזכר בסעיף 123(3)(d) ל-MDR)"
+          },
+          {
+            "en": "Alternative solutions to submit and/or exchange information (as required under the MDR)",
+            "he": "פתרונות חלופיים להגשת ו/או החלפת מידע (כנדרש על פי ה-MDR)"
+          },
+          {
+            "en": "Responsible actor(s)",
+            "he": "גורם/ים אחראי/ם"
+          }
+        ],
+        [
+          {
+            "en": "Article 87: Reporting of serious incidents and field safety corrective actions",
+            "he": "סעיף 87: דיווח על אירועים חמורים ופעולות מתקנות בשטח"
+          },
+          {
+            "en": "1. Manufacturers of devices made available on the Union market, other than investigational devices, shall report, to the relevant competent authorities, in accordance with Articles 92(5) and (7), the following: (a) any serious incident involving devices made available on the Union market, except expected side-effects which are clearly documented in the product information and quantified in the technical documentation and are subject to trend reporting pursuant to Article 88; (b) any field safety corrective action in respect of devices made available on the Union market, including any field safety corrective action undertaken in a third country in relation to a device which is also legally made available on the Union market, if the reason for the field safety corrective action is not limited to the device made available in the third country. The reports referred to in the first subparagraph shall be submitted through the electronic system referred to in Article 92. […] 9. For similar serious incidents that occur with the same device or device type and for which the root cause has been identified or a field safety corrective action implemented or where the incidents are common and well documented, the manufacturer may provide periodic summary reports instead of individual serious incident reports, on condition that the coordinating competent authority referred to in Article 89(9), in consultation with the competent authorities referred to in point (a) of Article 92(8), has agreed with the manufacturer on the format, content and frequency of the periodic summary reporting. Where a single competent authority is referred to in points (a) and (b) of Article 92(8), the manufacturer may provide periodic summary reports following agreement with that competent authority. The reports referred to in the ninth subparagraph shall be submitted through the electronic system referred to in Article 92. […]",
+            "he": "1. יצרני מכשירים שהועמדו לרשות בשוק האיחוד, למעט מכשירי חקירה, ידווחו לרשויות המוסמכות הרלוונטיות, בהתאם לסעיפים 92(5) ו-(7), על אלה: (a) כל אירוע חמור הכרוך במכשירים שהועמדו לרשות בשוק האיחוד, למעט תופעות לוואי צפויות המתועדות בבירור במידע על המוצר וכומתו בתיעוד הטכני ונתונות לדיווח מגמות לפי סעיף 88; (b) כל פעולה מתקנת בשטח בנוגע למכשירים שהועמדו לרשות בשוק האיחוד, לרבות כל פעולה מתקנת בשטח שננקטה במדינה שלישית בנוגע למכשיר שהועמד לרשות באופן חוקי גם בשוק האיחוד, אם הסיבה לפעולה המתקנת בשטח אינה מוגבלת למכשיר שהועמד לרשות במדינה השלישית. הדוחות הנזכרים בפסקת המשנה הראשונה יוגשו באמצעות המערכת האלקטרונית הנזכרת בסעיף 92. […] 9. לגבי אירועים חמורים דומים המתרחשים עם אותו מכשיר או סוג מכשיר ואשר לגביהם זוהה שורש הבעיה או יושמה פעולה מתקנת בשטח, או היכן שהאירועים נפוצים ומתועדים היטב, היצרן רשאי לספק דוחות סיכום תקופתיים במקום דוחות אירוע חמור פרטניים, בתנאי שהרשות המוסמכת המתאמת הנזכרת בסעיף 89(9), בהתייעצות עם הרשויות המוסמכות הנזכרות בפסקה (a) של סעיף 92(8), הסכימה עם היצרן על הפורמט, התוכן והתדירות של דיווח הסיכום התקופתי. היכן שרשות מוסמכת יחידה נזכרת בפסקאות (a) ו-(b) של סעיף 92(8), היצרן רשאי לספק דוחות סיכום תקופתיים בעקבות הסכמה עם אותה רשות מוסמכת. הדוחות הנזכרים בפסקת המשנה התשיעית יוגשו באמצעות המערכת האלקטרונית הנזכרת בסעיף 92. […]"
+          },
+          {
+            "en": "Paragraph 1: Manufacturers should report serious incidents and field safety corrective actions to the respective/relevant national vigilance systems. The new MIR form has already been adapted to MDR requirements and should be used accordingly. The current FSCA form should be used (the additional information required under the MDR may be added to the general comments section of the form). Paragraph 9: The current PSR Form should be used (the additional information required under the MDR may be added to the general comments section of the form). It should be transmitted by the manufacturers via the national vigilance systems.",
+            "he": "פסקה 1: על היצרנים לדווח על אירועים חמורים ועל פעולות מתקנות בשטח למערכות הערנות הלאומיות הרלוונטיות/הנוגעות בדבר. טופס ה-MIR החדש כבר הותאם לדרישות ה-MDR ויש להשתמש בו בהתאם. יש להשתמש בטופס ה-FSCA הנוכחי (המידע הנוסף הנדרש על פי ה-MDR ניתן להוספה במקטע ההערות הכלליות של הטופס). פסקה 9: יש להשתמש בטופס ה-PSR הנוכחי (המידע הנוסף הנדרש על פי ה-MDR ניתן להוספה במקטע ההערות הכלליות של הטופס). על היצרנים להעבירו באמצעות מערכות הערנות הלאומיות."
+          },
+          {
+            "en": "Member States (national vigilance system) Manufacturers (data submission)",
+            "he": "מדינות חברות (מערכת ערנות לאומית) יצרנים (הגשת נתונים)"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "art-88-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Article 88: Trend reporting",
+      "he": "סעיף 88: דיווח מגמות"
+    },
+    {
+      "id": "art-88-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          {
+            "en": "Article",
+            "he": "סעיף"
+          },
+          {
+            "en": "Provisions related to the use of EUDAMED (as referred to in Art. 123(3)(d) MDR)",
+            "he": "הוראות הנוגעות לשימוש ב-EUDAMED (כפי שנזכר בסעיף 123(3)(d) ל-MDR)"
+          },
+          {
+            "en": "Alternative solutions to submit and/or exchange information (as required under the MDR)",
+            "he": "פתרונות חלופיים להגשת ו/או החלפת מידע (כנדרש על פי ה-MDR)"
+          },
+          {
+            "en": "Responsible actor(s)",
+            "he": "גורם/ים אחראי/ם"
+          }
+        ],
+        [
+          {
+            "en": "Article 88: Trend reporting",
+            "he": "סעיף 88: דיווח מגמות"
+          },
+          {
+            "en": "1. Manufacturers shall report, by means of the electronic system referred to in Article 92, any statistically significant increase in the frequency or severity of incidents that are not serious incidents or that are expected undesirable side-effects that could have a significant impact on the benefit-risk analysis referred to in Sections 1 and 5 of Annex I and which have led or may lead to risks to the health or safety of patients, users or other persons that are unacceptable when weighed against the intended benefits. […]",
+            "he": "1. היצרנים ידווחו, באמצעות המערכת האלקטרונית הנזכרת בסעיף 92, על כל עלייה מובהקת סטטיסטית בתדירות או בחומרת אירועים שאינם אירועים חמורים או שהם תופעות לוואי בלתי רצויות צפויות, אשר עשויה להשפיע השפעה מהותית על ניתוח התועלת-סיכון הנזכר בסעיפים 1 ו-5 של נספח I ואשר הובילו או עשויות להוביל לסיכונים לבריאות או לבטיחות של מטופלים, משתמשים או אנשים אחרים אשר אינם מקובלים בעת שקילתם מול התועלות המיועדות. […]"
+          },
+          {
+            "en": "Paragraph 1: Manufacturers must submit trend reports to the respective / relevant national vigilance systems. The current Trend report form should be used until its updating for MDR compliance.",
+            "he": "פסקה 1: על היצרנים להגיש דוחות מגמות למערכות הערנות הלאומיות הרלוונטיות/הנוגעות בדבר. יש להשתמש בטופס דוח המגמות הנוכחי עד לעדכונו לעמידה ב-MDR."
+          },
+          {
+            "en": "Member States (national vigilance system) Manufacturers (data submission)",
+            "he": "מדינות חברות (מערכת ערנות לאומית) יצרנים (הגשת נתונים)"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "art-89-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Article 89: Analysis of serious incidents and field safety corrective actions",
+      "he": "סעיף 89: ניתוח אירועים חמורים ופעולות מתקנות בשטח"
+    },
+    {
+      "id": "art-89-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          {
+            "en": "Article",
+            "he": "סעיף"
+          },
+          {
+            "en": "Provisions related to the use of EUDAMED (as referred to in Art. 123(3)(d) MDR)",
+            "he": "הוראות הנוגעות לשימוש ב-EUDAMED (כפי שנזכר בסעיף 123(3)(d) ל-MDR)"
+          },
+          {
+            "en": "Alternative solutions to submit and/or exchange information (as required under the MDR)",
+            "he": "פתרונות חלופיים להגשת ו/או החלפת מידע (כנדרש על פי ה-MDR)"
+          },
+          {
+            "en": "Responsible actor(s)",
+            "he": "גורם/ים אחראי/ם"
+          }
+        ],
+        [
+          {
+            "en": "Article 89: Analysis of serious incidents and field safety corrective actions",
+            "he": "סעיף 89: ניתוח אירועים חמורים ופעולות מתקנות בשטח"
+          },
+          {
+            "en": "[…] 5. The manufacturer shall provide a final report to the competent authority setting out its findings from the investigation by means of the electronic system referred to in Article 92. The report shall set out conclusions and where relevant indicate corrective actions to be taken. 7. After carrying out the evaluation in accordance with paragraph 3 of this Article, the evaluating competent authority shall, through the electronic system referred to in Article 92, inform, without delay, the other competent authorities of the corrective action taken or envisaged by the manufacturer or required of it to minimise the risk of recurrence of the serious incident, including information on the underlying events and the outcome of its assessment. 8. […] The manufacturer shall enter the field safety notice in the electronic system referred to in Article 92 through which that notice shall be accessible to the public. […] 9. […] The coordinating competent authority shall, through the electronic system referred to in Article 92, inform the manufacturer, the other competent authorities and the Commission that it has assumed the role of coordinating competent authority.",
+            "he": "[…] 5. היצרן יספק לרשות המוסמכת דוח סופי המפרט את ממצאיו מהחקירה באמצעות המערכת האלקטרונית הנזכרת בסעיף 92. הדוח יפרט מסקנות ובמקרים הרלוונטיים יציין פעולות מתקנות שיש לנקוט. 7. לאחר ביצוע ההערכה בהתאם לפסקה 3 של סעיף זה, הרשות המוסמכת המעריכה תיידע, ללא דיחוי, באמצעות המערכת האלקטרונית הנזכרת בסעיף 92, את הרשויות המוסמכות האחרות על הפעולה המתקנת שננקטה או נצפית על ידי היצרן או הנדרשת ממנו כדי למזער את הסיכון להישנות האירוע החמור, לרבות מידע על האירועים הבסיסיים ועל תוצאת הערכתה. 8. […] היצרן יזין את הודעת הבטיחות בשטח למערכת האלקטרונית הנזכרת בסעיף 92, אשר באמצעותה תהיה אותה הודעה נגישה לציבור. […] 9. […] הרשות המוסמכת המתאמת תיידע, באמצעות המערכת האלקטרונית הנזכרת בסעיף 92, את היצרן, את הרשויות המוסמכות האחרות ואת הנציבות כי נטלה על עצמה את תפקיד הרשות המוסמכת המתאמת."
+          },
+          {
+            "en": "Paragraph 5: Manufacturers should submit the final report to the respective / relevant national vigilance system. Paragraph 7: Communication with other competent authorities should take place through a dedicated secure directory in CircaBC (organised by the Commission) for MDR devices. For Legacy and older devices, the existing Eudamed2 system for NCAR should continue to apply. Paragraph 8 (third sub-paragraph): Manufacturers should submit the field safety notices to the respective/relevant national vigilance systems. The respective/relevant competent authorities should make these field safety notices publicly available/accessible to the public in accordance with their national legislation. Paragraph 9: The coordinating competent authority shall inform by email or other suitable communication channels, the other competent authorities, the manufacturer and the Commission that it has assumed the role of coordinating competent authority.",
+            "he": "פסקה 5: על היצרנים להגיש את הדוח הסופי למערכת הערנות הלאומית הרלוונטית/הנוגעת בדבר. פסקה 7: התקשורת עם רשויות מוסמכות אחרות צריכה להתבצע באמצעות ספרייה מאובטחת ייעודית ב-CircaBC (מאורגנת על ידי הנציבות) עבור מכשירי MDR. לגבי מכשירי מורשת (legacy) ומכשירים ישנים יותר, מערכת ה-Eudamed2 הקיימת עבור NCAR צריכה להמשיך לחול. פסקה 8 (פסקת המשנה השלישית): על היצרנים להגיש את הודעות הבטיחות בשטח למערכות הערנות הלאומיות הרלוונטיות/הנוגעות בדבר. על הרשויות המוסמכות הרלוונטיות/הנוגעות בדבר להעמיד הודעות בטיחות בשטח אלה לרשות הציבור / נגישות לציבור בהתאם לחקיקה הלאומית שלהן. פסקה 9: הרשות המוסמכת המתאמת תיידע בדוא\"ל או בערוצי תקשורת מתאימים אחרים את הרשויות המוסמכות האחרות, את היצרן ואת הנציבות כי נטלה על עצמה את תפקיד הרשות המוסמכת המתאמת."
+          },
+          {
+            "en": "Member States (national vigilance system) Commission, Member States (CircaBC) Member States (Eudamed2) Manufacturers (data submission)",
+            "he": "מדינות חברות (מערכת ערנות לאומית) הנציבות, מדינות חברות (CircaBC) מדינות חברות (Eudamed2) יצרנים (הגשת נתונים)"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "art-90-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Article 90: Analysis of vigilance data",
+      "he": "סעיף 90: ניתוח נתוני ערנות"
+    },
+    {
+      "id": "art-90-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          {
+            "en": "Article",
+            "he": "סעיף"
+          },
+          {
+            "en": "Provisions related to the use of EUDAMED (as referred to in Art. 123(3)(d) MDR)",
+            "he": "הוראות הנוגעות לשימוש ב-EUDAMED (כפי שנזכר בסעיף 123(3)(d) ל-MDR)"
+          },
+          {
+            "en": "Alternative solutions to submit and/or exchange information (as required under the MDR)",
+            "he": "פתרונות חלופיים להגשת ו/או החלפת מידע (כנדרש על פי ה-MDR)"
+          },
+          {
+            "en": "Responsible actor(s)",
+            "he": "גורם/ים אחראי/ם"
+          }
+        ],
+        [
+          {
+            "en": "Article 90: Analysis of vigilance data",
+            "he": "סעיף 90: ניתוח נתוני ערנות"
+          },
+          {
+            "en": "The Commission shall, in collaboration with the Member States, put in place systems and processes to actively monitor the data available in the electronic system referred to in Article 92, in order to identify trends, patterns or signals in the data that may reveal new risks or safety concerns. […]",
+            "he": "הנציבות, בשיתוף עם המדינות החברות, תקים מערכות ותהליכים לניטור אקטיבי של הנתונים הזמינים במערכת האלקטרונית הנזכרת בסעיף 92, על מנת לזהות מגמות, דפוסים או אותות בנתונים אשר עשויים לחשוף סיכונים חדשים או חששות בטיחות. […]"
+          },
+          {
+            "en": "The monitoring of data will become possible from the date when EUDAMED Vigilance module is made available.",
+            "he": "ניטור הנתונים יתאפשר מהמועד שבו יועמד לרשות מודול הערנות (Vigilance) של EUDAMED."
+          },
+          {
+            "en": "-",
+            "he": "-"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "art-93-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Article 93: Market surveillance activities",
+      "he": "סעיף 93: פעילויות פיקוח שוק"
+    },
+    {
+      "id": "art-93-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          {
+            "en": "Article",
+            "he": "סעיף"
+          },
+          {
+            "en": "Provisions related to the use of EUDAMED (as referred to in Art. 123(3)(d) MDR)",
+            "he": "הוראות הנוגעות לשימוש ב-EUDAMED (כפי שנזכר בסעיף 123(3)(d) ל-MDR)"
+          },
+          {
+            "en": "Alternative solutions to submit and/or exchange information (as required under the MDR)",
+            "he": "פתרונות חלופיים להגשת ו/או החלפת מידע (כנדרש על פי ה-MDR)"
+          },
+          {
+            "en": "Responsible actor(s)",
+            "he": "גורם/ים אחראי/ם"
+          }
+        ],
+        [
+          {
+            "en": "Article 93: Market surveillance activities",
+            "he": "סעיף 93: פעילויות פיקוח שוק"
+          },
+          {
+            "en": "[…] 4. The competent authorities shall prepare an annual summary of the results of their surveillance activities and make it accessible to other competent authorities by means of the electronic system referred to in Article 100. […] 7. The competent authority which carried out the inspection shall communicate the content of the report referred to in paragraph 6 of this Article to the economic operator that has been the subject of the inspection. Before adopting the final report, the competent authority shall give that economic operator the opportunity to submit comments. That final inspection report shall be entered in the electronic system provided for in Article 100. 8. The Member States shall review and assess the functioning of their market surveillance activities. Such reviews and assessments shall be carried out at least every four years and the results thereof shall be communicated to the other Member States and the Commission. Each Member State shall make a summary of the results accessible to the public by means of the electronic system referred to in Article 100. […]",
+            "he": "[…] 4. הרשויות המוסמכות יכינו סיכום שנתי של תוצאות פעילויות הפיקוח שלהן ויעמידו אותו לרשות הרשויות המוסמכות האחרות באמצעות המערכת האלקטרונית הנזכרת בסעיף 100. […] 7. הרשות המוסמכת שביצעה את הביקורת תמסור את תוכן הדוח הנזכר בפסקה 6 של סעיף זה לגורם הכלכלי שהיה נושא הביקורת. בטרם אימוץ הדוח הסופי, הרשות המוסמכת תיתן לאותו גורם כלכלי הזדמנות להגיש הערות. דוח ביקורת סופי זה יוזן למערכת האלקטרונית הקבועה בסעיף 100. 8. המדינות החברות יבחנו ויעריכו את תפקוד פעילויות פיקוח השוק שלהן. בחינות והערכות כאמור יבוצעו לפחות אחת לארבע שנים ותוצאותיהן ימסרו למדינות החברות האחרות ולנציבות. כל מדינה חברה תעמיד סיכום של התוצאות לרשות הציבור באמצעות המערכת האלקטרונית הנזכרת בסעיף 100. […]"
+          },
+          {
+            "en": "Paragraph 4: Competent authorities should notify other relevant authorities by uploading the summary document to a dedicated secure directory in CircaBC (organised by the Commission). Paragraph 7: Competent authorities should make the final inspection reports available to other authorities by uploading the document to the CircaBC directory referred to under the alternative solution for paragraph 4. Paragraph 8: The EUDAMED functionality will be available before the obligation starts to apply. Before this date, Member States may make the summaries of the results available to the public on their websites.",
+            "he": "פסקה 4: על הרשויות המוסמכות ליידע רשויות רלוונטיות אחרות על ידי העלאת מסמך הסיכום לספרייה מאובטחת ייעודית ב-CircaBC (מאורגנת על ידי הנציבות). פסקה 7: על הרשויות המוסמכות להעמיד את דוחות הביקורת הסופיים לרשות רשויות אחרות על ידי העלאת המסמך לספריית CircaBC הנזכרת בפתרון החלופי לפסקה 4. פסקה 8: הפונקציונליות של EUDAMED תהיה זמינה בטרם תחל החובה לחול. לפני מועד זה, המדינות החברות רשאיות להעמיד את סיכומי התוצאות לרשות הציבור באתריהן."
+          },
+          {
+            "en": "Commission (CircaBC) Member States (data upload, communication, publication)",
+            "he": "הנציבות (CircaBC) מדינות חברות (העלאת נתונים, תקשורת, פרסום)"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "art-95-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Article 95: Procedure for dealing with devices presenting an unacceptable risk to health and safety",
+      "he": "סעיף 95: הליך לטיפול במכשירים המציבים סיכון בלתי קביל לבריאות ולבטיחות"
+    },
+    {
+      "id": "art-95-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          {
+            "en": "Article",
+            "he": "סעיף"
+          },
+          {
+            "en": "Provisions related to the use of EUDAMED (as referred to in Art. 123(3)(d) MDR)",
+            "he": "הוראות הנוגעות לשימוש ב-EUDAMED (כפי שנזכר בסעיף 123(3)(d) ל-MDR)"
+          },
+          {
+            "en": "Alternative solutions to submit and/or exchange information (as required under the MDR)",
+            "he": "פתרונות חלופיים להגשת ו/או החלפת מידע (כנדרש על פי ה-MDR)"
+          },
+          {
+            "en": "Responsible actor(s)",
+            "he": "גורם/ים אחראי/ם"
+          }
+        ],
+        [
+          {
+            "en": "Article 95: Procedure for dealing with devices presenting an unacceptable risk to health and safety",
+            "he": "סעיף 95: הליך לטיפול במכשירים המציבים סיכון בלתי קביל לבריאות ולבטיחות"
+          },
+          {
+            "en": "[…] 2. The competent authorities shall, without delay, notify the Commission, the other Member States and, where a certificate has been issued in accordance with Article 56 for the device concerned, the notified body that issued that certificate, of the results of the evaluation and of the actions which they have required the economic operators to take, by means of the electronic system referred to in Article 100. 4. Where the economic operator as referred to in paragraph 1 does not take adequate corrective action within the period referred to in paragraph 1, the competent authorities shall take all appropriate measures to prohibit or restrict the making available of the device on their national market, to withdraw the device from that market or to recall it. The competent authorities shall notify the Commission, the other Member States and the notified body referred to in paragraph 2 of this Article, without delay, of those measures, by means of the electronic system referred to in Article 100. 6. Member States other than the Member State initiating the procedure shall, without delay, inform the Commission and the other Member States, by means of the electronic system referred to in Article 100, of any additional relevant information at their disposal relating to the non-compliance of the device concerned and of any measures adopted by them in relation to the device concerned. In the event of disagreement with the notified national measure, they shall, without delay, inform the Commission and the other Member States of their objections, by means of the electronic system referred to in Article 100. […]",
+            "he": "[…] 2. הרשויות המוסמכות יודיעו, ללא דיחוי, לנציבות, למדינות החברות האחרות, וכן – היכן שהונפקה תעודה בהתאם לסעיף 56 עבור המכשיר הנוגע בדבר – לגוף המאונתר שהנפיק אותה תעודה, על תוצאות ההערכה ועל הפעולות שדרשו מהגורמים הכלכליים לנקוט, באמצעות המערכת האלקטרונית הנזכרת בסעיף 100. 4. היכן שהגורם הכלכלי כנזכר בפסקה 1 אינו נוקט פעולה מתקנת הולמת בתוך התקופה הנזכרת בפסקה 1, הרשויות המוסמכות ינקטו את כל האמצעים המתאימים לאסור או להגביל את העמדת המכשיר לרשות בשוק הלאומי שלהן, להסיר את המכשיר מאותו שוק או לבצע לו ריקול (החזרה מהשוק). הרשויות המוסמכות יודיעו לנציבות, למדינות החברות האחרות ולגוף המאונתר הנזכר בפסקה 2 של סעיף זה, ללא דיחוי, על אותם אמצעים, באמצעות המערכת האלקטרונית הנזכרת בסעיף 100. 6. מדינות חברות שאינן המדינה החברה היוזמת את ההליך יודיעו, ללא דיחוי, לנציבות ולמדינות החברות האחרות, באמצעות המערכת האלקטרונית הנזכרת בסעיף 100, על כל מידע רלוונטי נוסף שברשותן הנוגע לאי-התאמת המכשיר הנוגע בדבר ועל כל אמצעי שאימצו בנוגע למכשיר הנוגע בדבר. במקרה של אי-הסכמה עם האמצעי הלאומי שהודע, הן יודיעו, ללא דיחוי, לנציבות ולמדינות החברות האחרות על התנגדויותיהן, באמצעות המערכת האלקטרונית הנזכרת בסעיף 100. […]"
+          },
+          {
+            "en": "Paragraphs 2, 4 and 6: Competent authorities should notify other relevant parties by means of e-mail or by using other suitable communication channels, using a pre-defined template (once available). Information shared by electronic means should be encrypted whenever possible and deemed necessary.",
+            "he": "פסקאות 2, 4 ו-6: על הרשויות המוסמכות ליידע צדדים רלוונטיים אחרים באמצעות דוא\"ל או באמצעות ערוצי תקשורת מתאימים אחרים, תוך שימוש בתבנית מוגדרת מראש (מיד עם זמינותה). מידע המשותף באמצעים אלקטרוניים צריך להיות מוצפן בכל מקום שניתן ושנחשב לנחוץ."
+          },
+          {
+            "en": "Member States (communication)",
+            "he": "מדינות חברות (תקשורת)"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "art-97-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Article 97: Other non-compliance",
+      "he": "סעיף 97: אי-התאמה אחרת"
+    },
+    {
+      "id": "art-97-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          {
+            "en": "Article",
+            "he": "סעיף"
+          },
+          {
+            "en": "Provisions related to the use of EUDAMED (as referred to in Art. 123(3)(d) MDR)",
+            "he": "הוראות הנוגעות לשימוש ב-EUDAMED (כפי שנזכר בסעיף 123(3)(d) ל-MDR)"
+          },
+          {
+            "en": "Alternative solutions to submit and/or exchange information (as required under the MDR)",
+            "he": "פתרונות חלופיים להגשת ו/או החלפת מידע (כנדרש על פי ה-MDR)"
+          },
+          {
+            "en": "Responsible actor(s)",
+            "he": "גורם/ים אחראי/ם"
+          }
+        ],
+        [
+          {
+            "en": "Article 97: Other non-compliance",
+            "he": "סעיף 97: אי-התאמה אחרת"
+          },
+          {
+            "en": "[…] 2. Where the economic operator does not bring the non-compliance to an end within the period referred to in paragraph 1 of this Article, the Member State concerned shall, without delay, take all appropriate measures to restrict or prohibit the product being made available on the market or to ensure that it is recalled or withdrawn from the market. That Member State shall inform the Commission and the other Member States, without delay, of those measures, by means of the electronic system referred to in Article 100. […]",
+            "he": "[…] 2. היכן שהגורם הכלכלי אינו מביא את אי-ההתאמה לסיומה בתוך התקופה הנזכרת בפסקה 1 של סעיף זה, המדינה החברה הנוגעת בדבר תנקוט, ללא דיחוי, את כל האמצעים המתאימים להגביל או לאסור את העמדת המוצר לרשות בשוק או להבטיח כי יבוצע לו ריקול (החזרה מהשוק) או כי יוסר מהשוק. אותה מדינה חברה תיידע את הנציבות ואת המדינות החברות האחרות, ללא דיחוי, על אותם אמצעים, באמצעות המערכת האלקטרונית הנזכרת בסעיף 100. […]"
+          },
+          {
+            "en": "Paragraph 2: The Member State should notify the Commission and other Member States by means of e-mail, using a pre-defined template (once available). Information shared by electronic means should be encrypted whenever possible and deemed necessary.",
+            "he": "פסקה 2: על המדינה החברה ליידע את הנציבות ואת המדינות החברות האחרות באמצעות דוא\"ל, תוך שימוש בתבנית מוגדרת מראש (מיד עם זמינותה). מידע המשותף באמצעים אלקטרוניים צריך להיות מוצפן בכל מקום שניתן ושנחשב לנחוץ."
+          },
+          {
+            "en": "Member States (communication)",
+            "he": "מדינות חברות (תקשורת)"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "art-98-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Article 98: Preventive health protection measures",
+      "he": "סעיף 98: אמצעי הגנה מונעת על הבריאות"
+    },
+    {
+      "id": "art-98-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          {
+            "en": "Article",
+            "he": "סעיף"
+          },
+          {
+            "en": "Provisions related to the use of EUDAMED (as referred to in Art. 123(3)(d) MDR)",
+            "he": "הוראות הנוגעות לשימוש ב-EUDAMED (כפי שנזכר בסעיף 123(3)(d) ל-MDR)"
+          },
+          {
+            "en": "Alternative solutions to submit and/or exchange information (as required under the MDR)",
+            "he": "פתרונות חלופיים להגשת ו/או החלפת מידע (כנדרש על פי ה-MDR)"
+          },
+          {
+            "en": "Responsible actor(s)",
+            "he": "גורם/ים אחראי/ם"
+          }
+        ],
+        [
+          {
+            "en": "Article 98: Preventive health protection measures",
+            "he": "סעיף 98: אמצעי הגנה מונעת על הבריאות"
+          },
+          {
+            "en": "[…] 2. The Member State referred to in paragraph 1 shall immediately notify the Commission and all other Member States, giving the reasons for its decision, by means of the electronic system referred to in Article 100.",
+            "he": "[…] 2. המדינה החברה הנזכרת בפסקה 1 תודיע מיד לנציבות ולכל המדינות החברות האחרות, תוך מתן הנימוקים להחלטתה, באמצעות המערכת האלקטרונית הנזכרת בסעיף 100."
+          },
+          {
+            "en": "Paragraph 2: The Member State should notify the Commission and other Member States by means of e-mail, using a pre-defined template (once available). The information shared by electronic means should be encrypted whenever possible and deemed necessary.",
+            "he": "פסקה 2: על המדינה החברה ליידע את הנציבות ואת המדינות החברות האחרות באמצעות דוא\"ל, תוך שימוש בתבנית מוגדרת מראש (מיד עם זמינותה). המידע המשותף באמצעים אלקטרוניים צריך להיות מוצפן בכל מקום שניתן ושנחשב לנחוץ."
+          },
+          {
+            "en": "Member States (communication)",
+            "he": "מדינות חברות (תקשורת)"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "art-99-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Article 99: Good administrative practice",
+      "he": "סעיף 99: פרקטיקה מינהלית טובה"
+    },
+    {
+      "id": "art-99-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          {
+            "en": "Article",
+            "he": "סעיף"
+          },
+          {
+            "en": "Provisions related to the use of EUDAMED (as referred to in Art. 123(3)(d) MDR)",
+            "he": "הוראות הנוגעות לשימוש ב-EUDAMED (כפי שנזכר בסעיף 123(3)(d) ל-MDR)"
+          },
+          {
+            "en": "Alternative solutions to submit and/or exchange information (as required under the MDR)",
+            "he": "פתרונות חלופיים להגשת ו/או החלפת מידע (כנדרש על פי ה-MDR)"
+          },
+          {
+            "en": "Responsible actor(s)",
+            "he": "גורם/ים אחראי/ם"
+          }
+        ],
+        [
+          {
+            "en": "Article 99: Good administrative practice",
+            "he": "סעיף 99: פרקטיקה מינהלית טובה"
+          },
+          {
+            "en": "[…] 4. Where a measure adopted pursuant to Articles 95 to 98 concerns a device for which a notified body has been involved in the conformity assessment, the competent authorities shall by means of the electronic system referred to in Article 100 inform the relevant notified body and the authority responsible for the notified body of the measure taken.",
+            "he": "[…] 4. היכן שאמצעי שאומץ לפי סעיפים 95 עד 98 נוגע למכשיר שלגביו היה גוף מאונתר מעורב בהערכת ההתאמה, הרשויות המוסמכות יודיעו, באמצעות המערכת האלקטרונית הנזכרת בסעיף 100, לגוף המאונתר הרלוונטי ולרשות האחראית על הגוף המאונתר על האמצעי שננקט."
+          },
+          {
+            "en": "Paragraph 4: Competent authorities should notify the relevant notified bodies and responsible authorities by means of e-mail. The information shared by electronic means should be encrypted whenever possible and deemed necessary.",
+            "he": "פסקה 4: על הרשויות המוסמכות ליידע את הגופים המאונתרים הרלוונטיים ואת הרשויות האחראיות באמצעות דוא\"ל. המידע המשותף באמצעים אלקטרוניים צריך להיות מוצפן בכל מקום שניתן ושנחשב לנחוץ."
+          },
+          {
+            "en": "Member States (communication)",
+            "he": "מדינות חברות (תקשורת)"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "art-120-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Article 120: Transitional provisions",
+      "he": "סעיף 120: הוראות מעבר"
+    },
+    {
+      "id": "art-120-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          {
+            "en": "Article",
+            "he": "סעיף"
+          },
+          {
+            "en": "Provisions related to the use of EUDAMED (as referred to in Art. 123(3)(d) MDR)",
+            "he": "הוראות הנוגעות לשימוש ב-EUDAMED (כפי שנזכר בסעיף 123(3)(d) ל-MDR)"
+          },
+          {
+            "en": "Alternative solutions to submit and/or exchange information (as required under the MDR)",
+            "he": "פתרונות חלופיים להגשת ו/או החלפת מידע (כנדרש על פי ה-MDR)"
+          },
+          {
+            "en": "Responsible actor(s)",
+            "he": "גורם/ים אחראי/ם"
+          }
+        ],
+        [
+          {
+            "en": "Article 120: Transitional provisions",
+            "he": "סעיף 120: הוראות מעבר"
+          },
+          {
+            "en": "[…] 3. However, the requirements of this Regulation relating to post-market surveillance, market surveillance, vigilance, registration of economic operators and of devices shall apply in place of the corresponding requirements in those Directives.",
+            "he": "[…] 3. עם זאת, הדרישות של תקנה זו הנוגעות למעקב שלאחר שיווק, פיקוח שוק, ערנות, רישום גורמים כלכליים ורישום מכשירים יחולו במקום הדרישות המקבילות באותן הנחיות."
+          },
+          {
+            "en": "Paragraph 3: The alternative technical solutions set out in this document should also apply to legacy devices where appropriate, taking into account the availability of the respective EUDAMED modules. The registration of certificates issued in accordance with the Directives should take place in Eudamed2.",
+            "he": "פסקה 3: הפתרונות הטכניים החלופיים המפורטים במסמך זה צריכים לחול גם על מכשירי מורשת (legacy) במקום שמתאים, בהתחשב בזמינות מודולי EUDAMED הרלוונטיים. רישום תעודות שהונפקו בהתאם להנחיות צריך להתבצע ב-Eudamed2."
+          },
+          {
+            "en": "Member States (certificate registration, Eudamed2)",
+            "he": "מדינות חברות (רישום תעודות, Eudamed2)"
+          }
+        ]
+      ]
+    },
+    {
+      "id": "fn-1",
+      "type": "note",
+      "marker": "1",
+      "en": "Regulation (EU) 2017/745 of the European Parliament and of the Council of 5 April 2017 on medical devices, amending Directive 2001/83/EC, Regulation (EC) No 178/2002 and Regulation (EC) No 1223/2009 and repealing Council Directives 90/385/EEC and 93/42/EEC, OJ L 117, 5.5.2017, p. 1–175.",
+      "he": "תקנה (האיחוד האירופי) 2017/745 של הפרלמנט האירופי ושל המועצה מ-5 באפריל 2017 בנושא מכשירים רפואיים, המתקנת את הנחיה 2001/83/EC, תקנה (EC) מס' 178/2002 ותקנה (EC) מס' 1223/2009 ומבטלת את הנחיות המועצה 90/385/EEC ו-93/42/EEC, OJ L 117, 5.5.2017, עמ' 1–175."
+    },
+    {
+      "id": "fn-2",
+      "type": "note",
+      "marker": "2",
+      "en": "Available at: https://ec.europa.eu/growth/sectors/medical-devices/new-regulations/eudamed_en.",
+      "he": "זמין בכתובת: https://ec.europa.eu/growth/sectors/medical-devices/new-regulations/eudamed_en."
+    },
+    {
+      "id": "fn-3",
+      "type": "note",
+      "marker": "3",
+      "en": "Regulation (EU) 2017/746 of the European Parliament and of the Council of 5 April 2017 on in vitro diagnostic medical devices and repealing Directive 98/79/EC and Commission Decision 2010/227/EU, OJ L 117, 5.5.2017, p. 176–332.",
+      "he": "תקנה (האיחוד האירופי) 2017/746 של הפרלמנט האירופי ושל המועצה מ-5 באפריל 2017 בנושא מכשירים רפואיים לאבחון במבחנה ומבטלת את הנחיה 98/79/EC ואת החלטת הנציבות 2010/227/EU, OJ L 117, 5.5.2017, עמ' 176–332."
+    },
+    {
+      "id": "fn-4",
+      "type": "note",
+      "marker": "4",
+      "en": "Council Directive 90/385/EEC of 20 June 1990 on the approximation of the laws of the Member States relating to active implantable medical devices, OJ L 189, 20.7.1990, p. 17–36.",
+      "he": "הנחיית המועצה 90/385/EEC מ-20 ביוני 1990 בנושא קירוב חוקי המדינות החברות הנוגעים למכשירים רפואיים מושתלים פעילים, OJ L 189, 20.7.1990, עמ' 17–36."
+    },
+    {
+      "id": "fn-5",
+      "type": "note",
+      "marker": "5",
+      "en": "Council Directive 93/42/EEC of 14 June 1993 concerning medical devices, OJ L 169, 12.7.1993, p. 1–43.",
+      "he": "הנחיית המועצה 93/42/EEC מ-14 ביוני 1993 בנושא מכשירים רפואיים, OJ L 169, 12.7.1993, עמ' 1–43."
+    },
+    {
+      "id": "fn-6",
+      "type": "note",
+      "marker": "6",
+      "en": "https://circabc.europa.eu/faces/jsp/extension/wai/navigation/container.jsp",
+      "he": "https://circabc.europa.eu/faces/jsp/extension/wai/navigation/container.jsp"
+    },
+    {
+      "id": "fn-7",
+      "type": "note",
+      "marker": "7",
+      "en": "MDCG 2020-15.",
+      "he": "MDCG 2020-15."
+    },
+    {
+      "id": "fn-8",
+      "type": "note",
+      "marker": "8",
+      "en": "Eudamed2 will not be subject to any modifications.",
+      "he": "Eudamed2 לא יהיה נתון לשינויים כלשהם."
+    },
+    {
+      "id": "fn-9",
+      "type": "note",
+      "marker": "9",
+      "en": "“MDR” should be added at the beginning of the CI title, indicating the sponsor and investigational devices, without risk class. Operational guidance will be issued by MDCG CIE.",
+      "he": "יש להוסיף את “MDR” בתחילת כותרת החקירה הקלינית (CI), תוך ציון נותן החסות ומכשירי החקירה, ללא סיווג סיכון. הנחיה תפעולית תונפק על ידי MDCG CIE."
+    },
+    {
+      "id": "fn-10",
+      "type": "note",
+      "marker": "10",
+      "en": "MDCG 2020-10/1 Safety reporting in clinical investigations of medical devices under the Regulation (EU) 2017/745.",
+      "he": "MDCG 2020-10/1 – דיווח בטיחות בחקירות קליניות של מכשירים רפואיים על פי תקנה (האיחוד האירופי) 2017/745."
+    },
+    {
+      "id": "fn-11",
+      "type": "note",
+      "marker": "11",
+      "en": "MDCG 2020-10/1 and MDCG 2020-10/2.",
+      "he": "MDCG 2020-10/1 ו-MDCG 2020-10/2."
+    }
+  ]
+}

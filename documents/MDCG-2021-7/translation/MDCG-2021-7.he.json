@@ -1,0 +1,115 @@
+{
+  "id": "MDCG-2021-7",
+  "title": {
+    "en": "Notice to manufacturers and authorised representatives on the impact of genetic variants on SARS-COV-2 in vitro diagnostic medical devices",
+    "he": "הודעה ליצרנים ולנציגים מורשים בנוגע להשפעת וריאנטים גנטיים על מכשירים רפואיים לאבחון ויטרו (in vitro) של SARS-COV-2"
+  },
+  "category": "COVID-19",
+  "publicationDate": "2021-05",
+  "source": {
+    "url": "https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en",
+    "file": "original/mdcg_2021-7_en.pdf"
+  },
+  "language": "he",
+  "direction": "rtl",
+  "translationStatus": "review",
+  "glossaryVersion": "2026-06",
+  "blocks": [
+    {
+      "id": "disclaimer-1",
+      "type": "paragraph",
+      "en": "This document has been endorsed by the Medical Device Coordination Group (MDCG) established by Article 103 of Regulation (EU) 2017/745. The MDCG is composed of representatives of all Member States and it is chaired by a representative of the European Commission.",
+      "he": "מסמך זה אושר על ידי קבוצת תיאום המכשירים הרפואיים (MDCG) שהוקמה מכוח סעיף 103 לתקנה (האיחוד האירופי) 2017/745. ה-MDCG מורכבת מנציגים של כל המדינות החברות ובראשה עומד נציג של הנציבות האירופית."
+    },
+    {
+      "id": "disclaimer-2",
+      "type": "paragraph",
+      "en": "The document is not a European Commission document and it cannot be regarded as reflecting the official position of the European Commission. Any views expressed in this document are not legally binding and only the Court of Justice of the European Union can give binding interpretations of Union law.",
+      "he": "המסמך אינו מסמך של הנציבות האירופית ואין לראות בו כמשקף את העמדה הרשמית של הנציבות האירופית. כל דעה המובעת במסמך זה אינה מחייבת מבחינה משפטית, ורק בית הדין לצדק של האיחוד האירופי מוסמך לתת פרשנות מחייבת לדין האיחוד."
+    },
+
+    {
+      "id": "title-block",
+      "type": "heading",
+      "level": 1,
+      "en": "Notice to manufacturers and authorised representatives on the impact of genetic variants on SARS-COV-2 in vitro diagnostic medical devices",
+      "he": "הודעה ליצרנים ולנציגים מורשים בנוגע להשפעת וריאנטים גנטיים על מכשירים רפואיים לאבחון ויטרו (in vitro) של SARS-COV-2"
+    },
+
+    {
+      "id": "sec-scope",
+      "type": "heading",
+      "level": 1,
+      "en": "Scope",
+      "he": "תחולה"
+    },
+    {
+      "id": "sec-scope-p1",
+      "type": "paragraph",
+      "en": "This notice is addressed to manufacturers of in vitro diagnostic medical devices (IVDs) with the intended purpose to detect and/or quantify markers of SARS-CoV-2 infection, as well as their authorised representatives. The notice underlines the manufacturers’ responsibilities to continually assess the impact of newly identified genetic variants of SARS-CoV-2 on the capability of those IVDs to meet their performance, risk and safety claims.",
+      "he": "הודעה זו מופנית ליצרנים של מכשירים רפואיים לאבחון ויטרו (IVD) שמטרתם המיועדת היא לזהות ו/או לכמת סמנים של זיהום ב-SARS-CoV-2, וכן לנציגיהם המורשים. ההודעה מדגישה את אחריותם של היצרנים להעריך באופן מתמשך את השפעתם של וריאנטים גנטיים חדשים שזוהו של SARS-CoV-2 על יכולתם של אותם מכשירי IVD לעמוד בטענות הביצועים, הסיכון והבטיחות שלהם."
+    },
+
+    {
+      "id": "sec-legal",
+      "type": "heading",
+      "level": 1,
+      "en": "Legal Basis",
+      "he": "בסיס משפטי"
+    },
+    {
+      "id": "sec-legal-p1",
+      "type": "paragraph",
+      "en": "Article 3 of Directive 98/79/EC on in vitro diagnostics medical devices (the IVDD) outlines that devices must meet the essential requirements set out in Annex I which apply to them, taking account of the intended purpose of the devices concerned. Refer to IVDD Annex I and Annex III (5) for further details on the essential requirements and post-market surveillance obligations.",
+      "he": "סעיף 3 לדירקטיבה 98/79/EC בנושא מכשירים רפואיים לאבחון ויטרו (the IVDD) קובע כי על המכשירים לעמוד בדרישות החיוניות הקבועות בנספח I החלות עליהם, בהתחשב במטרה המיועדת של המכשירים הנוגעים בדבר. לפרטים נוספים על הדרישות החיוניות ועל חובות המעקב שלאחר שיווק, ראה נספח I ונספח III(5) ל-IVDD."
+    },
+
+    {
+      "id": "sec-variants",
+      "type": "heading",
+      "level": 1,
+      "en": "SARS-COV-2 Genetic Variants",
+      "he": "וריאנטים גנטיים של SARS-COV-2"
+    },
+    {
+      "id": "sec-variants-p1",
+      "type": "paragraph",
+      "en": "The emergence of genetic variants of SARS-CoV-2 poses additional risks for IVDs which are intended to detect and/or quantify markers of SARS-CoV-2 infection, most notably the devices for detection and/or quantification of the SARS-CoV-2 nucleic acid or antigens, but also of anti-SARS-CoV-2 antibodies. The performance of these IVDs may not be the same for different genetic variants. Depending on the design of the device and nature of the genetic variant this may result in failure to achieve the performance claims specified in the instructions for use. This could compromise the safety of patients, healthcare professionals or other individuals where a SARS-CoV-2 infection goes undetected.",
+      "he": "הופעתם של וריאנטים גנטיים של SARS-CoV-2 מציבה סיכונים נוספים למכשירי IVD המיועדים לזהות ו/או לכמת סמנים של זיהום ב-SARS-CoV-2, ובמיוחד המכשירים לזיהוי ו/או כימות של חומצת הגרעין או האנטיגנים של SARS-CoV-2, אך גם של נוגדנים נגד SARS-CoV-2. ייתכן שביצועיהם של מכשירי IVD אלה לא יהיו זהים עבור וריאנטים גנטיים שונים. בהתאם לעיצוב המכשיר ולמהותו של הווריאנט הגנטי, הדבר עלול להביא לכישלון בהשגת טענות הביצועים המפורטות בהוראות השימוש. הדבר עלול לפגוע בבטיחותם של מטופלים, אנשי מקצוע הבריאות או יחידים אחרים במקרים שבהם זיהום ב-SARS-CoV-2 אינו מזוהה."
+    },
+    {
+      "id": "sec-variants-p2",
+      "type": "paragraph",
+      "en": "Manufacturers must therefore continually assess the impact that new genetic variants may have, to ensure that the performance of their devices continues to meet the essential requirements set out in the IVDD. The risks associated with the use of the device must also be reviewed on an ongoing basis to ensure that they are acceptable when weighed against the benefits to the patient. This approach should be documented and made available by the manufacturer upon request. Sources of information on genetic variants for SARS-CoV-2 may include scientific literature, national virus reference laboratories and organisations such as the ECDC¹ and the WHO².",
+      "he": "לפיכך, על היצרנים להעריך באופן מתמשך את ההשפעה שעשויה להיות לווריאנטים גנטיים חדשים, כדי להבטיח שביצועי מכשיריהם ימשיכו לעמוד בדרישות החיוניות הקבועות ב-IVDD. כמו כן, יש לבחון באופן שוטף את הסיכונים הכרוכים בשימוש במכשיר, כדי להבטיח שהם מקובלים בעת שקילתם אל מול התועלות למטופל. גישה זו צריכה להיות מתועדת וזמינה אצל היצרן לפי דרישה. מקורות המידע על וריאנטים גנטיים של SARS-CoV-2 עשויים לכלול ספרות מדעית, מעבדות ייחוס לאומיות לנגיפים וארגונים כגון ה-ECDC¹ וה-WHO²."
+    },
+    {
+      "id": "fn-1",
+      "type": "note",
+      "marker": "1",
+      "en": "https://www.ecdc.europa.eu/en/publications-data?s=SARS-COV-2&",
+      "he": "https://www.ecdc.europa.eu/en/publications-data?s=SARS-COV-2&"
+    },
+    {
+      "id": "fn-2",
+      "type": "note",
+      "marker": "2",
+      "en": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019",
+      "he": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019"
+    },
+
+    {
+      "id": "sec-variants-p3",
+      "type": "paragraph",
+      "en": "It is the manufacturer’s responsibility to report any incident involving their devices to the relevant competent authority. Changes in the performance of the device which could result in direct or indirect harm³ should be communicated to end users through a Field Safety Corrective Action in accordance with MEDDEV 2.12-1. Where performance limitations are identified these should be clearly stated in the device’s instructions for use and technical documentation.",
+      "he": "באחריותו של היצרן לדווח על כל אירוע הקשור למכשיריו לרשות המוסמכת הרלוונטית. שינויים בביצועי המכשיר העלולים לגרום לנזק ישיר או עקיף³ צריכים להימסר למשתמשי הקצה באמצעות פעולה מתקנת בשטח (Field Safety Corrective Action) בהתאם ל-MEDDEV 2.12-1. במקומות שבהם מזוהות מגבלות ביצועים, יש לציין אותן בבירור בהוראות השימוש ובתיעוד הטכני של המכשיר."
+    },
+    {
+      "id": "fn-3",
+      "type": "note",
+      "marker": "3",
+      "en": "MEDDEV 2.12-1: 4.11 Indirect Harm: In the majority of cases, diagnostic devices IVDs and IVF/ART medical devices will, due to their intended use, not directly lead to physical injury or damage to health of people (HARM – see section 4.8). These devices are more likely to lead to indirect harm rather than to direct harm. HARM may occur as a consequence of the medical decision, action taken/not taken on the basis of information or result(s) provided by the device or as a consequence of the treatment of cells (e.g. gametes and embryos in the case of IVF/ART devices) or organs outside of the human body that will later be transferred to a patient.",
+      "he": "MEDDEV 2.12-1: 4.11 נזק עקיף (Indirect Harm): ברוב המקרים, מכשירי אבחון מסוג IVD ומכשירים רפואיים מסוג IVF/ART, בשל ייעודם המיועד, לא יובילו ישירות לפגיעה גופנית או לפגיעה בבריאותם של אנשים (נזק (HARM) – ראה סעיף 4.8). מכשירים אלה נוטים יותר להוביל לנזק עקיף מאשר לנזק ישיר. נזק (HARM) עשוי להתרחש כתוצאה מההחלטה הרפואית, מפעולה שננקטה/לא ננקטה על בסיס מידע או תוצאה/ות שסיפק המכשיר, או כתוצאה מטיפול בתאים (למשל גמטות ועוברים במקרה של מכשירי IVF/ART) או באיברים מחוץ לגוף האדם אשר יועברו מאוחר יותר למטופל."
+    }
+  ]
+}

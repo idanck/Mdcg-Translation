@@ -1,0 +1,149 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/idanck/mdcg-translation/schema/mdcg-translation.schema.json",
+  "title": "MDCG Hebrew Translation - Canonical Document",
+  "description": "Bilingual (EN source + HE translation) canonical representation of a single MDCG guidance document. This JSON is the source of truth; the HTML rendering is generated from it.",
+  "type": "object",
+  "required": ["id", "title", "category", "language", "direction", "blocks"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "MDCG document identifier, e.g. MDCG-2019-8-v2",
+      "pattern": "^MDCG-[0-9]{4}-[0-9A-Za-z-]+$"
+    },
+    "title": {
+      "$ref": "#/definitions/bilingual",
+      "description": "Document title in English and Hebrew"
+    },
+    "category": {
+      "type": "string",
+      "description": "Regulatory category, matching the grouping in the root README"
+    },
+    "publicationDate": {
+      "type": "string",
+      "description": "Publication month/year, e.g. 2020-03"
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "url": { "type": "string" },
+        "file": { "type": "string", "description": "Path to the original PDF, relative to the document folder" }
+      }
+    },
+    "language": { "type": "string", "const": "he" },
+    "direction": { "type": "string", "const": "rtl" },
+    "translationStatus": {
+      "type": "string",
+      "enum": ["not-started", "in-progress", "review", "completed"]
+    },
+    "glossaryVersion": { "type": "string" },
+    "blocks": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/block" }
+    }
+  },
+  "definitions": {
+    "bilingual": {
+      "type": "object",
+      "required": ["en", "he"],
+      "additionalProperties": false,
+      "properties": {
+        "en": { "type": "string" },
+        "he": { "type": "string" }
+      }
+    },
+    "block": {
+      "type": "object",
+      "required": ["id", "type"],
+      "properties": {
+        "id": { "type": "string", "description": "Stable anchor id, unique within the document" },
+        "type": {
+          "type": "string",
+          "enum": ["heading", "paragraph", "list", "table", "note", "example"]
+        }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "type": { "const": "heading" } } },
+          "then": {
+            "required": ["level", "en", "he"],
+            "properties": {
+              "id": {}, "type": {},
+              "level": { "type": "integer", "minimum": 1, "maximum": 4 },
+              "number": { "type": "string", "description": "Section number from the source, e.g. 4 or Annex I" },
+              "en": { "type": "string" },
+              "he": { "type": "string" }
+            },
+            "additionalProperties": false
+          }
+        },
+        {
+          "if": { "properties": { "type": { "const": "paragraph" } } },
+          "then": {
+            "required": ["en", "he"],
+            "properties": {
+              "id": {}, "type": {},
+              "en": { "type": "string" },
+              "he": { "type": "string" }
+            },
+            "additionalProperties": false
+          }
+        },
+        {
+          "if": { "properties": { "type": { "const": "list" } } },
+          "then": {
+            "required": ["items"],
+            "properties": {
+              "id": {}, "type": {},
+              "ordered": { "type": "boolean", "default": false },
+              "items": { "type": "array", "items": { "$ref": "#/definitions/bilingual" } }
+            },
+            "additionalProperties": false
+          }
+        },
+        {
+          "if": { "properties": { "type": { "const": "table" } } },
+          "then": {
+            "required": ["rows"],
+            "properties": {
+              "id": {}, "type": {},
+              "header": { "type": "boolean", "description": "Whether the first row is a header row" },
+              "rows": {
+                "type": "array",
+                "items": { "type": "array", "items": { "$ref": "#/definitions/bilingual" } }
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        {
+          "if": { "properties": { "type": { "const": "note" } } },
+          "then": {
+            "required": ["en", "he"],
+            "properties": {
+              "id": {}, "type": {},
+              "marker": { "type": "string", "description": "Footnote marker, e.g. 1, 2, 3" },
+              "en": { "type": "string" },
+              "he": { "type": "string" }
+            },
+            "additionalProperties": false
+          }
+        },
+        {
+          "if": { "properties": { "type": { "const": "example" } } },
+          "then": {
+            "required": ["caption", "verbatim"],
+            "properties": {
+              "id": {}, "type": {},
+              "caption": { "$ref": "#/definitions/bilingual", "description": "Translated caption describing the illustrative example" },
+              "verbatim": { "type": "string", "description": "Sample/illustrative content preserved verbatim from the source (sample data, not translated)" }
+            },
+            "additionalProperties": false
+          }
+        }
+      ]
+    }
+  }
+}

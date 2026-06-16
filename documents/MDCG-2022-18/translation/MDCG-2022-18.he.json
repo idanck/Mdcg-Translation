@@ -1,0 +1,466 @@
+{
+  "id": "MDCG-2022-18",
+  "title": {
+    "en": "MDCG 2022-18 — MDCG Position Paper on the application of Article 97 MDR to legacy devices for which the MDD or AIMDD certificate expires before the issuance of a MDR certificate",
+    "he": "MDCG 2022-18 — נייר עמדה של ה-MDCG בנושא יישום סעיף 97 ל-MDR למכשירים מהדור הקודם (legacy devices) שתעודתם לפי ה-MDD או ה-AIMDD פגה לפני הנפקת תעודת MDR"
+  },
+  "category": "Transitional Provisions",
+  "publicationDate": "2022-12",
+  "source": {
+    "url": "https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en",
+    "file": "original/mdcg_2022-18_en.pdf"
+  },
+  "language": "he",
+  "direction": "rtl",
+  "translationStatus": "review",
+  "glossaryVersion": "2026-06",
+  "blocks": [
+    {
+      "id": "disclaimer-1",
+      "type": "paragraph",
+      "en": "This document has been endorsed by the Medical Device Coordination Group (MDCG) established by Article 103 of Regulation (EU) 2017/745. The MDCG is composed of representatives of all Member States and it is chaired by a representative of the European Commission.",
+      "he": "מסמך זה אושר על ידי קבוצת תיאום המכשירים הרפואיים (MDCG) שהוקמה מכוח סעיף 103 לתקנה (האיחוד האירופי) 2017/745. ה-MDCG מורכבת מנציגים של כל המדינות החברות ובראשה עומד נציג של הנציבות האירופית."
+    },
+    {
+      "id": "disclaimer-2",
+      "type": "paragraph",
+      "en": "The document is not a European Commission document and it cannot be regarded as reflecting the official position of the European Commission. Any views expressed in this document are not legally binding and only the Court of Justice of the European Union can give binding interpretations of Union law.",
+      "he": "המסמך אינו מסמך של הנציבות האירופית ואין לראות בו כמשקף את העמדה הרשמית של הנציבות האירופית. כל דעה המובעת במסמך זה אינה מחייבת מבחינה משפטית, ורק בית הדין לצדק של האיחוד האירופי מוסמך לתת פרשנות מחייבת לדין האיחוד."
+    },
+    {
+      "id": "title-heading",
+      "type": "heading",
+      "level": 1,
+      "en": "Application of Article 97 MDR to legacy devices for which the MDD or AIMDD certificate expires before the issuance of a MDR certificate",
+      "he": "יישום סעיף 97 ל-MDR למכשירים מהדור הקודם (legacy devices) שתעודתם לפי ה-MDD או ה-AIMDD פגה לפני הנפקת תעודת MDR"
+    },
+    {
+      "id": "sec-1",
+      "type": "heading",
+      "level": 2,
+      "number": "I",
+      "en": "Objective",
+      "he": "מטרה"
+    },
+    {
+      "id": "sec-1-p1",
+      "type": "paragraph",
+      "en": "In accordance with Article 5 of Regulation (EU) 2017/745 on medical devices (MDR), a device may be placed on the market only if it complies with the requirements of the MDR. Pursuant to Article 52 MDR, manufacturers shall undertake an assessment of the conformity of the device in accordance with the applicable conformity assessment procedures set out in the MDR, prior to placing a device on the market. As part of the provisions on market surveillance set out in chapter VII, section 3, the MDR lays down procedures how competent authorities deal with devices that do not comply with MDR requirements.",
+      "he": "בהתאם לסעיף 5 לתקנה (האיחוד האירופי) 2017/745 בנושא מכשירים רפואיים (MDR), ניתן להעמיד מכשיר על השוק רק אם הוא עומד בדרישות ה-MDR. לפי סעיף 52 ל-MDR, על היצרנים לבצע הערכת התאמה של המכשיר בהתאם לנהלי הערכת ההתאמה החלים המפורטים ב-MDR, בטרם העמדת מכשיר על השוק. כחלק מההוראות בנושא פיקוח על השוק המפורטות בפרק VII, מקטע 3, ה-MDR קובע נהלים כיצד הרשויות המוסמכות מטפלות במכשירים שאינם עומדים בדרישות ה-MDR."
+    },
+    {
+      "id": "sec-1-p2",
+      "type": "paragraph",
+      "en": "In accordance with Article 94 MDR, competent authorities (CA) of the Member States shall carry out an evaluation if they have reason to believe that a device",
+      "he": "בהתאם לסעיף 94 ל-MDR, הרשויות המוסמכות (CA) של המדינות החברות יבצעו הערכה אם יש להן יסוד להניח שמכשיר"
+    },
+    {
+      "id": "sec-1-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "en": "may present an unacceptable risk to health or safety of patients, users or other persons, or to other aspects of the protection of public health, or",
+          "he": "עלול להציב סיכון בלתי קביל לבריאותם או לבטיחותם של מטופלים, משתמשים או אנשים אחרים, או להיבטים אחרים של הגנת בריאות הציבור, או"
+        },
+        {
+          "en": "otherwise does not comply with the requirements of the MDR.",
+          "he": "בכל דרך אחרת אינו עומד בדרישות ה-MDR."
+        }
+      ]
+    },
+    {
+      "id": "sec-1-p3",
+      "type": "paragraph",
+      "en": "Where, after having performed this evaluation pursuant to Article 94 MDR, the CA finds that the device does not comply with certain MDR requirements but does not present an unacceptable risk to health and safety of patients, users or other persons, or to other aspects of the protection of public health, Article 97 MDR is applicable.",
+      "he": "במקרה שבו, לאחר ביצוע הערכה זו לפי סעיף 94 ל-MDR, הרשות המוסמכת מוצאת שהמכשיר אינו עומד בדרישות מסוימות של ה-MDR אך אינו מציב סיכון בלתי קביל לבריאותם או לבטיחותם של מטופלים, משתמשים או אנשים אחרים, או להיבטים אחרים של הגנת בריאות הציבור, חל סעיף 97 ל-MDR."
+    },
+    {
+      "id": "sec-1-p4",
+      "type": "paragraph",
+      "en": "This document aims to achieve a common understanding of and a uniform approach to the application of Article 97 of Regulation (EU) 2017/745 on medical devices (MDR) in situations where a device is not in conformity with the MDR because its certificate issued under Directive 93/42/EEC (MDD) or Directive 90/385/EEC (AIMDD) has expired or expires before issuance of the necessary certificate(s) in accordance with the MDR. The use of Article 97 MDR in those situations is meant to be a temporary solution. It will contribute to avoiding disruption of supply of devices on the EU market needed for health systems and patients. This document should not be regarded as a commonly agreed solution for addressing the expected bottleneck of expiring certificates by 26 May 2024.",
+      "he": "מסמך זה נועד להשגת הבנה משותפת וגישה אחידה ליישום סעיף 97 לתקנה (האיחוד האירופי) 2017/745 בנושא מכשירים רפואיים (MDR) במצבים שבהם מכשיר אינו תואם את ה-MDR משום שתעודתו שהונפקה לפי הוראה 93/42/EEC‏ (MDD) או הוראה 90/385/EEC‏ (AIMDD) פגה או פגה לפני הנפקת התעודה/התעודות הנדרשות בהתאם ל-MDR. השימוש בסעיף 97 ל-MDR במצבים אלה נועד להיות פתרון זמני. הוא יתרום למניעת שיבוש באספקת מכשירים בשוק האיחוד האירופי הנחוצים למערכות הבריאות ולמטופלים. אין לראות במסמך זה פתרון מוסכם להתמודדות עם צוואר הבקבוק הצפוי של תעודות פגות-תוקף עד 26 במאי 2024."
+    },
+    {
+      "id": "sec-1-p5",
+      "type": "paragraph",
+      "en": "This document describes how CAs intend to apply Article 97 MDR in a legally sound, coherent and consistent manner to deal with devices that, after 26 May 2021 (i.e. MDR’s date of application), fall within the scope of Article 120(3) MDR and for which the MDD or AIMDD certificate has expired or expires before issuance of the necessary certificate(s) in accordance with the MDR.",
+      "he": "מסמך זה מתאר כיצד הרשויות המוסמכות מתכוונות ליישם את סעיף 97 ל-MDR באופן תקין מבחינה משפטית, קוהרנטי ועקבי, לצורך טיפול במכשירים אשר, לאחר 26 במאי 2021 (קרי מועד תחולת ה-MDR), נכנסים לתחולת סעיף 120(3) ל-MDR ואשר תעודת ה-MDD או ה-AIMDD שלהם פגה או פגה לפני הנפקת התעודה/התעודות הנדרשות בהתאם ל-MDR."
+    },
+    {
+      "id": "sec-1-p6",
+      "type": "paragraph",
+      "en": "If certification of devices under the MDR has not been finalised before expiry of the Directive’s certificate, and where the device does not present an unacceptable risk to health and safety, Article 97 MDR enables CAs to require the relevant manufacturer, or its authorised representative, to bring the non-compliance to an end within a reasonable and clearly defined period. This will ensure that the conformity of the devices concerned is established as soon as possible under the conditions set by the CA, while limiting as much as possible the impact on the supply of safe and effective devices to patients and healthcare providers.",
+      "he": "אם הסמכת המכשירים לפי ה-MDR לא הושלמה לפני פקיעת תעודת ההוראה, ובמקום שבו המכשיר אינו מציב סיכון בלתי קביל לבריאות ולבטיחות, סעיף 97 ל-MDR מאפשר לרשויות המוסמכות לדרוש מהיצרן הנוגע בדבר, או מנציגו המורשה, להביא את אי-ההתאמה לסיומה בתוך פרק זמן סביר ומוגדר בבירור. בכך תובטח קביעת ההתאמה של המכשירים הנוגעים בדבר בהקדם האפשרי בכפוף לתנאים שקבעה הרשות המוסמכת, תוך הגבלה מרבית של ההשפעה על אספקת מכשירים בטוחים ויעילים למטופלים ולספקי שירותי הבריאות."
+    },
+    {
+      "id": "sec-1-p7",
+      "type": "paragraph",
+      "en": "The mechanism described in this document provides for a legally sound, coherent, consistent and controlled period of the non-compliance of devices, which are impacted by the limited capacity of notified bodies and for which no unacceptable safety concerns are identified.",
+      "he": "המנגנון המתואר במסמך זה מספק פרק זמן תקין מבחינה משפטית, קוהרנטי, עקבי ומבוקר של אי-התאמת מכשירים המושפעים מהקיבולת המוגבלת של הגופים המאונתרים ואשר לגביהם לא זוהו חששות בטיחות בלתי קבילים."
+    },
+    {
+      "id": "sec-1-p8",
+      "type": "paragraph",
+      "en": "The documentation to be submitted by the manufacturer, or its authorised representative, is specified in the checklists in the annex to this document.",
+      "he": "התיעוד שעל היצרן, או נציגו המורשה, להגיש מפורט ברשימות התיוג בנספח למסמך זה."
+    },
+    {
+      "id": "sec-2",
+      "type": "heading",
+      "level": 2,
+      "number": "II",
+      "en": "Scope",
+      "he": "תחולה"
+    },
+    {
+      "id": "sec-2-p1",
+      "type": "paragraph",
+      "en": "This document applies to devices that, after the MDR’s respective date of application, have fallen within the scope of Article 120(3) MDR and are or were considered to be ‘legacy devices’ within the meaning of MDCG 2021-25.",
+      "he": "מסמך זה חל על מכשירים אשר, לאחר מועד תחולת ה-MDR המתאים, נכנסו לתחולת סעיף 120(3) ל-MDR ונחשבים או נחשבו ל'מכשירים מהדור הקודם' (legacy devices) כמשמעותם ב-MDCG 2021-25."
+    },
+    {
+      "id": "sec-2-p2",
+      "type": "paragraph",
+      "en": "It only applies to devices that are ‘in transition’ from the MDD or AIMDD to the MDR or, respectively, for which, despite reasonable efforts undertaken by the manufacturer to obtain certification under the MDR, the relevant conformity assessment procedure involving a notified body has not been concluded in time.",
+      "he": "הוא חל רק על מכשירים שנמצאים 'במעבר' (in transition) מה-MDD או ה-AIMDD ל-MDR, או בהתאמה, מכשירים שלגביהם, חרף מאמצים סבירים שנקט היצרן לקבלת הסמכה לפי ה-MDR, נוהל הערכת ההתאמה הרלוונטי הכרוך בגוף מאונתר לא הושלם במועד."
+    },
+    {
+      "id": "sec-2-p3",
+      "type": "paragraph",
+      "en": "It does not apply to devices for which the certificate issued under the MDD or AIMDD has been suspended or withdrawn by the notified body; in other words, the Directive’s certificate must have been valid at the date of its expiry.",
+      "he": "הוא אינו חל על מכשירים שלגביהם התעודה שהונפקה לפי ה-MDD או ה-AIMDD הושעתה או נמשכה בידי הגוף המאונתר; במילים אחרות, תעודת ההוראה חייבת הייתה להיות בתוקף במועד פקיעתה."
+    },
+    {
+      "id": "sec-2-p4",
+      "type": "paragraph",
+      "en": "It does not apply either to devices that have undergone a significant change in design or intended purpose within the meaning of Article 120(3) MDR as further explained in MDCG 2020-3.",
+      "he": "הוא אף אינו חל על מכשירים שעברו שינוי מהותי בעיצוב או במטרה המיועדת כמשמעותו בסעיף 120(3) ל-MDR, כמוסבר בהרחבה ב-MDCG 2020-3."
+    },
+    {
+      "id": "sec-3",
+      "type": "heading",
+      "level": 2,
+      "number": "III",
+      "en": "Non-conformity, but no unacceptable risk to health and safety",
+      "he": "אי-התאמה, אך ללא סיכון בלתי קביל לבריאות ולבטיחות"
+    },
+    {
+      "id": "sec-3-p1",
+      "type": "paragraph",
+      "en": "Manufacturers, or their authorised representatives, should proactively inform the CA of the Member State in which they have their registered place of business about the forthcoming or incurred non-compliance with the relevant MDR requirements. The non-compliance should consist of the expiry of the MDD or AIMDD certificate and the risk or fact that, at the moment of the expiry of the certificate, the device will not be or was not covered by a certificate issued by a notified body under the MDR.",
+      "he": "על היצרנים, או על נציגיהם המורשים, ליזום ולהודיע לרשות המוסמכת של המדינה החברה שבה נמצא מקום העסקים הרשום שלהם על אי-ההתאמה הצפויה או שהתרחשה ביחס לדרישות ה-MDR הרלוונטיות. אי-ההתאמה צריכה לכלול את פקיעת תעודת ה-MDD או ה-AIMDD ואת הסיכון או העובדה שבמועד פקיעת התעודה המכשיר לא יהיה או לא היה מכוסה בתעודה שהונפקה בידי גוף מאונתר לפי ה-MDR."
+    },
+    {
+      "id": "sec-3-p2",
+      "type": "paragraph",
+      "en": "For the purpose of an evaluation by the CA as to whether the (non-compliant) device presents an unacceptable risk to health or safety of patients, users or other persons, or to other aspects of the protection of public health (Article 94 MDR), the manufacturer should submit a report containing relevant data gathered through its post-market surveillance system (PMS), in particular data concerning incidents, serious incidents and/or field safety corrective actions.",
+      "he": "לצורך הערכה מצד הרשות המוסמכת אם המכשיר (הבלתי תואם) מציב סיכון בלתי קביל לבריאותם או לבטיחותם של מטופלים, משתמשים או אנשים אחרים, או להיבטים אחרים של הגנת בריאות הציבור (סעיף 94 ל-MDR), על היצרן להגיש דוח הכולל נתונים רלוונטיים שנאספו באמצעות מערכת המעקב שלאחר השיווק שלו (PMS), ובפרט נתונים הנוגעים לאירועים, אירועים חמורים ו/או פעולות מתקנות בשטח."
+    },
+    {
+      "id": "sec-3-p3",
+      "type": "paragraph",
+      "en": "The evaluation by the CA should be based on available vigilance or market surveillance data or other information received. In addition to the data submitted by the manufacturer, the CA should also check the vigilance and market surveillance data to which it has access. In the context of its evaluation, the CA should also take into account information from the relevant notified body submitted by the manufacturer, such as recent audit reports in particular with regard to information about potential safety-related shortcomings identified during the last surveillance audit and their resolution.",
+      "he": "הערכת הרשות המוסמכת צריכה להתבסס על נתוני ערנות או פיקוח על השוק הזמינים, או על מידע אחר שהתקבל. בנוסף לנתונים שהגיש היצרן, על הרשות המוסמכת לבדוק גם את נתוני הערנות והפיקוח על השוק שיש לה גישה אליהם. במסגרת הערכתה, על הרשות המוסמכת להביא בחשבון גם מידע מהגוף המאונתר הרלוונטי שהוגש בידי היצרן, כגון דוחות ביקורת עדכניים, ובפרט מידע על ליקויים פוטנציאליים הקשורים לבטיחות שזוהו במהלך ביקורת הפיקוח האחרונה ופתרונם."
+    },
+    {
+      "id": "sec-3-p4",
+      "type": "paragraph",
+      "en": "Based on the information at its disposal, the CA should conclude whether or not the device presents an unacceptable risk to health or safety.",
+      "he": "בהתבסס על המידע שברשותה, על הרשות המוסמכת להסיק אם המכשיר מציב סיכון בלתי קביל לבריאות או לבטיחות אם לאו."
+    },
+    {
+      "id": "sec-3-p5",
+      "type": "paragraph",
+      "en": "If the CA comes to the conclusion that the non-compliant device does not present an unacceptable risk to health and safety, Article 97(1) MDR will be applicable; the CA should use it under the conditions specified in this document.",
+      "he": "אם הרשות המוסמכת מגיעה למסקנה שהמכשיר הבלתי תואם אינו מציב סיכון בלתי קביל לבריאות ולבטיחות, יחול סעיף 97(1) ל-MDR; על הרשות המוסמכת להשתמש בו בכפוף לתנאים המפורטים במסמך זה."
+    },
+    {
+      "id": "sec-3-p6",
+      "type": "paragraph",
+      "en": "The manufacturer is obliged to apply the MDR requirements applicable to ‘legacy devices’, in particular in relation to PMS, vigilance and market surveillance, see also MDCG 2021-25. Moreover, the manufacturer should demonstrate that it has adapted its quality management system (QMS) to the MDR requirements.",
+      "he": "היצרן מחויב ליישם את דרישות ה-MDR החלות על 'מכשירים מהדור הקודם' (legacy devices), ובפרט ביחס ל-PMS, ערנות ופיקוח על השוק, ראו גם MDCG 2021-25. יתרה מזאת, על היצרן להוכיח שהתאים את מערכת ניהול האיכות (QMS) שלו לדרישות ה-MDR."
+    },
+    {
+      "id": "sec-3-p7",
+      "type": "paragraph",
+      "en": "At any moment, based on new information that has come to its attention, the CA will be able to assess any potential emerging risk to health and safety in relation to the device concerned. Where the CA finds that, on the basis of such new information, the device presents an unacceptable risk to health and safety, it should terminate the application of Article 97 MDR and apply Article 95 MDR.",
+      "he": "בכל עת, בהתבסס על מידע חדש שהובא לתשומת ליבה, תוכל הרשות המוסמכת להעריך כל סיכון מתהווה פוטנציאלי לבריאות ולבטיחות ביחס למכשיר הנוגע בדבר. במקום שבו הרשות המוסמכת מוצאת, על בסיס מידע חדש כאמור, שהמכשיר מציב סיכון בלתי קביל לבריאות ולבטיחות, עליה להפסיק את יישום סעיף 97 ל-MDR וליישם את סעיף 95 ל-MDR."
+    },
+    {
+      "id": "sec-4",
+      "type": "heading",
+      "level": 2,
+      "number": "IV",
+      "en": "Expected end of non-compliance within reasonable period of time",
+      "he": "סיום צפוי של אי-ההתאמה בתוך פרק זמן סביר"
+    },
+    {
+      "id": "sec-4-p1",
+      "type": "paragraph",
+      "en": "The application of Article 97(1) MDR aims to allow the manufacturer to bring the non-compliance to an end within a reasonable period of time.",
+      "he": "יישום סעיף 97(1) ל-MDR נועד לאפשר ליצרן להביא את אי-ההתאמה לסיומה בתוך פרק זמן סביר."
+    },
+    {
+      "id": "sec-4-p2",
+      "type": "paragraph",
+      "en": "Therefore, for these provisions to apply, the manufacturer should already have undertaken reasonable efforts to transition its device to the MDR. That means in particular that the manufacturer’s application for conformity assessment under the MDR should have been accepted by a notified body and a written agreement signed by notified body and manufacturer in line with section 4.3 of Annex VII MDR.",
+      "he": "לפיכך, כדי שהוראות אלה יחולו, על היצרן להיות כבר נקט מאמצים סבירים להעברת מכשירו ל-MDR. משמעות הדבר בפרט היא שבקשת היצרן להערכת התאמה לפי ה-MDR צריכה להיות התקבלה בידי גוף מאונתר, וכי נחתם הסכם בכתב בין הגוף המאונתר ליצרן בהתאם למקטע 4.3 לנספח VII ל-MDR."
+    },
+    {
+      "id": "sec-4-p3",
+      "type": "paragraph",
+      "en": "In duly justified cases, the CA may waive this condition, in particular where the following conditions are all met: (i) the manufacturer is a SME, (ii) MDD or AIMDD certificate of that SME manufacturer had been issued by a notified body not (yet) designated under the MDR, (iii) the SME manufacturer can demonstrate that it has undertaken reasonable efforts to apply to a considerable number of relevant notified bodies and that their application has not been accepted due to limited notified body capacity.",
+      "he": "במקרים מוצדקים כראוי, רשאית הרשות המוסמכת לוותר על תנאי זה, בפרט במקום שבו מתקיימים כל התנאים הבאים: (i) היצרן הוא עסק קטן או בינוני (SME); (ii) תעודת ה-MDD או ה-AIMDD של אותו יצרן SME הונפקה בידי גוף מאונתר שאינו מיועד (עדיין) לפי ה-MDR; (iii) יצרן ה-SME יכול להוכיח שנקט מאמצים סבירים לפנות למספר ניכר של גופים מאונתרים רלוונטיים ושבקשתו לא התקבלה עקב קיבולת מוגבלת של גופים מאונתרים."
+    },
+    {
+      "id": "sec-4-p4",
+      "type": "paragraph",
+      "en": "The CA should define the reasonable period by when the manufacturer should bring the device into compliance; this period should be proportionate to the non-compliance in accordance with Article 97(1) MDR.",
+      "he": "על הרשות המוסמכת להגדיר את פרק הזמן הסביר עד מועד שבו על היצרן להביא את המכשיר לכלל התאמה; פרק זמן זה צריך להיות מידתי לאי-ההתאמה בהתאם לסעיף 97(1) ל-MDR."
+    },
+    {
+      "id": "sec-4-p5",
+      "type": "paragraph",
+      "en": "The reasonable period should be set by the CA on a case-by-case basis, having regard to the estimated time to finalise the conformity assessment in accordance with the MDR and to make the certified device ready for its placing on the market in compliance with the relevant MDR’s requirements (e.g. label, instructions for use, etc.). In general, the period should not exceed 12 months, but could be extended in duly justified cases. If the MDR certificate is issued before the end of the period set by the CA and the device is brought into compliance with the relevant MDR requirements, the period granted by the CA in accordance with Article 97(1) MDR should cease ahead of the set deadline and the manufacturer should no longer be allowed to place non-compliant devices on the market.",
+      "he": "על הרשות המוסמכת לקבוע את פרק הזמן הסביר על בסיס מקרה לגופו, בהתחשב בזמן המשוער להשלמת הערכת ההתאמה בהתאם ל-MDR ולהכנת המכשיר המוסמך להעמדתו על השוק בהתאמה לדרישות ה-MDR הרלוונטיות (למשל תיוג, הוראות שימוש וכדומה). ככלל, פרק הזמן לא יעלה על 12 חודשים, אך ניתן להאריכו במקרים מוצדקים כראוי. אם תעודת ה-MDR מונפקת לפני תום פרק הזמן שקבעה הרשות המוסמכת והמכשיר מובא לכלל התאמה לדרישות ה-MDR הרלוונטיות, פרק הזמן שהוענק בידי הרשות המוסמכת בהתאם לסעיף 97(1) ל-MDR צריך להסתיים לפני המועד האחרון שנקבע, ואין עוד להתיר ליצרן להעמיד מכשירים בלתי תואמים על השוק."
+    },
+    {
+      "id": "sec-4-p6",
+      "type": "paragraph",
+      "en": "If the manufacturer does not bring the non-compliance to an end within the period set by the CA, the CA should take appropriate measures in accordance with Article 97(2) MDR.",
+      "he": "אם היצרן אינו מביא את אי-ההתאמה לסיומה בתוך פרק הזמן שקבעה הרשות המוסמכת, על הרשות המוסמכת לנקוט באמצעים מתאימים בהתאם לסעיף 97(2) ל-MDR."
+    },
+    {
+      "id": "sec-4-p7",
+      "type": "paragraph",
+      "en": "The manufacturer should commit to immediately inform the CA about any circumstances that could lead to a delay as regards the end of the non-compliance, namely in respect of the conformity assessment procedure. Furthermore, the manufacturer should submit a commitment by the notified body to immediately report to the CA any major shortcoming identified during the conformity assessment procedure which gives reason to believe that the device may present an unacceptable risk to health and safety.",
+      "he": "על היצרן להתחייב להודיע לרשות המוסמכת באופן מיידי על כל נסיבות העלולות להוביל לעיכוב בכל הנוגע לסיום אי-ההתאמה, ובפרט ביחס לנוהל הערכת ההתאמה. יתרה מזאת, על היצרן להגיש התחייבות של הגוף המאונתר לדווח לרשות המוסמכת באופן מיידי על כל ליקוי מהותי שזוהה במהלך נוהל הערכת ההתאמה הנותן יסוד להניח שהמכשיר עלול להציב סיכון בלתי קביל לבריאות ולבטיחות."
+    },
+    {
+      "id": "sec-5",
+      "type": "heading",
+      "level": 2,
+      "number": "V",
+      "en": "Competent authority",
+      "he": "הרשות המוסמכת"
+    },
+    {
+      "id": "sec-5-p1",
+      "type": "paragraph",
+      "en": "The CA of the Member State where the manufacturer, or its authorised representative, has its registered place of business should be the authority that deals with the above described case of non-conformity.",
+      "he": "הרשות המוסמכת של המדינה החברה שבה נמצא מקום העסקים הרשום של היצרן, או של נציגו המורשה, צריכה להיות הרשות המטפלת במקרה אי-ההתאמה המתואר לעיל."
+    },
+    {
+      "id": "sec-5-p2",
+      "type": "paragraph",
+      "en": "If the CA, after having performed the evaluation according to Article 94 MDR, comes to the conclusion that the conditions to apply Article 97(1) MDR are met, it should issue a written communication to the manufacturer, or its authorised representative, requiring the manufacturer to bring the device concerned into compliance within the defined period of time. Such communication may set out conditions regarding the manufacturer’s duty and its plan of action to correct the identified non-compliance. This will have the effect that the device can be placed and made available on the EU market provided that the conditions imposed by the CA are met. The CA’s written communication could be used by the manufacturer or other economic operators in their contacts with CAs of other Member States or customs authorities as evidence that they place and make available on the EU market a non-compliant device, for which the CA has defined a reasonable period of time within which the manufacturer has to bring the device into compliance with the MDR. The written communication should be based on a standard form to be agreed between CAs and clearly identify the device concerned and specify the end-date by when the manufacturer should bring the device in compliance with the MDR.",
+      "he": "אם הרשות המוסמכת, לאחר ביצוע ההערכה לפי סעיף 94 ל-MDR, מגיעה למסקנה שהתנאים ליישום סעיף 97(1) ל-MDR מתקיימים, עליה להנפיק הודעה בכתב ליצרן, או לנציגו המורשה, הדורשת מהיצרן להביא את המכשיר הנוגע בדבר לכלל התאמה בתוך פרק הזמן המוגדר. הודעה כאמור עשויה לקבוע תנאים בנוגע לחובת היצרן ולתוכנית הפעולה שלו לתיקון אי-ההתאמה שזוהתה. תוצאת הדבר תהיה שניתן יהיה להעמיד את המכשיר ולהפכו לזמין בשוק האיחוד האירופי בתנאי שמתקיימים התנאים שהטילה הרשות המוסמכת. ההודעה בכתב של הרשות המוסמכת עשויה לשמש את היצרן או גורמים כלכליים אחרים במגעיהם עם רשויות מוסמכות של מדינות חברות אחרות או עם רשויות המכס כראיה לכך שהם מעמידים ומציבים בשוק האיחוד האירופי מכשיר בלתי תואם, אשר לגביו הרשות המוסמכת הגדירה פרק זמן סביר שבמהלכו על היצרן להביא את המכשיר לכלל התאמה ל-MDR. ההודעה בכתב צריכה להתבסס על טופס סטנדרטי שיוסכם בין הרשויות המוסמכות, לזהות בבירור את המכשיר הנוגע בדבר ולציין את מועד הסיום שעד אליו על היצרן להביא את המכשיר לכלל התאמה ל-MDR."
+    },
+    {
+      "id": "sec-5-p3",
+      "type": "paragraph",
+      "en": "To ensure a high level of transparency and to support a uniform approach, the CA should inform the CAs of the other Member States regarding the devices for which they have applied Article 97(1) MDR pursuant to this document by appropriate means. By the same means, the CA should inform the CAs of the other Member States also about any significant change related to the measure adopted pursuant to Article 97(1) MDR (e.g. extension of the deadline, unforeseen termination). In addition, CAs should consider whether information regarding devices, for which Article 97 MDR has been applied pursuant to the document, could be made publicly available.",
+      "he": "כדי להבטיח רמה גבוהה של שקיפות ולתמוך בגישה אחידה, על הרשות המוסמכת ליידע את הרשויות המוסמכות של המדינות החברות האחרות, באמצעים מתאימים, בנוגע למכשירים שלגביהם יישמה את סעיף 97(1) ל-MDR בהתאם למסמך זה. באותם אמצעים, על הרשות המוסמכת ליידע את הרשויות המוסמכות של המדינות החברות האחרות גם על כל שינוי מהותי הקשור לאמצעי שאומץ בהתאם לסעיף 97(1) ל-MDR (למשל הארכת המועד האחרון, סיום בלתי צפוי). בנוסף, על הרשויות המוסמכות לשקול אם ניתן להעמיד לרשות הציבור מידע בנוגע למכשירים שלגביהם יושם סעיף 97 ל-MDR בהתאם למסמך."
+    },
+    {
+      "id": "sec-5-p4",
+      "type": "paragraph",
+      "en": "The application of Article 97 MDR by the CA vis-à-vis the manufacturer or its authorised representative does not prevent the CA of another Member State to take duly justified measures for its national market addressed to other relevant economic operator(s) regarding the device(s) for which the leading CA applied Article 97 MDR.",
+      "he": "יישום סעיף 97 ל-MDR בידי הרשות המוסמכת מול היצרן או נציגו המורשה אינו מונע מהרשות המוסמכת של מדינה חברה אחרת לנקוט באמצעים מוצדקים כראוי עבור שוקה הלאומי המופנים לגורם/לגורמים כלכליים רלוונטיים אחרים בנוגע למכשיר/למכשירים שלגביהם הרשות המוסמכת המובילה יישמה את סעיף 97 ל-MDR."
+    },
+    {
+      "id": "sec-5-p5",
+      "type": "paragraph",
+      "en": "Application of Article 97 MDR does not exempt the device or any relevant economic operator from being subject to any other market surveillance activities, such as those mentioned in Article 93 MDR.",
+      "he": "יישום סעיף 97 ל-MDR אינו פוטר את המכשיר או כל גורם כלכלי רלוונטי מלהיות כפוף לכל פעילויות פיקוח על השוק אחרות, כגון אלה הנזכרות בסעיף 93 ל-MDR."
+    },
+    {
+      "id": "sec-6",
+      "type": "heading",
+      "level": 2,
+      "number": "VI",
+      "en": "Presentation of the device, information to other parties, certificates of free sale",
+      "he": "הצגת המכשיר, מידע לצדדים אחרים, תעודות מכירה חופשית"
+    },
+    {
+      "id": "sec-6-p1",
+      "type": "paragraph",
+      "en": "The device should not be subject to any change as regards its labelling, including CE marking. The manufacturer should inform its distributors and, if applicable, importers about the non-compliance and the measures undertaken to end the non-compliance (Article 10(12) MDR). If deemed appropriate having regard to the type of the device and its intended users, the CA may request the manufacturer to inform also the users.",
+      "he": "אין לבצע במכשיר כל שינוי בכל הנוגע לתיוג שלו, לרבות סימון CE. על היצרן ליידע את מפיציו, ובמקרים הרלוונטיים את יבואניו, על אי-ההתאמה ועל האמצעים שננקטו לסיומה (סעיף 10(12) ל-MDR). אם הדבר נחשב מתאים בהתחשב בסוג המכשיר ובמשתמשיו המיועדים, רשאית הרשות המוסמכת לבקש מהיצרן ליידע גם את המשתמשים."
+    },
+    {
+      "id": "sec-6-p2",
+      "type": "paragraph",
+      "en": "Having regard to the fact that the device may be placed on the EU market, certificates of free sale may be issued in accordance with national provisions with a validity that should not exceed the period by when the manufacturer should bring the device in compliance with the MDR.",
+      "he": "בהתחשב בעובדה שניתן להעמיד את המכשיר על שוק האיחוד האירופי, ניתן להנפיק תעודות מכירה חופשית בהתאם להוראות לאומיות בתוקף שלא יעלה על פרק הזמן שעד אליו על היצרן להביא את המכשיר לכלל התאמה ל-MDR."
+    },
+    {
+      "id": "sec-7",
+      "type": "heading",
+      "level": 2,
+      "number": "VII",
+      "en": "Relationship with Article 59 MDR",
+      "he": "הזיקה לסעיף 59 ל-MDR"
+    },
+    {
+      "id": "sec-7-p1",
+      "type": "paragraph",
+      "en": "Where a CA has applied Article 97 MDR with the effect that the device may be placed on the market despite its non-compliance, no additional derogation pursuant to Article 59 MDR is necessary.",
+      "he": "במקום שבו רשות מוסמכת יישמה את סעיף 97 ל-MDR באופן שבו ניתן להעמיד את המכשיר על השוק חרף אי-התאמתו, אין צורך בחריגה נוספת לפי סעיף 59 ל-MDR."
+    },
+    {
+      "id": "annex",
+      "type": "heading",
+      "level": 1,
+      "number": "Annex",
+      "en": "Annex",
+      "he": "נספח"
+    },
+    {
+      "id": "annex-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Checklist for the application of Article 97 MDR",
+      "he": "רשימת תיוג ליישום סעיף 97 ל-MDR"
+    },
+    {
+      "id": "annex-p1",
+      "type": "paragraph",
+      "en": "The following checklist identifies, for each criterion, the document(s) to be provided and the party responsible for providing them: MF/AR (manufacturer / authorised representative), MDD/AIMDD NB (notified body under the MDD or AIMDD), MDR NB (notified body under the MDR), and CA (competent authority). An ‘X’ marks the responsible party for each item.",
+      "he": "רשימת התיוג הבאה מזהה, עבור כל קריטריון, את המסמך/המסמכים שיש לספק ואת הגורם האחראי לספקם: MF/AR (יצרן / נציג מורשה), MDD/AIMDD NB (גוף מאונתר לפי ה-MDD או ה-AIMDD), MDR NB (גוף מאונתר לפי ה-MDR), ו-CA (רשות מוסמכת). סימן 'X' מציין את הגורם האחראי לכל פריט."
+    },
+    {
+      "id": "annex-table1-heading",
+      "type": "heading",
+      "level": 3,
+      "en": "Criteria and documents for the application of Article 97(1) MDR — to be provided up-front",
+      "he": "קריטריונים ומסמכים ליישום סעיף 97(1) ל-MDR — שיש לספק מראש"
+    },
+    {
+      "id": "annex-table1",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          { "en": "Criteria", "he": "קריטריונים" },
+          { "en": "Document(s) to be provided", "he": "מסמך/מסמכים שיש לספק" },
+          { "en": "MF/AR", "he": "יצרן/נציג מורשה (MF/AR)" },
+          { "en": "MDD/AIMDD NB", "he": "גוף מאונתר MDD/AIMDD" },
+          { "en": "MDR NB", "he": "גוף מאונתר MDR" },
+          { "en": "CA", "he": "רשות מוסמכת (CA)" }
+        ],
+        [
+          { "en": "Device is or was a ‘legacy device’ within the meaning of MDCG 2021-25 covered by a certificate issued by a notified body in accordance with MDD or AIMDD (not suspended nor withdrawn)", "he": "המכשיר הוא או היה 'מכשיר מהדור הקודם' (legacy device) כמשמעותו ב-MDCG 2021-25, המכוסה בתעודה שהונפקה בידי גוף מאונתר בהתאם ל-MDD או ל-AIMDD (שלא הושעתה ולא נמשכה)" },
+          { "en": "• Certificate issued by a notified body in accordance with MDD or AIMDD\n• Declaration of conformity issued in accordance with MDD or AIMDD", "he": "• תעודה שהונפקה בידי גוף מאונתר בהתאם ל-MDD או ל-AIMDD\n• הצהרת התאמה שהונפקה בהתאם ל-MDD או ל-AIMDD" },
+          { "en": "X", "he": "X" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" }
+        ],
+        [
+          { "en": "Optional: registration of the device in accordance with national requirements", "he": "אופציונלי: רישום המכשיר בהתאם לדרישות לאומיות" },
+          { "en": "Proof of registration", "he": "הוכחת רישום" },
+          { "en": "X", "he": "X" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" },
+          { "en": "X", "he": "X" }
+        ],
+        [
+          { "en": "Forthcoming or incurred non-compliance", "he": "אי-התאמה צפויה או שהתרחשה" },
+          { "en": "Short description from which date and for which reason the device is not or will not be in compliance with MDR", "he": "תיאור קצר ממתי ומאיזו סיבה המכשיר אינו או לא יהיה בהתאמה ל-MDR" },
+          { "en": "X", "he": "X" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" }
+        ],
+        [
+          { "en": "No significant change in design or intended purpose since 26 May 2021 and until the end of non-compliance", "he": "ללא שינוי מהותי בעיצוב או במטרה המיועדת מאז 26 במאי 2021 ועד לסיום אי-ההתאמה" },
+          { "en": "Confirmation and commitment by manufacturer upon request by CA: documentation regarding manufacturer’s assessment of changes including their potential significance", "he": "אישור והתחייבות של היצרן ולפי בקשת הרשות המוסמכת: תיעוד בנוגע להערכת השינויים של היצרן לרבות מהותיותם הפוטנציאלית" },
+          { "en": "X", "he": "X" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" }
+        ],
+        [
+          { "en": "No unacceptable risk to health or safety of patients, users or other persons, or to other aspects of the protection of public health", "he": "ללא סיכון בלתי קביל לבריאותם או לבטיחותם של מטופלים, משתמשים או אנשים אחרים, או להיבטים אחרים של הגנת בריאות הציבור" },
+          { "en": "Vigilance, market surveillance or other information, in particular:\n• report by manufacturer containing relevant data gathered through its post-market surveillance (PMS) system, in particular data concerning incidents, serious incidents and/or field safety corrective actions\n• recent notified body’s audit report, in particular with regard to information about potential safety-related shortcomings identified by notified body during last surveillance audit and confirmation regarding satisfactory resolution\n• check of vigilance and market surveillance data to which CA has access", "he": "מידע ערנות, פיקוח על השוק או מידע אחר, ובפרט:\n• דוח של היצרן הכולל נתונים רלוונטיים שנאספו באמצעות מערכת המעקב שלאחר השיווק (PMS) שלו, ובפרט נתונים הנוגעים לאירועים, אירועים חמורים ו/או פעולות מתקנות בשטח\n• דוח ביקורת עדכני של הגוף המאונתר, ובפרט בנוגע למידע על ליקויים פוטנציאליים הקשורים לבטיחות שזוהו בידי הגוף המאונתר במהלך ביקורת הפיקוח האחרונה ואישור בנוגע לפתרון משביע רצון\n• בדיקה של נתוני ערנות ופיקוח על השוק שיש לרשות המוסמכת גישה אליהם" },
+          { "en": "X", "he": "X" },
+          { "en": "X", "he": "X" },
+          { "en": "", "he": "" },
+          { "en": "X", "he": "X" }
+        ],
+        [
+          { "en": "Device ‘in transition’ to MDR", "he": "מכשיר 'במעבר' (in transition) ל-MDR" },
+          { "en": "• Confirmation letter by notified body that application for MDR certification has been accepted and contract with manufacturer signed (in accordance with MDR Annex VII 4.3), including expected timeline of conformity assessment procedure\n• Commitment by notified body to inform CA about major safety-related shortcomings identified during conformity assessment\n• Commitment by manufacturer to inform CA about any delays\n[In duly justified cases, the CA may waive the submission of the documentation referred to in the first two bullet points where the manufacturer is a SME and can demonstrate that it has undertaken reasonable efforts to apply to a considerable number of relevant notified bodies and that their application has not been accepted due to limited notified body capacity. In that case documentation to be submitted: rejection letters from notified bodies or other correspondence between manufacturer and notified bodies demonstrating frustrated efforts to submit application to notified bodies.]", "he": "• מכתב אישור של הגוף המאונתר שלפיו הבקשה להסמכת MDR התקבלה והחוזה עם היצרן נחתם (בהתאם לנספח VII 4.3 ל-MDR), לרבות לוח הזמנים הצפוי של נוהל הערכת ההתאמה\n• התחייבות של הגוף המאונתר ליידע את הרשות המוסמכת על ליקויים מהותיים הקשורים לבטיחות שזוהו במהלך הערכת ההתאמה\n• התחייבות של היצרן ליידע את הרשות המוסמכת על כל עיכוב\n[במקרים מוצדקים כראוי, רשאית הרשות המוסמכת לוותר על הגשת התיעוד הנזכר בשתי הנקודות הראשונות במקום שבו היצרן הוא עסק קטן או בינוני (SME) ויכול להוכיח שנקט מאמצים סבירים לפנות למספר ניכר של גופים מאונתרים רלוונטיים ושבקשתו לא התקבלה עקב קיבולת מוגבלת של גופים מאונתרים. במקרה זה התיעוד שיש להגיש: מכתבי דחייה מגופים מאונתרים או התכתבות אחרת בין היצרן לגופים המאונתרים המוכיחה מאמצים שסוכלו להגשת בקשה לגופים מאונתרים.]" },
+          { "en": "X", "he": "X" },
+          { "en": "", "he": "" },
+          { "en": "X", "he": "X" },
+          { "en": "", "he": "" }
+        ],
+        [
+          { "en": "Adaptation of manufacturer’s QMS to MDR requirements", "he": "התאמת מערכת ניהול האיכות (QMS) של היצרן לדרישות ה-MDR" },
+          { "en": "MDR QMS certificate or confirmation by manufacturer with supporting documents including valid ISO 13485 certificate", "he": "תעודת QMS לפי MDR או אישור של היצרן עם מסמכים תומכים לרבות תעודת ISO 13485 בתוקף" },
+          { "en": "X", "he": "X" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" }
+        ],
+        [
+          { "en": "Continuous application of MDR requirements in relation to PMS, vigilance and market surveillance including commitment by manufacturer to proactively inform the CA about any safety related corrective or preventive actions", "he": "יישום מתמשך של דרישות ה-MDR ביחס ל-PMS, ערנות ופיקוח על השוק, לרבות התחייבות של היצרן ליזום ולהודיע לרשות המוסמכת על כל פעולות מתקנות או מונעות הקשורות לבטיחות" },
+          { "en": "Confirmation by manufacturer", "he": "אישור של היצרן" },
+          { "en": "X", "he": "X" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" }
+        ]
+      ]
+    },
+    {
+      "id": "annex-table2-heading",
+      "type": "heading",
+      "level": 3,
+      "en": "Criteria and documents to be provided by/upon decision of the CA as part of the follow-up",
+      "he": "קריטריונים ומסמכים שיש לספק בידי/בעקבות החלטת הרשות המוסמכת כחלק מהמעקב"
+    },
+    {
+      "id": "annex-table2",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          { "en": "Criteria", "he": "קריטריונים" },
+          { "en": "Document(s) to be provided", "he": "מסמך/מסמכים שיש לספק" },
+          { "en": "MF/AR", "he": "יצרן/נציג מורשה (MF/AR)" },
+          { "en": "MDD/AIMDD NB", "he": "גוף מאונתר MDD/AIMDD" },
+          { "en": "MDR NB", "he": "גוף מאונתר MDR" },
+          { "en": "CA", "he": "רשות מוסמכת (CA)" }
+        ],
+        [
+          { "en": "Acceptance of manufacturer’s commitment and its plan of action to correct the non-compliance", "he": "קבלת התחייבות היצרן ותוכנית הפעולה שלו לתיקון אי-ההתאמה" },
+          { "en": "Written communication addressed to manufacturer or authorised representative", "he": "הודעה בכתב המופנית ליצרן או לנציג המורשה" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" },
+          { "en": "X", "he": "X" }
+        ],
+        [
+          { "en": "Information of distributors and, if applicable, importers about non-compliance and measures to end non-compliance", "he": "יידוע המפיצים, ובמקרים הרלוונטיים היבואנים, על אי-ההתאמה ועל האמצעים לסיומה" },
+          { "en": "Copy of letter to distributors/importers (to be provided within x weeks of CA’s written communication informing about the acceptance manufacturer’s commitment and its plan of action to correct the non-compliance)", "he": "עותק של המכתב למפיצים/ליבואנים (שיש לספק בתוך x שבועות מההודעה בכתב של הרשות המוסמכת המיידעת על קבלת התחייבות היצרן ותוכנית הפעולה שלו לתיקון אי-ההתאמה)" },
+          { "en": "X", "he": "X" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" }
+        ],
+        [
+          { "en": "Optional: information of users about non-compliance and measures to end non-compliance", "he": "אופציונלי: יידוע המשתמשים על אי-ההתאמה ועל האמצעים לסיומה" },
+          { "en": "Copy of letter to users (to be provided within x weeks of CA’s acceptance/no objection letter)", "he": "עותק של המכתב למשתמשים (שיש לספק בתוך x שבועות ממכתב הקבלה/אי-ההתנגדות של הרשות המוסמכת)" },
+          { "en": "X", "he": "X" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" },
+          { "en": "", "he": "" }
+        ]
+      ]
+    }
+  ]
+}

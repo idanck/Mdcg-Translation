@@ -1,0 +1,2129 @@
+{
+  "id": "MDCG-2024-5",
+  "title": {
+    "en": "MDCG 2024-5 — Guidance on content of the Investigator's Brochure for clinical investigations of medical devices",
+    "he": "MDCG 2024-5 — הנחיה לתוכן חוברת החוקר (Investigator's Brochure) עבור חקירות קליניות של מכשירים רפואיים"
+  },
+  "category": "Clinical Investigation and Evaluation",
+  "publicationDate": "2024-04",
+  "source": {
+    "url": "https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en",
+    "file": "original/mdcg_2024-5_en.pdf"
+  },
+  "language": "he",
+  "direction": "rtl",
+  "translationStatus": "review",
+  "glossaryVersion": "2026-06",
+  "blocks": [
+    {
+      "id": "title-main",
+      "type": "heading",
+      "level": 1,
+      "en": "MDCG 2024-5 — guidance on content of the Investigator's Brochure for clinical investigations of medical devices",
+      "he": "MDCG 2024-5 — הנחיה לתוכן חוברת החוקר (Investigator's Brochure) עבור חקירות קליניות של מכשירים רפואיים"
+    },
+    {
+      "id": "pubdate",
+      "type": "paragraph",
+      "en": "April 2024",
+      "he": "אפריל 2024"
+    },
+    {
+      "id": "disclaimer-1",
+      "type": "paragraph",
+      "en": "This document has been endorsed by the Medical Device Coordination Group (MDCG) established by Article 103 of Regulation (EU) 2017/745. The MDCG is composed of representatives of all Member States and it is chaired by a representative of the European Commission. The document is not a European Commission document and it cannot be regarded as reflecting the official position of the European Commission. Any views expressed in this document are not legally binding and only the Court of Justice of the European Union can give binding interpretations of Union law.",
+      "he": "מסמך זה אושר על ידי קבוצת תיאום המכשירים הרפואיים (MDCG) שהוקמה מכוח סעיף 103 לתקנה (האיחוד האירופי) 2017/745. ה-MDCG מורכבת מנציגים של כל המדינות החברות ובראשה עומד נציג של הנציבות האירופית. המסמך אינו מסמך של הנציבות האירופית ואין לראות בו כמשקף את העמדה הרשמית של הנציבות האירופית. כל דעה המובעת במסמך זה אינה מחייבת מבחינה משפטית, ורק בית הדין לצדק של האיחוד האירופי מוסמך לתת פרשנות מחייבת לדין האיחוד."
+    },
+    {
+      "id": "abbr-heading",
+      "type": "heading",
+      "level": 1,
+      "en": "Abbreviations",
+      "he": "ראשי תיבות"
+    },
+    {
+      "id": "abbr-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          { "en": "Abbreviation", "he": "ראשי תיבות" },
+          { "en": "Meaning", "he": "משמעות" }
+        ],
+        [
+          { "en": "AE", "he": "AE" },
+          { "en": "Adverse Event", "he": "אירוע שלילי (Adverse Event)" }
+        ],
+        [
+          { "en": "ARRIVE", "he": "ARRIVE" },
+          { "en": "Animal Research: Reporting of In Vivo Experiments", "he": "מחקר בבעלי חיים: דיווח על ניסויים בגוף החי (Animal Research: Reporting of In Vivo Experiments)" }
+        ],
+        [
+          { "en": "ASMF", "he": "ASMF" },
+          { "en": "Active Substance Master File", "he": "תיק אב של חומר פעיל (Active Substance Master File)" }
+        ],
+        [
+          { "en": "CE", "he": "CE" },
+          { "en": "Marking on a product to signify that it meets the legal requirements to be sold on the extended Single Market in the European Economic Area (EEA).", "he": "סימון על מוצר המציין כי הוא עומד בדרישות החוקיות למכירתו בשוק היחיד המורחב באזור הכלכלי האירופי (EEA)." }
+        ],
+        [
+          { "en": "CEP", "he": "CEP" },
+          { "en": "Certificate of suitability to the monographs of the European Pharmacopoeia", "he": "תעודת התאמה למונוגרפיות של הפַרמָקוֹפֵּאָה האירופית (Certificate of suitability to the monographs of the European Pharmacopoeia)" }
+        ],
+        [
+          { "en": "CS", "he": "CS" },
+          { "en": "Common Specification", "he": "מפרט משותף (Common Specification)" }
+        ],
+        [
+          { "en": "DD", "he": "DD" },
+          { "en": "Device deficiency", "he": "ליקוי במכשיר (Device deficiency)" }
+        ],
+        [
+          { "en": "EDQM", "he": "EDQM" },
+          { "en": "European Directorate for the Quality of Medicines", "he": "המנהל האירופי לאיכות תרופות (European Directorate for the Quality of Medicines)" }
+        ],
+        [
+          { "en": "EMA", "he": "EMA" },
+          { "en": "European Medicines Agency", "he": "הסוכנות האירופית לתרופות (European Medicines Agency)" }
+        ],
+        [
+          { "en": "EU", "he": "EU" },
+          { "en": "European Union", "he": "האיחוד האירופי (European Union)" }
+        ],
+        [
+          { "en": "EUDAMED", "he": "EUDAMED" },
+          { "en": "European Database on Medical Devices", "he": "מסד הנתונים האירופי למכשירים רפואיים (European Database on Medical Devices)" }
+        ],
+        [
+          { "en": "Eudralex", "he": "Eudralex" },
+          { "en": "The collection of rules and regulations governing medicinal products in the European Union.", "he": "אוסף הכללים והתקנות המסדירים מוצרים רפואיים (תרופות) באיחוד האירופי." }
+        ],
+        [
+          { "en": "FMEA", "he": "FMEA" },
+          { "en": "Failure mode and effects analysis", "he": "ניתוח אופני כשל והשפעותיהם (Failure mode and effects analysis)" }
+        ],
+        [
+          { "en": "FTA", "he": "FTA" },
+          { "en": "Fault tree analysis", "he": "ניתוח עץ תקלות (Fault tree analysis)" }
+        ],
+        [
+          { "en": "GLP", "he": "GLP" },
+          { "en": "Good Laboratory Practice", "he": "נוהל מעבדה תקין (Good Laboratory Practice)" }
+        ],
+        [
+          { "en": "GMP", "he": "GMP" },
+          { "en": "Good Manufacturing Practice", "he": "נוהל ייצור תקין (Good Manufacturing Practice)" }
+        ],
+        [
+          { "en": "GSPR", "he": "GSPR" },
+          { "en": "General Safety and Performance Requirements", "he": "דרישות כלליות לבטיחות וביצועים (General Safety and Performance Requirements)" }
+        ],
+        [
+          { "en": "HAZOP", "he": "HAZOP" },
+          { "en": "Hazard and Operability", "he": "סיכון והפעלה (Hazard and Operability)" }
+        ],
+        [
+          { "en": "IB", "he": "IB" },
+          { "en": "Investigator's Brochure", "he": "חוברת החוקר (Investigator's Brochure)" }
+        ],
+        [
+          { "en": "IFU", "he": "IFU" },
+          { "en": "Instructions for use", "he": "הוראות שימוש (Instructions for use)" }
+        ],
+        [
+          { "en": "IMDRF", "he": "IMDRF" },
+          { "en": "International Medical Device Regulators Forum", "he": "הפורום הבינלאומי של רגולטורים למכשירים רפואיים (International Medical Device Regulators Forum)" }
+        ],
+        [
+          { "en": "IMP", "he": "IMP" },
+          { "en": "Investigational Medicinal Product", "he": "מוצר רפואי נחקר (Investigational Medicinal Product)" }
+        ],
+        [
+          { "en": "ISO", "he": "ISO" },
+          { "en": "International Organization for Standardization", "he": "הארגון הבינלאומי לתקינה (International Organization for Standardization)" }
+        ],
+        [
+          { "en": "IVD", "he": "IVD" },
+          { "en": "In vitro diagnostic", "he": "אבחנה ויטרו (In vitro diagnostic)" }
+        ],
+        [
+          { "en": "MDCG", "he": "MDCG" },
+          { "en": "Medical Device Coordination Group", "he": "קבוצת תיאום המכשירים הרפואיים (Medical Device Coordination Group)" }
+        ],
+        [
+          { "en": "MDR", "he": "MDR" },
+          { "en": "Medical Device Regulation – Regulation (EU) 2017/745 on medical devices", "he": "תקנת המכשירים הרפואיים – תקנה (האיחוד האירופי) 2017/745 בנושא מכשירים רפואיים (Medical Device Regulation)" }
+        ],
+        [
+          { "en": "MIR", "he": "MIR" },
+          { "en": "Manufacturer Incident Report", "he": "דוח אירוע של היצרן (Manufacturer Incident Report)" }
+        ],
+        [
+          { "en": "Ph Eur", "he": "Ph Eur" },
+          { "en": "European Pharmacopoeia", "he": "הפַרמָקוֹפֵּאָה האירופית (European Pharmacopoeia)" }
+        ],
+        [
+          { "en": "PMF", "he": "PMF" },
+          { "en": "Plasma Masterfile", "he": "תיק אב של פלזמה (Plasma Masterfile)" }
+        ],
+        [
+          { "en": "PMSR", "he": "PMSR" },
+          { "en": "Post Market Surveillance Report", "he": "דוח מעקב שלאחר שיווק (Post Market Surveillance Report)" }
+        ],
+        [
+          { "en": "PSUR", "he": "PSUR" },
+          { "en": "Periodic Safety Update Report", "he": "דוח עדכון בטיחות תקופתי (Periodic Safety Update Report)" }
+        ],
+        [
+          { "en": "SADE", "he": "SADE" },
+          { "en": "Serious Adverse Device Effect", "he": "השפעת מכשיר שלילית חמורה (Serious Adverse Device Effect)" }
+        ],
+        [
+          { "en": "SAE", "he": "SAE" },
+          { "en": "Serious Adverse Event", "he": "אירוע שלילי חמור (Serious Adverse Event)" }
+        ],
+        [
+          { "en": "TSE", "he": "TSE" },
+          { "en": "Transmissible Spongiform Encephalopathy", "he": "אנצפלופתיה ספונגיפורמית מדבקת (Transmissible Spongiform Encephalopathy)" }
+        ]
+      ]
+    },
+    {
+      "id": "abbr-fn-1",
+      "type": "note",
+      "marker": "1",
+      "en": "AE — Defined in article 2(57) of the MDR.",
+      "he": "AE — מוגדר בסעיף 2(57) ל-MDR."
+    },
+    {
+      "id": "abbr-fn-2",
+      "type": "note",
+      "marker": "2",
+      "en": "DD — Defined in article 2(59) of the MDR.",
+      "he": "DD — מוגדר בסעיף 2(59) ל-MDR."
+    },
+    {
+      "id": "abbr-fn-3",
+      "type": "note",
+      "marker": "3",
+      "en": "SADE — Any adverse device effect that has resulted in any of the consequences characteristic of a serious adverse event. An adverse device effect is any adverse event related to the use of an investigational device or a comparator, if the comparator is a medical device.",
+      "he": "SADE — כל השפעת מכשיר שלילית שגרמה לאחת מן ההשלכות האופייניות לאירוע שלילי חמור. השפעת מכשיר שלילית היא כל אירוע שלילי הקשור לשימוש במכשיר נחקר או במשווה (comparator), אם המשווה הוא מכשיר רפואי."
+    },
+    {
+      "id": "abbr-fn-4",
+      "type": "note",
+      "marker": "4",
+      "en": "SAE — Defined in article 2(58) of the MDR.",
+      "he": "SAE — מוגדר בסעיף 2(58) ל-MDR."
+    },
+    {
+      "id": "sec-1",
+      "type": "heading",
+      "level": 1,
+      "number": "1",
+      "en": "Introduction",
+      "he": "מבוא"
+    },
+    {
+      "id": "sec-1-p1",
+      "type": "paragraph",
+      "en": "When a sponsor of a clinical investigation shall submit an application according to article 70(1) of the MDR, the application shall be accompanied by the documentation referred to in Chapter II of Annex XV of the MDR. The Investigator's Brochure (IB) is part of the required documentation and is one of the means by which the sponsor is to fulfil the requirement in section 2.7 of Chapter I of Annex XV of the MDR which states that the investigator shall have access to technical and clinical data regarding the device that is being investigated. This includes the intended purpose(s), design, the basic fundamental scientific principles behind the design and the level of objective evidence already in place, to assure its safety and functionality during the investigation. For the purpose of this guidance document, medical devices, accessories for medical devices, and products listed in Annex XVI shall hereinafter be referred to as 'devices'.",
+      "he": "כאשר נותן חסות (sponsor) של חקירה קלינית מגיש בקשה בהתאם לסעיף 70(1) ל-MDR, על הבקשה להיות מלווה בתיעוד הנזכר בפרק II של נספח XV ל-MDR. חוברת החוקר (IB) היא חלק מהתיעוד הנדרש, והיא אחד האמצעים שבאמצעותם על נותן החסות לקיים את הדרישה שבסעיף 2.7 בפרק I של נספח XV ל-MDR, הקובעת כי לחוקר תהיה גישה לנתונים טכניים וקליניים בנוגע למכשיר הנחקר. הדבר כולל את המטרה (או המטרות) המיועדת, התכן (design), העקרונות המדעיים הבסיסיים שביסוד התכן ורמת הראיות האובייקטיביות הקיימות כבר, כדי להבטיח את בטיחותו ותפקודו במהלך החקירה. לצורך מסמך הנחיה זה, מכשירים רפואיים, אביזרים למכשירים רפואיים ומוצרים המנויים בנספח XVI יכונו להלן 'מכשירים'."
+    },
+    {
+      "id": "sec-1-p2",
+      "type": "paragraph",
+      "en": "Section 2 of Chapter II of Annex XV of the MDR describes the required content of the IB. Please note that by submitting complete applications and documents that contain all the required content, this helps competent authorities in assessing the application, which facilitates the review process. Prior to submission of the IB, sponsor is recommended to complete the checklist in Appendix A of this guidance, to ensure the IB meets the minimum requirements for validation of the application per article 70 of the MDR. The checklist, if used, should be included together with the IB in the submission.",
+      "he": "סעיף 2 בפרק II של נספח XV ל-MDR מתאר את התוכן הנדרש של ה-IB. יש לשים לב כי הגשת בקשות ומסמכים מלאים הכוללים את כל התוכן הנדרש מסייעת לרשויות המוסמכות בהערכת הבקשה ומקלה על תהליך הבדיקה. טרם הגשת ה-IB, מומלץ לנותן החסות להשלים את רשימת התיוג (checklist) שבנספח A של הנחיה זו, על מנת להבטיח כי ה-IB עומד בדרישות המינימליות לאימות הבקשה לפי סעיף 70 ל-MDR. רשימת התיוג, אם נעשה בה שימוש, צריכה להיכלל יחד עם ה-IB בהגשה."
+    },
+    {
+      "id": "sec-1-p3",
+      "type": "paragraph",
+      "en": "When preparing the IB, sponsors are encouraged to review the full details of the regulation as well as the normative Annex B of the international standard ISO 14155:2020 Clinical investigation of medical devices for human subjects - Good clinical practice.",
+      "he": "בעת הכנת ה-IB, נותני החסות מתבקשים לעיין בפרטים המלאים של התקנה וכן בנספח B הנורמטיבי של התקן הבינלאומי ISO 14155:2020 חקירה קלינית של מכשירים רפואיים בנבדקים אנושיים – נוהל קליני תקין."
+    },
+    {
+      "id": "sec-1-p4",
+      "type": "paragraph",
+      "en": "This guidance document is intended to support sponsors in developing their IB by describing in greater detail what type of information is expected in the respective IB sections, in order to pre-empt questions from the competent authorities during the assessment of the clinical investigation application. The guidance is based on the requirements of both the MDR and ISO 14155:2020 as well as experience from the competent authorities.",
+      "he": "מסמך הנחיה זה נועד לתמוך בנותני החסות בפיתוח ה-IB שלהם, באמצעות תיאור מפורט יותר של סוג המידע הצפוי בכל אחד מסעיפי ה-IB, על מנת להקדים ולמנוע שאלות מצד הרשויות המוסמכות במהלך הערכת בקשת החקירה הקלינית. ההנחיה מבוססת על דרישותיהם של ה-MDR ושל ISO 14155:2020 כאחד, וכן על הניסיון של הרשויות המוסמכות."
+    },
+    {
+      "id": "sec-1-p5",
+      "type": "paragraph",
+      "en": "Note that any updates to the IB or other relevant information that is newly available shall be brought to the attention of the investigators in a timely manner. Further, when the IB is updated, the sponsor needs to notify the member states concerned within one week. Changes made to the IB shall be clearly identifiable.",
+      "he": "יש לשים לב כי כל עדכון ל-IB או מידע רלוונטי אחר שזמין לאחרונה יובא לידיעת החוקרים במועד הולם. כמו כן, כאשר ה-IB מעודכן, על נותן החסות להודיע למדינות החברות הנוגעות בדבר בתוך שבוע. שינויים שנערכו ב-IB יהיו ניתנים לזיהוי בבירור."
+    },
+    {
+      "id": "sec-1-p6",
+      "type": "paragraph",
+      "en": "Note that the scope of this guidance is IBs written for clinical investigations as defined by the MDR, and it is not intended to be applied for performance study IBs under the IVDR.",
+      "he": "יש לשים לב כי תחולת הנחיה זו היא על חוברות חוקר (IB) הנכתבות עבור חקירות קליניות כהגדרתן ב-MDR, ואין כוונה ליישמה על חוברות חוקר של מחקרי ביצועים (performance study) לפי ה-IVDR."
+    },
+    {
+      "id": "sec-1-fn-5",
+      "type": "note",
+      "marker": "5",
+      "en": "Article 1.4 of the MDR.",
+      "he": "סעיף 1.4 ל-MDR."
+    },
+    {
+      "id": "sec-1-fn-6",
+      "type": "note",
+      "marker": "6",
+      "en": "Section 2, Chapter II, Annex XV of the MDR.",
+      "he": "סעיף 2, פרק II, נספח XV ל-MDR."
+    },
+    {
+      "id": "sec-1-fn-7",
+      "type": "note",
+      "marker": "7",
+      "en": "Per article 70.2 of the MDR.",
+      "he": "לפי סעיף 70.2 ל-MDR."
+    },
+    {
+      "id": "sec-2",
+      "type": "heading",
+      "level": 1,
+      "number": "2",
+      "en": "Content of the Investigator's Brochure",
+      "he": "תוכן חוברת החוקר"
+    },
+    {
+      "id": "sec-2-p1",
+      "type": "paragraph",
+      "en": "The IB shall contain the clinical and non-clinical information on the investigational device that is relevant for the investigation and available at the time of application. The information shall be presented in a concise, simple, objective, balanced, and non-promotional form that enables a potential investigator and the investigation site team, to understand it and make his/her own unbiased benefit-risk analysis of the appropriateness of exposing study participants to the investigational device. Further the IB should contain sufficient information to allow safe and correct use of the device.",
+      "he": "ה-IB יכלול את המידע הקליני והבלתי-קליני על המכשיר הנחקר הרלוונטי לחקירה והזמין במועד הגשת הבקשה. המידע יוצג בצורה תמציתית, פשוטה, אובייקטיבית, מאוזנת ובלתי-קידומית, המאפשרת לחוקר פוטנציאלי ולצוות אתר החקירה להבינו ולערוך ניתוח תועלת-סיכון בלתי-מוטה משלו לגבי מידת ההתאמה של חשיפת משתתפי המחקר למכשיר הנחקר. בנוסף, על ה-IB לכלול מידע מספיק כדי לאפשר שימוש בטוח ונכון במכשיר."
+    },
+    {
+      "id": "sec-2-p2",
+      "type": "paragraph",
+      "en": "Note that it is preferred for all necessary information to be included in the IB. However, if it is decided to move part of the information to annexes, then a clear reference should be made in the IB and the annexes enclosed with the application. The reference in the IB should clearly state the title of the referenced document and the section in which the information is given. A summary of the referenced document should still be provided in the IB, as the IB should be possible to read as a stand-alone document.",
+      "he": "יש לשים לב כי עדיף שכל המידע הנדרש ייכלל ב-IB. עם זאת, אם הוחלט להעביר חלק מהמידע לנספחים, יש לציין הפניה ברורה ב-IB ולצרף את הנספחים לבקשה. ההפניה ב-IB צריכה לציין בבירור את כותרת המסמך המוּפנה והסעיף שבו ניתן המידע. עדיין יש לספק ב-IB תקציר של המסמך המוּפנה, מאחר שצריך להיות אפשרי לקרוא את ה-IB כמסמך עצמאי."
+    },
+    {
+      "id": "sec-2-admin",
+      "type": "heading",
+      "level": 2,
+      "en": "Administrative details",
+      "he": "פרטים מנהליים"
+    },
+    {
+      "id": "sec-2-admin-p1",
+      "type": "paragraph",
+      "en": "The IB shall be clearly identified. The first page(s) should contain a proper identification of the IB with the name of the investigational device, a document reference number, version and date of the IB, if appropriate a confidentiality statement, a summary of the revision history and table of contents.",
+      "he": "ה-IB יזוהה בבירור. העמוד (או העמודים) הראשונים צריכים לכלול זיהוי תקין של ה-IB עם שם המכשיר הנחקר, מספר אסמכתא של המסמך, גרסה ותאריך של ה-IB, ובמידת הצורך הצהרת סודיות, תקציר של היסטוריית הגרסאות ותוכן עניינים."
+    },
+    {
+      "id": "sec-2-admin-p2",
+      "type": "paragraph",
+      "en": "The name and address of the sponsor of the clinical investigation should be given, and of the manufacturer of the investigational device, if different from the sponsor.",
+      "he": "יש לציין את שם וכתובת נותן החסות של החקירה הקלינית, וכן של יצרן המכשיר הנחקר, אם הוא שונה מנותן החסות."
+    },
+    {
+      "id": "sec-2-admin-p3",
+      "type": "paragraph",
+      "en": "The page number and total number of pages of the document should be indicated on each page of the IB.",
+      "he": "בכל עמוד של ה-IB יש לציין את מספר העמוד ואת מספר העמודים הכולל של המסמך."
+    },
+    {
+      "id": "sec-2-1",
+      "type": "heading",
+      "level": 2,
+      "number": "2.1",
+      "en": "Investigational device information",
+      "he": "מידע על המכשיר הנחקר"
+    },
+    {
+      "id": "sec-2-1-p1",
+      "type": "paragraph",
+      "en": "According to section 2.1, chapter II, Annex XV of the MDR, the IB should include identification and description of the device, including information on the intended purpose, the risk classification and applicable classification rule of the regulation, design and manufacturing of the device and reference to previous and similar generations of the device.",
+      "he": "בהתאם לסעיף 2.1, פרק II, נספח XV ל-MDR, על ה-IB לכלול זיהוי ותיאור של המכשיר, לרבות מידע על המטרה המיועדת, סיווג הסיכון וכלל הסיווג הרלוונטי של התקנה, התכן (design) והייצור של המכשיר, והפניה לדורות קודמים ודומים של המכשיר."
+    },
+    {
+      "id": "sec-2-1-p2",
+      "type": "paragraph",
+      "en": "This investigational device information should include the following elements, if applicable:",
+      "he": "מידע זה על המכשיר הנחקר צריך לכלול את הרכיבים הבאים, ככל שהם רלוונטיים:"
+    },
+    {
+      "id": "sec-2-1-1",
+      "type": "heading",
+      "level": 3,
+      "number": "2.1.1",
+      "en": "Identification of the device",
+      "he": "זיהוי המכשיר"
+    },
+    {
+      "id": "sec-2-1-1-p1",
+      "type": "paragraph",
+      "en": "If several names are used for the same device, this should be explained, and care taken to use consistent terminology throughout the study documentation, to avoid confusion.",
+      "he": "אם נעשה שימוש במספר שמות לאותו מכשיר, יש להסביר זאת ולהקפיד על שימוש בטרמינולוגיה עקבית בכל תיעוד המחקר, כדי למנוע בלבול."
+    },
+    {
+      "id": "sec-2-1-2",
+      "type": "heading",
+      "level": 3,
+      "number": "2.1.2",
+      "en": "Intended purpose",
+      "he": "מטרה מיועדת"
+    },
+    {
+      "id": "sec-2-1-2-p1",
+      "type": "paragraph",
+      "en": "State the intended purpose with a clear specification of the indications, contra-indications, the patient target group or groups, and the intended users, as appropriate.",
+      "he": "יש לציין את המטרה המיועדת עם פירוט ברור של ההתוויות, ההתוויות-הנגד, קבוצת או קבוצות המטופלים היעד, והמשתמשים המיועדים, לפי העניין."
+    },
+    {
+      "id": "sec-2-1-2-p2",
+      "type": "paragraph",
+      "en": "If there is a known difference between the intended purpose in the clinical investigation (due to development stage, study design or other reasons) and the planned intended purpose when the device will be placed on the market, this difference should be clearly stated.",
+      "he": "אם קיים הבדל ידוע בין המטרה המיועדת בחקירה הקלינית (בשל שלב הפיתוח, תכנון המחקר או סיבות אחרות) לבין המטרה המיועדת המתוכננת בעת הצבת המכשיר בשוק, יש לציין הבדל זה בבירור."
+    },
+    {
+      "id": "sec-2-1-2-p3",
+      "type": "paragraph",
+      "en": "If the device has already been CE-marked and placed on the market, it should be explained whether the intended purpose of device in the clinical investigation is different from the intended purpose for which the device has been CE marked, or if it is to be further assessed within the scope of its intended purpose. This should be clearly specified.",
+      "he": "אם המכשיר כבר נושא סימון CE והוצב בשוק, יש להסביר האם המטרה המיועדת של המכשיר בחקירה הקלינית שונה מהמטרה המיועדת שלשמה ניתן סימון ה-CE, או שמא הוא ייבחן עוד במסגרת תחום המטרה המיועדת שלו. יש לפרט זאת בבירור."
+    },
+    {
+      "id": "sec-2-1-3",
+      "type": "heading",
+      "level": 3,
+      "number": "2.1.3",
+      "en": "Intended clinical performance",
+      "he": "ביצועים קליניים מיועדים"
+    },
+    {
+      "id": "sec-2-1-3-p1",
+      "type": "paragraph",
+      "en": "Describe in clinical terms the performance that the device is intended to achieve. I.e. describe how (the mechanisms through which) the device is able to achieve its intended purpose as claimed by the manufacturer, thereby leading to a clinical benefit for patients, when used as intended by the manufacturer.",
+      "he": "יש לתאר במונחים קליניים את הביצועים שהמכשיר נועד להשיג. כלומר, לתאר כיצד (באילו מנגנונים) המכשיר מסוגל להשיג את מטרתו המיועדת כפי שטוען היצרן, ובכך להוביל לתועלת קלינית למטופלים, כאשר נעשה בו שימוש כפי שיועד על ידי היצרן."
+    },
+    {
+      "id": "sec-2-1-3-p2",
+      "type": "paragraph",
+      "en": "The 'clinical benefit' means the positive impact of a device on the health of an individual, expressed in terms of a meaningful, measurable, patient-relevant clinical outcome(s), including outcome(s) related to diagnosis, or a positive impact on patient management or public health. Describe the intended clinical benefits to patients with relevant and specified clinical outcome parameters. The clinical benefit could be resulting from any direct or indirect medical effects which stem from the technical or functional characteristics of the device, including diagnostic characteristics.",
+      "he": "'תועלת קלינית' פירושה ההשפעה החיובית של מכשיר על בריאות הפרט, המתבטאת במונחים של תוצא (או תוצאים) קליני משמעותי, מדיד ורלוונטי למטופל, לרבות תוצא הקשור לאבחון, או השפעה חיובית על ניהול המטופל או על בריאות הציבור. יש לתאר את התועלות הקליניות המיועדות למטופלים באמצעות פרמטרי תוצא קליניים רלוונטיים ומפורטים. התועלת הקלינית עשויה לנבוע מכל השפעה רפואית ישירה או עקיפה הנובעת מהמאפיינים הטכניים או התפקודיים של המכשיר, לרבות מאפיינים אבחוניים."
+    },
+    {
+      "id": "sec-2-1-3-p3",
+      "type": "paragraph",
+      "en": "For products without an intended medical purpose that are covered by Annex XVI of the MDR, the requirement to demonstrate a clinical benefit shall be understood as a requirement to demonstrate the performance of the device.",
+      "he": "עבור מוצרים ללא מטרה רפואית מיועדת המכוסים בנספח XVI ל-MDR, הדרישה להוכיח תועלת קלינית תובן כדרישה להוכיח את ביצועי המכשיר."
+    },
+    {
+      "id": "sec-2-1-3-fn-10",
+      "type": "note",
+      "marker": "10",
+      "en": "Article 2(52) of the MDR.",
+      "he": "סעיף 2(52) ל-MDR."
+    },
+    {
+      "id": "sec-2-1-3-fn-11",
+      "type": "note",
+      "marker": "11",
+      "en": "Article 2(53) of the MDR.",
+      "he": "סעיף 2(53) ל-MDR."
+    },
+    {
+      "id": "sec-2-1-3-fn-12",
+      "type": "note",
+      "marker": "12",
+      "en": "Article 61(9) of the MDR.",
+      "he": "סעיף 61(9) ל-MDR."
+    },
+    {
+      "id": "sec-2-1-2-fn-8",
+      "type": "note",
+      "marker": "8",
+      "en": "Article 2(12) of the MDR.",
+      "he": "סעיף 2(12) ל-MDR."
+    },
+    {
+      "id": "sec-2-1-2-fn-9",
+      "type": "note",
+      "marker": "9",
+      "en": "Aligned with section 23(4)b in Annex I of the MDR.",
+      "he": "תואם לסעיף 23(4)(ב) בנספח I ל-MDR."
+    },
+    {
+      "id": "sec-2-1-4",
+      "type": "heading",
+      "level": 3,
+      "number": "2.1.4",
+      "en": "Qualification and classification",
+      "he": "הסמכה (qualification) וסיווג"
+    },
+    {
+      "id": "sec-2-1-4-p1",
+      "type": "paragraph",
+      "en": "Provide a rationale for why the device qualifies i.e. has regulatory status as a medical device, an accessory for a medical device or a product listed in Annex XVI. Compare the intended purpose to the applicable definition in article 2(1), 2(2) or annex XVI of the MDR, and state the applicable risk class according to Annex VIII of the MDR.",
+      "he": "יש לספק נימוק מדוע המכשיר מוסמך כלומר בעל מעמד רגולטורי כמכשיר רפואי, אביזר למכשיר רפואי או מוצר המנוי בנספח XVI. יש להשוות את המטרה המיועדת להגדרה הרלוונטית בסעיף 2(1), 2(2) או נספח XVI ל-MDR, ולציין את סוג הסיכון הרלוונטי בהתאם לנספח VIII ל-MDR."
+    },
+    {
+      "id": "sec-2-1-4-p2",
+      "type": "paragraph",
+      "en": "For borderline products (i.e. where there could be uncertainty whether the product is a device or a medicinal product), it is of particular importance to include the scientific rationale for the qualification as device, and to align with the MDCG 2022-5 guidance.",
+      "he": "עבור מוצרי גבול (borderline) (כלומר כאשר עשויה להתקיים אי-ודאות אם המוצר הוא מכשיר או מוצר רפואי/תרופה), חשוב במיוחד לכלול את הנימוק המדעי להסמכתו כמכשיר, ולפעול בהתאם להנחיה MDCG 2022-5."
+    },
+    {
+      "id": "sec-2-1-4-p3",
+      "type": "paragraph",
+      "en": "Further, if the study is a study combining device and medicinal product, clear information on the regulatory status of both device and drug components should be provided.",
+      "he": "כמו כן, אם המחקר הוא מחקר המשלב מכשיר ומוצר רפואי (תרופה), יש לספק מידע ברור על המעמד הרגולטורי של רכיבי המכשיר והתרופה כאחד."
+    },
+    {
+      "id": "sec-2-1-4-p4",
+      "type": "paragraph",
+      "en": "For classification, relevant guidance is available in MDCG 2021-24, MDCG 2019-11 and MDCG 2023-5. Classification under previous legislation, i.e. for legacy devices may be mentioned as supplementary information.",
+      "he": "לעניין הסיווג, הנחיה רלוונטית זמינה ב-MDCG 2021-24, MDCG 2019-11 ו-MDCG 2023-5. ניתן לציין כמידע משלים את הסיווג לפי החקיקה הקודמת, כלומר עבור מכשירים מדור קודם (legacy devices)."
+    },
+    {
+      "id": "sec-2-1-4-fn-13",
+      "type": "note",
+      "marker": "13",
+      "en": "MDCG 2022-5 Guideline on borderline between medical devices and medicinal products under Regulation (EU) 2017/745 on medical devices.",
+      "he": "MDCG 2022-5 הנחיה לגבי הגבול בין מכשירים רפואיים ומוצרים רפואיים (תרופות) לפי תקנה (האיחוד האירופי) 2017/745 בנושא מכשירים רפואיים."
+    },
+    {
+      "id": "sec-2-1-4-fn-14",
+      "type": "note",
+      "marker": "14",
+      "en": "MDCG 2021-24 Guidance on classification of medical devices.",
+      "he": "MDCG 2021-24 הנחיה לסיווג מכשירים רפואיים."
+    },
+    {
+      "id": "sec-2-1-4-fn-15",
+      "type": "note",
+      "marker": "15",
+      "en": "MDCG 2019-11 Guidance on Qualification and Classification of Software in Regulation (EU) 2017/745 - MDR and Regulation (EU) 2017/746 - IVDR.",
+      "he": "MDCG 2019-11 הנחיה להסמכה ולסיווג של תוכנה בתקנה (האיחוד האירופי) 2017/745 - MDR ובתקנה (האיחוד האירופי) 2017/746 - IVDR."
+    },
+    {
+      "id": "sec-2-1-4-fn-16",
+      "type": "note",
+      "marker": "16",
+      "en": "MDCG 2023-5 Guidance on qualification and classification of Annex XVI products - A guide for manufacturers and notified bodies.",
+      "he": "MDCG 2023-5 הנחיה להסמכה ולסיווג של מוצרי נספח XVI - מדריך ליצרנים ולגופים מאונתרים."
+    },
+    {
+      "id": "sec-2-1-5",
+      "type": "heading",
+      "level": 3,
+      "number": "2.1.5",
+      "en": "Literature and evaluation supporting the rationale for the design and intended use of the investigational device",
+      "he": "ספרות והערכה התומכות בנימוק לתכן ולשימוש המיועד של המכשיר הנחקר"
+    },
+    {
+      "id": "sec-2-1-5-p1",
+      "type": "paragraph",
+      "en": "Provide a summary of the literature, previous research and evaluation supporting the rationale for the design and intended use of the investigational device, if available.",
+      "he": "יש לספק תקציר של הספרות, המחקר הקודם וההערכה התומכים בנימוק לתכן ולשימוש המיועד של המכשיר הנחקר, אם הם זמינים."
+    },
+    {
+      "id": "sec-2-1-6",
+      "type": "heading",
+      "level": 3,
+      "number": "2.1.6",
+      "en": "General description of the device:",
+      "he": "תיאור כללי של המכשיר:"
+    },
+    {
+      "id": "sec-2-1-6-1",
+      "type": "heading",
+      "level": 4,
+      "number": "2.1.6.1",
+      "en": "Design",
+      "he": "תכן (Design)"
+    },
+    {
+      "id": "sec-2-1-6-1-p1",
+      "type": "paragraph",
+      "en": "The IB shall contain a description of the critical and fundamental design (e. g. the technical or scientific principles applied) of the relevant components/parts of the device, so that the device, when used according to the instructions, will be able to achieve the intended purpose. The description should be as clear and fundamental as reasonably possibly, not assuming that all intended readers are already experts in the field. Describe the operation of the device and its mode of action, along with supporting scientific literature if available.",
+      "he": "ה-IB יכלול תיאור של התכן הקריטי והבסיסי (למשל העקרונות הטכניים או המדעיים שיושמו) של הרכיבים/החלקים הרלוונטיים של המכשיר, כך שהמכשיר, בעת שימוש בו על פי ההוראות, יוכל להשיג את המטרה המיועדת. התיאור צריך להיות ברור ובסיסי ככל האפשר במידה סבירה, מבלי להניח שכל הקוראים המיועדים הם כבר מומחים בתחום. יש לתאר את הפעלת המכשיר ואת אופן פעולתו, יחד עם ספרות מדעית תומכת אם זמינה."
+    },
+    {
+      "id": "sec-2-1-6-1-1",
+      "type": "heading",
+      "level": 4,
+      "number": "2.1.6.1.1",
+      "en": "Description of the key functional elements",
+      "he": "תיאור הרכיבים התפקודיים המרכזיים"
+    },
+    {
+      "id": "sec-2-1-6-1-1-p1",
+      "type": "paragraph",
+      "en": "Include a general description of the key functional elements, e.g. its parts/components (including software if appropriate), its formulation, its composition, its functionality and, where relevant, its qualitative and quantitative composition. Where appropriate, this should include labelled pictorial representations (e.g. diagrams, photographs, and drawings), clearly indicating key parts/components, including sufficient explanation to understand the drawings and diagrams. Often, animations or recordings are made to clarify the mechanism of action and specific features of a device; if this is the case, a copy or link to these can be provided in or together with the IB as a supporting way to explain the design and working principles of complex devices; nevertheless, these are considered complementary and do not fully replace a written description of the mechanism of action in the IB.",
+      "he": "יש לכלול תיאור כללי של הרכיבים התפקודיים המרכזיים, למשל החלקים/הרכיבים שלו (לרבות תוכנה אם רלוונטי), תכשירו (formulation), הרכבו, תפקודיותו, ובמקרים הרלוונטיים הרכבו האיכותני והכמותי. במידת הצורך, הדבר צריך לכלול ייצוגים ציוריים מתויגים (למשל תרשימים, צילומים ושרטוטים), המציינים בבירור חלקים/רכיבים מרכזיים, לרבות הסבר מספיק להבנת השרטוטים והתרשימים. לעיתים קרובות מופקים אנימציות או הקלטות כדי להבהיר את מנגנון הפעולה ותכונות ספציפיות של מכשיר; במקרה כזה ניתן לספק עותק או קישור אליהם ב-IB או יחד עמו כדרך תומכת להסביר את התכן ועקרונות הפעולה של מכשירים מורכבים; עם זאת, אלה נחשבים משלימים ואינם מחליפים באופן מלא תיאור כתוב של מנגנון הפעולה ב-IB."
+    },
+    {
+      "id": "sec-2-1-6-1-2",
+      "type": "heading",
+      "level": 4,
+      "number": "2.1.6.1.2",
+      "en": "Overview of materials used",
+      "he": "סקירה של החומרים שבשימוש"
+    },
+    {
+      "id": "sec-2-1-6-1-2-p1",
+      "type": "paragraph",
+      "en": "A clear overview of materials used in the device should be provided, preferably in a tabular format. In addition, detailed information for all materials coming into contact with the human body (i.e., in contact with tissues or body fluids of a patient, health care professional, or other user, even if contact is only brief, occasional or indirect) should be provided in a separate section on biocompatibility and biological safety. Refer to section 2.3.2.3.2 below for further guidance.",
+      "he": "יש לספק סקירה ברורה של החומרים שבשימוש במכשיר, רצוי בפורמט טבלאי. בנוסף, יש לספק מידע מפורט על כל החומרים הבאים במגע עם גוף האדם (כלומר במגע עם רקמות או נוזלי גוף של מטופל, איש מקצוע הבריאות, או משתמש אחר, גם אם המגע הוא קצר, מקרי או עקיף בלבד) בסעיף נפרד על ביו-תאימות (biocompatibility) ובטיחות ביולוגית. ראו סעיף 2.3.2.3.2 להלן להנחיה נוספת."
+    },
+    {
+      "id": "sec-2-1-6-1-2-p2",
+      "type": "paragraph",
+      "en": "If relevant, details of any medicinal substances, non-viable human or animal tissues or their derivates, or other biologically active substances must also be included. See also section 2.6 below.",
+      "he": "אם רלוונטי, יש לכלול גם פרטים של כל חומר רפואי, רקמות אנושיות או מן החי שאינן ברות-קיימא (non-viable) או נגזרותיהן, או חומרים פעילים ביולוגית אחרים. ראו גם סעיף 2.6 להלן."
+    },
+    {
+      "id": "sec-2-1-6-1-3",
+      "type": "heading",
+      "level": 4,
+      "number": "2.1.6.1.3",
+      "en": "Technical specifications",
+      "he": "מפרטים טכניים"
+    },
+    {
+      "id": "sec-2-1-6-1-3-p1",
+      "type": "paragraph",
+      "en": "Technical specifications, such as features, dimensions and performance attributes, of the device and any variants/configurations and accessories that would typically appear in the device specification made available to the user, for example in brochures, catalogues and similar publications should be provided. This concerns the variants/configurations and accessories to be used in the clinical investigation.",
+      "he": "יש לספק מפרטים טכניים, כגון תכונות, מידות ותכונות ביצועים, של המכשיר ושל כל וריאנט/תצורה ואביזרים שבדרך כלל היו מופיעים במפרט המכשיר המועמד לרשות המשתמש, למשל בעלונים, קטלוגים ופרסומים דומים. הדבר נוגע לווריאנטים/לתצורות ולאביזרים שייעשה בהם שימוש בחקירה הקלינית."
+    },
+    {
+      "id": "sec-2-1-7",
+      "type": "heading",
+      "level": 3,
+      "number": "2.1.7",
+      "en": "Summary of relevant manufacturing processes",
+      "he": "תקציר תהליכי ייצור רלוונטיים"
+    },
+    {
+      "id": "sec-2-1-7-p1",
+      "type": "paragraph",
+      "en": "The IB should contain information on how the manufacturing process has been designed to ensure sufficient device quality and robustness, considering e. g. known or foreseeable variability inherent to biological materials and other critical components or raw materials which may cause challenges that might jeopardize device performance unless they are sufficiently controlled. Provide a summary of relevant manufacturing processes and the corresponding quality controls (including verifications and validations as well as final testing) applied to demonstrate that the investigational devices are manufactured and verified under a controlled process according to the applicable regulations. This can be done by means of a manufacturing flowchart.",
+      "he": "על ה-IB לכלול מידע על האופן שבו תוכנן תהליך הייצור כדי להבטיח איכות וחוסן מספקים של המכשיר, תוך התחשבות, למשל, בשונוּת ידועה או צפויה הטבועה בחומרים ביולוגיים וברכיבים קריטיים אחרים או חומרי גלם, העלולה לגרום אתגרים המסכנים את ביצועי המכשיר אלא אם הם מבוקרים די הצורך. יש לספק תקציר של תהליכי הייצור הרלוונטיים ובקרות האיכות המתאימות (לרבות אימותים ותיקופים וכן בדיקה סופית) שיושמו כדי להוכיח שהמכשירים הנחקרים מיוצרים ומאומתים בתהליך מבוקר בהתאם לתקנות הרלוונטיות. ניתן לעשות זאת באמצעות תרשים זרימה של הייצור."
+    },
+    {
+      "id": "sec-2-1-8",
+      "type": "heading",
+      "level": 3,
+      "number": "2.1.8",
+      "en": "Reference to previous and similar generations of the device",
+      "he": "הפניה לדורות קודמים ודומים של המכשיר"
+    },
+    {
+      "id": "sec-2-1-8-p1",
+      "type": "paragraph",
+      "en": "An overview of the previous and similar versions of the device (e.g., in table format) is recommended, if applicable. This overview should specifically focus on the devices used clinically and in confirmatory pre-clinical testing, i.e. the late stages of development. Preferably, this table contains for each iteration the version number, a photograph/drawing and a brief overview and rationale of changes with regards to the previous iteration.",
+      "he": "מומלצת סקירה של הגרסאות הקודמות והדומות של המכשיר (למשל בפורמט טבלאי), אם רלוונטי. סקירה זו צריכה להתמקד באופן ספציפי במכשירים ששימשו קלינית ובבדיקה הפרה-קלינית המאששת, כלומר בשלבים המאוחרים של הפיתוח. רצוי שטבלה זו תכיל לכל איטרציה את מספר הגרסה, צילום/שרטוט, וסקירה תמציתית ונימוק של השינויים ביחס לאיטרציה הקודמת."
+    },
+    {
+      "id": "sec-2-1-9",
+      "type": "heading",
+      "level": 3,
+      "number": "2.1.9",
+      "en": "Overview of identified equivalent or, if any, similar devices available",
+      "he": "סקירה של מכשירים שווי-ערך שזוהו, או, אם ישנם, מכשירים דומים זמינים"
+    },
+    {
+      "id": "sec-2-1-9-p1",
+      "type": "paragraph",
+      "en": "As background for the evaluation of clinical data (refer to section 2.4 in chapter II Annex XV of the MDR as well as section 2.4 in this guidance document) and for the assessment of anticipated benefits per article 62(4e) of the MDR, the sponsor should provide an overview of identified equivalent if any, or relevant similar devices available in the Union or international markets. A brief description of similar devices including the key features and their intended purpose(s) focusing on the novelty of the current device when compared to other is sufficient.",
+      "he": "כרקע להערכת נתונים קליניים (ראו סעיף 2.4 בפרק II נספח XV ל-MDR וכן סעיף 2.4 במסמך הנחיה זה) ולהערכת התועלות הצפויות לפי סעיף 62(4)(ה) ל-MDR, על נותן החסות לספק סקירה של מכשירים שווי-ערך שזוהו, אם ישנם, או מכשירים דומים רלוונטיים הזמינים בשווקי האיחוד או בשווקים הבינלאומיים. די בתיאור תמציתי של מכשירים דומים הכולל את התכונות המרכזיות ואת מטרתם המיועדת, תוך התמקדות בחדשנות של המכשיר הנוכחי בהשוואה לאחרים."
+    },
+    {
+      "id": "sec-2-1-6-1-1-fn-17",
+      "type": "note",
+      "marker": "17",
+      "en": "Relevant for substance based devices.",
+      "he": "רלוונטי למכשירים מבוססי-חומר (substance based devices)."
+    },
+    {
+      "id": "sec-2-2",
+      "type": "heading",
+      "level": 2,
+      "number": "2.2",
+      "en": "Labels and instructions for use",
+      "he": "תוויות והוראות שימוש"
+    },
+    {
+      "id": "sec-2-2-p1",
+      "type": "paragraph",
+      "en": "According to section 2.2, chapter II, Annex XV of the MDR, the IB should include manufacturer's instructions for installation, maintenance, maintaining of hygienic standards and use of the investigational device, including any necessary storage and handling requirements, as well as, to the extent that such information is available, information to be placed on the label, and instructions for use to be provided with the device. In addition, information relating to any relevant training required is to be included.",
+      "he": "בהתאם לסעיף 2.2, פרק II, נספח XV ל-MDR, על ה-IB לכלול את הוראות היצרן להתקנה, תחזוקה, שמירה על תקני היגיינה ושימוש במכשיר הנחקר, לרבות כל דרישות אחסון וטיפול נחוצות, וכן, ככל שמידע זה זמין, מידע שיוצב על התווית, והוראות שימוש שיסופקו עם המכשיר. בנוסף, יש לכלול מידע בנוגע לכל הכשרה רלוונטית הנדרשת."
+    },
+    {
+      "id": "sec-2-2-p2",
+      "type": "paragraph",
+      "en": "Sponsor needs to check national legislation, which may require labelling and instructions for use to be in national language.",
+      "he": "על נותן החסות לבדוק את החקיקה הלאומית, אשר עשויה לדרוש שהתיוג והוראות השימוש יהיו בשפה הלאומית."
+    },
+    {
+      "id": "sec-2-2-1",
+      "type": "heading",
+      "level": 3,
+      "number": "2.2.1",
+      "en": "Instructions for use",
+      "he": "הוראות שימוש"
+    },
+    {
+      "id": "sec-2-2-1-p1",
+      "type": "paragraph",
+      "en": "For devices which do not bear CE marking, \"Instructions for Use\" (IFU) document(s) should be included in the application dossier, as part of the IB or as a separate document referenced from IB. Instructions for use should contain:",
+      "he": "עבור מכשירים שאינם נושאים סימון CE, יש לכלול מסמך (או מסמכי) \"הוראות שימוש\" (IFU) בתיק הבקשה, כחלק מה-IB או כמסמך נפרד שאליו מפנים מה-IB. הוראות השימוש צריכות לכלול:"
+    },
+    {
+      "id": "sec-2-2-1-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "The information to be provided with the device when placed on the market according to the requirements listed in chapter III, Annex I of the MDR, to the extent that such information is available,", "he": "המידע שיסופק עם המכשיר בעת הצבתו בשוק בהתאם לדרישות המנויות בפרק III, נספח I ל-MDR, ככל שמידע זה זמין," },
+        { "en": "Instructions on the use and operation of the device need to be sufficiently detailed to prevent user errors and should allow the reader to understand how the device is to be operated without having an actual device at hand. Graphic illustrations are recommended.", "he": "הוראות בנוגע לשימוש ולהפעלת המכשיר צריכות להיות מפורטות מספיק כדי למנוע טעויות משתמש, ועליהן לאפשר לקורא להבין כיצד יש להפעיל את המכשיר מבלי שמכשיר ממשי בהישג ידו. מומלצים איורים גרפיים." },
+        { "en": "Information on preparation for use and any intended re-use (e.g., cleaning, sterilization), any pre-use safety or performance checks and any precautions to be taken after use (e.g., disposal), if relevant.", "he": "מידע על הכנה לשימוש ועל כל שימוש חוזר מיועד (למשל ניקוי, עיקור), כל בדיקות בטיחות או ביצועים טרם השימוש וכל אמצעי זהירות שיש לנקוט לאחר השימוש (למשל סילוק), אם רלוונטי." },
+        { "en": "Instructions for installation and maintenance of the device, including any precautions to be taken into consideration prior to installation and service, to ensure user and patient safety.", "he": "הוראות להתקנה ולתחזוקה של המכשיר, לרבות כל אמצעי זהירות שיש לקחת בחשבון טרם ההתקנה והשירות, כדי להבטיח את בטיחות המשתמש והמטופל." },
+        { "en": "Storage and handling requirements as well as shelf life (when appropriate) of the investigational device should be specified.", "he": "יש לפרט את דרישות האחסון והטיפול וכן את חיי המדף (כאשר רלוונטי) של המכשיר הנחקר." }
+      ]
+    },
+    {
+      "id": "sec-2-2-1-p2",
+      "type": "paragraph",
+      "en": "If the investigational device already bears the CE-marking and is to be used outside the intended purpose of the CE mark during the clinical investigation study specific IFU document(s) should be included in the application dossier, as part of the IB or as a separate document referenced from IB. Moreover:",
+      "he": "אם המכשיר הנחקר כבר נושא סימון CE ועתיד לשמש מחוץ למטרה המיועדת של סימון ה-CE במהלך החקירה הקלינית, יש לכלול מסמך (או מסמכי) IFU ייחודיים למחקר בתיק הבקשה, כחלק מה-IB או כמסמך נפרד שאליו מפנים מה-IB. יתרה מזו:"
+    },
+    {
+      "id": "sec-2-2-1-list2",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "A description of how the device will be used differently during the clinical investigation must be included in the IB. There may be situations when the difference in use vs the CE mark is minimal and there may be situations where the difference is significant. Only where there are minimal differences of use, it may be sufficient that the clarification of the use difference is provided in the IB itself. Provided that safe and effective use of the device can be ensured without a study specific IFU, the CE marked IFU does not need to be updated.", "he": "יש לכלול ב-IB תיאור של האופן שבו ייעשה שימוש שונה במכשיר במהלך החקירה הקלינית. ייתכנו מצבים שבהם ההבדל בשימוש לעומת סימון ה-CE הוא מזערי, וייתכנו מצבים שבהם ההבדל משמעותי. רק כאשר קיימים הבדלי שימוש מזעריים, ייתכן שיהיה די בכך שהבהרת ההבדל בשימוש תינתן ב-IB עצמו. בתנאי שניתן להבטיח שימוש בטוח ויעיל במכשיר ללא IFU ייחודי למחקר, אין צורך לעדכן את ה-IFU הנושא סימון CE." },
+        { "en": "The manufacturer's IFU, covered by the CE mark, should be provided, in addition.", "he": "בנוסף, יש לספק את ה-IFU של היצרן, המכוסה בסימון ה-CE." }
+      ]
+    },
+    {
+      "id": "sec-2-2-1-p3",
+      "type": "paragraph",
+      "en": "If the investigational device and/or comparator device already bears the CE-marking, and is to be used within the intended purpose of the CE-mark during the clinical investigation, the manufacturer's IFU, covered by the CE mark, must be provided.",
+      "he": "אם המכשיר הנחקר ו/או מכשיר המשווה (comparator) כבר נושא סימון CE, ועתיד לשמש במסגרת המטרה המיועדת של סימון ה-CE במהלך החקירה הקלינית, יש לספק את ה-IFU של היצרן, המכוסה בסימון ה-CE."
+    },
+    {
+      "id": "sec-2-2-2",
+      "type": "heading",
+      "level": 3,
+      "number": "2.2.2",
+      "en": "Labels",
+      "he": "תוויות"
+    },
+    {
+      "id": "sec-2-2-2-p1",
+      "type": "paragraph",
+      "en": "Labels of the investigational device should contain, to the extent that such information is available, the information to be provided with the device when placed on the market, according to the requirements listed in chapter III, Annex I of the MDR. Note in particular the specific requirement which is applicable if the investigational device is intended for clinical investigation only; to include the text 'exclusively for clinical investigation\" on the labels.",
+      "he": "תוויות המכשיר הנחקר צריכות לכלול, ככל שמידע זה זמין, את המידע שיסופק עם המכשיר בעת הצבתו בשוק, בהתאם לדרישות המנויות בפרק III, נספח I ל-MDR. יש לשים לב במיוחד לדרישה הספציפית החלה אם המכשיר הנחקר מיועד לחקירה קלינית בלבד; לכלול בתוויות את הטקסט 'לחקירה קלינית בלבד' (exclusively for clinical investigation)."
+    },
+    {
+      "id": "sec-2-2-2-p2",
+      "type": "paragraph",
+      "en": "Sponsor needs to check national legislation, which may require labels to include 'exclusively for clinical investigation\" in national language.",
+      "he": "על נותן החסות לבדוק את החקיקה הלאומית, אשר עשויה לדרוש שהתוויות יכללו 'לחקירה קלינית בלבד' (exclusively for clinical investigation) בשפה הלאומית."
+    },
+    {
+      "id": "sec-2-2-2-p3",
+      "type": "paragraph",
+      "en": "It is recommended to include the graphic presentation of the device labels, either in the IB or as separate documents which are referenced from the IB.",
+      "he": "מומלץ לכלול את הייצוג הגרפי של תוויות המכשיר, אם ב-IB ואם כמסמכים נפרדים שאליהם מפנים מה-IB."
+    },
+    {
+      "id": "sec-2-2-2-p4",
+      "type": "paragraph",
+      "en": "Note that the requirements for labelling apply also to investigational software devices.",
+      "he": "יש לשים לב כי דרישות התיוג חלות גם על מכשירי תוכנה נחקרים."
+    },
+    {
+      "id": "sec-2-2-3",
+      "type": "heading",
+      "level": 3,
+      "number": "2.2.3",
+      "en": "Training",
+      "he": "הכשרה"
+    },
+    {
+      "id": "sec-2-2-3-p1",
+      "type": "paragraph",
+      "en": "Training needs and plans for training should be described in the IB.",
+      "he": "יש לתאר ב-IB את צורכי ההכשרה ואת תוכניות ההכשרה."
+    },
+    {
+      "id": "sec-2-2-4",
+      "type": "heading",
+      "level": 3,
+      "number": "2.2.4",
+      "en": "Implant card",
+      "he": "כרטיס שתל"
+    },
+    {
+      "id": "sec-2-2-4-p1",
+      "type": "paragraph",
+      "en": "In the case of a clinical investigation with an implantable device, it is recommended that a study implant card is provided to the patient for safety reasons. Refer to article 18 of the MDR for detailed requirements on content of the implant card, and to MDCG guidance documents MDCG 2019-8 and MDCG 2021-11 for additional guidance.",
+      "he": "במקרה של חקירה קלינית עם מכשיר מושתל, מומלץ לספק למטופל כרטיס שתל של המחקר מטעמי בטיחות. ראו סעיף 18 ל-MDR לדרישות מפורטות בנוגע לתוכן כרטיס השתל, ומסמכי ההנחיה MDCG 2019-8 ו-MDCG 2021-11 להנחיה נוספת."
+    },
+    {
+      "id": "sec-2-2-2-fn-18",
+      "type": "note",
+      "marker": "18",
+      "en": "Investigational devices are not required to include UDI labelling.",
+      "he": "מכשירים נחקרים אינם נדרשים לכלול תיוג UDI."
+    },
+    {
+      "id": "sec-2-2-4-fn-19",
+      "type": "note",
+      "marker": "19",
+      "en": "MDCG 2019-8 Guidance document Implant Card relating to the application of Article 18 Regulation (EU) 2017/745 of the European Parliament and of the Council of 5 April 2017 on medical devices.",
+      "he": "MDCG 2019-8 מסמך הנחיה כרטיס שתל הנוגע ליישום סעיף 18 לתקנה (האיחוד האירופי) 2017/745 של הפרלמנט האירופי ושל המועצה מ-5 באפריל 2017 בנושא מכשירים רפואיים."
+    },
+    {
+      "id": "sec-2-2-4-fn-20",
+      "type": "note",
+      "marker": "20",
+      "en": "MDCG 2021-11 Guidance on Implant Card – 'Device types'.",
+      "he": "MDCG 2021-11 הנחיה לכרטיס שתל – 'סוגי מכשירים'."
+    },
+    {
+      "id": "sec-2-3",
+      "type": "heading",
+      "level": 2,
+      "number": "2.3",
+      "en": "Pre-clinical evaluation",
+      "he": "הערכה פרה-קלינית"
+    },
+    {
+      "id": "sec-2-3-p1",
+      "type": "paragraph",
+      "en": "According to section 2.3, chapter II, Annex XV of the MDR, the IB should include a pre-clinical evaluation based on relevant pre-clinical testing and experimental data, in particular in-design calculations, in vitro tests, ex vivo tests, animal tests, mechanical or electrical tests, reliability tests, sterilisation validation, software verification and validation, performance tests, evaluation of biocompatibility and biological safety, as applicable.",
+      "he": "בהתאם לסעיף 2.3, פרק II, נספח XV ל-MDR, על ה-IB לכלול הערכה פרה-קלינית המבוססת על בדיקה פרה-קלינית רלוונטית ונתונים ניסויים, ובפרט חישובי תכן (in-design), בדיקות in vitro, בדיקות ex vivo, ניסויים בבעלי חיים, בדיקות מכניות או חשמליות, בדיקות אמינות, תיקוף עיקור, אימות ותיקוף תוכנה, בדיקות ביצועים, הערכת ביו-תאימות ובטיחות ביולוגית, לפי העניין."
+    },
+    {
+      "id": "sec-2-3-1",
+      "type": "heading",
+      "level": 3,
+      "number": "2.3.1",
+      "en": "General recommendations regarding pre-clinical evaluation",
+      "he": "המלצות כלליות בנוגע להערכה פרה-קלינית"
+    },
+    {
+      "id": "sec-2-3-1-p1",
+      "type": "paragraph",
+      "en": "Note that it is a requirement of the MDR that the investigational device(s) conform(s) to the applicable general safety and performance requirements (GSPR) set out in Annex I of the MDR apart from the aspects covered by the clinical investigation and that, with regard to those aspects, every precaution has been taken to protect the health and safety of the subjects. This includes, where appropriate, technical and biological safety testing and pre-clinical evaluation, as well as provisions in the field of occupational safety and accident prevention, taking into consideration the state of the art.",
+      "he": "יש לשים לב כי דרישה של ה-MDR היא שהמכשיר (או המכשירים) הנחקרים יעמדו בדרישות הכלליות לבטיחות וביצועים (GSPR) הרלוונטיות המפורטות בנספח I ל-MDR, למעט ההיבטים המכוסים בחקירה הקלינית, וכי ביחס להיבטים אלה ננקט כל אמצעי זהירות להגנה על בריאות הנבדקים ובטיחותם. הדבר כולל, במידת הצורך, בדיקת בטיחות טכנית וביולוגית והערכה פרה-קלינית, וכן הוראות בתחום הבטיחות בעבודה ומניעת תאונות, תוך התחשבות בידע העדכני (state of the art)."
+    },
+    {
+      "id": "sec-2-3-1-p2",
+      "type": "paragraph",
+      "en": "As a general principle, pre-clinical tests have to be completed before a clinical investigation application is made. Testing would at least have to be completed to an extent that supports the planned use of the device in the clinical investigation. As an example, if the exposure to the device in the clinical investigation is shorter than the planned exposure of the final marketed device, it might be sufficient to provide the data that ensures that the characteristics and performance of the device is not adversely affected during the time the device is used in the clinical investigation. The level of objective evidence of compliance available versus planned should be easily accessible through the GSPR information (refer also to section 2.7 below).",
+      "he": "כעיקרון כללי, יש להשלים את הבדיקות הפרה-קליניות לפני הגשת בקשה לחקירה קלינית. את הבדיקה יש להשלים לכל הפחות במידה התומכת בשימוש המתוכנן במכשיר בחקירה הקלינית. לדוגמה, אם החשיפה למכשיר בחקירה הקלינית קצרה מהחשיפה המתוכננת של המכשיר המשווק הסופי, ייתכן שדי לספק את הנתונים המבטיחים שמאפייני המכשיר וביצועיו אינם מושפעים לרעה במהלך הזמן שבו נעשה שימוש במכשיר בחקירה הקלינית. רמת הראיות האובייקטיביות של עמידה בדרישות הזמינה לעומת המתוכננת צריכה להיות נגישה בקלות באמצעות מידע ה-GSPR (ראו גם סעיף 2.7 להלן)."
+    },
+    {
+      "id": "sec-2-3-1-p3",
+      "type": "paragraph",
+      "en": "In situations where some aspects of pre-clinical testing have not been completed, this should be clearly highlighted and justified. If equivalence is claimed as a reason for not performing some of the pre-clinical testing, clarify the technical, biological, and clinical grounds for this.",
+      "he": "במצבים שבהם היבטים מסוימים של הבדיקה הפרה-קלינית לא הושלמו, יש להדגיש זאת בבירור ולנמק זאת. אם נטענת שוויוּת-ערך (equivalence) כסיבה לאי-ביצוע חלק מהבדיקה הפרה-קלינית, יש להבהיר את הבסיס הטכני, הביולוגי והקליני לכך."
+    },
+    {
+      "id": "sec-2-3-1-p4",
+      "type": "paragraph",
+      "en": "The IB should include a summary of the pre-clinical testing that has been performed on the investigational device, together with an evaluation of the results of such testing, justifying its use in/on human subjects.",
+      "he": "על ה-IB לכלול תקציר של הבדיקה הפרה-קלינית שבוצעה על המכשיר הנחקר, יחד עם הערכה של תוצאות בדיקה זו, המצדיקה את השימוש בו בנבדקים אנושיים/על נבדקים אנושיים."
+    },
+    {
+      "id": "sec-2-3-1-p5",
+      "type": "paragraph",
+      "en": "Pre-clinical testing should be made according to relevant standards and common specifications, unless a justification based on scientific grounds is provided to not conduct certain tests or not adhering to standards and/or common specifications. Any deviations from acceptance criteria need to be justified.",
+      "he": "יש לבצע בדיקה פרה-קלינית בהתאם לתקנים רלוונטיים ולמפרטים משותפים, אלא אם ניתן נימוק על בסיס מדעי שלא לבצע בדיקות מסוימות או שלא לדבוק בתקנים ו/או במפרטים משותפים. כל חריגה מקריטריוני הקבילה דורשת הנמקה."
+    },
+    {
+      "id": "sec-2-3-1-p6",
+      "type": "paragraph",
+      "en": "Test summaries could preferably be provided in tabular format and should include:",
+      "he": "רצוי לספק את תקצירי הבדיקות בפורמט טבלאי, ועליהם לכלול:"
+    },
+    {
+      "id": "sec-2-3-1-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Reference standard or common specification", "he": "תקן ייחוס או מפרט משותף" },
+        { "en": "Reference to test report for traceability", "he": "הפניה לדוח הבדיקה לצורך עקיבוּת (traceability)" },
+        { "en": "For each test, information on: Specific reference in the standard applied; GLP status when relevant (if non-GLP, this should be justified); Acceptance criteria; Test method; Sample (including type and size) and its rationale; Brief summary of results; Conclusion (e.g. pass/not pass)", "he": "לכל בדיקה, מידע על: הפניה ספציפית בתקן שיושם; מצב GLP כאשר רלוונטי (אם אינו GLP, יש לנמק זאת); קריטריוני קבילה; שיטת הבדיקה; הדגימה (לרבות סוג וגודל) והנימוק לה; תקציר תמציתי של התוצאות; מסקנה (למשל עובר/לא עובר)" },
+        { "en": "The applicant should either confirm that the device used was identical to the investigational device for clinical use (including e.g., sterilization) or detail any differences between the device used tested pre-clinically (e.g., mechanical testing, fatigue testing, reliability testing, animal studies, biocompatibility studies) and used clinically. If the device that will be used in the clinical investigation differs from the device used in pre-clinical studies, a justification of the transposability of the pre-clinical results should be provided.", "he": "על המבקש לאשר שהמכשיר ששימש זהה למכשיר הנחקר לשימוש קליני (לרבות, למשל, עיקור), או לפרט כל הבדל בין המכשיר ששימש ונבדק פרה-קלינית (למשל בדיקה מכנית, בדיקת עייפות, בדיקת אמינות, מחקרים בבעלי חיים, מחקרי ביו-תאימות) למכשיר ששימש קלינית. אם המכשיר שישמש בחקירה הקלינית שונה מהמכשיר ששימש במחקרים הפרה-קליניים, יש לספק נימוק לגבי ניתנות ההעברה (transposability) של התוצאות הפרה-קליניות." },
+        { "en": "It should be clearly indicated whether the test has been performed on parts of, or the entire device.", "he": "יש לציין בבירור האם הבדיקה בוצעה על חלקים מהמכשיר או על המכשיר כולו." }
+      ]
+    },
+    {
+      "id": "sec-2-3-1-p7",
+      "type": "paragraph",
+      "en": "Note that during assessment of the clinical investigation application, the full study reports of any pre-clinical study may be requested; to reduce the overall time to clinical investigation approval (take into consideration there is only one possible round of questions following MDR), the applicant may consider submitting the full study reports of certain critical studies (such as animal tests, if applicable) at the time of the initial application along with a justification for doing so. Please note that even if full pre-clinical study-reports are submitted, there is an obligation to include a summary of the pre-clinical studies in the IB. This summary should provide an overview of the scope, results and evaluation of the results, accessible also to non-experts.",
+      "he": "יש לשים לב כי במהלך הערכת בקשת החקירה הקלינית ניתן לדרוש את דוחות המחקר המלאים של כל מחקר פרה-קליני; כדי לקצר את משך הזמן הכולל עד לאישור החקירה הקלינית (יש לקחת בחשבון שלפי ה-MDR קיים סבב שאלות אפשרי אחד בלבד), המבקש עשוי לשקול להגיש את דוחות המחקר המלאים של מחקרים קריטיים מסוימים (כגון ניסויים בבעלי חיים, אם רלוונטי) במועד הבקשה הראשונית יחד עם נימוק לכך. יש לשים לב כי גם אם מוגשים דוחות מחקר פרה-קליניים מלאים, קיימת חובה לכלול תקציר של המחקרים הפרה-קליניים ב-IB. תקציר זה צריך לספק סקירה של ההיקף, התוצאות והערכת התוצאות, הנגישה גם למי שאינם מומחים."
+    },
+    {
+      "id": "sec-2-3-1-p8",
+      "type": "paragraph",
+      "en": "Note that if references are made to separate reports, the reference should point to the sections of interest in the referenced document.",
+      "he": "יש לשים לב כי אם נעשות הפניות לדוחות נפרדים, ההפניה צריכה להצביע על הסעיפים הרלוונטיים במסמך המוּפנה."
+    },
+    {
+      "id": "sec-2-3-1-fn-21",
+      "type": "note",
+      "marker": "21",
+      "en": "Article 62(4)l of the MDR.",
+      "he": "סעיף 62(4)(l) ל-MDR."
+    },
+    {
+      "id": "sec-2-3-1-fn-22",
+      "type": "note",
+      "marker": "22",
+      "en": "MDCG 2020-5 (Clinical Evaluation - Equivalence A guide for manufacturers and notified bodies) provides guidance on equivalence.",
+      "he": "MDCG 2020-5 (הערכה קלינית - שוויוּת-ערך, מדריך ליצרנים ולגופים מאונתרים) מספק הנחיה בנושא שוויוּת-ערך."
+    },
+    {
+      "id": "sec-2-3-1-fn-23",
+      "type": "note",
+      "marker": "23",
+      "en": "Indicating the identifier of the report, in order to allow tracking and requests for particular reports.",
+      "he": "ציון המזהה של הדוח, כדי לאפשר מעקב ובקשות לדוחות מסוימים."
+    },
+    {
+      "id": "sec-2-3-2",
+      "type": "heading",
+      "level": 3,
+      "number": "2.3.2",
+      "en": "Specific recommendations regarding pre-clinical evaluation",
+      "he": "המלצות ספציפיות בנוגע להערכה פרה-קלינית"
+    },
+    {
+      "id": "sec-2-3-2-1",
+      "type": "heading",
+      "level": 4,
+      "number": "2.3.2.1",
+      "en": "In design calculations",
+      "he": "חישובי תכן (In design calculations)"
+    },
+    {
+      "id": "sec-2-3-2-1-p1",
+      "type": "paragraph",
+      "en": "In design calculations may support the design and mechanical strength of the device.",
+      "he": "חישובי תכן עשויים לתמוך בתכן ובחוזק המכני של המכשיר."
+    },
+    {
+      "id": "sec-2-3-2-2",
+      "type": "heading",
+      "level": 4,
+      "number": "2.3.2.2",
+      "en": "Bench testing - \"horizontal\" tests (valid for any device)",
+      "he": "בדיקות שולחן (bench testing) - בדיקות \"אופקיות\" (תקפות לכל מכשיר)"
+    },
+    {
+      "id": "sec-2-3-2-2-1",
+      "type": "heading",
+      "level": 4,
+      "number": "2.3.2.2.1",
+      "en": "Performance tests",
+      "he": "בדיקות ביצועים"
+    },
+    {
+      "id": "sec-2-3-2-2-1-p1",
+      "type": "paragraph",
+      "en": "The primary objective of performance testing is to evaluate whether the device achieves the intended purpose as stated by the manufacturer. The manufacturer should establish (i.e. define, document, and implement) the clinical performance requirements of the device and the corresponding device performance specifications for the intended use and device claims.",
+      "he": "המטרה העיקרית של בדיקת הביצועים היא להעריך האם המכשיר משיג את המטרה המיועדת כפי שצוין על ידי היצרן. על היצרן לקבוע (כלומר להגדיר, לתעד וליישם) את דרישות הביצועים הקליניים של המכשיר ואת מפרטי ביצועי המכשיר המתאימים לשימוש המיועד ולטענות לגבי המכשיר."
+    },
+    {
+      "id": "sec-2-3-2-2-1-p2",
+      "type": "paragraph",
+      "en": "Provide information on conducted performance tests. If no performance testing has been conducted, this should be explicitly justified (e.g. when there is a previous version of the device with the same intended purpose and function, for which performance has been evaluated, that is already placed on the market, and the current investigational device does not implement any significant change that might impact performance).",
+      "he": "יש לספק מידע על בדיקות הביצועים שבוצעו. אם לא בוצעה בדיקת ביצועים, יש לנמק זאת במפורש (למשל כאשר קיימת גרסה קודמת של המכשיר בעלת אותה מטרה ותפקוד מיועדים, שביצועיה הוערכו, שכבר הוצבה בשוק, והמכשיר הנחקר הנוכחי אינו מיישם כל שינוי משמעותי העלול להשפיע על הביצועים)."
+    },
+    {
+      "id": "sec-2-3-2-2-1-p3",
+      "type": "paragraph",
+      "en": "Discuss whether it is possible and relevant to perform in vitro, ex vivo or animal testing in order to demonstrate performance of the device.",
+      "he": "יש לדון האם אפשרי ורלוונטי לבצע בדיקות in vitro, ex vivo או בבעלי חיים כדי להוכיח את ביצועי המכשיר."
+    },
+    {
+      "id": "sec-2-3-2-2-2",
+      "type": "heading",
+      "level": 4,
+      "number": "2.3.2.2.2",
+      "en": "Reliability tests",
+      "he": "בדיקות אמינות"
+    },
+    {
+      "id": "sec-2-3-2-2-2-p1",
+      "type": "paragraph",
+      "en": "Reliability could be defined as the probability that a device, system, or service will perform its intended function adequately for a specified period of time, or will operate in a defined environment without failure.",
+      "he": "אמינות ניתנת להגדרה כהסתברות שמכשיר, מערכת או שירות יבצעו את תפקודם המיועד באופן הולם למשך פרק זמן מוגדר, או יפעלו בסביבה מוגדרת ללא כשל."
+    },
+    {
+      "id": "sec-2-3-2-2-2-p2",
+      "type": "paragraph",
+      "en": "Describe how durability of the device has been evaluated, to ensure the occurrence of device deficiencies during the lifetime of the device, or at least during its use in the clinical investigation, will be kept at an acceptable level. Summarize results of stability testing and simulations, accelerated tests (may be necessary for devices that will be used for longer time periods), aging tests to evaluate wear after repeated use and reprocessing etc.",
+      "he": "יש לתאר כיצד הוערכה עמידוּת המכשיר, כדי להבטיח שהתרחשות ליקויים במכשיר במהלך חיי המכשיר, או לכל הפחות במהלך השימוש בו בחקירה הקלינית, תישמר ברמה קבילה. יש לסכם תוצאות של בדיקות יציבות וסימולציות, בדיקות מואצות (עשויות להיות נחוצות למכשירים שישמשו לפרקי זמן ארוכים יותר), בדיקות התיישנות להערכת בלאי לאחר שימוש חוזר ועיבוד מחדש וכדומה."
+    },
+    {
+      "id": "sec-2-3-2-2-2-p3",
+      "type": "paragraph",
+      "en": "There are specific requirements regarding reliability for some device types, e.g.:",
+      "he": "קיימות דרישות ספציפיות בנוגע לאמינות עבור סוגי מכשירים מסוימים, למשל:"
+    },
+    {
+      "id": "sec-2-3-2-2-2-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "For devices with a measuring function, summarize tests which document that the device has sufficient accuracy, precision and stability for the intended purpose. Indicate the limits of accuracy.", "he": "עבור מכשירים בעלי פונקציית מדידה, יש לסכם בדיקות המתעדות שלמכשיר יש דיוק, רמת דיוק (precision) ויציבות מספיקים למטרה המיועדת. יש לציין את גבולות הדיוק." },
+        { "en": "Interoperability and compatibility with other devices needs to be addressed in relation to reliability, if applicable. Provide summary of evidence supporting that the device is reliable and safe when operated together with other devices or products. Refer to section 2.3.2.2.3 for further details.", "he": "יש להתייחס לאינטראופרביליות (interoperability) ולתאימות (compatibility) עם מכשירים אחרים ביחס לאמינות, אם רלוונטי. יש לספק תקציר של ראיות התומכות בכך שהמכשיר אמין ובטוח בעת הפעלתו יחד עם מכשירים או מוצרים אחרים. ראו סעיף 2.3.2.2.3 לפרטים נוספים." },
+        { "en": "If the device incorporates an electronic programmable system, including software and software that are devices in themselves, the manufacturer shall ensure repeatability, reliability and performance in line with the intended use. Summarize how repeatability, reliability and performance have been tested to ensure that it is in line with the intended use. The reliability of the energy source for active implantable devices has to be ensured. Describe how this has been tested.", "he": "אם המכשיר משלב מערכת אלקטרונית ניתנת לתכנות, לרבות תוכנה ותוכנה שהיא מכשיר בפני עצמה, על היצרן להבטיח חזירוּת (repeatability), אמינות וביצועים בהתאם לשימוש המיועד. יש לסכם כיצד נבדקו החזירוּת, האמינות והביצועים כדי להבטיח שהם בהתאם לשימוש המיועד. יש להבטיח את אמינות מקור האנרגיה עבור מכשירים מושתלים פעילים. יש לתאר כיצד נבדק הדבר." },
+        { "en": "Devices for use by lay persons shall, where appropriate, include a procedure by which the lay person is warned if the device has failed to provide a valid result.", "he": "מכשירים לשימוש על ידי אנשים מן השורה (lay persons) יכללו, במידת הצורך, נוהל שבאמצעותו האדם מן השורה מקבל אזהרה אם המכשיר נכשל במתן תוצאה תקפה." }
+      ]
+    },
+    {
+      "id": "sec-2-3-2-2-3",
+      "type": "heading",
+      "level": 4,
+      "number": "2.3.2.2.3",
+      "en": "Interoperability and compatibility tests",
+      "he": "בדיקות אינטראופרביליות ותאימות"
+    },
+    {
+      "id": "sec-2-3-2-2-3-p1",
+      "type": "paragraph",
+      "en": "When a device, including software, is intended to be operated together with other devices or products, from the same manufacturer or from different manufacturers, it shall be designed and manufactured in such a way that the interoperability and compatibility are reliable and safe.",
+      "he": "כאשר מכשיר, לרבות תוכנה, מיועד להיות מופעל יחד עם מכשירים או מוצרים אחרים, מאותו יצרן או מיצרנים שונים, הוא יתוכנן וייוצר באופן שבו האינטראופרביליות והתאימות יהיו אמינות ובטוחות."
+    },
+    {
+      "id": "sec-2-3-2-2-3-p2",
+      "type": "paragraph",
+      "en": "The (natural or legal) person who is responsible for the combination of devices, has to verify:",
+      "he": "האדם (הטבעי או המשפטי) האחראי לשילוב המכשירים, חייב לאמת:"
+    },
+    {
+      "id": "sec-2-3-2-2-3-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "that the combination is done compatibly with the intended purposes of the devices, i.e. within the limits of use specified by their manufacturers (in the instructions for use).", "he": "שהשילוב נעשה באופן תואם למטרות המיועדות של המכשירים, כלומר במסגרת גבולות השימוש שצוינו על ידי יצרניהם (בהוראות השימוש)." },
+        { "en": "the mutual compatibility between the device and other devices or products, i.e. the devices have to perform as intended, have to integrate and operate without any modification or adaptation and have to be used without conflict/interference or adverse reaction.", "he": "את התאימות ההדדית בין המכשיר למכשירים או מוצרים אחרים, כלומר על המכשירים לפעול כמיועד, להשתלב ולפעול ללא כל שינוי או התאמה, ולשמש ללא התנגשות/הפרעה או תגובה שלילית." },
+        { "en": "the interoperability of the devices, i.e. the ability to exchange information and use information that has been exchanged for the correct execution of a specified function without changing the data and/or to communicate with each other and/or work as intended.", "he": "את האינטראופרביליות של המכשירים, כלומר היכולת להחליף מידע ולהשתמש במידע שהוחלף לביצוע נכון של פונקציה מוגדרת מבלי לשנות את הנתונים ו/או לתקשר זה עם זה ו/או לפעול כמיועד." }
+      ]
+    },
+    {
+      "id": "sec-2-3-2-2-3-p3",
+      "type": "paragraph",
+      "en": "A summary of the evidence produced to demonstrate the compatibility and interoperability of combined devices should be provided.",
+      "he": "יש לספק תקציר של הראיות שהופקו כדי להוכיח את התאימות והאינטראופרביליות של מכשירים משולבים."
+    },
+    {
+      "id": "sec-2-3-2-2-3-p4",
+      "type": "paragraph",
+      "en": "For a clear understanding of the interoperability and compatibility test results, a detailed description of the types of elements to be combined (e.g. CE marked devices, CE marked IVD devices, other products which are in conformity with legislation that applies to them), the types of connection, the type of established data exchange and any restrictions on use applying to such combination should also be provided.",
+      "he": "לשם הבנה ברורה של תוצאות בדיקות האינטראופרביליות והתאימות, יש לספק גם תיאור מפורט של סוגי הרכיבים המיועדים לשילוב (למשל מכשירים בעלי סימון CE, מכשירי IVD בעלי סימון CE, מוצרים אחרים התואמים את החקיקה החלה עליהם), סוגי החיבור, סוג חילופי הנתונים שנקבע וכל הגבלות שימוש החלות על שילוב כזה."
+    },
+    {
+      "id": "sec-2-3-2-2-3-p5",
+      "type": "paragraph",
+      "en": "Specific risks related to interoperable devices and cybersecurity should be considered, please refer to section 2.3.2.3.4 on cybersecurity testing.",
+      "he": "יש לשקול סיכונים ספציפיים הקשורים למכשירים בעלי יכולת אינטראופרביליות ולאבטחת סייבר, ראו סעיף 2.3.2.3.4 בנושא בדיקות אבטחת סייבר."
+    },
+    {
+      "id": "sec-2-3-2-2-4",
+      "type": "heading",
+      "level": 4,
+      "number": "2.3.2.2.4",
+      "en": "Usability tests",
+      "he": "בדיקות שמישות (usability)"
+    },
+    {
+      "id": "sec-2-3-2-2-4-p1",
+      "type": "paragraph",
+      "en": "Usability is defined in the European standard EN 62366-1 as the characteristic of the user interface that establishes effectiveness, efficiency, ease of user learning and user satisfaction in the intended use environment.",
+      "he": "שמישות (usability) מוגדרת בתקן האירופי EN 62366-1 כמאפיין של ממשק המשתמש המבסס יעילות, נצילות, קלות לימוד למשתמש ושביעות רצון המשתמש בסביבת השימוש המיועדת."
+    },
+    {
+      "id": "sec-2-3-2-2-4-p2",
+      "type": "paragraph",
+      "en": "All aspects of usability, including effectiveness, efficiency, and user satisfaction, can either increase or decrease safety of a medical device. Usability is created by characteristics of the user interface that facilitate use, i.e., to make it easier for the user to perceive information presented by the user interface, to understand and to make decisions based on that information, and to interact with the medical device to achieve specified goals in the intended use environments. Many of these factors can influence safety and performance to various extents.",
+      "he": "כל היבטי השמישות, לרבות יעילות, נצילות ושביעות רצון המשתמש, עשויים להגביר או להפחית את בטיחותו של מכשיר רפואי. שמישות נוצרת ממאפייני ממשק המשתמש המקלים על השימוש, כלומר מקלים על המשתמש לתפוס מידע המוצג על ידי ממשק המשתמש, להבינו ולקבל החלטות על בסיסו, וליצור אינטראקציה עם המכשיר הרפואי כדי להשיג מטרות מוגדרות בסביבות השימוש המיועדות. רבים מגורמים אלה עשויים להשפיע על הבטיחות והביצועים במידות שונות."
+    },
+    {
+      "id": "sec-2-3-2-2-4-p3",
+      "type": "paragraph",
+      "en": "Usability test is defined as a method for exploring or evaluating a user interface with intended users within a specified intended use environment. Usability tests may be preclinical or clinical depending on the test design. In situations where the usability test fulfils the definition of a clinical investigation, the test is to be reported in the Existing clinical data section of the IB, while the pre-clinical usability tests are to be presented in the Preclinical evaluation section.",
+      "he": "בדיקת שמישות מוגדרת כשיטה לחקירה או להערכה של ממשק משתמש עם משתמשים מיועדים בתוך סביבת שימוש מיועדת מוגדרת. בדיקות שמישות עשויות להיות פרה-קליניות או קליניות בהתאם לתכנון הבדיקה. במצבים שבהם בדיקת השמישות מקיימת את הגדרת החקירה הקלינית, יש לדווח עליה בסעיף הנתונים הקליניים הקיימים של ה-IB, ואילו בדיקות השמישות הפרה-קליניות יוצגו בסעיף ההערכה הפרה-קלינית."
+    },
+    {
+      "id": "sec-2-3-2-2-4-fn-24",
+      "type": "note",
+      "marker": "24",
+      "en": "Article 2(22) of the MDR.",
+      "he": "סעיף 2(22) ל-MDR."
+    },
+    {
+      "id": "sec-2-3-2-2-2-fn-25",
+      "type": "note",
+      "marker": "25",
+      "en": "Section 15.1 in Annex I of the MDR.",
+      "he": "סעיף 15.1 בנספח I ל-MDR."
+    },
+    {
+      "id": "sec-2-3-2-2-2-fn-26",
+      "type": "note",
+      "marker": "26",
+      "en": "Section 14.5 in Annex I of the MDR.",
+      "he": "סעיף 14.5 בנספח I ל-MDR."
+    },
+    {
+      "id": "sec-2-3-2-2-2-fn-27",
+      "type": "note",
+      "marker": "27",
+      "en": "Section 17.1 in Annex I of the MDR.",
+      "he": "סעיף 17.1 בנספח I ל-MDR."
+    },
+    {
+      "id": "sec-2-3-2-2-2-fn-28",
+      "type": "note",
+      "marker": "28",
+      "en": "Section 19.2 in Annex I of the MDR.",
+      "he": "סעיף 19.2 בנספח I ל-MDR."
+    },
+    {
+      "id": "sec-2-3-2-2-2-fn-29",
+      "type": "note",
+      "marker": "29",
+      "en": "Section 22.3 in Annex I of the MDR.",
+      "he": "סעיף 22.3 בנספח I ל-MDR."
+    },
+    {
+      "id": "sec-2-3-2-2-4-fn-30",
+      "type": "note",
+      "marker": "30",
+      "en": "EN 62366-1 Medical devices - Part 1: Application of usability engineering to medical devices (IEC 62366-1:2015) section 3.16.",
+      "he": "EN 62366-1 מכשירים רפואיים - חלק 1: יישום הנדסת שמישות על מכשירים רפואיים (IEC 62366-1:2015) סעיף 3.16."
+    },
+    {
+      "id": "sec-2-3-2-2-4-fn-31",
+      "type": "note",
+      "marker": "31",
+      "en": "The words \"and performance\" have been added vs the text in standard EN 62366-1.",
+      "he": "המילים \"וביצועים\" נוספו לעומת הטקסט בתקן EN 62366-1."
+    },
+    {
+      "id": "sec-2-3-2-2-4-fn-32",
+      "type": "note",
+      "marker": "32",
+      "en": "EN 62366-1 Medical devices - Part 1: Application of usability engineering to medical devices (IEC 62366-1:2015) section 3.19.",
+      "he": "EN 62366-1 מכשירים רפואיים - חלק 1: יישום הנדסת שמישות על מכשירים רפואיים (IEC 62366-1:2015) סעיף 3.19."
+    },
+    {
+      "id": "sec-2-3-2-2-4-fn-33",
+      "type": "note",
+      "marker": "33",
+      "en": "Additional guidance available in MDCG 2021-6.",
+      "he": "הנחיה נוספת זמינה ב-MDCG 2021-6."
+    },
+    {
+      "id": "sec-2-3-2-3",
+      "type": "heading",
+      "level": 4,
+      "number": "2.3.2.3",
+      "en": "Bench testing - \"Vertical\" tests (depending on the device type)",
+      "he": "בדיקות שולחן (bench testing) - בדיקות \"אנכיות\" (בהתאם לסוג המכשיר)"
+    },
+    {
+      "id": "sec-2-3-2-3-1",
+      "type": "heading",
+      "level": 4,
+      "number": "2.3.2.3.1",
+      "en": "Mechanical, electrical safety and electromagnetic compatibility tests",
+      "he": "בדיקות בטיחות מכנית, חשמלית ותאימות אלקטרומגנטית"
+    },
+    {
+      "id": "sec-2-3-2-3-1-p1",
+      "type": "paragraph",
+      "en": "Mechanical and electrical safety tests are important to ensure that the investigational device is safe for users and patients. The extent of testing required varies depending on type of device, and may include tests of both materials, parts, and the final device.",
+      "he": "בדיקות בטיחות מכנית וחשמלית חשובות כדי להבטיח שהמכשיר הנחקר בטוח למשתמשים ולמטופלים. היקף הבדיקה הנדרש משתנה בהתאם לסוג המכשיר, ועשוי לכלול בדיקות של חומרים, חלקים והמכשיר הסופי כאחד."
+    },
+    {
+      "id": "sec-2-3-2-3-1-p2",
+      "type": "paragraph",
+      "en": "There are specific standards for some types of devices, and the manufacturer is expected to adhere to those that are relevant, or describe the measures taken and procedures used to achieve at least the same requirement level as described in the relevant standard. As an example, the IEC 60601 standard series is applicable to electrical devices.",
+      "he": "קיימים תקנים ספציפיים עבור סוגים מסוימים של מכשירים, ומצופה מהיצרן לדבוק באלה הרלוונטיים, או לתאר את האמצעים שננקטו והנהלים שנעשה בהם שימוש כדי להשיג לכל הפחות את אותה רמת דרישה המתוארת בתקן הרלוונטי. לדוגמה, סדרת התקנים IEC 60601 חלה על מכשירים חשמליים."
+    },
+    {
+      "id": "sec-2-3-2-3-2",
+      "type": "heading",
+      "level": 4,
+      "number": "2.3.2.3.2",
+      "en": "Biocompatibility and biological safety",
+      "he": "ביו-תאימות ובטיחות ביולוגית"
+    },
+    {
+      "id": "sec-2-3-2-3-2-p1",
+      "type": "paragraph",
+      "en": "To address the compatibility between an investigational device and biological tissues, cells and body fluids, a biological risk assessment should be carried out according to ISO 10993 standard series.",
+      "he": "כדי להתמודד עם התאימות בין מכשיר נחקר לבין רקמות, תאים ונוזלי גוף ביולוגיים, יש לבצע הערכת סיכון ביולוגי בהתאם לסדרת התקנים ISO 10993."
+    },
+    {
+      "id": "sec-2-3-2-3-2-p2",
+      "type": "paragraph",
+      "en": "ISO 10993 part 1 provides the general principles for a risk-based approach to biological safety evaluation and material characterization. The other parts of the ISO 10993 standard series cover tests methods for different aspects of biocompatibility and biological safety.",
+      "he": "ISO 10993 חלק 1 מספק את העקרונות הכלליים לגישה מבוססת-סיכון להערכת בטיחות ביולוגית ולאפיון חומרים. החלקים האחרים של סדרת התקנים ISO 10993 מכסים שיטות בדיקה להיבטים שונים של ביו-תאימות ובטיחות ביולוגית."
+    },
+    {
+      "id": "sec-2-3-2-3-2-p3",
+      "type": "paragraph",
+      "en": "The extent of biocompatibility and biological testing will depend on the intended purpose, available information, and demonstration of equivalence to other devices. Guidance on equivalence is provided in MDCG 2020-5.",
+      "he": "היקף בדיקת הביו-תאימות והבדיקה הביולוגית יהיה תלוי במטרה המיועדת, במידע הזמין ובהוכחת שוויוּת-ערך למכשירים אחרים. הנחיה בנושא שוויוּת-ערך ניתנת ב-MDCG 2020-5."
+    },
+    {
+      "id": "sec-2-3-2-3-2-p4",
+      "type": "paragraph",
+      "en": "Results from the evaluation of biocompatibility and biological safety shall be summarized in the IB. The following information will have to be provided, at a minimum,",
+      "he": "תוצאות הערכת הביו-תאימות והבטיחות הביולוגית יסוכמו ב-IB. יהיה צורך לספק לכל הפחות את המידע הבא:"
+    },
+    {
+      "id": "sec-2-3-2-3-2-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Overview of the material composition of the device, focussing on body-contacting materials (both direct and indirect). Preferably, the information is provided in a tabular format. Detailed information about materials should be available upon request, such as generic name, brand name and if applicable, the grade, quality, specification or standard adhered to and if anything has been added such as additives or colorants.", "he": "סקירה של הרכב החומרים של המכשיר, תוך התמקדות בחומרים הבאים במגע עם הגוף (ישיר ועקיף כאחד). רצוי לספק את המידע בפורמט טבלאי. מידע מפורט על החומרים צריך להיות זמין לפי דרישה, כגון שם גנרי, שם מותג ובמקרים הרלוונטיים הדרגה, האיכות, המפרט או התקן שנדבקים אליו, והאם נוסף דבר-מה כגון תוספים או חומרי צבע." },
+        { "en": "The nature, degree, frequency, and duration of the exposure.", "he": "טיב החשיפה, מידתה, תדירותה ומשכה." },
+        { "en": "Criteria for determining the acceptability of the material for the intended purpose and if applicable demonstration of equivalence to other devices.", "he": "קריטריונים לקביעת קבילוּת החומר עבור המטרה המיועדת, ובמקרים הרלוונטיים הוכחת שוויוּת-ערך למכשירים אחרים." },
+        { "en": "Rationale for test strategy (selection and/or waiving of tests) and test samples. Material characterization according to ISO 10993-18 is expected, and when applicable toxicological risk assessment according to ISO 10993-17. Further, there are special requirements in point 12, Annex I of MDR for devices incorporating a substance considered to be a medicinal product and devices that are composed of substances or of combinations of substances that are absorbed by or locally dispersed in the human body.", "he": "נימוק לאסטרטגיית הבדיקה (בחירת בדיקות ו/או ויתור עליהן) ולדגימות הבדיקה. מצופה אפיון חומרים בהתאם ל-ISO 10993-18, ובמקרים הרלוונטיים הערכת סיכון טוקסיקולוגי בהתאם ל-ISO 10993-17. כמו כן, קיימות דרישות מיוחדות בסעיף 12, נספח I ל-MDR עבור מכשירים המשלבים חומר הנחשב מוצר רפואי (תרופה) ומכשירים המורכבים מחומרים או משילובי חומרים הנספגים בגוף האדם או מתפזרים בו מקומית." },
+        { "en": "Test methods used, acceptance criteria, results, and conclusion. Preferably presented in table format.", "he": "שיטות הבדיקה שבשימוש, קריטריוני הקבילה, התוצאות והמסקנה. רצוי שיוצגו בפורמט טבלאי." },
+        { "en": "Separate and specific discussion of substances which are carcinogenic, mutagenic, toxic to reproduction, or endocrine disrupting, according to point 10.4.1, Annex I of MDR.", "he": "דיון נפרד וספציפי בחומרים מסרטנים, מוטגניים, רעילים לרבייה, או מפריעי-אנדוקרין, בהתאם לסעיף 10.4.1, נספח I ל-MDR." },
+        { "en": "Overall biocompatibility and biological safety conclusion in relation to the foreseen exposure to the device due to the clinical investigation.", "he": "מסקנה כוללת לגבי ביו-תאימות ובטיחות ביולוגית ביחס לחשיפה הצפויה למכשיר עקב החקירה הקלינית." }
+      ]
+    },
+    {
+      "id": "sec-2-3-2-3-3",
+      "type": "heading",
+      "level": 4,
+      "number": "2.3.2.3.3",
+      "en": "Software verification and validation",
+      "he": "אימות ותיקוף תוכנה"
+    },
+    {
+      "id": "sec-2-3-2-3-3-p1",
+      "type": "paragraph",
+      "en": "For devices that incorporate software or for software that are devices in themselves, describe the software design and development process and evidence of the validation of the software, as used in the finished device. This information should typically include the summary results of all verification, validation and testing performed both in-house and in a simulated or actual user environment prior to final release. It should also address all of the different hardware configurations and, where applicable, operating systems identified in the information supplied by the manufacturer.",
+      "he": "עבור מכשירים המשלבים תוכנה או עבור תוכנה שהיא מכשיר בפני עצמה, יש לתאר את תהליך התכן והפיתוח של התוכנה ואת הראיות לתיקוף התוכנה, כפי שהיא בשימוש במכשיר המוגמר. מידע זה צריך לכלול בדרך כלל את תקציר התוצאות של כל האימות, התיקוף והבדיקה שבוצעו הן בתוך הארגון והן בסביבת משתמש מדומה או ממשית לפני השחרור הסופי. עליו להתייחס גם לכל תצורות החומרה השונות, ובמקרים הרלוונטיים למערכות ההפעלה, המזוהות במידע שסיפק היצרן."
+    },
+    {
+      "id": "sec-2-3-2-3-3-p2",
+      "type": "paragraph",
+      "en": "For software, a number of standards are available. Three standards are elaborated upon underneath, but this list is not exhaustive, and it should be noted that other standards can also be applicable.",
+      "he": "עבור תוכנה זמינים מספר תקנים. שלושה תקנים מפורטים להלן, אך רשימה זו אינה ממצה, ויש לשים לב כי גם תקנים אחרים עשויים לחול."
+    },
+    {
+      "id": "sec-2-3-2-3-3-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "IEC 62304:2006 Medical device software – Software life cycle processes, covers both software as a component of a medical device and standalone software (a medical device in its own right).", "he": "IEC 62304:2006 תוכנת מכשיר רפואי – תהליכי מחזור חיי תוכנה, מכסה הן תוכנה כרכיב של מכשיר רפואי והן תוכנה עצמאית (מכשיר רפואי בפני עצמו)." },
+        { "en": "IEC 82304-1:2017 Health Software – Part 1: General requirements, provides requirements for the safety and security of health software products.", "he": "IEC 82304-1:2017 תוכנת בריאות – חלק 1: דרישות כלליות, מספק דרישות לבטיחות ולאבטחה של מוצרי תוכנת בריאות." },
+        { "en": "IEC 60601-1:2005 Medical electrical equipment – Part 1: General requirements for basic safety and essential performance, contains a section specifically on programmable electrical medical systems.", "he": "IEC 60601-1:2005 ציוד חשמלי רפואי – חלק 1: דרישות כלליות לבטיחות בסיסית ולביצועים חיוניים, מכיל סעיף ייעודי על מערכות רפואיות חשמליות הניתנות לתכנות." }
+      ]
+    },
+    {
+      "id": "sec-2-3-2-3-3-p3",
+      "type": "paragraph",
+      "en": "For the choice of methods and standards used for software verification and validation, the manufacturer should provide a rationale.",
+      "he": "עבור בחירת השיטות והתקנים שבשימוש לאימות ולתיקוף תוכנה, על היצרן לספק נימוק."
+    },
+    {
+      "id": "sec-2-3-2-3-4",
+      "type": "heading",
+      "level": 4,
+      "number": "2.3.2.3.4",
+      "en": "Cybersecurity tests",
+      "he": "בדיקות אבטחת סייבר"
+    },
+    {
+      "id": "sec-2-3-2-3-4-p1",
+      "type": "paragraph",
+      "en": "For devices that incorporate software or for software that are devices in themselves, the software should be designed and manufactured in accordance with the state of the art, considering the principles of the development life cycle, risk management, including information security, verification and validation.",
+      "he": "עבור מכשירים המשלבים תוכנה או עבור תוכנה שהיא מכשיר בפני עצמה, יש לתכנן ולייצר את התוכנה בהתאם לידע העדכני (state of the art), תוך התחשבות בעקרונות מחזור חיי הפיתוח, ניהול הסיכונים, לרבות אבטחת מידע, אימות ותיקוף."
+    },
+    {
+      "id": "sec-2-3-2-3-4-p2",
+      "type": "paragraph",
+      "en": "A description of how testing for verification and validation of security was performed should be provided. Methods can include security feature testing, fuzz testing, vulnerability scanning and penetration testing. Additional security testing can be done by using tools for secure code analysis and tools that scan for open source code and libraries used in the device, to identify components with known issues. Please refer to MDCG 2019-16 Guidance on Cybersecurity for medical devices for further details.",
+      "he": "יש לספק תיאור של האופן שבו בוצעה הבדיקה לאימות ולתיקוף האבטחה. השיטות עשויות לכלול בדיקת מאפייני אבטחה, בדיקת fuzz, סריקת פגיעוּיות ובדיקת חדירה (penetration testing). ניתן לבצע בדיקות אבטחה נוספות באמצעות כלים לניתוח קוד מאובטח וכלים הסורקים קוד וספריות קוד פתוח שבשימוש במכשיר, כדי לזהות רכיבים עם בעיות ידועות. ראו MDCG 2019-16 הנחיה לאבטחת סייבר עבור מכשירים רפואיים לפרטים נוספים."
+    },
+    {
+      "id": "sec-2-3-2-3-5",
+      "type": "heading",
+      "level": 4,
+      "number": "2.3.2.3.5",
+      "en": "Validation of cleaning, disinfection and sterilization",
+      "he": "תיקוף ניקוי, חיטוי ועיקור"
+    },
+    {
+      "id": "sec-2-3-2-3-5-p1",
+      "type": "paragraph",
+      "en": "The sterilization method, cleaning and disinfection used should be stated and justified in the IB. A broad range of standards are available for disinfection and sterilisation methods, such as radiation, ethylene oxide, dry and moist heat. For sterilization, a validation report should be provided. Validation reports for cleaning and disinfection are not expected with the submission, but need to be summarised in the IB and referenced in relation to the overview of GSPR (section 2.7). Compatibility of the method used and the device should be discussed, if applicable. Clearly state the validated method for reprocessing reusable devices. Should ethylene oxide be used as sterilizing agent, please specify whether testing for residuals is performed and provide the results and conclusions of these tests. For invasive devices please specify how endotoxin levels have been tested and which acceptance criteria have been used.",
+      "he": "יש לציין ולנמק ב-IB את שיטת העיקור, הניקוי והחיטוי שבשימוש. מגוון רחב של תקנים זמין לשיטות חיטוי ועיקור, כגון קרינה, אתילן אוקסיד, חום יבש ולח. עבור עיקור, יש לספק דוח תיקוף. דוחות תיקוף לניקוי ולחיטוי אינם צפויים עם ההגשה, אך יש לסכמם ב-IB ולהפנות אליהם ביחס לסקירת ה-GSPR (סעיף 2.7). יש לדון בתאימות בין השיטה שבשימוש למכשיר, אם רלוונטי. יש לציין בבירור את השיטה המתוקפת לעיבוד מחדש של מכשירים רב-פעמיים. אם נעשה שימוש באתילן אוקסיד כחומר מעקר, יש לציין האם מתבצעת בדיקה לשאריות ולספק את תוצאות ומסקנות בדיקות אלה. עבור מכשירים פולשניים יש לציין כיצד נבדקו רמות האנדוטוקסין ואילו קריטריוני קבילה שימשו."
+    },
+    {
+      "id": "sec-2-3-2-3-6",
+      "type": "heading",
+      "level": 4,
+      "number": "2.3.2.3.6",
+      "en": "Packaging validation",
+      "he": "תיקוף אריזה"
+    },
+    {
+      "id": "sec-2-3-2-3-6-p1",
+      "type": "paragraph",
+      "en": "Packaging systems need to be validated for both sterile and non-sterile devices. Describe how the ability of the packaging has been validated to ensure the device maintains its integrity and, when applicable, sterility, considering its distribution and storage (as specified by the manufacturer).",
+      "he": "יש לתקף מערכות אריזה עבור מכשירים סטריליים ולא-סטריליים כאחד. יש לתאר כיצד תוקפה יכולת האריזה להבטיח שהמכשיר שומר על שלמותו, ובמקרים הרלוונטיים על סטריליותו, תוך התחשבות בהפצתו ובאחסונו (כפי שצוין על ידי היצרן)."
+    },
+    {
+      "id": "sec-2-3-2-3-6-p2",
+      "type": "paragraph",
+      "en": "In cases of sterile packaging, validation of the packaging's ability to maintain sterility is important. Packaging validation may also be necessary for other packaging situations, e.g. mechanical and thermal stability.",
+      "he": "במקרים של אריזה סטרילית, חשוב לתקף את יכולת האריזה לשמור על סטריליות. תיקוף אריזה עשוי להיות נחוץ גם במצבי אריזה אחרים, למשל יציבות מכנית ותרמית."
+    },
+    {
+      "id": "sec-2-3-3",
+      "type": "heading",
+      "level": 3,
+      "number": "2.3.3",
+      "en": "Animal tests",
+      "he": "ניסויים בבעלי חיים"
+    },
+    {
+      "id": "sec-2-3-3-p1",
+      "type": "paragraph",
+      "en": "If applicable, include a summary of all in vivo animal tests that have been conducted (a reference to external documents is typically not sufficient). Each summary should include information on the laboratory where the test has been performed, as well as study design choices including:",
+      "he": "אם רלוונטי, יש לכלול תקציר של כל הניסויים בבעלי חיים בגוף החי (in vivo) שבוצעו (הפניה למסמכים חיצוניים בדרך כלל אינה מספקת). כל תקציר צריך לכלול מידע על המעבדה שבה בוצעה הבדיקה, וכן בחירות בתכנון המחקר, לרבות:"
+    },
+    {
+      "id": "sec-2-3-3-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Species used, breed", "he": "מין בעלי החיים שבשימוש, גזע" },
+        { "en": "Number of animals per group", "he": "מספר בעלי החיים לכל קבוצה" },
+        { "en": "Age of animals", "he": "גיל בעלי החיים" },
+        { "en": "GLP status (if non-GLP, this should be justified)", "he": "מצב GLP (אם אינו GLP, יש לנמק זאת)" },
+        { "en": "Version of the device used", "he": "גרסת המכשיר שבשימוש" },
+        { "en": "Choice or absence of comparator, with justification", "he": "בחירת משווה (comparator) או היעדרו, עם נימוק" },
+        { "en": "Duration of exposure", "he": "משך החשיפה" },
+        { "en": "Standard applied, if any", "he": "תקן שיושם, אם ישנו" },
+        { "en": "Results", "he": "תוצאות" },
+        { "en": "Evaluation of results", "he": "הערכת התוצאות" }
+      ]
+    },
+    {
+      "id": "sec-2-3-3-p2",
+      "type": "paragraph",
+      "en": "An overview of the analyses performed should be provided. Acceptance criteria, results, any deviations and conclusions should be presented. Any notable findings should be mentioned and discussed.",
+      "he": "יש לספק סקירה של הניתוחים שבוצעו. יש להציג קריטריוני קבילה, תוצאות, כל חריגה ומסקנות. יש לציין ולדון בכל ממצא בולט."
+    },
+    {
+      "id": "sec-2-3-3-p3",
+      "type": "paragraph",
+      "en": "In case of non-GLP studies, it is expected that study reports (which may be requested by the competent authority) are compliant with the ARRIVE guidelines or equivalent (to the extent that this is possible).",
+      "he": "במקרה של מחקרים שאינם GLP, מצופה שדוחות המחקר (שעשויים להידרש על ידי הרשות המוסמכת) יהיו תואמים להנחיות ARRIVE או למקבילה (ככל שהדבר אפשרי)."
+    },
+    {
+      "id": "sec-2-3-3-p4",
+      "type": "paragraph",
+      "en": "In addition to the summaries provided in the IB, sponsors are recommended to submit the referenced full study reports from preclinical animal tests to the competent authority.",
+      "he": "בנוסף לתקצירים המסופקים ב-IB, מומלץ לנותני החסות להגיש לרשות המוסמכת את דוחות המחקר המלאים המוּפנים מהניסויים הפרה-קליניים בבעלי חיים."
+    },
+    {
+      "id": "sec-2-3-2-3-5-fn-34",
+      "type": "note",
+      "marker": "34",
+      "en": "Section 17.2, Annex I of the MDR.",
+      "he": "סעיף 17.2, נספח I ל-MDR."
+    },
+    {
+      "id": "sec-2-3-2-3-5-fn-35",
+      "type": "note",
+      "marker": "35",
+      "en": "Article 71(3f) of the MDR.",
+      "he": "סעיף 71(3f) ל-MDR."
+    },
+    {
+      "id": "sec-2-3-2-3-5-fn-36",
+      "type": "note",
+      "marker": "36",
+      "en": "Refer to standard ISO 10993-7.",
+      "he": "ראו תקן ISO 10993-7."
+    },
+    {
+      "id": "sec-2-3-2-3-5-fn-37",
+      "type": "note",
+      "marker": "37",
+      "en": "Such as ISO standard 11737-3 \"Sterilization of health care products — Microbiological methods — Part 3: Bacterial endotoxin testing\".",
+      "he": "כגון תקן ISO 11737-3 \"עיקור מוצרי טיפול רפואי — שיטות מיקרוביולוגיות — חלק 3: בדיקת אנדוטוקסין חיידקי\"."
+    },
+    {
+      "id": "sec-2-3-2-3-5-fn-38",
+      "type": "note",
+      "marker": "38",
+      "en": "Often available in pharmacopoeia.",
+      "he": "לעיתים קרובות זמין בפַרמָקוֹפֵּאָה."
+    },
+    {
+      "id": "sec-2-3-3-fn-39",
+      "type": "note",
+      "marker": "39",
+      "en": "https://arriveguidelines.org/arrive-guidelines.",
+      "he": "https://arriveguidelines.org/arrive-guidelines."
+    },
+    {
+      "id": "sec-2-4",
+      "type": "heading",
+      "level": 2,
+      "number": "2.4",
+      "en": "Existing clinical data",
+      "he": "נתונים קליניים קיימים"
+    },
+    {
+      "id": "sec-2-4-p1",
+      "type": "paragraph",
+      "en": "According to section 2.4, chapter II, Annex XV of the MDR, the IB should include existing clinical data, in particular:",
+      "he": "בהתאם לסעיף 2.4, פרק II, נספח XV ל-MDR, על ה-IB לכלול נתונים קליניים קיימים, ובפרט:"
+    },
+    {
+      "id": "sec-2-4-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "from relevant scientific literature available relating to the safety, performance, clinical benefits to patients, design characteristics and intended purpose of the device and/or of equivalent or similar devices.", "he": "מתוך ספרות מדעית רלוונטית זמינה הנוגעת לבטיחות, לביצועים, לתועלות הקליניות למטופלים, למאפייני התכן ולמטרה המיועדת של המכשיר ו/או של מכשירים שווי-ערך או דומים." },
+        { "en": "other relevant clinical data available relating to the safety, performance, clinical benefits to patients, design characteristics and intended purpose of equivalent or similar devices of the same manufacturer, including length of time on the market and a review of performance, clinical benefit and safety-related issues and any corrective actions taken.", "he": "נתונים קליניים רלוונטיים אחרים זמינים הנוגעים לבטיחות, לביצועים, לתועלות הקליניות למטופלים, למאפייני התכן ולמטרה המיועדת של מכשירים שווי-ערך או דומים של אותו יצרן, לרבות משך הזמן בשוק וסקירה של ביצועים, תועלת קלינית וסוגיות הקשורות לבטיחות וכל פעולה מתקנת שננקטה." }
+      ]
+    },
+    {
+      "id": "sec-2-4-p2",
+      "type": "paragraph",
+      "en": "If applicable an overview of ongoing and completed clinical investigations with the investigational device should be provided. Tabular presentation of clinical investigation information is recommended, including number of subjects, indication for use, endpoints, etc. In addition, it might be relevant to provide such information on devices that have similar characteristics, as well as information on studies with the investigational device that relate to other indications for use. If equivalence with previous generations of the device or competitor devices based on the same technology is claimed, the demonstration of equivalence should be done in line with the provisions in Section 3 of Annex XIV of the MDR and the MDCG guidance 2020-5 Clinical Evaluation - Equivalence. A guide for manufacturers and notified bodies.",
+      "he": "אם רלוונטי, יש לספק סקירה של חקירות קליניות מתמשכות ושהושלמו עם המכשיר הנחקר. מומלץ להציג את מידע החקירה הקלינית בפורמט טבלאי, לרבות מספר נבדקים, התוויה לשימוש, נקודות-קצה (endpoints) וכדומה. בנוסף, ייתכן שיהיה רלוונטי לספק מידע כזה על מכשירים בעלי מאפיינים דומים, וכן מידע על מחקרים עם המכשיר הנחקר הנוגעים להתוויות שימוש אחרות. אם נטענת שוויוּת-ערך עם דורות קודמים של המכשיר או עם מכשירים מתחרים המבוססים על אותה טכנולוגיה, יש לבצע את הוכחת שוויוּת-הערך בהתאם להוראות בסעיף 3 של נספח XIV ל-MDR ולהנחיה MDCG 2020-5 הערכה קלינית - שוויוּת-ערך. מדריך ליצרנים ולגופים מאונתרים."
+    },
+    {
+      "id": "sec-2-4-p3",
+      "type": "paragraph",
+      "en": "The overview must provide sufficient and clear information on the previous clinical investigation(s), including sites/centres, safety and performance results and an analysis of adverse device effects, serious adverse events (SAE) and any history of modification or recall of the investigational device.",
+      "he": "הסקירה חייבת לספק מידע מספיק וברור על החקירה (או החקירות) הקליניות הקודמות, לרבות אתרים/מרכזים, תוצאות בטיחות וביצועים וניתוח של השפעות מכשיר שליליות, אירועים שליליים חמורים (SAE) וכל היסטוריה של שינוי או ריקול (recall) של המכשיר הנחקר."
+    },
+    {
+      "id": "sec-2-4-p4",
+      "type": "paragraph",
+      "en": "In case the clinical investigation has a phased approach, and the study is expanded to other sites that were not involved in the initial phase, it is recommended to review and update, if necessary, the IB with a summary or interim analysis of the current status discussing any notable information such as SAEs. Ensure that interim analyses are based on clean data.",
+      "he": "במקרה שלחקירה הקלינית גישה שלבית, והמחקר מורחב לאתרים אחרים שלא היו מעורבים בשלב הראשוני, מומלץ לסקור ולעדכן, במידת הצורך, את ה-IB עם תקציר או ניתוח ביניים של המצב הנוכחי הדן בכל מידע בולט כגון SAE. יש לוודא שניתוחי ביניים מבוססים על נתונים נקיים."
+    },
+    {
+      "id": "sec-2-4-p5",
+      "type": "paragraph",
+      "en": "For CE-marked devices evaluated outside the intended purpose as well as in situations where there are previous marketed generations of the device, please provide a summary of the latest Periodic Safety Update Report (PSUR) for class II-III devices or Post Market Surveillance Report (PMSR) for class I devices.",
+      "he": "עבור מכשירים בעלי סימון CE המוערכים מחוץ למטרה המיועדת, וכן במצבים שבהם קיימים דורות משווקים קודמים של המכשיר, יש לספק תקציר של דוח עדכון הבטיחות התקופתי האחרון (PSUR) עבור מכשירים מסיווג II-III או דוח המעקב שלאחר שיווק (PMSR) עבור מכשירים מסיווג I."
+    },
+    {
+      "id": "sec-2-4-p6",
+      "type": "paragraph",
+      "en": "If applicable any compassionate use of the device should be described, with information on the extent of use and any relevant finding if available.",
+      "he": "אם רלוונטי, יש לתאר כל שימוש מטעמי חמלה (compassionate use) במכשיר, עם מידע על היקף השימוש וכל ממצא רלוונטי אם זמין."
+    },
+    {
+      "id": "sec-2-5",
+      "type": "heading",
+      "level": 2,
+      "number": "2.5",
+      "en": "Risk management of the investigational device",
+      "he": "ניהול סיכונים של המכשיר הנחקר"
+    },
+    {
+      "id": "sec-2-5-p1",
+      "type": "paragraph",
+      "en": "According to section 2.5, chapter II, Annex XV of the MDR, the IB should include a summary of the benefit-risk analysis and the risk management, including information regarding known or foreseeable risks, any undesirable side-effects, contraindications, and warnings.",
+      "he": "בהתאם לסעיף 2.5, פרק II, נספח XV ל-MDR, על ה-IB לכלול תקציר של ניתוח התועלת-סיכון ושל ניהול הסיכונים, לרבות מידע בנוגע לסיכונים ידועים או צפויים, כל תופעות לוואי בלתי-רצויות, התוויות-נגד ואזהרות."
+    },
+    {
+      "id": "sec-2-5-p2",
+      "type": "paragraph",
+      "en": "Sponsors conducting clinical investigations of CE marked devices which are being investigated outside the intended purpose for which they have been CE-marked, need to make sure that the differences in use (e.g. different duration, location, user or patient population) and any new risks that arise from them have been appropriately addressed in the risk management and that this is described in the IB. The risk management process needs to be described. It should describe risk analysis, risk evaluation and risk control/mitigation (this last part includes benefit-risk analysis). It should also describe the levels used for assigning probabilities and severities of harm and the risk-acceptability criteria that are used (in other words: When do the benefits outweigh the risks?).",
+      "he": "נותני חסות המבצעים חקירות קליניות של מכשירים בעלי סימון CE הנחקרים מחוץ למטרה המיועדת שלשמה ניתן סימון ה-CE, צריכים לוודא שההבדלים בשימוש (למשל משך, מיקום, משתמש או אוכלוסיית מטופלים שונים) וכל סיכון חדש הנובע מהם טופלו כראוי בניהול הסיכונים ושהדבר מתואר ב-IB. יש לתאר את תהליך ניהול הסיכונים. עליו לתאר ניתוח סיכונים, הערכת סיכונים ובקרת/מיתון סיכונים (חלק אחרון זה כולל ניתוח תועלת-סיכון). עליו לתאר גם את הרמות שבהן נעשה שימוש להקצאת הסתברויות וחומרת נזק ואת קריטריוני קבילוּת הסיכון שבשימוש (במילים אחרות: מתי התועלות עולות על הסיכונים?)."
+    },
+    {
+      "id": "sec-2-5-p3",
+      "type": "paragraph",
+      "en": "Refer to ISO 14971:2019 and ISO/TC 24971:2020 for more info on the application of risk management to medical devices and Annex H in ISO 14155:2020 on the application of ISO 14971 to clinical investigations.",
+      "he": "ראו ISO 14971:2019 ו-ISO/TR 24971:2020 למידע נוסף על יישום ניהול סיכונים על מכשירים רפואיים, ונספח H ב-ISO 14155:2020 על יישום ISO 14971 על חקירות קליניות."
+    },
+    {
+      "id": "sec-2-5-p4",
+      "type": "paragraph",
+      "en": "When needed, the competent authority may request that the full Risk Analysis Table, Risk Management Plan and/or Risk Management Report as well as actual data and evaluations from specific tests are provided. If these documents are referenced in the IB, the references to the sections of interest in the documents should be provided in the IB.",
+      "he": "בעת הצורך, הרשות המוסמכת רשאית לבקש שיסופקו טבלת ניתוח הסיכונים המלאה, תוכנית ניהול הסיכונים ו/או דוח ניהול הסיכונים וכן נתונים והערכות בפועל מבדיקות ספציפיות. אם מסמכים אלה מוּפנים ב-IB, יש לספק ב-IB את ההפניות לסעיפים הרלוונטיים במסמכים."
+    },
+    {
+      "id": "sec-2-5-p5",
+      "type": "paragraph",
+      "en": "Some examples of types of risk analyses:",
+      "he": "מספר דוגמאות לסוגי ניתוחי סיכונים:"
+    },
+    {
+      "id": "sec-2-5-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "HAZOP: Hazard and Operability", "he": "HAZOP: סיכון והפעלה (Hazard and Operability)" },
+        { "en": "FMEA: Failure mode and effects analysis", "he": "FMEA: ניתוח אופני כשל והשפעותיהם (Failure mode and effects analysis)" },
+        { "en": "FTA: Fault tree analysis", "he": "FTA: ניתוח עץ תקלות (Fault tree analysis)" },
+        { "en": "Procedure analysis", "he": "ניתוח פרוצדורות (Procedure analysis)" }
+      ]
+    },
+    {
+      "id": "sec-2-5-p6",
+      "type": "paragraph",
+      "en": "The risk management methods and techniques listed above should normally be used in combination so that all reasonably foreseeable risks are identified and managed.",
+      "he": "שיטות וטכניקות ניהול הסיכונים המנויות לעיל צריכות בדרך כלל לשמש בשילוב, כך שכל הסיכונים הצפויים באופן סביר מזוהים ומנוהלים."
+    },
+    {
+      "id": "sec-2-5-p7",
+      "type": "paragraph",
+      "en": "Detail what information was used to estimate the risks. For example published standards or articles about similar devices, expert assessments, tests or simulations.",
+      "he": "יש לפרט איזה מידע שימש לאמידת הסיכונים. לדוגמה תקנים מפורסמים או מאמרים על מכשירים דומים, הערכות מומחים, בדיקות או סימולציות."
+    },
+    {
+      "id": "sec-2-5-p8",
+      "type": "paragraph",
+      "en": "It might be useful to describe the estimation scales that are used for probability and severity estimations. For example, is it a risk matrix of 3 x 3, a 4 x 5, a 5 x 5. Note that matrices with more than five levels can require significantly more data to be able to distinguish between the various levels and to avoid overlap of the levels. Rationales for the selection of matrices and their outcome scores should be documented. It is also to be noted that matrices with three levels might not always be sufficiently accurate for adequate decision making. There is no need that these matrices be balanced. For example, a 4 × 5 matrix could be appropriate for a given application. Regarding probabilities levels such as 1:10, 1:100 may be used. The levels of severity should be selected based on what is relevant for the device, its intended use and users.",
+      "he": "ייתכן שיהיה מועיל לתאר את סולמות האמידה שבשימוש לאמידות הסתברות וחומרה. לדוגמה, האם זו מטריצת סיכון של 3x3, 4x5, 5x5. יש לשים לב כי מטריצות עם יותר מחמש רמות עשויות לדרוש משמעותית יותר נתונים כדי להבחין בין הרמות השונות ולמנוע חפיפה בין הרמות. יש לתעד נימוקים לבחירת המטריצות ולציוני התוצא שלהן. כמו כן יש לשים לב כי מטריצות עם שלוש רמות לא תמיד מדויקות דיין לקבלת החלטות הולמת. אין צורך שמטריצות אלה יהיו מאוזנות. לדוגמה, מטריצת 4x5 עשויה להתאים ליישום נתון. לעניין הסתברויות ניתן להשתמש ברמות כגון 1:10, 1:100. רמות החומרה צריכות להיבחר על בסיס מה שרלוונטי למכשיר, לשימושו המיועד ולמשתמשיו."
+    },
+    {
+      "id": "sec-2-5-p9",
+      "type": "paragraph",
+      "en": "Risk control measures should be taken to reduce any identified risks as far as possible. Risk control measures are generally divided into three broad categories, in order of priority:",
+      "he": "יש לנקוט אמצעי בקרת סיכונים כדי להפחית כל סיכון שזוהה ככל האפשר. אמצעי בקרת סיכונים מחולקים בדרך כלל לשלוש קטגוריות רחבות, לפי סדר עדיפות:"
+    },
+    {
+      "id": "sec-2-5-list2",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Risk elimination/reduction through safe design and manufacture, e.g. identifying risks through pre-clinical testing and pre-clinical evaluation and making changes in design or manufacturing in advance of the clinical investigation; completion of bench testing, pre-clinical evaluation, and verification and validation of design prior to commencement of the clinical investigation application; designing the clinical investigation to be conducted in accordance with relevant international standards, consensus guidance, and good clinical practice; performance of the study at specialised clinical sites only, with investigators meeting specific specialist criteria.", "he": "ביטול/הפחתת סיכון באמצעות תכן וייצור בטוחים, למשל זיהוי סיכונים באמצעות בדיקה פרה-קלינית והערכה פרה-קלינית וביצוע שינויים בתכן או בייצור בטרם החקירה הקלינית; השלמת בדיקות שולחן, הערכה פרה-קלינית, ואימות ותיקוף של התכן לפני תחילת בקשת החקירה הקלינית; תכנון החקירה הקלינית כך שתבוצע בהתאם לתקנים בינלאומיים רלוונטיים, להנחיות קונצנזוס ולנוהל קליני תקין; ביצוע המחקר באתרים קליניים מתמחים בלבד, עם חוקרים העומדים בקריטריונים מומחים ספציפיים." },
+        { "en": "Protective measures, e.g.; physical protective measures of the device; in the context of a clinical investigation, measures such as staged enrolment and interim pre-specified subject safety assessment, pre-specified stopping rules, narrow study population with more favourable benefit-risk profile, independent study oversight (such as data monitoring committees, clinical events committees), frequent and accurate reporting and investigation of SAEs and device deficiencies (DDs), accurate recording of AEs/SAEs/DDs, including the timing and clinical context and a description of any medical interventions provided and the associated outcomes.", "he": "אמצעי הגנה, למשל: אמצעי הגנה פיזיים של המכשיר; בהקשר של חקירה קלינית, אמצעים כגון גיוס מדורג והערכת בטיחות ביניים מוגדרת-מראש של הנבדק, כללי עצירה מוגדרים-מראש, אוכלוסיית מחקר צרה עם פרופיל תועלת-סיכון נוח יותר, פיקוח מחקר עצמאי (כגון ועדות ניטור נתונים, ועדות אירועים קליניים), דיווח וחקירה תכופים ומדויקים של SAE וליקויי מכשיר (DD), רישום מדויק של AE/SAE/DD, לרבות העיתוי וההקשר הקליני ותיאור של כל התערבות רפואית שניתנה והתוצאות הנלוות." },
+        { "en": "Communication of safety information and residual risks, e.g., through patient information sheet; training of investigational staff on residual risks; provision of warnings, precautions, and contra-indications on labelling, in the instructions for use, and in the IB; optimizing communication among sites in order to rapidly communicate and informs sites of any emerging risks; communicating safety data and residual risks with ethics committee(s) and competent authority(ies) to determine if any additional subject protection measures are needed.", "he": "תקשור מידע בטיחות וסיכונים שיוריים, למשל באמצעות דף מידע למטופל; הכשרת צוות החקירה לגבי סיכונים שיוריים; מתן אזהרות, אמצעי זהירות והתוויות-נגד בתיוג, בהוראות השימוש וב-IB; אופטימיזציה של התקשורת בין האתרים כדי לתקשר במהירות וליידע את האתרים על כל סיכון מתהווה; תקשור נתוני בטיחות וסיכונים שיוריים עם ועדת/ועדות האתיקה והרשות/הרשויות המוסמכות כדי לקבוע אם נדרשים אמצעי הגנה נוספים על הנבדק." }
+      ]
+    },
+    {
+      "id": "sec-2-5-p10",
+      "type": "paragraph",
+      "en": "Please provide, in the IB, information on any identified residual risks, including risk-benefit analysis of these residual risks. Please provide a list of warnings, precautions, and contra-indications for the investigational device.",
+      "he": "יש לספק ב-IB מידע על כל סיכון שיורי שזוהה, לרבות ניתוח סיכון-תועלת של סיכונים שיוריים אלה. יש לספק רשימה של אזהרות, אמצעי זהירות והתוויות-נגד עבור המכשיר הנחקר."
+    },
+    {
+      "id": "sec-2-5-fn-40",
+      "type": "note",
+      "marker": "40",
+      "en": "Medical devices – Application of risk management to medical devices (ISO 14971:2019).",
+      "he": "מכשירים רפואיים – יישום ניהול סיכונים על מכשירים רפואיים (ISO 14971:2019)."
+    },
+    {
+      "id": "sec-2-5-fn-41",
+      "type": "note",
+      "marker": "41",
+      "en": "ISO/TR 24971:2020 Medical devices — Guidance on the application of ISO 14971.",
+      "he": "ISO/TR 24971:2020 מכשירים רפואיים — הנחיה ליישום ISO 14971."
+    },
+    {
+      "id": "sec-2-5-1",
+      "type": "heading",
+      "level": 3,
+      "number": "2.5.1",
+      "en": "Anticipated Serious Adverse Events (SAEs) and Serious Adverse Device Effects (SADEs)",
+      "he": "אירועים שליליים חמורים צפויים (SAEs) והשפעות מכשיר שליליות חמורות צפויות (SADEs)"
+    },
+    {
+      "id": "sec-2-5-1-p1",
+      "type": "paragraph",
+      "en": "Based on their internal risk management documents sponsors are expected to assess anticipated frequency of occurrence of serious adverse events (SAEs) and serious adverse device effects (SADEs). The outcomes of this assessment could preferably be presented in a tabular format in the IB. The following table is an example of recommended characteristics of the events to include.",
+      "he": "על בסיס מסמכי ניהול הסיכונים הפנימיים שלהם, מצופה מנותני החסות להעריך את תדירות ההתרחשות הצפויה של אירועים שליליים חמורים (SAEs) ושל השפעות מכשיר שליליות חמורות (SADEs). את תוצאות הערכה זו רצוי להציג בפורמט טבלאי ב-IB. הטבלה הבאה היא דוגמה למאפיינים המומלצים של האירועים לכלול."
+    },
+    {
+      "id": "sec-2-5-1-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          { "en": "Anticipated SAE/SADE", "he": "SAE/SADE צפוי" },
+          { "en": "Related to device or procedure", "he": "קשור למכשיר או לפרוצדורה" },
+          { "en": "Probability of occurrence", "he": "הסתברות ההתרחשות" },
+          { "en": "Reference (basis of these numbers)", "he": "אסמכתא (בסיס למספרים אלה)" }
+        ]
+      ]
+    },
+    {
+      "id": "sec-2-5-1-p2",
+      "type": "paragraph",
+      "en": "Such a table will help the sponsor with its duties regarding the risk assessment of the device and the procedures. It could also be used by the competent authorities for the assessment of the risk-benefit of the clinical investigation and safety follow up during the conduct of study. When the same source is used, it can reduce the risk of divergent interpretation between sponsor and competent authorities.",
+      "he": "טבלה כזו תסייע לנותן החסות בחובותיו בנוגע להערכת הסיכון של המכשיר ושל הפרוצדורות. היא יכולה לשמש גם את הרשויות המוסמכות להערכת הסיכון-תועלת של החקירה הקלינית ולמעקב בטיחות במהלך ביצוע המחקר. כאשר נעשה שימוש באותו מקור, הדבר עשוי להפחית את הסיכון לפרשנות מסתעפת בין נותן החסות לרשויות המוסמכות."
+    },
+    {
+      "id": "sec-2-5-1-p3",
+      "type": "paragraph",
+      "en": "In the safety analysis of the SAE reports, the table would help determine whether the benefit/risk ratio of the clinical investigation has changed due to the reported SAE/SADE. When a SAE/SADE is reported it can be compared to the table to determine whether it was listed among the anticipated SAEs/SADEs and the observed/reported frequency of SAEs/SADEs can be compared to the expected/previously reported frequency.",
+      "he": "בניתוח הבטיחות של דוחות ה-SAE, הטבלה תסייע לקבוע האם יחס התועלת/סיכון של החקירה הקלינית השתנה עקב ה-SAE/SADE שדווח. כאשר מדווח SAE/SADE, ניתן להשוותו לטבלה כדי לקבוע האם נמנה בין ה-SAE/SADE הצפויים, וניתן להשוות את התדירות הנצפית/המדווחת של SAE/SADE לתדירות הצפויה/המדווחת בעבר."
+    },
+    {
+      "id": "sec-2-5-1-p4",
+      "type": "paragraph",
+      "en": "Sponsors are reminded that if new data arises that is likely to substantially impact the safety, health or rights of the subjects or the robustness or reliability of the clinical data generated by the clinical investigation, it shall notify within one week the member states in which the clinical investigation is being conducted. The new data needs to be reflected in updated documents included with the notification of substantial modification to the competent authorities. When updating the IB during the conduct of the clinical investigation, the sponsor is expected to revise the table with up-to-date information including safety reports arising from the ongoing clinical investigation.",
+      "he": "לנותני החסות מובהר כי אם עולים נתונים חדשים העלולים להשפיע באופן מהותי על הבטיחות, הבריאות או הזכויות של הנבדקים או על החוסן או האמינות של הנתונים הקליניים שמייצרת החקירה הקלינית, עליו להודיע בתוך שבוע למדינות החברות שבהן מתבצעת החקירה הקלינית. הנתונים החדשים צריכים לבוא לידי ביטוי במסמכים מעודכנים הנכללים בהודעה על שינוי מהותי לרשויות המוסמכות. בעת עדכון ה-IB במהלך ביצוע החקירה הקלינית, מצופה מנותן החסות לעדכן את הטבלה במידע עדכני לרבות דוחות בטיחות העולים מהחקירה הקלינית המתמשכת."
+    },
+    {
+      "id": "sec-2-5-1-p5",
+      "type": "paragraph",
+      "en": "Sponsors are further encouraged to link information in the anticipated SAE table to the IMDRF codes that will be used in the future European database on medical device (EUDAMED), and which are already used in the manufacturers incidents report (MIR). This will support the device community (manufacturer, competent authorities, notified body) to get a global view of the safety of a device throughout its lifecycle.",
+      "he": "כמו כן, נותני החסות מתבקשים לקשר את המידע בטבלת ה-SAE הצפויים לקודי IMDRF שישמשו במסד הנתונים האירופי העתידי למכשירים רפואיים (EUDAMED), ושכבר משמשים בדוח האירוע של היצרן (MIR). הדבר יסייע לקהילת המכשירים (יצרן, רשויות מוסמכות, גוף מאונתר) לקבל ראייה כוללת של בטיחות המכשיר לאורך מחזור חייו."
+    },
+    {
+      "id": "sec-2-5-1-fn-42",
+      "type": "note",
+      "marker": "42",
+      "en": "Article 75 Substantial modifications to clinical investigations.",
+      "he": "סעיף 75 שינויים מהותיים בחקירות קליניות."
+    },
+    {
+      "id": "sec-2-5-1-fn-43",
+      "type": "note",
+      "marker": "43",
+      "en": "Terminologies for Categorized Adverse Event Reporting (AER): terms, terminology and codes | International Medical Device Regulators Forum (imdrf.org).",
+      "he": "מינוחים לדיווח אירועים שליליים מקוטלגים (AER): מונחים, טרמינולוגיה וקודים | הפורום הבינלאומי של רגולטורים למכשירים רפואיים (imdrf.org)."
+    },
+    {
+      "id": "sec-2-5-1-fn-44",
+      "type": "note",
+      "marker": "44",
+      "en": "Medical Devices – EUDAMED (europa.eu).",
+      "he": "מכשירים רפואיים – EUDAMED (europa.eu)."
+    },
+    {
+      "id": "sec-2-5-1-fn-45",
+      "type": "note",
+      "marker": "45",
+      "en": "Manufacturer incident report 2020 and Questions and Answers document regarding the Implementation of the new Manufacturer Incident Report (MIR) Form.",
+      "he": "דוח אירוע של היצרן 2020 ומסמך שאלות ותשובות בנוגע ליישום טופס דוח האירוע של היצרן (MIR) החדש."
+    },
+    {
+      "id": "sec-2-6",
+      "type": "heading",
+      "level": 2,
+      "number": "2.6",
+      "en": "Devices that incorporate a medicinal substance, including a human blood or plasma derivative or devices manufactured utilising non-viable tissues or cells of human or animal origin, or their derivatives",
+      "he": "מכשירים המשלבים חומר רפואי, לרבות נגזרת של דם או פלזמה אנושיים, או מכשירים המיוצרים תוך שימוש ברקמות או תאים שאינם ברי-קיימא ממקור אנושי או מן החי, או נגזרותיהם"
+    },
+    {
+      "id": "sec-2-6-p1",
+      "type": "paragraph",
+      "en": "According to section 2.6, chapter II, Annex XV of the MDR, the IB should include detailed information on the medicinal substance or on the tissues, cells or their derivatives, and on the compliance with the relevant general safety and performance requirements and the specific risk management in relation to the substance or tissues, cells or their derivatives, as well as evidence for the added value of incorporation of such constituents in relation to the clinical benefit and/or safety of the device.",
+      "he": "בהתאם לסעיף 2.6, פרק II, נספח XV ל-MDR, על ה-IB לכלול מידע מפורט על החומר הרפואי או על הרקמות, התאים או נגזרותיהם, ועל העמידה בדרישות הכלליות הרלוונטיות לבטיחות וביצועים ובניהול הסיכונים הספציפי ביחס לחומר או לרקמות, התאים או נגזרותיהם, וכן ראיות לערך המוסף של שילוב מרכיבים אלה ביחס לתועלת הקלינית ו/או לבטיחות של המכשיר."
+    },
+    {
+      "id": "sec-2-6-p2",
+      "type": "paragraph",
+      "en": "Note that methods specified in Annex I to Directive 2001/83/EC shall be used to verify the quality, safety and usefulness of substances which, if used separately, would be considered to be a medicinal product within the meaning of point (2) of Article 1 of that directive.",
+      "he": "יש לשים לב כי השיטות המפורטות בנספח I להנחיה 2001/83/EC ישמשו לאימות האיכות, הבטיחות והתועלת של חומרים אשר, אם נעשה בהם שימוש בנפרד, היו נחשבים מוצר רפואי (תרופה) במשמעות סעיף 1(2) של אותה הנחיה."
+    },
+    {
+      "id": "sec-2-6-p3",
+      "type": "paragraph",
+      "en": "For CE-marked devices which are unaltered but used outside the intended purpose, the quality aspects in section 2.6.2 may be considered as appropriately addressed during the conformity assessment by the Notified Body, and the evidence submitted may be adapted accordingly.",
+      "he": "עבור מכשירים בעלי סימון CE שאינם שונו אך משמשים מחוץ למטרה המיועדת, ניתן לראות את היבטי האיכות שבסעיף 2.6.2 כמטופלים כראוי במהלך הערכת ההתאמה על ידי הגוף המאונתר, וניתן להתאים בהתאם את הראיות המוגשות."
+    },
+    {
+      "id": "sec-2-6-1",
+      "type": "heading",
+      "level": 3,
+      "number": "2.6.1",
+      "en": "General requirements",
+      "he": "דרישות כלליות"
+    },
+    {
+      "id": "sec-2-6-1-p1",
+      "type": "paragraph",
+      "en": "For medicinal substances the chemical name, chemical and structural formula should be presented.",
+      "he": "עבור חומרים רפואיים יש להציג את השם הכימי, הנוסחה הכימית והנוסחה המבנית."
+    },
+    {
+      "id": "sec-2-6-1-p2",
+      "type": "paragraph",
+      "en": "In case a medicinal product is included in the device, it could be relevant to reference that a Marketing Authorization has already been obtained in EU (e.g. the number of the authorization for placing the medicinal product on the market). Also, the general information that can be provided for the medicinal product is the name of the medicinal product. i.e. both the common name, which is the international non-proprietary name (INN) as well as the trade mark ; qualitative and quantitative composition; pharmaceutical form (e.g. tablet, capsule, cream, ointment, solution for injection etc).",
+      "he": "במקרה שמוצר רפואי (תרופה) כלול במכשיר, ייתכן שיהיה רלוונטי להפנות לכך שכבר הושג אישור שיווק (Marketing Authorization) באיחוד האירופי (למשל מספר האישור להצבת המוצר הרפואי בשוק). כמו כן, המידע הכללי שניתן לספק עבור המוצר הרפואי הוא שם המוצר הרפואי, כלומר הן השם הנפוץ, שהוא השם הבינלאומי הלא-קנייני (INN), והן הסימן המסחרי; הרכב איכותני וכמותי; הצורה התרופתית (למשל טבלייה, קפסולה, קרם, משחה, תמיסה להזרקה וכדומה)."
+    },
+    {
+      "id": "sec-2-6-1-p3",
+      "type": "paragraph",
+      "en": "Then main physical, chemical, pharmaceutical, toxicological and pharmacokinetic properties of the substance as well as available clinical data should be summarised. It is necessary to elaborate not only on the safety, quality and effectiveness of the active substance itself, but also on possible interactions between the substance and the materials used in devices and/or other substances. Note that where relevant, the pharmacodynamics, pharmacokinetics, toxicity and local tolerance of the substance may need to be specifically addressed during the pre-clinical evaluation and should be covered in the relevant subsection(s) under 2.3 above.",
+      "he": "לאחר מכן יש לסכם את התכונות הפיזיקליות, הכימיות, התרופתיות, הטוקסיקולוגיות והפַרמַקוקינטיות העיקריות של החומר וכן נתונים קליניים זמינים. יש לפרט לא רק על הבטיחות, האיכות והיעילות של החומר הפעיל עצמו, אלא גם על אינטראקציות אפשריות בין החומר לבין החומרים שבשימוש במכשירים ו/או חומרים אחרים. יש לשים לב כי במקרים הרלוונטיים, ייתכן שיהיה צורך להתייחס באופן ספציפי לפַרמַקודינמיקה, לפַרמַקוקינטיקה, לרעילות ולסבילות המקומית של החומר במהלך ההערכה הפרה-קלינית, ויש לכסות זאת בתת-הסעיף (או תת-הסעיפים) הרלוונטיים תחת 2.3 לעיל."
+    },
+    {
+      "id": "sec-2-6-1-p4",
+      "type": "paragraph",
+      "en": "Justify the inclusion of the medicinal substance, human blood or plasma derivative, non-viable tissues or cells of human or animal origin (or their derivatives) in relation to the intended clinical use and clinical benefit of the device. If there is already a scientific opinion issued on the quality and safety of the substance, tissues or cells of human or animal origin or their derivates, this opinion should be summarized and referenced in the IB, and a copy of the scientific opinion should be provided with the application to the Competent Authority.",
+      "he": "יש לנמק את הכללת החומר הרפואי, נגזרת הדם או הפלזמה האנושיים, רקמות או תאים שאינם ברי-קיימא ממקור אנושי או מן החי (או נגזרותיהם) ביחס לשימוש הקליני המיועד ולתועלת הקלינית של המכשיר. אם כבר ניתנה חוות דעת מדעית בנוגע לאיכות ולבטיחות של החומר, הרקמות או התאים ממקור אנושי או מן החי או נגזרותיהם, יש לסכם ולהפנות לחוות דעת זו ב-IB, ויש לספק עותק של חוות הדעת המדעית עם הבקשה לרשות המוסמכת."
+    },
+    {
+      "id": "sec-2-6-2",
+      "type": "heading",
+      "level": 3,
+      "number": "2.6.2",
+      "en": "Quality aspects",
+      "he": "היבטי איכות"
+    },
+    {
+      "id": "sec-2-6-2-p1",
+      "type": "paragraph",
+      "en": "Sponsors are encouraged to provide the detailed information on quality aspects required for the competent authority's assessment in a separate document, e.g. for commercial confidentiality or readability reasons, and to provide a summary in the IB which is relevant to the investigators. Sponsors are further recommended to consult the EMA guidances on Investigational Medicinal Product Dossiers, which provides information on expected content and structure for quality documentation related to the incorporated medicinal substance, human blood or plasma derivatives, non-viable tissues or cells of human or animal origin, or their derivatives. It is expected that relevant aspects of EudraLex - Volume 4 - Good Manufacturing Practice (GMP) guidelines are applied.",
+      "he": "נותני החסות מתבקשים לספק את המידע המפורט על היבטי האיכות הנדרש להערכת הרשות המוסמכת במסמך נפרד, למשל מטעמי סודיות מסחרית או קריאוּת, ולספק ב-IB תקציר הרלוונטי לחוקרים. כמו כן, מומלץ לנותני החסות להיוועץ בהנחיות ה-EMA בנושא תיקי המוצר הרפואי הנחקר (Investigational Medicinal Product Dossiers), המספקות מידע על התוכן והמבנה הצפויים של תיעוד האיכות הקשור לחומר הרפואי המשולב, לנגזרות דם או פלזמה אנושיים, לרקמות או תאים שאינם ברי-קיימא ממקור אנושי או מן החי, או לנגזרותיהם. מצופה כי יושמו ההיבטים הרלוונטיים של הנחיות EudraLex - כרך 4 - נוהל ייצור תקין (GMP)."
+    },
+    {
+      "id": "sec-2-6-2-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "The manufacturer of the medicinal substance should be stated and compliance to EU-GMP or a relevant quality system verified. A GMP certificate, manufacturing authorisation or similar should be referenced in the IB if available and copies included with the application to the Competent Authority. The date of the last inspection should be indicated.", "he": "יש לציין את יצרן החומר הרפואי ולאמת עמידה ב-EU-GMP או במערכת איכות רלוונטית. יש להפנות ב-IB לתעודת GMP, אישור ייצור או דומה אם זמין, ולכלול עותקים עם הבקשה לרשות המוסמכת. יש לציין את תאריך הביקורת האחרונה." },
+        { "en": "A sufficiently detailed description of the manufacturing process to allow assessment of the specification with regards to e.g. impurities.", "he": "תיאור מפורט דיו של תהליך הייצור כדי לאפשר הערכת המפרט בנוגע, למשל, לזיהומים (impurities)." },
+        { "en": "A specification for the medicinal substance should be provided together with descriptions of the analytical methods used as well as verification of their suitability (unless references to Ph Eur methods are given). Results from batch analysis should be presented.", "he": "יש לספק מפרט עבור החומר הרפואי יחד עם תיאורים של השיטות האנליטיות שבשימוש וכן אימות התאמתן (אלא אם ניתנות הפניות לשיטות Ph Eur). יש להציג תוצאות מניתוח אצווה." },
+        { "en": "The container/closure systems used for storage should be described.", "he": "יש לתאר את מערכות המכל/הסגירה המשמשות לאחסון." },
+        { "en": "A shelf-life and a storage condition should be proposed and supported by stability data.", "he": "יש להציע חיי מדף ותנאי אחסון, הנתמכים בנתוני יציבות." }
+      ]
+    },
+    {
+      "id": "sec-2-6-2-p2",
+      "type": "paragraph",
+      "en": "For chemical medicinal substances a Certificate of suitability to the monographs of the European Pharmacopoeia issued by the European Directorate for the Quality of Medicines (EDQM) or an Active Substance Master File (ASMF) could be referred to. Note that when reference is made to a EDQM Certificate of suitability to the monographs of the European Pharmacopoeia (CEP), the certificate should be included in the application. If reference is made by the device manufacturer to the substance manufacturer's documentation, a Letter of Access is required.",
+      "he": "עבור חומרים רפואיים כימיים ניתן להפנות לתעודת התאמה למונוגרפיות של הפַרמָקוֹפֵּאָה האירופית שהוצאה על ידי המנהל האירופי לאיכות תרופות (EDQM) או לתיק אב של חומר פעיל (ASMF). יש לשים לב כי כאשר נעשית הפניה לתעודת התאמה של EDQM למונוגרפיות של הפַרמָקוֹפֵּאָה האירופית (CEP), יש לכלול את התעודה בבקשה. אם יצרן המכשיר מפנה לתיעוד של יצרן החומר, נדרש מכתב גישה (Letter of Access)."
+    },
+    {
+      "id": "sec-2-6-2-p3",
+      "type": "paragraph",
+      "en": "If no certificate of suitability or ASMF is available, complete documentation of the substance is required. Note that for substances of biological origin, it is not possible to refer to a certificate of suitability or ASMF.",
+      "he": "אם לא זמינה תעודת התאמה או ASMF, נדרש תיעוד מלא של החומר. יש לשים לב כי עבור חומרים ממקור ביולוגי לא ניתן להפנות לתעודת התאמה או ל-ASMF."
+    },
+    {
+      "id": "sec-2-6-2-1",
+      "type": "heading",
+      "level": 4,
+      "number": "2.6.2.1",
+      "en": "Information on incorporation of the medicinal substance in the device",
+      "he": "מידע על שילוב החומר הרפואי במכשיר"
+    },
+    {
+      "id": "sec-2-6-2-1-p1",
+      "type": "paragraph",
+      "en": "The IB needs to contain sufficient information to allow evaluation of the quality of the medicinal substance after it has been incorporated in the device.",
+      "he": "ה-IB צריך לכלול מידע מספיק כדי לאפשר הערכה של איכות החומר הרפואי לאחר שילובו במכשיר."
+    },
+    {
+      "id": "sec-2-6-2-1-p2",
+      "type": "paragraph",
+      "en": "The incorporation process, including sterilisation may impact the quality of the medicinal substance. If the substance is chemically modified, mixed with excipients and/or solvents during the process, this should be described, even if the excipients or solvents used are not present in the final device. Information on the quality and purpose of excipients should be provided. The complete composition of the final device must be provided.",
+      "he": "תהליך השילוב, לרבות עיקור, עשוי להשפיע על איכות החומר הרפואי. אם החומר משונה כימית, מעורבב עם סוכנים (excipients) ו/או ממסים במהלך התהליך, יש לתאר זאת, גם אם הסוכנים או הממסים שבשימוש אינם נוכחים במכשיר הסופי. יש לספק מידע על האיכות והמטרה של הסוכנים. יש לספק את ההרכב המלא של המכשיר הסופי."
+    },
+    {
+      "id": "sec-2-6-2-1-p3",
+      "type": "paragraph",
+      "en": "The methods to verify the amount/activity and release of medicinal substance from the final device should be presented and data from these tests should be provided.",
+      "he": "יש להציג את השיטות לאימות הכמות/הפעילות והשחרור של החומר הרפואי מהמכשיר הסופי, ויש לספק נתונים מבדיקות אלה."
+    },
+    {
+      "id": "sec-2-6-2-2",
+      "type": "heading",
+      "level": 4,
+      "number": "2.6.2.2",
+      "en": "Information on the final investigational device",
+      "he": "מידע על המכשיר הנחקר הסופי"
+    },
+    {
+      "id": "sec-2-6-2-2-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "The manufacturer should be stated and compliance to EU-GMP or a relevant quality system (ISO) verified. The date of the last inspection should be indicated.", "he": "יש לציין את היצרן ולאמת עמידה ב-EU-GMP או במערכת איכות רלוונטית (ISO). יש לציין את תאריך הביקורת האחרונה." },
+        { "en": "A complete composition of the investigational device should be provided.", "he": "יש לספק הרכב מלא של המכשיר הנחקר." },
+        { "en": "A detailed description of the manufacturing process including details about the sterilisation process, in-process controls and control of all raw materials and intermediates.", "he": "תיאור מפורט של תהליך הייצור לרבות פרטים על תהליך העיקור, בקרות תוך-תהליכיות ובקרה של כל חומרי הגלם והביניים." },
+        { "en": "A specification for the investigational device together with descriptions of the analytical methods used (unless references to Ph Eur methods are given). Results from batch analysis should be presented.", "he": "מפרט עבור המכשיר הנחקר יחד עם תיאורים של השיטות האנליטיות שבשימוש (אלא אם ניתנות הפניות לשיטות Ph Eur). יש להציג תוצאות מניתוח אצווה." },
+        { "en": "The container/closure system used should be stated.", "he": "יש לציין את מערכת המכל/הסגירה שבשימוש." }
+      ]
+    },
+    {
+      "id": "sec-2-6-2-2-p1",
+      "type": "paragraph",
+      "en": "A shelf-life and storage condition should be proposed and supported by stability data.",
+      "he": "יש להציע חיי מדף ותנאי אחסון, הנתמכים בנתוני יציבות."
+    },
+    {
+      "id": "sec-2-6-2-3",
+      "type": "heading",
+      "level": 4,
+      "number": "2.6.2.3",
+      "en": "Specific requirements for starting materials, intermediates or substances of biological origin",
+      "he": "דרישות ספציפיות לחומרי מוצא, חומרי ביניים או חומרים ממקור ביולוגי"
+    },
+    {
+      "id": "sec-2-6-2-3-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Information on the collection and control of starting material should be provided", "he": "יש לספק מידע על איסוף ובקרה של חומר המוצא" },
+        { "en": "Information on the manufacturing process should include details relevant for inactivation of viral and bacterial contamination (reagents used, time, temperatures pH, irradiation dose etc.) should be provided.", "he": "מידע על תהליך הייצור צריך לכלול פרטים רלוונטיים לאי-הפעלה (inactivation) של זיהום ויראלי וחיידקי (ריאגנטים שבשימוש, זמן, טמפרטורות, pH, מינון קרינה וכדומה)." },
+        { "en": "The EU Tissue Directive (2004/23/EC) and EU Blood Directive 2002/98/EC should be followed for tissues, cells and blood respectively", "he": "יש לפעול לפי הנחיית הרקמות של האיחוד האירופי (2004/23/EC) והנחיית הדם של האיחוד האירופי 2002/98/EC עבור רקמות, תאים ודם בהתאמה" }
+      ]
+    },
+    {
+      "id": "sec-2-6-2-4",
+      "type": "heading",
+      "level": 4,
+      "number": "2.6.2.4",
+      "en": "Specific requirements for adventitious agents",
+      "he": "דרישות ספציפיות לסוכנים מזדמנים (adventitious agents)"
+    },
+    {
+      "id": "sec-2-6-2-4-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "A TSE statement confirming compliance to EN ISO 22442-3:2007 and the TSE guideline EMA/410/01 should be provided.", "he": "יש לספק הצהרת TSE המאשרת עמידה ב-EN ISO 22442-3:2007 ובהנחיית ה-TSE EMA/410/01." },
+        { "en": "A viral risk assessment in accordance with EN ISO 22442-1:2015 and Ph Eur 5.1.7 Viral safety should be provided. The risk assessment should also include information about the capacity of the manufacturing process to remove viral contamination.", "he": "יש לספק הערכת סיכון ויראלי בהתאם ל-EN ISO 22442-1:2015 ו-Ph Eur 5.1.7 בטיחות ויראלית. הערכת הסיכון צריכה לכלול גם מידע על יכולת תהליך הייצור להסיר זיהום ויראלי." }
+      ]
+    },
+    {
+      "id": "sec-2-6-2-5",
+      "type": "heading",
+      "level": 4,
+      "number": "2.6.2.5",
+      "en": "Additional information required for substances from human plasma",
+      "he": "מידע נוסף הנדרש עבור חומרים מפלזמה אנושית"
+    },
+    {
+      "id": "sec-2-6-2-5-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Information in accordance with the EMA guideline EMA/CHMP/BWP/706271/2010 Guideline on plasma-derived medicinal products is to be provided.", "he": "יש לספק מידע בהתאם להנחיית ה-EMA EMA/CHMP/BWP/706271/2010 הנחיה למוצרים רפואיים נגזרי-פלזמה." },
+        { "en": "Information regarding the contract that has been established between the supplier of the plasma derived product/substance and the manufacturer of the device to ensure that the traceability is maintained from donation to the device for at least 30 years and that the manufacturer of medical device and Competent Authorities would be informed if, in exceptional circumstances, post collection information would lead to measures regarding the product.", "he": "מידע בנוגע לחוזה שנכרת בין ספק המוצר/החומר נגזר-הפלזמה לבין יצרן המכשיר, כדי להבטיח שהעקיבוּת תישמר מן התרומה ועד למכשיר למשך 30 שנה לפחות, וכי יצרן המכשיר הרפואי והרשויות המוסמכות יקבלו מידע אם, בנסיבות חריגות, מידע שלאחר האיסוף יוביל לאמצעים בנוגע למוצר." },
+        { "en": "If a product licensed in an EU country is used for the manufacture of the device, please state which product, the country(ies) where it is authorised and include information on whether the human plasma used for the medicinal product in question is covered by an EMA certified PMF (Plasma Master File).", "he": "אם מוצר המורשה במדינה באיחוד האירופי משמש לייצור המכשיר, יש לציין איזה מוצר, את המדינה (או המדינות) שבהן הוא מאושר, ולכלול מידע האם הפלזמה האנושית המשמשת למוצר הרפואי הנדון מכוסה ב-PMF (תיק אב של פלזמה) מאושר על ידי ה-EMA." }
+      ]
+    },
+    {
+      "id": "sec-2-6-2-6",
+      "type": "heading",
+      "level": 4,
+      "number": "2.6.2.6",
+      "en": "Substance of animal origin",
+      "he": "חומר ממקור מן החי"
+    },
+    {
+      "id": "sec-2-6-2-6-p1",
+      "type": "paragraph",
+      "en": "The source countries for collection of the substance should be stated together with information about the health status of the animals.",
+      "he": "יש לציין את מדינות המקור לאיסוף החומר יחד עם מידע על מצב הבריאות של בעלי החיים."
+    },
+    {
+      "id": "sec-2-6-p1-fn-46",
+      "type": "note",
+      "marker": "46",
+      "en": "Section 12.1, Annex I of the MDR.",
+      "he": "סעיף 12.1, נספח I ל-MDR."
+    },
+    {
+      "id": "sec-2-6-1-fn-47",
+      "type": "note",
+      "marker": "47",
+      "en": "Refer to sections 5.2, 5.3 and 5.4 in Annex IX of the MDR.",
+      "he": "ראו סעיפים 5.2, 5.3 ו-5.4 בנספח IX ל-MDR."
+    },
+    {
+      "id": "sec-2-6-2-fn-48",
+      "type": "note",
+      "marker": "48",
+      "en": "Guideline on the requirements for the chemical and pharmaceutical quality documentation concerning investigational medicinal products in clinical trials (europa.eu).",
+      "he": "הנחיה לדרישות בנוגע לתיעוד האיכות הכימי והתרופתי הנוגע למוצרים רפואיים נחקרים בניסויים קליניים (europa.eu)."
+    },
+    {
+      "id": "sec-2-6-2-fn-49",
+      "type": "note",
+      "marker": "49",
+      "en": "Guideline on quality for biological IMPs (europa.eu).",
+      "he": "הנחיה לאיכות עבור מוצרים רפואיים נחקרים (IMP) ביולוגיים (europa.eu)."
+    },
+    {
+      "id": "sec-2-6-2-fn-50",
+      "type": "note",
+      "marker": "50",
+      "en": "EudraLex – Volume 4 (europa.eu).",
+      "he": "EudraLex – כרך 4 (europa.eu)."
+    },
+    {
+      "id": "sec-2-6-2-fn-51",
+      "type": "note",
+      "marker": "51",
+      "en": "Also relevant for human blood or plasma derivatives, non-viable tissues or cells of human or animal origin, or their derivatives even in situations where they may not be considered medicinal substances.",
+      "he": "רלוונטי גם לנגזרות דם או פלזמה אנושיים, רקמות או תאים שאינם ברי-קיימא ממקור אנושי או מן החי, או נגזרותיהם, גם במצבים שבהם הם אינם נחשבים חומרים רפואיים."
+    },
+    {
+      "id": "sec-2-6-2-2-fn-52",
+      "type": "note",
+      "marker": "52",
+      "en": "With incorporated medicinal substance, human blood or plasma derivatives, non-viable tissues or cells of human or animal origin, or their derivative.",
+      "he": "עם חומר רפואי משולב, נגזרות דם או פלזמה אנושיים, רקמות או תאים שאינם ברי-קיימא ממקור אנושי או מן החי, או נגזרתם."
+    },
+    {
+      "id": "sec-2-6-2-4-fn-53",
+      "type": "note",
+      "marker": "53",
+      "en": "Note for guidance on minimising the risk of transmitting animal spongiform encephalopathy agents via human and veterinary medicinal products (EMA/410/01 rev.3) (europa.eu).",
+      "he": "הערה להנחיה למזעור הסיכון להעברת סוכני אנצפלופתיה ספונגיפורמית של בעלי חיים באמצעות מוצרים רפואיים אנושיים ווטרינריים (EMA/410/01 rev.3) (europa.eu)."
+    },
+    {
+      "id": "sec-2-6-2-5-fn-54",
+      "type": "note",
+      "marker": "54",
+      "en": "EMA/CHMP/BWP/706271/2010 Committee for medicinal products for human use (CHMP) Guideline on plasma-derived medicinal products.",
+      "he": "EMA/CHMP/BWP/706271/2010 הוועדה למוצרים רפואיים לשימוש אנושי (CHMP) הנחיה למוצרים רפואיים נגזרי-פלזמה."
+    },
+    {
+      "id": "sec-2-7",
+      "type": "heading",
+      "level": 2,
+      "number": "2.7",
+      "en": "Fulfilment of General Safety and Performance Requirements",
+      "he": "קיום הדרישות הכלליות לבטיחות וביצועים"
+    },
+    {
+      "id": "sec-2-7-p1",
+      "type": "paragraph",
+      "en": "According to section 2.7, chapter II, Annex XV of the MDR, the IB should include a list detailing the fulfilment of the relevant GSPR set out in Annex I of the MDR, including the standards and any common specifications applied, in full or in part, as well as a description of the solutions for fulfilling the relevant GSPRs, in so far as those standards and common specifications have not or have only been partly fulfilled or are lacking.",
+      "he": "בהתאם לסעיף 2.7, פרק II, נספח XV ל-MDR, על ה-IB לכלול רשימה המפרטת את קיום ה-GSPR הרלוונטיות המפורטות בנספח I ל-MDR, לרבות התקנים וכל המפרטים המשותפים שיושמו, במלואם או בחלקם, וכן תיאור של הפתרונות לקיום ה-GSPR הרלוונטיות, ככל שאותם תקנים ומפרטים משותפים לא קוימו או קוימו רק בחלקם או חסרים."
+    },
+    {
+      "id": "sec-2-7-p2",
+      "type": "paragraph",
+      "en": "The IB should provide an overview of which GSPRs are applicable for the investigational device and a rationale for any GSPRs indicated as not applicable. Further, it should be clearly indicated which GSPRs that have already been addressed by objective evidence and which GSPRs that will be addressed in the proposed study. Reference can be made to the relevant GSPR documentation.",
+      "he": "על ה-IB לספק סקירה של אילו GSPR רלוונטיות עבור המכשיר הנחקר ונימוק לכל GSPR שצוינה כבלתי-רלוונטית. כמו כן, יש לציין בבירור אילו GSPR כבר טופלו באמצעות ראיות אובייקטיביות ואילו GSPR יטופלו במחקר המוצע. ניתן להפנות לתיעוד ה-GSPR הרלוונטי."
+    },
+    {
+      "id": "sec-2-7-p3",
+      "type": "paragraph",
+      "en": "The overview should indicate the means (e.g. standard, CS, internal procedure) to address each applicable GSPR and the corresponding evidence, e. g. by listing the report(s). It is not sufficient to list the standards only and it is not sufficient to list the file in which the report will be placed, e. g. the risk management file. It is also not appropriate to list the title of a report that is not yet available. The GSPR documentation should thus contain both a prospective and retrospective summary of compliance, and clearly show the evidence already evaluated.",
+      "he": "הסקירה צריכה לציין את האמצעי (למשל תקן, CS, נוהל פנימי) לטיפול בכל GSPR רלוונטית ואת הראיות המתאימות, למשל באמצעות מנייה של הדוח (או הדוחות). אין די במנייה של התקנים בלבד ואין די במנייה של התיק שבו יוצב הדוח, למשל תיק ניהול הסיכונים. כמו כן, אין זה הולם למנות כותרת של דוח שאינו זמין עדיין. תיעוד ה-GSPR צריך אפוא לכלול תקציר עמידה הן צופה-פני-עתיד והן רטרוספקטיבי, ולהציג בבירור את הראיות שכבר הוערכו."
+    },
+    {
+      "id": "sec-2-7-p4",
+      "type": "paragraph",
+      "en": "With regard to the GSPRs that are not yet met but will be covered by the investigation, please identify them clearly and indicate how every precaution has been taken to protect the health and safety of the subjects and other users.",
+      "he": "בנוגע ל-GSPR שטרם קוימו אך יכוסו על ידי החקירה, יש לזהותן בבירור ולציין כיצד ננקט כל אמצעי זהירות להגנה על בריאות הנבדקים ומשתמשים אחרים ובטיחותם."
+    },
+    {
+      "id": "sec-2-7-p5",
+      "type": "paragraph",
+      "en": "If some GSPRs are not relevant for the investigational device, this should be indicated and briefly justified.",
+      "he": "אם חלק מה-GSPR אינן רלוונטיות למכשיר הנחקר, יש לציין זאת ולנמק בקצרה."
+    },
+    {
+      "id": "sec-2-7-p6",
+      "type": "paragraph",
+      "en": "All of the information above is preferably presented in the format of the checklist of GSPRs, standards, common specifications and scientific advice, which can be found as an annex in the MDCG 2021-8 guidance. This template has two sections: Section A where standards, common specifications and scientific advice can be listed, and the level of compliance is indicated. Section B is a matrix for documenting the fulfilment of the GSPRs, referencing the applied standards or common specifications, as well as the evidence of conformance, documentation and justification/comment in case of deviation. If documenting the conformance with a particular requirement is the purpose of the current clinical investigation, this should be clearly indicated in the matrix.",
+      "he": "רצוי שכל המידע לעיל יוצג בפורמט של רשימת התיוג של GSPR, תקנים, מפרטים משותפים וייעוץ מדעי, הניתנת למציאה כנספח בהנחיה MDCG 2021-8. לתבנית זו שני סעיפים: סעיף A שבו ניתן למנות תקנים, מפרטים משותפים וייעוץ מדעי, ומצוינת רמת העמידה. סעיף B הוא מטריצה לתיעוד קיום ה-GSPR, המפנה לתקנים או למפרטים המשותפים שיושמו, וכן לראיות ההתאמה, לתיעוד ולהנמקה/הערה במקרה של חריגה. אם תיעוד ההתאמה לדרישה מסוימת הוא מטרת החקירה הקלינית הנוכחית, יש לציין זאת בבירור במטריצה."
+    },
+    {
+      "id": "sec-2-7-p7",
+      "type": "paragraph",
+      "en": "In case CE-marked devices are investigated in the clinical investigation, fulfilment of the GSPRs for the intended purpose(s) covered by the CE-mark should be confirmed by providing the EU Declaration of Conformity issued by the manufacturer and the certificate issued by the Notified Body (if applicable, depending on device classification).",
+      "he": "במקרה שמכשירים בעלי סימון CE נחקרים בחקירה הקלינית, קיום ה-GSPR עבור המטרה (או המטרות) המיועדת המכוסה בסימון ה-CE צריך לקבל אישור באמצעות מתן הצהרת ההתאמה של האיחוד האירופי שהוצאה על ידי היצרן והתעודה שהוצאה על ידי הגוף המאונתר (אם רלוונטי, בהתאם לסיווג המכשיר)."
+    },
+    {
+      "id": "sec-2-7-fn-55",
+      "type": "note",
+      "marker": "55",
+      "en": "MDCG 2021-08 Clinical investigation application/notification documents.",
+      "he": "MDCG 2021-08 מסמכי בקשה/הודעה לחקירה קלינית."
+    },
+    {
+      "id": "sec-2-7-fn-56",
+      "type": "note",
+      "marker": "56",
+      "en": "Article 19 and Annex IV of the MDR.",
+      "he": "סעיף 19 ונספח IV ל-MDR."
+    },
+    {
+      "id": "sec-2-7-fn-57",
+      "type": "note",
+      "marker": "57",
+      "en": "Article 56 and Annex XII of the MDR.",
+      "he": "סעיף 56 ונספח XII ל-MDR."
+    },
+    {
+      "id": "sec-2-8",
+      "type": "heading",
+      "level": 2,
+      "number": "2.8",
+      "en": "Procedures",
+      "he": "פרוצדורות"
+    },
+    {
+      "id": "sec-2-8-p1",
+      "type": "paragraph",
+      "en": "According to section 2.8, chapter II, Annex XV of the MDR, the IB should include a detailed description of the clinical procedures and diagnostic tests used in the course of the clinical investigation and in particular information on any deviation from normal clinical practice.",
+      "he": "בהתאם לסעיף 2.8, פרק II, נספח XV ל-MDR, על ה-IB לכלול תיאור מפורט של הפרוצדורות הקליניות והבדיקות האבחוניות שבשימוש במהלך החקירה הקלינית, ובפרט מידע על כל סטייה מהפרקטיקה הקלינית הרגילה."
+    },
+    {
+      "id": "sec-2-8-p2",
+      "type": "paragraph",
+      "en": "All involved procedures may impact the overall risk assessment of the clinical investigation and the sponsor needs to ensure that risks associated with the planned use of the investigational device have been included in the risk assessment.",
+      "he": "כל הפרוצדורות המעורבות עשויות להשפיע על הערכת הסיכון הכוללת של החקירה הקלינית, ועל נותן החסות לוודא שהסיכונים הקשורים לשימוש המתוכנן במכשיר הנחקר נכללו בהערכת הסיכון."
+    },
+    {
+      "id": "sec-2-8-p3",
+      "type": "paragraph",
+      "en": "If the use of the investigational device deviates from normal clinical practice this should be highlighted. Note that it is appropriate to describe what is considered normal clinical practice in this section.",
+      "he": "אם השימוש במכשיר הנחקר סוטה מהפרקטיקה הקלינית הרגילה, יש להדגיש זאת. יש לשים לב כי ראוי לתאר בסעיף זה את מה שנחשב פרקטיקה קלינית רגילה."
+    },
+    {
+      "id": "sec-2-8-p4",
+      "type": "paragraph",
+      "en": "Specify any other devices or medicinal products to be used in combination with the investigational device and comment on their regulatory status. It is necessary to describe any potential new risks with such combinations and how these are managed. In addition, it is necessary to ensure that the combined use planned in the investigation does not impact the regulatory status of the other devices or medicinal products.",
+      "he": "יש לציין כל מכשיר או מוצר רפואי (תרופה) אחר שישמש בשילוב עם המכשיר הנחקר ולהעיר על מעמדם הרגולטורי. יש לתאר כל סיכון חדש פוטנציאלי בשילובים כאלה וכיצד הם מנוהלים. בנוסף, יש לוודא שהשימוש המשולב המתוכנן בחקירה אינו משפיע על המעמד הרגולטורי של המכשירים או המוצרים הרפואיים האחרים."
+    },
+    {
+      "id": "appendix-a",
+      "type": "heading",
+      "level": 1,
+      "number": "Appendix A",
+      "en": "Appendix A — Cross-references between requirements in Annex XV chapter II of the MDR and the Clinical Investigation submission package",
+      "he": "נספח A — הפניות צולבות בין הדרישות בנספח XV פרק II ל-MDR לבין חבילת ההגשה של החקירה הקלינית"
+    },
+    {
+      "id": "appendix-a-p1",
+      "type": "paragraph",
+      "en": "Prior to submission of the IB, sponsor may complete this checklist to ensure the IB meets the minimum requirements for validation of the application per article 70 of the MDR. The checklist, if used, should be included together with the IB in the submission to facilitate the validation by the competent authority.",
+      "he": "טרם הגשת ה-IB, נותן החסות רשאי להשלים רשימת תיוג זו כדי להבטיח שה-IB עומד בדרישות המינימליות לאימות הבקשה לפי סעיף 70 ל-MDR. רשימת התיוג, אם נעשה בה שימוש, צריכה להיכלל יחד עם ה-IB בהגשה כדי להקל על האימות על ידי הרשות המוסמכת."
+    },
+    {
+      "id": "appendix-a-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          { "en": "Requirement (Annex XV Chapter II (2): Investigator's Brochure — information in IB or enclosed as separate documents with a summary provided in the IB. If enclosed as separate documents, a clear reference within the IB should be made to the enclosed documents.)", "he": "דרישה (נספח XV פרק II (2): חוברת החוקר — מידע ב-IB או מצורף כמסמכים נפרדים עם תקציר המסופק ב-IB. אם מצורף כמסמכים נפרדים, יש לציין ב-IB הפניה ברורה למסמכים המצורפים.)" },
+          { "en": "Description of requirement", "he": "תיאור הדרישה" },
+          { "en": "Location within submission package", "he": "מיקום בתוך חבילת ההגשה" }
+        ],
+        [
+          { "en": "Annex XV 2.1", "he": "נספח XV 2.1" },
+          { "en": "Identification and description of the device", "he": "זיהוי ותיאור המכשיר" },
+          { "en": "Document / Page", "he": "מסמך / עמוד" }
+        ],
+        [
+          { "en": "2.1", "he": "2.1" },
+          { "en": "Identification of the device", "he": "זיהוי המכשיר" },
+          { "en": "Document / Page", "he": "מסמך / עמוד" }
+        ],
+        [
+          { "en": "2.1", "he": "2.1" },
+          { "en": "Information on the intended purpose", "he": "מידע על המטרה המיועדת" },
+          { "en": "Document / Page", "he": "מסמך / עמוד" }
+        ],
+        [
+          { "en": "2.1", "he": "2.1" },
+          { "en": "The risk classification and applicable classification rule pursuant to Annex VIII", "he": "סיווג הסיכון וכלל הסיווג הרלוונטי בהתאם לנספח VIII" },
+          { "en": "Document / Page", "he": "מסמך / עמוד" }
+        ],
+        [
+          { "en": "2.1", "he": "2.1" },
+          { "en": "Design of the device", "he": "תכן המכשיר" },
+          { "en": "Document / Page", "he": "מסמך / עמוד" }
+        ],
+        [
+          { "en": "2.1", "he": "2.1" },
+          { "en": "Manufacturing of the device", "he": "ייצור המכשיר" },
+          { "en": "Document / Page", "he": "מסמך / עמוד" }
+        ],
+        [
+          { "en": "2.1", "he": "2.1" },
+          { "en": "Reference to previous and similar generations of the device.", "he": "הפניה לדורות קודמים ודומים של המכשיר." },
+          { "en": "Document / Page", "he": "מסמך / עמוד" }
+        ],
+        [
+          { "en": "2.2", "he": "2.2" },
+          { "en": "Manufacturer's instructions for installation, maintenance, maintaining hygiene standards and for use, including storage and handling requirements", "he": "הוראות היצרן להתקנה, תחזוקה, שמירה על תקני היגיינה ולשימוש, לרבות דרישות אחסון וטיפול" },
+          { "en": "Document / Page", "he": "מסמך / עמוד" }
+        ],
+        [
+          { "en": "2.2", "he": "2.2" },
+          { "en": "Information to be placed on the label", "he": "מידע שיוצב על התווית" },
+          { "en": "Document / Page", "he": "מסמך / עמוד" }
+        ],
+        [
+          { "en": "2.2", "he": "2.2" },
+          { "en": "Instructions for use to be provided with the device.", "he": "הוראות שימוש שיסופקו עם המכשיר." },
+          { "en": "Document / Page", "he": "מסמך / עמוד" }
+        ],
+        [
+          { "en": "2.2", "he": "2.2" },
+          { "en": "Information relating to any relevant training required.", "he": "מידע בנוגע לכל הכשרה רלוונטית הנדרשת." },
+          { "en": "Document / Page", "he": "מסמך / עמוד" }
+        ],
+        [
+          { "en": "2.3", "he": "2.3" },
+          { "en": "Pre-clinical evaluation based on pre-clinical testing and experimental data in particular as applicable; in-design calculations, in-vitro test, ex-vivo test, animal test, mechanical test, electrical test, reliability test, sterilization validation, software verification and validation, performance test, evaluation of biocompatibility and biological safety. Summary and evaluation of pre-clinical/non-clinical data", "he": "הערכה פרה-קלינית המבוססת על בדיקה פרה-קלינית ונתונים ניסויים בפרט לפי העניין; חישובי תכן, בדיקת in-vitro, בדיקת ex-vivo, ניסוי בבעלי חיים, בדיקה מכנית, בדיקה חשמלית, בדיקת אמינות, תיקוף עיקור, אימות ותיקוף תוכנה, בדיקת ביצועים, הערכת ביו-תאימות ובטיחות ביולוגית. תקציר והערכה של נתונים פרה-קליניים/בלתי-קליניים" },
+          { "en": "Document(s) / Page", "he": "מסמך(ים) / עמוד" }
+        ],
+        [
+          { "en": "2.4", "he": "2.4" },
+          { "en": "Existing clinical data, in particular available literature or other clinical data available relating to safety, performance and clinical benefit", "he": "נתונים קליניים קיימים, בפרט ספרות זמינה או נתונים קליניים אחרים זמינים הנוגעים לבטיחות, לביצועים ולתועלת הקלינית" },
+          { "en": "Document / Page", "he": "מסמך / עמוד" }
+        ],
+        [
+          { "en": "2.5", "he": "2.5" },
+          { "en": "Summary of the benefit risk analysis and risk management", "he": "תקציר ניתוח התועלת-סיכון וניהול הסיכונים" },
+          { "en": "Document / Page", "he": "מסמך / עמוד" }
+        ],
+        [
+          { "en": "2.5", "he": "2.5" },
+          { "en": "Information regarding known or foreseeable risks, any undesirable side effects, contraindications and warnings", "he": "מידע בנוגע לסיכונים ידועים או צפויים, כל תופעות לוואי בלתי-רצויות, התוויות-נגד ואזהרות" },
+          { "en": "Document / Page", "he": "מסמך / עמוד" }
+        ],
+        [
+          { "en": "2.6", "he": "2.6" },
+          { "en": "In case of devices that contains: medicinal substance. Detailed information on the substance, and the risk management in relation to the substance, and evidence for the added value of incorporation of such constituents in relation to the clinical benefit and safety of the device", "he": "במקרה של מכשירים המכילים: חומר רפואי. מידע מפורט על החומר, וניהול הסיכונים ביחס לחומר, וראיות לערך המוסף של שילוב מרכיבים אלה ביחס לתועלת הקלינית ולבטיחות של המכשיר" },
+          { "en": "Document / Page", "he": "מסמך / עמוד" }
+        ],
+        [
+          { "en": "2.6", "he": "2.6" },
+          { "en": "In case of devices that contains: human blood / plasma or derivate. Detailed information on the substance, and the risk management in relation to the substance, and evidence for the added value of incorporation of such constituents in relation to the clinical benefit and safety of the device", "he": "במקרה של מכשירים המכילים: דם / פלזמה אנושיים או נגזרת. מידע מפורט על החומר, וניהול הסיכונים ביחס לחומר, וראיות לערך המוסף של שילוב מרכיבים אלה ביחס לתועלת הקלינית ולבטיחות של המכשיר" },
+          { "en": "Document / Page", "he": "מסמך / עמוד" }
+        ],
+        [
+          { "en": "2.6", "he": "2.6" },
+          { "en": "In case of devices that contains non-viable tissues or cells of human or animal origin, or their derivatives. Detailed information on the tissue/cell their derivate, and the risk management in relation to the tissue, cell or their derivate, and evidence for the added value of incorporation of such constituents in relation to the clinical benefit and safety of the device", "he": "במקרה של מכשירים המכילים רקמות או תאים שאינם ברי-קיימא ממקור אנושי או מן החי, או נגזרותיהם. מידע מפורט על הרקמה/התא ונגזרתם, וניהול הסיכונים ביחס לרקמה, לתא או לנגזרתם, וראיות לערך המוסף של שילוב מרכיבים אלה ביחס לתועלת הקלינית ולבטיחות של המכשיר" },
+          { "en": "Document / Page", "he": "מסמך / עמוד" }
+        ],
+        [
+          { "en": "2.7", "he": "2.7" },
+          { "en": "List of fulfilment of the General Safety and Performance Requirements (GSPR). A list detailing the fulfilment of the relevant general safety and performance requirements set out in Annex I, including the standards and CS applied, in full or in part, as well as a description of the solutions for fulfilling the relevant general safety and performance requirements, in so far as those standards and CS have not or have only been partly fulfilled or are lacking.", "he": "רשימת קיום הדרישות הכלליות לבטיחות וביצועים (GSPR). רשימה המפרטת את קיום הדרישות הכלליות הרלוונטיות לבטיחות וביצועים המפורטות בנספח I, לרבות התקנים וה-CS שיושמו, במלואם או בחלקם, וכן תיאור הפתרונות לקיום הדרישות הכלליות הרלוונטיות לבטיחות וביצועים, ככל שאותם תקנים ו-CS לא קוימו או קוימו רק בחלקם או חסרים." },
+          { "en": "Document / Page", "he": "מסמך / עמוד" }
+        ],
+        [
+          { "en": "2.8", "he": "2.8" },
+          { "en": "A detailed description of the clinical procedures and diagnostic tests used in the course of the clinical investigation and in particular information on any deviation from normal clinical practice.", "he": "תיאור מפורט של הפרוצדורות הקליניות והבדיקות האבחוניות שבשימוש במהלך החקירה הקלינית, ובפרט מידע על כל סטייה מהפרקטיקה הקלינית הרגילה." },
+          { "en": "Document / Page", "he": "מסמך / עמוד" }
+        ]
+      ]
+    }
+  ]
+}

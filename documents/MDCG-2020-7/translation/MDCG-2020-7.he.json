@@ -1,0 +1,507 @@
+{
+  "id": "MDCG-2020-7",
+  "title": {
+    "en": "Post-market clinical follow-up (PMCF) Plan Template — A guide for manufacturers and notified bodies",
+    "he": "תבנית תוכנית למעקב קליני שלאחר שיווק (PMCF) — מדריך ליצרנים ולגופים מאונתרים"
+  },
+  "category": "Clinical Investigation and Evaluation",
+  "publicationDate": "2020-04",
+  "source": {
+    "url": "https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en",
+    "file": "original/mdcg_2020-7_en.pdf"
+  },
+  "language": "he",
+  "direction": "rtl",
+  "translationStatus": "review",
+  "glossaryVersion": "2026-06",
+  "blocks": [
+    {
+      "id": "disclaimer-1",
+      "type": "paragraph",
+      "en": "This document has been endorsed by the Medical Device Coordination Group (MDCG) established by Article 103 of Regulation (EU) 2017/745. The MDCG is composed of representatives of all Member States and it is chaired by a representative of the European Commission. The document is not a European Commission document and it cannot be regarded as reflecting the official position of the European Commission. Any views expressed in this document are not legally binding and only the Court of Justice of the European Union can give binding interpretations of Union law.",
+      "he": "מסמך זה אושר על ידי קבוצת תיאום המכשירים הרפואיים (MDCG) שהוקמה מכוח סעיף 103 לתקנה (האיחוד האירופי) 2017/745. ה-MDCG מורכבת מנציגים של כל המדינות החברות ובראשה עומד נציג של הנציבות האירופית. המסמך אינו מסמך של הנציבות האירופית ואין לראות בו כמשקף את העמדה הרשמית של הנציבות האירופית. כל דעה המובעת במסמך זה אינה מחייבת מבחינה משפטית, ורק בית הדין לצדק של האיחוד האירופי מוסמך לתת פרשנות מחייבת לדין האיחוד."
+    },
+    {
+      "id": "contents",
+      "type": "heading",
+      "level": 1,
+      "en": "Contents",
+      "he": "תוכן העניינים"
+    },
+    {
+      "id": "contents-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Introduction", "he": "מבוא" },
+        { "en": "Post-market clinical follow-up plan Template", "he": "תבנית תוכנית למעקב קליני שלאחר שיווק" },
+        { "en": "Section A. Manufacturer contact details", "he": "סעיף A. פרטי קשר של היצרן" },
+        { "en": "Section B. Medical Device description and specification", "he": "סעיף B. תיאור ומפרט המכשיר הרפואי" },
+        { "en": "Section C. Activities related to PMCF: general and specific methods and procedures", "he": "סעיף C. פעילויות הקשורות ל-PMCF: שיטות ונהלים כלליים וספציפיים" },
+        { "en": "Section D. Reference to the relevant parts of the technical documentation", "he": "סעיף D. הפניה לחלקים הרלוונטיים של התיעוד הטכני" },
+        { "en": "Section E. Evaluation of clinical data relating to equivalent or similar devices", "he": "סעיף E. הערכת נתונים קליניים הנוגעים למכשירים שווי-ערך או דומים" },
+        { "en": "Section F. Reference to any applicable common specification(s), harmonized standard(s) or applicable guidance document(s)", "he": "סעיף F. הפניה לכל מפרט/ים משותף/ים, תקן/ים מתואם/ים או מסמך/י הנחיה ישימים" },
+        { "en": "Section G. – Estimated date of the PMCF evaluation report", "he": "סעיף G. – מועד משוער של דוח הערכת ה-PMCF" }
+      ]
+    },
+    {
+      "id": "intro",
+      "type": "heading",
+      "level": 1,
+      "en": "Introduction",
+      "he": "מבוא"
+    },
+    {
+      "id": "intro-p1",
+      "type": "paragraph",
+      "en": "The Medical Device Regulation (EU) 2017/745 (MDR) considers the post-market clinical follow-up (PMCF) as a continuous process that updates the clinical evaluation and that shall be addressed in the manufacturer's post-market surveillance (PMS) plan. The MDR reinforces the PMCF process by the manufacturer, devoting part B of Annex XIV to it and providing a set of requirements for developing a plan, necessary to implement PMCF.",
+      "he": "תקנת המכשירים הרפואיים (האיחוד האירופי) 2017/745 (MDR) רואה במעקב קליני שלאחר שיווק (PMCF) תהליך מתמשך המעדכן את ההערכה הקלינית ואשר יש לתת עליו את הדעת בתוכנית המעקב שלאחר שיווק (PMS) של היצרן. ה-MDR מחזקת את תהליך ה-PMCF על ידי היצרן, מקדישה לו את חלק B של נספח XIV ומספקת מערך דרישות לפיתוח תוכנית, הנחוצה ליישום ה-PMCF."
+    },
+    {
+      "id": "intro-p2",
+      "type": "paragraph",
+      "en": "A PMCF plan shall specify the methods and procedures set up by the manufacturer, to proactively collect and evaluate clinical data from the use in or on humans of a CE marked medical device, placed on the market or put into service within its intended purpose, as referred to in the relevant conformity assessment procedure.",
+      "he": "תוכנית PMCF תפרט את השיטות והנהלים שקבע היצרן, לאיסוף ולהערכה יזומים של נתונים קליניים מהשימוש בתוך או על בני אדם במכשיר רפואי הנושא סימון CE, אשר הוצב בשוק או הופעל במסגרת מטרתו המיועדת, כפי שמתואר בנוהל הערכת ההתאמה הרלוונטי."
+    },
+    {
+      "id": "intro-p3",
+      "type": "paragraph",
+      "en": "The aim of the PMCF plan is:",
+      "he": "מטרת תוכנית ה-PMCF היא:"
+    },
+    {
+      "id": "intro-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "confirming the safety and performance, including the clinical benefit if applicable, of the device throughout its expected lifetime;", "he": "אישור הבטיחות¹ והביצועים, לרבות התועלת הקלינית אם רלוונטי, של המכשיר לאורך אורך חייו הצפוי;" },
+        { "en": "identifying previously unknown side-effects and monitor the identified side-effects and contraindications;", "he": "זיהוי תופעות לוואי שלא היו ידועות קודם לכן וניטור תופעות הלוואי וההתוויות-נגד שזוהו;" },
+        { "en": "identifying and analysing emergent risks on the basis of factual evidence;", "he": "זיהוי וניתוח של סיכונים מתהווים על בסיס ראיות עובדתיות;" },
+        { "en": "ensuring the continued acceptability of the benefit-risk ratio, referred to in Section 1 and 9 of Annex I in the MDR;", "he": "הבטחת המשך הקבילות של יחס התועלת-סיכון, הנזכר בסעיף 1 וסעיף 9 לנספח I ל-MDR;" },
+        { "en": "identifying possible systematic misuse or off-label use of the device, with a view to verifying that the intended purpose is correct.", "he": "זיהוי אפשרי של שימוש לרעה שיטתי או שימוש מחוץ לתווית (off-label) במכשיר, במטרה לוודא כי המטרה המיועדת נכונה." }
+      ]
+    },
+    {
+      "id": "intro-p4",
+      "type": "paragraph",
+      "en": "The PMCF plan shall be part of the post-market surveillance plan.",
+      "he": "תוכנית ה-PMCF תהווה חלק מתוכנית המעקב שלאחר שיווק."
+    },
+    {
+      "id": "intro-p5",
+      "type": "paragraph",
+      "en": "The findings of the PMCF shall be analysed by the manufacturer who shall document the results in a PMCF evaluation report. The PMCF evaluation report shall be part of the clinical evaluation report and the technical documentation. The adequateness of the PMCF plan and its application is subject to assessment by the notified body. The notified body's assessment of the clinical evaluation shall also cover the manufacturer's procedures and documentation of the PMCF, as well as the justification in relation to non-performance of PMCF.",
+      "he": "ממצאי ה-PMCF ינותחו על ידי היצרן, אשר יתעד את התוצאות בדוח הערכת PMCF. דוח הערכת ה-PMCF יהווה חלק מדוח ההערכה הקלינית ומהתיעוד הטכני. נאותותה של תוכנית ה-PMCF ויישומה כפופים להערכה על ידי הגוף המאונתר. הערכת ההערכה הקלינית על ידי הגוף המאונתר תכסה גם את נהלי היצרן ואת התיעוד של ה-PMCF, וכן את הנימוק בנוגע לאי-ביצוע PMCF."
+    },
+    {
+      "id": "intro-p6",
+      "type": "paragraph",
+      "en": "The purpose of the present template is to guide manufacturers in complying with the requirements of the MDR with respect to the compilation of the PMCF plan. This would assist manufacturers in a harmonised and complete presentation of post market clinical data and facilitate the activity of notified bodies and competent authorities in finding the information in an organised format.",
+      "he": "מטרת תבנית זו היא להנחות יצרנים בעמידה בדרישות ה-MDR בנוגע להרכבת תוכנית ה-PMCF. הדבר יסייע ליצרנים בהצגה מתואמת ושלמה של נתונים קליניים שלאחר שיווק ויקל על פעילות הגופים המאונתרים והרשויות המוסמכות במציאת המידע בפורמט מסודר."
+    },
+    {
+      "id": "fn-1",
+      "type": "note",
+      "marker": "1",
+      "en": "The confirmation of the safety includes the acceptability of identified risks and particularly residual risks.",
+      "he": "אישור הבטיחות כולל את קבילותם של סיכונים שזוהו ובפרט סיכונים שיוריים (residual risks)."
+    },
+    {
+      "id": "template",
+      "type": "heading",
+      "level": 1,
+      "en": "Post-market clinical follow-up plan Template",
+      "he": "תבנית תוכנית למעקב קליני שלאחר שיווק"
+    },
+    {
+      "id": "template-fields",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "PMCF plan number:", "he": "מספר תוכנית PMCF:" },
+        { "en": "PMCF plan date:", "he": "תאריך תוכנית PMCF:" },
+        { "en": "PMCF plan version:", "he": "גרסת תוכנית PMCF:" }
+      ]
+    },
+    {
+      "id": "revision-history-h",
+      "type": "heading",
+      "level": 2,
+      "en": "Revision history",
+      "he": "היסטוריית מהדורות"
+    },
+    {
+      "id": "revision-history-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          { "en": "Rev", "he": "מהדורה" },
+          { "en": "Revision date", "he": "תאריך המהדורה" },
+          { "en": "Description of change", "he": "תיאור השינוי" },
+          { "en": "Revised by", "he": "תוקן על ידי" }
+        ]
+      ]
+    },
+    {
+      "id": "sec-a",
+      "type": "heading",
+      "level": 2,
+      "number": "A",
+      "en": "Section A. Manufacturer contact details",
+      "he": "סעיף A. פרטי קשר של היצרן"
+    },
+    {
+      "id": "sec-a-fields",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Legal manufacturer name:", "he": "שם היצרן המשפטי:" },
+        { "en": "Address:", "he": "כתובת:" },
+        { "en": "SRN:", "he": "מספר רישום יחיד (SRN):" },
+        { "en": "Person responsible for regulatory compliance:", "he": "האדם האחראי על עמידה ברגולציה (PRRC):" },
+        { "en": "E-mail:", "he": "דוא\"ל:" },
+        { "en": "Phone:", "he": "טלפון:" },
+        { "en": "Fax:", "he": "פקס:" },
+        { "en": "Authorised representative (if applicable):", "he": "נציג מורשה (אם רלוונטי):" },
+        { "en": "Address:", "he": "כתובת:" },
+        { "en": "Contact person:", "he": "איש קשר:" },
+        { "en": "E-mail:", "he": "דוא\"ל:" },
+        { "en": "Phone:", "he": "טלפון:" },
+        { "en": "Fax:", "he": "פקס:" }
+      ]
+    },
+    {
+      "id": "sec-b",
+      "type": "heading",
+      "level": 2,
+      "number": "B",
+      "en": "Section B. Medical Device description and specification",
+      "he": "סעיף B². תיאור ומפרט המכשיר הרפואי"
+    },
+    {
+      "id": "sec-b-fields",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Product or trade name:", "he": "שם המוצר או השם המסחרי:" },
+        { "en": "Model and type:", "he": "דגם וסוג:" },
+        { "en": "General description of the device:", "he": "תיאור כללי של המכשיר:" },
+        { "en": "Intended purpose:", "he": "מטרה מיועדת³:" },
+        { "en": "Intended users", "he": "משתמשים מיועדים" },
+        { "en": "Basic UDI-DI:", "he": "UDI-DI בסיסי (Basic UDI-DI):" },
+        { "en": "Intended patient population:", "he": "אוכלוסיית המטופלים המיועדת:" },
+        { "en": "Medical condition(s):", "he": "מצב/ים רפואי/ים⁴:" },
+        { "en": "Indications:", "he": "התוויות:" },
+        { "en": "Contraindications:", "he": "התוויות-נגד:" },
+        { "en": "Warnings:", "he": "אזהרות:" },
+        { "en": "List and description of any variants and/or configurations covered by this plan:", "he": "רשימה ותיאור של כל וריאנט ו/או תצורה המכוסים בתוכנית זו:" },
+        { "en": "List of any accessories covered by this plan:", "he": "רשימה של כל אביזר המכוסה בתוכנית זו:" },
+        { "en": "Certificate number (if available):", "he": "מספר תעודה (אם זמין):" },
+        { "en": "CND code(s):", "he": "קוד/י CND⁵:" },
+        { "en": "Class:", "he": "סיווג:" },
+        { "en": "Classification rule:", "he": "כלל סיווג:" },
+        { "en": "Expected lifetime:", "he": "אורך חיים צפוי:⁶" }
+      ]
+    },
+    {
+      "id": "sec-b-novel-table",
+      "type": "table",
+      "header": false,
+      "rows": [
+        [
+          { "en": "Novel product:", "he": "מוצר חדשני:" },
+          { "en": "☐ yes ☐ no", "he": "☐ כן ☐ לא" }
+        ],
+        [
+          { "en": "Novel related clinical procedure:", "he": "נוהל קליני חדשני קשור:" },
+          { "en": "☐ yes ☐ no", "he": "☐ כן ☐ לא" }
+        ],
+        [
+          { "en": "Explanation of any novel features:", "he": "הסבר על כל מאפיין חדשני:" },
+          { "en": "", "he": "" }
+        ]
+      ]
+    },
+    {
+      "id": "fn-2",
+      "type": "note",
+      "marker": "2",
+      "en": "MDR, Annex II, 1,1.",
+      "he": "MDR, נספח II, 1,1."
+    },
+    {
+      "id": "fn-3",
+      "type": "note",
+      "marker": "3",
+      "en": "Intended purpose means the use for which a device is intended according to the data supplied by the manufacturer on the label in the instructions for use or in promotional or sales materials or statements and as specified by the manufacturer in the clinical evaluation (MDR, Article 2(12)).",
+      "he": "מטרה מיועדת משמעה השימוש שלשמו מיועד מכשיר על פי הנתונים שמספק היצרן בתיוג, בהוראות השימוש או בחומרי קידום או מכירה או בהצהרות, וכפי שהיצרן מציין בהערכה הקלינית (MDR, סעיף 2(12))."
+    },
+    {
+      "id": "fn-4",
+      "type": "note",
+      "marker": "4",
+      "en": "It refers to the clinical condition that is to be diagnosed, prevented, monitored, treated, alleviated, compensated for, replaced, modified or controlled by the medical device",
+      "he": "מתייחס למצב הקליני שאותו יש לאבחן, למנוע, לנטר, לטפל, להקל, לפצות, להחליף, לשנות או לשלוט באמצעות המכשיר הרפואי."
+    },
+    {
+      "id": "fn-5",
+      "type": "note",
+      "marker": "5",
+      "en": "Per article 26 of MDR.",
+      "he": "על פי סעיף 26 ל-MDR."
+    },
+    {
+      "id": "fn-6",
+      "type": "note",
+      "marker": "6",
+      "en": "The expected lifetime is to be defined during the design input phase by considering the current state of the art for a specific intended use and indication of a device.",
+      "he": "אורך החיים הצפוי ייקבע במהלך שלב קלט התכן (design input) תוך התחשבות במצב הידע העדכני (state of the art) עבור ייעוד והתוויה ספציפיים של מכשיר."
+    },
+    {
+      "id": "sec-c",
+      "type": "heading",
+      "level": 2,
+      "number": "C",
+      "en": "Section C. Activities related to PMCF: general and specific methods and procedures",
+      "he": "סעיף C. פעילויות הקשורות ל-PMCF: שיטות ונהלים כלליים וספציפיים"
+    },
+    {
+      "id": "sec-c-p1",
+      "type": "paragraph",
+      "en": "In this section it is expected to describe the different activities that will be conducted in post-market, including general and specific methods / procedures to conduct in relation to the product covered by the scope of PMCF, also the aim of each activity described and the rational for the appropriateness of the chosen general and specific methods to achieve those objectives as well as the known limitations of the planned activities such as for example incomplete follow up, missing data and so on. The timelines of those activities shall be also defined quarterly or at least yearly.",
+      "he": "בסעיף זה מצופה לתאר את הפעילויות השונות שיבוצעו בשלב שלאחר השיווק, לרבות שיטות/נהלים כלליים וספציפיים לביצוע בנוגע למוצר המכוסה בתחולת ה-PMCF, וכן את מטרת כל פעילות המתוארת, את הנימוק להתאמת השיטות הכלליות והספציפיות שנבחרו להשגת מטרות אלה, וכן את המגבלות הידועות של הפעילויות המתוכננות, כגון מעקב לא שלם, נתונים חסרים וכן הלאה. כן יוגדרו לוחות הזמנים של פעילויות אלה רבעונית או לכל הפחות שנתית."
+    },
+    {
+      "id": "sec-c-p2",
+      "type": "paragraph",
+      "en": "Here are some examples of different activities related to PMCF:",
+      "he": "להלן דוגמאות אחדות לפעילויות שונות הקשורות ל-PMCF:"
+    },
+    {
+      "id": "sec-c-examples",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "A manufacturer device registry (specific for the type of device or the group of the medical devices the product belongs to) can be indicated together with a description and a summary of the plan. A pre-specification of what quality and quantity data – based on the risk of the device(s) and the associated accessories – to be collected and analysed shall be included. Any possible evaluation of suitable national public registries with clinical data on the manufacturer's own device and/or on similar devices could be specified in this section, identifying the expected quantity and quality of data to be gathered and the search protocols to be adopted.", "he": "ניתן לציין מרשם מכשירים של היצרן (ספציפי לסוג המכשיר או לקבוצת המכשירים הרפואיים שאליה משתייך המוצר) יחד עם תיאור וסיכום של התוכנית. יש לכלול מפרט מוקדם של אילו נתונים מבחינת איכות וכמות – על בסיס הסיכון של המכשיר/ים והאביזרים הנלווים – ייאספו וינותחו. בסעיף זה ניתן לפרט כל הערכה אפשרית של מרשמים ציבוריים לאומיים מתאימים הכוללים נתונים קליניים על מכשיר היצרן עצמו ו/או על מכשירים דומים, תוך זיהוי הכמות והאיכות הצפויות של הנתונים שייאספו ופרוטוקולי החיפוש שיאומצו." },
+        { "en": "PMCF studies planned could be indicated in this section, together with a summary of the plan including the design, sample size, the endpoints, the inclusion/exclusion criteria (e.g. extended follow up of patients included in the pre-market clinical investigations, new clinical investigations within the intended use, retrospective studies). In case of implantable devices and class III devices where clinical investigations have not been performed pursuant to Article 61 (4), the PMCF plan shall include post market studies to confirm the safety and performance of the device.", "he": "ניתן לציין בסעיף זה מחקרי PMCF מתוכננים, יחד עם סיכום של התוכנית הכולל את התכנון, גודל המדגם, נקודות הקצה, קריטריוני ההכללה/ההוצאה (למשל מעקב מורחב אחר מטופלים שנכללו בחקירות הקליניות הקדם-שיווקיות, חקירות קליניות חדשות במסגרת הייעוד, מחקרים רטרוספקטיביים). במקרה של מכשירים מושתלים ומכשירים מסיווג III שלגביהם לא בוצעו חקירות קליניות על פי סעיף 61(4), תכלול תוכנית ה-PMCF מחקרים שלאחר שיווק לאישור הבטיחות והביצועים של המכשיר." },
+        { "en": "Planned Real-world evidence (RWE) analyses could be indicated in this section, together with a summary of the plan including the design, sample size, the endpoints, and analysis population. The real-world data (RWD) from which these analyses are based on should be of sufficient quality and come from reliable data sources.", "he": "ניתן לציין בסעיף זה ניתוחי ראיות מהעולם האמיתי (Real-world evidence, RWE) מתוכננים, יחד עם סיכום של התוכנית הכולל את התכנון, גודל המדגם, נקודות הקצה ואוכלוסיית הניתוח. נתוני העולם האמיתי (Real-world data, RWD) שעליהם מתבססים ניתוחים אלה צריכים להיות באיכות מספקת ולהגיע ממקורות נתונים מהימנים." },
+        { "en": "Surveys planned to collect information about the use of the concerned medical device could be described.", "he": "ניתן לתאר סקרים מתוכננים לאיסוף מידע על השימוש במכשיר הרפואי הנוגע בדבר." }
+      ]
+    },
+    {
+      "id": "sec-c-p3",
+      "type": "paragraph",
+      "en": "Each activity will be developed in a different subsection (e.g. C.1, C.2, …), and for which the manufacturer will:",
+      "he": "כל פעילות תפותח בתת-סעיף נפרד (למשל C.1, C.2, …), ולגביה היצרן:"
+    },
+    {
+      "id": "sec-c-list-main",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Define where the need of conducting the PMCF activity is coming from (requested by notified body, clinical evaluation report, PMS, risk management report, previous PMCF report, etc…)", "he": "יגדיר מהיכן נובע הצורך בביצוע פעילות ה-PMCF (נדרש על ידי הגוף המאונתר, דוח הערכה קלינית, PMS, דוח ניהול סיכונים, דוח PMCF קודם וכד')" },
+        { "en": "Provide the description of activity, and if it is a general or specific procedure / method.", "he": "יספק את תיאור הפעילות, ואם מדובר בנוהל/שיטה כלליים או ספציפיים." }
+      ]
+    },
+    {
+      "id": "sec-c-aim-intro",
+      "type": "paragraph",
+      "en": "Define the aim of this activity:",
+      "he": "יגדיר את מטרת פעילות זו:"
+    },
+    {
+      "id": "sec-c-aim-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "confirming the safety of the medical device", "he": "אישור הבטיחות של המכשיר הרפואי" },
+        { "en": "confirming the performance of the medical device", "he": "אישור הביצועים של המכשיר הרפואי" },
+        { "en": "identifying previously unknown side-effects (related to the procedures or to the medical devices).", "he": "זיהוי תופעות לוואי שלא היו ידועות קודם לכן (הקשורות לנהלים או למכשירים הרפואיים)." },
+        { "en": "monitoring the identified side-effects and contraindications", "he": "ניטור תופעות הלוואי וההתוויות-נגד שזוהו" },
+        { "en": "identifying and analysing emergent risks", "he": "זיהוי וניתוח של סיכונים מתהווים" },
+        { "en": "ensuring the continued acceptability of the benefit-risk ratio", "he": "הבטחת המשך הקבילות של יחס התועלת-סיכון" },
+        { "en": "identifying possible systematic misuse or off-label use of the device", "he": "זיהוי אפשרי של שימוש לרעה שיטתי או שימוש מחוץ לתווית (off-label) במכשיר" }
+      ]
+    },
+    {
+      "id": "sec-c-proc-intro",
+      "type": "paragraph",
+      "en": "Describe the different procedures which will be used as part of PMCF:",
+      "he": "יתאר את הנהלים השונים שישמשו כחלק מה-PMCF:"
+    },
+    {
+      "id": "sec-c-proc-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "screening of scientific literature and other sources of clinical data", "he": "סקירת ספרות מדעית ומקורות אחרים של נתונים קליניים" },
+        { "en": "post-market studies", "he": "מחקרים שלאחר שיווק" },
+        { "en": "collecting data in registries", "he": "איסוף נתונים במרשמים" },
+        { "en": "survey from health care professional", "he": "סקר מאנשי מקצוע הבריאות" },
+        { "en": "survey from patients/users", "he": "סקר ממטופלים/משתמשים" },
+        { "en": "review of case reports which may reveal misuse or off-label use", "he": "סקירת דיווחי מקרים העשויים לחשוף שימוש לרעה או שימוש מחוץ לתווית" }
+      ]
+    },
+    {
+      "id": "sec-c-rationale-intro",
+      "type": "paragraph",
+      "en": "Describe the rationale for the appropriateness of the chosen methods/procedures, including:",
+      "he": "יתאר את הנימוק להתאמת השיטות/הנהלים שנבחרו, לרבות:"
+    },
+    {
+      "id": "sec-c-rationale-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "the justification for sample size, timescales and endpoints", "he": "ההצדקה לגודל המדגם, ללוחות הזמנים ולנקודות הקצה" },
+        { "en": "justification for comparator, on the basis of intended purpose and state of the art", "he": "ההצדקה למשווה (comparator), על בסיס המטרה המיועדת ומצב הידע העדכני (state of the art)" },
+        { "en": "justification of the study design on the basis of all of the above, and why it is sufficient to ensure representative patient populations and provide for adequate controls on sources of bias (an evaluation of the potential sources of bias should form part of this)", "he": "ההצדקה לתכנון המחקר על בסיס כל האמור לעיל, ומדוע די בו כדי להבטיח אוכלוסיות מטופלים מייצגות ולספק בקרות נאותות על מקורות הטיה (הערכה של מקורות ההטיה הפוטנציאליים צריכה להוות חלק מכך)" },
+        { "en": "a statistical justification for the expected quality of outcomes, and justification for why this is satisfactory in light of the residual risks. This is an important consideration. For example, retrospective surveys with no justification other than \"this should demonstrate the expected quality of evidence that we require,\" but without showing a statistical rationale, are not acceptable.", "he": "הצדקה סטטיסטית לאיכות התוצאות הצפויה, והצדקה מדוע היא מספקת לאור הסיכונים השיוריים. זהו שיקול חשוב. למשל, סקרים רטרוספקטיביים ללא הצדקה מלבד \"זה אמור להדגים את איכות הראיות הצפויה שאנו נדרשים לה\", אך ללא הצגת הנמקה סטטיסטית, אינם קבילים." }
+      ]
+    },
+    {
+      "id": "sec-c-timelines",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Provide the timelines of the activity. A detailed and adequately justified time schedule for PMCF activities, such as the analysis of PMCF data and reporting, shall be described.", "he": "יספק את לוחות הזמנים של הפעילות. יש לתאר לוח זמנים מפורט ומנומק כראוי לפעילויות ה-PMCF, כגון ניתוח נתוני ה-PMCF והדיווח." }
+      ]
+    },
+    {
+      "id": "sec-c-table-intro",
+      "type": "paragraph",
+      "en": "A summary table of the different PMCF activities foreseen by the manufacturer is provided below:",
+      "he": "להלן טבלת סיכום של פעילויות ה-PMCF השונות הצפויות על ידי היצרן:"
+    },
+    {
+      "id": "sec-c-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          { "en": "Number of activity", "he": "מספר הפעילות" },
+          { "en": "Description of activity", "he": "תיאור הפעילות" },
+          { "en": "Aim of the activity", "he": "מטרת הפעילות" },
+          { "en": "Rationale and known limitations of the activity", "he": "נימוק ומגבלות ידועות של הפעילות" },
+          { "en": "Timelines of the activity", "he": "לוחות הזמנים של הפעילות" }
+        ]
+      ]
+    },
+    {
+      "id": "sec-d",
+      "type": "heading",
+      "level": 2,
+      "number": "D",
+      "en": "Section D. Reference to the relevant parts of the technical documentation",
+      "he": "סעיף D. הפניה לחלקים הרלוונטיים של התיעוד הטכני"
+    },
+    {
+      "id": "sec-d-p1",
+      "type": "paragraph",
+      "en": "In this section the manufacturer is required to include references to the relevant information from the clinical evaluation report and from the risk management file, which need to be analysed, followed up, and evaluated in this plan. As an alternative, the manufacturer is required to state that there is no relevant information from the clinical evaluation report and/or from the risk management file to be considered in this plan.",
+      "he": "בסעיף זה נדרש היצרן לכלול הפניות למידע הרלוונטי מדוח ההערכה הקלינית ומתיק ניהול הסיכונים, שיש לנתח, לעקוב אחריו ולהעריך בתוכנית זו. לחלופין, נדרש היצרן לציין כי אין מידע רלוונטי מדוח ההערכה הקלינית ו/או מתיק ניהול הסיכונים שיש לשקול בתוכנית זו."
+    },
+    {
+      "id": "sec-d-fields",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Clinical Evaluation Report (date and version)", "he": "דוח הערכה קלינית (תאריך וגרסה)" },
+        { "en": "Relevant information to be further analysed and monitored:", "he": "מידע רלוונטי שיש לנתחו ולנטרו בהמשך:" },
+        { "en": "Risk Management File (date and version)", "he": "תיק ניהול סיכונים (תאריך וגרסה)" },
+        { "en": "Relevant information to be further analysed and monitored:", "he": "מידע רלוונטי שיש לנתחו ולנטרו בהמשך:" }
+      ]
+    },
+    {
+      "id": "sec-d-checkboxes",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "☐ No relevant information from the clinical evaluation report to be considered in this plan", "he": "☐ אין מידע רלוונטי מדוח ההערכה הקלינית שיש לשקול בתוכנית זו" },
+        { "en": "☐ No relevant information from the risk management file to be considered in this plan", "he": "☐ אין מידע רלוונטי מתיק ניהול הסיכונים שיש לשקול בתוכנית זו" }
+      ]
+    },
+    {
+      "id": "sec-e",
+      "type": "heading",
+      "level": 2,
+      "number": "E",
+      "en": "Section E. Evaluation of clinical data relating to equivalent or similar devices",
+      "he": "סעיף E. הערכת נתונים קליניים הנוגעים למכשירים שווי-ערך או דומים⁷"
+    },
+    {
+      "id": "sec-e-p1",
+      "type": "paragraph",
+      "en": "The manufacturer shall gather in this section information regarding equivalent / similar devices for which clinical data will be further evaluated and presented in the PMCF report.",
+      "he": "בסעיף זה יאסוף היצרן מידע בנוגע למכשירים שווי-ערך / דומים שלגביהם ינותחו ויוצגו נתונים קליניים בהמשך בדוח ה-PMCF."
+    },
+    {
+      "id": "sec-e-p2",
+      "type": "paragraph",
+      "en": "Please note that PMCF data intended to demonstrate continuing safety and performance should be sourced from the device under evaluation. Data from equivalent or similar devices may be used, for example to update the information relating to the state of the art, to identify and further assess relevant safety outcomes etc.",
+      "he": "יש לשים לב כי נתוני PMCF שנועדו להדגים בטיחות וביצועים מתמשכים צריכים להגיע מהמכשיר המוערך. נתונים ממכשירים שווי-ערך או דומים עשויים לשמש, למשל לעדכון המידע הנוגע למצב הידע העדכני (state of the art), לזיהוי ולהערכה נוספת של תוצאות בטיחות רלוונטיות וכד'."
+    },
+    {
+      "id": "sec-e-p3",
+      "type": "paragraph",
+      "en": "The selected devices shall be consistent throughout the technical documentation. Indicate whether the selected device is demonstrated to be equivalent or is a similar device. For each device listed, a clear reference to the pertinent parts of the CER can be made. The following items of each equivalent and/or similar devices would be at least provided, in a table format:",
+      "he": "המכשירים הנבחרים יהיו עקביים לאורך כל התיעוד הטכני. יש לציין אם הוכח כי המכשיר הנבחר שווה-ערך או שמדובר במכשיר דומה. עבור כל מכשיר ברשימה ניתן להפנות בבירור לחלקים הרלוונטיים של דוח ההערכה הקלינית (CER). הפריטים הבאים של כל מכשיר שווה-ערך ו/או דומה יסופקו לכל הפחות, בפורמט טבלה:"
+    },
+    {
+      "id": "sec-e-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          { "en": "Product name of equivalent / similar device", "he": "שם המוצר של המכשיר שווה-הערך / הדומה" },
+          { "en": "Intended purpose", "he": "מטרה מיועדת" },
+          { "en": "Intended users", "he": "משתמשים מיועדים" },
+          { "en": "Intended patient population", "he": "אוכלוסיית המטופלים המיועדת" },
+          { "en": "Medical condition", "he": "מצב רפואי" },
+          { "en": "Indication", "he": "התוויה" },
+          { "en": "Reference to clinical data evaluation in the CER (date, version and location in the text)", "he": "הפניה להערכת הנתונים הקליניים ב-CER (תאריך, גרסה ומיקום בטקסט)" }
+        ]
+      ]
+    },
+    {
+      "id": "fn-7",
+      "type": "note",
+      "marker": "7",
+      "en": "Section 5, MDCG 2020-5 Clinical Evaluation – Equivalence, A guide for manufacturers and notified bodies.",
+      "he": "סעיף 5, MDCG 2020-5 הערכה קלינית – שוויון-ערך (Equivalence), מדריך ליצרנים ולגופים מאונתרים."
+    },
+    {
+      "id": "sec-f",
+      "type": "heading",
+      "level": 2,
+      "number": "F",
+      "en": "Section F. Reference to any applicable common specification(s), harmonized standard(s) or applicable guidance document(s)",
+      "he": "סעיף F. הפניה לכל מפרט/ים משותף/ים, תקן/ים מתואם/ים או מסמך/י הנחיה ישימים"
+    },
+    {
+      "id": "sec-f-fields",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Common specification(s) to comply with, if applicable: (Title, date and version)", "he": "מפרט/ים משותף/ים שיש לעמוד בהם, אם רלוונטי: (כותרת, תאריך וגרסה)" },
+        { "en": "Harmonised standards to apply, if applicable (Title, date and version)", "he": "תקנים מתואמים שיש להחיל, אם רלוונטי (כותרת, תאריך וגרסה)" },
+        { "en": "Guidance on PMCF, if applicable (Title, date and version)", "he": "הנחיה בנושא PMCF, אם רלוונטי (כותרת, תאריך וגרסה)" }
+      ]
+    },
+    {
+      "id": "sec-g",
+      "type": "heading",
+      "level": 2,
+      "number": "G",
+      "en": "Section G. – Estimated date of the PMCF evaluation report",
+      "he": "סעיף G. – מועד משוער של דוח הערכת ה-PMCF"
+    },
+    {
+      "id": "sec-g-p1",
+      "type": "paragraph",
+      "en": "When the manufacturer plans to have the first report. The timelines shall be defined quarterly or at least yearly.",
+      "he": "מתי היצרן מתכנן שיהיה לו הדוח הראשון. לוחות הזמנים יוגדרו רבעונית או לכל הפחות שנתית."
+    }
+  ]
+}

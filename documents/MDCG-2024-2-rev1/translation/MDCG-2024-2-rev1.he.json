@@ -1,0 +1,398 @@
+{
+  "id": "MDCG-2024-2-rev1",
+  "title": {
+    "en": "MDCG 2024-2 Rev.1 — Procedures for the updates of the European Medical Device Nomenclature",
+    "he": "MDCG 2024-2 Rev.1 — נהלים לעדכון הנומנקלטורה האירופית למכשירים רפואיים (EMDN)"
+  },
+  "category": "European Medical Device Nomenclature (EMDN)",
+  "publicationDate": "2025-01",
+  "source": {
+    "url": "https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en",
+    "file": "original/mdcg_2024-2_en.pdf"
+  },
+  "language": "he",
+  "direction": "rtl",
+  "translationStatus": "review",
+  "glossaryVersion": "2026-06",
+  "blocks": [
+    {
+      "id": "doc-title",
+      "type": "heading",
+      "level": 1,
+      "en": "Procedures for the updates of the European Medical Device Nomenclature",
+      "he": "נהלים לעדכון הנומנקלטורה האירופית למכשירים רפואיים (EMDN)"
+    },
+    {
+      "id": "doc-subtitle",
+      "type": "paragraph",
+      "en": "Revision 1 – January 2025",
+      "he": "מהדורה 1 – ינואר 2025"
+    },
+    {
+      "id": "disclaimer-1",
+      "type": "paragraph",
+      "en": "This document has been endorsed by the Medical Device Coordination Group (MDCG) established by Article 103 of Regulation (EU) 2017/745. The MDCG is composed of representatives of all Member States and it is chaired by a representative of the European Commission.",
+      "he": "מסמך זה אושר על ידי קבוצת תיאום המכשירים הרפואיים (MDCG) שהוקמה מכוח סעיף 103 לתקנה (האיחוד האירופי) 2017/745. ה-MDCG מורכבת מנציגים של כל המדינות החברות ובראשה עומד נציג של הנציבות האירופית."
+    },
+    {
+      "id": "disclaimer-2",
+      "type": "paragraph",
+      "en": "The document is not a European Commission document and it cannot be regarded as reflecting the official position of the European Commission. Any views expressed in this document are not legally binding and only the Court of Justice of the European Union can give binding interpretations of Union law.",
+      "he": "המסמך אינו מסמך של הנציבות האירופית ואין לראות בו כמשקף את העמדה הרשמית של הנציבות האירופית. כל דעה המובעת במסמך זה אינה מחייבת מבחינה משפטית, ורק בית הדין לצדק של האיחוד האירופי מוסמך לתת פרשנות מחייבת לדין האיחוד."
+    },
+    {
+      "id": "revhist-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Revision history",
+      "he": "היסטוריית מהדורות"
+    },
+    {
+      "id": "revhist-table",
+      "type": "table",
+      "header": false,
+      "rows": [
+        [
+          { "en": "First publication", "he": "פרסום ראשון" },
+          { "en": "", "he": "" },
+          { "en": "February 2024", "he": "פברואר 2024" }
+        ],
+        [
+          { "en": "First revision", "he": "מהדורה ראשונה" },
+          { "en": "", "he": "" },
+          { "en": "January 2025", "he": "ינואר 2025" }
+        ],
+        [
+          { "en": "", "he": "" },
+          { "en": "General", "he": "כללי" },
+          { "en": "Inserting table for ad hoc procedure aligning with newly published template form for submissions", "he": "הוספת טבלה עבור הנוהל האד-הוק, בהתאמה לטופס התבנית שפורסם לאחרונה להגשת בקשות" }
+        ]
+      ]
+    },
+    {
+      "id": "intro-heading",
+      "type": "heading",
+      "level": 1,
+      "en": "Procedures for the updates of the European Medical Device Nomenclature",
+      "he": "נהלים לעדכון הנומנקלטורה האירופית למכשירים רפואיים (EMDN)"
+    },
+    {
+      "id": "intro-p1",
+      "type": "paragraph",
+      "en": "The European Medical Device Nomenclature (EMDN), as established by Article 26 of Regulation (EU) 2017/745 – Medical Device Regulation (MDR) and Article 23 of Regulation (EU) 2017/746 - In Vitro Diagnostic medical devices Regulation (IVDR), will be annually reviewed and updated based on the practical use of the EMDN and feedback from its users.",
+      "he": "הנומנקלטורה האירופית למכשירים רפואיים (EMDN), כפי שנקבעה בסעיף 26 לתקנה (האיחוד האירופי) 2017/745 – תקנת המכשירים הרפואיים (MDR) ובסעיף 23 לתקנה (האיחוד האירופי) 2017/746 – תקנת המכשירים הרפואיים לאבחון חוץ-גופי (IVDR), תיבחן ותעודכן מדי שנה בהתבסס על השימוש המעשי ב-EMDN ועל המשוב ממשתמשיה."
+    },
+    {
+      "id": "intro-p2",
+      "type": "paragraph",
+      "en": "This document lays out the procedures for the annual revision as well as the procedure for ad-hoc requests requiring an expedited review.",
+      "he": "מסמך זה מתווה את הנהלים למהדורה השנתית וכן את הנוהל לבקשות אד-הוק המחייבות בחינה מזורזת."
+    },
+    {
+      "id": "sec-a",
+      "type": "heading",
+      "level": 1,
+      "number": "A",
+      "en": "Actors involved",
+      "he": "הגורמים המעורבים"
+    },
+    {
+      "id": "sec-a-nomwg-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "MDCG Nomenclature working group",
+      "he": "קבוצת העבודה לנומנקלטורה של ה-MDCG"
+    },
+    {
+      "id": "sec-a-nomwg-p1",
+      "type": "paragraph",
+      "en": "The Nomenclature working group (“NOM WG”) is an expert group established under the Medical Device Coordination Group (“MDCG”) per Article 103(7) of the MDR responsible for managing, maintaining and monitoring the use of the EMDN.",
+      "he": "קבוצת העבודה לנומנקלטורה (“NOM WG”) היא קבוצת מומחים שהוקמה תחת קבוצת תיאום המכשירים הרפואיים (“MDCG”) מכוח סעיף 103(7) ל-MDR, האחראית לניהול, לתחזוקה ולניטור של השימוש ב-EMDN."
+    },
+    {
+      "id": "sec-a-nomwg-p2",
+      "type": "paragraph",
+      "en": "The NOM WG provides assistance and advice to the Medical Device Coordination Group (MDCG) on all implementation issues related to the EMDN with the aim of supporting the functioning of the future European database on medical devices (EUDAMED).",
+      "he": "ה-NOM WG מספקת סיוע וייעוץ לקבוצת תיאום המכשירים הרפואיים (MDCG) בכל סוגיות היישום הקשורות ל-EMDN, במטרה לתמוך בתפקודו של מסד הנתונים האירופי העתידי למכשירים רפואיים (EUDAMED)."
+    },
+    {
+      "id": "sec-a-nomwg-p3",
+      "type": "paragraph",
+      "en": "In particular, the NOM WG provides relevant advice in matters related to the update and maintenance of the EU nomenclature, which is made available by the Commission, in accordance with Article 26 of Regulation (EU) 2017/745 and Article 23 of Regulation (EU) 2017/746.",
+      "he": "בפרט, ה-NOM WG מספקת ייעוץ רלוונטי בעניינים הקשורים לעדכון ולתחזוקה של הנומנקלטורה של האיחוד האירופי, המועמדת לרשות הציבור על ידי הנציבות, בהתאם לסעיף 26 לתקנה (האיחוד האירופי) 2017/745 ולסעיף 23 לתקנה (האיחוד האירופי) 2017/746."
+    },
+    {
+      "id": "sec-a-nomwg-p4",
+      "type": "paragraph",
+      "en": "The NOM WG is composed of representatives of Member States' competent authorities who are experts in the particular policy area. The group also includes economic operators, healthcare professionals, notified bodies, hospitals, laboratories, patients and consumers at Union level which are appointed as observers to the working group, as a result of a public call for applications.",
+      "he": "ה-NOM WG מורכבת מנציגי הרשויות המוסמכות של המדינות החברות, אשר הם מומחים בתחום המדיניות הספציפי. הקבוצה כוללת גם גורמים כלכליים, אנשי מקצוע הבריאות, גופים מאונתרים, בתי חולים, מעבדות, מטופלים וצרכנים ברמת האיחוד, אשר ממונים כמשקיפים בקבוצת העבודה, כתוצאה מקול קורא ציבורי להגשת מועמדויות."
+    },
+    {
+      "id": "sec-a-emdntt-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "EMDN-TT",
+      "he": "EMDN-TT"
+    },
+    {
+      "id": "sec-a-emdntt-p1",
+      "type": "paragraph",
+      "en": "The European Medical Device Nomenclature Technical Team (EMDN-TT) is a smaller technical group established under the Nomenclature WG which is composed of technical experts appointed by the Italian Consortium instituted for the implementation of project “Supporting the Maintenance of the European Medical Device Nomenclature” with the purpose to assess and review proposals, or to provide draft amendments, which include the definition of new and revisions of existing codes of the EMDN for the MDCG Nomenclature WG’s consideration.",
+      "he": "הצוות הטכני של הנומנקלטורה האירופית למכשירים רפואיים (EMDN-TT) הוא קבוצה טכנית קטנה יותר שהוקמה תחת קבוצת העבודה לנומנקלטורה, המורכבת ממומחים טכניים שמונו על ידי הקונסורציום האיטלקי¹ שהוקם ליישום הפרויקט “תמיכה בתחזוקת הנומנקלטורה האירופית למכשירים רפואיים”, במטרה להעריך ולבחון הצעות, או לספק טיוטות תיקונים, הכוללות הגדרה של קודים חדשים ומהדורות של קודים קיימים של ה-EMDN, לעיון קבוצת העבודה לנומנקלטורה של ה-MDCG."
+    },
+    {
+      "id": "fn-1",
+      "type": "note",
+      "marker": "1",
+      "en": "Italian Consortium set up for the implementation of SMEMDN project, (HS – g- 22 – 19.02) is composed of the Ministry of Health (MOH) and by Friuli Venezia – Giulia Region (FVG – REG)",
+      "he": "הקונסורציום האיטלקי שהוקם ליישום פרויקט SMEMDN, (HS – g- 22 – 19.02) מורכב ממשרד הבריאות (MOH) ומחבל פריולי ונציה ג'וליה (FVG – REG)."
+    },
+    {
+      "id": "sec-a-users-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Users",
+      "he": "משתמשים"
+    },
+    {
+      "id": "sec-a-users-p1",
+      "type": "paragraph",
+      "en": "Users of the EMDN include but are not limited to competent authorities, notified bodies, manufacturers, authorised representatives, importers, distributors, and persons referred to in Art. 22(1,3), trade associations, professional bodies, healthcare professionals, hospitals, laboratories, patients, consumers and the World Health Organization (WHO).",
+      "he": "משתמשי ה-EMDN כוללים, בין היתר, רשויות מוסמכות, גופים מאונתרים, יצרנים, נציגים מורשים, יבואנים, מפיצים, ואנשים הנזכרים בסעיף 22(1,3), איגודי מסחר, גופים מקצועיים, אנשי מקצוע הבריאות, בתי חולים, מעבדות, מטופלים, צרכנים וארגון הבריאות העולמי (WHO)."
+    },
+    {
+      "id": "sec-b",
+      "type": "heading",
+      "level": 1,
+      "number": "B",
+      "en": "Procedure for the annual revision of the EMDN",
+      "he": "הנוהל למהדורה השנתית של ה-EMDN"
+    },
+    {
+      "id": "sec-b-p1",
+      "type": "paragraph",
+      "en": "The annual revisions of the EMDN will proceed by means of four phases. During each phase, different tasks and objectives are undertaken by different actors.",
+      "he": "המהדורות השנתיות של ה-EMDN יתבצעו באמצעות ארבעה שלבים. בכל שלב מתבצעות משימות ומטרות שונות על ידי גורמים שונים."
+    },
+    {
+      "id": "sec-b-phase1-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Phase I – Collection of requests (January)",
+      "he": "שלב I – איסוף בקשות (ינואר)"
+    },
+    {
+      "id": "sec-b-phase1-p1",
+      "type": "paragraph",
+      "en": "Phase I of the procedure involves the collection of requests from users through the platform for EMDN requests. The platform for requests will be available year-long. However, the deadline for submitting requests for processing in that same calendar year is 31 January 20XX.",
+      "he": "שלב I של הנוהל כולל את איסוף הבקשות מהמשתמשים באמצעות הפלטפורמה לבקשות EMDN². הפלטפורמה לבקשות תהיה זמינה לאורך כל השנה. עם זאת, המועד האחרון להגשת בקשות לעיבוד באותה שנה קלנדרית הוא 31 בינואר 20XX."
+    },
+    {
+      "id": "fn-2",
+      "type": "note",
+      "marker": "2",
+      "en": "https://webgate.ec.europa.eu/dyna2/emdn/",
+      "he": "https://webgate.ec.europa.eu/dyna2/emdn/"
+    },
+    {
+      "id": "sec-b-phase2-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Phase II – Evaluation of the requests and analysis of the practical use (February – July)",
+      "he": "שלב II – הערכת הבקשות וניתוח השימוש המעשי (פברואר – יולי)"
+    },
+    {
+      "id": "sec-b-phase2-p1",
+      "type": "paragraph",
+      "en": "Phase II of the procedure involves a technical evaluation by the EMDN-TT of the:",
+      "he": "שלב II של הנוהל כולל הערכה טכנית מטעם ה-EMDN-TT של:"
+    },
+    {
+      "id": "sec-b-phase2-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "en": "requests submitted during Phase I,",
+          "he": "בקשות שהוגשו במהלך שלב I,"
+        },
+        {
+          "en": "requests by the NOM WG,",
+          "he": "בקשות מטעם ה-NOM WG,"
+        },
+        {
+          "en": "EMDN usage in EUDAMED (e.g. review of devices registered with multiple codes, review of devices registered with code extension “99”).",
+          "he": "השימוש ב-EMDN במסגרת EUDAMED (למשל, בחינת מכשירים הרשומים עם קודים מרובים, בחינת מכשירים הרשומים עם הרחבת קוד “99”)."
+        }
+      ]
+    },
+    {
+      "id": "sec-b-phase2-p2",
+      "type": "paragraph",
+      "en": "Following the technical evaluation, a first draft proposal for the update of the EMDN is prepared. This proposal and the list of rejected requests are submitted to the NOM WG for review.",
+      "he": "בעקבות ההערכה הטכנית, מוכנה טיוטת הצעה ראשונה לעדכון ה-EMDN. הצעה זו ורשימת הבקשות שנדחו מוגשות ל-NOM WG לבחינה."
+    },
+    {
+      "id": "sec-b-phase3-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Phase III – Validation and endorsement (August – October)",
+      "he": "שלב III – אימות ואישור (אוגוסט – אוקטובר)"
+    },
+    {
+      "id": "sec-b-phase3-p1",
+      "type": "paragraph",
+      "en": "Under Phase III of the procedure, the NOM WG reviews the proposal submitted at the end of Phase II and provides feedback on the proposed changes to the EMDN-TT, as necessary. Following the processing of feedback, a final draft is then endorsed by the NOM WG.",
+      "he": "במסגרת שלב III של הנוהל, ה-NOM WG בוחנת את ההצעה שהוגשה בתום שלב II ומספקת משוב על השינויים המוצעים ל-EMDN-TT, ככל שיידרש. בעקבות עיבוד המשוב, הטיוטה הסופית מאושרת על ידי ה-NOM WG."
+    },
+    {
+      "id": "sec-b-phase4-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Phase IV – MDCG endorsement and publication (November – December)",
+      "he": "שלב IV – אישור ה-MDCG ופרסום (נובמבר – דצמבר)"
+    },
+    {
+      "id": "sec-b-phase4-p1",
+      "type": "paragraph",
+      "en": "Phase IV of the procedure is the final part of the annual cycle and involves the endorsement of the final draft by the MDCG and publication of the officially endorsed update in EUDAMED and the EMDN browser. After MDCG endorsement, translations are elaborated in all EU languages and are validated by the NOM WG.",
+      "he": "שלב IV של הנוהל הוא החלק האחרון במחזור השנתי, וכולל את אישור הטיוטה הסופית על ידי ה-MDCG ופרסום העדכון שאושר רשמית ב-EUDAMED ובדפדפן ה-EMDN. לאחר אישור ה-MDCG, מוכנים תרגומים בכל שפות האיחוד האירופי, אשר מאומתים על ידי ה-NOM WG."
+    },
+    {
+      "id": "sec-b-note",
+      "type": "note",
+      "en": "Note: the above-described timetable for annual updates may be subject to revision depending on the number of requests received.",
+      "he": "הערה: לוח הזמנים שתואר לעיל עבור העדכונים השנתיים עשוי להיות נתון לשינוי בהתאם למספר הבקשות המתקבלות."
+    },
+    {
+      "id": "sec-c",
+      "type": "heading",
+      "level": 1,
+      "number": "C",
+      "en": "Pilot procedure for the ad-hoc updates of the EMDN requiring an expedited review",
+      "he": "נוהל פיילוט לעדכונים אד-הוק של ה-EMDN המחייבים בחינה מזורזת"
+    },
+    {
+      "id": "sec-c-p1",
+      "type": "paragraph",
+      "en": "The general rule remains that all requests must proceed through the annual procedure. For reasons related to established need, only requests submitted by competent authorities and notified bodies qualify under the ad-hoc procedure.",
+      "he": "הכלל הכללי נותר כי כל הבקשות חייבות לעבור דרך הנוהל השנתי. מטעמים הקשורים לצורך מבוסס, רק בקשות המוגשות על ידי רשויות מוסמכות וגופים מאונתרים כשירות לנוהל האד-הוק."
+    },
+    {
+      "id": "sec-c-p2",
+      "type": "paragraph",
+      "en": "Under the ad-hoc update procedure, only new code requests may be submitted. If the new code request results in the need to render obsolete or split other codes, then the request will be redirected to the annual procedure pathway.",
+      "he": "במסגרת נוהל העדכון האד-הוק, ניתן להגיש אך ורק בקשות לקוד חדש. אם הבקשה לקוד חדש מובילה לצורך להפוך קודים אחרים למיושנים או לפצלם, אזי הבקשה תופנה למסלול הנוהל השנתי."
+    },
+    {
+      "id": "sec-c-info-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Information to be submitted by applicants",
+      "he": "מידע שעל המבקשים להגיש"
+    },
+    {
+      "id": "sec-c-info-p1",
+      "type": "paragraph",
+      "en": "A form must be filled out by the applicant which can be found on the Commission’s website under ‘Guidance - MDCG endorsed documents and other guidance’. This form will require the following non-exhaustive information:",
+      "he": "על המבקש למלא טופס, אשר ניתן למצוא באתר האינטרנט של הנציבות תחת ‘Guidance - MDCG endorsed documents and other guidance’. טופס זה ידרוש את המידע הבא, שאינו ממצה:"
+    },
+    {
+      "id": "sec-c-info-table",
+      "type": "table",
+      "header": false,
+      "rows": [
+        [
+          { "en": "1", "he": "1" },
+          { "en": "Name of NCA / NB", "he": "שם הרשות הלאומית המוסמכת (NCA) / הגוף המאונתר (NB)" }
+        ],
+        [
+          { "en": "2", "he": "2" },
+          { "en": "Indication if the request is needed for the registration in the UDI-DI module of EUDAMED", "he": "ציון האם הבקשה נדרשת לצורך הרישום במודול UDI-DI של EUDAMED" }
+        ],
+        [
+          { "en": "3", "he": "3" },
+          { "en": "Established need demonstration, justification as to why the request should be assessed under the ad-hoc procedure", "he": "הוכחת צורך מבוסס, נימוק מדוע יש להעריך את הבקשה במסגרת הנוהל האד-הוק" }
+        ],
+        [
+          { "en": "4", "he": "4" },
+          { "en": "Justification as to why currently existing codes cannot be utilized", "he": "נימוק מדוע לא ניתן להשתמש בקודים הקיימים כיום" }
+        ],
+        [
+          { "en": "5", "he": "5" },
+          { "en": "Manufacturer’s name and authorised representative (where applicable)", "he": "שם היצרן והנציג המורשה (במקרים הרלוונטיים)" }
+        ],
+        [
+          { "en": "6", "he": "6" },
+          { "en": "Device name or technology name under question", "he": "שם המכשיר או שם הטכנולוגיה הנדונה" }
+        ],
+        [
+          { "en": "7", "he": "7" },
+          { "en": "Detailed description of the device or technology under question, including its intended purpose;", "he": "תיאור מפורט של המכשיר או הטכנולוגיה הנדונה, לרבות המטרה המיועדת שלו;" }
+        ],
+        [
+          { "en": "8", "he": "8" },
+          { "en": "Indication if this is considered a novel device", "he": "ציון האם המכשיר נחשב למכשיר חדשני³" }
+        ],
+        [
+          { "en": "9", "he": "9" },
+          { "en": "Indication if the device has or will undergo an expert panel assessment", "he": "ציון האם המכשיר עבר או יעבור הערכה של פאנל מומחים" }
+        ],
+        [
+          { "en": "10", "he": "10" },
+          { "en": "EMDN Category, Group, and Type where the code could be added", "he": "קטגוריה, קבוצה וסוג של ה-EMDN שבהם ניתן להוסיף את הקוד" }
+        ],
+        [
+          { "en": "11", "he": "11" },
+          { "en": "Draft term description for the new code", "he": "טיוטת תיאור המונח עבור הקוד החדש" }
+        ],
+        [
+          { "en": "12", "he": "12" },
+          { "en": "Reference to other devices on the market with similar technology, potentially also requiring the use of this new code (where applicable)", "he": "הפניה למכשירים אחרים בשוק בעלי טכנולוגיה דומה, שאף הם עשויים להזדקק לשימוש בקוד חדש זה (במקרים הרלוונטיים)" }
+        ],
+        [
+          { "en": "13", "he": "13" },
+          { "en": "Additional information (e.g. reference to other nomenclature, if any)", "he": "מידע נוסף (למשל, הפניה לנומנקלטורה אחרת, ככל שקיימת)" }
+        ]
+      ]
+    },
+    {
+      "id": "sec-c-process-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "Processing of the ad-hoc requests",
+      "he": "עיבוד הבקשות האד-הוק"
+    },
+    {
+      "id": "sec-c-process-p1",
+      "type": "paragraph",
+      "en": "Requests should be submitted to SANTE-EMDN@ec.europa.eu. Following receipt of the completed form, the Commission will circulate the information provided by the applicant to the EMDN-TT for a written consultation. Following assessment of the request, the EMDN-TT will provide feedback to the Commission who in turn will inform the applicant whether the application is eligible for the ad-hoc procedure.",
+      "he": "יש להגיש בקשות לכתובת SANTE-EMDN@ec.europa.eu. לאחר קבלת הטופס המלא, הנציבות תפיץ את המידע שמסר המבקש ל-EMDN-TT לצורך התייעצות בכתב. בעקבות הערכת הבקשה, ה-EMDN-TT יספק משוב לנציבות, אשר בתורה תיידע את המבקש האם הבקשה כשירה לנוהל האד-הוק."
+    },
+    {
+      "id": "sec-c-process-p2",
+      "type": "paragraph",
+      "en": "If the request is considered ineligible, the user will be informed and their submission will be deferred for an assessment under the annual update procedure.",
+      "he": "אם הבקשה תיחשב לבלתי כשירה, המשתמש יקבל על כך הודעה והגשתו תידחה להערכה במסגרת נוהל העדכון השנתי."
+    },
+    {
+      "id": "sec-c-process-p3",
+      "type": "paragraph",
+      "en": "If the request is considered eligible for the ad-hoc procedure, it is further analysed by EMDN-TT and a technical proposal is elaborated and circulated with the NOM-WG for review and endorsement. Following the NOM-WG’s endorsement, the MDCG endorses the final version of the technical proposal.",
+      "he": "אם הבקשה תיחשב לכשירה לנוהל האד-הוק, היא תנותח לעומק על ידי ה-EMDN-TT, ותגובש הצעה טכנית שתופץ ל-NOM-WG לבחינה ולאישור. בעקבות אישור ה-NOM-WG, ה-MDCG מאשרת את הגרסה הסופית של ההצעה הטכנית."
+    },
+    {
+      "id": "sec-c-process-p4",
+      "type": "paragraph",
+      "en": "During the annual review procedure, ad-hoc updates will be reflected in the annual EMDN updated version.",
+      "he": "במהלך נוהל הבחינה השנתי, העדכונים האד-הוק ישתקפו בגרסה השנתית המעודכנת של ה-EMDN."
+    },
+    {
+      "id": "fn-3",
+      "type": "note",
+      "marker": "3",
+      "en": "In the form, novel device refers to item 8: “Indication if this is considered a novel device”.",
+      "he": "בטופס, “מכשיר חדשני” מתייחס לפריט 8: “ציון האם המכשיר נחשב למכשיר חדשני”."
+    }
+  ]
+}

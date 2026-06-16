@@ -11,8 +11,8 @@
 
 | Item | Status |
 |------|--------|
-| Original (EN) | ⬜ Not yet added |
-| Hebrew translation | ⬜ Not yet started |
+| Original (EN) | ✅ `original/mdcg_2023-3_en.pdf` |
+| Hebrew translation | 🔍 Under review (full translation done) |
 
 ---
 
@@ -20,11 +20,16 @@
 
 | File | Description |
 |------|-------------|
-| `original/` | Original English document (PDF) |
-| `translation/` | Hebrew translation |
+| `original/mdcg_2023-3_en.pdf` | Original English document (PDF) |
+| `translation/MDCG-2023-3.he.json` | Canonical bilingual translation (source of truth) |
+| `translation/MDCG-2023-3.he.html` | Hebrew RTL rendering, generated from the JSON |
 
 ---
 
 ## Notes
 
-<!-- Add translation notes, terminology decisions, open questions here -->
+- The PDF present is **Rev.2 (January 2025)**, which covers **both MDR and IVDR** (broader/newer than
+  the original Feb-2023 MDR-only version this scaffold described). The translation reflects the
+  Rev.2 PDF, and the title/date were set accordingly.
+- All 24 Q&A items, the incident/serious-incident definitions table, the management flowchart
+  (rendered descriptively), the worked date examples (Q14/Q15), and all footnotes are translated.

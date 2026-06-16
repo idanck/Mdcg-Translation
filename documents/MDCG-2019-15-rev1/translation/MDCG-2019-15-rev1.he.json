@@ -1,0 +1,1217 @@
+{
+  "id": "MDCG-2019-15-rev1",
+  "title": {
+    "en": "Guidance notes for manufacturers of class I medical devices",
+    "he": "הנחיות ליצרנים של מכשירים רפואיים בסיווג I"
+  },
+  "category": "Class I Devices",
+  "publicationDate": "2019-12",
+  "source": {
+    "url": "https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en",
+    "file": "original/md_guidance-manufacturers_en.pdf"
+  },
+  "language": "he",
+  "direction": "rtl",
+  "translationStatus": "review",
+  "glossaryVersion": "2026-06",
+  "blocks": [
+    {
+      "id": "doc-title",
+      "type": "heading",
+      "level": 1,
+      "en": "MDCG 2019-15 rev.1 — Guidance notes for manufacturers of class I medical devices",
+      "he": "MDCG 2019-15 rev.1 — הנחיות ליצרנים של מכשירים רפואיים בסיווג I"
+    },
+    {
+      "id": "doc-dates",
+      "type": "paragraph",
+      "en": "December 2019 — July 2020 rev.1",
+      "he": "דצמבר 2019 — יולי 2020 גרסה 1 (rev.1)"
+    },
+    {
+      "id": "disclaimer-1",
+      "type": "paragraph",
+      "en": "This document has been endorsed by the Medical Device Coordination Group (MDCG) established by Article 103 of Regulation (EU) 2017/745. The MDCG is composed of representatives of all Member States and it is chaired by a representative of the European Commission.",
+      "he": "מסמך זה אושר על ידי קבוצת תיאום המכשירים הרפואיים (MDCG) שהוקמה מכוח סעיף 103 לתקנה (האיחוד האירופי) 2017/745. ה-MDCG מורכבת מנציגים של כל המדינות החברות ובראשה עומד נציג של הנציבות האירופית."
+    },
+    {
+      "id": "disclaimer-2",
+      "type": "paragraph",
+      "en": "The document is not a European Commission document and it cannot be regarded as reflecting the official position of the European Commission. Any views expressed in this document are not legally binding and only the Court of Justice of the European Union can give binding interpretations of Union law.",
+      "he": "המסמך אינו מסמך של הנציבות האירופית ואין לראות בו כמשקף את העמדה הרשמית של הנציבות האירופית. כל דעה המובעת במסמך זה אינה מחייבת מבחינה משפטית, ורק בית הדין לצדק של האיחוד האירופי מוסמך לתת פרשנות מחייבת לדין האיחוד."
+    },
+
+    {
+      "id": "rev-changes-heading",
+      "type": "heading",
+      "level": 2,
+      "en": "MDCG 2019-15 revision 1 changes",
+      "he": "שינויים בגרסה 1 (revision 1) של MDCG 2019-15"
+    },
+    {
+      "id": "rev-changes-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          { "en": "Change", "he": "שינוי" }
+        ],
+        [
+          { "en": "MDR postponement dates: from 2020 to 2021", "he": "תאריכי דחיית ה-MDR: מ-2020 ל-2021" }
+        ]
+      ]
+    },
+
+    {
+      "id": "acronyms-heading",
+      "type": "heading",
+      "level": 1,
+      "en": "List of acronyms",
+      "he": "רשימת ראשי תיבות"
+    },
+    {
+      "id": "acronyms-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "MDD – Medical Devices Directive", "he": "MDD – הוראת המכשירים הרפואיים (Medical Devices Directive)" },
+        { "en": "MDR – Medical Devices Regulation", "he": "MDR – תקנת המכשירים הרפואיים (Medical Devices Regulation)" },
+        { "en": "FSCA – Field Safety Corrective Action", "he": "FSCA – פעולה מתקנת בשטח (Field Safety Corrective Action)" },
+        { "en": "FSN - Field Safety Notice", "he": "FSN – הודעת בטיחות בשטח (Field Safety Notice)" },
+        { "en": "UDI - Unique Device Identifier", "he": "UDI – מזהה מכשיר ייחודי (Unique Device Identifier)" },
+        { "en": "SRN - Single Registration Number", "he": "SRN – מספר רישום יחיד (Single Registration Number)" },
+        { "en": "NB - Notified Body", "he": "NB – גוף מאונתר (Notified Body)" },
+        { "en": "ISO - International Organization for Standardization", "he": "ISO – הארגון הבין-לאומי לתקינה (International Organization for Standardization)" },
+        { "en": "IEC - International Electrotechnical Commission", "he": "IEC – הוועדה האלקטרוטכנית הבין-לאומית (International Electrotechnical Commission)" },
+        { "en": "CA – Competent Authority", "he": "CA – רשות מוסמכת (Competent Authority)" },
+        { "en": "PPE – Personal Protective Equipment", "he": "PPE – ציוד מגן אישי (Personal Protective Equipment)" },
+        { "en": "QMS - Quality Management System", "he": "QMS – מערכת ניהול איכות (Quality Management System)" },
+        { "en": "Im – Class I devices with measuring function", "he": "Im – מכשירים בסיווג I בעלי תפקוד מדידה (Class I devices with measuring function)" },
+        { "en": "Is – Class I sterile devices", "he": "Is – מכשירים סטריליים בסיווג I (Class I sterile devices)" },
+        { "en": "Ir – Class I reusable surgical instruments", "he": "Ir – מכשירים כירורגיים רב-פעמיים בסיווג I (Class I reusable surgical instruments)" },
+        { "en": "DI – Device Identifier", "he": "DI – מזהה מכשיר (Device Identifier)" },
+        { "en": "Eudamed - European database on medical devices", "he": "Eudamed – מסד הנתונים האירופי למכשירים רפואיים (European database on medical devices)" },
+        { "en": "MD - Medical Device", "he": "MD – מכשיר רפואי (Medical Device)" },
+        { "en": "CS - Common Specification", "he": "CS – מפרט משותף (Common Specification)" },
+        { "en": "PMS – Post Market Surveillance", "he": "PMS – מעקב שלאחר שיווק (Post Market Surveillance)" },
+        { "en": "IFU – Instructions for use", "he": "IFU – הוראות שימוש (Instructions for use)" },
+        { "en": "PMCF - Post Market Clinical Follow-up", "he": "PMCF – מעקב קליני שלאחר שיווק (Post Market Clinical Follow-up)" }
+      ]
+    },
+
+    {
+      "id": "foreword-heading",
+      "type": "heading",
+      "level": 1,
+      "en": "Foreword",
+      "he": "דברי פתיחה"
+    },
+    {
+      "id": "foreword-p1",
+      "type": "paragraph",
+      "en": "These guidance notes do not aim to be a definitive interpretation of Regulation (EU) 2017/745 of the European Parliament and of the Council of 5 April 2017 on medical devices (MDR) and are intended for guidance purposes only.",
+      "he": "הנחיות אלה אינן מתיימרות להוות פרשנות מכרעת לתקנה (האיחוד האירופי) 2017/745 של הפרלמנט האירופי ושל המועצה מ-5 באפריל 2017 בנושא מכשירים רפואיים (MDR), והן מיועדות למטרות הנחיה בלבד."
+    },
+
+    {
+      "id": "intro-heading",
+      "type": "heading",
+      "level": 1,
+      "en": "Introduction",
+      "he": "מבוא"
+    },
+    {
+      "id": "intro-p1",
+      "type": "paragraph",
+      "en": "The purpose of this document is to provide guidance to manufacturers of Class I medical devices (other than custom made devices) who place on the Union market medical devices (from now on referred to as devices) under their name or trade mark, to help them meet the provisions of the MDR. This guidance should also be applicable for situations when an importer, distributor or any other legal person assumes the obligations incumbent on manufacturers, as per Article 16 (1), while not covering the exception indicated by Article 16 (2).",
+      "he": "מטרת מסמך זה היא לספק הנחיה ליצרנים של מכשירים רפואיים בסיווג I (למעט מכשירים מותאמים אישית) המשווקים בשוק האיחוד מכשירים רפואיים (להלן: מכשירים) תחת שמם או סימן המסחר שלהם, על מנת לסייע להם לעמוד בהוראות ה-MDR. הנחיה זו אמורה לחול גם על מצבים שבהם יבואן, מפיץ או כל אדם משפטי אחר נוטל על עצמו את החובות המוטלות על יצרנים, בהתאם לסעיף 16(1), אך אינה חלה על החריג המצוין בסעיף 16(2)."
+    },
+    {
+      "id": "intro-p2",
+      "type": "paragraph",
+      "en": "The MDR has changed the scope of the medical device legislation and it now extends its application to all economic operators in the supply chain (manufacturer, authorised representative, importer and distributor) as well as a broadened range of products such as those specifically intended for the cleaning, disinfection or sterilization of devices (Article 2 (1)) and products without an intended medical purpose (such as certain aesthetic products, as indicated in Annex XVI of the MDR). In addition, more emphasis is placed on a life-cycle approach to safety, backed up by clinical data and new requirements such as transparency and traceability.",
+      "he": "ה-MDR שינה את תחולת חקיקת המכשירים הרפואיים, וכעת הוא מרחיב את תחולתו לכלל הגורמים הכלכליים בשרשרת האספקה (יצרן, נציג מורשה, יבואן ומפיץ), וכן למגוון מורחב של מוצרים, כגון אלה המיועדים במיוחד לניקוי, חיטוי או עיקור של מכשירים (סעיף 2(1)), ומוצרים ללא מטרה רפואית מיועדת (כגון מוצרים אסתטיים מסוימים, כמצוין בנספח XVI ל-MDR). בנוסף, מושם דגש רב יותר על גישת מחזור-חיים לבטיחות, הנתמכת בנתונים קליניים ובדרישות חדשות כגון שקיפות ועקיבות¹."
+    },
+    {
+      "id": "intro-p3",
+      "type": "paragraph",
+      "en": "Before placing a device on the market, the manufacturer will affix the CE mark in accordance with Annex V and draw up the EU declaration of conformity, including all the information required by Annex IV. Prior to that, the manufacturer will demonstrate conformity with the MDR and compliance with the applicable general safety and performance requirements laid out in Annex I.",
+      "he": "לפני שיווק מכשיר, היצרן יצמיד את סימון CE בהתאם לנספח V ויערוך את הצהרת ההתאמה של האיחוד האירופי, הכוללת את כל המידע הנדרש על פי נספח IV. בטרם כן, היצרן יוכיח התאמה ל-MDR ועמידה בדרישות הכלליות לבטיחות וביצועים החלות עליו, המפורטות בנספח I."
+    },
+    {
+      "id": "intro-p4",
+      "type": "paragraph",
+      "en": "In order to accomplish the abovementioned tasks, the manufacturer will carry out the following:",
+      "he": "כדי לבצע את המשימות הנזכרות לעיל, היצרן יבצע את הפעולות הבאות:"
+    },
+    {
+      "id": "intro-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Put in place a quality management system and a system for risk management according to Article 10(2) and 10(9).", "he": "יקים מערכת ניהול איכות ומערכת לניהול סיכונים בהתאם לסעיפים 10(2) ו-10(9)." },
+        { "en": "Conduct a clinical evaluation in accordance with Article 61, as established in Article 10(3) and Annex XV.", "he": "יבצע הערכה קלינית בהתאם לסעיף 61, כפי שנקבע בסעיף 10(3) ובנספח XV." },
+        { "en": "Conduct a conformity assessment according to Article 52(7). In specific cases (sterile devices, devices with measuring function, reusable surgical instruments) defined in the referred Article, the manufacturer will request the involvement of a Notified Body (NB).", "he": "יבצע הערכת התאמה בהתאם לסעיף 52(7). במקרים מסוימים (מכשירים סטריליים, מכשירים בעלי תפקוד מדידה, מכשירים כירורגיים רב-פעמיים) המוגדרים בסעיף האמור, היצרן יבקש את מעורבותו של גוף מאונתר (NB)." },
+        { "en": "Draw up and keep up-to-date technical documentation related to devices as set out in Annexes II and III, in accordance with Article 10(4).", "he": "יערוך וישמור עדכני תיעוד טכני הקשור למכשירים כמפורט בנספחים II ו-III, בהתאם לסעיף 10(4)." },
+        { "en": "Draw up an EU declaration of conformity in accordance with Article 19.", "he": "יערוך הצהרת התאמה של האיחוד האירופי בהתאם לסעיף 19." },
+        { "en": "Submit the required information to the electronic system for registration of economic operators (Eudamed) and comply with the registration obligation. The manufacturer will use the Single Registration Number (SRN) when applying to a NB for conformity assessment, if applicable and for further accessing Eudamed in order to fulfil its obligations related to registration of the devices.", "he": "יגיש את המידע הנדרש למערכת האלקטרונית לרישום גורמים כלכליים (Eudamed) ויעמוד בחובת הרישום. היצרן ישתמש במספר הרישום היחיד (SRN) בעת פנייה לגוף מאונתר לצורך הערכת התאמה, היכן שרלוונטי, ולצורך גישה נוספת ל-Eudamed² כדי לקיים את חובותיו הקשורות לרישום המכשירים." },
+        { "en": "Register the device in Eudamed assigning the Basic UDI-DI to the device, as defined in Part C of Annex VI, and provide this to the UDI database together with the other core data elements referred in Part B of Annex VI related to that device.", "he": "ירשום את המכשיר ב-Eudamed תוך הקצאת ה-Basic UDI-DI למכשיר, כמוגדר בחלק C של נספח VI, ויספק זאת למסד הנתונים של ה-UDI יחד עם שאר רכיבי הנתונים המרכזיים הנזכרים בחלק B של נספח VI הקשורים לאותו מכשיר." },
+        { "en": "Assign to the device and, if applicable, to all higher levels of packaging, a UDI which will allow identification and traceability.", "he": "יקצה למכשיר, ובמידת הצורך לכל רמות האריזה הגבוהות יותר, UDI שיאפשר זיהוי ועקיבות." },
+        { "en": "Ensure that the device is accompanied by the information needed to identify it and its manufacturer, and any safety and performance information relevant to the user, or any other person, as appropriate (Article 10(11)). This information, set out according to Section 23 of Annex I, must be provided in an official Union language(s) determined by the Member State in which the device is made available to the user or patient. The particulars on the label will be indelible, easily legible and clearly comprehensible to the intended user or patient.", "he": "יוודא כי המכשיר מלווה במידע הנדרש לזיהויו ולזיהוי יצרנו, וכן בכל מידע בטיחות וביצועים הרלוונטי למשתמש או לכל אדם אחר, לפי העניין (סעיף 10(11)). מידע זה, המפורט בהתאם לסעיף 23 של נספח I, יסופק בשפה/בשפות רשמיות של האיחוד שנקבעו על ידי המדינה החברה שבה המכשיר מועמד לרשות המשתמש או המטופל. הפרטים על גבי התווית יהיו בלתי מחיקים, קריאים בנקל וברורים להבנה למשתמש או למטופל המיועד." },
+        { "en": "Implement a post-market surveillance system in accordance with Article 83 (Article 10(10)) proportional to the risk class and appropriate for the type of device, this includes additional aspects to be taken into account in case of devices placed on the market in sterile condition, with a measuring function or that are reusable surgical instruments. This system will be an integral part of the manufacturer's quality management system based on a post-market surveillance plan (Article 84), which will be part of the technical documentation specified in Annex III.", "he": "יממש מערכת מעקב שלאחר שיווק בהתאם לסעיף 83 (סעיף 10(10)), בפרופורציה לסיווג הסיכון ובהתאמה לסוג המכשיר; הדבר כולל היבטים נוספים שיש להביא בחשבון במקרה של מכשירים המשווקים במצב סטרילי, בעלי תפקוד מדידה, או שהם מכשירים כירורגיים רב-פעמיים. מערכת זו תהיה חלק בלתי נפרד ממערכת ניהול האיכות של היצרן, המבוססת על תוכנית מעקב שלאחר שיווק (סעיף 84), אשר תהיה חלק מהתיעוד הטכני המפורט בנספח III." },
+        { "en": "Implement a system for recording and reporting incidents and field safety corrective actions as described in Articles 87 and 88 (Article 10(13)).", "he": "יממש מערכת לתיעוד ולדיווח על אירועים ועל פעולות מתקנות בשטח כמתואר בסעיפים 87 ו-88 (סעיף 10(13))." },
+        { "en": "Put measures in place to provide sufficient financial coverage in respect of their potential liability under Directive 85/374/EEC, without prejudice to more protective measures under national law. These measures will be proportional to the risk class, type of device and the size of the enterprise (Article 10(16)).", "he": "ינקוט אמצעים לאספקת כיסוי כספי מספק ביחס לחבותו האפשרית על פי הוראה 85/374/EEC³, מבלי לגרוע מאמצעים מגנים יותר על פי הדין הלאומי. אמצעים אלה יהיו בפרופורציה לסיווג הסיכון, לסוג המכשיר ולגודל המיזם (סעיף 10(16))." }
+      ]
+    },
+    {
+      "id": "intro-p5",
+      "type": "paragraph",
+      "en": "Further detail on the aforementioned list of obligations is provided in the chapter “Placing Class I medical devices on the market”.",
+      "he": "פירוט נוסף על רשימת החובות הנזכרת לעיל מובא בפרק \"שיווק מכשירים רפואיים בסיווג I\"."
+    },
+    {
+      "id": "intro-p6",
+      "type": "paragraph",
+      "en": "For devices placed on the market in a sterile condition, with a measuring function or which are reusable surgical instruments, the manufacturer will apply the procedures set out in Chapters I and III of Annex IX, or in Part A of Annex XI which require a NB assessment, limited to critical aspects such as those concerning sterile condition, metrological requirements and the reuse of the device, as relevant, according with Article 52 (7 a, b and c).",
+      "he": "עבור מכשירים המשווקים במצב סטרילי, בעלי תפקוד מדידה, או שהם מכשירים כירורגיים רב-פעמיים, היצרן יישם את ההליכים המפורטים בפרקים I ו-III של נספח IX, או בחלק A של נספח XI, המחייבים הערכת גוף מאונתר, המוגבלת להיבטים קריטיים כגון אלה הנוגעים למצב סטרילי, לדרישות מטרולוגיות ולשימוש החוזר במכשיר, לפי העניין, בהתאם לסעיף 52(7 א, ב ו-ג)."
+    },
+    {
+      "id": "fn-1",
+      "type": "note",
+      "marker": "1",
+      "en": "More information can be found at https://ec.europa.eu/health/md_sector/overview",
+      "he": "מידע נוסף ניתן למצוא בכתובת https://ec.europa.eu/health/md_sector/overview"
+    },
+    {
+      "id": "fn-2",
+      "type": "note",
+      "marker": "2",
+      "en": "Regarding all references to Eudamed in this document, please be advised that for the purposes of this guidance, obligations strictly related to Eudamed will only apply when it is fully functional and any updates will be published on the EU Commission webpage.",
+      "he": "בנוגע לכל ההפניות ל-Eudamed במסמך זה, יש לשים לב כי לצורך הנחיה זו, חובות הקשורות באופן בלעדי ל-Eudamed יחולו רק כאשר הוא יהיה פעיל במלואו, וכל עדכון יפורסם בדף האינטרנט של הנציבות האירופית."
+    },
+    {
+      "id": "fn-3",
+      "type": "note",
+      "marker": "3",
+      "en": "Council Directive 85/374/EEC of 25 July 1985 on the approximation of the laws, regulations and administrative provisions of the Member States concerning liability for defective products",
+      "he": "הוראת המועצה 85/374/EEC מ-25 ביולי 1985 בדבר קירוב החוקים, התקנות וההוראות המנהליות של המדינות החברות הנוגעים לחבות בגין מוצרים פגומים."
+    },
+    {
+      "id": "intro-fig1",
+      "type": "paragraph",
+      "en": "Figure 1. Illustration of the conformity procedures for the assessment of Class I devices with and without NB involvement.",
+      "he": "איור 1. המחשה של הליכי ההתאמה להערכת מכשירים בסיווג I עם וללא מעורבות גוף מאונתר (NB)."
+    },
+    {
+      "id": "intro-p7",
+      "type": "paragraph",
+      "en": "For big and medium size enterprises, the manufacturer will have available within their organization at least one person responsible for regulatory compliance, as established by Article 15. Micro and small enterprises are required to have such person permanently and continuously at their disposal.",
+      "he": "במיזמים גדולים ובינוניים, היצרן יעמיד לרשותו בתוך ארגונו לפחות אדם אחד האחראי על ציות רגולטורי⁴, כפי שנקבע בסעיף 15. ממיזמים זעירים וקטנים⁵ נדרש שיעמוד לרשותם אדם כזה באופן קבוע ורציף."
+    },
+    {
+      "id": "intro-p8",
+      "type": "paragraph",
+      "en": "A manufacturer with a registered place of business outside the Union will designate a sole authorised representative, at least per each generic device group, according to a written mandate. Such a mandate will establish the tasks to be performed by the authorised representative. To enable the fulfilment of these tasks, the manufacturer ensures that the authorised representative has the necessary documentation permanently available and up-to date. The mandate will require the authorised representative to perform at least the tasks described in Article 11(3), however the manufacturer cannot delegate its obligations laid down in Article 10(1), (2), (3), (4), (6), (7), (9), (10), (11) and (12). In case of the change of authorised representative, Article 12 establishes the minimum content of agreement to be addressed between the manufacturer, where practicable the outgoing authorised representative, and the incoming authorised representative.",
+      "he": "יצרן שמקום עסקו הרשום נמצא מחוץ לאיחוד ימנה נציג מורשה יחיד, לכל הפחות עבור כל קבוצת מכשירים גנרית, בהתאם לייפוי כוח בכתב. ייפוי כוח כזה יקבע את המשימות שעל הנציג המורשה לבצע. כדי לאפשר את קיום המשימות הללו, היצרן יוודא כי לנציג המורשה זמין באופן קבוע ועדכני התיעוד הנדרש. ייפוי הכוח ידרוש מהנציג המורשה לבצע לכל הפחות את המשימות המתוארות בסעיף 11(3), אולם היצרן אינו יכול להאציל את חובותיו הקבועות בסעיף 10(1), (2), (3), (4), (6), (7), (9), (10), (11) ו-(12). במקרה של החלפת נציג מורשה, סעיף 12 קובע את התוכן המינימלי של ההסכם שיש לטפל בו בין היצרן, ובמידת האפשר הנציג המורשה היוצא, לבין הנציג המורשה הנכנס."
+    },
+    {
+      "id": "intro-p9",
+      "type": "paragraph",
+      "en": "Upon request, the manufacturer will provide all the information and documentation necessary to demonstrate conformity of the device to competent authorities and cooperate with them on any corrective action. If the manufacturer does not cooperate or does not provide the requested information or documentation, the competent authority (CA) can adopt restrictive measures.",
+      "he": "לפי דרישה, היצרן יספק לרשויות המוסמכות את כל המידע והתיעוד הנדרשים להוכחת התאמת המכשיר, וישתף עמן פעולה בכל פעולה מתקנת. אם היצרן אינו משתף פעולה או אינו מספק את המידע או התיעוד המבוקש, הרשות המוסמכת (CA) רשאית לנקוט אמצעים מגבילים."
+    },
+    {
+      "id": "intro-p10",
+      "type": "paragraph",
+      "en": "The manufacturer should periodically verify whether implementing and delegated acts, common specifications, technical standards and guidelines might be available on the European Commission website. Such documents might for example cover specific parts of legislation (e.g. classification of medical devices, clinical evaluation) or specific requirements regarding certain medical device technologies (e.g. software, 3D printing) that can also be applicable for Class I devices.",
+      "he": "על היצרן לוודא מעת לעת אם מעשי יישום ומעשים מואצלים, מפרטים משותפים, תקנים טכניים והנחיות עשויים להיות זמינים באתר האינטרנט של הנציבות האירופית⁶. מסמכים כאלה עשויים, למשל, לכסות חלקים מסוימים של החקיקה (כגון סיווג מכשירים רפואיים, הערכה קלינית) או דרישות מסוימות בנוגע לטכנולוגיות מכשירים רפואיים מסוימות (כגון תוכנה, הדפסה תלת-ממדית) שעשויות לחול גם על מכשירים בסיווג I."
+    },
+    {
+      "id": "intro-p11",
+      "type": "paragraph",
+      "en": "During the transitional period, manufacturers might be tempted to refer to guidance documents developed under the Directive 93/42/EC. However, the old guidance documents, unless otherwise updated in line with the MDR, may have only some limited indicative value under the MDR. For the purpose of the MDR, only the text of the Regulation is valid in law and sets out requirements not reflected in the old guidance. Hence, the MDR alone can be relied upon as a legal basis.",
+      "he": "במהלך תקופת המעבר, יצרנים עלולים להתפתות להסתמך על מסמכי הנחיה שפותחו על פי הוראה 93/42/EC. עם זאת, למסמכי ההנחיה הישנים, אלא אם עודכנו בהתאם ל-MDR, עשוי להיות ערך מנחה מוגבל בלבד תחת ה-MDR. לצורך ה-MDR, רק נוסח התקנה תקף מבחינה משפטית וקובע דרישות שאינן משתקפות בהנחיה הישנה. לפיכך, ניתן להסתמך על ה-MDR בלבד כבסיס משפטי."
+    },
+    {
+      "id": "fn-4",
+      "type": "note",
+      "marker": "4",
+      "en": "See the relevant MDCG guidance on Article 15 of MDR and IVDR regarding a \"person responsible for regulatory compliance\" (PRRC)",
+      "he": "ראה את הנחיית ה-MDCG הרלוונטית בנושא סעיף 15 ל-MDR ול-IVDR בנוגע ל\"אדם האחראי על ציות רגולטורי\" (PRRC)."
+    },
+    {
+      "id": "fn-5",
+      "type": "note",
+      "marker": "5",
+      "en": "See Commission Recommendation 2003/361/EC",
+      "he": "ראה המלצת הנציבות 2003/361/EC."
+    },
+    {
+      "id": "fn-6",
+      "type": "note",
+      "marker": "6",
+      "en": "https://ec.europa.eu/health/md_sector/overview",
+      "he": "https://ec.europa.eu/health/md_sector/overview"
+    },
+
+    {
+      "id": "def-heading",
+      "type": "heading",
+      "level": 1,
+      "en": "Definitions",
+      "he": "הגדרות"
+    },
+    {
+      "id": "def-intro",
+      "type": "paragraph",
+      "en": "For the complete list of definitions refer to Article 2 of the MDR. This is an excerpt of some definitions.",
+      "he": "לרשימה המלאה של ההגדרות יש לעיין בסעיף 2 ל-MDR. להלן תמצית של חלק מההגדרות."
+    },
+    {
+      "id": "def-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Accessory for a medical device - means an article which, whilst not being itself a medical device, is intended by its manufacturer to be used together with one or several particular medical device(s) to specifically enable the medical device(s) to be used in accordance with its/their intended purpose(s) or to specifically and directly assist the medical functionality of the medical device(s) in terms of its/their intended purpose(s) (Article 2(2)).", "he": "אביזר למכשיר רפואי – פריט אשר, אף שאינו מכשיר רפואי בעצמו, מיועד על ידי יצרנו לשמש יחד עם מכשיר רפואי מסוים אחד או כמה, כדי לאפשר באופן ספציפי את השימוש במכשיר/ים הרפואי/ים בהתאם למטרתו/ם המיועדת, או כדי לסייע באופן ספציפי וישיר לתפקוד הרפואי של המכשיר/ים הרפואי/ים במונחי מטרתו/ם המיועדת (סעיף 2(2))." },
+        { "en": "Authorised representative - means any natural or legal person established within the Union who has received and accepted a written mandate from a manufacturer, located outside the Union, to act on the manufacturer's behalf in relation to specified tasks with regard to the latter's obligations under the MDR (Article 2(32)). The designation of an authorised representative will be in compliance with Article 11 and effective at least for all devices of the same generic device group (Article 11(2)).", "he": "נציג מורשה – כל אדם טבעי או משפטי המבוסס בתוך האיחוד אשר קיבל וקיבל על עצמו ייפוי כוח בכתב מיצרן הממוקם מחוץ לאיחוד, לפעול בשם היצרן בקשר למשימות מסוימות הנוגעות לחובותיו של האחרון על פי ה-MDR (סעיף 2(32)). מינוי נציג מורשה יהיה בהתאם לסעיף 11 ויהיה תקף לכל הפחות לכל המכשירים מאותה קבוצת מכשירים גנרית (סעיף 11(2))." },
+        { "en": "Adverse event - means any untoward medical occurrence, unintended disease or injury or any untoward clinical signs, including an abnormal laboratory finding, in subjects, users or other persons, in the context of a clinical investigation, whether or not related to the investigational device (Article 2(57)).", "he": "אירוע חריג (Adverse event) – כל התרחשות רפואית בלתי רצויה, מחלה או פגיעה בלתי מכוונת, או כל סימן קליני בלתי רצוי, לרבות ממצא מעבדה חריג, בנבדקים, במשתמשים או באנשים אחרים, בהקשר של חקירה קלינית, בין אם הוא קשור למכשיר הנחקר ובין אם לאו (סעיף 2(57))." },
+        { "en": "Benefit-risk determination - means the analysis of all assessments of benefit and risk of possible relevance for the use of the device for the intended purpose, when used in accordance with the intended purpose given by the manufacturer (Article 2(24)).", "he": "קביעת תועלת-סיכון – ניתוח כל הערכות התועלת והסיכון בעלות רלוונטיות אפשרית לשימוש במכשיר למטרה המיועדת, כאשר הוא משמש בהתאם למטרה המיועדת שניתנה על ידי היצרן (סעיף 2(24))." },
+        { "en": "Class I medical devices with measuring function - are considered Class I medical devices which measure physiological parameters or anatomical parameter or energy, respectively, or volume of medicinal products, body liquids or other substances administered to or removed from the body and display or indicate its value in a unit of measurement (example: urine bags, non-active thermometers, measuring spoons).", "he": "מכשירים רפואיים בסיווג I בעלי תפקוד מדידה – נחשבים כמכשירים רפואיים בסיווג I המודדים פרמטרים פיזיולוגיים, פרמטר אנטומי או אנרגיה, או נפח של תרופות, נוזלי גוף או חומרים אחרים הניתנים לגוף או מוסרים ממנו, ומציגים או מציינים את ערכם ביחידת מדידה (לדוגמה: שקיות שתן, מדחומים לא-אקטיביים, כפות מדידה)." },
+        { "en": "Note: According to section 15.2 of Annex I, measurements made by devices with a measuring function will be expressed in legal units.", "he": "הערה: בהתאם לסעיף 15.2 של נספח I, מדידות הנעשות על ידי מכשירים בעלי תפקוד מדידה יבוטאו ביחידות חוקיות⁷." },
+        { "en": "CE marking of conformity or CE marking - means a marking by which a manufacturer indicates that a device is in conformity with the applicable requirements set out in the MDR and other applicable Union harmonisation legislation providing for its affixing (Article 2(43)).", "he": "סימון CE של התאמה או סימון CE – סימון שבאמצעותו יצרן מציין כי מכשיר תואם את הדרישות החלות המפורטות ב-MDR ובחקיקת ההרמוניזציה האחרת של האיחוד החלה הקובעת את הצמדתו (סעיף 2(43))." },
+        { "en": "Note: CE marking will be made in accordance with Annex V.", "he": "הערה: סימון CE ייעשה בהתאם לנספח V." },
+        { "en": "Clinical evaluation - means a systematic and planned process to continuously generate, collect, analyse and assess the clinical data pertaining to a device in order to verify the safety and performance, including clinical benefits, of the device when used as intended by the manufacturer. (Article 2(44)).", "he": "הערכה קלינית – תהליך שיטתי ומתוכנן ליצירה, איסוף, ניתוח והערכה רציפים של הנתונים הקליניים הנוגעים למכשיר, כדי לאמת את הבטיחות והביצועים, לרבות התועלות הקליניות, של המכשיר כאשר הוא משמש כמיועד על ידי היצרן (סעיף 2(44))." },
+        { "en": "Clinical data - means information concerning safety or performance that is generated from the use of a device and is sourced from the following: clinical investigation(s) of the device concerned; clinical investigation(s) or other studies reported in scientific literature, of a device for which equivalence to the device in question can be demonstrated; reports published in peer reviewed scientific literature on other clinical experience of either the device in question or a device for which equivalence to the device in question can be demonstrated; clinically relevant information coming from post-market surveillance, in particular the post-market clinical follow-up. (Article 2(48))", "he": "נתונים קליניים – מידע הנוגע לבטיחות או לביצועים, הנוצר מהשימוש במכשיר ומקורו באלה: חקירה קלינית של המכשיר הנדון; חקירה קלינית או מחקרים אחרים המדווחים בספרות המדעית, של מכשיר שניתן להוכיח את שקילותו למכשיר הנדון; דיווחים שפורסמו בספרות מדעית שעברה ביקורת עמיתים על ניסיון קליני אחר של המכשיר הנדון או של מכשיר שניתן להוכיח את שקילותו אליו; מידע רלוונטי קלינית הנובע ממעקב שלאחר שיווק, ובפרט המעקב הקליני שלאחר שיווק (סעיף 2(48))." },
+        { "en": "Conformity Assessment – The process demonstrating whether the requirements of the MDR relating to a device have been fulfilled. (Article 2(40)). This process depends on the medical device classification, according to the procedures described in the MDR, in particular Article 52 (7) applicable for class I devices.", "he": "הערכת התאמה – התהליך המוכיח אם דרישות ה-MDR הנוגעות למכשיר התקיימו (סעיף 2(40)). תהליך זה תלוי בסיווג המכשיר הרפואי, בהתאם להליכים המתוארים ב-MDR, ובפרט סעיף 52(7) החל על מכשירים בסיווג I." },
+        { "en": "Distributor - means any natural or legal person in the supply chain, other than the manufacturer or the importer that makes a device available on the market, up until the point of putting into service (Article 2(34)).", "he": "מפיץ – כל אדם טבעי או משפטי בשרשרת האספקה, מלבד היצרן או היבואן, המעמיד מכשיר לרשות השוק, עד לנקודת ההפעלה (סעיף 2(34))." },
+        { "en": "Economic operator - means a manufacturer, an authorised representative, an importer, a distributor or the person referred to in Article 22(1) and 22(3) (Article 2(35)).", "he": "גורם כלכלי – יצרן, נציג מורשה, יבואן, מפיץ או האדם הנזכר בסעיפים 22(1) ו-22(3) (סעיף 2(35))." },
+        { "en": "Field safety corrective action - means corrective action taken by a manufacturer for technical or medical reasons to prevent or reduce the risk of a serious incident in relation to a device made available on the market (Article 2(68)).", "he": "פעולה מתקנת בשטח – פעולה מתקנת הננקטת על ידי יצרן מטעמים טכניים או רפואיים כדי למנוע או להפחית את הסיכון לאירוע חמור בקשר למכשיר המועמד לרשות השוק (סעיף 2(68))." },
+        { "en": "Field safety notice - means a communication sent by a manufacturer to users or customers in relation to a field safety corrective action (Article 2(69)).", "he": "הודעת בטיחות בשטח – הודעה הנשלחת על ידי יצרן למשתמשים או ללקוחות בקשר לפעולה מתקנת בשטח (סעיף 2(69))." },
+        { "en": "Harmonised standard - means a European standard as defined in point (1)(c) of Article 2 of Regulation (EU) N° 1025/2012, (as referred on the Article 2(70)) – means a European standard adopted on the basis of a request made by the Commission for the application of Union harmonisation legislation.", "he": "תקן מותאם (Harmonised standard) – תקן אירופי כמוגדר בנקודה (1)(ג) של סעיף 2 לתקנה (האיחוד האירופי) מס' 1025/2012⁸, (כמצוין בסעיף 2(70)) – תקן אירופי שאומץ על בסיס בקשה שהגישה הנציבות ליישום חקיקת ההרמוניזציה של האיחוד." },
+        { "en": "Importer - means any natural or legal person established within the Union that places a device from a third country on the Union market (Article 2(33)).", "he": "יבואן – כל אדם טבעי או משפטי המבוסס בתוך האיחוד המשווק בשוק האיחוד מכשיר ממדינה שלישית (סעיף 2(33))." },
+        { "en": "Intended purpose/intended use - means the use for which a device is intended according to the data supplied by the manufacturer on the label, in the instructions for use or in promotional or sales materials or statements and as specified by the manufacturer in the clinical evaluation (Article 2(12)).", "he": "מטרה מיועדת / שימוש מיועד – השימוש שלשמו מיועד המכשיר בהתאם לנתונים שמספק היצרן על גבי התווית, בהוראות השימוש או בחומרי קידום מכירות או מכירה או בהצהרות, וכפי שצוין על ידי היצרן בהערכה הקלינית (סעיף 2(12))." },
+        { "en": "Instructions for use - means the information provided by the manufacturer to inform the user of a device's intended purpose and proper use, and of any precautions to be taken (Article 2(14)).", "he": "הוראות שימוש – המידע שמספק היצרן כדי ליידע את המשתמש בדבר המטרה המיועדת של המכשיר ושימושו הנכון, ובדבר כל אמצעי הזהירות שיש לנקוט (סעיף 2(14))." },
+        { "en": "Label - means the written, printed or graphic information appearing either on the device itself, or on the packaging of each unit or on the packaging of multiple devices (Article 2(13)).", "he": "תווית (Label) – המידע הכתוב, המודפס או הגרפי המופיע על גבי המכשיר עצמו, או על אריזת כל יחידה, או על אריזת מכשירים מרובים (סעיף 2(13))." },
+        { "en": "Medical device - means any instrument, apparatus, appliance, software, implant, reagent, material or other article intended by the manufacturer to be used, alone or in combination, for human beings for one or more of the following specific medical purposes: diagnosis, prevention, monitoring, prediction, prognosis, treatment or alleviation of disease; diagnosis, monitoring, treatment, alleviation of, or compensation for, an injury or disability; investigation, replacement or modification of the anatomy or of a physiological or pathological process or state; providing information by means of in vitro examination of specimens derived from the human body, including organ, blood and tissue donations, and which does not achieve its principal intended action by pharmacological, immunological or metabolic means, in or on the human body, but which may be assisted in its function by such means. The following products shall also be deemed to be medical devices: devices for the control or support of conception; products specifically intended for the cleaning, disinfection or sterilisation of devices as referred to in Article 1(4) and of those referred to in the first paragraph of this point. (Article 2(1))", "he": "מכשיר רפואי – כל מכשיר, מתקן, אביזר, תוכנה, שתל, מגיב, חומר או פריט אחר המיועד על ידי היצרן לשמש, לבד או בשילוב, עבור בני אדם לאחת או יותר מהמטרות הרפואיות הספציפיות הבאות: אבחון, מניעה, ניטור, חיזוי, פרוגנוזה, טיפול או הקלה של מחלה; אבחון, ניטור, טיפול, הקלה או פיצוי בגין פגיעה או מוגבלות; חקירה, החלפה או שינוי של האנטומיה או של תהליך או מצב פיזיולוגי או פתולוגי; אספקת מידע באמצעות בדיקה in vitro של דגימות שמקורן בגוף האדם, לרבות תרומות איברים, דם ורקמות, ואשר אינו משיג את פעולתו העיקרית המיועדת באמצעים פרמקולוגיים, אימונולוגיים או מטבוליים, בגוף האדם או עליו, אך תפקודו עשוי להיתמך באמצעים כאלה. המוצרים הבאים ייחשבו אף הם כמכשירים רפואיים: מכשירים לבקרה או לתמיכה בהפריה; מוצרים המיועדים במיוחד לניקוי, חיטוי או עיקור של מכשירים כנזכר בסעיף 1(4) ושל אלה הנזכרים בפסקה הראשונה של נקודה זו (סעיף 2(1))." },
+        { "en": "Manufacturer - means a natural or legal person who manufactures or fully refurbishes a device or has a device designed, manufactured or fully refurbished, and markets that device under its name or trademark; (Article 2(30)).", "he": "יצרן – אדם טבעי או משפטי המייצר או משפץ במלואו מכשיר, או שגורם לכך שמכשיר יעוצב, ייוצר או ישופץ במלואו, ומשווק מכשיר זה תחת שמו או סימן המסחר שלו (סעיף 2(30))." },
+        { "en": "Notified Body - means a conformity assessment body designated in accordance with the MDR (Article 2(42)).", "he": "גוף מאונתר – גוף הערכת התאמה שמונה בהתאם ל-MDR (סעיף 2(42))." },
+        { "en": "Placing on the market - means the first making available of a device, other than an investigational device, on the Union market (Article 2(28)).", "he": "שיווק (Placing on the market) – ההעמדה הראשונה לרשות השוק של מכשיר, מלבד מכשיר נחקר, בשוק האיחוד (סעיף 2(28))." },
+        { "en": "Post-market surveillance - means all activities carried out by manufacturers in cooperation with other economic operators to institute and keep up to date a systematic procedure to proactively collect and review experience gained from devices they place on the market, make available on the market or put into service for the purpose of identifying any need to immediately apply any necessary corrective or preventive actions (Article 2(60)).", "he": "מעקב שלאחר שיווק – כל הפעילויות המתבצעות על ידי יצרנים בשיתוף פעולה עם גורמים כלכליים אחרים כדי לכונן ולשמור עדכני הליך שיטתי לאיסוף ולבחינה יזומים של הניסיון שהופק ממכשירים אשר הם משווקים, מעמידים לרשות השוק או מפעילים, לשם זיהוי כל צורך ביישום מיידי של פעולות מתקנות או מונעות נחוצות (סעיף 2(60))." },
+        { "en": "Risk - means the combination of the probability of occurrence of harm and the severity of that harm (Article 2(23)).", "he": "סיכון – השילוב של ההסתברות להתרחשות נזק וחומרתו של אותו נזק (סעיף 2(23))." },
+        { "en": "Serious incident - means any incident that directly or indirectly led, might have led or might lead to any of the following: (a) the death of a patient, user or other person; (b) the temporary or permanent serious deterioration of a patient's, user's or other person's state of health; (c) a serious public health threat (Article 2(65)).", "he": "אירוע חמור – כל אירוע אשר באופן ישיר או עקיף הוביל, היה עלול להוביל או עלול להוביל לאחד מהבאים: (א) מותו של מטופל, משתמש או אדם אחר; (ב) הידרדרות חמורה, זמנית או קבועה, במצב בריאותו של מטופל, משתמש או אדם אחר; (ג) איום חמור על בריאות הציבור (סעיף 2(65))." },
+        { "en": "Serious public health threat - means an event which could result in imminent risk of death, serious deterioration in a person's state of health, or serious illness, that may require prompt remedial action, and that may cause significant morbidity or mortality in humans, or that is unusual or unexpected for the given place and time (Article 2(66)).", "he": "איום חמור על בריאות הציבור – אירוע שעלול לגרום לסיכון מיידי למוות, להידרדרות חמורה במצב בריאותו של אדם, או למחלה חמורה, שעשוי לחייב פעולה מתקנת מיידית, ושעלול לגרום לתחלואה או תמותה משמעותית בבני אדם, או שהוא חריג או בלתי צפוי למקום ולזמן הנתונים (סעיף 2(66))." },
+        { "en": "Unique Device Identifier (UDI) - means a series of numeric or alphanumeric characters that is created through internationally accepted device identification and coding standards and that allows unambiguous identification of specific devices on the market (Article 2(15)).", "he": "מזהה מכשיר ייחודי (UDI) – סדרה של תווים מספריים או אלפאנומריים הנוצרת באמצעות תקני זיהוי וקידוד מכשירים מקובלים בין-לאומית, ומאפשרת זיהוי חד-משמעי של מכשירים מסוימים בשוק (סעיף 2(15))." },
+        { "en": "User - means any healthcare professional or lay person who uses a device (Article 2(37)).", "he": "משתמש – כל איש מקצוע הבריאות או אדם מן השורה המשתמש במכשיר (סעיף 2(37))." }
+      ]
+    },
+    {
+      "id": "fn-7",
+      "type": "note",
+      "marker": "7",
+      "en": "In conformance to the provisions of Council Directive 80/181/EEC",
+      "he": "בהתאם להוראות הוראת המועצה 80/181/EEC."
+    },
+    {
+      "id": "fn-8",
+      "type": "note",
+      "marker": "8",
+      "en": "Regulation (EU) No 1025/2012 of the European Parliament and of the Council, of 25 October 2012, on European standardization",
+      "he": "תקנה (האיחוד האירופי) מס' 1025/2012 של הפרלמנט האירופי ושל המועצה, מ-25 באוקטובר 2012, בנושא תקינה אירופית."
+    },
+
+    {
+      "id": "steps-heading",
+      "type": "heading",
+      "level": 1,
+      "en": "Placing Class I medical devices on the market: The necessary steps",
+      "he": "שיווק מכשירים רפואיים בסיווג I: הצעדים הנחוצים"
+    },
+    {
+      "id": "steps-p1",
+      "type": "paragraph",
+      "en": "Manufacturers that intend to place Class I medical devices on the market must guarantee compliance with all the requirements below. Please note that some of the described requirements are inter-dependent and can be performed in a different order than the one presented.",
+      "he": "יצרנים המתכוונים לשווק מכשירים רפואיים בסיווג I חייבים להבטיח עמידה בכל הדרישות שלהלן. יש לשים לב כי חלק מהדרישות המתוארות תלויות זו בזו וניתן לבצען בסדר שונה מזה המוצג."
+    },
+    {
+      "id": "steps-p2",
+      "type": "paragraph",
+      "en": "For Class I devices already placed on the market in accordance with the MDD, the manufacturer will conduct a gap analysis in order to guarantee that all the necessary requirements outlined below are fully completed at the date of the application of MDR.",
+      "he": "עבור מכשירים בסיווג I שכבר שווקו בהתאם ל-MDD, היצרן יבצע ניתוח פערים (gap analysis) כדי להבטיח כי כל הדרישות הנחוצות המפורטות להלן הושלמו במלואן עד למועד תחילת תחולת ה-MDR."
+    },
+
+    {
+      "id": "step-0-heading",
+      "type": "heading",
+      "level": 2,
+      "number": "0",
+      "en": "Integrate MDR in the Quality Management System (QMS).",
+      "he": "שילוב ה-MDR במערכת ניהול האיכות (QMS)."
+    },
+    {
+      "id": "step-0-p1",
+      "type": "paragraph",
+      "en": "The applicable provisions of the MDR will be integrated into the QMS of the manufacturer. This will allow the correct assessment/decision to be made and the proper documented evidence to be created, ensuring compliance with the following requirements.",
+      "he": "ההוראות החלות של ה-MDR ישולבו במערכת ניהול האיכות (QMS) של היצרן. הדבר יאפשר לבצע את ההערכה/ההחלטה הנכונה וליצור את הראיות המתועדות הנאותות, תוך הבטחת עמידה בדרישות הבאות."
+    },
+
+    {
+      "id": "step-1-heading",
+      "type": "heading",
+      "level": 2,
+      "number": "1",
+      "en": "Confirm product as a medical device",
+      "he": "אישור המוצר כמכשיר רפואי"
+    },
+    {
+      "id": "step-1-p1",
+      "type": "paragraph",
+      "en": "Confirm that the product qualifies as a medical device as defined in Article 2(1) in accordance with its intended purpose and principal mode of action. If the manufacturer assigns several different intended purposes to their product, not all of which fall under the scope of the MDR, such a product qualifies as a medical device only with respect to those intended medical purposes which are covered by Article 2(1). This is applicable, for instance, for the case of examination gloves that are intended by the manufacturer to be used to protect the patient (medical purpose - MD) and also to protect the healthcare professional (protection purpose– PPE). In that case the relevant requirements of both legislations will be applicable.",
+      "he": "יש לאשר כי המוצר נחשב מכשיר רפואי כמוגדר בסעיף 2(1) בהתאם למטרתו המיועדת ולאופן פעולתו העיקרי. אם היצרן מקצה למוצרו כמה מטרות מיועדות שונות, ולא כולן נופלות בתחולת ה-MDR, מוצר כזה נחשב מכשיר רפואי רק ביחס לאותן מטרות רפואיות מיועדות המכוסות בסעיף 2(1). הדבר חל, למשל, במקרה של כפפות בדיקה המיועדות על ידי היצרן לשמש להגנה על המטופל (מטרה רפואית – MD) וגם להגנה על איש מקצוע הבריאות (מטרת הגנה – PPE⁹). במקרה כזה יחולו הדרישות הרלוונטיות של שתי החקיקות."
+    },
+    {
+      "id": "step-1-p2",
+      "type": "paragraph",
+      "en": "In the case of accessories to medical devices, despite not being medical devices per se, they are covered by MDR provisions and fall under the term “device” in the meaning of the MDR. However, accessories to devices covered by the MDR by virtue of its Annex XVI are not covered by the MDR.",
+      "he": "במקרה של אביזרים למכשירים רפואיים, על אף שאינם מכשירים רפואיים כשלעצמם, הם מכוסים על ידי הוראות ה-MDR ונכללים תחת המונח \"מכשיר\" במשמעות ה-MDR. עם זאת, אביזרים למכשירים המכוסים על ידי ה-MDR מכוח נספח XVI שלו אינם מכוסים על ידי ה-MDR."
+    },
+    {
+      "id": "step-1-p3",
+      "type": "paragraph",
+      "en": "For borderline products where such a determination could be difficult, please consult primarily the information available on the European Commission website. Your CA may be able to provide guidance on where to find published information and regulatory requirements.",
+      "he": "עבור מוצרי גבול (borderline) שבהם קביעה כזו עשויה להיות קשה, יש לעיין תחילה במידע¹⁰ הזמין באתר האינטרנט של הנציבות האירופית. הרשות המוסמכת שלך עשויה לספק הנחיה היכן למצוא מידע שפורסם ודרישות רגולטוריות."
+    },
+
+    {
+      "id": "step-2-heading",
+      "type": "heading",
+      "level": 2,
+      "number": "2",
+      "en": "Confirm product as a Class I medical device",
+      "he": "אישור המוצר כמכשיר רפואי בסיווג I"
+    },
+    {
+      "id": "step-2-p1",
+      "type": "paragraph",
+      "en": "Consult Annex VIII of the MDR to confirm that the product is correctly classified as Class I. It should be noted that some Class I devices according to MDD will be reclassified under the MDR considering the new classification rules of that annex, this is the case for most software (rule 11) and devices that are composed of substances or of combination of substances (rule 21).",
+      "he": "יש לעיין בנספח VIII ל-MDR כדי לאשר כי המוצר מסווג נכון כסיווג I. יש לציין כי חלק מהמכשירים שהיו בסיווג I על פי ה-MDD יסווגו מחדש תחת ה-MDR בהתחשב בכללי הסיווג החדשים של אותו נספח; כך הדבר עבור רוב התוכנות (כלל 11) ומכשירים המורכבים מחומרים או משילוב של חומרים (כלל 21)."
+    },
+    {
+      "id": "step-2-p2",
+      "type": "paragraph",
+      "en": "For devices that were reclassified from Class I to higher risk classes by application of the MDR, the present guideline cannot be applied.",
+      "he": "עבור מכשירים שסווגו מחדש מסיווג I לסיווגי סיכון גבוהים יותר עקב תחולת ה-MDR, לא ניתן ליישם הנחיה זו."
+    },
+    {
+      "id": "step-2-p3",
+      "type": "paragraph",
+      "en": "The application of the classification rules will be governed by the intended purpose of the device and their inherent risks linked to the duration of use, part of the body, whether it is active or not, whether it is invasive or non-invasive.",
+      "he": "יישום כללי הסיווג ייקבע על פי המטרה המיועדת של המכשיר והסיכונים הטבועים בו הקשורים למשך השימוש, לחלק הגוף, להיותו אקטיבי או לא, ולהיותו פולשני או לא-פולשני."
+    },
+    {
+      "id": "step-2-p4",
+      "type": "paragraph",
+      "en": "If more than one rule according to Annex VIII applies to the intended purposes of the device, the highest classification applies to the device, i.e. it must be classified on the basis of the most critical specified use.",
+      "he": "אם יותר מכלל אחד על פי נספח VIII חל על המטרות המיועדות של המכשיר, חל על המכשיר הסיווג הגבוה ביותר, כלומר עליו להיות מסווג על בסיס השימוש הקריטי ביותר שצוין."
+    },
+    {
+      "id": "step-2-p5",
+      "type": "paragraph",
+      "en": "For classification issues, please primarily consult the information available on the European Commission website. Your CA may be able to provide guidance on where to find published information and regulatory requirements.",
+      "he": "בסוגיות סיווג, יש לעיין תחילה במידע¹¹ הזמין באתר האינטרנט של הנציבות האירופית. הרשות המוסמכת שלך עשויה לספק הנחיה היכן למצוא מידע שפורסם ודרישות רגולטוריות."
+    },
+    {
+      "id": "fn-9",
+      "type": "note",
+      "marker": "9",
+      "en": "Directive 89/686/EEC is repealed with effect from 21 April 2018 by Regulation (EU) 2016/425",
+      "he": "הוראה 89/686/EEC בוטלה החל מ-21 באפריל 2018 על ידי תקנה (האיחוד האירופי) 2016/425."
+    },
+    {
+      "id": "fn-10",
+      "type": "note",
+      "marker": "10",
+      "en": "Guidelines available on https://ec.europa.eu/health/md_sector/new_regulations/guidance_en",
+      "he": "הנחיות זמינות בכתובת https://ec.europa.eu/health/md_sector/new_regulations/guidance_en"
+    },
+    {
+      "id": "fn-11",
+      "type": "note",
+      "marker": "11",
+      "en": "Guidelines available on https://ec.europa.eu/health/md_sector/new_regulations/guidance_en",
+      "he": "הנחיות זמינות בכתובת https://ec.europa.eu/health/md_sector/new_regulations/guidance_en"
+    },
+
+    {
+      "id": "step-3-heading",
+      "type": "heading",
+      "level": 2,
+      "number": "3",
+      "en": "Procedures before placing on the market",
+      "he": "הליכים לפני שיווק"
+    },
+    {
+      "id": "step-3a-heading",
+      "type": "heading",
+      "level": 3,
+      "number": "3a",
+      "en": "a) Meet the general safety and performance requirements",
+      "he": "א) עמידה בדרישות הכלליות לבטיחות וביצועים"
+    },
+    {
+      "id": "step-3a-p1",
+      "type": "paragraph",
+      "en": "The devices will meet the general safety and performance requirements set out in Annex I of the MDR which apply to them, taking into account the purposes intended by their manufacturers.",
+      "he": "המכשירים יעמדו בדרישות הכלליות לבטיחות וביצועים המפורטות בנספח I ל-MDR החלות עליהם, בהתחשב במטרות המיועדות על ידי יצרניהם."
+    },
+    {
+      "id": "step-3a-p2",
+      "type": "paragraph",
+      "en": "Particular attention will be given to devices that are also machinery, within the meaning of Article 2(2), point (a), Machinery Directive 2006/42/EC, where the relevant requirements of that directive will also be covered given their specificity (according to Article 1(12)).",
+      "he": "תשומת לב מיוחדת תינתן למכשירים שהם גם מכונות, במשמעות סעיף 2(2), נקודה (א), של הוראת המכונות 2006/42/EC¹², שבהם יכוסו גם הדרישות הרלוונטיות של אותה הוראה לאור ייחודיותן (בהתאם לסעיף 1(12))."
+    },
+    {
+      "id": "step-3a-p3",
+      "type": "paragraph",
+      "en": "The manufacturer will establish and implement a risk management system, which will allow for the identification and analysis of the hazards associated with each device, estimation and evaluation of the associated risks, elimination or control of residual risks and evaluation of the adopted measures based on the information collected from the post-market surveillance system.",
+      "he": "היצרן יקים ויישם מערכת לניהול סיכונים, שתאפשר זיהוי וניתוח של הסכנות הקשורות לכל מכשיר, אמדן והערכה של הסיכונים הכרוכים בכך, ביטול או בקרה של סיכונים שיוריים, והערכה של האמצעים שאומצו על בסיס המידע שנאסף ממערכת המעקב שלאחר שיווק."
+    },
+    {
+      "id": "step-3a-p4",
+      "type": "paragraph",
+      "en": "The risk management will be understood as a continuous iterative process throughout the entire lifecycle of a device, requiring regular systematic updating. To carry out this process the manufacturer can find solutions in common specifications, or in harmonised standards, published in the Official Journal of the European Union, or in other referential materials. Where a harmonised standard exists but the manufacturer is following other referential, the application of that referential should guarantee at least the same level of safety and performance. Conformity with the relevant harmonized standards will provide presumption of conformity with the requirements of the MDR covered by those standards or parts thereof. Where common specifications are available the manufacturer is obliged to follow them unless they can duly justify that they have adopted a solution at least with the same level of safety and performance.",
+      "he": "ניהול הסיכונים יובן כתהליך מחזורי רציף לאורך כל מחזור החיים של המכשיר, המחייב עדכון שיטתי סדיר. כדי לבצע תהליך זה, היצרן יכול למצוא פתרונות במפרטים משותפים, או בתקנים מותאמים, שפורסמו בכתב העת הרשמי של האיחוד האירופי, או בחומרי ייחוס אחרים. כאשר קיים תקן מותאם אך היצרן פועל לפי ייחוס אחר, יישום אותו ייחוס צריך להבטיח לכל הפחות את אותה רמת בטיחות וביצועים. התאמה לתקנים המותאמים הרלוונטיים תקנה חזקת התאמה לדרישות ה-MDR המכוסות על ידי אותם תקנים או חלקים מהם. כאשר זמינים מפרטים משותפים, היצרן מחויב לפעול לפיהם, אלא אם יוכל להצדיק כראוי כי אימץ פתרון בעל לפחות אותה רמת בטיחות וביצועים."
+    },
+    {
+      "id": "step-3a-p5",
+      "type": "paragraph",
+      "en": "The risk management, clinical evaluation processes and PMS will be inter-dependent and will be periodically updated.",
+      "he": "תהליכי ניהול הסיכונים, ההערכה הקלינית וה-PMS יהיו תלויים זה בזה ויעודכנו מעת לעת."
+    },
+
+    {
+      "id": "step-3b-heading",
+      "type": "heading",
+      "level": 3,
+      "number": "3b",
+      "en": "b) Conduct clinical evaluation",
+      "he": "ב) ביצוע הערכה קלינית"
+    },
+    {
+      "id": "step-3b-p1",
+      "type": "paragraph",
+      "en": "All devices, regardless of risk classification, require a clinical evaluation as part of the technical documentation requirements of the MDR.",
+      "he": "כל המכשירים, ללא קשר לסיווג הסיכון, מחייבים הערכה קלינית כחלק מדרישות התיעוד הטכני של ה-MDR¹³."
+    },
+    {
+      "id": "step-3b-p2",
+      "type": "paragraph",
+      "en": "The manufacturer will specify and justify the level of clinical evidence necessary to demonstrate conformity with the relevant general safety and performance requirements described in Annex I. That level of clinical evidence will be appropriate in view of the characteristics of the device and its intended purpose. In order to do that, manufacturers will plan, conduct and document a clinical evaluation in accordance with Article 61 and Part A of Annex XIV.",
+      "he": "היצרן יציין ויצדיק את רמת הראיות הקליניות הנדרשת להוכחת התאמה לדרישות הכלליות הרלוונטיות לבטיחות וביצועים המתוארות בנספח I. רמת ראיות קלינית זו תהיה הולמת לאור מאפייני המכשיר ומטרתו המיועדת. לשם כך, היצרנים יתכננו, יבצעו ויתעדו הערכה קלינית בהתאם לסעיף 61 ולחלק A של נספח XIV."
+    },
+    {
+      "id": "step-3b-p3",
+      "type": "paragraph",
+      "en": "Guidance on the process of conducting clinical evaluation is also available on the Commission website.",
+      "he": "הנחיה על תהליך ביצוע ההערכה הקלינית זמינה גם באתר האינטרנט של הנציבות¹⁴."
+    },
+    {
+      "id": "step-3b-p4",
+      "type": "paragraph",
+      "en": "Conformity to Annex I requirements can only be assumed when the following items are aligned with each other:",
+      "he": "ניתן להניח התאמה לדרישות נספח I רק כאשר הפריטים הבאים מתואמים זה עם זה:"
+    },
+    {
+      "id": "step-3b-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Risk management;", "he": "ניהול סיכונים;" },
+        { "en": "The information materials supplied by the manufacturer, including: labelling, instructions for use (where required), available promotional materials, any accompanying documents foreseen by the manufacturer;", "he": "חומרי המידע שמספק היצרן, לרבות: תיוג, הוראות שימוש (היכן שנדרש), חומרי קידום מכירות זמינים, וכל מסמך מלווה הצפוי על ידי היצרן;" },
+        { "en": "The clinical evaluation (the device description used for the clinical evaluation, other contents of the clinical evaluation report);", "he": "ההערכה הקלינית (תיאור המכשיר ששימש להערכה הקלינית, תכנים אחרים של דוח ההערכה הקלינית);" },
+        { "en": "The available clinical data (such as results of clinical investigations, publications, Post Market Surveillance studies, clinical registries, etc.).", "he": "הנתונים הקליניים הזמינים (כגון תוצאות חקירות קליניות, פרסומים, מחקרי מעקב שלאחר שיווק, מרשמים קליניים וכד')." }
+      ]
+    },
+    {
+      "id": "step-3b-p5",
+      "type": "paragraph",
+      "en": "The MDR reinforces the need to consider the following aspects when carrying out a clinical evaluation:",
+      "he": "ה-MDR מחזק את הצורך לשקול את ההיבטים הבאים בעת ביצוע הערכה קלינית:"
+    },
+    {
+      "id": "step-3b-list2",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Consideration of available alternative treatment options is required as part of clinical evaluation for the MDR. Whilst the existence of better alternative treatment options does not influence the compliance of the device with the MDR, the manufacturer needs to be able to justify the clinical benefit of using their device if alternatives are available.", "he": "התחשבות באפשרויות טיפול חלופיות זמינות נדרשת כחלק מההערכה הקלינית לצורך ה-MDR¹⁵. בעוד שקיומן של אפשרויות טיפול חלופיות טובות יותר אינו משפיע על התאמת המכשיר ל-MDR, על היצרן להיות מסוגל להצדיק את התועלת הקלינית שבשימוש במכשירו אם קיימות חלופות." },
+        { "en": "The incorporation of clinical data obtained throughout the life cycle of the device from the manufacturers post-market clinical follow-up plan and post-market surveillance plan to update the clinical evaluation and documentation.", "he": "שילוב נתונים קליניים שהושגו לאורך מחזור החיים של המכשיר מתוכנית המעקב הקליני שלאחר שיווק ומתוכנית המעקב שלאחר שיווק של היצרן, כדי לעדכן את ההערכה הקלינית והתיעוד¹⁶." },
+        { "en": "The acceptability of the benefit-risk ratio must be based upon sufficient clinical data and will be continuously monitored and reassessed from clinical data collected through the post-market surveillance phase. The post-market surveillance plan should incorporate suitable indicators and threshold values to be used in this reassessment.", "he": "קבילות יחס התועלת-סיכון חייבת להתבסס על נתונים קליניים מספקים, ותנוטר ותוערך מחדש באופן רציף מנתונים קליניים שנאספו בשלב המעקב שלאחר שיווק. תוכנית המעקב שלאחר שיווק צריכה לכלול מדדים וערכי סף מתאימים לשימוש בהערכה מחדש זו¹⁷." }
+      ]
+    },
+    {
+      "id": "step-3b-p6",
+      "type": "paragraph",
+      "en": "If available clinical data are not sufficient to demonstrate compliance with the MDR, further clinical data will be obtained or generated by clinical investigations.",
+      "he": "אם הנתונים הקליניים הזמינים אינם מספיקים להוכחת עמידה ב-MDR, יושגו או ייווצרו נתונים קליניים נוספים באמצעות חקירות קליניות."
+    },
+    {
+      "id": "step-3b-p7",
+      "type": "paragraph",
+      "en": "For devices which are currently certified with respect to the Directive 93/42/EC, and for which the available clinical data are not sufficient to demonstrate compliance with MDR, additional clinical data may be obtained by post-market clinical follow-up studies of the device. Sometimes, even data from the general post-market follow-up might suffice to close the gap.",
+      "he": "עבור מכשירים המוסמכים כיום ביחס להוראה 93/42/EC, ואשר הנתונים הקליניים הזמינים עבורם אינם מספיקים להוכחת עמידה ב-MDR, ניתן להשיג נתונים קליניים נוספים באמצעות מחקרי מעקב קליני שלאחר שיווק של המכשיר. לעיתים, אף נתונים מהמעקב הכללי שלאחר שיווק עשויים להספיק כדי לסגור את הפער¹⁸."
+    },
+    {
+      "id": "step-3b-note",
+      "type": "paragraph",
+      "en": "Note: if a clinical investigation is required, then the Member State requires advance notification of the proposal and the provisions of Article 62 and Annex XV will be applicable.",
+      "he": "הערה: אם נדרשת חקירה קלינית, אזי המדינה החברה דורשת הודעה מוקדמת על ההצעה, ויחולו הוראות סעיף 62 ונספח XV."
+    },
+    {
+      "id": "step-3b-p8",
+      "type": "paragraph",
+      "en": "In duly justified and substantiated cases, some Class I devices manufacturers may exceptionally demonstrate that the conformity with general safety and performance requirements based on clinical data is not deemed appropriate. Such a justification by the manufacturer must be based upon an evaluation of evidence in accordance with Article 61(10).",
+      "he": "במקרים מוצדקים ומבוססים כראוי, יצרנים מסוימים של מכשירים בסיווג I רשאים, באופן חריג, להראות כי התאמה לדרישות הכלליות לבטיחות וביצועים המבוססת על נתונים קליניים אינה נחשבת הולמת. הצדקה כזו מצד היצרן חייבת להתבסס על הערכת ראיות בהתאם לסעיף 61(10)."
+    },
+    {
+      "id": "step-3b-p9",
+      "type": "paragraph",
+      "en": "The clinical evaluation, risk management processes and PMS will be inter-dependent and will be periodically updated.",
+      "he": "תהליכי ההערכה הקלינית, ניהול הסיכונים וה-PMS יהיו תלויים זה בזה ויעודכנו מעת לעת."
+    },
+    {
+      "id": "fn-12",
+      "type": "note",
+      "marker": "12",
+      "en": "Directive 2006/42/EC of the European Parliament and of the Council of 17 May 2006 on machinery, and amending Directive 95/16/EC (OJ L 157, 9.6.2006, p. 24)",
+      "he": "הוראה 2006/42/EC של הפרלמנט האירופי ושל המועצה מ-17 במאי 2006 בנושא מכונות, והמתקנת את הוראה 95/16/EC (OJ L 157, 9.6.2006, עמ' 24)."
+    },
+    {
+      "id": "fn-13",
+      "type": "note",
+      "marker": "13",
+      "en": "For further, see Annex II of the MDR",
+      "he": "להרחבה, ראה נספח II ל-MDR."
+    },
+    {
+      "id": "fn-14",
+      "type": "note",
+      "marker": "14",
+      "en": "https://ec.europa.eu/health/md_sector/new_regulations/guidance_en",
+      "he": "https://ec.europa.eu/health/md_sector/new_regulations/guidance_en"
+    },
+    {
+      "id": "fn-15",
+      "type": "note",
+      "marker": "15",
+      "en": "MDR, Article 61(3)(c)",
+      "he": "MDR, סעיף 61(3)(ג)."
+    },
+    {
+      "id": "fn-16",
+      "type": "note",
+      "marker": "16",
+      "en": "MDR, Article 61(11)",
+      "he": "MDR, סעיף 61(11)."
+    },
+    {
+      "id": "fn-17",
+      "type": "note",
+      "marker": "17",
+      "en": "MDR, Article 61(1) and Annex III 1.1b",
+      "he": "MDR, סעיף 61(1) ונספח III 1.1ב."
+    },
+    {
+      "id": "fn-18",
+      "type": "note",
+      "marker": "18",
+      "en": "An MDCG guidance is intended to be published on this matter including ‘sufficient clinical data’ in 2020 and will be available at the EU Commission webpage",
+      "he": "בכוונה לפרסם בנושא זה הנחיית MDCG הכוללת \"נתונים קליניים מספקים\" בשנת 2020, והיא תהיה זמינה בדף האינטרנט של הנציבות האירופית."
+    },
+
+    {
+      "id": "step-3c-heading",
+      "type": "heading",
+      "level": 3,
+      "number": "3c",
+      "en": "c) Prepare technical documentation",
+      "he": "ג) הכנת תיעוד טכני"
+    },
+    {
+      "id": "step-3c-p1",
+      "type": "paragraph",
+      "en": "The manufacturer will draw up and keep up to date the technical documentation that demonstrates the conformity of their devices with the technical requirements of the MDR. This technical documentation must be prepared according to Annex II and III and prior to drawing up the EU declaration of conformity.",
+      "he": "היצרן יערוך וישמור עדכני את התיעוד הטכני המוכיח את התאמת מכשיריו לדרישות הטכניות של ה-MDR. תיעוד טכני זה חייב להיות מוכן בהתאם לנספחים II ו-III, ובטרם עריכת הצהרת ההתאמה של האיחוד האירופי."
+    },
+    {
+      "id": "step-3c-p2",
+      "type": "paragraph",
+      "en": "The technical documentation and, if applicable, its summary, will be drawn up and presented by the manufacturer in a clear, organised, readily searchable and unambiguous manner.",
+      "he": "התיעוד הטכני, ובמידת הצורך תקצירו, ייערך ויוצג על ידי היצרן באופן ברור, מאורגן, ניתן לחיפוש בנקל וחד-משמעי."
+    },
+    {
+      "id": "step-3c-p3",
+      "type": "paragraph",
+      "en": "The manufacturer must make the technical documentation available to the CA, the authorised representative (when applicable) and NB (when applicable).",
+      "he": "על היצרן להעמיד את התיעוד הטכני לרשות הרשות המוסמכת (CA), הנציג המורשה (היכן שרלוונטי) והגוף המאונתר (NB) (היכן שרלוונטי)."
+    },
+    {
+      "id": "step-3c-p4",
+      "type": "paragraph",
+      "en": "The technical documentation will be prepared following review of the general safety and performance requirements and relevant technical provisions of the MDR and, if applicable, of the Machinery Directive and will cover all the relevant aspects from Annex II and III, such as:",
+      "he": "התיעוד הטכני יוכן בעקבות סקירת הדרישות הכלליות לבטיחות וביצועים וההוראות הטכניות הרלוונטיות של ה-MDR, ובמידת הצורך של הוראת המכונות¹⁹, ויכסה את כל ההיבטים הרלוונטיים מנספחים II ו-III, כגון:"
+    },
+    {
+      "id": "step-3c-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Rationale for the qualification as a medical device and the risk class attributed.", "he": "הנמקה להגדרה כמכשיר רפואי ולסיווג הסיכון שיוחס." },
+        { "en": "Description and specification - A general description of the device, including its intended purpose and intended users/patient population and, if applicable, accessories and variants of the product (for example trade names, model numbers, references, sizes). In addition, the Basic UDI-DI as per Part C of Annex VI will be provided.", "he": "תיאור ומפרט – תיאור כללי של המכשיר, לרבות מטרתו המיועדת ואוכלוסיית המשתמשים/המטופלים המיועדת, ובמידת הצורך אביזרים וגרסאות של המוצר (למשל שמות מסחריים, מספרי דגם, מק\"טים, מידות). בנוסף, יסופק ה-Basic UDI-DI בהתאם לחלק C של נספח VI." },
+        { "en": "Technical Specifications of the device - Specifications including details of raw materials, drawings of components and/or master patterns and any quality control procedures.", "he": "מפרטים טכניים של המכשיר – מפרטים הכוללים פרטי חומרי גלם, שרטוטי רכיבים ו/או תבניות-אב, וכל הליכי בקרת איכות." },
+        { "en": "Information to be supplied by the manufacturer - Labels on the device and packaging, such as single unit packaging, sales packaging, transport packaging in case of specific management conditions and instruction for use (if applicable), in the languages determined by the Member States where the device is envisaged to be sold.", "he": "מידע שיסופק על ידי היצרן – תוויות על המכשיר ועל האריזה, כגון אריזת יחידה בודדת, אריזת מכירה, אריזת הובלה במקרה של תנאי טיפול מיוחדים, והוראות שימוש (אם רלוונטי), בשפות שנקבעו על ידי המדינות החברות שבהן צפוי המכשיר להימכר." },
+        { "en": "Reference to previous generations of the device and to similar devices - Provide an overview of previous generation(s) of the device and similar devices available on the market as applicable.", "he": "התייחסות לדורות קודמים של המכשיר ולמכשירים דומים – הצגת סקירה של דור/ות קודם/ים של המכשיר ושל מכשירים דומים הזמינים בשוק, לפי העניין." },
+        { "en": "Design and manufacturing information – Information that allows the understanding of the design and manufacturing of a device, including the results of qualifications tests and design calculations relevant to the intended use of the product, including connections to other devices in order for it to operate as intended. If the manufacturer can provide information showing that a safe design has been established for a number of years and that product has been performing as intended during that time such information is likely to be sufficient to cover this requirement. The identification of all sites, suppliers and sub-contractors, where design and manufacturing activities are performed will also be included.", "he": "מידע על עיצוב וייצור – מידע המאפשר הבנה של עיצוב המכשיר וייצורו, לרבות תוצאות בדיקות הסמכה וחישובי עיצוב הרלוונטיים לשימוש המיועד של המוצר, לרבות חיבורים למכשירים אחרים כדי שיפעל כמיועד. אם היצרן יכול לספק מידע המראה כי עיצוב בטוח נקבע במשך מספר שנים וכי המוצר תפקד כמיועד במהלך תקופה זו, סביר כי מידע כזה יספיק לכיסוי דרישה זו. כן ייכלל זיהוי כל האתרים, הספקים וקבלני המשנה שבהם מבוצעות פעילויות עיצוב וייצור." },
+        { "en": "General safety and performance requirements – information for the demonstration of conformity with the general safety and performance requirements, set out in Annex I. In order to do this, the manufacturer will refer to all the methods and solutions used for conformity demonstration with each safety and performance requirement, including harmonised standards and/or common specifications (CS). The same applies for the requirements contained in the Machinery Directive.", "he": "דרישות כלליות לבטיחות וביצועים – מידע להוכחת התאמה לדרישות הכלליות לבטיחות וביצועים, המפורטות בנספח I. לשם כך, היצרן יפנה לכל השיטות והפתרונות ששימשו להוכחת ההתאמה לכל דרישת בטיחות וביצועים, לרבות תקנים מותאמים ו/או מפרטים משותפים (CS). הדבר נכון גם לגבי הדרישות הכלולות בהוראת המכונות." },
+        { "en": "Demonstration of conformity with the requirements set out in Annex I should typically be presented in the form of a checklist. This should list all requirements referred to in Annex I and specify: (1) the applicability of each requirement to the device, (2) the solution adopted by the manufacturer to comply with each applicable requirement, (3) the reference to any possible CS or harmonized standards applied in full or in part and (4) the reference to where to find evidence of the solution adopted in the technical documentation.", "he": "הוכחת התאמה לדרישות המפורטות בנספח I צריכה להיות מוצגת בדרך כלל בצורת רשימת תיוג (checklist). רשימה זו צריכה למנות את כל הדרישות הנזכרות בנספח I ולפרט: (1) את תחולתה של כל דרישה על המכשיר, (2) את הפתרון שאימץ היצרן לעמידה בכל דרישה חלה, (3) את ההפניה לכל מפרט משותף (CS) או תקן מותאם אפשרי שיושם במלואו או בחלקו, ו-(4) את ההפניה למיקום הראיה לפתרון שאומץ בתוך התיעוד הטכני." },
+        { "en": "Manufacturers will list the relevant harmonised standards (concerning for example sterilisation, labelling and information to be supplied with the device, biocompatibility, specific groups of products) which have been applied in full or in part. If harmonised standards have not been applied in full, additional data will be required and provided detailing remaining solutions adopted to meet the concerned requirements.", "he": "היצרנים ימנו את התקנים המותאמים הרלוונטיים (הנוגעים, למשל, לעיקור, לתיוג ולמידע שיסופק עם המכשיר, לתאימות ביולוגית, לקבוצות מוצרים מסוימות) שיושמו במלואם או בחלקם. אם תקנים מותאמים לא יושמו במלואם, יידרשו ויסופקו נתונים נוספים המפרטים את הפתרונות הנותרים שאומצו לעמידה בדרישות הנדונות." },
+        { "en": "Information on standards harmonised under the MDR will be made available in the Official Journal of the European Union.", "he": "מידע על תקנים המותאמים תחת ה-MDR יועמד לרשות הציבור בכתב העת הרשמי של האיחוד האירופי." },
+        { "en": "Changes on the harmonised standards used to demonstrate the conformity of device will be adequately taken into account in a timely manner.", "he": "שינויים בתקנים המותאמים המשמשים להוכחת התאמת המכשיר יובאו בחשבון כראוי ובמועד." },
+        { "en": "Please note that no standard harmonized under the Directive 93/42/EC, has ever covered all the requirements of the Annex I to that Directive. Hence, it is not likely that any one standard harmonized under the MDR will cover all the requirements of the Annex I to the MDR. The scope of coverage is indicated in the so-called Annex Z to the European “EN” standard. The scope of coverage is never to be found in the ISO or IEC standard text.", "he": "יש לשים לב כי שום תקן שהותאם תחת הוראה 93/42/EC מעולם לא כיסה את כל הדרישות של נספח I לאותה הוראה. לפיכך, אין זה סביר ששום תקן יחיד שהותאם תחת ה-MDR יכסה את כל הדרישות של נספח I ל-MDR. היקף הכיסוי מצוין במה שמכונה נספח Z לתקן האירופי \"EN\". היקף הכיסוי לעולם אינו נמצא בנוסח תקן ה-ISO או ה-IEC." },
+        { "en": "Benefit-risk analysis (sections 1 and 8 of Annex I) and Risk management (section 3 of Annex I).", "he": "ניתוח תועלת-סיכון (סעיפים 1 ו-8 של נספח I) וניהול סיכונים (סעיף 3 של נספח I)." },
+        { "en": "Pre-clinical and Clinical evaluation data – Information to be provided on the results from pre-clinical and clinical evaluation.", "he": "נתוני הערכה פרה-קלינית וקלינית – מידע שיסופק על התוצאות מההערכה הפרה-קלינית והקלינית." },
+        { "en": "The post-market surveillance system - The technical documentation on post-market surveillance to be drawn up by the manufacturer in accordance with Articles 83 to 85 will be presented in a clear, organized, readily searchable and unambiguous manner. It shall address and cover the elements of point 1.1 of Annex III. The plan will cover the post-market clinical follow up plan as referred to in part B of Annex XIV or a justification as to why it is not applicable. The PMS report of article 85 shall be part of the technical documentation on post-market surveillance.", "he": "מערכת המעקב שלאחר שיווק – התיעוד הטכני על המעקב שלאחר שיווק שייערך על ידי היצרן בהתאם לסעיפים 83 עד 85 יוצג באופן ברור, מאורגן, ניתן לחיפוש בנקל וחד-משמעי. הוא יטפל בנקודה 1.1 של נספח III ויכסה את רכיביה. התוכנית תכסה את תוכנית המעקב הקליני שלאחר שיווק כנזכר בחלק B של נספח XIV, או הצדקה לכך שאינה רלוונטית. דוח ה-PMS לפי סעיף 85 יהיה חלק מהתיעוד הטכני על המעקב שלאחר שיווק." },
+        { "en": "Records - Manufacturers will keep the technical documentation, the EU declaration of conformity and, if applicable, a copy of any relevant certificate, including any amendments and supplements, issued in accordance with Article 56, available for the competent authorities for a period of at least 10 years after the last device covered by the EU declaration of conformity has been placed on the market (Article 10(8)).", "he": "רשומות – היצרנים ישמרו את התיעוד הטכני, את הצהרת ההתאמה של האיחוד האירופי, ובמידת הצורך עותק של כל אישור רלוונטי, לרבות כל תיקון ותוספת, שהונפק בהתאם לסעיף 56, זמינים עבור הרשויות המוסמכות למשך תקופה של 10 שנים לפחות לאחר שיווק המכשיר האחרון המכוסה בהצהרת ההתאמה של האיחוד האירופי (סעיף 10(8))." }
+      ]
+    },
+    {
+      "id": "step-3c-p5",
+      "type": "paragraph",
+      "en": "Availability of documentation – In case of request by the CA, the manufacturer will provide the required technical documentation in an official Union language determined by the Member State concerned (Article 10(14)).",
+      "he": "זמינות התיעוד – במקרה של דרישה מצד הרשות המוסמכת, היצרן יספק את התיעוד הטכני הנדרש בשפה רשמית של האיחוד שנקבעה על ידי המדינה החברה הנוגעת בדבר (סעיף 10(14))."
+    },
+    {
+      "id": "fn-19",
+      "type": "note",
+      "marker": "19",
+      "en": "According to Article 1 (12)",
+      "he": "בהתאם לסעיף 1(12)."
+    },
+
+    {
+      "id": "step-3d-heading",
+      "type": "heading",
+      "level": 3,
+      "number": "3d",
+      "en": "d) Request Notified Body involvement",
+      "he": "ד) בקשת מעורבות גוף מאונתר"
+    },
+    {
+      "id": "step-3d-p1",
+      "type": "paragraph",
+      "en": "In the case of devices placed on the market in sterile condition, having a measuring function or being reusable surgical instruments, the manufacturer will apply the procedures set out in Chapters I and III of Annex IX, or in Part A of Annex XI of MDR. This requires the involvement of a NB. In all other cases the intervention of a NB is not required for Class I devices. If involvement of the NB is needed it is limited:",
+      "he": "במקרה של מכשירים המשווקים במצב סטרילי, בעלי תפקוד מדידה, או שהם מכשירים כירורגיים רב-פעמיים, היצרן יישם את ההליכים המפורטים בפרקים I ו-III של נספח IX, או בחלק A של נספח XI ל-MDR. הדבר מחייב את מעורבותו של גוף מאונתר (NB). בכל המקרים האחרים, התערבות של גוף מאונתר אינה נדרשת עבור מכשירים בסיווג I. אם נדרשת מעורבות הגוף המאונתר, היא מוגבלת:"
+    },
+    {
+      "id": "step-3d-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "In the case of devices placed on the market in sterile condition, to the aspects of manufacture concerned with securing and maintaining sterile conditions;", "he": "במקרה של מכשירים המשווקים במצב סטרילי – להיבטי הייצור הנוגעים להבטחת תנאים סטריליים ושמירתם;" },
+        { "en": "In the case of devices with a measuring function, to the aspects of manufacture concerned with the conformity of the devices with the metrological requirements;", "he": "במקרה של מכשירים בעלי תפקוד מדידה – להיבטי הייצור הנוגעים להתאמת המכשירים לדרישות המטרולוגיות;" },
+        { "en": "In the case of reusable surgical instruments, to the aspects relating to the reuse of the device, in particular cleaning, disinfection, sterilization, maintenance and functional testing and the related instructions for use.", "he": "במקרה של מכשירים כירורגיים רב-פעמיים²⁰ – להיבטים הנוגעים לשימוש החוזר במכשיר, ובפרט ניקוי, חיטוי, עיקור, תחזוקה ובדיקה תפקודית, ולהוראות השימוש הקשורות." }
+      ]
+    },
+    {
+      "id": "step-3d-p2",
+      "type": "paragraph",
+      "en": "Manufacturers can choose any NB designated according to the MDR for the relevant codes and corresponding types of devices as established by Regulation (EU) 2017/2185 (code MDS 1005 for “Devices in sterile condition”, code MDS 1006 for “Reusable surgical instruments” and code MDS 1010 for “Devices with a measuring function”). The list of designated NBs is available in the NANDO database at the following link: http://ec.europa.eu/growth/tools-databases/nando/",
+      "he": "היצרנים יכולים לבחור כל גוף מאונתר שמונה בהתאם ל-MDR עבור הקודים הרלוונטיים וסוגי המכשירים המתאימים כפי שנקבע בתקנה (האיחוד האירופי) 2017/2185 (קוד MDS 1005 עבור \"מכשירים במצב סטרילי\", קוד MDS 1006 עבור \"מכשירים כירורגיים רב-פעמיים\", וקוד MDS 1010 עבור \"מכשירים בעלי תפקוד מדידה\"). רשימת הגופים המאונתרים שמונו זמינה במסד הנתונים NANDO בקישור הבא: http://ec.europa.eu/growth/tools-databases/nando/"
+    },
+    {
+      "id": "step-3d-p3",
+      "type": "paragraph",
+      "en": "Please note that notification under the Directive 93/42/EC, becomes void after the application of the MDR on the 26 May 2021. Hence, it is necessary to consult the NANDO database for the MDR.",
+      "he": "יש לשים לב כי האינתור על פי הוראה 93/42/EC מתבטל לאחר תחילת תחולת ה-MDR ב-26 במאי 2021. לפיכך, יש לעיין במסד הנתונים NANDO עבור ה-MDR."
+    },
+    {
+      "id": "fn-20",
+      "type": "note",
+      "marker": "20",
+      "en": "Please also note that involvement of a Notified Body in the case of reusable surgical instruments is a new requirement under the MDR, which did not exist under the MDD. Manufacturers of such products are advised to take this into consideration for their plans to meet the provisions of the MDR before its application on the 26 May 2021.",
+      "he": "כמו כן יש לשים לב כי מעורבות של גוף מאונתר במקרה של מכשירים כירורגיים רב-פעמיים היא דרישה חדשה תחת ה-MDR, שלא הייתה קיימת תחת ה-MDD. ליצרנים של מוצרים כאלה מומלץ להביא זאת בחשבון בתוכניותיהם לעמידה בהוראות ה-MDR בטרם תחילת תחולתו ב-26 במאי 2021."
+    },
+
+    {
+      "id": "step-3e-heading",
+      "type": "heading",
+      "level": 3,
+      "number": "3e",
+      "en": "e) Prepare Instructions for Use and Labelling",
+      "he": "ה) הכנת הוראות שימוש ותיוג"
+    },
+    {
+      "id": "step-3e-p1",
+      "type": "paragraph",
+      "en": "Each device must be accompanied by any safety and performance information needed to use it safely and to identify the device as well as the manufacturer and/or the authorised representative, taking account of the training and knowledge of the potential users. This information comprises the label, device packaging and the data in the instructions for use. By way of derogation to the general principles, no instructions for use are required for Class I devices if they can be used properly and safely without such instruction. An exception is most likely posed for Class Ir devices as reprocessing (cleaning and sterilization) will require an instruction.",
+      "he": "כל מכשיר חייב להיות מלווה בכל מידע בטיחות וביצועים הנדרש לשימוש בטוח בו ולזיהוי המכשיר וכן היצרן ו/או הנציג המורשה, בהתחשב בהכשרה ובידע של המשתמשים הפוטנציאליים. מידע זה כולל את התווית, אריזת המכשיר והנתונים שבהוראות השימוש. בדרך של חריגה מהעקרונות הכלליים, אין צורך בהוראות שימוש עבור מכשירים בסיווג I אם ניתן להשתמש בהם כראוי ובבטחה ללא הוראות כאלה. חריג סביר ביותר קיים עבור מכשירים בסיווג Ir, שכן עיבוד חוזר (ניקוי ועיקור) יחייב הוראות."
+    },
+    {
+      "id": "step-3e-p2",
+      "type": "paragraph",
+      "en": "The requirements regarding the information to be supplied with the device will be found in Annex I, Chapter III (23). In the labelling and instructions for use as well as in promotional materials of the device, the manufacturer may not (Article 7):",
+      "he": "הדרישות בנוגע למידע שיסופק עם המכשיר מצויות בנספח I, פרק III (23). בתיוג ובהוראות השימוש וכן בחומרי קידום המכירות של המכשיר, היצרן אינו רשאי (סעיף 7):"
+    },
+    {
+      "id": "step-3e-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Ascribe functions and properties to the device which the device does not have;", "he": "לייחס למכשיר תפקודים ותכונות שאין למכשיר;" },
+        { "en": "Create a false impression regarding treatment or diagnosis, functions or properties which the device does not have;", "he": "ליצור רושם כוזב בנוגע לטיפול או לאבחון, לתפקודים או לתכונות שאין למכשיר;" },
+        { "en": "Fail to inform the user or the patient of a likely risk associated with the use of the device in line with its intended purpose;", "he": "להימנע מיידוע המשתמש או המטופל בדבר סיכון סביר הכרוך בשימוש במכשיר בהתאם למטרתו המיועדת;" },
+        { "en": "Suggest uses for the device other than those stated to form part of the intended purpose for which the conformity assessment was carried out.", "he": "להציע שימושים למכשיר מלבד אלה שצוין כי הם חלק מהמטרה המיועדת שלשמה בוצעה הערכת ההתאמה." }
+      ]
+    },
+    {
+      "id": "step-3e-p3",
+      "type": "paragraph",
+      "en": "National language requirements must be taken into account in relation to the labelling and instructions for use. Versions of labelling and IFU (in each of the relevant national languages) will be included in the technical documentation.",
+      "he": "יש להביא בחשבון דרישות שפה לאומיות ביחס לתיוג ולהוראות השימוש. גרסאות של התיוג ושל הוראות השימוש (בכל אחת מהשפות הלאומיות הרלוונטיות) ייכללו בתיעוד הטכני."
+    },
+    {
+      "id": "step-3e-note",
+      "type": "paragraph",
+      "en": "Note: According to Article 16(2), a distributor or importer may provide a translation of the information provided according to Section 23 of Annex I. The manufacturer will be informed about the intended translation and receive a copy 28 days prior to the date of making the device available in the respective country. It is advisable to perform a review of the translation, as a wrong or misleading translation can cause harm to patients or others, leading to possible liability of the manufacturer.",
+      "he": "הערה: בהתאם לסעיף 16(2), מפיץ או יבואן רשאי לספק תרגום של המידע המסופק בהתאם לסעיף 23 של נספח I. היצרן ייודע על התרגום המיועד ויקבל עותק 28 ימים לפני מועד העמדת המכשיר לרשות השוק במדינה הנוגעת בדבר. מומלץ לבצע סקירה של התרגום, שכן תרגום שגוי או מטעה עלול לגרום נזק למטופלים או לאחרים, ולהוביל לחבות אפשרית של היצרן."
+    },
+    {
+      "id": "step-3e-p4",
+      "type": "paragraph",
+      "en": "Where appropriate, the information supplied by the manufacturer will take the form of internationally recognised symbols. Any symbol or identification colour used will conform to harmonised standards or common specifications (CS). In areas for which no harmonised standards or CS exist, the symbols and colours will be described in the documentation supplied with the device.",
+      "he": "במקרים המתאימים, המידע שמספק היצרן יקבל צורה של סמלים מוכרים בין-לאומית. כל סמל או צבע זיהוי שבשימוש יתאים לתקנים מותאמים או למפרטים משותפים (CS). בתחומים שעבורם אין תקנים מותאמים או מפרטים משותפים, הסמלים והצבעים יתוארו בתיעוד המסופק עם המכשיר."
+    },
+    {
+      "id": "step-3e-p5",
+      "type": "paragraph",
+      "en": "The label should have the indication that the product is a “medical device”.",
+      "he": "התווית צריכה לכלול ציון שהמוצר הוא \"מכשיר רפואי\"."
+    },
+
+    {
+      "id": "step-4-heading",
+      "type": "heading",
+      "level": 2,
+      "number": "4",
+      "en": "Check compliance with general obligations for manufacturers",
+      "he": "בדיקת עמידה בחובות הכלליות של יצרנים"
+    },
+    {
+      "id": "step-4-p1",
+      "type": "paragraph",
+      "en": "Before placing a device on the market, the manufacturer will make sure to comply with the general obligations for manufacturers as established in Article 10.",
+      "he": "לפני שיווק מכשיר, היצרן יוודא עמידה בחובות הכלליות של יצרנים כפי שנקבע בסעיף 10."
+    },
+    {
+      "id": "step-4-p2",
+      "type": "paragraph",
+      "en": "Special attention will be given to the establishment of an appropriate QMS that will ensure compliance with the MDR in the most effective manner, for example by means of an internal audit. The QMS will be documented, implemented, maintained, kept up to date and continually improved and will cover at least the following aspects:",
+      "he": "תשומת לב מיוחדת תינתן להקמת מערכת ניהול איכות (QMS) הולמת שתבטיח עמידה ב-MDR באופן היעיל ביותר, למשל באמצעות ביקורת פנימית. ה-QMS יתועד, ייושם, יתוחזק, יישמר עדכני וישתפר באופן מתמיד, ויכסה לכל הפחות את ההיבטים הבאים:"
+    },
+    {
+      "id": "step-4-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "a) a strategy for regulatory compliance;", "he": "א) אסטרטגיה לציות רגולטורי;" },
+        { "en": "b) identification of applicable general safety and performance requirements and exploration of options to address those requirements;", "he": "ב) זיהוי הדרישות הכלליות החלות לבטיחות וביצועים ובחינת אפשרויות לעמידה בדרישות אלה;" },
+        { "en": "c) responsibility of the management;", "he": "ג) אחריות ההנהלה;" },
+        { "en": "d) resource management, including selection and control of suppliers and sub-contractors;", "he": "ד) ניהול משאבים, לרבות בחירה ובקרה של ספקים וקבלני משנה;" },
+        { "en": "e) risk management;", "he": "ה) ניהול סיכונים;" },
+        { "en": "f) clinical evaluation, including post market clinical follow-up (PMCF);", "he": "ו) הערכה קלינית, לרבות מעקב קליני שלאחר שיווק (PMCF);" },
+        { "en": "g) product realisation, including planning, design, development, production and service provision;", "he": "ז) מימוש המוצר, לרבות תכנון, עיצוב, פיתוח, ייצור ומתן שירות;" },
+        { "en": "h) verification of the UDI assignments;", "he": "ח) אימות הקצאות ה-UDI;" },
+        { "en": "i) setting-up, implementation and maintenance of a post-market surveillance system;", "he": "ט) הקמה, יישום ותחזוקה של מערכת מעקב שלאחר שיווק;" },
+        { "en": "j) handling communication with competent authorities, notified bodies, other economic operators, customers and/or other stakeholders;", "he": "י) טיפול בתקשורת עם רשויות מוסמכות, גופים מאונתרים, גורמים כלכליים אחרים, לקוחות ו/או בעלי עניין אחרים;" },
+        { "en": "k) processes for reporting of serious incidents and field safety corrective actions in the context of vigilance;", "he": "יא) תהליכים לדיווח על אירועים חמורים ועל פעולות מתקנות בשטח בהקשר הערנות;" },
+        { "en": "l) management of corrective and preventive actions and verification of their effectiveness;", "he": "יב) ניהול פעולות מתקנות ומונעות ואימות יעילותן;" },
+        { "en": "m) processes for monitoring and measurement of output, data analysis and product improvement.", "he": "יג) תהליכים לניטור ומדידה של תוצרים, ניתוח נתונים ושיפור המוצר." }
+      ]
+    },
+    {
+      "id": "step-4-p3",
+      "type": "paragraph",
+      "en": "The QMS will be established at least in parallel, if not prior to chapter 3 a) and 3 b) as described in this guidance note.",
+      "he": "ה-QMS יוקם לכל הפחות במקביל, אם לא לפני, לסעיפים 3(א) ו-3(ב) כמתואר בהנחיה זו."
+    },
+    {
+      "id": "step-4-p4",
+      "type": "paragraph",
+      "en": "Natural or legal persons may claim compensation for damage caused by a defective device in accordance with applicable Union and national law. Therefore, manufacturers shall, in a manner that is proportionate to the risk class, type of device and size of the enterprise, have measures in place to provide sufficient financial coverage in respect of their potential liability under Directive 85/374/EEC, without prejudice to more protective measures under national law.",
+      "he": "אדם טבעי או משפטי רשאי לתבוע פיצוי בגין נזק שנגרם על ידי מכשיר פגום בהתאם לדין האיחוד והדין הלאומי החלים. לפיכך, היצרנים, באופן הפרופורציונלי לסיווג הסיכון, לסוג המכשיר ולגודל המיזם, ינקטו אמצעים לאספקת כיסוי כספי מספק ביחס לחבותם האפשרית על פי הוראה 85/374/EEC, מבלי לגרוע מאמצעים מגנים יותר על פי הדין הלאומי."
+    },
+
+    {
+      "id": "step-5-heading",
+      "type": "heading",
+      "level": 2,
+      "number": "5",
+      "en": "Draw-up the EU Declaration of Conformity",
+      "he": "עריכת הצהרת ההתאמה של האיחוד האירופי"
+    },
+    {
+      "id": "step-5-p1",
+      "type": "paragraph",
+      "en": "The EU declaration of conformity, referred to in Article 19, is the procedure whereby the manufacturer, who fulfils the obligations imposed by Article 52(7), declares that the devices concerned fulfil the requirements of the MDR which apply to them. The declaration of conformity will contain as a minimum all information referred to in Annex IV and will be available to the CA.",
+      "he": "הצהרת ההתאמה של האיחוד האירופי, הנזכרת בסעיף 19, היא ההליך שבו היצרן, המקיים את החובות המוטלות עליו בסעיף 52(7), מצהיר כי המכשירים הנוגעים בדבר מקיימים את דרישות ה-MDR החלות עליהם. הצהרת ההתאמה תכלול לכל הפחות את כל המידע הנזכר בנספח IV ותהיה זמינה לרשות המוסמכת."
+    },
+    {
+      "id": "step-5-p2",
+      "type": "paragraph",
+      "en": "The manufacturer will continuously update the EU declaration of conformity and will translate it into an official union language or languages required by Member States in which the device is made available.",
+      "he": "היצרן יעדכן באופן רציף את הצהרת ההתאמה של האיחוד האירופי ויתרגם אותה לשפה או לשפות רשמיות של האיחוד הנדרשות על ידי המדינות החברות שבהן המכשיר מועמד לרשות השוק."
+    },
+    {
+      "id": "step-5-p3",
+      "type": "paragraph",
+      "en": "If, in addition to the MDR, a device is covered by other Union legislation which also requires an EU declaration of conformity, the manufacturers will elaborate a single EU declaration of conformity where all the Union legislation applied to the product are referred to.",
+      "he": "אם בנוסף ל-MDR מכשיר מכוסה על ידי חקיקת איחוד אחרת המחייבת אף היא הצהרת התאמה של האיחוד האירופי, היצרנים יערכו הצהרת התאמה יחידה של האיחוד האירופי שבה תצוין כל חקיקת האיחוד החלה על המוצר."
+    },
+    {
+      "id": "step-5-p4",
+      "type": "paragraph",
+      "en": "By drawing up the EU declaration of conformity the manufacturer assumes the responsibility for the regulatory compliance of the device with all Union legislation applicable to it.",
+      "he": "בעריכת הצהרת ההתאמה של האיחוד האירופי, היצרן נוטל על עצמו את האחריות לציות הרגולטורי של המכשיר לכל חקיקת האיחוד החלה עליו."
+    },
+    {
+      "id": "step-5-p5",
+      "type": "paragraph",
+      "en": "Before affixing a CE mark, for class Ir, Im and Is devices, the manufacturer will have an EC certificate issued by NB according to the Annex IX, Chapter I and III, or to Annex XI, Part A.",
+      "he": "לפני הצמדת סימון CE, עבור מכשירים בסיווגי Ir, Im ו-Is, יהיה ברשות היצרן אישור EC שהונפק על ידי גוף מאונתר בהתאם לנספח IX, פרקים I ו-III, או לנספח XI, חלק A."
+    },
+
+    {
+      "id": "step-6-heading",
+      "type": "heading",
+      "level": 2,
+      "number": "6",
+      "en": "Affix the CE marking",
+      "he": "הצמדת סימון CE"
+    },
+    {
+      "id": "step-6-p1",
+      "type": "paragraph",
+      "en": "All Class I medical devices placed on the market will bear the CE marking of conformity, which will be affixed in a visible, legible and indelible form on the device or on its sterile packaging. Where such affixing is not possible or not warranted on account of the nature of the device, the CE marking shall be affixed to the packaging. The CE marking shall also appear on the instructions for use, as well as on any sales packaging.",
+      "he": "כל המכשירים הרפואיים בסיווג I המשווקים יישאו את סימון ה-CE של התאמה, אשר יוצמד בצורה גלויה, קריאה ובלתי מחיקה על המכשיר או על אריזתו הסטרילית. כאשר הצמדה כזו אינה אפשרית או אינה מוצדקת מפאת טבע המכשיר, סימון ה-CE יוצמד לאריזה. סימון ה-CE יופיע גם על הוראות השימוש וכן על כל אריזת מכירה."
+    },
+    {
+      "id": "step-6-p2",
+      "type": "paragraph",
+      "en": "In the case of Class I medical devices placed on the market in a sterile condition and/or devices with measuring function and/or reusable surgical instruments, the CE marking will be accompanied by the identification number of the relevant NB.",
+      "he": "במקרה של מכשירים רפואיים בסיווג I המשווקים במצב סטרילי ו/או מכשירים בעלי תפקוד מדידה ו/או מכשירים כירורגיים רב-פעמיים, סימון ה-CE ילווה במספר הזיהוי של הגוף המאונתר הרלוונטי."
+    },
+    {
+      "id": "step-6-p3",
+      "type": "paragraph",
+      "en": "It is prohibited to affix marks which are likely to mislead third parties with regard to the meaning of the CE marking. Other additional marks may be affixed to the device, to the packaging or the instructions for use, but must not impair the visibility or legibility of the CE marking.",
+      "he": "אסור להצמיד סימונים העלולים להטעות צדדים שלישיים בנוגע למשמעות סימון ה-CE. ניתן להצמיד למכשיר, לאריזה או להוראות השימוש סימונים נוספים אחרים, אך אסור שיפגעו בנראות או בקריאות של סימון ה-CE."
+    },
+    {
+      "id": "step-6-p4",
+      "type": "paragraph",
+      "en": "The CE marking format will be in compliance with Annex V. Where the device is very small the minimum dimensions of the CE mark may be waived.",
+      "he": "פורמט סימון ה-CE יהיה בהתאם לנספח V. כאשר המכשיר קטן מאוד, ניתן לוותר על הממדים המינימליים של סימון ה-CE."
+    },
+
+    {
+      "id": "step-7-heading",
+      "type": "heading",
+      "level": 2,
+      "number": "7",
+      "en": "Registration of devices and manufacturers in Eudamed",
+      "he": "רישום מכשירים ויצרנים ב-Eudamed"
+    },
+    {
+      "id": "step-7-p1",
+      "type": "paragraph",
+      "en": "Before placing a device on the market, the manufacturer of a Class I medical device will register the device in Eudamed.",
+      "he": "לפני שיווק מכשיר, יצרן של מכשיר רפואי בסיווג I ירשום את המכשיר ב-Eudamed."
+    },
+    {
+      "id": "step-7-p2",
+      "type": "paragraph",
+      "en": "In order to register the device, the manufacturer will submit to the electronic system referred to in Article 30 the information referred to in Section 1 of Part A of Annex VI, provided that they have not already been registered in accordance with Article 31. In cases where the conformity assessment procedure requires the involvement of a NB pursuant to Article 52, the information referred to in Section 1 of Part A of Annex VI will be provided to that electronic system before applying to the NB. After having verified the data about the manufacturer, the CA will validate it in Eudamed and the manufacturer will obtain a SRN from said electronic system.",
+      "he": "כדי לרשום את המכשיר, היצרן יגיש למערכת האלקטרונית הנזכרת בסעיף 30 את המידע הנזכר בסעיף 1 של חלק A של נספח VI, ובלבד שטרם נרשם בהתאם לסעיף 31. במקרים שבהם הליך הערכת ההתאמה מחייב את מעורבותו של גוף מאונתר על פי סעיף 52, המידע הנזכר בסעיף 1 של חלק A של נספח VI יסופק למערכת האלקטרונית האמורה לפני הפנייה לגוף המאונתר. לאחר אימות הנתונים על אודות היצרן, הרשות המוסמכת תאשר אותם ב-Eudamed והיצרן יקבל SRN מהמערכת האלקטרונית האמורה."
+    },
+    {
+      "id": "step-7-p3",
+      "type": "paragraph",
+      "en": "The manufacturer will use the SRN when applying to a NB for conformity assessment and for accessing Eudamed in order to fulfil its obligations under Article 29.",
+      "he": "היצרן ישתמש ב-SRN בעת פנייה לגוף מאונתר לצורך הערכת התאמה ולצורך גישה ל-Eudamed כדי לקיים את חובותיו על פי סעיף 29."
+    },
+    {
+      "id": "step-7-note0",
+      "type": "paragraph",
+      "en": "Note: Authorised representatives and importers are also required to register to get an SRN in order to access Eudamed and provide data, as appropriate.",
+      "he": "הערה: נציגים מורשים ויבואנים נדרשים אף הם להירשם כדי לקבל SRN על מנת לגשת ל-Eudamed ולספק נתונים, לפי העניין."
+    },
+    {
+      "id": "step-7-p4",
+      "type": "paragraph",
+      "en": "The registration of a device in Eudamed by the manufacturer includes:",
+      "he": "רישום מכשיר ב-Eudamed על ידי היצרן כולל:"
+    },
+    {
+      "id": "step-7-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "Assignment of a UDI-DI (with a Basic UDI-DI) as defined in Part C of Annex VI to the device (in accordance with the rules of the issuing entity referred to in Article 27(2) and introduction of the UDI-DI (with a Basic UDI-DI) to the UDI database together with the other core data elements referred to in Part B of Annex VI related to that device.", "he": "הקצאת UDI-DI (עם Basic UDI-DI) כמוגדר בחלק C של נספח VI למכשיר (בהתאם לכללי הגוף המנפיק הנזכר בסעיף 27(2)), והכנסת ה-UDI-DI (עם Basic UDI-DI) למסד הנתונים של ה-UDI יחד עם שאר רכיבי הנתונים המרכזיים הנזכרים בחלק B של נספח VI הקשורים לאותו מכשיר." },
+        { "en": "Entering, or if already provided, verifying in Eudamed the information referred to in Section 2 of Part A of Annex VI, with the exception of Section 2.2 thereof, and thereafter keeping the information updated.", "he": "הזנת המידע הנזכר בסעיף 2 של חלק A של נספח VI ב-Eudamed, או אם כבר סופק – אימותו, למעט סעיף 2.2 שבו, ולאחר מכן שמירת המידע עדכני." }
+      ]
+    },
+    {
+      "id": "step-7-p5",
+      "type": "paragraph",
+      "en": "If the manufacturer has its devices designed or manufactured by another legal or natural person, the information on the identity of that person will be part of the information (Section 2.13 of Part A of Annex VI) to be submitted to Eudamed before the registration of the device.",
+      "he": "אם היצרן גורם לכך שמכשיריו יעוצבו או ייוצרו על ידי אדם משפטי או טבעי אחר, המידע על זהותו של אותו אדם יהיה חלק מהמידע (סעיף 2.13 של חלק A של נספח VI) שיוגש ל-Eudamed לפני רישום המכשיר."
+    },
+    {
+      "id": "step-7-note1",
+      "type": "paragraph",
+      "en": "Note 1 – The Unique Device Identification system will allow the identification and facilitate the traceability of devices (as referred on Article 27). [Special attention will be given to point 11 of Article 27].",
+      "he": "הערה 1 – מערכת זיהוי המכשיר הייחודי (UDI) תאפשר את הזיהוי ותקל על העקיבות של המכשירים (כנזכר בסעיף 27). [תשומת לב מיוחדת תינתן לנקודה 11 של סעיף 27]."
+    },
+    {
+      "id": "step-7-note2",
+      "type": "paragraph",
+      "en": "Note 2 – The Basic UDI-DI as defined in Part C of Annex VI is the primary identifier of a device model. It is the main key for records in the UDI database and is referenced in relevant certificates and EU declarations of conformity.",
+      "he": "הערה 2 – ה-Basic UDI-DI כמוגדר בחלק C של נספח VI הוא המזהה הראשי של דגם מכשיר. הוא המפתח העיקרי לרשומות במסד הנתונים של ה-UDI, ומופנים אליו אישורים רלוונטיים והצהרות התאמה של האיחוד האירופי²¹."
+    },
+    {
+      "id": "step-7-note3",
+      "type": "paragraph",
+      "en": "Note 3 – For Class I devices placed on the market according to MDD, after the date of application of MDR manufacturers will have in consideration the guidance documents applicable to legacy devices timelines and registration in Eudamed.",
+      "he": "הערה 3 – עבור מכשירים בסיווג I המשווקים בהתאם ל-MDD, לאחר מועד תחילת תחולת ה-MDR, היצרנים יביאו בחשבון את מסמכי ההנחיה החלים על לוחות הזמנים של מכשירים מורשים (legacy devices)²² ועל הרישום ב-Eudamed²³."
+    },
+    {
+      "id": "step-7-p6",
+      "type": "paragraph",
+      "en": "All devices including legacy devices of the manufacturer portfolio which are placed on the market or put into service will have to be registered in Eudamed. However, until Eudamed is fully functional the manufacturer of a Class I medical device, or, where the manufacturer has no place of business in the EU, its authorised representative must inform the CA of the country in which they have their registered place of business and provide a description of the device that is sufficient to identify it. The manufacturer or its authorised representative will contact their relevant CA for the required procedures and forms required for such notifications. A fee might be applicable.",
+      "he": "כל המכשירים, לרבות מכשירים מורשים (legacy devices) בתיק היצרן, המשווקים או מופעלים, יהיו חייבים להירשם ב-Eudamed. עם זאת, עד ש-Eudamed יהיה פעיל במלואו, יצרן של מכשיר רפואי בסיווג I, או – כאשר אין ליצרן מקום עסק באיחוד – נציגו המורשה, חייב ליידע את הרשות המוסמכת של המדינה שבה נמצא מקום עסקו הרשום, ולספק תיאור של המכשיר המספיק לזיהויו. היצרן או נציגו המורשה יפנו לרשות המוסמכת הרלוונטית לקבלת ההליכים והטפסים הנדרשים להודעות כאלה. ייתכן שתחול אגרה."
+    },
+    {
+      "id": "fn-21",
+      "type": "note",
+      "marker": "21",
+      "en": "For more information on the Basic UDI-DI, please refer to https://ec.europa.eu/docsroom/documents/28667",
+      "he": "למידע נוסף על ה-Basic UDI-DI, ראה https://ec.europa.eu/docsroom/documents/28667"
+    },
+    {
+      "id": "fn-22",
+      "type": "note",
+      "marker": "22",
+      "en": "See at EU Commission webpage the relevant guidance on timelines for registration of device data elements in EUDAMED",
+      "he": "ראה בדף האינטרנט של הנציבות האירופית את ההנחיה הרלוונטית בנוגע ללוחות הזמנים לרישום רכיבי נתוני המכשיר ב-EUDAMED."
+    },
+    {
+      "id": "fn-23",
+      "type": "note",
+      "marker": "23",
+      "en": "See at EU Commission webpage the relevant guidance on the registration of legacy devices in EUDAMED",
+      "he": "ראה בדף האינטרנט של הנציבות האירופית את ההנחיה הרלוונטית בנוגע לרישום מכשירים מורשים (legacy devices) ב-EUDAMED."
+    },
+
+    {
+      "id": "step-8-heading",
+      "type": "heading",
+      "level": 2,
+      "number": "8",
+      "en": "Post Market Surveillance (PMS)",
+      "he": "מעקב שלאחר שיווק (PMS)"
+    },
+    {
+      "id": "step-8-p1",
+      "type": "paragraph",
+      "en": "After placing the Class I device on the market, the manufacturer will follow the next PMS steps:",
+      "he": "לאחר שיווק המכשיר בסיווג I, היצרן יפעל לפי צעדי ה-PMS הבאים:"
+    },
+    {
+      "id": "step-8a-heading",
+      "type": "heading",
+      "level": 3,
+      "number": "8a",
+      "en": "a) Review experience gained from Post-Market Surveillance",
+      "he": "א) בחינת הניסיון שהופק מהמעקב שלאחר שיווק"
+    },
+    {
+      "id": "step-8a-p1",
+      "type": "paragraph",
+      "en": "The manufacturer will put in place the required post market surveillance (PMS) system and actively keep this PMS up to date in accordance with Article 83 of MDR. This includes actively and regularly collecting the user experience from devices on the market, reviewing these and ensuring timely implementation of any necessary corrective action, taking account of the nature and risks in relation to the product. In addition, there should be an evaluation of whether the intended benefits are achieved and whether the benefit-risk profile stays positive. The manufacturer will involve the distributors of the device and where applicable, the authorised representative and importers of the device in this system, in order to obtain the relevant information from the market.",
+      "he": "היצרן יקים את מערכת המעקב שלאחר שיווק (PMS) הנדרשת וישמור על מערכת זו עדכנית באופן פעיל בהתאם לסעיף 83 ל-MDR. הדבר כולל איסוף פעיל וסדיר של חוויית המשתמש ממכשירים שבשוק, בחינתם והבטחת יישום במועד של כל פעולה מתקנת נחוצה, בהתחשב בטבע ובסיכונים הקשורים למוצר. בנוסף, יש לבצע הערכה אם התועלות המיועדות מושגות ואם פרופיל התועלת-סיכון נותר חיובי. היצרן ישתף במערכת זו את מפיצי המכשיר, ובמידת הצורך את הנציג המורשה ואת יבואני המכשיר, כדי להשיג את המידע הרלוונטי מהשוק."
+    },
+    {
+      "id": "step-8a-p2",
+      "type": "paragraph",
+      "en": "This system will be part of the QMS, and be supported by the manufacturer’s PMS plan, which must address a range of information (Annex III), such as information from the vigilance context, information from trending and trend reporting, information and data on any undesirable side-effects, information from reports, complaints and incidents, provided by users and economic operators, related to the device. Moreover, the manufacturer will gather and assess the relevant information such as technical literature, databases, registers review and public information for the device itself as well as for similar devices already present on the market.",
+      "he": "מערכת זו תהיה חלק מה-QMS, ותיתמך בתוכנית ה-PMS של היצרן, שעליה לטפל במגוון מידע (נספח III), כגון מידע מהקשר הערנות, מידע ממגמתיות ומדיווח מגמות, מידע ונתונים על כל תופעת לוואי בלתי רצויה, מידע מדיווחים, תלונות ואירועים שמספקים משתמשים וגורמים כלכליים, הקשורים למכשיר. יתרה מזו, היצרן יאסוף ויעריך את המידע הרלוונטי כגון ספרות טכנית, מסדי נתונים, סקירת מרשמים ומידע ציבורי עבור המכשיר עצמו וכן עבור מכשירים דומים הקיימים כבר בשוק."
+    },
+    {
+      "id": "step-8a-p3",
+      "type": "paragraph",
+      "en": "A PMS report will be prepared according to Article 85, summarizing the results and conclusions of the analysis of all of the data from the market. This report will be updated when necessary, for example the intended benefits are not achieved or there is a change in the benefit-risk balance. The report can be requested by the CA at any time.",
+      "he": "דוח PMS יוכן בהתאם לסעיף 85, המסכם את התוצאות והמסקנות של ניתוח כל הנתונים מהשוק. דוח זה יעודכן בעת הצורך, למשל כאשר התועלות המיועדות אינן מושגות או כשחל שינוי באיזון התועלת-סיכון. הרשות המוסמכת רשאית לדרוש את הדוח בכל עת."
+    },
+    {
+      "id": "step-8a-p4",
+      "type": "paragraph",
+      "en": "Data gathered from PMS system must be used to actively update the clinical evaluation, benefit-risk determination, improve risk management, as well as other technical documentation on a regular basis.",
+      "he": "בנתונים שנאספו ממערכת ה-PMS יש להשתמש לעדכון פעיל של ההערכה הקלינית, קביעת התועלת-סיכון, לשיפור ניהול הסיכונים, וכן של תיעוד טכני אחר, על בסיס סדיר."
+    },
+
+    {
+      "id": "step-8b-heading",
+      "type": "heading",
+      "level": 3,
+      "number": "8b",
+      "en": "b) Vigilance",
+      "he": "ב) ערנות"
+    },
+    {
+      "id": "step-8b-p1",
+      "type": "paragraph",
+      "en": "The manufacturer is responsible for reporting all serious incidents and field safety corrective actions (FSCA) to the relevant CAs, according to Article 87 (1) of the MDR. After serious incident notification, the manufacturer is obliged to make investigations, according to Article 89, which will include a risk assessment of the incident. If needed, a FSCA will be implemented in order to reduce the risk associated with the use of the device.",
+      "he": "היצרן אחראי לדווח על כל האירועים החמורים והפעולות המתקנות בשטח (FSCA) לרשויות המוסמכות הרלוונטיות, בהתאם לסעיף 87(1) ל-MDR. לאחר הודעה על אירוע חמור, היצרן מחויב לבצע חקירות, בהתאם לסעיף 89, אשר יכללו הערכת סיכון של האירוע. בעת הצורך, תיושם פעולה מתקנת בשטח (FSCA) כדי להפחית את הסיכון הכרוך בשימוש במכשיר."
+    },
+    {
+      "id": "step-8b-p2",
+      "type": "paragraph",
+      "en": "The manufacturer will involve the distributors of the device and, where applicable, the authorised representative and importers in the system, in order to obtain the information needed from the market, especially for FSCA and issued field safety notices (FSN) to ensure that required actions are followed and completed in a timely manner.",
+      "he": "היצרן ישתף במערכת את מפיצי המכשיר, ובמידת הצורך את הנציג המורשה ואת היבואנים, כדי להשיג את המידע הנדרש מהשוק, ובמיוחד עבור פעולות מתקנות בשטח (FSCA) ועבור הודעות בטיחות בשטח (FSN) שהונפקו, כדי להבטיח שהפעולות הנדרשות מבוצעות ומושלמות במועד."
+    },
+    {
+      "id": "step-8b-p3",
+      "type": "paragraph",
+      "en": "When Eudamed is available, serious incidents and FSCAs will be submitted via this electronic system only.",
+      "he": "כאשר Eudamed יהיה זמין, אירועים חמורים ופעולות מתקנות בשטח (FSCA) יוגשו אך ורק באמצעות מערכת אלקטרונית זו."
+    },
+    {
+      "id": "step-8b-p4",
+      "type": "paragraph",
+      "en": "Manufacturers will report any serious incident immediately after they have established the causal relationship between that incident and their device or that such a causal relationship is reasonably possible.",
+      "he": "היצרנים ידווחו על כל אירוע חמור מיד לאחר שביססו את הקשר הסיבתי בין אותו אירוע למכשירם, או שקשר סיבתי כזה אפשרי באופן סביר."
+    },
+    {
+      "id": "step-8b-p5",
+      "type": "paragraph",
+      "en": "The timeframe to report serious incidents must not exceed the following upper limits:",
+      "he": "פרק הזמן לדיווח על אירועים חמורים אסור שיחרוג מהגבולות העליונים הבאים:"
+    },
+    {
+      "id": "step-8b-list1",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "In the event of a serious public health threat, a report will be submitted not later than 2 days after becoming aware of the threat. (Article 87 (4))", "he": "במקרה של איום חמור על בריאות הציבור, יוגש דוח לא יאוחר מ-2 ימים לאחר הִיוודע האיום (סעיף 87(4))." },
+        { "en": "In the event of death or an unanticipated deterioration in a person’s state of health a report will be submitted not later than 10 days after becoming aware of the serious incident. (Article 87 (5))", "he": "במקרה של מוות או הידרדרות בלתי צפויה במצב בריאותו של אדם, יוגש דוח לא יאוחר מ-10 ימים לאחר הִיוודע האירוע החמור (סעיף 87(5))." },
+        { "en": "In all other cases not later than 15 days after becoming aware of the serious incident (Article 87 (3))", "he": "בכל המקרים האחרים – לא יאוחר מ-15 ימים לאחר הִיוודע האירוע החמור (סעיף 87(3))." }
+      ]
+    },
+    {
+      "id": "step-8b-p6",
+      "type": "paragraph",
+      "en": "Where necessary to ensure timely reporting of serious incidents, the manufacturer may submit an initial report that is incomplete followed up by a complete report. If, after becoming aware of a potentially reportable incident, the manufacturer is uncertain about whether the incident is reportable, it shall nevertheless submit a report. Serious incidents will be reported only to the competent authority of the country in which the serious incident occurred via Eudamed.",
+      "he": "כאשר הדבר נחוץ להבטחת דיווח במועד על אירועים חמורים, היצרן רשאי להגיש דוח ראשוני שאינו שלם ובעקבותיו דוח מלא. אם לאחר הִיוודע אירוע הניתן לדיווח אפשרי, היצרן אינו בטוח אם האירוע ניתן לדיווח, עליו בכל זאת להגיש דוח. אירועים חמורים ידווחו רק לרשות המוסמכת של המדינה שבה התרחש האירוע החמור, באמצעות Eudamed."
+    },
+    {
+      "id": "step-8b-p7",
+      "type": "paragraph",
+      "en": "The manufacturer will provide a final report to that competent authority via Eudamed setting out its findings from the investigation. The report will set out conclusions and - where relevant - indicate corrective actions to be taken.",
+      "he": "היצרן יספק לאותה רשות מוסמכת דוח סופי באמצעות Eudamed המפרט את ממצאיו מן החקירה. הדוח יציג מסקנות, ובמקרים הרלוונטיים – יציין פעולות מתקנות שיש לנקוט."
+    },
+    {
+      "id": "step-8b-p8",
+      "type": "paragraph",
+      "en": "When the competent authority notifies a manufacturer of a suspected serious incident, communicated to the competent authority by a healthcare professional, patient or user, the manufacturer is obliged to:",
+      "he": "כאשר הרשות המוסמכת מודיעה ליצרן על חשד לאירוע חמור, אשר נמסר לרשות המוסמכת על ידי איש מקצוע הבריאות, מטופל או משתמש, היצרן מחויב:"
+    },
+    {
+      "id": "step-8b-list2",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "submit a report of this serious incident to the notifying competent authority via Eudamed within the timeframes described above;", "he": "להגיש דוח על אירוע חמור זה לרשות המוסמכת המודיעה באמצעות Eudamed בתוך פרקי הזמן המתוארים לעיל;" },
+        { "en": "submit an explanatory statement, to the competent authority, if the manufacturer believes the suspected serious incident does not fulfil the reporting criteria.", "he": "להגיש הצהרת הסבר לרשות המוסמכת, אם היצרן סבור שהחשד לאירוע חמור אינו מקיים את קריטריוני הדיווח." }
+      ]
+    },
+    {
+      "id": "step-8b-p9",
+      "type": "paragraph",
+      "en": "In case the competent authority disagrees with the explanatory statement provided by the manufacturer a report of the serious incident may be required to be provided to the competent authority that does not agree via Eudamed by the manufacturer.",
+      "he": "במקרה שהרשות המוסמכת אינה מסכימה עם הצהרת ההסבר שמסר היצרן, ייתכן שיידרש מהיצרן לספק דוח על האירוע החמור לרשות המוסמכת שאינה מסכימה, באמצעות Eudamed."
+    },
+    {
+      "id": "step-8b-p10",
+      "type": "paragraph",
+      "en": "If a FSCA is undertaken, manufacturers will without unnecessary delay report the field safety corrective action via Eudamed in advance of the carrying out of the FSCA unless urgency demands the manufacturer to undertake the actions immediately.",
+      "he": "אם ננקטת פעולה מתקנת בשטח (FSCA), היצרנים ידווחו ללא דיחוי מיותר על הפעולה המתקנת בשטח באמצעות Eudamed לפני ביצוע ה-FSCA, אלא אם דחיפות מחייבת את היצרן לנקוט את הפעולות באופן מיידי."
+    },
+    {
+      "id": "step-8b-p11",
+      "type": "paragraph",
+      "en": "Manufacturers will ensure that the information related to the FSCA is brought without delay to the attention of users of the device in question by means of a FSN. Except in cases of urgency, the content of the draft FSN will be submitted to the evaluating competent authority or to the coordinating competent authority to allow it to make comments. Unless duly justified by the situation of the individual Member State, the content of the field safety notice will be consistent in all Member States. Manufacturers will also report the FSN(s) to Eudamed.",
+      "he": "היצרנים יבטיחו כי המידע הקשור ל-FSCA יובא ללא דיחוי לידיעת משתמשי המכשיר הנדון באמצעות הודעת בטיחות בשטח (FSN). למעט במקרי דחיפות, תוכן טיוטת ה-FSN יוגש לרשות המוסמכת המעריכה או לרשות המוסמכת המתאמת כדי לאפשר לה להעיר הערות. אלא אם הדבר מוצדק כראוי לנוכח מצבה של המדינה החברה הספציפית, תוכן הודעת הבטיחות בשטח יהיה עקבי בכל המדינות החברות. כמו כן, היצרנים ידווחו את הודעת/ות הבטיחות בשטח (FSN) ל-Eudamed."
+    },
+    {
+      "id": "step-8b-p12",
+      "type": "paragraph",
+      "en": "The FSN will allow the correct identification of the manufacturer (by including the, if issued, SRN), the device or devices affected (by including the relevant UDIs) and the FSN will explain, in a clear manner, without understating the level of risk, the reasons for the FSCA. This includes a clear reference to the device deficiency and the associated risks for patients, users or other persons and will clearly indicate all action to be taken by the users.",
+      "he": "הודעת הבטיחות בשטח (FSN) תאפשר את הזיהוי הנכון של היצרן (על ידי הכללת ה-SRN, אם הונפק), של המכשיר או המכשירים המושפעים (על ידי הכללת ה-UDI הרלוונטיים), וה-FSN תסביר באופן ברור, מבלי להמעיט ברמת הסיכון, את הסיבות ל-FSCA. הדבר כולל התייחסות ברורה לליקוי המכשיר ולסיכונים הכרוכים בכך למטופלים, למשתמשים או לאנשים אחרים, ותציין בבירור את כל הפעולות שעל המשתמשים לנקוט."
+    },
+    {
+      "id": "step-8b-p13",
+      "type": "paragraph",
+      "en": "Manufacturers will report by the means of a trend report to Eudamed any statistically significant increase in the frequency or severity of incidents that are not serious incidents or that are expected undesirable side-effects, when it could have a significant impact on the benefit-risk analysis and which have led or may lead to risks to the health or safety of patients, users or other persons that are unacceptable when weighed against the intended benefits.",
+      "he": "היצרנים ידווחו באמצעות דוח מגמה (trend report) ל-Eudamed על כל עלייה מובהקת סטטיסטית בתדירות או בחומרה של אירועים שאינם אירועים חמורים, או שהם תופעות לוואי בלתי רצויות צפויות, כאשר עשויה להיות לכך השפעה משמעותית על ניתוח התועלת-סיכון, ואשר הובילו או עלולים להוביל לסיכונים לבריאות או לבטיחות של מטופלים, משתמשים או אנשים אחרים, שאינם קבילים בשקלולם מול התועלות המיועדות."
+    },
+    {
+      "id": "step-8b-p14",
+      "type": "paragraph",
+      "en": "Manufacturers will, if they exist, follow national provisions in the field of vigilance specifically in but not limited to the case of field safety corrective actions:",
+      "he": "היצרנים יפעלו, אם קיימות, לפי הוראות לאומיות בתחום הערנות, במיוחד אך לא רק במקרה של פעולות מתקנות בשטח:"
+    },
+    {
+      "id": "step-8b-list3",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        { "en": "The allowed languages used to communicate with users by means of the Field Safety Notice.", "he": "השפות המותרות לשימוש בתקשורת עם משתמשים באמצעות הודעת הבטיחות בשטח (FSN)." }
+      ]
+    },
+    {
+      "id": "step-8b-p15",
+      "type": "paragraph",
+      "en": "Manufacturers are asked to check if templates exist (on European Commission website) on any of the reportable forms and make sure that all the necessary information according to these templates is provided. This will be only applicable until Eudamed is available.",
+      "he": "היצרנים מתבקשים לבדוק אם קיימות תבניות (באתר האינטרנט של הנציבות האירופית) לכל אחד מהטפסים הניתנים לדיווח, ולוודא כי כל המידע הנחוץ בהתאם לתבניות אלה מסופק. הדבר יחול רק עד ש-Eudamed יהיה זמין."
+    },
+    {
+      "id": "step-8b-p16",
+      "type": "paragraph",
+      "en": "Manufacturers should keep concerned economic operators informed of reported serious incidents and FSCA activities.",
+      "he": "על היצרנים לעדכן את הגורמים הכלכליים הנוגעים בדבר בנוגע לאירועים חמורים שדווחו ולפעילויות FSCA."
+    },
+
+    {
+      "id": "step-8c-heading",
+      "type": "heading",
+      "level": 3,
+      "number": "8c",
+      "en": "c) Non-conforming products",
+      "he": "ג) מוצרים שאינם תואמים"
+    },
+    {
+      "id": "step-8c-p1",
+      "type": "paragraph",
+      "en": "If a manufacturer has reasons to believe that a device which they have placed on the market or put into service is not in conformity with the MDR they will immediately take the necessary corrective action to bring that device into conformity, to withdraw it or to recall it, as appropriate. The manufacturer will inform the distributors of the device in question and, if applicable, the authorised representative and importers. If the device presents a serious risk, the manufacturer will immediately inform the competent authorities of the Member States in which the manufacturer made the device available and, where applicable, the notified body that issued a certificate for the device, in particular, of the non-compliance and of any corrective action taken.",
+      "he": "אם ליצרן יש סיבות להאמין כי מכשיר ששיווק או הפעיל אינו תואם את ה-MDR, ינקוט מיד את הפעולה המתקנת הנחוצה כדי להביא את אותו מכשיר לכלל התאמה, להסירו מהשוק או לערוך לו ריקול (recall), לפי העניין. היצרן ייידע את מפיצי המכשיר הנדון, ובמידת הצורך את הנציג המורשה ואת היבואנים. אם המכשיר מציג סיכון חמור, היצרן ייידע מיד את הרשויות המוסמכות של המדינות החברות שבהן העמיד את המכשיר לרשות השוק, ובמידת הצורך את הגוף המאונתר שהנפיק אישור למכשיר, ובפרט על אי-ההתאמה ועל כל פעולה מתקנת שננקטה."
+    }
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "id": "MDCG-2025-7-rev1",
+  "title": {
+    "en": "MDCG Position Paper: Timelines of the implementation of 'Master UDI-DI' to contact lenses and spectacle frames, spectacle lenses and ready-to-wear reading spectacles",
+    "he": "נייר עמדה של ה-MDCG: לוחות הזמנים ליישום 'מזהה מכשיר ייחודי ראשי' (Master UDI-DI) לעדשות מגע ולמסגרות משקפיים, עדשות משקפיים ומשקפי קריאה מוכנים ללבישה"
+  },
+  "category": "Unique Device Identification (UDI)",
+  "publicationDate": "2025-12",
+  "source": {
+    "url": "https://health.ec.europa.eu/medical-devices-sector/new-regulations/guidance-mdcg-endorsed-documents-and-other-guidance_en",
+    "file": "original/mdcg_2025-7_en.pdf"
+  },
+  "language": "he",
+  "direction": "rtl",
+  "translationStatus": "review",
+  "glossaryVersion": "2026-06",
+  "blocks": [
+    {
+      "id": "doc-subtitle",
+      "type": "paragraph",
+      "en": "Revision 1 - December 2025",
+      "he": "מהדורה 1 - דצמבר 2025"
+    },
+    {
+      "id": "disclaimer-1",
+      "type": "paragraph",
+      "en": "This document has been endorsed by the Medical Device Coordination Group (MDCG) established by Article 103 of Regulation (EU) 2017/745. The MDCG is composed of representatives of all Member States and it is chaired by a representative of the European Commission.",
+      "he": "מסמך זה אושר על ידי קבוצת תיאום המכשירים הרפואיים (MDCG) שהוקמה מכוח סעיף 103 לתקנה (האיחוד האירופי) 2017/745. ה-MDCG מורכבת מנציגים של כל המדינות החברות ובראשה עומד נציג של הנציבות האירופית."
+    },
+    {
+      "id": "disclaimer-2",
+      "type": "paragraph",
+      "en": "The document is not a European Commission document and it cannot be regarded as reflecting the official position of the European Commission. Any views expressed in this document are not legally binding and only the Court of Justice of the European Union can give binding interpretations of Union law.",
+      "he": "המסמך אינו מסמך של הנציבות האירופית ואין לראות בו כמשקף את העמדה הרשמית של הנציבות האירופית. כל דעה המובעת במסמך זה אינה מחייבת מבחינה משפטית, ורק בית הדין לצדק של האיחוד האירופי מוסמך לתת פרשנות מחייבת לדין האיחוד."
+    },
+    {
+      "id": "sec-changes",
+      "type": "heading",
+      "level": 1,
+      "en": "MDCG 2025-7 Rev. 1 changes",
+      "he": "שינויים ב-MDCG 2025-7 Rev. 1"
+    },
+    {
+      "id": "changes-table",
+      "type": "table",
+      "header": true,
+      "rows": [
+        [
+          { "en": "Page(s)", "he": "עמוד(ים)" },
+          { "en": "Change", "he": "שינוי" }
+        ],
+        [
+          { "en": "Pages 3, 4", "he": "עמודים 3, 4" },
+          { "en": "Insertion of references to Commission Delegated Regulation (EU) 2025/788 and to Commission Delegated Regulation (EU) 2025/1920", "he": "הוספת הפניות לתקנה מואצלת של הנציבות (האיחוד האירופי) 2025/788 ולתקנה מואצלת של הנציבות (האיחוד האירופי) 2025/1920" }
+        ],
+        [
+          { "en": "Page 4", "he": "עמוד 4" },
+          { "en": "Insertions of reference to the notice on functionality and of the date of mandatory use as of 28 May 2026, and removal of the reference to the \"latest available Eudamed timeline\"", "he": "הוספת הפניה להודעה בדבר הפונקציונליות ולמועד השימוש המחייב החל מ-28 במאי 2026, והסרת ההפניה ל\"לוח הזמנים העדכני הזמין של EUDAMED\"" }
+        ],
+        [
+          { "en": "Page 4", "he": "עמוד 4" },
+          { "en": "Update of the date of applicability of Commission Delegated Regulation (EU) 2025/1920", "he": "עדכון מועד התחולה של התקנה המואצלת של הנציבות (האיחוד האירופי) 2025/1920" }
+        ],
+        [
+          { "en": "Page 5", "he": "עמוד 5" },
+          { "en": "Update of the diagram representing the reference dates and the time lapses", "he": "עדכון התרשים המייצג את מועדי הייחוס ואת פרקי הזמן" }
+        ],
+        [
+          { "en": "Page 6", "he": "עמוד 6" },
+          { "en": "Update of the possible date of mandatory use of the Vigilance and post-market surveillance module in Eudamed", "he": "עדכון המועד האפשרי לשימוש מחייב במודול הערנות והמעקב שלאחר שיווק ב-EUDAMED" }
+        ],
+        [
+          { "en": "Page 6", "he": "עמוד 6" },
+          { "en": "Insertion of references to guidance documents MDCG 2024-14 Rev. 1 and MDCG 2025-8", "he": "הוספת הפניות למסמכי ההנחיה MDCG 2024-14 Rev. 1 ו-MDCG 2025-8" }
+        ]
+      ]
+    },
+    {
+      "id": "sec-background",
+      "type": "heading",
+      "level": 1,
+      "en": "Background",
+      "he": "רקע"
+    },
+    {
+      "id": "background-p1",
+      "type": "paragraph",
+      "en": "The introduction of the Unique Device Identification (UDI) system referred to in Article 27 of Regulation (EU) 2017/745 on medical devices ('the MDR') aims to ensure an adequate level of identification and traceability of medical devices. Basic UDI-DIs, UDI-DIs and UDI-PIs shall be assigned (in compliance with the rules of the designated issuing entities) by manufacturers to all devices, other than custom-made devices, prior to their placement on the market. To further strengthen and enhance traceability and recording of UDIs, manufacturers shall register Basic UDI-DIs and UDI-DIs in UDI/Device registration module of the European Database on Medical Devices (Eudamed).",
+      "he": "הנהגת מערכת זיהוי המכשיר הייחודי (UDI) הנזכרת בסעיף 27 לתקנה (האיחוד האירופי) 2017/745 בנושא מכשירים רפואיים¹ ('ה-MDR') נועדה להבטיח רמה נאותה של זיהוי ועקיבות של מכשירים רפואיים. מזהי UDI-DI בסיסיים (Basic UDI-DI), מזהי UDI-DI ומזהי UDI-PI יוקצו (בהתאם לכללי גופי ההנפקה הייעודיים) על ידי היצרנים לכל המכשירים, למעט מכשירים מותאמים אישית, לפני הצבתם בשוק. כדי לחזק ולשפר עוד יותר את העקיבות ואת רישום מזהי ה-UDI, על היצרנים לרשום מזהי UDI-DI בסיסיים ומזהי UDI-DI במודול רישום ה-UDI/מכשיר² של מסד הנתונים האירופי בנושא מכשירים רפואיים (EUDAMED)³."
+    },
+    {
+      "id": "background-p2",
+      "type": "paragraph",
+      "en": "For devices presenting a high level of individualisation ('highly individualised devices'), notably contact lenses and spectacle frames, spectacle lenses and ready-to-wear reading spectacles, and in order to adapt the UDI-DI assignment criteria to such kind of devices, the assignment of a 'Master UDI-DI' has been foreseen according to Annex VI, Part C, Sections 6.6.1 and 6.6.2 of the MDR, as amended by Commission Delegated Regulation (EU) 2023/2197 on Master UDI-DI for contact lenses and by Commission Delegated Regulation (EU) 2025/1920 on Master UDI-DI for spectacle frames, spectacle lenses and ready-to-wear reading spectacles. The Master UDI-DI technical solution aims to group highly individualised devices with specific similarities in terms of relevant design parameters under a common identifier to be assigned and registered in the UDI/Device registration module of Eudamed, thus relieving manufacturers, distributors and the Eudamed database from having too many identifiers assigned for similar devices. The Master UDI-DI technical solution for such devices is being developed by the EU UDI issuing entities.",
+      "he": "עבור מכשירים המציגים רמה גבוהה של התאמה אישית ('מכשירים בעלי התאמה אישית גבוהה'), ובפרט עדשות מגע ומסגרות משקפיים, עדשות משקפיים ומשקפי קריאה מוכנים ללבישה, וכדי להתאים את קריטריוני הקצאת ה-UDI-DI לסוג כזה של מכשירים, נצפתה מראש הקצאתו של 'מזהה מכשיר ייחודי ראשי' (Master UDI-DI) בהתאם לנספח VI, חלק C, סעיפים 6.6.1 ו-6.6.2 ל-MDR, כפי שתוקנו בתקנה מואצלת של הנציבות (האיחוד האירופי) 2023/2197 בנושא מזהה מכשיר ייחודי ראשי לעדשות מגע⁴ ובתקנה מואצלת של הנציבות (האיחוד האירופי) 2025/1920 בנושא מזהה מכשיר ייחודי ראשי למסגרות משקפיים, עדשות משקפיים ומשקפי קריאה מוכנים ללבישה⁵. הפתרון הטכני של מזהה המכשיר הייחודי הראשי נועד לקבץ מכשירים בעלי התאמה אישית גבוהה בעלי דמיון מסוים מבחינת פרמטרי תכן רלוונטיים תחת מזהה משותף שיוקצה ויירשם במודול רישום ה-UDI/מכשיר של EUDAMED, ובכך לשחרר את היצרנים, את המפיצים ואת מסד הנתונים EUDAMED מהקצאת מזהים רבים מדי עבור מכשירים דומים. הפתרון הטכני של מזהה המכשיר הייחודי הראשי עבור מכשירים מסוג זה מפותח בידי גופי הנפקת ה-UDI של האיחוד האירופי⁶."
+    },
+    {
+      "id": "background-p3",
+      "type": "paragraph",
+      "en": "According to MDCG 2021-24 Guidance on classification of medical devices, corrective contact lenses are considered to be class IIa (short-term use) or class IIb (long-term use) medical devices. Spectacle frames (i.e. glasses), spectacle lenses and ready-to-wear reading spectacles are considered to be class I medical devices.",
+      "he": "בהתאם למסמך ההנחיה MDCG 2021-24 בנושא סיווג מכשירים רפואיים⁷, עדשות מגע מתקנות נחשבות למכשירים רפואיים בסיווג IIa (שימוש לטווח קצר) או בסיווג IIb (שימוש לטווח ארוך). מסגרות משקפיים (כלומר משקפיים), עדשות משקפיים ומשקפי קריאה מוכנים ללבישה נחשבים למכשירים רפואיים בסיווג I."
+    },
+    {
+      "id": "background-p4",
+      "type": "paragraph",
+      "en": "This MDCG Position Paper aims at clarifying the timelines of the implementation of the Master UDI-DI to the abovementioned devices, as established in the respective Delegated Regulations, and the obligation to label the Master UDI-DI and to use the UDI/Device registration module of Eudamed, and the interrelation between them.",
+      "he": "נייר עמדה זה של ה-MDCG נועד להבהיר את לוחות הזמנים ליישום מזהה המכשיר הייחודי הראשי למכשירים האמורים לעיל, כפי שנקבעו בתקנות המואצלות הרלוונטיות, ואת החובה לתייג את מזהה המכשיר הייחודי הראשי ולהשתמש במודול רישום ה-UDI/מכשיר של EUDAMED, ואת הקשר ההדדי ביניהם."
+    },
+    {
+      "id": "fn-1",
+      "type": "note",
+      "marker": "1",
+      "en": "Regulation (EU) 2017/745 of the European Parliament and of the Council of 5 April 2017 on medical devices, amending Directive 2001/83/EC, Regulation (EC) No 178/2002 and Regulation (EC) No 1223/2009 and repealing Council Directives 90/385/EEC and 93/42/EEC (OJ L 117 5.5.2017, p. 1. Current consolidated version ELI: https://eur-lex.europa.eu/eli/reg/2017/745/2025-01-10).",
+      "he": "תקנה (האיחוד האירופי) 2017/745 של הפרלמנט האירופי ושל המועצה מ-5 באפריל 2017 בנושא מכשירים רפואיים, המתקנת את הוראה 2001/83/EC, תקנה (EC) מס' 178/2002 ותקנה (EC) מס' 1223/2009 ומבטלת את הוראות המועצה 90/385/EEC ו-93/42/EEC (OJ L 117 5.5.2017, p. 1. הגרסה המאוחדת הנוכחית ELI: https://eur-lex.europa.eu/eli/reg/2017/745/2025-01-10)."
+    },
+    {
+      "id": "fn-2",
+      "type": "note",
+      "marker": "2",
+      "en": "https://health.ec.europa.eu/medical-devices-eudamed/udidevice-registration_en.",
+      "he": "https://health.ec.europa.eu/medical-devices-eudamed/udidevice-registration_en."
+    },
+    {
+      "id": "fn-3",
+      "type": "note",
+      "marker": "3",
+      "en": "https://health.ec.europa.eu/medical-devices-eudamed_en.",
+      "he": "https://health.ec.europa.eu/medical-devices-eudamed_en."
+    },
+    {
+      "id": "fn-4",
+      "type": "note",
+      "marker": "4",
+      "en": "Commission Delegated Regulation (EU) 2023/2197 of 10 July 2023 amending Regulation (EU) 2017/745 of the European Parliament and of the Council, as regards the assignment of Unique Device Identifiers for contact lenses (OJ L, 2023/2197, 20.10.2023, ELI: http://data.europa.eu/eli/reg_del/2023/2197/oj), as amended by Commission Delegated Regulation (EU) 2025/788 of 16 April 2025 amending Delegated Regulation (EU) 2023/2197 as regards the date of application (OJ L, 2025/788, 28.7.2025, ELI: http://data.europa.eu/eli/reg_del/2025/788/oj).",
+      "he": "תקנה מואצלת של הנציבות (האיחוד האירופי) 2023/2197 מ-10 ביולי 2023 המתקנת את תקנה (האיחוד האירופי) 2017/745 של הפרלמנט האירופי ושל המועצה, באשר להקצאת מזהי מכשיר ייחודיים לעדשות מגע (OJ L, 2023/2197, 20.10.2023, ELI: http://data.europa.eu/eli/reg_del/2023/2197/oj), כפי שתוקנה בתקנה מואצלת של הנציבות (האיחוד האירופי) 2025/788 מ-16 באפריל 2025 המתקנת את התקנה המואצלת (האיחוד האירופי) 2023/2197 באשר למועד התחולה (OJ L, 2025/788, 28.7.2025, ELI: http://data.europa.eu/eli/reg_del/2025/788/oj)."
+    },
+    {
+      "id": "fn-5",
+      "type": "note",
+      "marker": "5",
+      "en": "Commission Delegated Regulation (EU) 2025/1920 of 12 June 2025 amending Regulation (EU) 2017/745 of the European Parliament and of the Council, as regards the assignment of Unique Device Identifiers for spectacle frames, spectacle lenses and ready-to-wear reading spectacles (OJ L, 2025/1920, 23.9.2025, ELI: http://data.europa.eu/eli/reg_del/2025/1920/oj).",
+      "he": "תקנה מואצלת של הנציבות (האיחוד האירופי) 2025/1920 מ-12 ביוני 2025 המתקנת את תקנה (האיחוד האירופי) 2017/745 של הפרלמנט האירופי ושל המועצה, באשר להקצאת מזהי מכשיר ייחודיים למסגרות משקפיים, עדשות משקפיים ומשקפי קריאה מוכנים ללבישה (OJ L, 2025/1920, 23.9.2025, ELI: http://data.europa.eu/eli/reg_del/2025/1920/oj)."
+    },
+    {
+      "id": "fn-6",
+      "type": "note",
+      "marker": "6",
+      "en": "https://health.ec.europa.eu/medical-devices-topics-interest/unique-device-identifier-udi_en#udi-issuing-entities.",
+      "he": "https://health.ec.europa.eu/medical-devices-topics-interest/unique-device-identifier-udi_en#udi-issuing-entities."
+    },
+    {
+      "id": "fn-7",
+      "type": "note",
+      "marker": "7",
+      "en": "https://health.ec.europa.eu/document/download/cbb19821-a517-4e13-bf87-fdc6ddd1782e_en?filename=mdcg_2021-24_en.pdf.",
+      "he": "https://health.ec.europa.eu/document/download/cbb19821-a517-4e13-bf87-fdc6ddd1782e_en?filename=mdcg_2021-24_en.pdf."
+    },
+    {
+      "id": "sec-reference-dates",
+      "type": "heading",
+      "level": 1,
+      "en": "Reference dates",
+      "he": "מועדי ייחוס"
+    },
+    {
+      "id": "ref-dates-h1",
+      "type": "heading",
+      "level": 2,
+      "en": "Application of UDI labelling requirements:",
+      "he": "תחולת דרישות תיוג ה-UDI:"
+    },
+    {
+      "id": "ref-dates-p1",
+      "type": "paragraph",
+      "en": "As established in Article 123(3)(f) of the MDR, the provisions of Article 27(4) on the placement of UDI carriers on the label of the device and on all higher levels of packaging apply for classes IIa and IIb devices from 26 May 2023, while for class I devices they apply from 26 May 2025.",
+      "he": "כפי שנקבע בסעיף 123(3)(f) ל-MDR, הוראות סעיף 27(4) בדבר הצבת נשאי UDI על תווית המכשיר ועל כל רמות האריזה הגבוהות יותר חלות על מכשירים בסיווג IIa ו-IIb החל מ-26 במאי 2023, ואילו על מכשירים בסיווג I הן חלות החל מ-26 במאי 2025."
+    },
+    {
+      "id": "ref-dates-h2",
+      "type": "heading",
+      "level": 2,
+      "en": "Mandatory use of the UDI/Device registration module in Eudamed:",
+      "he": "שימוש מחייב במודול רישום ה-UDI/מכשיר ב-EUDAMED:"
+    },
+    {
+      "id": "ref-dates-p2",
+      "type": "paragraph",
+      "en": "As established in Article 29 and in Article 123 of the MDR, as amended by Regulation (EU) 2024/1860, and 6 months after the publication on the Official Journal of the European Union (OJEU) of the notice on the functionality referred to in Article 34(3) of the MDR, the use of the UDI/Device registration module of Eudamed becomes mandatory to use as from 28 May 2026.",
+      "he": "כפי שנקבע בסעיף 29 ובסעיף 123 ל-MDR, כפי שתוקנו בתקנה (האיחוד האירופי) 2024/1860⁸, וכן 6 חודשים לאחר פרסום ההודעה בדבר הפונקציונליות הנזכרת בסעיף 34(3) ל-MDR⁹ בכתב העת הרשמי של האיחוד האירופי (OJEU), השימוש במודול רישום ה-UDI/מכשיר של EUDAMED הופך למחייב החל מ-28 במאי 2026."
+    },
+    {
+      "id": "ref-dates-h3",
+      "type": "heading",
+      "level": 2,
+      "en": "Implementation of Master UDI-DI to contact lenses:",
+      "he": "יישום מזהה המכשיר הייחודי הראשי לעדשות מגע:"
+    },
+    {
+      "id": "ref-dates-p3",
+      "type": "paragraph",
+      "en": "As established in Commission Delegated Regulation (EU) 2023/2197 of 10 July 2023, as amended, the Master UDI-DI assignment solution must be implemented by manufacturers of contact lenses as from 9 November 2026, three years after the entering into force of the act. Contact lenses produced prior to 9 November 2026 are not required to have a Master UDI-DI on the label.",
+      "he": "כפי שנקבע בתקנה מואצלת של הנציבות (האיחוד האירופי) 2023/2197 מ-10 ביולי 2023, כפי שתוקנה, על יצרני עדשות המגע ליישם את פתרון הקצאת מזהה המכשיר הייחודי הראשי החל מ-9 בנובמבר 2026, שלוש שנים לאחר כניסתו לתוקף של המעשה. עדשות מגע שיוצרו לפני 9 בנובמבר 2026 אינן נדרשות לשאת מזהה מכשיר ייחודי ראשי על התווית."
+    },
+    {
+      "id": "ref-dates-h4",
+      "type": "heading",
+      "level": 2,
+      "en": "Implementation of Master UDI-DI to spectacle frames, spectacle lenses and ready-to-wear reading spectacles:",
+      "he": "יישום מזהה המכשיר הייחודי הראשי למסגרות משקפיים, עדשות משקפיים ומשקפי קריאה מוכנים ללבישה:"
+    },
+    {
+      "id": "ref-dates-p4",
+      "type": "paragraph",
+      "en": "As established in Commission Delegated Regulation (EU) 2025/1920 of 12 June 2025, the Master UDI-DI assignment solution must be implemented by manufacturers of spectacle frames, spectacle lenses and ready-to-wear reading spectacles as from 1 November 2028, approximatively three years after the entering into force of the act.",
+      "he": "כפי שנקבע בתקנה מואצלת של הנציבות (האיחוד האירופי) 2025/1920 מ-12 ביוני 2025, על יצרני מסגרות המשקפיים, עדשות המשקפיים ומשקפי הקריאה המוכנים ללבישה ליישם את פתרון הקצאת מזהה המכשיר הייחודי הראשי החל מ-1 בנובמבר 2028, כשלוש שנים לאחר כניסתו לתוקף של המעשה."
+    },
+    {
+      "id": "ref-dates-p5",
+      "type": "paragraph",
+      "en": "The abovementioned dates are represented in the diagram below.",
+      "he": "המועדים האמורים לעיל מיוצגים בתרשים שלהלן."
+    },
+    {
+      "id": "fn-8",
+      "type": "note",
+      "marker": "8",
+      "en": "Regulation (EU) 2024/1860 of the European Parliament and of the Council of 13 June 2024 amending Regulations (EU) 2017/745 and (EU) 2017/746 as regards a gradual roll-out of Eudamed, the obligation to inform in case of interruption or discontinuation of supply, and transitional provisions for certain in vitro diagnostic medical devices (OJ L, 2024/1860, 9.7.2024, ELI: http://data.europa.eu/eli/reg/2024/1860/oj). See also \"Q&A on practical aspects related to the implementation of the gradual roll-out of Eudamed pursuant to the MDR and IVDR, as amended by Regulation (EU) 2024/1860\" https://health.ec.europa.eu/document/download/0e7327c7-0e06-4fbd-90d3-8ab7bb30fe9f_en?filename=md_mdcg_2024-11_eudamed-qa.pdf.",
+      "he": "תקנה (האיחוד האירופי) 2024/1860 של הפרלמנט האירופי ושל המועצה מ-13 ביוני 2024 המתקנת את התקנות (האיחוד האירופי) 2017/745 ו-(האיחוד האירופי) 2017/746 באשר להשקה הדרגתית של EUDAMED, החובה ליידע במקרה של הפרעה או הפסקת אספקה, והוראות מעבר לגבי מכשירים רפואיים לאבחון ויטרו מסוימים (OJ L, 2024/1860, 9.7.2024, ELI: http://data.europa.eu/eli/reg/2024/1860/oj). ראו גם \"שאלות ותשובות בנושא היבטים מעשיים הקשורים ביישום ההשקה ההדרגתית של EUDAMED לפי ה-MDR וה-IVDR, כפי שתוקנו בתקנה (האיחוד האירופי) 2024/1860\" https://health.ec.europa.eu/document/download/0e7327c7-0e06-4fbd-90d3-8ab7bb30fe9f_en?filename=md_mdcg_2024-11_eudamed-qa.pdf."
+    },
+    {
+      "id": "fn-9",
+      "type": "note",
+      "marker": "9",
+      "en": "Commission Decision (EU) 2025/2371 on the notice regarding the functionality and the fulfilment of the functional specifications of certain electronic systems included in the European Database on Medical Devices referred to in Article 34(1) of Regulation (EU) 2017/745 of the European Parliament and of the Council (OJ L, 2025/2371, 27.11.2025, ELI: http://data.europa.eu/eli/dec/2025/2371/oj).",
+      "he": "החלטת הנציבות (האיחוד האירופי) 2025/2371 בדבר ההודעה הנוגעת לפונקציונליות ולמילוי המפרטים הפונקציונליים של מערכות אלקטרוניות מסוימות הכלולות במסד הנתונים האירופי בנושא מכשירים רפואיים הנזכר בסעיף 34(1) לתקנה (האיחוד האירופי) 2017/745 של הפרלמנט האירופי ושל המועצה (OJ L, 2025/2371, 27.11.2025, ELI: http://data.europa.eu/eli/dec/2025/2371/oj)."
+    },
+    {
+      "id": "sec-diagram",
+      "type": "heading",
+      "level": 1,
+      "en": "Diagram of reference dates and time lapses",
+      "he": "תרשים מועדי הייחוס ופרקי הזמן"
+    },
+    {
+      "id": "diagram-note",
+      "type": "paragraph",
+      "en": "[Diagram] The original document includes a timeline graphic spanning the years 2023 to 2029 (divided into quarters Q1-Q4). The graphic depicts, along a common timeline, the following reference points: the mandatory use of the UDI/Device registration module of Eudamed; the UDI labelling for classes IIa and IIb devices and for class I devices; the Master UDI-DI for contact lenses; and the Master UDI-DI for spectacles. The explanatory text accompanying the diagram is reproduced below.",
+      "he": "[תרשים] המסמך המקורי כולל גרפיקת ציר זמן המשתרעת על פני השנים 2023 עד 2029 (המחולקת לרבעונים Q1-Q4). הגרפיקה מתארת, לאורך ציר זמן משותף, את נקודות הייחוס הבאות: השימוש המחייב במודול רישום ה-UDI/מכשיר של EUDAMED; תיוג ה-UDI למכשירים בסיווג IIa ו-IIb ולמכשירים בסיווג I; מזהה המכשיר הייחודי הראשי לעדשות מגע; ומזהה המכשיר הייחודי הראשי למשקפיים. הטקסט המסביר המלווה את התרשים מובא להלן."
+    },
+    {
+      "id": "diagram-p1",
+      "type": "paragraph",
+      "en": "In red the representation of the time lapses when the use of the UDI/Device registration module in Eudamed is mandatory but not the Master UDI-DI assignation solution yet:",
+      "he": "באדום מיוצגים פרקי הזמן שבהם השימוש במודול רישום ה-UDI/מכשיר ב-EUDAMED מחייב, אך פתרון הקצאת מזהה המכשיר הייחודי הראשי אינו מחייב עדיין:"
+    },
+    {
+      "id": "diagram-list",
+      "type": "list",
+      "ordered": false,
+      "items": [
+        {
+          "en": "for contact lenses: from the second quarter (Q2) 2026 to the fourth quarter (Q4) 2026",
+          "he": "עבור עדשות מגע: מהרבעון השני (Q2) של 2026 ועד לרבעון הרביעי (Q4) של 2026"
+        },
+        {
+          "en": "for spectacle frames, spectacle lenses and ready-to-wear reading spectacles: from the second quarter (Q2) 2026 to the fourth quarter (Q4) 2028",
+          "he": "עבור מסגרות משקפיים, עדשות משקפיים ומשקפי קריאה מוכנים ללבישה: מהרבעון השני (Q2) של 2026 ועד לרבעון הרביעי (Q4) של 2028"
+        }
+      ]
+    },
+    {
+      "id": "sec-considerations",
+      "type": "heading",
+      "level": 1,
+      "en": "Considerations and way forward",
+      "he": "שיקולים ודרך קדימה"
+    },
+    {
+      "id": "considerations-p1",
+      "type": "paragraph",
+      "en": "The different and partially overlapping timelines for the assignment, labelling and registration of the 'highly individualised devices' subject to the Master UDI-DI assignment solution (contact lenses, spectacle frames, spectacle lenses and ready-to-wear reading spectacles) make that the obligation to label the Master UDI-DI and register those devices in the UDI/Device registration module of Eudamed follows the Master UDI-DI assignment obligation, with time laps spanning from about 5 months for contact lenses to about 29 months for spectacle frames, spectacle lenses and ready-to-wear reading spectacles.",
+      "he": "לוחות הזמנים השונים והחופפים חלקית להקצאה, לתיוג ולרישום של 'המכשירים בעלי ההתאמה האישית הגבוהה' הכפופים לפתרון הקצאת מזהה המכשיר הייחודי הראשי (עדשות מגע, מסגרות משקפיים, עדשות משקפיים ומשקפי קריאה מוכנים ללבישה) גורמים לכך שהחובה לתייג את מזהה המכשיר הייחודי הראשי ולרשום מכשירים אלה במודול רישום ה-UDI/מכשיר של EUDAMED עוקבת אחר חובת הקצאת מזהה המכשיר הייחודי הראשי, כאשר פרקי הזמן נעים מכ-5 חודשים עבור עדשות מגע ועד כ-29 חודשים עבור מסגרות משקפיים, עדשות משקפיים ומשקפי קריאה מוכנים ללבישה."
+    },
+    {
+      "id": "considerations-p2",
+      "type": "paragraph",
+      "en": "However, the relevant Commission Delegated Regulations, in their respective Articles 2 in fine, provide for the possibility for manufacturers to voluntarily assign a Master UDI-DI before it becomes mandatory on the respective dates of application. This means that manufacturers should try to assign Master UDI-DIs as soon as possible even before the assignment becomes mandatory, with the obligation to label it and register the devices in Eudamed immediately following, after the assignment is done.",
+      "he": "עם זאת, התקנות המואצלות הרלוונטיות של הנציבות, בסעיפי 2 שלהן בסיפא, מאפשרות ליצרנים להקצות מזהה מכשיר ייחודי ראשי באופן וולונטרי לפני שהדבר הופך למחייב במועדי התחולה הרלוונטיים. משמעות הדבר היא שעל היצרנים לנסות להקצות מזהי מכשיר ייחודיים ראשיים בהקדם האפשרי, אף לפני שההקצאה הופכת למחייבת, כאשר החובה לתייג אותו ולרשום את המכשירים ב-EUDAMED מתבצעת מיד לאחר מכן, לאחר השלמת ההקצאה."
+    },
+    {
+      "id": "considerations-p3",
+      "type": "paragraph",
+      "en": "From 26 May 2025 until the Master UDI-DI assignment solution (acting as UDI-DI for highly individualised devices) is fully available through the relevant Commission Delegated Regulations and the appropriate EU UDI issuing entity standard, the abovementioned highly individualised devices will continue to be identified with either an issuing entity identifier or similar internal manufacturer device identifier as for the current procedures.",
+      "he": "החל מ-26 במאי 2025 ועד שפתרון הקצאת מזהה המכשיר הייחודי הראשי (המשמש כ-UDI-DI עבור מכשירים בעלי התאמה אישית גבוהה) יהיה זמין במלואו באמצעות התקנות המואצלות הרלוונטיות של הנציבות והתקן המתאים של גוף הנפקת ה-UDI של האיחוד האירופי¹⁰, המכשירים בעלי ההתאמה האישית הגבוהה האמורים לעיל ימשיכו להיות מזוהים באמצעות מזהה של גוף ההנפקה או מזהה מכשיר פנימי דומה של היצרן, כפי שנהוג בנהלים הנוכחיים."
+    },
+    {
+      "id": "considerations-p4",
+      "type": "paragraph",
+      "en": "Manufacturers of contact lenses, spectacle frames, spectacle lenses and ready-to-wear reading spectacles are strongly encouraged to make use of the voluntary assignment of Master UDI-DI before the mandatory dates of application in due time, to be able to take advantage of the features offered by the Master UDI-DI assignment solution.",
+      "he": "יצרני עדשות מגע, מסגרות משקפיים, עדשות משקפיים ומשקפי קריאה מוכנים ללבישה מתבקשים בתוקף לעשות שימוש בהקצאה הוולונטרית של מזהה המכשיר הייחודי הראשי לפני מועדי התחולה המחייבים בעוד מועד, כדי שיוכלו ליהנות מהתכונות שמציע פתרון הקצאת מזהה המכשיר הייחודי הראשי."
+    },
+    {
+      "id": "considerations-p5",
+      "type": "paragraph",
+      "en": "On the other hand, once the Vigilance and post-market surveillance module in Eudamed is mandatory to use, Master UDI-DI, if assigned, should be used for reporting of vigilance cases for contact lenses, spectacle frames, spectacle lenses and ready-to-wear reading spectacles even though the application dates of the Commission Delegated Regulations on Master UDI-DI have not passed yet.",
+      "he": "מנגד, ברגע שהשימוש במודול הערנות והמעקב שלאחר שיווק ב-EUDAMED יהפוך למחייב¹¹, יש להשתמש במזהה המכשיר הייחודי הראשי, אם הוקצה, לצורך דיווח על מקרי ערנות עבור עדשות מגע, מסגרות משקפיים, עדשות משקפיים ומשקפי קריאה מוכנים ללבישה, אף שמועדי התחולה של התקנות המואצלות של הנציבות בנושא מזהה המכשיר הייחודי הראשי טרם חלפו."
+    },
+    {
+      "id": "considerations-p6",
+      "type": "paragraph",
+      "en": "More information on the implementation of the Master UDI-DI assignment solution for contact lenses, spectacle frames, spectacle lenses and ready-to-wear reading spectacles is available on the guidance documents MDCG 2024-14 Rev. 1 and MDCG 2025-8, including the practical handling of reporting of vigilance cases.",
+      "he": "מידע נוסף בנושא יישום פתרון הקצאת מזהה המכשיר הייחודי הראשי לעדשות מגע, מסגרות משקפיים, עדשות משקפיים ומשקפי קריאה מוכנים ללבישה זמין במסמכי ההנחיה MDCG 2024-14 Rev. 1¹² ו-MDCG 2025-8¹³, לרבות הטיפול המעשי בדיווח על מקרי ערנות."
+    },
+    {
+      "id": "fn-10",
+      "type": "note",
+      "marker": "10",
+      "en": "See https://health.ec.europa.eu/medical-devices-topics-interest/unique-device-identifier-udi_en#udi-issuing-entities.",
+      "he": "ראו https://health.ec.europa.eu/medical-devices-topics-interest/unique-device-identifier-udi_en#udi-issuing-entities."
+    },
+    {
+      "id": "fn-11",
+      "type": "note",
+      "marker": "11",
+      "en": "Q2 2027 according to the latest available Eudamed modules timeline https://health.ec.europa.eu/document/download/04ce2012-97df-4dd0-8a39-d4f6993b9e16_en?filename=md_eudamed_roadmap_en.pdf.",
+      "he": "הרבעון השני (Q2) של 2027 בהתאם ללוח הזמנים העדכני הזמין של מודולי EUDAMED https://health.ec.europa.eu/document/download/04ce2012-97df-4dd0-8a39-d4f6993b9e16_en?filename=md_eudamed_roadmap_en.pdf."
+    },
+    {
+      "id": "fn-12",
+      "type": "note",
+      "marker": "12",
+      "en": "MDCG 2024-14 Rev. 1 Guidance on the implementation of the Master UDI-DI solution for contact lenses https://health.ec.europa.eu/document/download/c8c6cca5-460e-410e-a325-be08bfc7dea6_en?filename=mdcg_2024-14_en.pdf.",
+      "he": "MDCG 2024-14 Rev. 1 הנחיה בנושא יישום פתרון מזהה המכשיר הייחודי הראשי לעדשות מגע https://health.ec.europa.eu/document/download/c8c6cca5-460e-410e-a325-be08bfc7dea6_en?filename=mdcg_2024-14_en.pdf."
+    },
+    {
+      "id": "fn-13",
+      "type": "note",
+      "marker": "13",
+      "en": "MDCG 2025-8 Guidance on the implementation of the Master UDI-DI solution for spectacle frames, spectacle lenses and ready-to-wear reading spectacles https://health.ec.europa.eu/document/download/f026ed58-060d-49b1-b660-914838670a20_en?filename=mdcg_2025-8_en.pdf.",
+      "he": "MDCG 2025-8 הנחיה בנושא יישום פתרון מזהה המכשיר הייחודי הראשי למסגרות משקפיים, עדשות משקפיים ומשקפי קריאה מוכנים ללבישה https://health.ec.europa.eu/document/download/f026ed58-060d-49b1-b660-914838670a20_en?filename=mdcg_2025-8_en.pdf."
+    }
+  ]
+}
